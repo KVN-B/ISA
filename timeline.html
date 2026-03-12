@@ -35,6 +35,14 @@
       font-size: 12px; white-space: nowrap; z-index: 50; margin-bottom: 5px;
     }
     /* Working Groups swim-lane */
+    /* Standards & Guidelines layer */
+    .sg-section-banner { background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #4f46e5 100%); }
+    .sg-phase-1  { background: linear-gradient(135deg, #14532d 0%, #15803d 100%); }
+    .sg-phase-2  { background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%); }
+    .sg-phase-3  { background: linear-gradient(135deg, #713f12 0%, #b45309 100%); }
+    .sg-phase-tbd{ background: linear-gradient(135deg, #374151 0%, #6b7280 100%); }
+    .sg-card { transition: all 0.15s ease; cursor: pointer; }
+    .sg-card:hover { transform: translateY(-1px); box-shadow: 0 4px 14px rgba(79,70,229,0.15); }
     .wg-phase-banner-1 { background: linear-gradient(135deg, #7c2d12 0%, #c2410c 50%, #ea580c 100%); }
     .wg-phase-banner-2 { background: linear-gradient(135deg, #14532d 0%, #15803d 50%, #16a34a 100%); }
     .wg-phase-banner-3 { background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 50%, #3b82f6 100%); }
@@ -100,6 +108,7 @@
       <button onclick="filterDocs('discussion_paper')" id="filter-prep" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-gray-400 text-gray-500 hover:bg-gray-50">Discussion Papers</button>
       <button onclick="filterDocs('foundational_treaty')" id="filter-foundation" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-purple-700 text-purple-700 hover:bg-purple-50">⚖️ LOSC / IA</button>
       <button onclick="filterDocs('working_groups')" id="filter-wg" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-teal-700 text-teal-700 hover:bg-teal-50">🤝 Working Groups</button>
+      <button onclick="filterDocs('standards_guidelines')" id="filter-sg" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-indigo-700 text-indigo-700 hover:bg-indigo-50">📋 Standards &amp; Guidelines</button>
       <div class="ml-auto flex items-center gap-2">
         <label class="text-xs text-gray-500">Show current only</label>
         <input type="checkbox" id="current-only" onchange="toggleCurrentOnly()" class="rounded">
@@ -117,6 +126,7 @@
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-gray-400 inline-block"></span> Discussion Papers</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-purple-700 inline-block"></span> LOSC / IA (Foundational)</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-teal-600 inline-block"></span> Working Groups / FOP</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-indigo-600 inline-block"></span> Standards &amp; Guidelines</span>
       <span class="flex items-center gap-1 ml-4 border-l pl-4"><span class="w-3 h-3 rounded bg-green-500 inline-block border-2 border-green-700"></span> Current</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-gray-300 inline-block"></span> Superseded</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-orange-300 inline-block"></span> Historical</span>
@@ -441,6 +451,269 @@
     let currentFilter = 'all';
     let showCurrentOnly = false;
 
+    // ─── STANDARDS & GUIDELINES DATA ────────────────────────────────────────────
+    // Compact representation of all 46 items from ISBA/30/C/CRP.5 (11 July 2025)
+    // Fields: n=number, s=short_title, ph=phase (1/2/3/null), phn=phase_note_flag,
+    //         st=status, ty=type_code, r=related_regs_str, doc=isba_document, pdf=url_pdf, a=subject_area
+    const SG_STATUS = {
+      prepared:         { label:'✅ Prepared',        bg:'#dcfce7', color:'#14532d', badge:'Prepared (ISBA/27)' },
+      under_development:{ label:'🔄 Under Development',bg:'#fef9c3', color:'#713f12', badge:'Under Development (LTC)' },
+      tor_prepared:     { label:'📝 ToR Prepared',    bg:'#dbeafe', color:'#1e3a8a', badge:'ToR Prepared' },
+      in_suspense_document:{ label:'⏸ In Suspense Doc',bg:'#ffedd5', color:'#9a3412', badge:'In Suspense Document' },
+      to_be_developed:  { label:'⬜ To Be Developed', bg:'#f3f4f6', color:'#374151', badge:'To Be Developed' },
+      to_be_merged:     { label:'🔀 Merge →',         bg:'#ede9fe', color:'#4c1d95', badge:'Merge into another S&G' },
+    };
+    const SG_TYPE = {
+      'standard_and_guideline':'S+G', 'standard':'S', 'guideline':'G'
+    };
+    const SG_AREA_COLOR = {
+      application_process:'#0369a1', environmental_impact_assessment:'#15803d',
+      environmental_management:'#15803d', environmental_data:'#15803d',
+      environmental_closure:'#b45309', financial_environmental:'#7c3aed',
+      financial_contractual:'#9a3412', financial_payments:'#9a3412',
+      safety:'#c2410c', production:'#0891b2', operations:'#0891b2',
+      data_information:'#475569', contractual:'#6b7280',
+      compliance_enforcement:'#7c3aed', reporting_compliance:'#475569',
+      governance_participation:'#0369a1', governance_institutional:'#0369a1',
+      cultural_heritage:'#be185d', economic_development:'#064e3b',
+    };
+    const SG_ITEMS = [
+      // PHASE 1 – Prepared (ISBA/27/C docs)
+      {n:1,  s:'Plan of Work Application',              ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 5,7,11,13,15,20,25,31,31bis,37bis,41,57,58,59', doc:'ISBA/27/C/3',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_3-2117326E.pdf', a:'application_process'},
+      {n:2,  s:'EIA Process',                           ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 46,47,48bis',                                     doc:'ISBA/27/C/4',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_4-2117327E.pdf', a:'environmental_impact_assessment'},
+      {n:3,  s:'Environmental Impact Statements',       ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 48,48bis; Annex IV, X',                           doc:'ISBA/27/C/5',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_5-2117328E.pdf', a:'environmental_impact_assessment'},
+      {n:4,  s:'Environmental Management & Monitoring Plans', ph:1, phn:0, st:'prepared',   ty:'standard_and_guideline', r:'DR 49–53bis; Annex VII',                             doc:'ISBA/27/C/6',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_6-2117330E.pdf', a:'environmental_management'},
+      {n:5,  s:'Environmental Management Systems',      ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 49',                                              doc:'ISBA/27/C/7',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_7-2117332E.pdf', a:'environmental_management'},
+      {n:6,  s:'Hazard Identification & Risk Assessments', ph:1, phn:0, st:'prepared',       ty:'standard_and_guideline', r:'DR 31bis',                                           doc:'ISBA/27/C/8',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_8-2117333E.pdf', a:'safety'},
+      {n:7,  s:'Mining Vessels & Installations',        ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 29quater,30,30bis,32,37,48ter,53ter',             doc:'ISBA/27/C/9',  pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_9-2117336E.pdf', a:'safety'},
+      {n:8,  s:'Environmental Performance Guarantee',   ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 26',                                              doc:'ISBA/27/C/10', pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_10-2117337E.pdf', a:'financial_environmental'},
+      {n:9,  s:'Baseline Environmental Data',           ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 3,13,46',                                         doc:'ISBA/27/C/11', pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_11-2117339E.pdf', a:'environmental_data'},
+      {n:10, s:'Emergency Response & Contingency Plans',ph:1, phn:0, st:'prepared',          ty:'standard_and_guideline', r:'DR 32,33; Annex V',                                  doc:'ISBA/27/C/12', pdf:'https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_12-2117340E.pdf', a:'safety'},
+      // PHASE 1 – To be developed
+      {n:11, s:'Environmental Threshold Values & Indicators', ph:1, phn:0, st:'under_development', ty:'standard_and_guideline', r:'Annex VII',        doc:null, pdf:null, a:'environmental_management'},
+      {n:12, s:'Commercial Production',                 ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 25,27,29',                doc:null, pdf:null, a:'production'},
+      {n:13, s:'Certificate of Origin',                 ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 29ter',                   doc:null, pdf:null, a:'production'},
+      {n:14, s:'Test Mining',                           ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 48ter',                   doc:null, pdf:null, a:'operations'},
+      {n:15, s:'Scoping Report',                        ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 47bis',                   doc:null, pdf:null, a:'environmental_impact_assessment'},
+      {n:16, s:'Underwater Cultural Heritage',          ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 35 Alt',                  doc:null, pdf:null, a:'cultural_heritage'},
+      {n:17, s:'Data & Confidential Information',       ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 89–92bis',                doc:null, pdf:null, a:'data_information'},
+      {n:18, s:'Access to Environmental Data',          ph:1, phn:0, st:'to_be_merged',      ty:'guideline',              r:'DR 92bis → merge into #17',  doc:null, pdf:null, a:'data_information'},
+      {n:19, s:'Joint Arrangements',                    ph:1, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 19',                      doc:null, pdf:null, a:'contractual'},
+      {n:20, s:'Stakeholder Participation Procedures',  ph:1, phn:0, st:'to_be_developed',   ty:'guideline',              r:'DR 2,11',                    doc:null, pdf:null, a:'governance_participation'},
+      {n:21, s:'Training Obligations',                  ph:1, phn:1, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 37',                      doc:null, pdf:null, a:'safety'},
+      {n:22, s:'Mining Discharges Assessment Framework',ph:1, phn:1, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 3(9), 53ter',             doc:null, pdf:null, a:'environmental_management'},
+      {n:23, s:'Impact on Land-Based Mineral Producers',ph:1, phn:2, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 3(g)',                    doc:null, pdf:null, a:'economic_development'},
+      // PHASE 2
+      {n:24, s:'Insurance Requirements',                ph:2, phn:0, st:'tor_prepared',      ty:'standard_and_guideline', r:'DR 36',                      doc:null, pdf:null, a:'financial_contractual'},
+      {n:25, s:'Inspection Procedures & Operating Rules',ph:2,phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 97,99,100,101,102 Alt',   doc:null, pdf:null, a:'compliance_enforcement'},
+      {n:26, s:'Modifying a Plan of Work / Material Change', ph:2, phn:0, st:'to_be_developed', ty:'guideline', r:'DR 25,57',                             doc:null, pdf:null, a:'application_process'},
+      {n:27, s:'Exploitation Contract as Security',     ph:2, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 22',                      doc:null, pdf:null, a:'financial_contractual'},
+      {n:28, s:'Notifiable Events Protocols',           ph:2, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 34; Appendix I',          doc:null, pdf:null, a:'compliance_enforcement'},
+      {n:29, s:'Transfer of Rights & Obligations',      ph:2, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 23',                      doc:null, pdf:null, a:'contractual'},
+      {n:30, s:'Remote Electronic Monitoring',          ph:2, phn:0, st:'tor_prepared',      ty:'standard_and_guideline', r:'DR 102, 102bis',             doc:null, pdf:null, a:'compliance_enforcement'},
+      {n:31, s:'Health & Safety Management Systems',    ph:2, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 30bis; Annex VI,A',       doc:null, pdf:null, a:'safety'},
+      {n:32, s:'Environmental Compensation Fund',       ph:2, phn:0, st:'to_be_developed',   ty:'standard',               r:'DR 54 (suspense)',            doc:null, pdf:null, a:'financial_environmental'},
+      // PHASE 3
+      {n:33, s:'Maritime Security Plan',                ph:3, phn:0, st:'in_suspense_document', ty:'standard_and_guideline', r:'Annex VI,B(2)',            doc:null, pdf:null, a:'safety'},
+      {n:40, s:'Seabed Mining Register',                ph:3, phn:0, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 92',                      doc:null, pdf:null, a:'governance_institutional'},
+      {n:44, s:'Closure Plans & Post-Closure Monitoring',ph:3,phn:0, st:'to_be_developed',  ty:'standard_and_guideline', r:'DR 59,61; Annex VIII',        doc:null, pdf:null, a:'environmental_closure'},
+      {n:45, s:'Contract Expiration Information',       ph:3, phn:0, st:'to_be_developed',   ty:'guideline',              r:'DR 91',                      doc:null, pdf:null, a:'contractual'},
+      // PHASE TBD (under negotiation)
+      {n:34, s:'Financial Terms of a Contract',         ph:null, phn:3, st:'to_be_developed',   ty:'standard',            r:'DR 54,63,64–64qui',          doc:null, pdf:null, a:'financial_contractual'},
+      {n:35, s:'Royalty Administration & Management',   ph:null, phn:3, st:'in_suspense_document', ty:'standard_and_guideline', r:'DR 55,64,70,71,79; App.IV', doc:null, pdf:null, a:'financial_payments'},
+      {n:36, s:'System of Payments & Rates',            ph:null, phn:3, st:'in_suspense_document', ty:'standard',          r:'DR 81,82',                   doc:null, pdf:null, a:'financial_payments'},
+      {n:37, s:'Review of Rates of Payments Methodology',ph:null,phn:3, st:'in_suspense_document', ty:'standard',          r:'DR 82',                      doc:null, pdf:null, a:'financial_payments'},
+      {n:38, s:'Royalty Mechanism',                     ph:null, phn:3, st:'in_suspense_document', ty:'standard',          r:'Appendix IV',                doc:null, pdf:null, a:'financial_payments'},
+      {n:39, s:'Equalization Measure',                  ph:null, phn:3, st:'in_suspense_document', ty:'standard',          r:'DR 64bis (suspense)',         doc:null, pdf:null, a:'financial_payments'},
+      {n:41, s:'Stakeholder Consultation',              ph:null, phn:3, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 93bis',                 doc:null, pdf:null, a:'governance_participation'},
+      {n:42, s:'Coastal States Consultation',           ph:1,    phn:1, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 93ter',                 doc:null, pdf:null, a:'governance_participation'},
+      {n:43, s:'Annual Report, Auditing & Reporting',   ph:null, phn:4, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 38–39,75,83bis',        doc:null, pdf:null, a:'reporting_compliance'},
+      {n:46, s:'Suspension & Termination of Contract',  ph:null, phn:4, st:'to_be_developed',   ty:'standard_and_guideline', r:'DR 103',                   doc:null, pdf:null, a:'contractual'},
+    ];
+
+    // ─── STANDARDS & GUIDELINES RENDER ──────────────────────────────────────────
+    function renderSGSection(filter) {
+      if (filter !== 'all' && filter !== 'standards_guidelines') return '';
+
+      const stats = SG_ITEMS.reduce((acc, g) => {
+        acc[g.st] = (acc[g.st]||0) + 1; return acc;
+      }, {});
+
+      function sgCard(item) {
+        const ss = SG_STATUS[item.st] || SG_STATUS.to_be_developed;
+        const aColor = SG_AREA_COLOR[item.a] || '#374151';
+        const typeCode = SG_TYPE[item.ty] || item.ty;
+        const hasPDF = !!item.pdf;
+        const phnLabel = item.phn === 1 ? '[1]⚠' : item.phn === 2 ? '[1/2]⚠' : item.phn === 3 ? '[]⚠' : item.phn === 4 ? '[]⚠' : '';
+        return `<div class="sg-card bg-white rounded-lg p-3 border border-gray-200 relative"
+                     onclick="showSGModal(${item.n})">
+          <div class="flex items-start justify-between mb-1">
+            <div class="flex items-center gap-1.5">
+              <span class="text-lg font-black leading-none" style="color:${aColor}">${item.n}</span>
+              <span class="text-xs font-bold px-1.5 py-0.5 rounded border text-xs"
+                    style="background:${ss.bg};color:${ss.color};border-color:${ss.color}">${typeCode}</span>
+              ${phnLabel ? `<span class="text-xs text-orange-600 font-bold">${phnLabel}</span>` : ''}
+            </div>
+            ${hasPDF ? `<span class="text-xs bg-green-600 text-white px-1.5 py-0.5 rounded font-bold">PDF ↗</span>` : ''}
+          </div>
+          <div class="text-xs font-semibold text-gray-800 leading-snug mb-1.5">${item.s}</div>
+          <div class="text-xs font-mono text-gray-500 truncate" title="${item.r}">${item.r}</div>
+          <div class="mt-1.5 text-xs" style="color:${ss.color}">${ss.label}</div>
+        </div>`;
+      }
+
+      function phaseBlock(bannerClass, phLabel, phDesc, items, extraNote) {
+        return `<div class="mb-5">
+          <div class="${bannerClass} rounded-xl px-4 py-2.5 mb-3 text-white flex items-center justify-between">
+            <div>
+              <div class="font-bold text-sm">${phLabel}</div>
+              <div class="text-xs opacity-80">${phDesc}</div>
+            </div>
+            <div class="text-right text-xs">
+              <div class="font-bold">${items.length} items</div>
+              <div class="opacity-70">${items.filter(i=>i.st==='prepared').length} prepared</div>
+            </div>
+          </div>
+          ${extraNote ? `<div class="ml-4 mb-2 text-xs text-gray-500 italic">${extraNote}</div>` : ''}
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 ml-4">
+            ${items.map(i => sgCard(i)).join('')}
+          </div>
+        </div>`;
+      }
+
+      const ph1 = SG_ITEMS.filter(i => i.ph === 1);
+      const ph2 = SG_ITEMS.filter(i => i.ph === 2);
+      const ph3 = SG_ITEMS.filter(i => i.ph === 3);
+      const phTbd = SG_ITEMS.filter(i => i.ph === null);
+
+      return `<div class="mb-10">
+        <!-- S&G Header -->
+        <div class="sg-section-banner rounded-2xl p-5 mb-5 text-white">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center font-bold text-lg">📋</div>
+            <div>
+              <div class="font-bold text-lg">Standards &amp; Guidelines (S&amp;G)</div>
+              <div class="text-sm opacity-80">Must be read together with the R&amp;R (ISBA/31/C/CRP.1/Rev.2) — much of the technical detail is delegated here</div>
+            </div>
+          </div>
+          <div class="bg-white bg-opacity-10 rounded-xl p-4 grid md:grid-cols-2 gap-4 mb-3 text-sm">
+            <div>
+              <div class="font-bold mb-1">Legal Status</div>
+              <div class="text-xs opacity-90">📌 <strong>Standards</strong> = legally <span class="font-bold">BINDING</span> on contractors and ISA</div>
+              <div class="text-xs opacity-90">📌 <strong>Guidelines</strong> = <span class="font-bold">recommendatory</span> in nature</div>
+              <div class="text-xs opacity-90 mt-1">Both must be consistent with UNCLOS Part XI + 1994 IA</div>
+            </div>
+            <div>
+              <div class="font-bold mb-1">Development Approach (LTC)</div>
+              <div class="text-xs opacity-90">📌 Outcome-based approach recommended by LTC</div>
+              <div class="text-xs opacity-90">📌 Developed in phases tied to regulatory milestones</div>
+              <div class="text-xs opacity-90">📌 Each S&amp;G undergoes transparent stakeholder consultation</div>
+            </div>
+          </div>
+          <!-- Status overview bar -->
+          <div class="grid grid-cols-3 md:grid-cols-6 gap-2 text-center text-xs">
+            <div class="bg-green-600 bg-opacity-80 rounded-lg py-2"><div class="font-bold text-lg">${stats.prepared||0}</div><div class="opacity-80">Prepared</div></div>
+            <div class="bg-amber-500 bg-opacity-80 rounded-lg py-2"><div class="font-bold text-lg">${(stats.under_development||0)+(stats.tor_prepared||0)}</div><div class="opacity-80">In progress / ToR</div></div>
+            <div class="bg-orange-600 bg-opacity-80 rounded-lg py-2"><div class="font-bold text-lg">${stats.in_suspense_document||0}</div><div class="opacity-80">In Suspense Doc</div></div>
+            <div class="bg-gray-500 bg-opacity-80 rounded-lg py-2"><div class="font-bold text-lg">${stats.to_be_developed||0}</div><div class="opacity-80">To Be Developed</div></div>
+            <div class="bg-purple-600 bg-opacity-80 rounded-lg py-2"><div class="font-bold text-lg">${stats.to_be_merged||0}</div><div class="opacity-80">To Merge</div></div>
+            <div class="bg-white bg-opacity-20 rounded-lg py-2"><div class="font-bold text-lg">46</div><div class="opacity-80">Total S&amp;G</div></div>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2 text-xs">
+            <a href="https://www.isa.org.jm/wp-content/uploads/2025/07/ISBA_30_C_CRP.5-Updated-draft-list-of-Standards-and-or-Guidelines-associated-with-the-draft-regulations-final-11072025.pdf"
+               target="_blank" class="px-3 py-1.5 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg font-semibold">📄 Full S&amp;G List: ISBA/30/C/CRP.5 (July 2025) ↗</a>
+            <a href="https://isa.org.jm/the-mining-code/standards-and-guidelines/"
+               target="_blank" class="px-3 py-1.5 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-lg font-semibold">🔗 ISA Standards &amp; Guidelines Page ↗</a>
+          </div>
+        </div>
+
+        <!-- Phase 1 -->
+        ${phaseBlock('sg-phase-1','Phase 1 — Must be ready by adoption of Exploitation Regulations',
+          'Phase 1 is the most critical: 10 S&Gs are already prepared (ISBA/27/C/3–12, January 2022) — all need updating. 13 more to be developed.',
+          ph1,
+          '⚠ Items marked [1] have their phase assignment still under discussion in negotiations')}
+
+        <!-- Phase 2 -->
+        ${phaseBlock('sg-phase-2','Phase 2 — Must be ready before receipt of first application for a plan of work',
+          'These 9 S&Gs govern the application and contract management process — needed before any contractor can apply.',
+          ph2, null)}
+
+        <!-- Phase 3 -->
+        ${phaseBlock('sg-phase-3','Phase 3 — Must be ready before commercial mining commences',
+          'These 4 S&Gs govern operational and closure aspects — needed before the first commercial mining operation begins.',
+          ph3, null)}
+
+        <!-- Phase TBD -->
+        <div class="mb-5">
+          <div class="sg-phase-tbd rounded-xl px-4 py-2.5 mb-3 text-white flex items-center justify-between">
+            <div>
+              <div class="font-bold text-sm">Phase TBD — Phase assignment under negotiation</div>
+              <div class="text-xs opacity-80">These 9 S&Gs are contested or undecided. Several relate to financial terms currently in the suspense document.</div>
+            </div>
+            <div class="text-right text-xs"><div class="font-bold">${phTbd.length} items</div><div class="opacity-70">⚠ Phase disputed</div></div>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 ml-4">
+            ${phTbd.map(i => sgCard(i)).join('')}
+          </div>
+        </div>
+
+        <!-- Source note -->
+        <div class="ml-4 text-xs text-gray-400 mt-2">
+          Source: <a href="https://www.isa.org.jm/wp-content/uploads/2025/07/ISBA_30_C_CRP.5-Updated-draft-list-of-Standards-and-or-Guidelines-associated-with-the-draft-regulations-final-11072025.pdf"
+          target="_blank" class="text-indigo-600 hover:underline">ISBA/30/C/CRP.5, 11 July 2025</a> ·
+          ISA page: <a href="https://isa.org.jm/the-mining-code/standards-and-guidelines/" target="_blank" class="text-indigo-600 hover:underline">isa.org.jm/the-mining-code/standards-and-guidelines/</a>
+        </div>
+
+        <div class="flex items-center gap-4 mt-8 mb-2">
+          <div class="flex-1 border-t-2 border-dashed border-gray-300"></div>
+          <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest px-3">Exploitation Regulations Drafting History</div>
+          <div class="flex-1 border-t-2 border-dashed border-gray-300"></div>
+        </div>
+      </div>`;
+    }
+
+    function showSGModal(n) {
+      const item = SG_ITEMS.find(i => i.n === n);
+      if (!item) return;
+      const ss = SG_STATUS[item.st] || SG_STATUS.to_be_developed;
+      const typeCode = SG_TYPE[item.ty] || item.ty;
+      const phLabel = item.ph === 1 ? 'Phase 1 — by adoption' : item.ph === 2 ? 'Phase 2 — before first application' : item.ph === 3 ? 'Phase 3 — before commercial mining' : 'Phase TBD — under negotiation';
+
+      document.getElementById('modal-badge').textContent = `S&G #${n} · ${typeCode}`;
+      document.getElementById('modal-badge').style.cssText = `background:${ss.bg};color:${ss.color};font-size:12px;font-weight:700;padding:4px 12px;border-radius:9999px`;
+      document.getElementById('modal-title').textContent = item.s;
+      document.getElementById('modal-ref').textContent = item.doc || 'Not yet issued';
+      document.getElementById('modal-date').textContent = phLabel + (item.phn ? ' ⚠ Phase under discussion' : '');
+      document.getElementById('modal-desc').textContent = `Type: ${item.ty.replace(/_/g,' ')} · Status: ${ss.badge} · Related regulations: ${item.r}`;
+
+      const topicsEl = document.getElementById('modal-topics');
+      let html = `<div class="flex flex-wrap gap-2 mb-3">`;
+      item.r.split(',').forEach(reg => {
+        const r = reg.trim();
+        if (r) html += `<span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full font-mono">${r}</span>`;
+      });
+      html += `</div>`;
+      html += `<div class="rounded-lg p-3 mb-2 text-xs" style="background:${ss.bg};color:${ss.color}">
+        <div class="font-bold mb-1">Development Status</div>
+        <div>${ss.label}</div>
+        ${item.doc ? `<div class="mt-1 font-mono font-semibold">${item.doc}</div>` : ''}
+      </div>`;
+      html += `<div class="bg-gray-50 rounded-lg p-3 text-xs text-gray-600">
+        <div class="font-bold text-gray-700 mb-1">📌 Legal nature</div>
+        <div>${item.ty === 'standard' ? '⚠️ <strong>Standard</strong> — legally <strong>binding</strong> on contractors and ISA' : item.ty === 'guideline' ? '📋 <strong>Guideline</strong> — <strong>recommendatory</strong> in nature' : '📌 <strong>Standard + Guideline</strong> — combined binding standard and recommendatory guidance'}</div>
+        <div class="mt-1">Phase: ${phLabel}</div>
+      </div>`;
+      topicsEl.innerHTML = html;
+
+      const linksEl = document.getElementById('modal-links');
+      linksEl.innerHTML = '';
+      if (item.pdf) linksEl.innerHTML += `<a href="${item.pdf}" target="_blank" class="px-4 py-2 bg-indigo-800 text-white text-sm font-semibold rounded-lg hover:bg-indigo-700">📄 Download PDF (${item.doc})</a>`;
+      linksEl.innerHTML += `<a href="https://isa.org.jm/the-mining-code/standards-and-guidelines/" target="_blank" class="px-4 py-2 bg-indigo-100 text-indigo-800 text-sm font-semibold rounded-lg hover:bg-indigo-200">🔗 ISA S&amp;G Page</a>`;
+      linksEl.innerHTML += `<a href="https://www.isa.org.jm/wp-content/uploads/2025/07/ISBA_30_C_CRP.5-Updated-draft-list-of-Standards-and-or-Guidelines-associated-with-the-draft-regulations-final-11072025.pdf" target="_blank" class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-200">📋 ISBA/30/C/CRP.5</a>`;
+
+      document.getElementById('modal').classList.remove('hidden');
+    }
+
     // ─── WORKING GROUPS RENDER ───────────────────────────────────────────────────
     function renderWorkingGroupsSection(filter) {
       if (filter !== 'all' && filter !== 'working_groups') return '';
@@ -685,7 +958,7 @@
     function renderFoundationSection(filter, currentOnly) {
       let fdocs = [...FOUNDATION_DOCS];
       if (filter !== 'all' && filter !== 'foundational_treaty') return '';
-      if (filter === 'working_groups') return '';
+      if (filter === 'working_groups' || filter === 'standards_guidelines') return '';
       if (currentOnly) return '';
 
       return `
@@ -740,13 +1013,15 @@
       const container = document.getElementById('timeline-container');
       let docs = [...DOCUMENTS].sort((a,b) => a.date_sort.localeCompare(b.date_sort));
       const isWGFilter = filter === 'working_groups';
-      if (!isWGFilter && filter !== 'all' && filter !== 'foundational_treaty') docs = docs.filter(d => getFilterType(d.type) === filter);
-      if (filter === 'foundational_treaty' || isWGFilter) docs = [];
+      const isSGFilter = filter === 'standards_guidelines';
+      if (!isWGFilter && !isSGFilter && filter !== 'all' && filter !== 'foundational_treaty') docs = docs.filter(d => getFilterType(d.type) === filter);
+      if (filter === 'foundational_treaty' || isWGFilter || isSGFilter) docs = [];
       if (currentOnly) docs = docs.filter(d => d.status === 'current');
 
       const wgCount = (filter === 'all' || isWGFilter) ? 18 + 8 : 0;
+      const sgCount = (filter === 'all' || isSGFilter) ? 46 : 0;
       const foundCount = (filter === 'all' || filter === 'foundational_treaty') ? FOUNDATION_DOCS.length : 0;
-      const totalCount = foundCount + docs.length + wgCount;
+      const totalCount = foundCount + docs.length + wgCount + sgCount;
       document.getElementById('doc-count').textContent = totalCount + ' items';
 
       const groups = groupBySession(docs);
@@ -754,7 +1029,8 @@
 
       container.innerHTML = renderFoundationSection(filter, currentOnly)
         + renderWorkingGroupsSection(filter)
-        + (isWGFilter ? '' : sessions.map(session => {
+        + renderSGSection(filter)
+        + (isWGFilter || isSGFilter ? '' : sessions.map(session => {
         const year = SESSION_YEARS[Number(session)] || session;
         const sessionDocs = groups[session];
         const hasMain = sessionDocs.some(d => d.type === 'main_regulatory_text' || d.type === 'clean_version');
@@ -780,7 +1056,7 @@
           </div>
         `;
       }).join(''))
-      + (isWGFilter ? '' : '');
+      + '';
     }
 
     function renderCard(doc) {
@@ -899,7 +1175,7 @@
         b.classList.remove('active','bg-blue-800','text-white','bg-teal-700','bg-yellow-600','bg-green-700','bg-gray-500');
         b.classList.add('text-gray-600');
       });
-      const idMap = { main_regulatory_text:'main', companion_document:'companion', stakeholder_submission:'stakeholder', road_map:'process', discussion_paper:'prep', foundational_treaty:'foundation', working_groups:'wg', all:'all' };
+      const idMap = { main_regulatory_text:'main', companion_document:'companion', stakeholder_submission:'stakeholder', road_map:'process', discussion_paper:'prep', foundational_treaty:'foundation', working_groups:'wg', standards_guidelines:'sg', all:'all' };
       const btn = document.getElementById(`filter-${idMap[type]||'all'}`);
       if (btn) { btn.classList.add('bg-blue-800','text-white'); }
       renderTimeline(currentFilter, showCurrentOnly);
