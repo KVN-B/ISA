@@ -34,6 +34,16 @@
       background: #1a1a2e; color: white; padding: 6px 10px; border-radius: 6px;
       font-size: 12px; white-space: nowrap; z-index: 50; margin-bottom: 5px;
     }
+    /* Working Groups swim-lane */
+    .wg-phase-banner-1 { background: linear-gradient(135deg, #7c2d12 0%, #c2410c 50%, #ea580c 100%); }
+    .wg-phase-banner-2 { background: linear-gradient(135deg, #14532d 0%, #15803d 50%, #16a34a 100%); }
+    .wg-phase-banner-3 { background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 50%, #3b82f6 100%); }
+    .wg-fop-banner    { background: linear-gradient(135deg, #78350f 0%, #b45309 50%, #d97706 100%); }
+    .wg-section-banner { background: linear-gradient(135deg, #134e4a 0%, #0d9488 100%); }
+    .wg-card { transition: all 0.2s ease; border: 1px solid rgba(0,0,0,0.07); }
+    .wg-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
+    .lane-wg { border-left: 4px solid #0d9488; }
+    .connector-arrow { color: #94a3b8; font-size: 20px; }
   </style>
 </head>
 <body class="min-h-screen">
@@ -89,6 +99,7 @@
       <button onclick="filterDocs('road_map')" id="filter-process" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-green-700 text-green-700 hover:bg-green-50">Process / Road Map</button>
       <button onclick="filterDocs('discussion_paper')" id="filter-prep" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-gray-400 text-gray-500 hover:bg-gray-50">Discussion Papers</button>
       <button onclick="filterDocs('foundational_treaty')" id="filter-foundation" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-purple-700 text-purple-700 hover:bg-purple-50">⚖️ LOSC / IA</button>
+      <button onclick="filterDocs('working_groups')" id="filter-wg" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-teal-700 text-teal-700 hover:bg-teal-50">🤝 Working Groups</button>
       <div class="ml-auto flex items-center gap-2">
         <label class="text-xs text-gray-500">Show current only</label>
         <input type="checkbox" id="current-only" onchange="toggleCurrentOnly()" class="rounded">
@@ -105,6 +116,7 @@
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-green-700 inline-block"></span> Process / Road Map</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-gray-400 inline-block"></span> Discussion Papers</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-purple-700 inline-block"></span> LOSC / IA (Foundational)</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-teal-600 inline-block"></span> Working Groups / FOP</span>
       <span class="flex items-center gap-1 ml-4 border-l pl-4"><span class="w-3 h-3 rounded bg-green-500 inline-block border-2 border-green-700"></span> Current</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-gray-300 inline-block"></span> Superseded</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-orange-300 inline-block"></span> Historical</span>
@@ -262,8 +274,393 @@
       historical: { bg: '#fde68a', label: 'Historical', text: '#92400e' },
     };
 
+    // ─── WORKING GROUPS DATA ─────────────────────────────────────────────────────
+    const WORKING_GROUPS = {
+      phase1: [
+        {
+          id: 'oewg-financial',
+          name: 'Open-ended Working Group on Financial Terms',
+          abbreviation: 'OEWG',
+          leadership: 'Chair: Mr. Olav Myklebust (Norway)',
+          period: 'Feb 2019 – Mar 2024',
+          sessions: 'ISBA/25 – ISBA/29',
+          meetings: 10,
+          total_docs: 45,
+          regulations_covered: ['Part VII — Financial Terms of Contracts', 'Appendix IV'],
+          key_topics: ['royalty system', 'profit-sharing', 'payment mechanism', 'fiscal regime', 'MIT financial model', 'environmental cost valuation'],
+          fed_into: ['ISBA/29/C/CRP.1 Part VII', 'ISBA/30/C/CRP.1 Part VII', 'ISBA/31/C/CRP.1/Rev.2 Part VII'],
+          status: 'concluded',
+          color: '#c2410c',
+          bg: '#fff7ed',
+          url: 'https://isa.org.jm/the-mining-code/working-groups/',
+          meetings_data: [
+            { n:1, date:'Feb 2019', ctx:'ISBA/25 intersessional', docs:9 },
+            { n:2, date:'Jul 2019', ctx:'ISBA/25 Part II', docs:7 },
+            { n:3, date:'Feb 2020', ctx:'ISBA/26 intersessional', docs:3 },
+            { n:'webinars', date:'2020', ctx:'COVID webinars', docs:9 },
+            { n:4, date:'Mar 2022', ctx:'ISBA/27 Part I', docs:4 },
+            { n:5, date:'Jul 2022', ctx:'ISBA/27 Part II', docs:5 },
+            { n:6, date:'Nov 2022', ctx:'ISBA/27 intersessional', docs:4 },
+            { n:7, date:'Mar 2023', ctx:'ISBA/28 Part I', docs:9 },
+            { n:8, date:'Jul 2023', ctx:'ISBA/28 Part II', docs:7 },
+            { n:9, date:'Nov 2023', ctx:'ISBA/28 intersessional', docs:5 },
+            { n:10, date:'Mar 2024', ctx:'ISBA/29 Part I', docs:3 }
+          ]
+        }
+      ],
+      phase2: [
+        {
+          id: 'iwg-env',
+          name: 'Informal Working Group on Environmental Protection',
+          abbreviation: 'IWG ENV',
+          leadership: 'Facilitator: Ms. Raijeli Taga (Fiji)',
+          period: 'Feb 2022 – Mar 2024',
+          sessions: 'ISBA/27 – ISBA/29',
+          meetings: 7,
+          total_docs: 22,
+          regulations_covered: ['Part IV — Environmental Protection', 'Part VI — Data & Information', 'Annex IV', 'Annex VII', 'Annex VIII'],
+          key_topics: ['environmental management', 'EIA process', 'compensation fund', 'pollution control', 'standards matrix', 'performance guarantee'],
+          fed_into: ['ISBA/29/C/CRP.1 Part IV', 'ISBA/30/C/CRP.1 Part IV', 'ISBA/31/C/CRP.1/Rev.2 Part IV'],
+          status: 'concluded',
+          color: '#15803d',
+          bg: '#f0fdf4',
+          url: 'https://isa.org.jm/the-mining-code/working-groups/',
+          meetings_data: [
+            { n:'webinar', date:'Feb 2022', ctx:'ISBA/27 pre-session', docs:3 },
+            { n:1, date:'Mar 2022', ctx:'ISBA/27 Part I', docs:3 },
+            { n:'webinar-ecf', date:'Jun 2022', ctx:'ECF webinar', docs:3 },
+            { n:2, date:'Jul 2022', ctx:'ISBA/27 Part II', docs:3 },
+            { n:3, date:'Nov 2022', ctx:'ISBA/27 intersessional', docs:2 },
+            { n:4, date:'Mar 2023', ctx:'ISBA/28 Part I', docs:2 },
+            { n:5, date:'Jul 2023', ctx:'ISBA/28 Part II', docs:2 },
+            { n:6, date:'Nov 2023', ctx:'ISBA/28 intersessional', docs:5 },
+            { n:7, date:'Mar 2024', ctx:'ISBA/29 Part I', docs:1 }
+          ]
+        },
+        {
+          id: 'iwg-ice',
+          name: 'Informal Working Group on Inspection, Compliance and Enforcement',
+          abbreviation: 'IWG ICE',
+          leadership: 'Facilitator: Ms. Maureen Tamuno (Nigeria)',
+          period: 'Feb 2022 – Nov 2023',
+          sessions: 'ISBA/27 – ISBA/28',
+          meetings: 6,
+          total_docs: 21,
+          regulations_covered: ['Part XI — Inspection, Compliance and Enforcement'],
+          key_topics: ['inspections', 'compliance', 'enforcement', 'penalties', 'suspension of operations', 'termination of contracts'],
+          fed_into: ['ISBA/29/C/CRP.1 Part XI', 'ISBA/30/C/CRP.1 Part XI', 'ISBA/31/C/CRP.1/Rev.2 Part XI'],
+          status: 'concluded',
+          color: '#0369a1',
+          bg: '#f0f9ff',
+          url: 'https://isa.org.jm/the-mining-code/working-groups/',
+          meetings_data: [
+            { n:'webinar', date:'Feb 2022', ctx:'ISBA/27 pre-session', docs:4 },
+            { n:1, date:'Mar 2022', ctx:'ISBA/27 Part I', docs:4 },
+            { n:2, date:'Jul 2022', ctx:'ISBA/27 Part II', docs:5 },
+            { n:3, date:'Nov 2022', ctx:'ISBA/27 intersessional', docs:3 },
+            { n:4, date:'Mar 2023', ctx:'ISBA/28 Part I', docs:3 },
+            { n:5, date:'Jul 2023', ctx:'ISBA/28 Part II', docs:2 }
+          ]
+        },
+        {
+          id: 'iwg-im',
+          name: 'Informal Working Group on Institutional Matters',
+          abbreviation: 'IWG IM',
+          leadership: 'Co-Facilitators: Mr. Salvador Vega (Chile) & Ms. Gina Guillen-Grillo (Costa Rica)',
+          period: 'Feb 2022 – Mar 2024',
+          sessions: 'ISBA/27 – ISBA/29',
+          meetings: 7,
+          total_docs: 30,
+          regulations_covered: ['Parts I, II, V, VIII, IX, XII, XIII'],
+          key_topics: ['ISA organ mandates', 'effective control', 'institutional structure', 'definitions', 'general provisions', 'contractor sponsorship'],
+          fed_into: ['ISBA/29/C/CRP.1 Parts I–II, V, VIII', 'ISBA/30/C/CRP.1', 'ISBA/31/C/CRP.1/Rev.2'],
+          status: 'concluded',
+          color: '#7c3aed',
+          bg: '#faf5ff',
+          url: 'https://isa.org.jm/the-mining-code/working-groups/',
+          meetings_data: [
+            { n:'webinar', date:'Feb 2022', ctx:'ISBA/27 pre-session', docs:5 },
+            { n:1, date:'Mar 2022', ctx:'ISBA/27 Part I', docs:5 },
+            { n:2, date:'Jul 2022', ctx:'ISBA/27 Part II', docs:8 },
+            { n:3, date:'Nov 2022', ctx:'ISBA/27 intersessional', docs:8 },
+            { n:4, date:'Mar 2023', ctx:'ISBA/28 Part I', docs:2 },
+            { n:5, date:'Jul 2023', ctx:'ISBA/28 Part II', docs:3 },
+            { n:6, date:'Nov 2023', ctx:'ISBA/28 intersessional', docs:3 },
+            { n:7, date:'Mar 2024', ctx:'ISBA/29 Part I', docs:2 }
+          ]
+        },
+        {
+          id: 'presidents-text-wow',
+          name: "President's Text — Work Outside of Working Groups",
+          abbreviation: "WOW",
+          leadership: 'President of the Council',
+          period: 'Mar 2022 – Feb 2024',
+          sessions: 'ISBA/27 – ISBA/29',
+          meetings: 0,
+          texts: 6,
+          total_docs: 6,
+          regulations_covered: ['Preamble', 'Part III — Contractor Obligations', 'Part X — Review', 'Annexes I–III, V–VI, IX–X', 'Appendix I', 'Schedule'],
+          key_topics: ['preamble', 'contractor obligations', 'standard contract terms', 'general provisions', 'annexes and schedule'],
+          fed_into: ["ISBA/29/C/CRP.1 (Preamble, Part III, Annexes)", 'ISBA/30/C/CRP.1', 'ISBA/31/C/CRP.1/Rev.2'],
+          status: 'concluded',
+          color: '#be185d',
+          bg: '#fdf2f8',
+          url: 'https://isa.org.jm/the-mining-code/working-groups/',
+          meetings_data: [
+            { n:1, date:'Mar 2022', ctx:'Briefing Note', docs:1 },
+            { n:2, date:'Nov 2022', ctx:"President's Text v1", docs:1 },
+            { n:3, date:'Mar 2023', ctx:"President's Compilation", docs:1 },
+            { n:4, date:'Jul 2023', ctx:"President's Rev.1", docs:1 },
+            { n:5, date:'Oct 2023', ctx:"President's Further Revised", docs:2 }
+          ]
+        }
+      ],
+      phase3: [
+        { id:'iwg31-effective-control', name:'Effective Control', abbreviation:'IWG EC', facilitators:'Chile · Costa Rica', draft_regulations:'DR 5, 6, 13, 21, 24, 40', cross_cutting:true, color:'#1d4ed8' },
+        { id:'iwg31-ice', name:'Inspection, Compliance & Enforcement Mechanism', abbreviation:'IWG ICE-2', facilitators:'Norway', draft_regulations:'DR 102', cross_cutting:false, color:'#0369a1' },
+        { id:'iwg31-equalization', name:'Equalization Measure', abbreviation:'IWG EQ', facilitators:'Australia', draft_regulations:'DR 64bis', cross_cutting:false, color:'#0891b2' },
+        { id:'iwg31-coastal-states', name:'Rights and Interests of Coastal States', abbreviation:'IWG CS', facilitators:'Portugal · Singapore', draft_regulations:'Cross-cutting', cross_cutting:true, color:'#0e7490' },
+        { id:'iwg31-uch', name:'Underwater Cultural Heritage', abbreviation:'IWG UCH', facilitators:'Brazil · Greece · Micronesia', draft_regulations:'DR 35, 35alt', cross_cutting:true, color:'#7c3aed' },
+        { id:'iwg31-env-monitoring', name:'Environmental Management & Monitoring', abbreviation:'IWG ENV-2', facilitators:'Norway', draft_regulations:'DR 49–52, Annex VII', cross_cutting:false, color:'#15803d' },
+        { id:'iwg31-test-mining', name:'Test and Pilot Mining', abbreviation:'IWG TPM', facilitators:'Belgium · China · Germany', draft_regulations:'DR 48ter', cross_cutting:false, color:'#b45309' },
+        { id:'iwg31-closure-plans', name:'Closure Plans', abbreviation:'IWG CP', facilitators:'Fiji', draft_regulations:'DR 59, 60, 61', cross_cutting:false, color:'#be185d' },
+        { id:'iwg31-remps', name:'Reference to REMPs', abbreviation:'IWG REMPs', facilitators:'Netherlands', draft_regulations:'Cross-cutting', cross_cutting:true, color:'#475569' }
+      ],
+      fop: [
+        { id:'fop-submarine-cable', name:'Submarine Cable Protection', facilitator:'Singapore', draft_regulations:'DR 31, 31bis', docs:4, color:'#0369a1' },
+        { id:'fop-payment-mechanism', name:'Review of Payment Mechanism', facilitator:'Canada', draft_regulations:'DR 81, 82', docs:2, color:'#1d4ed8' },
+        { id:'fop-plan-of-work-modification', name:'Modification of Plan of Work', facilitator:'United Kingdom', draft_regulations:'DR 57', docs:4, color:'#0e7490' },
+        { id:'fop-env-compensation-fund', name:'Environmental Compensation Fund', facilitator:'Mexico', draft_regulations:'DR 54, 55, 56', docs:1, color:'#15803d' },
+        { id:'fop-seabed-mining-register', name:'Seabed Mining Register', facilitator:'India', draft_regulations:'DR 92', docs:2, color:'#7c3aed' },
+        { id:'fop-prevention-corruption', name:'Prevention of Corruption', facilitator:'Netherlands', draft_regulations:'DR 40', docs:3, color:'#c2410c' },
+        { id:'fop-environmental-goals', name:'Environmental Goals & Objectives', facilitator:'Germany', draft_regulations:'DR 44ter', docs:3, color:'#065f46' },
+        { id:'fop-noncompliance', name:'Non-Compliance, Suspension & Termination', facilitator:'Netherlands', draft_regulations:'DR 103', docs:1, color:'#7f1d1d' }
+      ]
+    };
+
     let currentFilter = 'all';
     let showCurrentOnly = false;
+
+    // ─── WORKING GROUPS RENDER ───────────────────────────────────────────────────
+    function renderWorkingGroupsSection(filter) {
+      if (filter !== 'all' && filter !== 'working_groups') return '';
+
+      function wgCard(wg, phase) {
+        const docCount = wg.total_docs || (wg.docs || '—');
+        const meetingInfo = wg.texts
+          ? `${wg.texts} texts produced`
+          : wg.meetings > 0
+            ? `${wg.meetings} meeting${wg.meetings !== 1 ? 's' : ''}`
+            : '—';
+        const leaderLabel = wg.leadership || (wg.facilitator ? `Facilitator: ${wg.facilitator}` : wg.facilitators ? `Facilitators: ${wg.facilitators}` : '');
+        const regsCovered = wg.draft_regulations || (wg.regulations_covered || []).join(', ');
+        const fedInto = wg.fed_into ? wg.fed_into.join(' → ') : 'ISBA/31/C/CRP.1/Rev.2';
+        const wgColor = wg.color || '#0d9488';
+        const wgBg = wg.bg || '#f0fdfa';
+        return `
+          <div class="wg-card bg-white rounded-xl p-4 cursor-pointer"
+               style="border-left: 4px solid ${wgColor};"
+               onclick="showWGModal('${wg.id}','${phase}')">
+            <div class="flex items-start justify-between mb-2">
+              <span class="text-xs font-bold px-2 py-0.5 rounded-full" style="background:${wgBg};color:${wgColor}">${wg.abbreviation || wg.name.substring(0,20)}</span>
+              ${wg.cross_cutting ? `<span class="text-xs bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded-full font-semibold ml-1">cross-cutting</span>` : ''}
+            </div>
+            <div class="font-semibold text-gray-900 text-sm leading-snug mb-1">${wg.name}</div>
+            ${leaderLabel ? `<div class="text-xs text-gray-500 mb-2 italic">${leaderLabel}</div>` : ''}
+            <div class="text-xs text-gray-500 mb-2">
+              ${wg.period ? `<span class="mr-2">📅 ${wg.period}</span>` : ''}
+              ${wg.sessions ? `<span class="mr-2">· ${wg.sessions}</span>` : ''}
+            </div>
+            <div class="text-xs font-mono text-gray-600 mb-2 truncate" title="${regsCovered}">
+              📋 ${regsCovered}
+            </div>
+            <div class="flex flex-wrap gap-1 mb-2">
+              ${(wg.key_topics||[]).slice(0,3).map(t=>`<span class="text-xs bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">${t}</span>`).join('')}
+            </div>
+            <div class="flex justify-between items-center mt-2 pt-2 border-t border-gray-100">
+              <span class="text-xs text-teal-600 font-semibold">${meetingInfo} · ${docCount} docs</span>
+              <span class="text-xs text-gray-400">Click for documents ↗</span>
+            </div>
+          </div>`;
+      }
+
+      function phaseSection(phaseBannerClass, phaseLabel, phasePeriod, phaseDesc, groups, phaseKey) {
+        return `
+          <div class="mb-6">
+            <div class="${phaseBannerClass} rounded-xl px-5 py-3 mb-3 text-white flex items-center justify-between">
+              <div>
+                <div class="font-bold text-sm">${phaseLabel}</div>
+                <div class="text-xs opacity-80">${phasePeriod} · ${phaseDesc}</div>
+              </div>
+              <div class="text-right text-xs opacity-70">${groups.length} group${groups.length>1?'s':''}</div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-${Math.min(groups.length,4)} gap-3 ml-4">
+              ${groups.map(g => wgCard(g, phaseKey)).join('')}
+            </div>
+          </div>`;
+      }
+
+      return `
+        <div class="mb-10">
+          <!-- WG Section Header -->
+          <div class="wg-section-banner rounded-2xl p-5 mb-5 text-white">
+            <div class="flex items-center gap-3 mb-2">
+              <div class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center font-bold text-lg">🤝</div>
+              <div>
+                <div class="font-bold text-lg">Intersessional Working Groups & Friends of the President</div>
+                <div class="text-sm opacity-80">2019–2026 · Three phases of intersessional negotiations that shaped the successive consolidated texts</div>
+              </div>
+            </div>
+            <div class="bg-white bg-opacity-10 rounded-xl p-3 text-sm grid grid-cols-2 md:grid-cols-4 gap-3 mt-3">
+              <div class="text-center"><div class="font-bold text-xl">3</div><div class="text-xs opacity-80">Phases</div></div>
+              <div class="text-center"><div class="font-bold text-xl">18</div><div class="text-xs opacity-80">Working Groups</div></div>
+              <div class="text-center"><div class="font-bold text-xl">8</div><div class="text-xs opacity-80">FOP Groups</div></div>
+              <div class="text-center"><div class="font-bold text-xl">40+</div><div class="text-xs opacity-80">Intersessional Meetings</div></div>
+            </div>
+          </div>
+
+          <!-- Phase 1 -->
+          ${phaseSection('wg-phase-banner-1', 'Phase 1 — Financial Terms (OEWG)', 'Feb 2019 – Mar 2024', 'ISBA/25–29', WORKING_GROUPS.phase1, 'phase1')}
+
+          <!-- Phase 2 -->
+          ${phaseSection('wg-phase-banner-2', 'Phase 2 — Thematic Informal Working Groups', 'Feb 2022 – Mar 2024', 'ISBA/27–29', WORKING_GROUPS.phase2, 'phase2')}
+
+          <!-- Phase 3 -->
+          <div class="mb-6">
+            <div class="wg-phase-banner-3 rounded-xl px-5 py-3 mb-3 text-white flex items-center justify-between">
+              <div>
+                <div class="font-bold text-sm">Phase 3 — Thematic Approach (ISBA/30/C/18)</div>
+                <div class="text-xs opacity-80">Jul 2025 – Mar 2026 · ISBA/30–31 · 9 intersessional IWGs targeting outstanding issues → ISBA/31/C/CRP.1/Rev.2</div>
+              </div>
+              <div class="text-right text-xs opacity-70">9 IWGs</div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 ml-4">
+              ${WORKING_GROUPS.phase3.map(g => {
+                return `<div class="wg-card bg-white rounded-xl p-3 cursor-pointer"
+                              style="border-left: 4px solid ${g.color};"
+                              onclick="showWGModal('${g.id}','phase3')">
+                  <div class="text-xs font-bold mb-1" style="color:${g.color}">${g.abbreviation}</div>
+                  <div class="text-xs font-semibold text-gray-800 leading-snug mb-2">${g.name}</div>
+                  <div class="text-xs text-gray-500 mb-1"><span class="font-semibold">Facilitators:</span> ${g.facilitators}</div>
+                  <div class="text-xs font-mono text-gray-600">${g.draft_regulations}</div>
+                  ${g.cross_cutting ? `<div class="mt-1.5 text-xs bg-yellow-50 text-yellow-700 px-1.5 py-0.5 rounded">cross-cutting</div>` : ''}
+                </div>`;
+              }).join('')}
+            </div>
+          </div>
+
+          <!-- FOP -->
+          <div class="mb-2">
+            <div class="wg-fop-banner rounded-xl px-5 py-3 mb-3 text-white flex items-center justify-between">
+              <div>
+                <div class="font-bold text-sm">Friends of the President (FOP)</div>
+                <div class="text-xs opacity-80">Mar 2025 – Mar 2026 · New informal modality (ISBA/30/C/5 Annex II) · Volunteer facilitators develop agreed text on specific draft regulations</div>
+              </div>
+              <div class="text-right text-xs opacity-70">8 FOP groups</div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 ml-4">
+              ${WORKING_GROUPS.fop.map(g => {
+                return `<div class="wg-card bg-white rounded-xl p-3 cursor-pointer"
+                              style="border-left: 4px solid ${g.color};"
+                              onclick="showWGModal('${g.id}','fop')">
+                  <div class="flex items-start justify-between mb-2">
+                    <span class="text-xs font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">FOP</span>
+                    <span class="text-xs font-mono text-gray-500 ml-1">${g.draft_regulations}</span>
+                  </div>
+                  <div class="text-xs font-semibold text-gray-800 leading-snug mb-1">${g.name}</div>
+                  <div class="text-xs text-gray-500">Facilitator: ${g.facilitator}</div>
+                  <div class="text-xs text-gray-400 mt-1">${g.docs} document${g.docs!==1?'s':''}</div>
+                </div>`;
+              }).join('')}
+            </div>
+            <div class="mt-3 ml-4 text-xs text-gray-400">
+              📄 FOP Modality Proposal (28 Mar 2025):
+              <a href="https://www.isa.org.jm/wp-content/uploads/2025/03/20250327-Proposal-Friends-of-the-President-FINAL.pdf"
+                 target="_blank" class="text-amber-700 hover:underline ml-1">Download PDF ↗</a>
+              &nbsp;·&nbsp;
+              📋 Intersessional Work Programme:
+              <a href="https://isa.org.jm/wp-content/uploads/2025/11/Intersessional-work-v.20251124.pdf"
+                 target="_blank" class="text-amber-700 hover:underline ml-1">Download PDF ↗</a>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 mt-8 mb-2">
+            <div class="flex-1 border-t-2 border-dashed border-gray-300"></div>
+            <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest px-3">Exploitation Regulations Drafting History</div>
+            <div class="flex-1 border-t-2 border-dashed border-gray-300"></div>
+          </div>
+        </div>
+      `;
+    }
+
+    function showWGModal(id, phase) {
+      const allGroups = [
+        ...WORKING_GROUPS.phase1,
+        ...WORKING_GROUPS.phase2,
+        ...WORKING_GROUPS.phase3,
+        ...WORKING_GROUPS.fop
+      ];
+      const wg = allGroups.find(g => g.id === id);
+      if (!wg) return;
+
+      const isFOP = phase === 'fop';
+      const isPhase3 = phase === 'phase3';
+      const wgColor = wg.color || '#0d9488';
+      const phaseLabel = phase === 'phase1' ? 'Phase 1' : phase === 'phase2' ? 'Phase 2' : phase === 'phase3' ? 'Phase 3' : 'Friends of the President';
+
+      document.getElementById('modal-badge').textContent = `${phaseLabel} · ${isFOP ? 'FOP' : isPhase3 ? 'IWG' : wg.abbreviation || 'Working Group'}`;
+      document.getElementById('modal-badge').style.cssText = `background:#f0fdfa;color:${wgColor};font-size:12px;font-weight:700;padding:4px 12px;border-radius:9999px`;
+      document.getElementById('modal-title').textContent = wg.name;
+      document.getElementById('modal-ref').textContent = wg.abbreviation || '—';
+      document.getElementById('modal-date').textContent = (wg.period || 'Jul 2025 – Mar 2026') + (wg.sessions ? ` · ${wg.sessions}` : '');
+
+      const descParts = [];
+      if (wg.leadership) descParts.push(wg.leadership);
+      if (wg.facilitators) descParts.push(`Facilitators: ${wg.facilitators}`);
+      if (wg.facilitator) descParts.push(`Facilitator: ${wg.facilitator}`);
+      if (wg.regulations_covered) descParts.push('Covers: ' + wg.regulations_covered.join(', '));
+      if (wg.draft_regulations) descParts.push('Draft Regulations: ' + wg.draft_regulations);
+      if (wg.fed_into) descParts.push('Fed into: ' + wg.fed_into.join(' → '));
+      document.getElementById('modal-desc').textContent = descParts.join(' · ');
+
+      const topicsEl = document.getElementById('modal-topics');
+      let topicsHTML = '';
+
+      if (wg.key_topics && wg.key_topics.length) {
+        topicsHTML += `<div class="flex flex-wrap gap-2 mb-3">${wg.key_topics.map(t=>`<span class="text-xs bg-teal-100 text-teal-700 px-2 py-1 rounded-full">${t}</span>`).join('')}</div>`;
+      }
+
+      if (wg.meetings_data && wg.meetings_data.length) {
+        topicsHTML += `<div class="bg-gray-50 rounded-lg p-3 mb-3">
+          <div class="text-xs font-bold text-gray-600 mb-2">📅 Meeting History (${wg.meetings_data.length} meetings/rounds):</div>
+          <div class="space-y-1">${wg.meetings_data.map(m => `
+            <div class="flex items-center gap-2 text-xs text-gray-700">
+              <span class="w-12 font-mono font-bold text-teal-700">${typeof m.n === 'number' ? 'Mtg '+m.n : m.n}</span>
+              <span class="w-20 text-gray-500">${m.date}</span>
+              <span class="flex-1 text-gray-600">${m.ctx}</span>
+              <span class="text-gray-400">${m.docs} docs</span>
+            </div>`).join('')}
+          </div>
+        </div>`;
+      }
+
+      if (wg.cross_cutting !== undefined) {
+        topicsHTML += `<div class="text-xs ${wg.cross_cutting ? 'bg-yellow-50 text-yellow-800 border border-yellow-200' : 'bg-gray-50 text-gray-600'} rounded-lg p-2 mb-2">
+          ${wg.cross_cutting ? '⚡ Cross-cutting issue — intersects multiple parts of the text' : '📋 Thematic issue — targeted at specific regulations'}
+        </div>`;
+      }
+
+      topicsEl.innerHTML = topicsHTML;
+
+      const linksEl = document.getElementById('modal-links');
+      linksEl.innerHTML = `<a href="https://isa.org.jm/the-mining-code/working-groups/" target="_blank" class="px-4 py-2 bg-teal-800 text-white text-sm font-semibold rounded-lg hover:bg-teal-700">🔗 ISA Working Groups Page</a>`;
+      if (wg.url && wg.url !== 'https://isa.org.jm/the-mining-code/working-groups/') {
+        linksEl.innerHTML += `<a href="${wg.url}" target="_blank" class="px-4 py-2 bg-teal-100 text-teal-800 text-sm font-semibold rounded-lg hover:bg-teal-200">📄 Documents</a>`;
+      }
+      linksEl.innerHTML += `<a href="https://isa.org.jm/wp-content/uploads/2025/11/Intersessional-work-v.20251124.pdf" target="_blank" class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-200">📋 Work Programme (Nov 2025)</a>`;
+
+      document.getElementById('modal').classList.remove('hidden');
+    }
 
     // ─── RENDER ──────────────────────────────────────────────────────────────────
     function groupBySession(docs) {
@@ -288,6 +685,7 @@
     function renderFoundationSection(filter, currentOnly) {
       let fdocs = [...FOUNDATION_DOCS];
       if (filter !== 'all' && filter !== 'foundational_treaty') return '';
+      if (filter === 'working_groups') return '';
       if (currentOnly) return '';
 
       return `
@@ -341,17 +739,22 @@
     function renderTimeline(filter = 'all', currentOnly = false) {
       const container = document.getElementById('timeline-container');
       let docs = [...DOCUMENTS].sort((a,b) => a.date_sort.localeCompare(b.date_sort));
-      if (filter !== 'all' && filter !== 'foundational_treaty') docs = docs.filter(d => getFilterType(d.type) === filter);
-      if (filter === 'foundational_treaty') docs = [];
+      const isWGFilter = filter === 'working_groups';
+      if (!isWGFilter && filter !== 'all' && filter !== 'foundational_treaty') docs = docs.filter(d => getFilterType(d.type) === filter);
+      if (filter === 'foundational_treaty' || isWGFilter) docs = [];
       if (currentOnly) docs = docs.filter(d => d.status === 'current');
 
-      const totalCount = (filter === 'all' ? FOUNDATION_DOCS.length : (filter === 'foundational_treaty' ? FOUNDATION_DOCS.length : 0)) + docs.length;
-      document.getElementById('doc-count').textContent = totalCount + ' documents';
+      const wgCount = (filter === 'all' || isWGFilter) ? 18 + 8 : 0;
+      const foundCount = (filter === 'all' || filter === 'foundational_treaty') ? FOUNDATION_DOCS.length : 0;
+      const totalCount = foundCount + docs.length + wgCount;
+      document.getElementById('doc-count').textContent = totalCount + ' items';
 
       const groups = groupBySession(docs);
       const sessions = Object.keys(groups).sort((a,b) => Number(a)-Number(b));
 
-      container.innerHTML = renderFoundationSection(filter, currentOnly) + sessions.map(session => {
+      container.innerHTML = renderFoundationSection(filter, currentOnly)
+        + renderWorkingGroupsSection(filter)
+        + (isWGFilter ? '' : sessions.map(session => {
         const year = SESSION_YEARS[Number(session)] || session;
         const sessionDocs = groups[session];
         const hasMain = sessionDocs.some(d => d.type === 'main_regulatory_text' || d.type === 'clean_version');
@@ -376,7 +779,8 @@
             </div>
           </div>
         `;
-      }).join('');
+      }).join(''))
+      + (isWGFilter ? '' : '');
     }
 
     function renderCard(doc) {
@@ -495,7 +899,7 @@
         b.classList.remove('active','bg-blue-800','text-white','bg-teal-700','bg-yellow-600','bg-green-700','bg-gray-500');
         b.classList.add('text-gray-600');
       });
-      const idMap = { main_regulatory_text:'main', companion_document:'companion', stakeholder_submission:'stakeholder', road_map:'process', discussion_paper:'prep', foundational_treaty:'foundation', all:'all' };
+      const idMap = { main_regulatory_text:'main', companion_document:'companion', stakeholder_submission:'stakeholder', road_map:'process', discussion_paper:'prep', foundational_treaty:'foundation', working_groups:'wg', all:'all' };
       const btn = document.getElementById(`filter-${idMap[type]||'all'}`);
       if (btn) { btn.classList.add('bg-blue-800','text-white'); }
       renderTimeline(currentFilter, showCurrentOnly);

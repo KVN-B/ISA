@@ -1,0 +1,687 @@
+{
+  "last_updated": "2026-03-12",
+  "source": "ISA — https://isa.org.jm/the-mining-code/working-groups/",
+  "description": "All intersessional working groups, informal working groups, and Friends of the President groups that contributed to the ISA exploitation regulations drafting process. Their outputs fed directly into the successive consolidated texts.",
+  "phases": {
+    "phase_1": {
+      "label": "Phase 1 — Financial Terms Working Group",
+      "period": "2019–2024",
+      "sessions": "ISBA/25–29",
+      "description": "Pre-dating the formal IWG structure, the OEWG on Financial Terms was the first sustained intersessional body. Its outputs fed Part VII of the consolidated texts."
+    },
+    "phase_2": {
+      "label": "Phase 2 — Thematic Informal Working Groups",
+      "period": "2022–2024",
+      "sessions": "ISBA/27–29",
+      "description": "Following the ISBA/26/C/11 decision on working methods (2020), four thematic IWGs were established to work systematically through the draft text. Their outputs were incorporated into ISBA/29/C/CRP.1 and ISBA/30/C/CRP.1."
+    },
+    "phase_3": {
+      "label": "Phase 3 — Thematic Approach + Friends of the President",
+      "period": "2025–2026",
+      "sessions": "ISBA/30–31",
+      "description": "Following ISBA/30/C/18 (thematic approach decision), a new set of intersessional IWGs and the new Friends of the President (FOP) modality were established to target remaining outstanding issues. Their outputs fed into ISBA/31/C/CRP.1/Rev.2."
+    }
+  },
+  "working_groups": [
+    {
+      "id": "oewg-financial",
+      "name": "Open-ended Working Group on Financial Terms",
+      "abbreviation": "OEWG",
+      "type": "open_ended_working_group",
+      "phase": "phase_1",
+      "chair": "Mr. Olav Myklebust (Norway)",
+      "established": "2019-02",
+      "concluded": "2024-03",
+      "status": "concluded",
+      "regulations_covered": ["Part VII — Financial Terms of Contracts", "Appendix IV"],
+      "key_topics": ["royalty system", "profit-sharing", "payment mechanism", "fiscal regime", "MIT financial model", "environmental cost valuation"],
+      "fed_into": ["ISBA/29/C/CRP.1 Part VII", "ISBA/30/C/CRP.1 Part VII", "ISBA/31/C/CRP.1/Rev.2 Part VII"],
+      "meetings": [
+        {
+          "meeting": 1,
+          "date": "2019-02",
+          "session_context": "ISBA/25 (intersessional)",
+          "documents": [
+            {"title": "Briefing Note from President of Council", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/BNote.pdf", "type": "briefing_note"},
+            {"title": "Provisional Agenda", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/agenda.pdf", "type": "agenda"},
+            {"title": "Indicative Programme of Work", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/ipw_0.pdf", "type": "programme"},
+            {"title": "African Group Proposal on Financial Terms (9 July 2018)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/ag-sub.pdf", "type": "submission"},
+            {"title": "German Ministry Study on Financial Terms (September 2016)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/bmw.pdf", "type": "study"},
+            {"title": "COMRA Financial Model", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/comra.pdf", "type": "model"},
+            {"title": "MIT Decision Analysis Framework", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/dec-analysis_0.pdf", "type": "study"},
+            {"title": "MIT Financial Regimes Comparison (January 2019)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/model_comparisons_0.pdf", "type": "study"},
+            {"title": "Chair Report — ISBA/25/C/15", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/25c-15-e.pdf", "type": "chair_report", "reference": "ISBA/25/C/15"}
+          ]
+        },
+        {
+          "meeting": 2,
+          "date": "2019-07",
+          "session_context": "ISBA/25 Part II (intersessional)",
+          "documents": [
+            {"title": "Chair Briefing Note", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/briefing_note_wg_council.pdf", "type": "briefing_note"},
+            {"title": "Provisional Agenda", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/provisional_agenda_wg2_0.pdf", "type": "agenda"},
+            {"title": "Indicative Programme of Work", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/ipw_2wg_fm.pdf", "type": "programme"},
+            {"title": "Payment Mechanism Briefing Note", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/brief-payment-mechanism.pdf", "type": "briefing_note"},
+            {"title": "MIT Economic Model Report", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/paysysmodel-3jun.pdf", "type": "study"},
+            {"title": "MIT Financial Model Spreadsheet (Polymetallic Nodules)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/paysystem_model_polymet_nodules_v1.015.xlsm", "type": "model", "format": "xlsm"},
+            {"title": "Chair Report — ISBA/25/C/32", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/isba_25_c_32-1912014e.pdf", "type": "chair_report", "reference": "ISBA/25/C/32"}
+          ]
+        },
+        {
+          "meeting": 3,
+          "date": "2020-02",
+          "session_context": "ISBA/26 (intersessional)",
+          "documents": [
+            {"title": "MIT Cost Workshop Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/cost_workshop-ppt.pdf", "type": "presentation"},
+            {"title": "MIT Deep Sea Minerals Financial Model Report", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/analyzing.pdf", "type": "study"},
+            {"title": "Chair Report — ISBA/26/C/8", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/isba_26_c_8-e.pdf", "type": "chair_report", "reference": "ISBA/26/C/8"}
+          ]
+        },
+        {
+          "meeting": "webinars_2020",
+          "date": "2020",
+          "label": "Information Webinars (2020)",
+          "session_context": "ISBA/26 (intersessional — COVID period)",
+          "documents": [
+            {"title": "RMG Consulting Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/RMG-Consulting.pdf", "type": "presentation"},
+            {"title": "CRU International Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/CRUslides.pdf", "type": "presentation"},
+            {"title": "MIT Refined Financial Model (September 2020)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Mine-Site-Cash-Flows_Sept_16_2020.xlsx", "type": "model", "format": "xlsx"},
+            {"title": "MIT Report on Nodule Financial Payment System (October 2020)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Nodule-Financial-Payment-System-Report-October-2020-V3.pdf", "type": "study"},
+            {"title": "Joint Summary — MIT, RMG, CRU (12 October 2020)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Joint-summary-FInalDraft-20201012.pdf", "type": "summary"},
+            {"title": "RMG Analysis Report", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/20201012-RMGAnlaysis-Rev3-withLinks2.pdf", "type": "study"},
+            {"title": "CRU Report — Polymetallic Nodule Valuation (24 August 2020)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/CRU_ISA-Polymetallic-nodule-valuation-report_24Aug2020.pdf", "type": "study"},
+            {"title": "Social Discount Rate — Information Note", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Information-note-SDR_0.pdf", "type": "information_note"},
+            {"title": "Social Discount Rate Study", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Freeman-Groom-and-Turk-2020-Social-Discount-Rates-Post-Review.pdf", "type": "study"}
+          ]
+        },
+        {
+          "meeting": 4,
+          "date": "2022-03",
+          "session_context": "ISBA/27 Part I",
+          "documents": [
+            {"title": "Provisional Agenda", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Provisional_Agenda_4th_meeting_OEWG.pdf", "type": "agenda"},
+            {"title": "Briefing Note", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/OEWG_Briefing_Note.pdf", "type": "briefing_note"},
+            {"title": "Background Information Document List", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/4thMeet-DocList_3.pdf", "type": "information_note"},
+            {"title": "Chair's Oral Report — ISBA/27/C/21", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/ISBA_27_C_21-2205582E.pdf", "type": "chair_report", "reference": "ISBA/27/C/21"}
+          ]
+        },
+        {
+          "meeting": 5,
+          "date": "2022-07",
+          "session_context": "ISBA/27 Part II",
+          "documents": [
+            {"title": "Briefing Note with Chair's Text (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Briefing_Note_OEWG_13_June_2022.pdf", "type": "chair_text"},
+            {"title": "Briefing Note with Chair's Text (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/CHAIR_BN_TEXT_OEWG.docx", "type": "chair_text", "format": "docx"},
+            {"title": "Ghana/African Group Note Verbale (27 June 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Permission_to_submit_ISA_African_Group_Submission.pdf", "type": "submission"},
+            {"title": "Financial Payment System Modeling (PPTX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Financial_Model_July_2022.pptx", "type": "presentation", "format": "pptx"},
+            {"title": "Chair's Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "chair_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": 6,
+          "date": "2022-11",
+          "session_context": "ISBA/27 (intersessional)",
+          "documents": [
+            {"title": "Chair's Briefing Note (20 October 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Chair_briefing_note.pdf", "type": "briefing_note"},
+            {"title": "MIT Financial Payment System Modeling", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Financial_Model_November_2022.pdf", "type": "presentation"},
+            {"title": "IGF — Offshore Indirect Transfers Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/IGF_presentation_OEWG_meeting.pdf", "type": "presentation"},
+            {"title": "Oral Report — ISBA/27/C/21/Add.2", "url": "https://www.isa.org.jm/documents/isba-27-c-21-add-2/", "type": "chair_report", "reference": "ISBA/27/C/21/Add.2"}
+          ]
+        },
+        {
+          "meeting": 7,
+          "date": "2023-03",
+          "session_context": "ISBA/28 Part I",
+          "documents": [
+            {"title": "Chair's Briefing Note (27 February 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/ISBA28COEWGCRP1-Chair-Briefing-Note-1.pdf", "type": "briefing_note"},
+            {"title": "Chair's Revised Text — ISBA/28/C/OEWG/CRP.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/CRP2-OEWG-Chair-revised-text-1-1.pdf", "type": "chair_text"},
+            {"title": "IGF Report on Deep-Sea Mining Payment Regimes", "url": "https://www.isa.org.jm/wp-content/uploads/2023/05/IGF_Draft_Report_Deep_Sea_Mining_Payment_Regime.pdf", "type": "study"},
+            {"title": "IGF Deep-Sea Mining Financial Model (XLSM)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/IGF-Deep-Sea-Mining-Financial-Model.xlsm", "type": "model", "format": "xlsm"},
+            {"title": "MIT Model (March 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Mine-Site-Cash-Flows_Mn_ore_March5_2023.xlsm", "type": "model", "format": "xlsm"},
+            {"title": "MIT Financial Model Report (16 March 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/MIT-Financial-Model-16March2023.pdf", "type": "study"},
+            {"title": "MIT Additional Royalty Analysis (16 March 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/MIT-Additional-Royalty-Analysis-16March2023.pdf", "type": "study"},
+            {"title": "IGF Presentation (16 March 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/IGF-Draft-Presentation-16March2023.pdf", "type": "presentation"},
+            {"title": "Oral Report — ISBA/28/C/11", "url": "https://www.isa.org.jm/documents/isba-28-c-11/", "type": "chair_report", "reference": "ISBA/28/C/11"}
+          ]
+        },
+        {
+          "meeting": 8,
+          "date": "2023-07",
+          "session_context": "ISBA/28 Part II",
+          "documents": [
+            {"title": "Chair's Briefing Note (20 June 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/06/OEWG-Briefing-note.pdf", "type": "briefing_note"},
+            {"title": "Chair's Revised Text (20 June 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/06/OEWG-Chair-Further-Revised-Text.pdf", "type": "chair_text"},
+            {"title": "MIT Financial Model (July 2023 XLSM)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/08/Mine_Site_Cash_Flows_July30_2023_delivered.xlsm", "type": "model", "format": "xlsm"},
+            {"title": "MIT PowerPoint (10 July 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/MIT-Financial-Model-1.pdf", "type": "presentation"},
+            {"title": "Report on Valuation of Ecosystem Services", "url": "https://www.isa.org.jm/wp-content/uploads/2023/06/Report-on-Valuation-of-ecosystem-services.pdf", "type": "study"},
+            {"title": "Note on Environmental Cost Consultancy", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/Note-secretariat-selection-for-env-cost-consultancy.pdf", "type": "information_note"},
+            {"title": "Oral Report — ISBA/28/C/11/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/ISBA_28_C_11_Add_1.pdf", "type": "chair_report", "reference": "ISBA/28/C/11/Add.1"}
+          ]
+        },
+        {
+          "meeting": 9,
+          "date": "2023-11",
+          "session_context": "ISBA/28 (intersessional)",
+          "documents": [
+            {"title": "Chair's Briefing Note", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/OEWG-Chair-Briefing-note.pdf", "type": "briefing_note"},
+            {"title": "Chair's Third Revised Text (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/Chairs-third-revised-text.pdf", "type": "chair_text"},
+            {"title": "Chair's Third Revised Text (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/Chairs-third-revised-text.docx", "type": "chair_text", "format": "docx"},
+            {"title": "Guidance on Economic Valuation (Part II)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/Guidance-on-economic-valuation-Part-II-of-the-report.pdf", "type": "study"},
+            {"title": "Oral Report — ISBA/28/C/11/Add.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/2322573E.pdf", "type": "chair_report", "reference": "ISBA/28/C/11/Add.2"}
+          ]
+        },
+        {
+          "meeting": 10,
+          "date": "2024-03",
+          "session_context": "ISBA/29 Part I",
+          "documents": [
+            {"title": "Chair's Briefing Note on Financial Terms", "url": "https://www.isa.org.jm/wp-content/uploads/2024/03/Draft-briefing-note-on-financial-terms.pdf", "type": "briefing_note"},
+            {"title": "Economic Value of Natural Capital of the Area (PPTX)", "url": "https://www.isa.org.jm/wp-content/uploads/2024/03/Economic-value-of-natural-capital-of-the-Area.pptx", "type": "presentation", "format": "pptx"},
+            {"title": "Oral Report — ISBA/29/C/9", "url": "https://www.isa.org.jm/wp-content/uploads/2024/04/ISBA_29_C_9-1.pdf", "type": "chair_report", "reference": "ISBA/29/C/9"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iwg-env",
+      "name": "Informal Working Group on Environmental Protection",
+      "abbreviation": "IWG ENV",
+      "type": "informal_working_group",
+      "phase": "phase_2",
+      "facilitator": "Ms. Raijeli Taga (Fiji)",
+      "established": "2022-02",
+      "concluded": "2024-03",
+      "status": "concluded",
+      "regulations_covered": ["Part IV — Environmental Protection", "Part VI — Data and Information", "Annex IV", "Annex VII", "Annex VIII"],
+      "key_topics": ["environmental management", "EIA process", "environmental compensation fund", "pollution control", "standards and guidelines matrix", "environmental performance guarantee"],
+      "fed_into": ["ISBA/29/C/CRP.1 Part IV", "ISBA/30/C/CRP.1 Part IV", "ISBA/31/C/CRP.1/Rev.2 Part IV"],
+      "meetings": [
+        {
+          "meeting": "webinar_2022-02",
+          "date": "2022-02",
+          "label": "Information Webinar",
+          "session_context": "ISBA/27 (pre-session)",
+          "documents": [
+            {"title": "Facilitator's Presentation (21 February 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/04/Dr-Taga-IWG-Presentation-Final-21022022.pdf", "type": "presentation"},
+            {"title": "Facilitator's Briefing Note (8 February 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Facilitators_Briefing_Note_IWG_ICE.pdf", "type": "briefing_note"},
+            {"title": "Facilitator's Summary", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Facilitators_Summary.pdf", "type": "summary"}
+          ]
+        },
+        {
+          "meeting": 1,
+          "date": "2022-03",
+          "session_context": "ISBA/27 Part I",
+          "documents": [
+            {"title": "Facilitator's Text — ISBA/27/C/IWG/ENV/CRP.1 (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/IWG-ENV-CRP1.docx", "type": "facilitator_text", "format": "docx"},
+            {"title": "Facilitator's Text — ISBA/27/C/IWG/ENV/CRP.1 (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/20220208-IWG-ENV-CRP1.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": "webinar_ecf_2022-06",
+          "date": "2022-06",
+          "label": "Information Webinar — Environmental Compensation Fund",
+          "session_context": "ISBA/27 (intersessional)",
+          "documents": [
+            {"title": "Chair's Briefing Note on ECF (14 June 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Briefing_Note_on_Environmental_Compensation_Fund.pdf", "type": "briefing_note"},
+            {"title": "Prof. Lorenzo Schiano di Pepe — ECF Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2023/04/ISA-ECF-Presentation-Prof-Lorenzo-Schiano.pdf", "type": "presentation"},
+            {"title": "Seabed Sustainability Fund Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2023/04/ISA-SSF-Presentatie.pdf", "type": "presentation"}
+          ]
+        },
+        {
+          "meeting": 2,
+          "date": "2022-07",
+          "session_context": "ISBA/27 Part II",
+          "documents": [
+            {"title": "Facilitator's Revised Text — ISBA/27/C/IWG/ENV/CRP.1/Rev.1 (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/FACILITATOR_REVISED_TEXT_IWG_ENVIRONMENT.docx", "type": "facilitator_text", "format": "docx"},
+            {"title": "Facilitator's Revised Text — ISBA/27/C/IWG/ENV/CRP.1/Rev.1 (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Facilitators-Revised-Draft-Text.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": 3,
+          "date": "2022-11",
+          "session_context": "ISBA/27 (intersessional)",
+          "documents": [
+            {"title": "Facilitator's Briefing Note (3 October 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Briefing_note_IWG_Environment.pdf", "type": "briefing_note"},
+            {"title": "Facilitator's Oral Report — ISBA/27/C/21/Add.2", "url": "https://www.isa.org.jm/documents/isba-27-c-21-add-2/", "type": "oral_report", "reference": "ISBA/27/C/21/Add.2"}
+          ]
+        },
+        {
+          "meeting": 4,
+          "date": "2023-03",
+          "session_context": "ISBA/28 Part I",
+          "documents": [
+            {"title": "Facilitator's Further Revised Text — ISBA/28/C/IWG/ENV/CRP.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/ENV-Facilitator-further-revised-text.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/28/C/11", "url": "https://www.isa.org.jm/documents/isba-28-c-11/", "type": "oral_report", "reference": "ISBA/28/C/11"}
+          ]
+        },
+        {
+          "meeting": 5,
+          "date": "2023-07",
+          "session_context": "ISBA/28 Part II",
+          "documents": [
+            {"title": "Facilitator's Third Revised Text (21 June 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/ENV-Third-revised-text-Rev-1.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/28/C/11/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/ISBA_28_C_11_Add_1.pdf", "type": "oral_report", "reference": "ISBA/28/C/11/Add.1"}
+          ]
+        },
+        {
+          "meeting": 6,
+          "date": "2023-11",
+          "session_context": "ISBA/28 (intersessional)",
+          "documents": [
+            {"title": "Facilitator's Fourth Revised Text (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/Facilitators-fourth-revised_text-16OCT23.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Fourth Revised Text (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/Facilitators-fourth-revised_text-16OCT23-1.docx", "type": "facilitator_text", "format": "docx"},
+            {"title": "Introductory Note for ENV Standards & Guidelines Matrix", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/Intro-to-ENV-Matrix.pdf", "type": "information_note"},
+            {"title": "Environmental S&G Matrix (XLSX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/ENV-Matrix.xlsx", "type": "matrix", "format": "xlsx"},
+            {"title": "Facilitator's Oral Report — ISBA/28/C/11/Add.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/2322573E.pdf", "type": "oral_report", "reference": "ISBA/28/C/11/Add.2"}
+          ]
+        },
+        {
+          "meeting": 7,
+          "date": "2024-03",
+          "session_context": "ISBA/29 Part I",
+          "documents": [
+            {"title": "Chair's Briefing Note on Environmental Topics", "url": "https://www.isa.org.jm/wp-content/uploads/2024/03/Briefing-paper-on-environmental-topics.pdf", "type": "briefing_note"},
+            {"title": "Facilitator's Oral Report — ISBA/29/C/9", "url": "https://www.isa.org.jm/wp-content/uploads/2024/04/ISBA_29_C_9-1.pdf", "type": "oral_report", "reference": "ISBA/29/C/9"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iwg-ice",
+      "name": "Informal Working Group on Inspection, Compliance and Enforcement",
+      "abbreviation": "IWG ICE",
+      "type": "informal_working_group",
+      "phase": "phase_2",
+      "facilitator": "Ms. Maureen Tamuno (Nigeria)",
+      "established": "2022-03",
+      "concluded": "2023-10",
+      "status": "concluded",
+      "regulations_covered": ["Part XI — Inspection, Compliance and Enforcement"],
+      "key_topics": ["inspection mechanism", "compliance committee", "enforcement", "suspension and termination", "non-compliance"],
+      "fed_into": ["ISBA/29/C/CRP.1 Part XI", "ISBA/30/C/CRP.1 Part XI", "ISBA/31/C/CRP.1/Rev.2 Part XI"],
+      "meetings": [
+        {
+          "meeting": 1,
+          "date": "2022-03",
+          "session_context": "ISBA/27 Part I",
+          "documents": [
+            {"title": "Facilitator's Briefing Note (16 March 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Facilitators_Briefing_Note_IWG_ICE.pdf", "type": "briefing_note"},
+            {"title": "Facilitator's Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": 2,
+          "date": "2022-07",
+          "session_context": "ISBA/27 Part II",
+          "documents": [
+            {"title": "Facilitator's Text — ISBA/27/C/IWG/ICE/CRP.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/10/PartXI_ICE-Facilitators-text-8July_0.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": 3,
+          "date": "2022-11",
+          "session_context": "ISBA/27 (intersessional)",
+          "documents": [
+            {"title": "Facilitator's Revised Text — ISBA/27/C/IWG/ICE/CRP.1/Rev.2 (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/ICE_facilitators_revised_text_12_10_22.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/27/C/21/Add.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/2228629E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.2"}
+          ]
+        },
+        {
+          "meeting": 4,
+          "date": "2023-03",
+          "session_context": "ISBA/28 Part I",
+          "documents": [
+            {"title": "Facilitator's Further Revised Text — ISBA/28/C/IWG/ICE/CRP.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/ICE-Further-revised-text.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/28/C/11", "url": "https://www.isa.org.jm/wp-content/uploads/2023/04/2306425E.pdf", "type": "oral_report", "reference": "ISBA/28/C/11"}
+          ]
+        },
+        {
+          "meeting": 5,
+          "date": "2023-07",
+          "session_context": "ISBA/28 Part II",
+          "documents": [
+            {"title": "Facilitator's Third Revised Text (26 June 2023)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/06/ICE-Third_revised_text.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/28/C/11/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/ISBA_28_C_11_Add_1.pdf", "type": "oral_report", "reference": "ISBA/28/C/11/Add.1"}
+          ]
+        },
+        {
+          "meeting": 6,
+          "date": "2023-10",
+          "session_context": "ISBA/28 (intersessional)",
+          "documents": [
+            {"title": "Facilitator's Fourth Revised Text", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/ICE-Fourth_revised_text-1.pdf", "type": "facilitator_text"},
+            {"title": "Facilitator's Oral Report — ISBA/28/C/11/Add.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/2322573E.pdf", "type": "oral_report", "reference": "ISBA/28/C/11/Add.2"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iwg-im",
+      "name": "Informal Working Group on Institutional Matters",
+      "abbreviation": "IWG IM",
+      "type": "informal_working_group",
+      "phase": "phase_2",
+      "co_facilitators": ["Mr. Salvador Vega (Chile)", "Ms. Gina Guillen-Grillo (Costa Rica)"],
+      "established": "2022-03",
+      "concluded": "2024-03",
+      "status": "concluded",
+      "regulations_covered": ["Part I — Introduction", "Part II — Applications", "Part V — Emergency Orders", "Part VIII — Institutional Arrangements", "Part IX — Standards & Guidelines", "Part XII", "Part XIII", "Appendix II", "Appendix III"],
+      "key_topics": ["effective control", "sponsoring states", "institutional framework", "Council procedures", "plan of work applications", "mandates mapping"],
+      "fed_into": ["ISBA/29/C/CRP.1 Parts I-II, V, VIII", "ISBA/30/C/CRP.1 Parts I-II, V, VIII", "ISBA/31/C/CRP.1/Rev.2 Parts I-II, V, VIII"],
+      "meetings": [
+        {
+          "meeting": 1,
+          "date": "2022-03",
+          "session_context": "ISBA/27 Part I",
+          "documents": [
+            {"title": "Co-Facilitators' Briefing Note", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Co-Facilitators_Briefing_Note_IWG_INSTITUTIONAL_MATTERS.pdf", "type": "briefing_note"},
+            {"title": "Collation of Draft Suggestions — ISBA/26/C/CRP.1 (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/collation_of_specific_drafting_suggestions_for_posting_0.pdf", "type": "submission"},
+            {"title": "Collation of Draft Suggestions — ISBA/26/C/CRP.1 (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/isba26ccrp1.docx", "type": "submission", "format": "docx"},
+            {"title": "Co-Facilitators' Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/IWG-IA-Presentation.pdf", "type": "presentation"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": 2,
+          "date": "2022-07",
+          "session_context": "ISBA/27 Part II",
+          "documents": [
+            {"title": "Co-Facilitators' Text on Parts I, II, Reg. 5", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Institutional_Matters_IWG_Facilitators_Draft_Regs_1-5.pdf", "type": "facilitator_text"},
+            {"title": "Compilation Part I (XLSX)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Regs-Part1.xlsx", "type": "compilation", "format": "xlsx"},
+            {"title": "Compilation Part II (XLSX)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Regs-Part2.xlsx", "type": "compilation", "format": "xlsx"},
+            {"title": "Mapping of ISA Organ Mandates", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/MAPPING_OF_THE_MANDATES.pdf", "type": "analytical_document"},
+            {"title": "Briefing Paper (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Co-Facilitators_BN_IWG_INSTITUTIONAL_MATTERS.pdf", "type": "briefing_note"},
+            {"title": "Functions of ISA Organs — ISBA/24/C/10", "url": "https://www.isa.org.jm/wp-content/uploads/2022/04/isba24c-10-en.pdf", "type": "reference_document", "reference": "ISBA/24/C/10"},
+            {"title": "Analysis of Effective Control — ISBA/20/LTC/10", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/isba-20ltc-10_0.pdf", "type": "analytical_document", "reference": "ISBA/20/LTC/10"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/27/C/21/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/2212632E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.1"}
+          ]
+        },
+        {
+          "meeting": 3,
+          "date": "2022-11",
+          "session_context": "ISBA/27 (intersessional)",
+          "documents": [
+            {"title": "Co-Facilitators' Revised Text — ISBA/27/C/IWG/IM/CRP.1/Rev.1 (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Draft_IWG_IM_Oct-Nov_-2022_PartI_PartII_reg_5_Part_V_-Part_VIII.docx", "type": "facilitator_text", "format": "docx"},
+            {"title": "Co-Facilitators' Revised Text — ISBA/27/C/IWG/IM/CRP.1/Rev.1 (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/The_co-facilitators_revised_text.pdf", "type": "facilitator_text"},
+            {"title": "Compilation Part I — Proposals to September 2022", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Compilation_PART_I_templates_sept_15.pdf", "type": "compilation"},
+            {"title": "Compilation Part II — Proposals to September 2022", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Compilation_Part_II_reg-5_New_Templates_until_Sept_15_2022.pdf", "type": "compilation"},
+            {"title": "Compilation Part V — Contributions 2019", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Compilation_PART_V_contributions_2019_0.pdf", "type": "compilation"},
+            {"title": "Compilation Part VIII — Contributions 2019", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Compilation_PART_VIII_contributions-2019_.pdf", "type": "compilation"},
+            {"title": "Effective Control Workshop Agenda", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Effective_control_ultima_version_taller.pdf", "type": "agenda"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/27/C/21/Add.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/2228629E.pdf", "type": "oral_report", "reference": "ISBA/27/C/21/Add.2"}
+          ]
+        },
+        {
+          "meeting": 4,
+          "date": "2023-03",
+          "session_context": "ISBA/28 Part I",
+          "documents": [
+            {"title": "Co-Facilitators' Revised Text — ISBA/27/C/IWG/IM/CRP.1/Rev.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/The_co-facilitators_revised_text.pdf", "type": "facilitator_text"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/28/C/11", "url": "https://www.isa.org.jm/wp-content/uploads/2023/04/2306425E.pdf", "type": "oral_report", "reference": "ISBA/28/C/11"}
+          ]
+        },
+        {
+          "meeting": 5,
+          "date": "2023-07",
+          "session_context": "ISBA/28 Part II",
+          "documents": [
+            {"title": "Co-Facilitators' Text — Resumed Reading Regs 6–16", "url": "https://www.isa.org.jm/wp-content/uploads/2023/06/IWG-Institutioonal-Matters-REGS-6-to-16.pdf", "type": "facilitator_text"},
+            {"title": "Effective Control Presentation", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/Effective-Control-Slide.pdf", "type": "presentation"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/28/C/11/Add.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/ISBA_28_C_11_Add_1.pdf", "type": "oral_report", "reference": "ISBA/28/C/11/Add.1"}
+          ]
+        },
+        {
+          "meeting": 6,
+          "date": "2023-11",
+          "session_context": "ISBA/28 (intersessional)",
+          "documents": [
+            {"title": "Co-Facilitators' Revised Text (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/IWG_IM_CoFacilitators_Text_Oct23.pdf", "type": "facilitator_text"},
+            {"title": "Co-Facilitators' Revised Text (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/IWG_IM_CoFacilitators_Text_Oct23.docx", "type": "facilitator_text", "format": "docx"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/28/C/11/Add.2", "url": "https://www.isa.org.jm/wp-content/uploads/2023/11/2322573E.pdf", "type": "oral_report", "reference": "ISBA/28/C/11/Add.2"}
+          ]
+        },
+        {
+          "meeting": 7,
+          "date": "2024-03",
+          "session_context": "ISBA/29 Part I",
+          "documents": [
+            {"title": "Briefing Paper on Effective Control", "url": "https://www.isa.org.jm/wp-content/uploads/2024/03/Briefing-paper-on-Effective-Control.pdf", "type": "briefing_note"},
+            {"title": "Co-Facilitators' Oral Report — ISBA/29/C/9", "url": "https://www.isa.org.jm/wp-content/uploads/2024/04/ISBA_29_C_9-1.pdf", "type": "oral_report", "reference": "ISBA/29/C/9"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presidents-text-wow",
+      "name": "President's Text — Plenary Informal (Work Outside of Working Groups)",
+      "abbreviation": "WOW / President's Text",
+      "type": "presidential_text",
+      "phase": "phase_2",
+      "chair": "President of the Council (ISBA/27–28)",
+      "established": "2022-03",
+      "concluded": "2024-02",
+      "status": "concluded",
+      "regulations_covered": ["Preamble", "Part III — Contractor Obligations", "Part X — Review", "Annex I", "Annex II", "Annex III", "Annex V", "Annex VI", "Annex IX", "Annex X", "Appendix I", "Schedule"],
+      "key_topics": ["preamble", "contractor obligations", "standard contract terms", "annexes", "schedule"],
+      "fed_into": ["ISBA/29/C/CRP.1 (Preamble, Part III, Annexes)", "ISBA/30/C/CRP.1", "ISBA/31/C/CRP.1/Rev.2"],
+      "texts": [
+        {"version": 1, "date": "2022-03", "title": "President's Briefing Note (31 March 2022)", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/President-Briefing-Note-31032022.pdf", "type": "briefing_note"},
+        {"version": 2, "date": "2022-11", "title": "President's Text — ISBA/27/C/WOW/CRP.1", "url": "https://www.isa.org.jm/wp-content/uploads/2022/12/Presidents_text_11_10_22.pdf", "type": "president_text"},
+        {"version": 3, "date": "2023-03", "title": "President's Text Compilation — ISBA/28/C/WOW/CRP.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Presidents_text_compilation.pdf", "type": "president_text"},
+        {"version": 4, "date": "2023-07", "title": "President's Revised Text — ISBA/28/C/WOW/CRP.1/Rev.1", "url": "https://www.isa.org.jm/wp-content/uploads/2023/07/Presidents_text_Rev-1.pdf", "type": "president_text"},
+        {"version": 5, "date": "2023-10", "title": "President's Further Revised Text (PDF)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/Presidents-further-revised-text-1.pdf", "type": "president_text"},
+        {"version": "5_docx", "date": "2023-10", "title": "President's Further Revised Text (DOCX)", "url": "https://www.isa.org.jm/wp-content/uploads/2023/10/Presidents-further-revised-text.docx", "type": "president_text", "format": "docx"}
+      ]
+    }
+  ],
+  "intersessional_working_groups_phase3": {
+    "description": "New intersessional IWGs established following ISBA/30/C/18 (Thematic Approach Decision, July 2025) to work on outstanding issues ahead of ISBA/31.",
+    "source": "ISA Intersessional Work Programme v. 24 November 2025 — https://isa.org.jm/wp-content/uploads/2025/11/Intersessional-work-v.20251124.pdf",
+    "period": "July 2025 – March 2026",
+    "groups": [
+      {
+        "id": "iwg31-effective-control",
+        "name": "Effective Control",
+        "facilitators": ["Chile", "Costa Rica"],
+        "draft_regulations": ["DR 5", "DR 6", "DR 13", "DR 21", "DR 24", "DR 40", "Annex I Sect.I para. 13 ter", "Schedule (definition)"],
+        "cross_cutting": true
+      },
+      {
+        "id": "iwg31-ice",
+        "name": "Inspection, Compliance and Enforcement Mechanism",
+        "facilitators": ["Norway"],
+        "draft_regulations": ["DR 102"],
+        "cross_cutting": false
+      },
+      {
+        "id": "iwg31-equalization",
+        "name": "Equalization Measure",
+        "facilitators": ["Australia"],
+        "draft_regulations": ["DR 64 bis", "Draft Equalization Standard"],
+        "cross_cutting": false
+      },
+      {
+        "id": "iwg31-coastal-states",
+        "name": "Rights and Interests of Coastal States",
+        "facilitators": ["Portugal", "Singapore"],
+        "draft_regulations": [],
+        "cross_cutting": true
+      },
+      {
+        "id": "iwg31-uch",
+        "name": "Underwater Cultural Heritage",
+        "facilitators": ["Brazil", "Greece", "Micronesia (Federated States of)"],
+        "draft_regulations": ["DR 35", "DR 35 alt"],
+        "cross_cutting": true,
+        "documents": [
+          {"title": "Fourth Revision of Co-Facilitators' Document on UCH (20 November 2025)", "type": "facilitator_text"}
+        ]
+      },
+      {
+        "id": "iwg31-env-monitoring",
+        "name": "Environmental Management and Monitoring",
+        "facilitators": ["Norway"],
+        "draft_regulations": ["DR 49", "DR 50", "DR 51", "DR 52", "Annex VII"],
+        "regulations_part": "Part IV Section 3",
+        "cross_cutting": false
+      },
+      {
+        "id": "iwg31-test-mining",
+        "name": "Test and Pilot Mining",
+        "facilitators": ["Belgium", "China", "Germany"],
+        "draft_regulations": ["DR 48 ter", "DR 48 ter alt"],
+        "cross_cutting": false,
+        "documents": [
+          {"title": "Original Joint Proposal (March 2025)", "type": "joint_proposal"}
+        ]
+      },
+      {
+        "id": "iwg31-closure-plans",
+        "name": "Closure Plans",
+        "facilitators": ["Fiji"],
+        "draft_regulations": ["DR 59", "DR 60", "DR 61"],
+        "regulations_part": "Part VI",
+        "cross_cutting": false
+      },
+      {
+        "id": "iwg31-remps",
+        "name": "Reference to Regional Environmental Management Plans (REMPs)",
+        "facilitators": ["Netherlands (Kingdom of the)"],
+        "draft_regulations": [],
+        "cross_cutting": true,
+        "documents": [
+          {"title": "Report of the Fourth Meeting (9 October 2025)", "type": "meeting_report"},
+          {"title": "Textual Proposal (14 November 2025)", "type": "facilitator_text"}
+        ]
+      }
+    ]
+  },
+  "friends_of_the_president": {
+    "description": "The Friends of the President (FOP) is an additional informal modality proposed by the Council President on 28 March 2025 (first part of ISBA/30). Volunteers coordinate with interested delegations to develop agreed text on specific draft regulations or topics for inclusion in the draft regulations.",
+    "modality_document": {
+      "title": "Proposal by the President of the Council — Friends of the President Modality",
+      "date": "2025-03-28",
+      "url": "https://www.isa.org.jm/wp-content/uploads/2025/03/20250327-Proposal-Friends-of-the-President-FINAL.pdf"
+    },
+    "formal_reference": "ISBA/30/C/5 (Annex II)",
+    "intersessional_programme_url": "https://isa.org.jm/wp-content/uploads/2025/11/Intersessional-work-v.20251124.pdf",
+    "groups": [
+      {
+        "id": "fop-submarine-cable",
+        "name": "Submarine Cable Protection",
+        "facilitator": "Singapore",
+        "draft_regulations": ["DR 31", "DR 31bis"],
+        "documents": [
+          {"title": "Report of the Meeting (15 July 2025)", "type": "meeting_report"},
+          {"title": "Revised Proposal for DRs 31 and 31bis (16 July 2025)", "type": "fop_text"},
+          {"title": "Compilation of Inputs (31 October 2025)", "type": "compilation"},
+          {"title": "New Rev. 2 Proposal (24 November 2025)", "type": "fop_text"}
+        ]
+      },
+      {
+        "id": "fop-payment-mechanism",
+        "name": "Review of Payment Mechanism",
+        "facilitator": "Canada",
+        "draft_regulations": ["DR 81", "DR 82", "Relevant Standards"],
+        "documents": [
+          {"title": "Draft Text for DRs 81 and 82 (4 November 2025)", "type": "fop_text"},
+          {"title": "Text Submitted by FOP (9 December 2025)", "url": "https://isa.org.jm/wp-content/uploads/2025/12/20251209-Draft-Regulations-81-and-82_FOP.pdf", "type": "fop_text"}
+        ]
+      },
+      {
+        "id": "fop-plan-of-work-modification",
+        "name": "Modification of a Plan of Work by a Contractor",
+        "facilitator": "United Kingdom",
+        "draft_regulations": ["DR 57"],
+        "documents": [
+          {"title": "DR 57 Proposal by UK", "type": "fop_text"},
+          {"title": "DR 57 Explainer by UK", "type": "information_note"},
+          {"title": "Revised Proposal for DR 57 (26 September 2025)", "type": "fop_text"},
+          {"title": "Further Revised Proposal for DR 57 (5 November 2025)", "type": "fop_text"}
+        ]
+      },
+      {
+        "id": "fop-env-compensation-fund",
+        "name": "Environmental Compensation Fund",
+        "facilitator": "Mexico",
+        "draft_regulations": ["DR 54", "DR 55", "DR 56"],
+        "documents": [
+          {"title": "Report and Revised Text Proposals DRs 54, 55, 56 (5 November 2025)", "type": "fop_text"}
+        ]
+      },
+      {
+        "id": "fop-seabed-mining-register",
+        "name": "Seabed Mining Register",
+        "facilitator": "India",
+        "draft_regulations": ["DR 92"],
+        "documents": [
+          {"title": "DR 92 Text (July 2025)", "type": "fop_text"},
+          {"title": "Analysis Document on Seabed Mining Register (24 November 2025)", "type": "analytical_document"}
+        ]
+      },
+      {
+        "id": "fop-prevention-corruption",
+        "name": "Prevention of Corruption",
+        "facilitator": "Netherlands (Kingdom of the)",
+        "draft_regulations": ["DR 40"],
+        "note": "Note: DR 40 is also covered by the Effective Control IWG — the FOP focuses on the anti-corruption provisions specifically.",
+        "documents": [
+          {"title": "DR 40 Proposal by Netherlands (16 September 2025)", "type": "fop_text"},
+          {"title": "Friends of the President on Draft Regulation 40 — Report (25 November 2025)", "url": "https://www.isa.org.jm/wp-content/uploads/2025/11/2025.11.25-FOP-DR-40-Report.pdf", "type": "fop_report"},
+          {"title": "DR 40 Proposal by Netherlands", "url": "https://isa.org.jm/wp-content/uploads/2025/12/20251209-Draft-Regulations-81-and-82_FOP.pdf", "type": "fop_text"}
+        ]
+      },
+      {
+        "id": "fop-environmental-goals",
+        "name": "Environmental Goals and Objectives",
+        "facilitator": "Germany",
+        "draft_regulations": ["DR 44ter"],
+        "documents": [
+          {"title": "DR 44ter on Environmental Goals and Objectives", "type": "fop_text"},
+          {"title": "DR 44ter Proposal by Germany (18 September 2025)", "type": "fop_text"},
+          {"title": "DR 44ter Revised Draft Text (9 October 2025)", "type": "fop_text"}
+        ]
+      },
+      {
+        "id": "fop-noncompliance",
+        "name": "Non-Compliance Notice, Suspension, and Termination of Exploitation Contract",
+        "facilitators": ["Netherlands (Kingdom of the)"],
+        "draft_regulations": ["DR 103"],
+        "documents": [
+          {"title": "DR 103 — Discussion Paper (17 October 2025)", "type": "discussion_paper"}
+        ]
+      }
+    ],
+    "president_briefing_paper": {
+      "title": "President's Briefing Paper / Scenario Note — 2nd Part of 30th Session",
+      "date": "2025-06-04",
+      "url": "https://www.isa.org.jm/wp-content/uploads/2025/06/Presidents-Briefing-Paper-for-2nd-part-30th-session-v20250604.pdf",
+      "type": "briefing_note"
+    }
+  },
+  "document_type_legend": {
+    "briefing_note": "Background paper prepared by chair/facilitator before a meeting",
+    "facilitator_text": "Draft regulatory text produced by a working group facilitator",
+    "fop_text": "Draft regulatory text submitted by a Friends of the President group",
+    "fop_report": "Report on FOP group activities and recommendations",
+    "chair_text": "Chair's own proposed text to advance negotiations",
+    "oral_report": "Formal oral report by Chair/Facilitator to the Council (Council document)",
+    "president_text": "Draft text produced under direct presidential mandate for WOW areas",
+    "chair_report": "Formal Council document reporting on working group outcomes",
+    "study": "Technical or economic study informing negotiations",
+    "model": "Financial or economic model (spreadsheet)",
+    "submission": "Formal submission by a member state or group of states",
+    "compilation": "Compilation of multiple member state proposals",
+    "presentation": "Presentation delivered at a meeting",
+    "analytical_document": "Analytical or legal analysis paper",
+    "matrix": "Structured comparison or mapping document",
+    "summary": "Summary of discussions or outputs",
+    "meeting_report": "Report of a working group meeting",
+    "information_note": "Background information note",
+    "agenda": "Meeting agenda",
+    "programme": "Indicative programme of work"
+  }
+}
