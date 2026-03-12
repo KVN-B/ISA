@@ -10,6 +10,8 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from app.api import chat, documents, regulations
 
@@ -53,6 +55,19 @@ async def lifespan(app: FastAPI):
         app.state.standards_guidelines = {}
         print("⚠️   standards_guidelines.json not found.")
 
+    # Full text extracts (from scripts/ingest_pdfs.py)
+    full_texts_dir = DATA_DIR / "full_texts"
+    full_texts: dict[str, str] = {}
+    if full_texts_dir.exists():
+        for txt_file in full_texts_dir.glob("*.txt"):
+            doc_id = txt_file.stem
+            full_texts[doc_id] = txt_file.read_text(encoding="utf-8")
+        if full_texts:
+            print(f"✅  Loaded full text for {len(full_texts)} documents")
+        else:
+            print("ℹ️   No extracted texts found (run scripts/ingest_pdfs.py)")
+    app.state.full_texts = full_texts
+
     yield   # server runs here
 
 
@@ -68,15 +83,28 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],        # Restrict in production
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+# Serve chat.html and timeline.html from the project root
+ROOT_DIR = Path(__file__).parent.parent.parent
+app.mount("/static", StaticFiles(directory=str(ROOT_DIR)), name="static")
+
 app.include_router(documents.router,   prefix="/api/documents",   tags=["Documents"])
 app.include_router(chat.router,        prefix="/api/chat",        tags=["Chat"])
 app.include_router(regulations.router, prefix="/api/regulations", tags=["Regulations"])
+
+
+@app.get("/chat")
+async def serve_chat():
+    return FileResponse(str(ROOT_DIR / "chat.html"))
+
+@app.get("/timeline")
+async def serve_timeline():
+    return FileResponse(str(ROOT_DIR / "timeline.html"))
 
 
 @app.get("/api/health")
@@ -85,8 +113,9 @@ async def health():
         "status":  "ok",
         "version": "0.2.0",
         "data": {
-            "documents_loaded":          bool(getattr(app.state, "documents", {}).get("documents")),
-            "working_groups_loaded":     bool(getattr(app.state, "working_groups", {})),
+            "documents_loaded":            bool(getattr(app.state, "documents", {}).get("documents")),
+            "working_groups_loaded":       bool(getattr(app.state, "working_groups", {})),
             "standards_guidelines_loaded": bool(getattr(app.state, "standards_guidelines", {})),
+            "full_texts_loaded":           len(getattr(app.state, "full_texts", {})),
         },
     }

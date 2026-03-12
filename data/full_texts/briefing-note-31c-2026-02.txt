@@ -1,0 +1,204 @@
+[Page 1]
+Version of 24 February 2026
+Briefing note on the Further Revised Consolidated Text of the
+draft Regulations on Exploitation of Mineral Resources in the
+Area
+Prepared by the Secretary-General
+I. Introduction
+1. This briefing note provides an introduction to the Further Revised Consolidated Text of
+the draft Regulations on Exploitation of Mineral Resources in the Area (hereinafter the
+“draft Exploitation Regulations" or the "Text"), prepared pursuant to the Council's decision
+of 18 July 2025, to assist delegations in their preparations for the thirty-first session of the
+Council.
+II. Background
+2. During the thirtieth session of the Council, held in March and July 2025, the Council
+completed the second reading of the Revised Consolidated Text of the draft Exploitation
+Regulations, covering draft regulations from the Preamble through to draft regulation 107.
+It is noted that the Annexes and the Schedule were not addressed during this reading.
+3. On 18 July 2025, the Council adopted its Decision on a thematic approach to the
+continuation of the elaboration of rules, regulations and procedures relating to exploitation
+to resolve remaining key outstanding matters (ISBA/30/C/18). In this Decision, the Council
+requested the Secretariat to prepare a further revised consolidated text, based on the
+discussions during the thirtieth session, and to make it available on the website of the
+International Seabed Authority well in advance of the first meeting of the thirty-first
+session.
+4. At the 339th meeting of the Council on 21 July 2025, the President of the Council
+suggested that the deadline for submissions from delegations be set for 15 September 2025,
+while inputs from the informal working groups and Groups of Friends of the President be
+submitted by 1 December 2025.
+5. The deadline for submissions from States and stakeholders was subsequently extended
+by the Secretariat to 1 October 2025.
+6. On 23 December 2025, the Secretariat published the following documents:
+(a) the Further Revised Consolidated Text (document ISBA/31/C/CRP.1);
+(b) a clean version of the Text (ISBA/31/C/CRP.2); and
+(c) a Further Revised Suspense Document (ISBA/31/C/CRP.3)
+7. On 12 February 2026, a revised version of the Text (ISBA/31/C/CRP.1/Rev.1) and a
+revised clean version (ISBA/31/C/CRP.2/Rev.1) were published on the website of the
+Authority, incorporating a number of comments received from delegations and correcting
+minor editorial matters identified in the initial version of the document. A second revised
+version of the Text (ISBA/31/C/CRP.1/Rev.2), and a second revised clean version
+(ISBA/31/C/CRP.2/Rev.1) were published on 16 February 2026.
+8. For the purposes of the present note, any reference to the Text hereinafter shall be
+understood, unless otherwise specified, as a reference to document
+ISBA/31/C/CRP.1/Rev.2.
+III. Introduction to the Further Revised Consolidated Text
+9. The Further Revised Consolidated Text reflects oral comments received during the
+thirtieth session, as well as written proposals submitted by Member States, stakeholders,
+Informal Working Groups, and Friends of the President initiatives. The Secretariat has
+endeavoured to incorporate the diverse views expressed while maintaining the coherence
+and legal integrity of the Text.
+10. In delivering the mandate given to the Secretariat, a special task force was created
+within the Office of Legal Affairs, led by its Director and integrating consultants with
+1
+
+[Page 2]
+Version of 24 February 2026
+relevant subject-matter expertise for the drafting process, in order to timely and accurately
+deliver the Text, considering the volume of work and number of submissions from member
+States, time allocated for the task and the substantial number of topics and areas of
+speciality. The consultants, to a large extent, have worked in the past with the Open Ended
+Working Group on Financial Terms of a Contract, the Informal Working Group on
+Environmental on the Protection and Preservation of the Marine Environment, the Informal
+Working Group on Inspection, Compliance and Enforcement and on the President’s text.
+11. The primary objective of the Text is to facilitate informal, constructive discussions
+within the Council during the thirty-first session, to harmonize and streamline the draft
+regulations where possible, and to support the Council in advancing and finalizing its work
+on the draft regulations.
+12. To this end, alignment between various provisions has been enhanced by providing
+alternatives and ensuring a consistent use of terms and phrases, where necessary also
+through editorial amendments.
+13. While the Text does not incorporate every individual oral and textual proposal received,
+it seeks to reflect the full range of ideas and policy options expressed during and after the
+thirtieth session. The Secretariat emphasizes that the absence of a specific textual
+formulation from the Text does not prejudice its possible consideration and inclusion at a
+later stage of the negotiations.
+14. Extensive explanations and suggestions have been provided by the Secretariat in
+comment boxes accompanying each draft regulation. These comments are intended to assist
+delegations by ensuring consistency with the language and substantive content of the
+United Nations Convention on the Law of the Sea (the “Convention”) and the Agreement
+relating to the Implementation of Part XI of the United Nations Convention on the Law of
+the Sea of 10 December 1982 (the “1994 Agreement”). Delegations may find these
+comments helpful in understanding the rationale for certain formulations and in identifying
+areas requiring further consideration.
+15. In addition, where relevant, comment boxes include references to how the Agreement
+under the United Nations Convention on the Law of the Sea on the Conservation and
+Sustainable Use of Marine Biological Diversity of Areas beyond National Jurisdiction (the
+"BBNJ Agreement") addresses certain issues. These references are provided for
+informational purposes only and are without prejudice to the Council’s authority to adopt
+different or alternative solutions in the draft Exploitation Regulations.
+16. The Text relies significantly on the work carried out by Informal Working Groups and
+Friends of the President initiatives (hereinafter collectively referred to as the “Groups”).
+Proposals from the Groups have been extensively incorporated, when necessary with minor
+adjustments – such as the inclusion of brackets – required in light of the negotiations
+conducted during the thirtieth session.
+17. The tables below provide an overview of the outcomes of the intersessional work and
+the proposals put forward by the Informal Working Groups (Table 1) and the Friends of the
+President initiatives (Table 2). Delegations are encouraged to review these proposals in
+conjunction with the relevant draft regulations.
+Table 1
+Informal Working Groups Outcome of the discussion / Proposal
+presented for inclusion in the Text
+Effective Control
+• Comprehensive proposal on Effective
+(draft regulations 5, 6, 7, 13, 21, 24, 24bis, 40, Control.
+Annex I, Schedule)
+Inspection, Compliance and Enforcement
+• Proposal on draft regulation 95bis
+Mechanism
+(previously 102)
+2
+
+[Page 3]
+Version of 24 February 2026
+(draft regulation 95bis) • Proposal for a draft Council Decision
+establishing the Compliance
+Committee
+• Proposal for draft Rules of Procedure
+and draft Compliance Strategy for the
+Compliance Committee
+Equalisation Measure
+• Summary of intersessional meetings
+(draft regulation 64bis) and textual proposal for DR64bis
+Rights and Interests of Coastal States
+• Proposal on draft regulation 4, 4bis and
+(draft regulation 4, 4bis, 93bis) 93bis on rights and interests of Coastal
+States
+Underwater Cultural Heritage
+• Comprehensive set of proposals on
+(Preamble, draft regulations 2, 4ter, 13, 15, 35, Underwater Cultural Heritage
+44, 46, 47, 47bis, 59, 99, Annex III bis, Annex
+IV, Schedule)
+Environmental Management and Monitoring
+• Proposal on Environmental Manage-
+(draft regulations 49, 50, 50bis, 50ter, 51, 52, ment and Monitoring
+Schedule)
+Test and Pilot Mining
+• Comprehensive proposal on Test and
+(draft regulations 7, 11, 12, 13, 25, 46, 48, 48 Pilot Mining
+ter, Annex II, Annex IV, Annex VII, Schedule) • Proposal on draft regulation 48ter
+(clean version) and note on draft
+regulation 48ter on outstanding issues
+Reference to Regional Environmental
+• Comprehensive proposal on the
+Management Plans (REMPs)
+reference to REMPs
+(draft regulations 12, 14, 15, Annex IX,
+Schedule)
+Table 2
+Friends of the President Outcome of the discussion / Proposal
+presented for inclusion in the Text
+Modification of a Plan of Work by a Contractor
+• Proposal on draft regulation 57
+(draft regulation 57)
+Protection of Submarine Cables
+• Proposal on draft regulation 31 and
+(draft regulations 31 and 31bis) 31bis
+Environmental Compensation Fund
+• Proposal on the Environmental
+(draft regulations 54, 55, 56) Compensation Fund
+Review of Payment Mechanism
+• Proposal on draft regulations 81 and
+(draft regulation 81 and 82) 82
+3
+
+[Page 4]
+Version of 24 February 2026
+Seabed Mining Register
+• Proposal on draft regulation 92
+(draft regulation 92)
+Prevention of Corruption
+• Proposal on draft regulation 40
+(draft regulation 40)
+Environmental Goal and Objectives
+• Proposal on draft regulation 44ter
+(draft regulation 44ter)
+Non-Compliance Notice, Suspension, and
+• Proposal on draft regulations 103,
+Termination of Exploitation Contract
+103bis, 103ter and 103quat.
+(draft regulations 103, 103bis, 103ter, 103quat.)
+18. Purely editorial amendments have been introduced in the Text – including in the
+proposals submitted by Groups. To avoid confusion, these changes – which include, inter
+alia, standardization of references to articles, regulations and paragraphs, as well as to
+Standards and Guidelines – have not been reflected in mark-up.
+19. The methodology outlined in the previous paragraphs has been followed for the main
+body of the Text, and for these definitions in the Schedule that have been provided by
+Groups. Since a reading of the Annexes and the Schedule has never been conducted by the
+Council, proposals received to refine those parts of the Text have been integrally included
+without any previous evaluation by the Secretariat. As such, amendments made in those
+parts of the Text must be considered as a compilation rather than a consolidation.
+20. As for the previous versions, the Text is accompanied by a Further Revised Suspense
+Document (ISBA/31/C/CRP.3), which contains all the elements to be relocated from the
+draft Regulations on Exploitation of Mineral Resources in the Area to the Standards and
+Guidelines and other Rules, Regulations and Procedures of the Authority.
+21. For the first time, a clean version of the Text (ISBA/31/C/CRP.2/Rev.2) has also been
+published, wherein all marked-up text has been accepted and the comment boxes removed.
+The document is solely provided with an aim of offering to the Council a better overview
+of how the content might look. It is highlighted that, in case of any inconsistency between
+the two documents, the mark-up version shall prevail.
+22. The Further Revised Consolidated Text and its related documents are non-binding and
+without prejudice to any delegation’s position or the Council’s decisions. In this respect
+and as a fundamental principle for the negotiations, it is therefore recalled that nothing is
+agreed until everything is agreed. The Secretariat remains at the disposal of delegations to
+provide any clarifications or additional information that may be required.
+4

@@ -76,9 +76,113 @@ class ChatResponse(BaseModel):
     flags: List[str] = []   # "unresolved", "circular", "out_of_scope", "suspense"
 
 
+# ── Full-text retrieval ───────────────────────────────────────────────────────
+
+# Max chars to include per document excerpt
+_EXCERPT_CHARS = 8_000
+# Lines of context around each keyword match
+_CONTEXT_LINES = 40
+
+
+def _retrieve_full_text(app_state, query: str) -> str:
+    """
+    Search extracted PDF texts for sections relevant to the query.
+    Returns formatted excerpts to append to the context.
+    """
+    full_texts: dict = getattr(app_state, "full_texts", {})
+    if not full_texts:
+        return ""
+
+    # Build search terms from the query
+    terms: list[str] = []
+
+    # DR/regulation number patterns  e.g. "DR 81", "regulation 44", "DR44"
+    for m in re.finditer(r'\bDR\s*(\d+)\b|\breg(?:ulation)?\s*(\d+)\b', query, re.IGNORECASE):
+        num = m.group(1) or m.group(2)
+        terms += [f"DR {num}", f"regulation {num}", f"{num}."]
+
+    # Part references  e.g. "Part IV", "Part 4"
+    for m in re.finditer(r'\bPart\s+([IVXLCDM]+|\d+)\b', query, re.IGNORECASE):
+        terms.append(f"Part {m.group(1)}")
+
+    # Annex references
+    for m in re.finditer(r'\bAnnex\s+([IVXLCDM]+|\d+|[A-Z])\b', query, re.IGNORECASE):
+        terms.append(f"Annex {m.group(1)}")
+
+    # Article references
+    for m in re.finditer(r'\bArticle\s+(\d+)\b', query, re.IGNORECASE):
+        terms.append(f"Article {m.group(1)}")
+
+    # Key phrases (2+ consecutive capitalised words or quoted strings)
+    for m in re.finditer(r'"([^"]{4,60})"', query):
+        terms.append(m.group(1))
+
+    if not terms:
+        # No specific references — return short overview of available full texts
+        doc_ids = list(full_texts.keys())
+        return (
+            "\n─── FULL-TEXT DOCUMENTS AVAILABLE ──────────────────────────────\n"
+            f"Full text extracted for: {', '.join(doc_ids)}\n"
+            "(Ask about a specific regulation, Part, Annex, or Article to retrieve verbatim text.)\n"
+        )
+
+    # Prioritise current/clean text first
+    priority_order = [
+        "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
+        "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
+        "further-rev-suspense-isba31c-crp3-2025-12",
+        "isa-consolidated-part-xi-2025",
+    ]
+    ordered_ids = priority_order + [k for k in full_texts if k not in priority_order]
+
+    result_parts = ["\n─── FULL-TEXT EXCERPTS (verbatim from PDFs) ─────────────────────"]
+    total_chars = 0
+
+    for doc_id in ordered_ids:
+        text = full_texts.get(doc_id)
+        if not text or total_chars >= _EXCERPT_CHARS * 3:
+            break
+
+        lines = text.splitlines()
+        matched_ranges: list[tuple[int, int]] = []
+
+        for term in terms:
+            for i, line in enumerate(lines):
+                if term.lower() in line.lower():
+                    start = max(0, i - _CONTEXT_LINES // 2)
+                    end   = min(len(lines), i + _CONTEXT_LINES // 2)
+                    # Merge overlapping ranges
+                    if matched_ranges and start <= matched_ranges[-1][1]:
+                        matched_ranges[-1] = (matched_ranges[-1][0], max(end, matched_ranges[-1][1]))
+                    else:
+                        matched_ranges.append((start, end))
+
+        if not matched_ranges:
+            continue
+
+        doc_label = doc_id.replace("-", " ").title()
+        result_parts.append(f"\n[Source: {doc_label}]")
+
+        for start, end in matched_ranges[:3]:   # max 3 excerpts per doc
+            excerpt = "\n".join(lines[start:end])
+            if total_chars + len(excerpt) > _EXCERPT_CHARS * 3:
+                excerpt = excerpt[:_EXCERPT_CHARS]
+            result_parts.append(f"... (lines {start+1}–{end}) ...\n{excerpt}\n...")
+            total_chars += len(excerpt)
+
+    if len(result_parts) == 1:
+        result_parts.append(
+            f"No verbatim matches found for: {', '.join(terms[:5])}\n"
+            "(The provision may use different numbering in the extracted text.)"
+        )
+
+    result_parts.append("─────────────────────────────────────────────────────────────\n")
+    return "\n".join(result_parts)
+
+
 # ── Context builder ──────────────────────────────────────────────────────────
 
-def _build_context(app_state) -> str:
+def _build_context(app_state, query: str = "") -> str:
     """
     Build a comprehensive, structured knowledge-base context from all loaded JSON files.
     This replaces the vector-search stub with structured JSON knowledge.
@@ -139,14 +243,19 @@ def _build_context(app_state) -> str:
                      + ", ".join(d.get("reference") or d.get("short_title","?") for d in superseded[:8]) + " ...")
         parts.append("")
 
-        # Regulatory progression
+        # Regulatory progression (list of document IDs)
         progression = docs_state.get("regulatory_text_progression", [])
         if progression:
+            doc_index = {d.get("id"): d for d in all_docs if d.get("id")}
             parts.append("REGULATORY TEXT PROGRESSION (chronological):")
-            for p in progression:
-                current_flag = " ← CURRENT" if p.get("current") else ""
-                parts.append(f"  {p.get('date','')} — {p.get('reference','')}: "
-                             f"{p.get('title','')}{current_flag}")
+            for doc_id in progression:
+                d = doc_index.get(doc_id)
+                if d:
+                    current_flag = " ← CURRENT" if d.get("status") == "current" else ""
+                    parts.append(f"  {d.get('date','')} — {d.get('reference','')}: "
+                                 f"{d.get('short_title', d.get('title',''))}{current_flag}")
+                else:
+                    parts.append(f"  {doc_id}")
             parts.append("")
     else:
         parts.append("  (documents.json not loaded — run server from repo root)\n")
@@ -254,6 +363,11 @@ def _build_context(app_state) -> str:
         parts.append("  (standards_guidelines.json not loaded)\n")
 
     parts.append("═══════════════════════════════════════════════════════════════")
+
+    # ── 5. Full-text excerpts (query-aware) ──────────────────────────
+    if query:
+        parts.append(_retrieve_full_text(app_state, query))
+
     return "\n".join(parts)
 
 
@@ -271,12 +385,12 @@ async def chat(request: Request, body: ChatRequest):
             detail="ANTHROPIC_API_KEY not configured. Set this environment variable to enable chat."
         )
 
-    context = _build_context(request.app.state)
+    context = _build_context(request.app.state, body.message)
     messages = _build_messages(body, context)
 
     client = anthropic.Anthropic(api_key=api_key)
     response = client.messages.create(
-        model="claude-opus-4-5",
+        model="claude-sonnet-4-6",
         max_tokens=2048,
         system=SYSTEM_PROMPT,
         messages=messages,
@@ -306,7 +420,7 @@ async def chat_stream(request: Request, body: ChatRequest):
             detail="ANTHROPIC_API_KEY not configured."
         )
 
-    context   = _build_context(request.app.state)
+    context   = _build_context(request.app.state, body.message)
     messages  = _build_messages(body, context)
     thread_id = body.thread_id or str(uuid.uuid4())
     client    = anthropic.Anthropic(api_key=api_key)
@@ -315,7 +429,7 @@ async def chat_stream(request: Request, body: ChatRequest):
         full_text = ""
         try:
             with client.messages.stream(
-                model="claude-opus-4-5",
+                model="claude-sonnet-4-6",
                 max_tokens=2048,
                 system=SYSTEM_PROMPT,
                 messages=messages,
