@@ -22,6 +22,8 @@
     .lane-stakeholder { border-left: 4px solid #CC9900; }
     .lane-process { border-left: 4px solid #009966; }
     .lane-prep { border-left: 4px solid #999999; }
+    .lane-foundation { border-left: 4px solid #7c3aed; }
+    .foundation-banner { background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4c1d95 100%); }
     .progress-bar { background: linear-gradient(90deg, #003366 0%, #006699 40%, #009966 70%, #CC9900 100%); }
     details > summary { cursor: pointer; }
     details > summary::-webkit-details-marker { display: none; }
@@ -86,6 +88,7 @@
       <button onclick="filterDocs('stakeholder_submission')" id="filter-stakeholder" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-yellow-600 text-yellow-700 hover:bg-yellow-50">Stakeholder Input</button>
       <button onclick="filterDocs('road_map')" id="filter-process" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-green-700 text-green-700 hover:bg-green-50">Process / Road Map</button>
       <button onclick="filterDocs('discussion_paper')" id="filter-prep" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-gray-400 text-gray-500 hover:bg-gray-50">Discussion Papers</button>
+      <button onclick="filterDocs('foundational_treaty')" id="filter-foundation" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-purple-700 text-purple-700 hover:bg-purple-50">⚖️ LOSC / IA</button>
       <div class="ml-auto flex items-center gap-2">
         <label class="text-xs text-gray-500">Show current only</label>
         <input type="checkbox" id="current-only" onchange="toggleCurrentOnly()" class="rounded">
@@ -101,6 +104,7 @@
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-yellow-600 inline-block"></span> Stakeholder Input</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-green-700 inline-block"></span> Process / Road Map</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-gray-400 inline-block"></span> Discussion Papers</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-purple-700 inline-block"></span> LOSC / IA (Foundational)</span>
       <span class="flex items-center gap-1 ml-4 border-l pl-4"><span class="w-3 h-3 rounded bg-green-500 inline-block border-2 border-green-700"></span> Current</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-gray-300 inline-block"></span> Superseded</span>
       <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-orange-300 inline-block"></span> Historical</span>
@@ -130,6 +134,76 @@
 
   <script>
     // ─── DATA ────────────────────────────────────────────────────────────────────
+    const FOUNDATION_DOCS = [
+      {
+        id: "losc-unclos-1982",
+        reference: "UNCLOS / LOSC",
+        title: "United Nations Convention on the Law of the Sea",
+        short_title: "LOSC 1982 (UNCLOS)",
+        type: "foundational_treaty",
+        date: "10 December 1982 · In force: 16 November 1994",
+        date_sort: "1982-12-10",
+        status: "in_force",
+        articles: 320,
+        annexes: 9,
+        states_parties: 169,
+        description: "The foundational 'constitution for the oceans'. Part XI (Articles 133–191) establishes the Area as the Common Heritage of Mankind, creates the ISA, and sets the legal framework for all exploitation activities. Several Part XI provisions are modified or replaced by the 1994 IA, which prevails in case of inconsistency.",
+        key_topics: ["Common Heritage of Mankind","the Area","ISA establishment","Part XI Articles 133–191","The Enterprise","environmental protection","benefit of mankind"],
+        part_xi_modified_by_ia: ["Article 144 (Technology Transfer)","Article 150 (Production Policies)","Article 151 (Production Policies)","Article 155 (Review Conference)","Article 161 (Council voting)","Article 170 (The Enterprise)","Annex III Article 13 (Financial Terms)"],
+        languages: ["en","fr","ar","zh","ru","es"],
+        url_pdf_en: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+        url_pdf_fr: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_f.pdf",
+        url_pdf_ar: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_a.pdf",
+        url_pdf_zh: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_c.pdf",
+        url_pdf_ru: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_r.pdf",
+        url_pdf_es: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_s.pdf",
+        url_toc: "https://www.un.org/Depts/los/convention_agreements/texts/unclos/UNCLOS-TOC.htm",
+        url_web: "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+      },
+      {
+        id: "ia-1994",
+        reference: "1994 Implementation Agreement",
+        title: "Agreement relating to the Implementation of Part XI of UNCLOS",
+        short_title: "1994 Implementation Agreement (IA)",
+        type: "foundational_treaty",
+        date: "28 July 1994 · In force: 28 July 1996",
+        date_sort: "1994-07-28",
+        status: "in_force",
+        adoption_resolution: "UNGA Resolution 48/263",
+        description: "Fundamentally reformed Part XI of UNCLOS making it acceptable to industrialised states. Under Article 2, the IA and Part XI are interpreted and applied as a single instrument. The IA PREVAILS over Part XI in case of inconsistency. Contains 9 sections modifying: The Enterprise; Council decision-making; Review Conference; Technology Transfer; Production Policies; Economic Assistance; Finance Committee (new); Financial Terms of Contracts.",
+        key_topics: ["prevails over Part XI","The Enterprise joint ventures","Council voting reform","technology transfer weakened","production policies","Finance Committee","royalty system","UNGA Res. 48/263"],
+        ia_sections_modifying_unclos: [
+          "§1 Institutional Arrangements — streamlined Authority structure",
+          "§2 The Enterprise — joint ventures only initially; no concurrent operations",
+          "§3 Council Decision-making — consensus before vote; revised Chambers",
+          "§4 Review Conference — no longer mandatory (Art. 155 deleted in effect)",
+          "§5 Transfer of Technology — weakened to market-based commercial terms",
+          "§6 Production Policies — anti-protectionist provisions removed",
+          "§7 Economic Assistance — flexible mechanism replaces mandatory fund",
+          "§8 Finance Committee — new body; consensus; major-contributor influence",
+          "§9 Financial Terms — simplified royalty/profit-sharing choice"
+        ],
+        languages: ["en","fr","ar","zh","ru","es"],
+        url_html_en: "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm",
+        url_web: "https://www.un.org/depts/los/convention_agreements/convention_overview_part_xi.htm",
+        url_treaty_collection: "https://treaties.un.org/Pages/ViewTreatiesII.aspx?objid=0800000280043ad5",
+      },
+      {
+        id: "isa-consolidated-part-xi-2025",
+        reference: "ISA Part XI Consolidation",
+        title: "Consolidation of Part XI of the Convention and the Implementation Agreement",
+        short_title: "Consolidated Part XI + IA (ISA, 2025)",
+        type: "foundational_treaty",
+        date: "July 2025",
+        date_sort: "2025-07-01",
+        status: "current",
+        description: "ISA-published e-book (2025) presenting UNCLOS Part XI and the 1994 IA as a consolidated single instrument, showing the applicable law as it stands with all IA modifications incorporated. The most practical reference for the exploitation regulations drafting process.",
+        key_topics: ["Part XI consolidated","IA modifications incorporated","single instrument","ISA authority","the Area","practical reference"],
+        languages: ["en"],
+        url_pdf: "https://www.isa.org.jm/wp-content/uploads/2025/07/Consolidation-of-Part-XI_e-book.pdf",
+      },
+    ];
+
     const DOCUMENTS = [
       {id:"disc-paper-financial-2014",reference:null,title:"Developing Financial Terms for Deep Sea Mining Exploitation — Comparable Study",short_title:"Financial Terms Study",type:"discussion_paper",category:"preparatory",session:20,date:"2014",date_sort:"2014-01-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/FinTerms2014.pdf",status:"historical",description:"Comparable study on developing financial terms for deep-sea mining exploitation in the Area.",key_topics:["financial terms","royalties","fiscal regime"]},
       {id:"draft-framework-2015-03",reference:null,title:"Draft Framework for Deep Sea Mineral Exploitation in the Area",short_title:"Draft Framework",type:"discussion_paper",category:"preparatory",session:21,date:"2015-03",date_sort:"2015-03-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/Report-2015.pdf",status:"historical",description:"First draft framework document for deep-sea mineral exploitation regulations.",key_topics:["framework","exploitation","mineral resources"]},
@@ -177,6 +251,8 @@
       road_map: { color: '#14532d', bg: '#dcfce7', label: 'Process / Road Map', border: '#14532d' },
       discussion_paper: { color: '#374151', bg: '#f3f4f6', label: 'Discussion Paper', border: '#9ca3af' },
       clean_version: { color: '#1e3a8a', bg: '#e0e7ff', label: 'Clean Version', border: '#1e3a8a' },
+      foundational_treaty: { color: '#5b21b6', bg: '#ede9fe', label: 'Foundational Legal Text', border: '#7c3aed' },
+      consolidated_text: { color: '#5b21b6', bg: '#ede9fe', label: 'Consolidated Text', border: '#7c3aed' },
     };
 
     const STATUS_CONFIG = {
@@ -205,21 +281,77 @@
     function getFilterType(type) {
       if (['companion_document','briefing_note','standards_guidelines','clean_version'].includes(type)) return 'companion_document';
       if (['road_map'].includes(type)) return 'road_map';
+      if (['foundational_treaty','consolidated_text'].includes(type)) return 'foundational_treaty';
       return type;
+    }
+
+    function renderFoundationSection(filter, currentOnly) {
+      let fdocs = [...FOUNDATION_DOCS];
+      if (filter !== 'all' && filter !== 'foundational_treaty') return '';
+      if (currentOnly) return '';
+
+      return `
+        <div class="mb-10">
+          <div class="foundation-banner rounded-2xl p-6 mb-4 text-white">
+            <div class="flex items-center gap-3 mb-3">
+              <div class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center font-bold text-sm">⚖️</div>
+              <div>
+                <div class="font-bold text-lg">Foundational Legal Framework</div>
+                <div class="text-sm opacity-70">The legal basis for all ISA exploitation regulations — must be fully consistent with these instruments</div>
+              </div>
+            </div>
+            <div class="bg-white bg-opacity-10 rounded-xl p-4 text-sm mb-4">
+              <strong>Legal hierarchy:</strong> 1994 IA prevails over UNCLOS Part XI in case of inconsistency (Art. 2(1), IA).
+              Both instruments are interpreted and applied as a single instrument.
+              All ISA exploitation regulations must be consistent with UNCLOS + IA.
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              ${fdocs.map(doc => renderFoundationCard(doc)).join('')}
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 mb-8">
+          <div class="flex-1 border-t-2 border-dashed border-gray-300"></div>
+          <div class="text-xs font-semibold text-gray-400 uppercase tracking-widest px-3">Exploitation Regulations Drafting History</div>
+          <div class="flex-1 border-t-2 border-dashed border-gray-300"></div>
+        </div>
+      `;
+    }
+
+    function renderFoundationCard(doc) {
+      const isIA = doc.id === 'ia-1994';
+      const isConsolidated = doc.id === 'isa-consolidated-part-xi-2025';
+      return `
+        <div class="bg-white bg-opacity-10 hover:bg-opacity-20 rounded-xl p-4 cursor-pointer transition-all border border-white border-opacity-20"
+             onclick="showFoundationModal('${doc.id}')">
+          <div class="font-mono text-xs text-purple-200 mb-1">${doc.reference}</div>
+          <div class="font-bold text-sm mb-1">${doc.short_title}</div>
+          <div class="text-xs opacity-70 mb-3">${doc.date}</div>
+          <div class="text-xs opacity-80 leading-relaxed mb-3">${doc.description.substring(0,120)}...</div>
+          ${isIA ? `<div class="bg-red-400 bg-opacity-30 text-white text-xs font-bold px-2 py-1 rounded mb-2">⚡ PREVAILS over UNCLOS Part XI</div>` : ''}
+          ${isConsolidated ? `<div class="bg-green-400 bg-opacity-30 text-white text-xs font-bold px-2 py-1 rounded mb-2">★ Recommended reference</div>` : ''}
+          <div class="flex flex-wrap gap-1 mt-2">
+            ${(doc.languages||['en']).map(l=>`<span class="text-xs bg-white bg-opacity-20 px-1.5 py-0.5 rounded font-semibold">${l.toUpperCase()}</span>`).join('')}
+          </div>
+          <div class="text-xs mt-2 text-purple-200">Click for details & downloads ↗</div>
+        </div>
+      `;
     }
 
     function renderTimeline(filter = 'all', currentOnly = false) {
       const container = document.getElementById('timeline-container');
       let docs = [...DOCUMENTS].sort((a,b) => a.date_sort.localeCompare(b.date_sort));
-      if (filter !== 'all') docs = docs.filter(d => getFilterType(d.type) === filter);
+      if (filter !== 'all' && filter !== 'foundational_treaty') docs = docs.filter(d => getFilterType(d.type) === filter);
+      if (filter === 'foundational_treaty') docs = [];
       if (currentOnly) docs = docs.filter(d => d.status === 'current');
 
-      document.getElementById('doc-count').textContent = docs.length + ' documents';
+      const totalCount = (filter === 'all' ? FOUNDATION_DOCS.length : (filter === 'foundational_treaty' ? FOUNDATION_DOCS.length : 0)) + docs.length;
+      document.getElementById('doc-count').textContent = totalCount + ' documents';
 
       const groups = groupBySession(docs);
       const sessions = Object.keys(groups).sort((a,b) => Number(a)-Number(b));
 
-      container.innerHTML = sessions.map(session => {
+      container.innerHTML = renderFoundationSection(filter, currentOnly) + sessions.map(session => {
         const year = SESSION_YEARS[Number(session)] || session;
         const sessionDocs = groups[session];
         const hasMain = sessionDocs.some(d => d.type === 'main_regulatory_text' || d.type === 'clean_version');
@@ -302,6 +434,56 @@
       document.getElementById('modal').classList.add('hidden');
     }
 
+    function showFoundationModal(id) {
+      const doc = FOUNDATION_DOCS.find(d => d.id === id);
+      if (!doc) return;
+
+      document.getElementById('modal-badge').textContent = 'Foundational Legal Text';
+      document.getElementById('modal-badge').style.cssText = 'background:#ede9fe;color:#5b21b6;font-size:12px;font-weight:700;padding:4px 12px;border-radius:9999px';
+      document.getElementById('modal-title').textContent = doc.title;
+      document.getElementById('modal-ref').textContent = doc.reference || '—';
+      document.getElementById('modal-date').textContent = doc.date + (doc.articles ? ` · ${doc.articles} articles, ${doc.annexes} annexes · ${doc.states_parties} States Parties` : '');
+      document.getElementById('modal-desc').textContent = doc.description;
+
+      const topicsEl = document.getElementById('modal-topics');
+      let topicsHTML = '';
+      if (doc.key_topics) {
+        topicsHTML += `<div class="flex flex-wrap gap-2 mb-3">${doc.key_topics.map(t=>`<span class="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full">${t}</span>`).join('')}</div>`;
+      }
+      if (doc.part_xi_modified_by_ia) {
+        topicsHTML += `<div class="bg-yellow-50 border border-yellow-200 rounded-lg p-3 mb-3">
+          <div class="text-xs font-bold text-yellow-800 mb-2">⚠️ Part XI provisions modified by the 1994 IA:</div>
+          <ul class="text-xs text-yellow-900 space-y-1">${doc.part_xi_modified_by_ia.map(a=>`<li>• ${a}</li>`).join('')}</ul>
+        </div>`;
+      }
+      if (doc.ia_sections_modifying_unclos) {
+        topicsHTML += `<div class="bg-red-50 border border-red-200 rounded-lg p-3 mb-3">
+          <div class="text-xs font-bold text-red-800 mb-2">⚡ IA Sections modifying UNCLOS Part XI:</div>
+          <ul class="text-xs text-red-900 space-y-1">${doc.ia_sections_modifying_unclos.map(s=>`<li>• ${s}</li>`).join('')}</ul>
+        </div>`;
+      }
+      topicsEl.innerHTML = topicsHTML;
+
+      const linksEl = document.getElementById('modal-links');
+      linksEl.innerHTML = '';
+      // Multi-language PDF links for LOSC
+      if (doc.url_pdf_en) {
+        const langs = [
+          ['EN','English',doc.url_pdf_en],['FR','Français',doc.url_pdf_fr],
+          ['AR','العربية',doc.url_pdf_ar],['ZH','中文',doc.url_pdf_zh],
+          ['RU','Русский',doc.url_pdf_ru],['ES','Español',doc.url_pdf_es],
+        ];
+        linksEl.innerHTML += `<div class="w-full mb-2"><div class="text-xs font-semibold text-gray-500 mb-2">Download full text PDF:</div><div class="flex flex-wrap gap-2">${langs.map(([code,label,url])=>url?`<a href="${url}" target="_blank" class="px-3 py-1.5 bg-purple-800 text-white text-xs font-bold rounded-lg hover:bg-purple-700">📄 ${code}</a>`:''  ).join('')}</div></div>`;
+      }
+      if (doc.url_pdf) linksEl.innerHTML += `<a href="${doc.url_pdf}" target="_blank" class="px-4 py-2 bg-purple-800 text-white text-sm font-semibold rounded-lg hover:bg-purple-700">📄 Download PDF</a>`;
+      if (doc.url_html_en) linksEl.innerHTML += `<a href="${doc.url_html_en}" target="_blank" class="px-4 py-2 bg-purple-100 text-purple-800 text-sm font-semibold rounded-lg hover:bg-purple-200">🌐 Full Text (HTML)</a>`;
+      if (doc.url_toc) linksEl.innerHTML += `<a href="${doc.url_toc}" target="_blank" class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-200">📋 Table of Contents</a>`;
+      if (doc.url_web) linksEl.innerHTML += `<a href="${doc.url_web}" target="_blank" class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-200">🔗 Overview</a>`;
+      if (doc.url_treaty_collection) linksEl.innerHTML += `<a href="${doc.url_treaty_collection}" target="_blank" class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-200">📜 UN Treaty Collection</a>`;
+
+      document.getElementById('modal').classList.remove('hidden');
+    }
+
     document.getElementById('modal').addEventListener('click', function(e) {
       if (e.target === this) closeModal();
     });
@@ -313,7 +495,8 @@
         b.classList.remove('active','bg-blue-800','text-white','bg-teal-700','bg-yellow-600','bg-green-700','bg-gray-500');
         b.classList.add('text-gray-600');
       });
-      const btn = document.getElementById(`filter-${type === 'main_regulatory_text' ? 'main' : type === 'companion_document' ? 'companion' : type === 'stakeholder_submission' ? 'stakeholder' : type === 'road_map' ? 'process' : type === 'discussion_paper' ? 'prep' : 'all'}`);
+      const idMap = { main_regulatory_text:'main', companion_document:'companion', stakeholder_submission:'stakeholder', road_map:'process', discussion_paper:'prep', foundational_treaty:'foundation', all:'all' };
+      const btn = document.getElementById(`filter-${idMap[type]||'all'}`);
       if (btn) { btn.classList.add('bg-blue-800','text-white'); }
       renderTimeline(currentFilter, showCurrentOnly);
     }

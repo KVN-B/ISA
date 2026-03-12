@@ -2,7 +2,188 @@
   "last_updated": "2026-03-12",
   "source": "International Seabed Authority — https://www.isa.org.jm",
   "mineral_type": "polymetallic_nodules",
+  "foundational_legal_framework": {
+    "note": "The exploitation regulations must be fully consistent with UNCLOS (LOSC 1982) and the 1994 IA. The IA prevails over Part XI of UNCLOS in case of inconsistency (Article 2, 1994 IA). Together they form a single instrument.",
+    "part_xi_articles_modified_by_ia": {
+      "section_1_costs_institutional": {
+        "ia_section": 1,
+        "subject": "Costs to States Parties and Institutional Arrangements",
+        "unclos_articles_affected": ["Articles 156-170 (Authority structure)"],
+        "change": "Streamlined the Authority's initial structure and reduced costs. Limited the Enterprise's initial operations."
+      },
+      "section_2_enterprise": {
+        "ia_section": 2,
+        "subject": "The Enterprise",
+        "unclos_articles_affected": ["Articles 170, 173"],
+        "change": "Enterprise no longer required to begin operations concurrently with ISA. Must initially operate through joint ventures with private contractors."
+      },
+      "section_3_decision_making": {
+        "ia_section": 3,
+        "subject": "Decision-making in the Council",
+        "unclos_articles_affected": ["Article 161"],
+        "change": "Revised Council voting procedures. Consensus must be sought before any vote. Revised Chamber composition for voting majorities."
+      },
+      "section_4_review_conference": {
+        "ia_section": 4,
+        "subject": "Review Conference",
+        "unclos_articles_affected": ["Article 155"],
+        "change": "Eliminated the mandatory 15-year Review Conference. A review conference may be convened but is no longer automatic."
+      },
+      "section_5_transfer_of_technology": {
+        "ia_section": 5,
+        "subject": "Transfer of Technology",
+        "unclos_articles_affected": ["Article 144", "Annex III Article 5"],
+        "change": "Mandatory technology transfer obligation significantly weakened. Now only on 'fair and reasonable commercial terms and conditions' on a market basis."
+      },
+      "section_6_production_policies": {
+        "ia_section": 6,
+        "subject": "Production Policies",
+        "unclos_articles_affected": ["Articles 150-151"],
+        "change": "Anti-protectionist production limitations replaced with general obligation to promote vigorous competition and prevent monopolisation."
+      },
+      "section_7_economic_assistance": {
+        "ia_section": 7,
+        "subject": "Economic Assistance to Developing States",
+        "unclos_articles_affected": ["Article 151(10)"],
+        "change": "Mandatory economic assistance fund replaced with a more flexible mechanism under the Finance Committee."
+      },
+      "section_8_finance_committee": {
+        "ia_section": 8,
+        "subject": "Finance Committee (new body)",
+        "unclos_articles_affected": ["New — no UNCLOS equivalent"],
+        "change": "Created a new Finance Committee with decision-making by consensus. States with the largest assessed contributions have disproportionate influence."
+      },
+      "section_9_financial_terms": {
+        "ia_section": 9,
+        "subject": "Financial Terms of Contracts",
+        "unclos_articles_affected": ["Annex III Article 13"],
+        "change": "Simplified the complex two-tier financial system (fixed fee + profit-sharing). Contractors may now choose between a royalty system or a profit-sharing system."
+      }
+    }
+  },
   "documents": [
+    {
+      "id": "losc-unclos-1982",
+      "reference": "UNCLOS / LOSC",
+      "title": "United Nations Convention on the Law of the Sea",
+      "short_title": "LOSC 1982 (UNCLOS)",
+      "type": "foundational_treaty",
+      "category": "foundational_legal_text",
+      "session": null,
+      "date": "1982-12-10",
+      "date_sort": "1982-12-10",
+      "entry_into_force": "1994-11-16",
+      "depositary": "Secretary-General of the United Nations",
+      "adoption_place": "Montego Bay, Jamaica",
+      "url_pdf_en": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+      "url_pdf_fr": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_f.pdf",
+      "url_pdf_ar": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_a.pdf",
+      "url_pdf_zh": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_c.pdf",
+      "url_pdf_ru": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_r.pdf",
+      "url_pdf_es": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_s.pdf",
+      "url_toc": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/UNCLOS-TOC.htm",
+      "url_web": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+      "url_treaty_collection": "https://treaties.un.org/pages/ViewDetailsIII.aspx?mtdsg_no=XXI-6&chapter=21&Temp=mtdsg3&clang=_en",
+      "status": "in_force",
+      "languages": ["en", "fr", "ar", "zh", "ru", "es"],
+      "articles": 320,
+      "annexes": 9,
+      "states_parties": 169,
+      "description": "The foundational 'constitution for the oceans'. Part XI (Articles 133–191) establishes the international seabed area as the Common Heritage of Mankind, creates the International Seabed Authority (ISA), and sets the legal framework for all exploitation activities in the Area. NOTE: Several provisions of Part XI have been modified or replaced by the 1994 Implementation Agreement, which prevails in case of inconsistency.",
+      "key_topics": [
+        "common heritage of mankind",
+        "the Area",
+        "ISA establishment",
+        "exploitation framework",
+        "Part XI Articles 133-191",
+        "The Enterprise",
+        "Council decision-making",
+        "environmental protection",
+        "benefit of mankind"
+      ],
+      "part_xi_key_articles": {
+        "133": "Use of terms",
+        "134": "Scope of Part XI",
+        "136": "Common heritage of mankind",
+        "137": "Legal status of the Area and its resources",
+        "139": "Responsibility to ensure compliance",
+        "140": "Benefit of mankind",
+        "141": "Use of the Area exclusively for peaceful purposes",
+        "142": "Rights and legitimate interests of coastal States",
+        "143": "Marine scientific research",
+        "144": "Transfer of technology [MODIFIED BY IA]",
+        "145": "Protection of the marine environment",
+        "146": "Protection of human life",
+        "147": "Accommodation of activities",
+        "148": "Participation of developing States",
+        "149": "Archaeological and historical objects",
+        "150": "Policies relating to activities in the Area [MODIFIED BY IA]",
+        "151": "Production policies [MODIFIED BY IA]",
+        "153": "System of exploration and exploitation",
+        "155": "The Review Conference [MODIFIED BY IA]",
+        "156-170": "The Authority (Assembly, Council, Enterprise, organs)",
+        "161": "Composition, procedure and voting in the Council [MODIFIED BY IA]",
+        "170": "The Enterprise [MODIFIED BY IA]",
+        "186-191": "Sea-Bed Disputes Chamber of ITLOS"
+      }
+    },
+    {
+      "id": "ia-1994",
+      "reference": "1994 Implementation Agreement",
+      "title": "Agreement relating to the Implementation of Part XI of the United Nations Convention on the Law of the Sea of 10 December 1982",
+      "short_title": "1994 Implementation Agreement (IA)",
+      "type": "foundational_treaty",
+      "category": "foundational_legal_text",
+      "session": null,
+      "date": "1994-07-28",
+      "date_sort": "1994-07-28",
+      "entry_into_force": "1996-07-28",
+      "adoption_resolution": "UNGA Resolution 48/263",
+      "url_html_en": "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm",
+      "url_web": "https://www.un.org/depts/los/convention_agreements/convention_overview_part_xi.htm",
+      "url_treaty_collection": "https://treaties.un.org/Pages/ViewTreatiesII.aspx?objid=0800000280043ad5",
+      "status": "in_force",
+      "languages": ["en", "fr", "ar", "zh", "ru", "es"],
+      "description": "The 1994 Agreement fundamentally reformed Part XI of UNCLOS to make it acceptable to industrialised states. Under Article 2, the IA and Part XI are interpreted and applied as a single instrument. In case of inconsistency, the IA PREVAILS. Ratification of UNCLOS after 1994 automatically constitutes consent to the IA. The Annex to the IA contains 9 sections modifying specific UNCLOS Part XI provisions — see foundational_legal_framework.part_xi_articles_modified_by_ia for the full breakdown.",
+      "key_topics": [
+        "Part XI reform",
+        "common heritage of mankind",
+        "The Enterprise joint ventures",
+        "Council decision-making reform",
+        "technology transfer",
+        "production policies",
+        "financial terms",
+        "Finance Committee",
+        "royalty system",
+        "prevails over UNCLOS Part XI"
+      ],
+      "legal_relationship_to_unclos": "PREVAILS over UNCLOS Part XI in case of inconsistency (Article 2(1)). Both instruments are interpreted and applied together as a single instrument (Article 2(1)). Consent to UNCLOS after 28 July 1994 also constitutes consent to the IA."
+    },
+    {
+      "id": "isa-consolidated-part-xi-2025",
+      "reference": "ISA Part XI Consolidation",
+      "title": "Consolidation of Part XI of the Convention and the Implementation Agreement",
+      "short_title": "Consolidated Part XI + IA (ISA, 2025)",
+      "type": "consolidated_text",
+      "category": "foundational_legal_text",
+      "session": null,
+      "date": "2025-07",
+      "date_sort": "2025-07-01",
+      "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2025/07/Consolidation-of-Part-XI_e-book.pdf",
+      "url_web": "https://www.isa.org.jm",
+      "status": "current",
+      "languages": ["en"],
+      "description": "ISA-published e-book (2025) presenting UNCLOS Part XI and the 1994 Implementation Agreement as a consolidated single instrument, showing which UNCLOS provisions are modified by the IA. This is the most practical reference for the exploitation regulations drafting process, as it shows the applicable law in consolidated form.",
+      "key_topics": [
+        "Part XI consolidated",
+        "IA modifications incorporated",
+        "single instrument",
+        "ISA authority",
+        "the Area",
+        "common heritage of mankind",
+        "practical reference"
+      ]
+    },
     {
       "id": "disc-paper-financial-2014",
       "reference": null,
