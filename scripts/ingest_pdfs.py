@@ -67,9 +67,17 @@ def ingest(force: bool = False):
         sys.exit(1)
 
     docs = json.loads(docs_path.read_text())["documents"]
+    def get_pdf_url(doc: dict) -> str:
+        """Return best available PDF URL for a document."""
+        return (
+            doc.get("url_pdf")
+            or doc.get("url_pdf_en")
+            or ""
+        )
+
     targets = [
         d for d in docs
-        if d.get("status") in TARGET_STATUSES and d.get("url_pdf")
+        if d.get("status") in TARGET_STATUSES and get_pdf_url(d)
     ]
 
     print(f"Found {len(targets)} documents to ingest.\n")
@@ -79,7 +87,7 @@ def ingest(force: bool = False):
     for doc in targets:
         doc_id   = doc["id"]
         ref      = doc.get("reference") or doc_id
-        pdf_url  = doc["url_pdf"]
+        pdf_url  = get_pdf_url(doc)
         text_path = TEXT_DIR / f"{doc_id}.txt"
 
         print(f"[{ref}] {doc_id}")
