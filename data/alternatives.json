@@ -1,0 +1,634 @@
+{
+  "generated": "2026-03-12",
+  "source_document": "ISBA/31/C/CRP.2/Rev.2",
+  "source_file": "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
+  "total": 34,
+  "inline_count": 32,
+  "full_reg_count": 2,
+  "alternatives": [
+    {
+      "id": "regulation-1-paragraph-3-alt-0",
+      "regulation": "Regulation 1",
+      "paragraph": "paragraph 3",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "the Standards and Guidelines"
+        },
+        {
+          "label": "Alt.2",
+          "text": "any future Standards and Guidelines adopted in accordance with these Regulations"
+        }
+      ],
+      "context_before": "and applied accordingly. 3. Terms and phrases [listed in the Schedule are defined] for the purposes of these Regulations and",
+      "context_after": "]. 4. These Regulations are accompanied by Standards and Guidelines, as referred to in these Regulations and the Annexes thereto,"
+    },
+    {
+      "id": "regulation-1-paragraph-4-alt-1",
+      "regulation": "Regulation 1",
+      "paragraph": "paragraph 4",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "including Regional Environmental Management Plans, [and conservation and management measures]"
+        },
+        {
+          "label": "Alt.2",
+          "text": "These Regulations are further complemented by Regional Environmental Management Plans"
+        }
+      ],
+      "context_before": "further rules, regulations and procedures of the Authority [, in particular on the protection and preservation of the Marine Environment",
+      "context_after": "]]. 5. The Annexes, Appendices and Schedule to these Regulations form an integral part of the Regulations and any reference"
+    },
+    {
+      "id": "regulation-2-paragraph-6-alt-2",
+      "regulation": "Regulation 2",
+      "paragraph": "paragraph 6",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "endeavours in their actions to uphold public trust /in the regulatory integrity of the Authority"
+        },
+        {
+          "label": "Alt.2",
+          "text": "efforts to ensure performance of functions by the Authority"
+        }
+      ],
+      "context_before": "16 of 197 [7. Members of the Authority, Sponsoring States, [Applicants and] Contractors, [observers] and the Authority shall use best",
+      "context_after": "].] [7. bis. Nothing in these Regulations shall be construed as diminishing or extinguishing the existing rights of Indigenous Peoples,"
+    },
+    {
+      "id": "regulation-3-alt-3",
+      "regulation": "Regulation 3",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "by providing the Authority with such data and information as is necessary for the Authority to discharge its duties and responsibilities under the Convention"
+        },
+        {
+          "label": "Alt.2",
+          "text": "to provide to the Authority necessary data and information"
+        }
+      ],
+      "context_before": "Contractors shall cooperate with the Authority to facilitate the performance of its duties and responsibilities under the Convention, inter alia,",
+      "context_after": "]; [(b) the Authority, and Sponsoring States, flag States, and port States shall cooperate towards the avoidance of unnecessary duplication"
+    },
+    {
+      "id": "regulation-5-alt-4",
+      "regulation": "Regulation 5",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "all information necessary to demonstrate the technical capability in environmental management pursuant to regulation 13, paragraph 3, subparagraph (c) and Section III of Annex I to be able to comply with the requirements of these Regulations and applicable Standards"
+        },
+        {
+          "label": "Alt.2",
+          "text": "Information on the Environmental Management System"
+        }
+      ],
+      "context_before": "Work in accordance with these Regulations, applicable Standards and [taking into consideration] Good Industry Practice using appropriately qualified personnel; (f)",
+      "context_after": "]. 4. Each application submitted by a partnership or consortium of entities shall contain the information required by these Regulations"
+    },
+    {
+      "id": "regulation-7-paragraph-1-alt-5",
+      "regulation": "Regulation 7",
+      "paragraph": "paragraph 1",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "as well as the respective Regional Environmental Management Plans"
+        },
+        {
+          "label": "Alt.2",
+          "text": "as well as the respective Regional Environmental Management Plans"
+        }
+      ],
+      "context_before": "to these Regulations; (b) addressed to the Secretary-General; and (c) prepared in accordance with these Regulations and the applicable Standards",
+      "context_after": "]. 2. Each Applicant, including the Enterprise, shall, as part of its application, provide a written undertaking to the Authority"
+    },
+    {
+      "id": "regulation-8-paragraph-3-alt-6",
+      "regulation": "Regulation 8",
+      "paragraph": "paragraph 3",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "studies are carried out"
+        },
+        {
+          "label": "Alt.2",
+          "text": "data gathered in accordance with the relevant Standards is [publicly] available"
+        }
+      ],
+      "context_before": "3. The area under application shall be an area previously subject to an Exploration Contract for which [sufficient] environmental baseline",
+      "context_after": "]. 4. The area under application must be covered by a Regional Environmental Management Plan pursuant to regulation 44bis [,"
+    },
+    {
+      "id": "regulation-8-paragraph-4-alt-7",
+      "regulation": "Regulation 8",
+      "paragraph": "paragraph 4",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "international organisation or treaty regime"
+        },
+        {
+          "label": "Alt.2",
+          "text": "relevant legal instruments and framework and relevant global regional, subregional and sectorial body"
+        }
+      ],
+      "context_before": "and a statement confirming whether the area under application or any part of it has received attention under any other",
+      "context_after": "].] [5. Alt. For any part of the area under application, to the extent practicable after reasonable investigations, the Applicant"
+    },
+    {
+      "id": "regulation-9-alt-8",
+      "regulation": "Regulation 9",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "within 30 Days of receipt of an application for approval of a Plan of Work submitted under this Part"
+        },
+        {
+          "label": "Alt.2",
+          "text": "Conduct the notification and consultation requirements related to applications for approval of a Plan of Work in accordance with regulations 11 and 93ter and"
+        }
+      ],
+      "context_before": "and annexes thereto, in safe custody and ensure the confidentiality of all Confidential Information contained in the application; and (c)",
+      "context_after": "]: (i) notify the members of the Authority of the receipt of such application; and; (ii) notify the members of"
+    },
+    {
+      "id": "regulation-11-paragraph-2-alt-9",
+      "regulation": "Regulation 11",
+      "paragraph": "paragraph 2",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "within a period of 60 Days following the close of the comment period or such longer period as determined by the Secretary-General following a request by the Applicant. The Secretary-General may extend this time period [for a further 30 Days], upon a reasonable request by the Applicant to revise the plans or responses. Notice of the extension of the period shall be posted on the Authority’s website"
+        },
+        {
+          "label": "Alt.2",
+          "text": "in a timely manner"
+        }
+      ],
+      "context_before": "submit any revised documentation and the written response to consultation as required by regulation 93ter, paragraph 9 to the Secretary-General",
+      "context_after": "]. 26 of 197 2. bis The Secretary-General shall provide the [application,] Environmental Plans, and the non-confidential parts of the"
+    },
+    {
+      "id": "regulation-11-paragraph-3-alt-10",
+      "regulation": "Regulation 11",
+      "paragraph": "paragraph 3",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "within a period of 60 Days after receipt of comments from the Secretary- General. The Secretary-General may extend this time period [for a further 30 Days], upon a reasonable request by the Applicant to revise the plans or responses. Notice of the extension of the period shall be posted on the Authority’s website"
+        },
+        {
+          "label": "Alt.2",
+          "text": "in a timely manner"
+        }
+      ],
+      "context_before": "or provide responses in reply to the substantive comments, and shall submit any revisions or responses to the Secretary- General",
+      "context_after": "]. 4. The Commission shall prepare a report on the [application,] Environmental Plans and the non-confidential parts of the Test"
+    },
+    {
+      "id": "regulation-14-paragraph-3-alt-12",
+      "regulation": "Regulation 14",
+      "paragraph": "paragraph 3",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "the Commission shall determine whether these are significant, in which case an opportunity for public consultation shall be provided in accordance with regulation 11"
+        },
+        {
+          "label": "Alt.2",
+          "text": "at the request of the Commission, shall provide an opportunity for public consultation in accordance with regulation 11"
+        }
+      ],
+      "context_before": "Secretary-General shall publish any amendment, additional information or revised application received pursuant to paragraph 2 on the Authority’s website, and",
+      "context_after": "].] [5. The Commission shall take into account the Applicant’s response under paragraph 1 and any responses received from public"
+    },
+    {
+      "id": "regulation-15-paragraph-1-alt-13",
+      "regulation": "Regulation 15",
+      "paragraph": "paragraph 1",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "the Commission has sufficient information to determine that all requirements in regulation 13 have been met"
+        },
+        {
+          "label": "Alt.2",
+          "text": "and that there is sufficient, verifiable supporting information to confirm compliance with those requirements"
+        }
+      ],
+      "context_before": "a proposed Plan of Work if the Plan of Work [fully] complies with all requirements stipulated in regulation 13, and",
+      "context_after": "].] 1. bis The Commission shall provide with any recommendation for approval made under paragraph 1: (a) a report in"
+    },
+    {
+      "id": "regulation-16-alt-14",
+      "regulation": "Regulation 16",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "relating to approval of Plans of Work in accordance with paragraph 11 of Section 3 of the Annex to the Agreement, after due consideration, and within 60 Days unless the Council decides to provide for a longer period, the Council shall approve or disapprove the Plan of Work"
+        },
+        {
+          "label": "Alt.2",
+          "text": "and shall take decisions on approval or disapproval of the Plan of Work in accordance with paragraph 11 of Section 3 of the Annex to the Agreement"
+        }
+      ],
+      "context_before": "of Work [1. The Council shall [commence at its next meeting considerations of] the reports and recommendations of the Commission,",
+      "context_after": "].] [1. Alt. The Council shall take decisions on approval or disapproval of the Plan of Work in accordance with"
+    },
+    {
+      "id": "regulation-17-and-annex-ix-to-these-regulations-alt-31",
+      "regulation": "regulation 17 and Annex IX to these Regulations.",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.2",
+          "text": "“Material Change” means a change that effects the fundamental basis on which the original report, document or plan, including a Plan of Work, was accepted or approved by the Authority"
+        },
+        {
+          "label": "Alt.3",
+          "text": "“Material Change” means a significant change that affects the basis on which an original report, document or plan, including a Plan of Work, was accepted or approved by the Authority, and may include changes such as modifications to the way in which Exploitation activities are conducted; changes to assessments of harmful effects of activities on the Marine Environment, or effects on Stakeholders; the availability of new knowledge or technology; changes to a Contractor’s operational management; and changes to any applicable Standards and Guidelines."
+        }
+      ],
+      "context_before": "on which the original report, document or plan, including a Plan of Work, was accepted or approved by the Authority.]",
+      "context_after": "] “Metal” means any metal contained in a Mineral. “Minerals” means Resources that have been recovered from the Area. “Mining"
+    },
+    {
+      "id": "regulation-18-paragraph-3-alt-15",
+      "regulation": "Regulation 18",
+      "paragraph": "paragraph 3",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "The Authority, with the cooperation of States Parties to the Convention, shall ensure that no other Contractor operating in the Contract Area interfere with the rights granted to or operations of the Contractor."
+        },
+        {
+          "label": "Alt.2",
+          "text": "The Authority shall ensure that no other entity operates in the same area for a different category of resources in a manner which might interfere with the operations of the Contractor."
+        }
+      ],
+      "context_before": "or explore for the same Resource category in the Contract Area for the entire duration of an Exploitation Contract.] 3.",
+      "context_after": "] 4. An Exploitation Contract shall provide for security of tenure and shall not be [suspended or] terminated except in"
+    },
+    {
+      "id": "regulation-20-paragraph-1-alt-16",
+      "regulation": "Regulation 20",
+      "paragraph": "paragraph 1",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "commencement of Commercial Production"
+        },
+        {
+          "label": "Alt.2",
+          "text": "execution of the Exploitation Contract"
+        },
+        {
+          "label": "Alt.3",
+          "text": "from the date of signing of the Exploitation Contract"
+        }
+      ],
+      "context_before": "Term and extension of Exploitation Contracts 1. The maximum initial term of an Exploitation Contract is [30]/ [20] years from",
+      "context_after": "]. Any extension period shall be a maximum of [5]/ [10] years. 1. bis The Commission may recommend to Council"
+    },
+    {
+      "id": "regulation-26-regulation-25-full-regulation-alt-0",
+      "regulation": "Regulation 26.\nRegulation 25",
+      "paragraph": "full regulation",
+      "type": "full_regulation",
+      "options": [
+        {
+          "label": "Main text",
+          "text": ""
+        },
+        {
+          "label": "regulation 26.\nRegulation 25 Alt.",
+          "text": "Documents to be submitted prior to production 1. A Contractor must obtain the agreement of the Council before commencing Commercial Production. 2. At least 12 months prior to a proposed date of commencement of Commercial Production, the Contractor shall notify the Secretary-General of its intention to commence Commercial Production on that date. 3. The notification from the Contractor under paragraph 1 shall, taking into account any new information obtained since the award of the Exploitation Contract, include either: (a) a confirmation that no amendment to the Plan of Work is required, or (b) a Plan of Work revised in accordance with regulation 57. 4. The Secretary-General shall promptly forward the notification to the Commission and the Council. The Commission shall conduct a consultation with Stakeholders and shall prepare a report and recommendation to the Council on whether to agree to the proposed date of commencement of Commercial Production, in accordance with the applicable Standards and taking into account the Guidelines. 5. The Council shall decide, giving reasons, whether to agree to the proposed date of Commercial Production. Where the decision is not to agree to commencement of Commercial Production, the Council shall indicate any actions it requires from the Contractor to progress towards a new date of commencement of Commercial Production. The Contractor shall comply with the decision of the Council. 49 of 197"
+        }
+      ],
+      "context_before": "Work pursuant to paragraph 2 above; and the Authority has confirmed lodgement of an Environmental Performance Guarantee in accordance with",
+      "context_after": "Regulation 26 Alt. 1 Environmental Performance Guarantee/Alt. 2 Decommissioning and Emergency Response Guarantee/Alt. 3 Closure Guarantee 1. A Contractor shall"
+    },
+    {
+      "id": "regulation-31-full-regulation-alt-0",
+      "regulation": "Regulation 31",
+      "paragraph": "full regulation",
+      "type": "full_regulation",
+      "options": [
+        {
+          "label": "Main text",
+          "text": "Accommodation of activities in the Area and in the marine environment 1. Contractors shall carry out activities under an Exploitation Contract with reasonable regard for other activities in the Marine Environment, in accordance with article 147 of the Convention, and consistent with any applicable Standards and taking into account the Guidelines. 2. A Contractor shall exercise due diligence in identifying current and planned uses or activities in the Marine Environment transiting, overlapping, or proximate to the Contract Area through publicly available data and resources and any other reasonable means [, including but not limited to marine scientific research, fishing, navigation, and activities to ensure effective Protection for the Marine Environment.] 56 of 197 3. Where the relevant other activities involve competent international, regional, or sectoral bodies, the Authority shall, in conjunction with member States, cooperate with such bodies and, where possible, coordinate activities in the Marine Environment."
+        },
+        {
+          "label": "Regulation 31 Alt.",
+          "text": "Accommodation of activities in the Area and in the marine environment 1. Contractors shall carry out activities under an Exploitation Contract with reasonable regard for other activities in the Marine Environment, in accordance with article 147 of the Convention, and consistent with any applicable Standards and taking into account the Guidelines. 2. The Authority shall cooperate actively with States Parties, competent international organizations, and relevant entities, to acquire information regarding other activities overlapping with, or in proximity to Contract Areas to facilitate the accommodation of Activities as set out in article 147 of the Convention. 3. The Authority shall transmit to the relevant State Parties, international organizations or entities the coordinates and Activities information concerning such Contract Areas, where the Authority becomes aware of other activities conducted or proposed to be conducted in areas overlapping with, or in proximity to Contract Areas. 4. The Authority shall transmit to Contractors that may be affected by other activities any relevant information it has obtained from the State Parties, international organizations, or entities, and shall facilitate communication between the Contractor and the States, organizations, or entities concerned."
+        }
+      ],
+      "context_before": "Authority shall, in conjunction with member States, cooperate with such bodies and, where possible, coordinate activities in the Marine Environment.",
+      "context_after": "Regulation 31 bis Reducing risk of damage to submarine cables and pipelines 1. The Contractor shall take [all] necessary measures"
+    },
+    {
+      "id": "regulation-35-paragraph-9-alt-17",
+      "regulation": "Regulation 35",
+      "paragraph": "paragraph 9",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "objects and sites of an archaeological or historical nature"
+        },
+        {
+          "label": "Alt.2",
+          "text": "the remains of Underwater Cultural Heritage"
+        }
+      ],
+      "context_before": "except for Confidential Information, used in making its decision under paragraph 5 of this regulation. 60 of 197 [10. If",
+      "context_after": "] may be deemed to be a potentially polluting wreck, then regulation [X] shall also apply.] Section 7 Insurance obligations"
+    },
+    {
+      "id": "regulation-36-paragraph-1-alt-18",
+      "regulation": "Regulation 36",
+      "paragraph": "paragraph 1",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "upon the execution of the Exploitation Contract"
+        },
+        {
+          "label": "Alt.2",
+          "text": "as at the point in time that the Contractor’s vessel departs port for the Area for the purpose of conducting Exploitation activities"
+        }
+      ],
+      "context_before": "to assess the satisfactoriness of the proposed insurance policy against this regulation and the applicable Standard; (b) be in effect",
+      "context_after": "] until such time as the Environmental Performance Guarantee has been released back to the Contractor in full by the"
+    },
+    {
+      "id": "regulation-44-ter-paragraph-4-alt-19",
+      "regulation": "Regulation 44 ter",
+      "paragraph": "paragraph 4",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "prevent further risk to"
+        },
+        {
+          "label": "Alt.2",
+          "text": "protect"
+        },
+        {
+          "label": "Alt.3",
+          "text": "prevent further deterioration of"
+        }
+      ],
+      "context_before": "and the preservation of suitable habitat]; (c) prevent significant changes in the distribution, abundance, behaviour or productivity of species; (d)",
+      "context_after": "] endangered or threatened species or populations of said species, including those for which the conservation status is unknown; (e)"
+    },
+    {
+      "id": "regulation-50-bis-paragraph-6-alt-11",
+      "regulation": "regulation 50 bis.",
+      "paragraph": "paragraph 6",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "and takes into account"
+        },
+        {
+          "label": "Alt.2",
+          "text": "takes into account"
+        }
+      ],
+      "context_before": "criteria: (a) the application is accompanied by a certificate of sponsorship; (b) the application is in conformity with these Regulations,",
+      "context_after": "] the Guidelines; (c) the application provides for benefits for humankind, reasonable regard for other activities, effective Protection of the"
+    },
+    {
+      "id": "regulation-58-alt-20",
+      "regulation": "Regulation 58",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "unanticipated impacts resulting in adverse effects"
+        },
+        {
+          "label": "Alt.2",
+          "text": "Unanticipated effects"
+        }
+      ],
+      "context_before": "[(a) quat. new significant information [based on scientific evidence] relevant to the effective Protection of the Marine Environment;] (a) quin.",
+      "context_after": "] on the environment [or other activities] have arisen, or are of a scale or intensity that was not anticipated,"
+    },
+    {
+      "id": "regulation-58-paragraph-2-alt-21",
+      "regulation": "Regulation 58",
+      "paragraph": "paragraph 2",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "an independent expert"
+        },
+        {
+          "label": "Alt.2",
+          "text": "a panel of independent experts"
+        }
+      ],
+      "context_before": "review of the Plan of Work under paragraph 1 shall be undertaken by the Contractor [and [reviewed and] verified by",
+      "context_after": "] in accordance with the applicable regulations], Standards and taking into account the Guidelines. The Secretary-General shall invite the Sponsoring"
+    },
+    {
+      "id": "regulation-58-paragraph-3-alt-22",
+      "regulation": "Regulation 58",
+      "paragraph": "paragraph 3",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "Where, as a result of a review a Material Change needs to be made to the Plan of Work, the Commission shall recommend the Council and the Contractor shall implement as established in regulations 57"
+        },
+        {
+          "label": "Alt.2",
+          "text": "Any proposed modification to a Plan of Work as a result of a review pursuant to this regulation shall be assessed in accordance with regulation 57"
+        }
+      ],
+      "context_before": "The Secretary-General shall forward the report on each review to the Commission and Council, and the Sponsoring State or States.",
+      "context_after": "]. 4. For the purpose of the review, the Contractor shall provide [to the independent expert] all information required by"
+    },
+    {
+      "id": "regulation-89-alt-23",
+      "regulation": "Regulation 89",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "and the Compliance Committee"
+        },
+        {
+          "label": "Alt.2",
+          "text": "and of other relevant subsidiary organs"
+        }
+      ],
+      "context_before": "by the Secretary-General and staff of the Authority’s Secretariat, as authorized by the Secretary-General, and by members of the Commission",
+      "context_after": "] as necessary for and relevant to the effective exercise of their powers and functions. 5. In connection with paragraph"
+    },
+    {
+      "id": "regulation-89-alt-30",
+      "regulation": "regulation 89.",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "Except where expressly excluded in these Regulations, the term “Contractor” shall also include the Enterprise."
+        },
+        {
+          "label": "Alt.2",
+          "text": "The term “Contractor” shall also include the Enterprise, except where excluded in light of the context 184 of 197 and in accordance with the provisions and the spirit of the Convention and the Agreement."
+        }
+      ],
+      "context_before": "and all persons engaged in working or acting for them in the conduct of its operations under the Exploitation Contract.",
+      "context_after": "] “Controlling National” has the meaning ascribed to that term in the definition of Effective Control. “Convention” means the United"
+    },
+    {
+      "id": "regulation-91-alt-24",
+      "regulation": "Regulation 91",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "in consultation with"
+        },
+        {
+          "label": "Alt.2",
+          "text": "[shall] / [may] consult"
+        }
+      ],
+      "context_before": "information to be submitted to the Authority.] [2. Alt. Upon termination or expiration of an Exploitation Contract, the Secretary- General,",
+      "context_after": "] the Commission [and the Contractor], in accordance with this regulation and the applicable Standards and taking into account the"
+    },
+    {
+      "id": "regulation-93-ter-paragraph-6-alt-25",
+      "regulation": "Regulation 93 ter",
+      "paragraph": "paragraph 6",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "to allow Stakeholders to ask questions and express their concerns [or support] directly"
+        },
+        {
+          "label": "Alt.2",
+          "text": "to address the concerns raised by the Stakeholders and prepare a detailed report of public meeting highlighting the concerns raised and responses submitted for consultation within 1 month"
+        }
+      ],
+      "context_before": "meetings, workshops and engagement. [7. The Applicant or Contractor shall organize at least one public meeting during the consultation period",
+      "context_after": "].] 8. The Applicant or Contractor shall consider the submissions received and may revise the documentation that was the subject"
+    },
+    {
+      "id": "regulation-94-paragraph-1-alt-26",
+      "regulation": "Regulation 94",
+      "paragraph": "paragraph 1",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "All impacts and effects"
+        },
+        {
+          "label": "Alt.2",
+          "text": "impacts and environmental, cultural, and socioeconomic effects"
+        }
+      ],
+      "context_before": "uniform and non-discriminatory operating environment for all Contractors; 121 of 197 (b) a consistent approach by all parties to reduce,",
+      "context_after": "] and human health and safety risks to as low as reasonably practicable; and (c) an outcomes-based approach to regulation,"
+    },
+    {
+      "id": "regulation-107-alt-29",
+      "regulation": "Regulation 107",
+      "paragraph": "",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "The Contractor may extent this Contract in accordance with regulation 20."
+        },
+        {
+          "label": "Alt.2",
+          "text": "The Contractor may extent this Contract for periods not more than 10 years each, on the following conditions: (a) The resource category is recoverable annually in commercial quantities from the Contract Area; (b) The Contractor is in compliance with the terms of this Contract and the Rules of the Authority, including rules, regulations and procedures adopted by the Authority to ensure effective protection for the Marine Environment from harmful effects which may arise from activities in the Area; (c) This Contract has not been terminated earlier; and (d) The Contractor has paid the applicable fee. 9.2 To renew this Contract, the Contractor shall notify the Secretary-General no later than one year before the expiration of the initial period or extension period, as the case may be, of this Contract. 9.3 The Council shall review the notification, and if the Council determines that the Contractor is in compliance with the conditions set out above, this Contract shall be renewed on the terms and conditions of the standard exploitation contract that are in effect on the date that the Council approves the extension application."
+        }
+      ],
+      "context_before": "was delayed hereunder by Force Majeure and the term of this Contract shall be extended accordingly. Section 9 Extension 9.1",
+      "context_after": "] Section 10 Renunciation of rights 10.1 The Contractor, by prior written notice to the Authority, may renounce without penalty"
+    },
+    {
+      "id": "regulation-107-paragraph-2-alt-27",
+      "regulation": "Regulation 107",
+      "paragraph": "paragraph 2",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "the approval of these Regulations by the Assembly"
+        },
+        {
+          "label": "Alt.2",
+          "text": "the signature of the first Exploitation Contract"
+        },
+        {
+          "label": "Alt.3",
+          "text": "the first date of commencement of Commercial Production"
+        }
+      ],
+      "context_before": "Convention. 139 of 197 Part XIII Review of these Regulations Regulation 107 Review of these Regulations [1. Five years following",
+      "context_after": "], the Council shall undertake a comprehensive review of the manner in which these Regulations have operated in practice and"
+    },
+    {
+      "id": "regulation-107-paragraph-8-alt-28",
+      "regulation": "Regulation 107",
+      "paragraph": "paragraph 8",
+      "type": "inline",
+      "options": [
+        {
+          "label": "Alt.1",
+          "text": "[[Mitigation hierarchy measures to avoid, reduce and Mitigate the effects caused by the project],] [Alt.2 [Measures taken to avoid, reduce and Mitigate effects, including alternatives] [and the extent to which any potential Environmental Impacts and effects may occur in areas under a State’s national jurisdiction]] and alternatives considered in section 3.7 to the biological environment components identified in section 5 in the Contract Area, the mine site and the Impact Area, with special regard to the Impact and Preservation Reference Zones. Consider Environmental Impacts and Environmental Effects that could happen during the entire lifespan of the project i.e. construction/development (pre-commissioning), operational and Decommissioning phases and following Closure of the site. The potential for accidental events and natural hazards should be considered. The detail in this section is expected to be based on a prior Environmental Impact Risk Assessment prepared, reviewed, and revised in accordance with regulation 47 ter, and respective Standards and taking into account the Guidelines for Environmental Impact Assessment Process. 9. Assessment of impacts on the socioeconomic and sociocultural environment and proposed Mitigation Provide a detailed description and evaluation of potential Environmental Impacts and Environmental Effects of the operation to the socioeconomic and sociocultural components identified in section 6 and a summary of the environmental management measures to Mitigate impacts and residual effects. This should include projections on the potential impacts in national waters outside the Mining Area and should also consider the entire lifespan of the project i.e. construction/development (pre- commissioning), operational (including maintenance) and Decommissioning phases. A description of the benefits to humankind may be included. Attitudes towards, and perceptions of, the proposed project are among the variables that should be considered in determining the significance of impacts. The potential for accidental events and natural hazards should also be considered. [9. bis Waste management [/A description outline of waste management.] A description outline of waste management. 152 of 197 Provide a description of proposed vessel waste management, with reference to compliance with relevant conventions, legislation and principles, and methods of cleaner production and energy balance.] 10. Hazards arising from natural, accidental and discharge events This section should outline the possibility/probability of accidental events and natural hazards occurring, an assessment of the impact they may have to the mine site and Impact Area, the measures taken to prevent or respond to such an event and an assessment of the residual impact should an event occur. This should include an overview of potential environmentally hazardous discharges resulting from accidental and extreme natural events as these are fundamentally different from normal operational discharges of wastes and wastewaters. Reference should be made to the ERCP. [10 bis.1 Uncertainty Assessment Provide a detailed description and evaluation of any uncertainties in the assessments described in section 7, 8, and 9. This uncertainty assessment shall describe the measures taken in the Environmental Impact Assessment to reduce uncertainty in its findings to as low as reasonably practicable.] [10 bis.2 Addressing Significant Uncertainty Where significant uncertainty exists despite the efforts described in 9bis.1(b), provide a detailed description of environmental monitoring and management measures for managing and reducing uncertainty during the proposed operations, to be incorporated into the Environmental Monitoring and Management Plan and describe how these will enable the applicant to ensure compliance with rules, regulations and procedures of the Authority.] [10 quin Analysis of residual effects against the RRP, Standards and Guidelines of the Authority Provide a description of any residual impacts that may remain following the application of Mitigation measures, including the expected longevity of those impacts, and outline the measures that will be taken to ensure long-term site compliance with the environmental quality objectives, quantitative thresholds, and indicators in accordance with these Regulations and the applicable Standard, and taking into consideration the Guidelines.] 11. Environmental management, monitoring and reporting [Alt. Environmental management measures to avoid, reduce and Mitigate impacts] Provide sufficient information to enable the Authority to anticipate possible environmental management, monitoring and reporting requirements for an environmental approval. Information listed includes a description of the applicant’s Environmental Management System and should reflect the proponent’s environmental policy and the translation of that policy to meet the requirements of this section and previous sections during different stages of the project life (i.e., from construction to Decommissioning and closure and the post-closure period). 153 of 197 The Environmental Management and Monitoring Plan is a separate report from the Environmental Impact Statement, but this could be a useful opportunity to highlight some of the key issues including residual effects from the Statement that will be addressed in the full Environmental Management and Monitoring Plan. 12. Responsible product stewardship An overview of the downstream supply chain. A description of responsible product stewardship related to the intended use of the Mineral-bearing ore once it leaves the Contract Area. The description should also address how the Contractor will minimize health, safety, environmental, socioeconomic and sociocultural effects and impacts of the intended product or products to meet Standards for environmental management, and should address the following potential impacts: (a) Energy and materials consumption; (b) Waste generation; (c) Toxic substances; (d) Air and water emissions. The intention is not to provide a full and highly detailed account, but, where information is known about Environmental Impacts, these impacts should be described briefly here. 13. Consultation and stakeholder engagement and methods The Environmental Impact Statement should include a description summary of the nature, extent, participation and outcomes of consultations and stakeholder engagement that have taken place with the Stakeholders, including commission consultation, and how their comments have been addressed in the environmental impact statement. A description of consultation methods shall also be provided. Consultations and engagement shall be inclusive, transparent and open to all Stakeholders, including States, global, regional, subregional and sectoral bodies, as well as civil society, the scientific community, indigenous peoples and local communities and in accordance with this Regulation and the applicable Standards and taking into account the Guidelines. 14. Glossary and abbreviations Include a glossary of terms, acronyms and abbreviations used throughout the document. The glossary should include definitions for, and key terms defined in the Regulations so as to ensure that users of the Environmental Impact Statement [have a clear understanding of the intention behind the use of certain terms in it]. 15. Study team Outline the people involved in carrying out the Environmental Impact Assessment studies and in writing the Environmental Impact Statement. 154 of 197 16. References Evidence obtained from outside sources should be documented throughout the Environmental Impact Statement, with the use of footnotes or other suitable reference mechanism. In addition, all sources used in preparation of the Environmental Impact Statement (including those specifically referenced in the body of the document) should be listed in bibliography format, with full details of the source (including website addresses, if applicable). 17. Appendices The appendices section should include a list of all the technical reports carried out for parts of the Environmental Impact Assessment or that are used in support of any aspect of the Environmental Impact Assessment (such as prior risk assessments or monitoring activities conducted as part of Exploration Contracts). Copies of these reports should be provided as appendices to the Environmental Impact Statement, with clear indications as to which section(s) the document is being provided to support. 155 of 197 Annex V Emergency Response and Contingency Plan An Emergency Response and Contingency Plan must: (a) Be prepared in accordance with Good Industry Practice and the applicable Regulations, Standards and taking into account the Guidelines; (b) Provide an effective plan of action for the applicant’s efficient response to Incidents and events, including processes by which the applicant will work in close cooperation with the Authority, [coastal States,] other competent international organizations and, where applicable, emergency response organizations; and (c) Include: (i) The overall aims and objectives and arrangements for controlling the risk of Incidents; (ii) Organisational structure and personnel roles and responsibilities; (iii) Details of individuals authorised to initiate response mechanism(s); (iv) Details of the emergency response equipment; (v) Details of the safety management system relevant to emergency response; (vi) Details of the Environmental Management System relevant to emergency response; (vii) A description of all foreseeable Incidents, an assessment of their likelihood and consequences and associated control measures; (viii) A description of the arrangements to protect persons on the mining vessel(s), and to ensure their safe escape, evacuation and rescue in the event of an Incident that presents risks to their safety; (ix) Details of arrangements for the maintenance of control systems to monitor the Marine Environment in the event of an Incident; (x) Information and measures relating to the prevention of Incidents which could result in Serious Harm to the Marine Environment; (xi) An assessment of [potential] pollution hazards and the measures to prevent or reduce such hazards; (xii) Details of the warning mechanisms intended to alert the Authority, together with the type of information to be contained in such warning; (xiii) Details of arrangements for coordinating any emergency response, including coordination with the Authority, other service providers, maritime search and rescue authorities, and nearby vessels, citing the source for such arrangements, where relevant; (xiv) Details of training programmes for personnel relating to emergency prevention of response; (xv) Details of audit and review processes relating to matters covered by this Plan, including regular testing of the Plan, significant changes to the Plan or the nature of operational activities, and the process of Incident investigation, recording and Communication to the Authority and the Sponsoring State; [(xvi) Details of the presence of other hazards/harmful substances;] 156 of 197 [(xvii) A description of accountability and liability for environmental damage resulting from an Incident; and (xix) details of how the Plan is [gender-responsive and responsive to persons from vulnerable groups]. 157 of 197 Annex VI Health and Safety Plan and Maritime Security Plan Note: several important provisions of this Annex have currently been placed in the Suspense document and will be incorporated into Standards and Guidelines at a later stage. A Health and Safety Plan 1. The Health and Safety Plan prepared under these Regulations and this Annex must: (a) Be prepared in accordance with Good Industry Practice, and applicable Standards and taking into account the Guidelines; (b) Comply with applicable national laws and regulations related to safety and health, including occupational safety and health, of personnel on vessels or Installations engaged in activities in the Area, as well as applicable international rules and standards of the International Labour Organization and the International Maritime Organization related to safety and health, including occupational safety and health; (c) Be designed with the aim to ensure that all personnel on a vessel or Installation engaged in activities in the Area are provided with appropriate safety and health protection, including occupational safety and health protection, and live, work and train in a safe and hygienic environment with roles and responsibilities allocated to relevant named personnel appropriately; [(c) bis Take into account that no worker or trainee on board a vessel or Installation engaged in the activities in the Area should be under the legal age of its nationality;] (d) Identify hazards and risks and include a comprehensive and integrated system for the management of the hazards and risks; (e) Ensure that the risks to the health and safety of personnel on a vessel or Installation engaged in activities in the Area are reduced to a level that is as low as reasonably practicable; (f) Address all matters of safety of life and the prevention of occupational accidents, injuries and diseases that may be identified as hazards and risks for personnel on vessels or Installations engaged in activities in the Area; (g) Include and refer to the requirements of the Emergency Response and Contingency Plan under Annex V of these Regulations that relate to protecting and securing the safety and health of all persons on vessels or Installations during an Incident or emergency; and (h) [Be gender-sensitive, and specifically address women’s safety, and freedom from harassment in the workplace, and consider other issues relevant to ensuring an equitable and inclusive working environment for a diverse workforce]. 2. The minimum requirements to the content of the health and safety plan are contained in the Standard and Guidelines on health and safety plans. 158 of 197 B Maritime Security Plan 1. The Maritime Security Plan prepared under these Regulations and this Annex must: (a) Be prepared in accordance with Good Industry Practice and applicable Standards and taking into account Guidelines; (b) Comply with applicable national laws and regulations related to maritime security, as well as applicable international rules and standards of the International Maritime Organization related to maritime security; (c) Be developed based on a security assessment and risk analysis relating to all aspects of the vessels or Installation’s operations in order to determine which of its parts are more vulnerable to maritime security Incidents; (d) Provide an effective plan to ensure the application of measures on board the vessel that are designed to protect the persons on board, the ancillary equipment, the cargo, the cargo transport units, the ship’s stores, the vessel and the operation itself from the risks of a security Incident; (e) Be protected from unauthorized access or disclosure; (f) be subject to inspection by officers duly appointed by Inspectors appointed by the Authority under Part XI of these Regulations; [(h) be gender-sensitive, and specifically address women’s security, and any other issues relevant to ensuring maritime safety measures are applied equitably and inclusively for a diverse workforce.] 2. The minimum requirements to the content of the maritime security plan are contained in the Standard and Guidelines on maritime security plans. 159 of 197 Annex VII Environmental Management and Monitoring Plan 1. The Environmental Management and Monitoring Plan prepared under these Regulations and this Annex VII shall be: (a) prepared in clear language and in an official language of the Authority, together with, where applicable, an official English-language version; (a) bis. prepared in accordance with the relevant regulations and Standard and Regional Environmental Management Plan, taking into consideration Guidelines, on the basis of Best Environmental Practice, Best Available Scientific Information; and [(b) Verified by the report of independent [experts] [persons] appointed by the Authority.] 2. An Environmental Management and Monitoring Plan shall contain: (a) a non-technical summary of the main conclusions and information provided to facilitate understanding by members of the Authority and Stakeholders; (a) bis outline the guiding principles which apply to the monitoring approaches; (b) a description of the project and the area likely to be affected by the proposed activities and by any suspension plumes they generate. Include detailed location maps showing proposed Impact Reference Zones and Preservation Reference Zones as well as locations of other nearby Contract Areas or known seabed infrastructure, the Preservation Reference Zones, the Impact Reference Zones and the surrounding area with reference to the Regional Environmental Management Plan including any buffer zones to prevent damage to these areas; (b) ter a description as to how the Environmental Management and Monitoring Plan has been prepared; (c) the project-specific environmental objectives, indicators and thresholds based on baseline environmental data and applicable Standards; (c) bis a description of the environmental baseline data, measured baseline values for parameters at the site, a characterization of the area proposed to be mined, adjacent areas that could be affected by mining, and areas that will be avoided due to their environmental value; (d) a description, prepared in accordance with the applicable Standard and taking into consideration the Guidelines of how the monitoring data will be transmitted during operations, how the data will be labelled and monitored by qualified personnel, and how the data will be stored; (e) the qualifications and proposed location of the personnel monitoring the [environment]; (f) a description of the procedures for providing the Authority and the Sponsoring State or States access to or receipt of the monitoring data for the purposes of monitoring compliance with the terms of an Exploitation Contract and collection of data. (g) details of or cross-references to the Contractor’s Environmental Management System documentation; (i) implementing the measures reflected in the Environmental Management and Monitoring Plan, 160 of 197 (ii) monitoring, recording and reporting fulfilment of the Environmental Management and Monitoring Plan, and (iii) regularly reviewing and updating the Environmental Management and Monitoring Plan to ensure that it complies with rules, regulations, and procedures of the Authority; (h) an assessment of the predicted Environmental Effects of the proposed activities on the Marine Environment, and any significant changes likely to result, consistent with the Environmental Impact Assessment and the Environmental Impact Statement; (h) bis. a description of uncertainties identified from the Environmental Impact Assessment and the plan to reduce or manage these; (i) an assessment of the significance of the potential Environmental Effects to receptors identified in the Environmental Impact Statement, their key uncertainties, proposed monitoring approach and objectives, and proposed Mitigation measures and management control procedures and responses to minimize, prevent, reduce and control the harm from Environmental Effects, consistent with the Environmental Impact Assessment and the Environmental Impact Statement; (j) a description of the planned monitoring programme, with reference to the applicable Standard on Monitoring, and the overall approach, standards, protocols, methodologies, procedures and performance assessment of the Environmental Management and Monitoring Plan, including the necessary risk assessment and techniques for managing these risks, including the use of monitoring data to validate predictive models and reduce uncertainties, and adaptive management techniques, if appropriate, needed to achieve the desired outcomes. Each component should be described separately in a manner consistent with sections 7-10 of Annex IV. Monitoring methodology/results should provide a sufficient degree of confidence that conclusions in the Environmental Impact Statement can be validated and that agreed performance standards are being met (monitoring should have the statistical power to detect changes in environmental state). The components of the monitoring programme should, at a minimum, include those applicable to the Contractor during its Exploration phase to allow for comparison of monitoring data. (k) details of the proposed monitoring stations across the Contract Area, including the frequency of monitoring and data collection, the spatial and temporal arrangements for such monitoring and the justification for such arrangements, including how in situ validation of modelled results will be carried out. Proposed monitoring stations should, at a minimum, include the monitoring stations used during Test Mining [where if any demonstrated Test Mining data is used, the proposed monitoring [stations] [arrays] should correspond to those used at the time of that data collection]; (l) the location and planned monitoring and management of Preservation Reference Zones and Impact Reference Zones designed in accordance with the criteria contained in Annex X bis, as well as other spatial management planning tools if any; (l) bis the location and boundaries of planned or established long-term protected areas within the Contract Area as determined in the applicable Regional Environment Management Plan as well as of declared Preservation Reference Zones of neighbouring Contract Areas, if known; (l) ter details of any plans outside of the Contract Area to increase scientific knowledge and other knowledge/information in the relevant region, including in collaboration with other Contractors or via international cooperation efforts, as well as in collaboration with Indigenous Peoples and local communities; 161 of 197 (m) a description, with threshold levels, of the applicable environmental performance Standards and indicators (trigger and threshold points) to be monitored, including decision rules based on the results of the monitoring of these indicators; (n) a description of a system for ensuring that the plan shall adhere to Best Environmental Practices and Best Available Scientific Information, and a description of how such practices are reflected in the proposed Exploitation activities; (o) details of the quality control and management Standards, and how the effectiveness of management measures will be monitored, assessed and reviewed, including list of reporting deliverables to the Authority and time schedule, plans for real-time reporting of environmental data to the Authority, internal and external auditing and reporting of environmental performance, and including the frequency of the review of the performance of the Environmental Management and Monitoring Plan for the purposes of regulation 51; (o) bis: a description of a statistically sound comparison of the monitoring results collected within the Contractor’s Impact Reference Zones and Preservation Reference Zones which compare the monitoring results with the baseline as well as between Impact Reference Zones and Preservation Reference Zones to determine and quantify impacts and recovery of Impact Areas. (p) a description of the monitoring technology and system to be to be implemented, including the types of data to be collected and monitored, and frequency of monitoring, in accordance with Good Industry Practice and Best Available Techniques, reflecting the types of data and formats to be collected and monitored, the use of remote monitoring technology and the types of data available in real time together with a description of the procedures for providing the Authority and the Sponsoring State or States access to the monitoring system and data for the purposes of monitoring compliance with the Environmental Management and Monitoring Plan and collection of data; (q) details of [all] training programme for all persons engaged or to be engaged in activities in the project or its area; (r) details of Mining Discharges, including those defined and regulated by relevant rules and regulations issued by the International Maritime Organization, within the Mining Area; (s) details of ongoing consultation with other users of the Marine Environment; (s) bis. details of arrangements made or planned with other marine users, with the aim to ensure due regard to each other’s rights and activities. (t) details of any practicable Restoration and Rehabilitation of the Mining Area and the monitoring of their success; (u) a plan for further research and studies; (u) bis detail of the process and measures to be taken in case of non – compliance with the Environmental Monitoring and Management Plan. (u) ter a description of the measures that will be taken to address non-compliance with the Environmental Monitoring and Management Plan, including reporting, recording and response action protocols; (u) quat a description of the document control system that will be used for environmental management documentation; 162 of 197 (v) details of reporting requirements and timing (<2 years) including details of the methodology to be applied to ensure that monitoring data submitted are provided in an accessible and interpretable format consistent with best scientific practices; and (x) an overview program (list) of all proposed activities 163 of 197 Annex VIII Closure Plan 1. The Closure Plan or Final Closure Plan shall be prepared and implemented in accordance with regulation 7 [and regulations 59-61], the Environmental Management System, Standards and taking into account the Guidelines and the relevant Regional Environmental Management Plan and shall include the following information: (a) a description of the Closure objectives to ensure that the Closure of Exploitation activities is a process that is incorporated into the mining life cycle, any measures agreed or proposed to implement these, and how these relate to the mining activity and its environmental, socioeconomic and sociocultural setting; (b) the period during which the plan will be required, which shall be determined by reference to a specified duration, achievement of a specified event or target indicator or compliance with specified terms agreed with the Authority and shall relate to the objectives of the Environmental Impact Assessment, such as recovery of impacted environment; (c) coordinates showing the area(s) subject to the Closure objectives accompanied by a map; (d) a summary of the relevant regulatory requirements, including conditions previously documented, e.g. baselines; (e) details of the Closure implementation and timetable, including descriptions of the arrangements for the Temporary Suspension of Exploitation activities or for permanent Closure as well as Decommissioning arrangements for vessels, Installations, plant and removal of equipment (where applicable); (f) summary of data and information relating to environmental baseline for monitoring measures; (g) a summary of the Environmental Impact Statement entailing an updated Environmental Impact Assessment for the activities that will be undertaken during Closure, if any, together with details of the identifiable remaining Environmental Effects, including any relevant technical documents or reports as well as the expected period until recovery of the environment towards natural state conditions; [(h) the temporal and spatial intensity of monitoring to be undertaken during and after Closure needs to mirror monitoring efforts prior and during Exploitation using equivalent methodology to allow for full quantification of the impact as well as of any recovery from impacts. Details of monitoring to be undertaken during and after closure (comparable to monitoring efforts prior and during exploitation) that specify the sampling design (spatial and temporal sampling), the methods to be used and the duration of the [post-closure activities] [post Commercial Production];] (i) details of the management measures to minimize, control, Mitigate the remaining Environmental Effects; (j) details of the remediation, Restoration and Rehabilitation (where possible) objectives and activities building on those detailed in the Environmental Impact Statement and the Environmental Management and Monitoring Plan; (k) documentation of environmental recovery and Details of any anticipated residual impacts that may remain even after Mitigation measures; 164 of 197 (l) information on reporting and management of data and information [post closure] [post Commercial Production] including information on how data will be archived and made publicly available [post-closure] [post Commercial Production], and how the formatting of submitted datasets and reports will be consistent with best scientific practices; (m) details of the persons or entity (subcontractor, consultant(s)) that will carry out the monitoring and management measures under the Closure Plan or Final Closure Plan, including their qualification(s) and experience, together with details of the budget, (incl. inflation adjustment for long-term monitoring), project management plan and the protocols for reporting to the Authority under the Closure Plan or Final Closure Plan; (n) details of the amount of the Environmental Performance Guarantee provided under these Regulations; and (o) details of consultations with Stakeholders in respect of the plan. 2. The level of detail in the Closure Plan or Final Closure Plan is expected to differ between cases involving a Temporary Suspension of Exploitation activities, cases involving unplanned abandonment of work, and cases involving final mine closure. The content of the Closure Plan or Final Closure Plan is to be commensurate with the nature, extent and duration of activities associated with the level of closure and maturity of the project. 165 of 197 Annex IX Exploitation Contract and schedules THIS CONTRACT made the … day of … between the INTERNATIONAL SEABED AUTHORITY represented by its SECRETARY-GENERAL (hereinafter referred to as “the Authority”) and … represented by … (hereinafter referred to as “the Contractor”) WITNESSETH as follows: A. Incorporation of clauses The standard clauses set out in Annex X to the Regulations on exploitation of Resources in the Area shall be incorporated herein and shall have effect as if herein set out at length. B. Contract Area For the purposes of this Contract, the “Contract Area” means that part of the Area allocated to the Contractor for Exploitation, defined by the coordinates listed in schedule 1 hereto. C. Grant of rights In consideration of (a) their mutual interest in the conduct of Exploitation in the Contract Area pursuant to the United Nations Convention on the Law of the Sea of 10 December 1982 and the Agreement relating to the Implementation of Part XI of the Convention, (b) the rights and responsibility of the Authority to organize and control activities in the Area, particularly with a view to administering the Resources of the Area, in accordance with the legal regime established in Part XI of the Convention and the Agreement and Part XII of the Convention, respectively, and (c) the interest and financial commitment of the Contractor in conducting activities in the Contract Area and the mutual covenants made herein, the Authority hereby grants to the Contractor the exclusive right to Explore for and Exploit [specified Resource category] in the Contract Area in accordance with the terms and conditions of this Contract. D. Entry into force and Contract term This Contract shall enter into force on signature by both parties and, subject to the standard clauses, shall remain in force for an initial period of [x] years thereafter unless the Contract is sooner terminated, provided that this Contract may be renewed in accordance with the Regulations. E. Entire agreement This Contract expresses the entire agreement between the parties, and no oral understanding or prior writing shall modify the terms hereof. 166 of 197 F. Languages This Contract will be provided and executed in the [ … and] English language[s] [and both texts are valid]. IN WITNESS WHEREOF the undersigned, being duly authorized thereto by the respective parties, have signed this Contract at …, this … day of …. 167 of 197 The Schedules to the Exploitation Contract Schedule 1 Coordinates and illustrative chart of the Contract Area and proposed Mining Area(s). Schedule 1 bis [Certificate of sponsorship] Schedule 2 The Mining Workplan. Schedule 3 The Financing Plan. Schedule 4 The Emergency Response and Contingency Plan. Schedule 5 The Health and Safety Plan and the Maritime Security Plan. Schedule 6 The Environmental Management and Monitoring Plan. Schedule 7 The Closure Plan. Schedule 8 The Training Plan. Schedule 9 Conditions, amendments and modifications agreed between the Commission and the Contractor, and approved by the Council, during the application approval process. Section 1. Amendments relation to the Regional Environmental Management Plan Schedule 10 Where applicable under regulation 26, the form of any Environmental Performance Guarantee, and its related terms and conditions. Schedule 11 Details of insurance policies taken out or to be taken out under regulation 36. Schedule 12 Agreed review dates for individual plans, together with any specific terms attaching to a review, where applicable. 168 of 197 Schedule 13 To the extent that any documentation is not available at the point of signing the Contract, and a time frame for submission has been agreed with the Commission, this should be reflected here, together with, where applicable, deadline dates. Schedule 14 The Parent Company Liability Statement. 169 of 197 Annex X Standard clauses for Exploitation Contract Section 2 Interpretation 2.1 Terms and phrases defined in the Regulations have the same meaning in these standard clauses. 2.2 In accordance with the Agreement relating to the Implementation of Part XI of the United Nations Convention on the Law of the Sea of 10 December 1982, its provisions and Part XI of the Convention are to be interpreted and applied together as a single instrument; this Contract and references in this Contract to the Convention are to be interpreted and applied accordingly. Section 3 Undertakings 3.1 The Authority undertakes to fulfil in good faith its powers and functions under the Convention and the Agreement in accordance with article 157 of the Convention. 3.2 The Contractor shall implement this Contract in good faith and shall in particular implement the Plan of Work in accordance with regulation 18bis. For the avoidance of doubt, the Plan of Work includes: (a) The Mining Workplan; (b) The Financing Plan; (c) The Emergency Response and Contingency Plan; (d) The Training Plan; (e) The Environmental Management and Monitoring Plan; (f) The Closure Plan; and (g) The Health and Safety Plan and Maritime Security Plan, that are appended as schedules to this Contract, as the same may be amended from time to time in accordance with the Regulations. 3.3 The Contractor shall, in addition: (a) Comply with the Regulations, as well as other rules, regulations and procedures of the Authority, as amended from time to time, and the decisions of the relevant organs of the Authority; (b) Accept control by the Authority of activities in the Area for the purpose of securing compliance under this Contract as authorized by the Convention; (c) Pay all fees and royalties required or amounts falling due to the Authority under the Regulations, including all payments due to the Authority in accordance with Part VII of the Regulations; and (d) Carry out its obligations under this Contract with due diligence, including compliance with the rules, regulations and procedures of the Authority to ensure effective Protection for the Marine Environment, and exercise reasonable regard for other activities in the Marine Environment. 170 of 197 Section 4 Security of tenure and exclusivity 4.1 The Contractor is hereby granted the exclusive right under this Contract to Explore for and Exploit the resource category specified in this Contract and to conduct Exploration and Exploitation activities within the Contract Area in accordance with the terms of this Contract. The Contractor shall have security of tenure, and this Contract shall not be suspended, terminated or revised except in accordance with the terms set out herein and the Regulations. Any impacts from activities in the Area carried out under an Exploitation Contract must be strictly limited to the Contractor area. 4.2 The Authority undertakes not to grant any rights to another person to Explore for or Exploit the same resource category in the Contract Area for the duration of this Contract. 4.3 The Authority reserves the right to enter into contracts with third parties with respect to Resources other than the resource category specified in this Contract but shall ensure that no other entity operates in the Contract Area for a different category of Resources in a manner that might interfere with the Exploitation activities of the Contractor. 4.4 If the Authority receives an application for an Exploitation Contract in an area that overlaps with the Contract Area, the Authority shall notify the Contractor of the existence of that application within 30 Days of receiving that application. Section 5 Legal title to Minerals 5.1 The Contractor will obtain title to and property over the Minerals upon recovery of the Minerals from the seabed and ocean floor and subsoil thereof [onto the Contractor’s mining vessel or Installation], in compliance with this Contract. 5.2 This Contract shall not create, nor be deemed to confer, any interest or right on the Contractor in or over any other part of the Area and its Resources other than those rights expressly granted in this Contract. Section 6 Use of subcontractors and third parties 6.1 No Contractor may subcontract any part of its obligations under this Contract unless the subcontract contains appropriate terms and conditions to ensure that the performance of the subcontract will reflect and uphold the same standards and requirements of this Contract between the Contractor and the Authority. 6.2 The Contractor shall ensure the adequacy of its systems and procedures for the supervision and management of its subcontractors and any work that is further subcontracted, in accordance with Good Industry Practice. 6.2.bis. The Contractor shall apply due diligence in selecting its suppliers, and shall be responsible to ensure the adequacy of goods and services it procures, in accordance with Good Industry Practice].6.3 Nothing in this section shall relieve the Contractor of any obligation or liability under this Contract, and the Contractor shall remain responsible and liable to the Authority for the performance of its obligations under this Contract in the event that it subcontracts any aspect of the performance of those obligations. 171 of 197 Section 7 Responsibility and liability 7.1 [In accordance with the ‘polluter pays’ principle,] the Contractor shall be liable to the Authority for the actual amount of [all environmental damage caused by Contractor activities that were not foreseen in the Plan of Work or that arise from a breach of any conditions of approval, including arising out of activities of the Contractor] / [any damage, including damage to the Marine Environment, arising out of its wrongful acts or omissions, and those of its employees, subcontractors, agents and all persons engaged in working or acting for them in the conduct of its operations under this Contract [arising out of its wrongful acts [or omissions]]] [], account being taken of any contributory acts or omissions by the Authority or third parties. This clause survives the termination of the Contract and applies to all damage [] [arising out of the Contractors wrongful acts [or omissions]] regardless of whether it is caused or arises before, during or after the completion of the Exploitation activities or Contract term. [For the purpose of clauses 7.1 and 7.2, ‘wrongful acts or omissions’, means any unlawful act or omission attributable to the Contractor that results in damage not anticipated and approved in the Plan of Work, irrespective of bad intention or negligence.] [[Recoverable damages under this clause include: costs of reasonable measures to prevent and limit damage to the Marine Environment, lost revenue, reinstatement, pay-out in lieu of actual reinstatement, and/or measures to compensate for third-party economic loss, as well as pure ecological loss and harm to the living resources of the Area.] For the avoidance of doubt, strict liability in this context applies the polluter pays principle, and means, it is not necessary to prove that a Contractor intended to commit or was reckless as to committing a wrongful act or omission, it is necessary only to demonstrate unpermitted damage or harm arose as a result of a Contractor’s wrongful act for the Contractor to be held liable for that damage or harm.] 7.2 The Contractor shall indemnify the Authority, its employees, subcontractors and agents against all claims and liabilities of any third party arising out of any [wrongful] environmental damage caused by Contractor activities that were not foreseen in the Plan of Work or that arise from a breach of any conditions of approval, including arising from activities of the Contractor. 7.3 The Authority shall be liable to the Contractor for the actual amount of any damage caused to the Contractor arising out of its wrongful acts in the exercise of its powers and functions, including violations under article 168, paragraph 2 of the Convention, account being taken of contributory acts or omissions by the Contractor [its employees, agents and subcontractors, and all persons engaged in working or acting for them in the conduct of its operations under this Contract] or third parties. 7.4 The Authority shall indemnify the Contractor [its employees, agents and subcontractors, and all persons engaged in working or acting for them in the conduct of its operations under this Contract] against all claims and liabilities of any third party arising out of any wrongful acts or omissions in the exercise of its powers and functions hereunder, including violations under article 168, paragraph 2 of the Convention. Section 8 Force Majeure 8.1 The Contractor shall not be liable for an unavoidable delay or failure to perform any of its obligations under this Contract due to Force Majeure, provided the Contractor has taken all reasonable steps to overcome the delay or obstacle to performance. For the purposes of this Contract, Force Majeure shall mean an event or condition that the Contractor could not reasonably be expected to prevent or control; provided that the 172 of 197 event or condition was not caused by Contractor action, negligence or by a failure to observe Good Industry Practice. 8.2 The Contractor shall give written notice to the Authority of the occurrence of an event of Force Majeure as soon as reasonably possible after its occurrence (specifying the nature of the event or circumstance, what is required to remedy the event or circumstance and if a remedy is possible, the estimated time to cure or overcome the event or circumstance and the obligations that cannot be properly or timely performed on account of the event or circumstance) and similarly give written notice to the Authority of the Restoration of normal conditions. 8.3 The Contractor shall, upon request to the Secretary-General, be granted a time extension equal to the period by which performance was delayed hereunder by Force Majeure and the term of this Contract shall be extended accordingly. Section 9 Extension 9.1 [Alt. 1 The Contractor may extent this Contract in accordance with regulation 20.] [Alt. 2 The Contractor may extent this Contract for periods not more than 10 years each, on the following conditions: (a) The resource category is recoverable annually in commercial quantities from the Contract Area; (b) The Contractor is in compliance with the terms of this Contract and the Rules of the Authority, including rules, regulations and procedures adopted by the Authority to ensure effective protection for the Marine Environment from harmful effects which may arise from activities in the Area; (c) This Contract has not been terminated earlier; and (d) The Contractor has paid the applicable fee. 9.2 To renew this Contract, the Contractor shall notify the Secretary-General no later than one year before the expiration of the initial period or extension period, as the case may be, of this Contract. 9.3 The Council shall review the notification, and if the Council determines that the Contractor is in compliance with the conditions set out above, this Contract shall be renewed on the terms and conditions of the standard exploitation contract that are in effect on the date that the Council approves the extension application.] Section 10 Renunciation of rights 10.1 The Contractor, by prior written notice to the Authority, may renounce without penalty the whole or part of its rights in the Contract Area, provided that the Contractor shall remain liable for all obligations and liabilities accrued prior to the date of such renunciation in respect of the whole or part of the Contract Area renounced. Such obligations shall include, inter alia, the payment of any sums outstanding to the Authority, and obligations under the Environmental Management and Monitoring Plan and Closure Plan. 173 of 197 Section 11 Termination of sponsorship [Omitted] Section 12 Suspension and termination of Contract and penalties 12.1 The Council may suspend or terminate this Contract, without prejudice to any other rights that the Authority may have, if any of the following events should occur: (a) If, in spite of written warnings by the Authority, the Contractor has conducted its activities in such a way as to result in serious persistent and wilful violations of the fundamental terms of this Contract, Part XI of the Convention, the Agreement and the rules, regulations and procedures of the Authority; (b) If the Contractor has failed, within a reasonable period, to comply with a final binding decision of the dispute settlement body applicable to it; (c) If the Contractor knowingly, recklessly or negligently provides the Authority with information that is false or misleading; (d) If the Contractor [] becomes insolvent or commits an act of bankruptcy or enters into any agreement for composition with its creditors or goes into liquidation or receivership, whether compulsory or voluntary, or petitions or applies to any tribunal for the appointment of a receiver or a trustee for itself or commences any proceedings relating to itself under any bankruptcy, insolvency or readjustment of debt law, whether now or hereafter in effect, other than for the purpose of reconstruction; or (d bis) If any person standing as surety or financial guarantor to the Contractor pursuant to regulation 26 of the Regulations becomes insolvent or commits an act of bankruptcy or enters into any agreement for composition with its creditors or goes into liquidation or receivership, whether compulsory or voluntary, or petitions or applies to any tribunal for the appointment of a receiver or a trustee or receiver for itself or commences any proceedings relating to itself under any bankruptcy, insolvency or readjustment of debt law, whether now or hereafter in effect, other than for the purpose of reconstruction, and the Contractor is unable to find a suitable replacement for that person within a reasonable period of time; or (e) If the Contractor has not made bona fide efforts to achieve or sustain Commercial Production and is not recovering Minerals in commercial quantities at the end of five years from the expected date of Commercial Production, save where the Contractor is able to demonstrate to the Council’s satisfaction good cause, which may include Force Majeure, [good faith efforts to comply with the environmental obligations imposed by the Authority,] or other circumstances beyond the reasonable control of the Contractor that prevented the Contractor from achieving Commercial Production. 12.2 The Council may, without prejudice to Section 8, after consultation with the Contractor, suspend or terminate this Contract, without prejudice to any other rights that the Authority may have, if the Contractor is prevented from performing its obligations under this Contract by reason of an event or condition of Force Majeure, as described in Section 8, which has persisted for a continuous period exceeding 2 years, despite the Contractor having taken all reasonable measures to overcome its inability to perform and comply with the terms and conditions of this Contract with minimum delay. 12.3 Any suspension or termination shall be by written notice to the Contractor, through the Secretary-General, which shall include a statement of the reasons for taking such action. The suspension or termination shall be effective 60 Days after such written notice, unless the Contractor within such period disputes the Authority’s right to suspend or terminate this Contract in accordance with Part XI, Section 5, of the 174 of 197 Convention. In such a case, this Contract shall only be suspended or terminated in accordance with a final binding decision in accordance with Part XI, Section 5, of the Convention. [12.4 If the Contractor takes such action, this Contract shall only be suspended or terminated in accordance with a final binding decision in accordance with Part XI, Section 5, of the Convention.] 12.5 If the Council has suspended this Contract, the Council may by written notice require the Contractor to resume its operations and comply with the terms and conditions of this Contract, not later than 60 Days after such written notice. 12.6 In the case of any violation of this Contract not covered under Section 12.1 (a), or in lieu of suspension or termination under Section 12, the Council may impose upon the Contractor monetary penalties proportionate to the seriousness of the violation. 12.7 Subject to Section 13, the Contractor shall cease operations upon the termination of this Contract. 12.8 Termination of this Contract for any reason (including the passage of time), in whole or in part, shall be without prejudice to rights and obligations expressed in this Contract to survive termination, or to rights and obligations accrued thereunder prior to termination, including performance under a Closure Plan, and all provisions of this Contract reasonably necessary for the full enjoyment and enforcement of those rights and obligations shall survive termination for the period so necessary. Section 13 Obligations on Termination of a Contract 13.1 In the event of termination of this Contract, the Contractor shall: (a) comply with the Final Closure Plan, and the Environmental Management and Monitoring Plan and continue to perform the required environmental management of the Contract Area as set forth in the Final Closure Plan and for the period established in the Final Closure Plan; (b) continue to comply with relevant provisions of the Regulations, including: (i) maintaining and keeping in place all insurance required under the Regulations; (ii) paying any fee, royalty, penalty or other money on any other account owing to the Authority on or before the date of termination; and (iii) complying with any obligation to meet any liability under Section 8. (c) remove all Installations, plant, equipment and materials in the Contract Area; and (d) make the area safe so as not to constitute a danger to persons, shipping or [to result in adverse impacts, or a reasonable likelihood of such impacts, to] the Marine Environment. 13.2 Where the Contractor fails to undertake the obligations listed in Section 13.1 within a reasonable period, the Authority may take necessary steps to effect such removal and make safe the area at the expense of the Contractor. Such expense, if any, shall be deducted from the Environmental Performance Guarantee held by the Authority. 13.3 Upon termination of this Contract, any rights of the Contractor under the Plan of Work and in respect of the Contract Area also terminate. Section 14 175 of 197 Transfer of rights and obligations [Omitted] Section 15 No waiver No waiver by either party of any rights pursuant to a breach of the terms and conditions of this Contract to be performed by the other party shall be construed as a waiver by the party of any succeeding breach of the same or any other term or condition to be performed by the other party. Section 16 Modification of terms and conditions of this Contract 16.1 When circumstances have arisen or are likely to arise after this Contract has commenced which, in the opinion of the Authority or the Contractor would render this Contract inequitable or make it impracticable or impossible to achieve the objectives set out in this Contract or in Part XI of the Convention, the parties shall enter into negotiations to revise it accordingly. 16.2 This Contract may be revised by agreement between the Contractor and the Authority. 16.3 This Contract may be revised only: (a) with the consent of the Contractor and the Authority; and (b) by an appropriate instrument signed by the duly authorized representatives of the parties. 16.4 Subject to the confidentiality requirements of the Regulations, the Authority shall publish information about any revision to the terms and conditions of this Contract. Section 17 Applicable law 17.1 This Contract is governed by the terms of this Contract, the rules, regulations and procedures of the Authority and other rules of international law not incompatible with the Convention. 17.2 The Contractor, shall observe the applicable law referred to in Section 17.1 hereof and shall not engage in any transaction, directly or indirectly, prohibited by the applicable law. 17.3 Nothing contained in this Contract shall be deemed an exemption from the necessity of applying for and obtaining any permit or authority that may be required for any activities under this Contract. 17.4 The division of this Contract into sections and subsections and the insertion of headings are for convenience of reference only and shall not affect the construction or interpretation hereof. Section 18 Disputes Any dispute between the parties concerning the interpretation or application of this Contract shall be settled in accordance with Part XII of the Regulations. Section 19 176 of 197 Notice Any notice provided to or from one party to another pursuant to this Contract shall be provided in accordance with the notice provision set out at regulation 91 of the Regulations. Section 20 Schedules This Contract includes the schedules to this Contract, which shall be an integral part hereof. 177 of 197 Annex X bis Design Criteria for Impact Reference Zones and Preservation Reference Zones Applicants must establish suitable and effective Impact Reference Zones and Preservation Reference Zones in order to monitor the Environmental Impacts of their activities. The following parameters shall apply in the designation of Impact Reference Zones and Preservation Reference Zones. 1. Impact Reference Zones and Preservation Reference Zones must be situated within the Contract Area (and the Contract Area may need to be selected around the need for appropriate Impact Reference Zones and Preservation Reference Zones, especially where multiple or large reference zones are required) 2. The applicant needs to demonstrate that the Impact Reference Zones and Preservation Reference Zones are [ecologically] similar before the commencement of mining. Additional Impact Reference Zones and Preservation Reference Zones have to be introduced subsequently, once areas ecologically dissimilar from the primary Preservation Reference Zones are impacted, to warrant future comparability. 3. Impact Reference Zones must be zones where direct impacts from mining are predicted to occur once mining commences. 4. The area(s) of the Impact Reference Zones needs to be sufficiently large and representative to allow adequate assessment of recovery of populations and environmental conditions after the Exploitation activities, in accordance with the applicable Standards and taking into consideration Guidelines. 5. Preservation Reference Zones will be important in identifying natural variations in environmental conditions against which impacts shall be assessed and must be comparable to that of the Impact Areas, in accordance with the applicable Standards and, taking into consideration Guidelines. 6. Preservation Reference Zones must be areas that will not be impacted by Exploitation activities from any Contractor, including impacts from operational and discharge plumes and including during the post-closure period. Preservation Reference Zones should also be free from impacts of other industrial activities. Preservation Reference Zones should have to remain unimpacted throughout the post-mining monitoring period. 7. Where a Contract Area consists of several disjunct sub-areas that are isolated from each other, then each of those areas would require a corresponding Preservation Reference Zone and Impact Reference Zone. 8. Use of multiple Preservation Reference Zones and Impact Reference Zones should be considered for increase in statistical rigour, and chance of detecting effects and adding redundancy in case of unexpected variation/plan changes. 9. The area of the Preservation Reference Zone needs to be sufficiently large to contain sufficiently large populations to guarantee long-term survival. The Preservation Reference Zone will also require a buffer zone around it to protect the populations and ensure maintenance of natural environmental conditions in the Preservation Reference Zone. 10. [monitoring shows a trajectory towards recovery of] Isolation of Preservation Reference Zone is important. Any Preservation Reference Zone will by definition have to remain unimpacted throughout the post-mining monitoring period. 178 of 197 Annex XI Parent Company Liability Statement THIS “STATEMENT” made the ... day of ... by A. [insert name of Managing Company], with its statutory seat at [insert address and home State] and registered at [insert Chamber of Commerce or Trade Register details], represented by ..., with the authority to provide this Statement on behalf of [Managing Company]; and B. [insert name of Contractor], with its statutory seat at [insert address and home State] and registered at [insert Chamber of Commerce or Trade Register details], represented by ..., with the authority to provide this Statement on behalf of [Contractor]; and irrevocably and unconditionally DECLARE and REPRESENT that: Obligations of [Managing Company] 1. [Managing Company] is jointly and severally liable for any debts and liabilities of [Contractor] arising in relation to: (i) the obligations of [Contractor] that follow from the agreement that is to be concluded between [Contractor] and the International Seabed Authority for the exploitation of Resources in the Area (hereinafter referred to as “the Exploitation Contract”); (ii) the acts performed by [Contractor] in the performance of the Exploitation Contract; and (iii) the omissions that [Contractor] makes in the performance of the Exploitation Contract (hereinafter referred to as “the Joint and Several Liability Obligation”); 2. [Managing Company] has the financial capability to comply with the Joint and Several Liability Obligation, or can draw on a parent company or its shareholders in order to do so (hereinafter referred to as “Certainty of Funds”); 179 of 197 3. [Managing Company] confirms that the Contractor is adequately insured to perform the Exploitation Contract in accordance with the applicable regulations and that such insurance will remain in place until such time as the Contractor’s insurance should be in place, in accordance with the Regulations on Exploitation of Resources in the Area (hereinafter referred to as “the Regulations”) and the Exploitation Contract (hereinafter referred to as “Certainty of Insurance”); 4. [Managing Company] will procure that [Contractor] complies with the terms and conditions of their Exploitation Contract and the rules, regulations and procedures of the International Seabed Authority, in a manner consistent with the Convention and the Agreement, by among others, but not limited to, exercising its voting rights in the shareholder’s meeting of [Contractor] and issuing instructions to the directors of [Contractor], when it is competent to do so; Enforcement of Obligations of [Managing Company] 5. At any given point in time, the International Seabed Authority is authorized to request documentation to support the [Managing Company’s] compliance with its obligations of Certainty of Funds and Certainty of Insurance, and that failure to do so within 15 working days or inability to substantiate such Certainty of Funds or Certainty of Insurance has to be remedied by [Managing Company] within a period of 90 days; 6. Should [Managing Company] fail to comply with the obligations in provision 5 above, the International Seabed Authority shall suspend the Exploitation Contract by issuing a written notice to the Managing Company and the Contractor in accordance with the applicable regulations, as a consequence of which the Contractor shall cease its operations in the exercise of the Exploitation Agreement until the International Seabed Authority is satisfied that [Managing Company] has remedied its failure to comply with the obligations in provision 5 above; 7. Notices to [Managing Company] and [Contractor] are to be sent to the following address: [insert contact details of Managing Company and Contractor]. Miscellaneous Provisions 8. If [Contractor] transfers its rights and obligations under an Exploitation Contract in whole, [Contractor] and [Managing Company] shall procure that the party that qualifies as the “Managing Company” under Regulations of the Transferee provides a statement substantially in the same form as Schedule 14 to the Exploitation Contract (Parent Company Liability Statement); 180 of 197 9. If [Contractor] transfers its rights and obligations under an Exploitation Contract in part, this STATEMENT shall remain in full force and effect, unless [Contractor] and [Managing Company] procure that the party that qualifies as the “Managing Company” under Regulations of the Transferee provides a statement substantially in the same form as Schedule 14 to the Exploitation Contract (Parent Company Liability Statement); 10.If [Managing Company] no longer directly or indirectly owns or controls [Contractor], the party that comes to qualify as the “Managing Company” under the Schedule to the Regulations shall issue a statement substantially in the same form as Schedule 14 to the Exploitation Contract (Parent Company Liability Statement); 11. This STATEMENT or the obligations provided for in this STATEMENT cannot be assigned, transferred or novated; 12. A change in the corporate seat of [Managing Company] does not affect the validity of this STATEMENT; 13. [Managing Company] undertakes not to engage in any contracting or other corporate practice that serves to avoid its liability and responsibility as provided for under this STATEMENT; 14. This STATEMENT shall remain in effect after the termination of the Exploitation Contract and can be invoked for any conduct that is reasonably attributable to the Contractor; and 15. Any disputes arising in relation to this STATEMENT shall be settled in accordance with Part XII of the Regulations. [Managing Party] herewith provides its explicit written consent to being a party to such dispute settlement procedures. 181 of 197 Schedule Use of terms and scope “Agreement” means the Agreement relating to the Implementation of Part XI of the United Nations Convention on the Law of the Sea of 10 December 1982. “Application” and “Applicant” means an application and an applicant, respectively, for a Plan of Work for exploitation in the form of a contract with the Authority."
+        },
+        {
+          "label": "Alt.2",
+          "text": "[Measures taken to avoid, reduce and Mitigate effects, including alternatives] [and the extent to which any potential Environmental Impacts and effects may occur in areas under a State’s national jurisdiction]"
+        }
+      ],
+      "context_before": "Effects of the proposed operation and a summary of the environmental management measures to Mitigate Environmental Impacts and residual effects,",
+      "context_after": "] and alternatives considered in section 3.7 to the biological environment components identified in section 5 in the Contract Area,"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alternatives & Member State Preferences · ISA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .option-card { transition: all 0.15s; }
+    .option-card:hover { transform: translateY(-1px); }
+    .option-card.selected { border-color: #2563eb; background: #eff6ff; }
+    .vote-bar { transition: width 0.4s ease; }
+    .flag { font-size: 0.65rem; padding: 1px 5px; border-radius: 9999px; }
+    .alt-card { scroll-margin-top: 80px; }
+    #login-modal { backdrop-filter: blur(4px); }
+    .context-text { font-style: italic; color: #6b7280; font-size: 0.8rem; }
+    .badge-alt { background: #dbeafe; color: #1d4ed8; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+    .option-label { background: #f0f9ff; border: 1px solid #bae6fd; color: #0369a1; font-size: 0.7rem; padding: 1px 6px; border-radius: 4px; font-weight: 700; letter-spacing: 0.02em; }
+    .sticky-header { position: sticky; top: 0; z-index: 40; }
+    .withdraw-btn { font-size: 0.7rem; color: #ef4444; cursor: pointer; }
+    .withdraw-btn:hover { text-decoration: underline; }
+    details > summary { cursor: pointer; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen">
+
+<!-- ── Header ────────────────────────────────────────────────────────────── -->
+<header class="sticky-header bg-white border-b border-gray-200 shadow-sm">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+    <div class="flex items-center gap-3">
+      <a href="/timeline" class="text-gray-400 hover:text-blue-600 text-sm">← Timeline</a>
+      <div>
+        <div class="font-bold text-blue-900 text-base leading-tight">Alternatives & Preferences</div>
+        <div class="text-xs text-gray-500">ISBA/31/C/CRP.2/Rev.2 · Bracketed alternatives</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <!-- Stats -->
+      <div id="stats-bar" class="hidden sm:flex items-center gap-4 text-xs text-gray-500">
+        <span id="stat-total">— alternatives</span>
+        <span id="stat-voted">— voted</span>
+      </div>
+      <!-- Login status -->
+      <div id="auth-logged-out" class="flex items-center gap-2">
+        <button onclick="openLoginModal()"
+          class="px-3 py-1.5 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium">
+          Member State Login
+        </button>
+      </div>
+      <div id="auth-logged-in" class="hidden items-center gap-2">
+        <span class="text-xs text-gray-500">Logged in as</span>
+        <span id="auth-state-name" class="text-sm font-semibold text-blue-700"></span>
+        <button onclick="logout()" class="text-xs text-gray-400 hover:text-red-500">Log out</button>
+      </div>
+    </div>
+  </div>
+  <!-- Filter bar -->
+  <div class="border-t border-gray-100 bg-gray-50 px-4 py-2 max-w-6xl mx-auto flex flex-wrap items-center gap-2">
+    <span class="text-xs text-gray-400 font-medium mr-1">Filter:</span>
+    <button onclick="setFilter('all')"      id="f-all"    class="filter-btn active-filter px-3 py-1 text-xs rounded-full border">All</button>
+    <button onclick="setFilter('unvoted')"  id="f-unvoted" class="filter-btn px-3 py-1 text-xs rounded-full border">Not yet voted</button>
+    <button onclick="setFilter('voted')"    id="f-voted"   class="filter-btn px-3 py-1 text-xs rounded-full border">Voted</button>
+    <button onclick="setFilter('full_regulation')" id="f-full" class="filter-btn px-3 py-1 text-xs rounded-full border">Full-reg alternates</button>
+    <div class="flex-1"></div>
+    <input id="search-input" type="text" placeholder="Search by regulation…"
+      oninput="applyFilters()"
+      class="text-xs border rounded-full px-3 py-1 w-48 outline-none focus:border-blue-400"/>
+  </div>
+</header>
+
+<!-- ── Login Modal ────────────────────────────────────────────────────────── -->
+<div id="login-modal" class="fixed inset-0 bg-black/40 z-50 flex items-center justify-center hidden">
+  <div class="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm mx-4">
+    <div class="font-bold text-lg mb-1">Member State Login</div>
+    <div class="text-xs text-gray-500 mb-4">Enter your state code and PIN issued by the ISA Secretariat.</div>
+    <label class="block text-xs font-medium text-gray-600 mb-1">State</label>
+    <select id="login-state" class="w-full border rounded-lg px-3 py-2 text-sm mb-3 outline-none focus:border-blue-400">
+      <option value="">— Select your state —</option>
+    </select>
+    <label class="block text-xs font-medium text-gray-600 mb-1">PIN</label>
+    <input id="login-pin" type="password" inputmode="numeric" maxlength="6"
+      placeholder="6-digit PIN" onkeydown="if(event.key==='Enter')doLogin()"
+      class="w-full border rounded-lg px-3 py-2 text-sm mb-1 outline-none focus:border-blue-400"/>
+    <div id="login-error" class="text-xs text-red-500 mb-3 hidden"></div>
+    <div class="flex gap-2 mt-2">
+      <button onclick="closeLoginModal()" class="flex-1 py-2 text-sm border rounded-lg hover:bg-gray-50">Cancel</button>
+      <button onclick="doLogin()" id="login-btn"
+        class="flex-1 py-2 text-sm bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium">
+        Login
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ── Main content ───────────────────────────────────────────────────────── -->
+<main class="max-w-6xl mx-auto px-4 py-6">
+
+  <!-- Loading state -->
+  <div id="loading" class="text-center py-16 text-gray-400">
+    <div class="text-3xl mb-2">⏳</div>
+    <div>Loading alternatives…</div>
+  </div>
+
+  <!-- Backend offline -->
+  <div id="offline-banner" class="hidden bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 text-sm">
+    <strong>⚠️ Backend not connected.</strong> Start it with:
+    <code class="block mt-1 bg-amber-100 px-3 py-1 rounded text-xs">
+      cd '/Users/krisvannijen/Documents/ISA App/backend' &amp;&amp; python3 -m uvicorn app.main:app --reload
+    </code>
+  </div>
+
+  <!-- Alternatives list -->
+  <div id="alts-list" class="hidden space-y-6"></div>
+
+  <!-- Empty state -->
+  <div id="empty-state" class="hidden text-center py-16 text-gray-400">
+    <div class="text-3xl mb-2">🔍</div>
+    <div>No alternatives match the current filter.</div>
+  </div>
+
+</main>
+
+<!-- ── Footer ─────────────────────────────────────────────────────────────── -->
+<footer class="mt-12 border-t border-gray-200 bg-white py-4 text-center text-xs text-gray-400">
+  ISA Exploitation Regulations · Alternatives &amp; Member State Preferences ·
+  <a href="/timeline" class="text-blue-600 hover:underline">Timeline</a> ·
+  <a href="/chat" class="text-blue-600 hover:underline">💬 Chat</a>
+</footer>
+
+<script>
+  const API_BASE = 'http://localhost:8000';
+
+  // State
+  let ALL_ALTS   = [];
+  let ALL_PREFS  = {};
+  let SESSION    = null;   // {token, state_code, state_name}
+  let currentFilter = 'all';
+
+  // ── Bootstrap ────────────────────────────────────────────────────────────
+
+  async function init() {
+    // Restore session
+    const saved = localStorage.getItem('isa_session');
+    if (saved) {
+      try {
+        SESSION = JSON.parse(saved);
+        // Validate it
+        const r = await fetch(`${API_BASE}/api/auth/me`, {
+          headers: { Authorization: `Bearer ${SESSION.token}` }
+        });
+        if (!r.ok) { SESSION = null; localStorage.removeItem('isa_session'); }
+      } catch { SESSION = null; }
+    }
+    updateAuthUI();
+
+    try {
+      const [altsRes, prefsRes] = await Promise.all([
+        fetch(`${API_BASE}/api/alternatives`),
+        fetch(`${API_BASE}/api/preferences`),
+      ]);
+      if (!altsRes.ok) throw new Error('Backend error');
+      const altsData = await altsRes.json();
+      ALL_ALTS  = altsData.alternatives || [];
+      ALL_PREFS = await prefsRes.json();
+
+      document.getElementById('loading').classList.add('hidden');
+      document.getElementById('alts-list').classList.remove('hidden');
+
+      populateStateDropdown(altsData);
+      renderStats();
+      applyFilters();
+    } catch (e) {
+      document.getElementById('loading').classList.add('hidden');
+      document.getElementById('offline-banner').classList.remove('hidden');
+    }
+  }
+
+  function populateStateDropdown() {
+    // We'll load states from a simple approach — just use a static list
+    // populated from member_states.json via a future API call.
+    // For now, user types their state code directly.
+    const sel = document.getElementById('login-state');
+    // Will be populated from API if available
+    fetch(`${API_BASE}/api/alternatives`).then(r => r.json()).then(() => {
+      // States available — try to fetch state list
+      // For simplicity, we allow manual code entry via a text input fallback
+    }).catch(() => {});
+  }
+
+  // ── Auth ─────────────────────────────────────────────────────────────────
+
+  function openLoginModal() {
+    // Replace select with text input for state code + populate dropdown
+    document.getElementById('login-modal').classList.remove('hidden');
+    document.getElementById('login-pin').focus();
+    loadStatesIntoDropdown();
+  }
+
+  async function loadStatesIntoDropdown() {
+    const sel = document.getElementById('login-state');
+    if (sel.options.length > 1) return;
+    try {
+      // Fetch states via the health endpoint to check connectivity, then use hardcoded approach
+      // The states list is in member_states.json — we expose it via a simple endpoint
+      const r = await fetch(`${API_BASE}/api/auth/states`);
+      if (r.ok) {
+        const states = await r.json();
+        states.forEach(s => {
+          const opt = document.createElement('option');
+          opt.value = s.code;
+          opt.textContent = s.name;
+          sel.appendChild(opt);
+        });
+      }
+    } catch {}
+  }
+
+  function closeLoginModal() {
+    document.getElementById('login-modal').classList.add('hidden');
+    document.getElementById('login-error').classList.add('hidden');
+    document.getElementById('login-error').textContent = '';
+  }
+
+  async function doLogin() {
+    const stateCode = document.getElementById('login-state').value;
+    const pin       = document.getElementById('login-pin').value.trim();
+    const errEl     = document.getElementById('login-error');
+    const btn       = document.getElementById('login-btn');
+
+    if (!stateCode) { showLoginError('Please select your state.'); return; }
+    if (!pin)       { showLoginError('Please enter your PIN.');    return; }
+
+    btn.textContent = 'Logging in…';
+    btn.disabled = true;
+    errEl.classList.add('hidden');
+
+    try {
+      const r = await fetch(`${API_BASE}/api/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state_code: stateCode, pin }),
+      });
+      const data = await r.json();
+      if (!r.ok) {
+        showLoginError(data.detail || 'Invalid credentials.');
+        return;
+      }
+      SESSION = { token: data.token, state_code: data.state_code, state_name: data.state_name };
+      localStorage.setItem('isa_session', JSON.stringify(SESSION));
+      closeLoginModal();
+      updateAuthUI();
+      applyFilters(); // re-render with vote highlights
+    } catch {
+      showLoginError('Could not connect to backend.');
+    } finally {
+      btn.textContent = 'Login';
+      btn.disabled = false;
+      document.getElementById('login-pin').value = '';
+    }
+  }
+
+  function showLoginError(msg) {
+    const el = document.getElementById('login-error');
+    el.textContent = msg;
+    el.classList.remove('hidden');
+  }
+
+  async function logout() {
+    if (SESSION) {
+      try {
+        await fetch(`${API_BASE}/api/auth/logout`, {
+          method: 'POST',
+          headers: { Authorization: `Bearer ${SESSION.token}` },
+        });
+      } catch {}
+    }
+    SESSION = null;
+    localStorage.removeItem('isa_session');
+    updateAuthUI();
+    applyFilters();
+  }
+
+  function updateAuthUI() {
+    if (SESSION) {
+      document.getElementById('auth-logged-out').classList.add('hidden');
+      document.getElementById('auth-logged-in').classList.remove('hidden');
+      document.getElementById('auth-logged-in').style.display = 'flex';
+      document.getElementById('auth-state-name').textContent = SESSION.state_name;
+    } else {
+      document.getElementById('auth-logged-out').classList.remove('hidden');
+      document.getElementById('auth-logged-in').classList.add('hidden');
+    }
+  }
+
+  // ── Filtering ─────────────────────────────────────────────────────────────
+
+  function setFilter(f) {
+    currentFilter = f;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active-filter','bg-blue-600','text-white','border-blue-600'));
+    const active = document.getElementById(`f-${f}`);
+    if (active) { active.classList.add('active-filter','bg-blue-600','text-white','border-blue-600'); }
+    applyFilters();
+  }
+
+  function applyFilters() {
+    const search = document.getElementById('search-input').value.toLowerCase();
+    let visible = ALL_ALTS;
+
+    if (search) {
+      visible = visible.filter(a =>
+        a.regulation.toLowerCase().includes(search) ||
+        a.id.toLowerCase().includes(search) ||
+        a.options.some(o => o.text.toLowerCase().includes(search))
+      );
+    }
+
+    if (currentFilter === 'voted') {
+      visible = visible.filter(a => SESSION && ALL_PREFS[a.id]?.[SESSION.state_code]);
+    } else if (currentFilter === 'unvoted') {
+      visible = visible.filter(a => !SESSION || !ALL_PREFS[a.id]?.[SESSION.state_code]);
+    } else if (currentFilter === 'full_regulation') {
+      visible = visible.filter(a => a.type === 'full_regulation');
+    }
+
+    renderAlts(visible);
+    renderStats(visible);
+  }
+
+  // ── Rendering ─────────────────────────────────────────────────────────────
+
+  function renderStats() {
+    const total = ALL_ALTS.length;
+    const myVotes = SESSION
+      ? ALL_ALTS.filter(a => ALL_PREFS[a.id]?.[SESSION.state_code]).length
+      : 0;
+    document.getElementById('stat-total').textContent = `${total} alternatives`;
+    document.getElementById('stat-voted').textContent = SESSION
+      ? `You voted on ${myVotes}/${total}`
+      : `${Object.keys(ALL_PREFS).length} have votes`;
+    document.getElementById('stats-bar').classList.remove('hidden');
+  }
+
+  function renderAlts(alts) {
+    const container = document.getElementById('alts-list');
+    const empty     = document.getElementById('empty-state');
+
+    if (alts.length === 0) {
+      container.innerHTML = '';
+      empty.classList.remove('hidden');
+      return;
+    }
+    empty.classList.add('hidden');
+
+    container.innerHTML = alts.map(alt => renderAltCard(alt)).join('');
+  }
+
+  function renderAltCard(alt) {
+    const prefs    = ALL_PREFS[alt.id] || {};
+    const myVote   = SESSION ? prefs[SESSION.state_code] : null;
+    const totalVotes = Object.keys(prefs).length;
+    const typeLabel = alt.type === 'full_regulation'
+      ? '<span class="badge-alt ml-2">Full Regulation</span>'
+      : '<span class="badge-alt ml-2">Inline</span>';
+
+    const optionCards = alt.options.map((opt, idx) => {
+      const votesForOpt = Object.values(prefs).filter(v => v.option_index === idx);
+      const pct = totalVotes > 0 ? Math.round((votesForOpt.length / totalVotes) * 100) : 0;
+      const isMyVote = myVote?.option_index === idx;
+
+      // State flags (first 8)
+      const stateNames = votesForOpt.slice(0, 8).map(v =>
+        `<span class="flag bg-blue-100 text-blue-700">${v.state_name.split(' ')[0]}</span>`
+      ).join(' ');
+      const moreVotes = votesForOpt.length > 8 ? `<span class="text-xs text-gray-400">+${votesForOpt.length - 8} more</span>` : '';
+
+      const clickable = SESSION ? `onclick="castVote('${alt.id}', ${idx})" style="cursor:pointer"` : '';
+      const selectedClass = isMyVote ? 'selected shadow-md' : 'hover:border-blue-300';
+
+      return `
+        <div class="option-card border-2 rounded-xl p-4 mb-3 ${selectedClass}" ${clickable}>
+          <div class="flex items-start justify-between gap-2 mb-2">
+            <span class="option-label">${escHtml(opt.label)}</span>
+            <div class="flex items-center gap-2">
+              ${isMyVote ? '<span class="text-xs font-semibold text-blue-600">✓ Your vote</span>' : ''}
+              <span class="text-xs text-gray-500 font-medium">${votesForOpt.length} vote${votesForOpt.length !== 1 ? 's' : ''}</span>
+            </div>
+          </div>
+          <p class="text-sm text-gray-700 leading-relaxed mb-3">${escHtml(opt.text)}</p>
+          <!-- Vote bar -->
+          ${totalVotes > 0 ? `
+          <div class="flex items-center gap-2">
+            <div class="flex-1 bg-gray-100 rounded-full h-1.5 overflow-hidden">
+              <div class="vote-bar h-full rounded-full ${isMyVote ? 'bg-blue-500' : 'bg-gray-400'}" style="width:${pct}%"></div>
+            </div>
+            <span class="text-xs text-gray-400 w-8 text-right">${pct}%</span>
+          </div>` : ''}
+          <!-- State names -->
+          ${votesForOpt.length > 0 ? `<div class="mt-2 flex flex-wrap gap-1">${stateNames}${moreVotes}</div>` : ''}
+        </div>`;
+    }).join('');
+
+    const withdrawBtn = myVote && SESSION
+      ? `<button class="withdraw-btn" onclick="withdrawVote('${alt.id}')">Withdraw my vote</button>`
+      : '';
+
+    const loginHint = !SESSION
+      ? `<p class="text-xs text-gray-400 mt-2">
+           <button onclick="openLoginModal()" class="text-blue-500 hover:underline">Log in</button>
+           as a Member State to record your preference.
+         </p>` : '';
+
+    const contextBefore = alt.context_before
+      ? `<span class="context-text">…${escHtml(alt.context_before)} </span>` : '';
+    const contextAfter  = alt.context_after
+      ? `<span class="context-text"> ${escHtml(alt.context_after)}…</span>` : '';
+
+    return `
+      <div id="alt-${alt.id}" class="alt-card bg-white rounded-2xl border border-gray-200 shadow-sm p-5">
+        <div class="flex flex-wrap items-center gap-2 mb-1">
+          <h3 class="font-bold text-blue-900">${escHtml(alt.regulation)}</h3>
+          ${alt.paragraph ? `<span class="text-xs text-gray-500">· ${escHtml(alt.paragraph)}</span>` : ''}
+          ${typeLabel}
+          ${totalVotes > 0 ? `<span class="ml-auto text-xs text-gray-400">${totalVotes} state${totalVotes !== 1 ? 's' : ''} voted</span>` : ''}
+        </div>
+        <p class="text-xs text-gray-500 mb-4">${contextBefore}[alternatives]${contextAfter}</p>
+        ${optionCards}
+        <div class="flex items-center justify-between mt-1">
+          ${loginHint}
+          ${withdrawBtn}
+        </div>
+      </div>`;
+  }
+
+  // ── Voting ────────────────────────────────────────────────────────────────
+
+  async function castVote(altId, optionIndex) {
+    if (!SESSION) { openLoginModal(); return; }
+
+    // Optimistic update
+    if (!ALL_PREFS[altId]) ALL_PREFS[altId] = {};
+    ALL_PREFS[altId][SESSION.state_code] = {
+      state_name:   SESSION.state_name,
+      option_index: optionIndex,
+      option_label: '',
+      note: '',
+      voted_at: new Date().toISOString(),
+    };
+    applyFilters();
+
+    try {
+      const r = await fetch(`${API_BASE}/api/preferences/${altId}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${SESSION.token}`,
+        },
+        body: JSON.stringify({ option_index: optionIndex }),
+      });
+      if (!r.ok) {
+        const err = await r.json();
+        if (r.status === 401) { SESSION = null; localStorage.removeItem('isa_session'); updateAuthUI(); }
+        alert(err.detail || 'Vote failed.');
+        // Reload prefs
+        await refreshPrefs();
+        applyFilters();
+      } else {
+        await refreshPrefs();
+        applyFilters();
+        renderStats();
+      }
+    } catch {
+      alert('Could not reach backend.');
+      await refreshPrefs();
+      applyFilters();
+    }
+  }
+
+  async function withdrawVote(altId) {
+    if (!SESSION) return;
+    if (!confirm('Withdraw your vote for this alternative?')) return;
+
+    try {
+      await fetch(`${API_BASE}/api/preferences/${altId}`, {
+        method: 'DELETE',
+        headers: { Authorization: `Bearer ${SESSION.token}` },
+      });
+    } catch {}
+    await refreshPrefs();
+    applyFilters();
+    renderStats();
+  }
+
+  async function refreshPrefs() {
+    try {
+      const r = await fetch(`${API_BASE}/api/preferences`);
+      if (r.ok) ALL_PREFS = await r.json();
+    } catch {}
+  }
+
+  // ── Utilities ─────────────────────────────────────────────────────────────
+
+  function escHtml(str) {
+    return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Style filter buttons on load
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.add('bg-white','text-gray-600','border-gray-200','hover:border-blue-400');
+    });
+    setFilter('all');
+    init();
+  });
+</script>
+</body>
+</html>

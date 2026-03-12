@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.api import chat, documents, regulations
+from app.api import alternatives, chat, documents, regulations
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
@@ -68,6 +68,17 @@ async def lifespan(app: FastAPI):
             print("ℹ️   No extracted texts found (run scripts/ingest_pdfs.py)")
     app.state.full_texts = full_texts
 
+    # Alternatives (from scripts/extract_alternatives.py)
+    alts_path = DATA_DIR / "alternatives.json"
+    if alts_path.exists():
+        with open(alts_path) as f:
+            app.state.alternatives = json.load(f)
+        n = app.state.alternatives.get("total", 0)
+        print(f"✅  Loaded {n} alternatives from alternatives.json")
+    else:
+        app.state.alternatives = {"alternatives": []}
+        print("ℹ️   alternatives.json not found (run scripts/extract_alternatives.py)")
+
     yield   # server runs here
 
 
@@ -93,9 +104,10 @@ app.add_middleware(
 ROOT_DIR = Path(__file__).parent.parent.parent
 app.mount("/static", StaticFiles(directory=str(ROOT_DIR)), name="static")
 
-app.include_router(documents.router,   prefix="/api/documents",   tags=["Documents"])
-app.include_router(chat.router,        prefix="/api/chat",        tags=["Chat"])
-app.include_router(regulations.router, prefix="/api/regulations", tags=["Regulations"])
+app.include_router(documents.router,     prefix="/api/documents",   tags=["Documents"])
+app.include_router(chat.router,          prefix="/api/chat",        tags=["Chat"])
+app.include_router(regulations.router,   prefix="/api/regulations", tags=["Regulations"])
+app.include_router(alternatives.router,  prefix="/api",             tags=["Alternatives"])
 
 
 @app.get("/chat")
@@ -105,6 +117,10 @@ async def serve_chat():
 @app.get("/timeline")
 async def serve_timeline():
     return FileResponse(str(ROOT_DIR / "timeline.html"))
+
+@app.get("/alternatives")
+async def serve_alternatives():
+    return FileResponse(str(ROOT_DIR / "alternatives.html"))
 
 
 @app.get("/api/health")
