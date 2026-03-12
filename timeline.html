@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISA Exploitation Regulations — Document Timeline</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --isa-blue: #003366;
+      --isa-teal: #006699;
+      --isa-gold: #CC9900;
+    }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; }
+    .timeline-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: linear-gradient(to bottom, #003366, #006699, #009966); transform: translateX(-50%); }
+    .doc-card { transition: all 0.2s ease; }
+    .doc-card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,51,102,0.15); }
+    .badge-current { animation: pulse 2s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+    .lane-main { border-left: 4px solid #003366; }
+    .lane-companion { border-left: 4px solid #006699; }
+    .lane-stakeholder { border-left: 4px solid #CC9900; }
+    .lane-process { border-left: 4px solid #009966; }
+    .lane-prep { border-left: 4px solid #999999; }
+    .progress-bar { background: linear-gradient(90deg, #003366 0%, #006699 40%, #009966 70%, #CC9900 100%); }
+    details > summary { cursor: pointer; }
+    details > summary::-webkit-details-marker { display: none; }
+    .tooltip { position: relative; }
+    .tooltip:hover::after {
+      content: attr(data-tip);
+      position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+      background: #1a1a2e; color: white; padding: 6px 10px; border-radius: 6px;
+      font-size: 12px; white-space: nowrap; z-index: 50; margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Header -->
+  <header class="text-white py-6 px-8 shadow-lg" style="background: linear-gradient(135deg, #003366 0%, #006699 100%);">
+    <div class="max-w-7xl mx-auto flex items-start justify-between">
+      <div>
+        <div class="text-xs font-semibold tracking-widest uppercase opacity-70 mb-1">International Seabed Authority</div>
+        <h1 class="text-2xl font-bold">Exploitation Regulations — Document Timeline</h1>
+        <p class="text-sm opacity-80 mt-1">Polymetallic Nodules · Sessions 20–31 (2014–2026) · <span id="doc-count"></span> documents</p>
+      </div>
+      <div class="text-right">
+        <div class="text-xs opacity-60 mb-1">Current Text</div>
+        <div class="bg-white text-blue-900 font-bold text-sm px-3 py-2 rounded-lg shadow badge-current">
+          ISBA/31/C/CRP.1/Rev.2
+        </div>
+        <div class="text-xs opacity-60 mt-1">March 2026</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="bg-white border-b border-gray-200 px-8 py-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-center gap-4 mb-2">
+        <span class="text-xs font-semibold text-gray-500 uppercase">Drafting Progress</span>
+        <span class="text-xs text-gray-400">2014 → Finalisation</span>
+        <span class="ml-auto text-xs font-bold text-blue-800">Session 31 of 31+ · Phase: Finalisation Negotiations</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+        <div class="progress-bar h-full rounded-full" style="width: 82%"></div>
+      </div>
+      <div class="flex justify-between text-xs text-gray-400 mt-1">
+        <span>2014 — Framework discussions</span>
+        <span>2016 — First Draft</span>
+        <span>2019 — Draft Regs</span>
+        <span>2024 — Consolidated</span>
+        <span class="font-bold text-blue-700">2026 ★ Current</span>
+        <span class="text-green-600">Adoption →</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="bg-white border-b border-gray-200 px-8 py-3">
+    <div class="max-w-7xl mx-auto flex flex-wrap gap-3 items-center">
+      <span class="text-xs font-semibold text-gray-500 uppercase mr-2">Filter:</span>
+      <button onclick="filterDocs('all')" id="filter-all" class="filter-btn active px-3 py-1 rounded-full text-xs font-semibold border border-blue-800 bg-blue-800 text-white">All</button>
+      <button onclick="filterDocs('main_regulatory_text')" id="filter-main" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-blue-800 text-blue-800 hover:bg-blue-50">Main Regulatory Text</button>
+      <button onclick="filterDocs('companion_document')" id="filter-companion" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-teal-700 text-teal-700 hover:bg-teal-50">Companion Documents</button>
+      <button onclick="filterDocs('stakeholder_submission')" id="filter-stakeholder" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-yellow-600 text-yellow-700 hover:bg-yellow-50">Stakeholder Input</button>
+      <button onclick="filterDocs('road_map')" id="filter-process" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-green-700 text-green-700 hover:bg-green-50">Process / Road Map</button>
+      <button onclick="filterDocs('discussion_paper')" id="filter-prep" class="filter-btn px-3 py-1 rounded-full text-xs font-semibold border border-gray-400 text-gray-500 hover:bg-gray-50">Discussion Papers</button>
+      <div class="ml-auto flex items-center gap-2">
+        <label class="text-xs text-gray-500">Show current only</label>
+        <input type="checkbox" id="current-only" onchange="toggleCurrentOnly()" class="rounded">
+      </div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div class="bg-gray-50 border-b border-gray-200 px-8 py-2">
+    <div class="max-w-7xl mx-auto flex flex-wrap gap-4 text-xs">
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-blue-900 inline-block"></span> Main Regulatory Text</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-teal-600 inline-block"></span> Companion Documents</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-yellow-600 inline-block"></span> Stakeholder Input</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-green-700 inline-block"></span> Process / Road Map</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-gray-400 inline-block"></span> Discussion Papers</span>
+      <span class="flex items-center gap-1 ml-4 border-l pl-4"><span class="w-3 h-3 rounded bg-green-500 inline-block border-2 border-green-700"></span> Current</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-gray-300 inline-block"></span> Superseded</span>
+      <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-orange-300 inline-block"></span> Historical</span>
+    </div>
+  </div>
+
+  <!-- Main Timeline -->
+  <main class="max-w-7xl mx-auto px-4 py-8" id="timeline-container">
+    <!-- Grouped by year/session, rendered by JS -->
+  </main>
+
+  <!-- Document Detail Modal -->
+  <div id="modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black bg-opacity-50 p-4">
+    <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-screen overflow-y-auto p-8">
+      <div class="flex justify-between items-start mb-4">
+        <div id="modal-badge" class="text-xs font-bold px-3 py-1 rounded-full"></div>
+        <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 text-2xl">×</button>
+      </div>
+      <h2 id="modal-title" class="text-xl font-bold text-gray-900 mb-2"></h2>
+      <div id="modal-ref" class="text-sm font-mono text-blue-700 mb-3"></div>
+      <div id="modal-date" class="text-sm text-gray-500 mb-4"></div>
+      <p id="modal-desc" class="text-gray-700 text-sm mb-5"></p>
+      <div id="modal-topics" class="mb-5"></div>
+      <div id="modal-links" class="flex flex-wrap gap-3"></div>
+    </div>
+  </div>
+
+  <script>
+    // ─── DATA ────────────────────────────────────────────────────────────────────
+    const DOCUMENTS = [
+      {id:"disc-paper-financial-2014",reference:null,title:"Developing Financial Terms for Deep Sea Mining Exploitation — Comparable Study",short_title:"Financial Terms Study",type:"discussion_paper",category:"preparatory",session:20,date:"2014",date_sort:"2014-01-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/FinTerms2014.pdf",status:"historical",description:"Comparable study on developing financial terms for deep-sea mining exploitation in the Area.",key_topics:["financial terms","royalties","fiscal regime"]},
+      {id:"draft-framework-2015-03",reference:null,title:"Draft Framework for Deep Sea Mineral Exploitation in the Area",short_title:"Draft Framework",type:"discussion_paper",category:"preparatory",session:21,date:"2015-03",date_sort:"2015-03-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/Report-2015.pdf",status:"historical",description:"First draft framework document for deep-sea mineral exploitation regulations.",key_topics:["framework","exploitation","mineral resources"]},
+      {id:"disc-paper-financial-2015",reference:null,title:"Discussion Paper on Development of Financial Terms for Exploitation",short_title:"Financial Terms Discussion Paper",type:"discussion_paper",category:"preparatory",session:21,date:"2015",date_sort:"2015-06-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/DiscussionPaper-FinMech.pdf",status:"historical",description:"Discussion paper on financial mechanisms for exploitation in the Area.",key_topics:["financial terms","fiscal regime"]},
+      {id:"rev-draft-framework-2015-07",reference:null,title:"Revised Draft Framework, High-Level Issues and Action Plan",short_title:"Revised Draft Framework",type:"discussion_paper",category:"preparatory",session:21,date:"2015-07",date_sort:"2015-07-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/Rev_RegFramework_ActionPlan_14072015.pdf",status:"historical",description:"Revised draft framework and action plan for exploitation regulations development.",key_topics:["framework","action plan"]},
+      {id:"first-working-draft-2016-02",reference:null,title:"First Working Draft of Regulations and Standard Contract Terms",short_title:"First Working Draft",type:"main_regulatory_text",category:"draft_regulations",session:22,date:"2016-02",date_sort:"2016-02-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/Draft_ExplReg_SCT.pdf",status:"superseded",description:"The first formal working draft of the exploitation regulations and standard contract terms.",key_topics:["regulations","standard contract terms","exploitation"]},
+      {id:"stakeholder-comments-2016",reference:null,title:"Comments on the Working Draft",short_title:"Stakeholder Comments (2016)",type:"stakeholder_submission",category:"stakeholder_input",session:22,date:"2016",date_sort:"2016-06-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/comments_listing.pdf",status:"historical",description:"Compilation of stakeholder comments on the first working draft.",key_topics:["stakeholder comments","working draft feedback"]},
+      {id:"disc-paper-env-2017",reference:null,title:"Discussion Paper on Regulations on Exploitation — Environmental Matters",short_title:"Environmental Discussion Paper",type:"discussion_paper",category:"preparatory",session:23,date:"2017",date_sort:"2017-01-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/DP-EnvRegsDraft25117.pdf",status:"historical",description:"Discussion paper on environmental aspects of the draft exploitation regulations.",key_topics:["environment","EIA","environmental management"]},
+      {id:"draft-regs-isba23-2017-08",reference:"ISBA/23/LTC/CRP.3/Rev",title:"Draft Regulations on Exploitation of Mineral Resources in the Area",short_title:"Draft Regulations (ISBA/23)",type:"main_regulatory_text",category:"draft_regulations",session:23,date:"2017-08",date_sort:"2017-08-01",url_pdf:"https://isa.org.jm/wp-content/uploads/2022/04/ISBA23-LTC-CRP3-Rev.pdf",status:"superseded",description:"Draft regulations prepared by the Legal and Technical Commission for the 23rd session.",key_topics:["draft regulations","LTC","exploitation"]},
+      {id:"stakeholder-submissions-2017",reference:null,title:"Stakeholder Submissions to Draft Regulations on Exploitation",short_title:"Stakeholder Submissions (2017)",type:"stakeholder_submission",category:"stakeholder_input",session:23,date:"2017",date_sort:"2017-06-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/list-1.pdf",status:"historical",description:"Compiled stakeholder submissions on the 2017 draft regulations.",key_topics:["stakeholder submissions","civil society","industry"]},
+      {id:"briefing-note-isba24c-crp1-2018-02",reference:"ISBA/24/C/CRP.1",title:"Briefing Note on Submissions (Session 24)",short_title:"Briefing Note (ISBA/24/C/CRP.1)",type:"briefing_note",category:"companion_document",session:24,date:"2018-02",date_sort:"2018-02-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/isba24c-crp1-en_0.pdf",status:"historical",description:"Briefing note summarising submissions received on the draft exploitation regulations.",key_topics:["submissions","briefing","stakeholder feedback"]},
+      {id:"rev-draft-regs-isba24ltc-2018-06",reference:"ISBA/24/LTC/WP.1",title:"Revised Draft Regulations on Exploitation of Mineral Resources in the Area",short_title:"Revised Draft (ISBA/24/LTC)",type:"main_regulatory_text",category:"draft_regulations",session:24,date:"2018-06",date_sort:"2018-06-01",url_web:"https://www.isa.org.jm/documents/isba24ltcwp1",status:"superseded",description:"Revised draft regulations prepared following the 2018 stakeholder consultation.",key_topics:["revised draft","regulations","LTC working paper"]},
+      {id:"stakeholder-submissions-isba24-2018",reference:null,title:"Stakeholder Submissions on Revised Draft Regulations",short_title:"Stakeholder Submissions (2018)",type:"stakeholder_submission",category:"stakeholder_input",session:24,date:"2018",date_sort:"2018-07-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/comments_0.pdf",status:"historical",description:"Stakeholder submissions on the ISBA/24 revised draft regulations.",key_topics:["stakeholder submissions","industry","civil society"]},
+      {id:"briefing-note-isba25c-crp1-2018-11",reference:"ISBA/25/C/CRP.1",title:"Briefing Note on Submissions (Session 25, Nov 2018)",short_title:"Briefing Note (ISBA/25/C/CRP.1)",type:"briefing_note",category:"companion_document",session:25,date:"2018-11",date_sort:"2018-11-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/ISBA25C-CRP1.pdf",status:"historical",description:"Briefing note on submissions received for the 25th session.",key_topics:["briefing","submissions"]},
+      {id:"draft-regs-isba25c-wp1-2019-03",reference:"ISBA/25/C/WP.1",title:"Draft Regulations on Exploitation of Mineral Resources in the Area",short_title:"Draft Regulations (ISBA/25)",type:"main_regulatory_text",category:"draft_regulations",session:25,date:"2019-03",date_sort:"2019-03-01",url_web:"https://www.isa.org.jm/documents/isba-25-c-wp-1/",status:"superseded",description:"Draft regulations presented at the 25th session of the Council.",key_topics:["draft regulations","Council working paper"]},
+      {id:"briefing-note-isba25c-2-2019",reference:"ISBA/25/C/2",title:"Briefing Note on Submissions (Dec 2018)",short_title:"Briefing Note (ISBA/25/C/2)",type:"briefing_note",category:"companion_document",session:25,date:"2019-12",date_sort:"2019-12-01",url_web:"https://www.isa.org.jm/documents/isba25c2/",status:"historical",description:"Briefing note on submissions received for the 25th session.",key_topics:["briefing","submissions"]},
+      {id:"comments-germany-isba25c-2019",reference:"ISBA/25/C/29",title:"Comments by Germany on the Draft Regulations",short_title:"Germany Comments",type:"stakeholder_submission",category:"stakeholder_input",session:25,date:"2019",date_sort:"2019-06-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/isba25_c29-e_0.pdf",status:"historical",description:"Official comments by Germany on the draft exploitation regulations.",key_topics:["Germany","state comments","regulatory feedback"]},
+      {id:"drafting-suggestions-isba26c-crp1",reference:"ISBA/26/C/CRP.1",title:"Collation of Specific Drafting Suggestions by Council Members",short_title:"Drafting Suggestions (ISBA/26)",type:"stakeholder_submission",category:"stakeholder_input",session:26,date:"2020",date_sort:"2020-01-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2022/04/collation_of_specific_drafting_suggestions_for_posting_0.pdf",status:"historical",description:"Collation of specific drafting suggestions submitted by Council members.",key_topics:["drafting suggestions","Council members","textual proposals"]},
+      {id:"comments-isba26c-2",reference:"ISBA/26/C/2",title:"Comments on the Draft Regulations on Exploitation",short_title:"Comments (ISBA/26/C/2)",type:"stakeholder_submission",category:"stakeholder_input",session:26,date:"2020",date_sort:"2020-02-01",url_web:"https://www.isa.org.jm/documents/19472/",status:"historical",description:"Official comments document on the draft exploitation regulations for the 26th session.",key_topics:["comments","stakeholder feedback"]},
+      {id:"council-proposals-compilation-2020",reference:null,title:"Compilation of Council Proposals and Observations",short_title:"Council Proposals Compilation",type:"stakeholder_submission",category:"stakeholder_input",session:26,date:"2020",date_sort:"2020-03-01",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2023/08/compile_council_2.pdf",status:"historical",description:"Compilation of Council proposals in response to ISBA/25/C/37.",key_topics:["Council proposals","observations"]},
+      {id:"member-states-comments-2020",reference:null,title:"Compilation of Member States, Observers and Stakeholder Comments (Jan 2020)",short_title:"Member States & Stakeholder Comments",type:"stakeholder_submission",category:"stakeholder_input",session:26,date:"2020-01",date_sort:"2020-01-15",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2023/08/comments-jan2020a-final.pdf",status:"historical",description:"Comprehensive compilation of comments from member states, observers, and stakeholders.",key_topics:["member states","observers","NGOs","industry comments"]},
+      {id:"roadmap-isba28c-24-2023",reference:"ISBA/28/C/24",title:"Decision — Adoption of Road Map for Finalisation of Exploitation Regulations",short_title:"Road Map Decision (ISBA/28)",type:"road_map",category:"process_document",session:28,date:"2023-07",date_sort:"2023-07-01",url_web:"https://www.isa.org.jm/documents/isba-28-c-24/",status:"active",languages:["ar","zh","en","fr","es","ru"],description:"Council decision adopting a road map for the finalisation of the exploitation regulations.",key_topics:["road map","Council decision","finalisation timeline"]},
+      {id:"consolidated-text-isba29c-crp1-2024-02",reference:"ISBA/29/C/CRP.1",title:"Consolidated Text of Draft Regulations on Exploitation of Mineral Resources in the Area",short_title:"Consolidated Text (ISBA/29)",type:"main_regulatory_text",category:"draft_regulations",session:29,date:"2024-02",date_sort:"2024-02-16",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2024/02/Consolidated_text.pdf",status:"superseded",description:"First consolidated version, incorporating all proposals and comments. Contains bracketed provisions and alternatives.",key_topics:["consolidated text","brackets","alternatives","29th session"]},
+      {id:"roadmap-isba29c-9-add1-2024-07",reference:"ISBA/29/C/9/Add.1",title:"Council Road Map Document — Addendum",short_title:"Road Map Addendum (ISBA/29)",type:"road_map",category:"process_document",session:29,date:"2024-07",date_sort:"2024-07-01",url_web:"https://www.isa.org.jm/documents/isba-29-c-9-add-1/",status:"active",description:"Addendum to the Council road map document for the 29th session.",key_topics:["road map","process","timeline"]},
+      {id:"rev-consolidated-text-isba30c-crp1-2024-11",reference:"ISBA/30/C/CRP.1",title:"Revised Consolidated Text of the Draft Regulations on Exploitation",short_title:"Revised Consolidated Text (ISBA/30)",type:"main_regulatory_text",category:"draft_regulations",session:30,date:"2024-11-29",date_sort:"2024-11-29",url_pdf:"https://isa.org.jm/wp-content/uploads/2025/01/29112024-Revised-Consolidated-Text.pdf",status:"superseded",pages:256,description:"Revised consolidated text (256 pages) by the Council President for the 30th session. Contains square brackets, alternatives, and President's commentary boxes.",key_topics:["revised consolidated text","brackets","alternatives","President's text"]},
+      {id:"rev-suspense-doc-isba30c-crp2-2024-11",reference:"ISBA/30/C/CRP.2",title:"Revised Suspense Document",short_title:"Revised Suspense Doc (ISBA/30)",type:"companion_document",category:"companion_document",session:30,date:"2024-11-29",date_sort:"2024-11-29",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2024/11/29112024-Revised-Suspense-document.pdf",status:"superseded",description:"Revised suspense document tracking provisions held over for further discussion.",key_topics:["suspense","outstanding provisions","deferred items"]},
+      {id:"compilation-proposals-isba30c-crp3-2024-12",reference:"ISBA/30/C/CRP.3",title:"Compilation of Proposals for the Draft Exploitation Regulations",short_title:"Proposals Compilation (ISBA/30)",type:"companion_document",category:"companion_document",session:30,date:"2024-12-05",date_sort:"2024-12-05",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2024/12/Compilation_of_Proposals.pdf",status:"superseded",description:"Compilation of all textual proposals submitted for the draft exploitation regulations.",key_topics:["proposals","textual amendments","member state submissions"]},
+      {id:"standards-guidelines-isba30c-crp4-2025-03",reference:"ISBA/30/C/CRP.4",title:"Draft List of Standards and Guidelines",short_title:"Standards & Guidelines (ISBA/30 CRP.4)",type:"standards_guidelines",category:"companion_document",session:30,date:"2025-03-27",date_sort:"2025-03-27",url_pdf:"https://www.isa.org.jm/wp-content/uploads/2025/03/Draft-list-of-Standards-and-Guidelines-ISBA30.pdf",status:"superseded",description:"Draft list of standards and guidelines to accompany the exploitation regulations.",key_topics:["standards","guidelines","technical requirements"]},
+      {id:"standards-guidelines-isba30c-crp5-2025-07",reference:"ISBA/30/C/CRP.5",title:"Updated Draft List of Standards and Guidelines",short_title:"Standards & Guidelines Updated (ISBA/30 CRP.5)",type:"standards_guidelines",category:"companion_document",session:30,date:"2025-07-11",date_sort:"2025-07-11",url_pdf:"https://isa.org.jm/wp-content/uploads/2025/03/Draft-list-of-Standards-and-Guidelines-ISBA30.pdf",status:"active",description:"Updated draft list of standards and guidelines associated with the draft exploitation regulations.",key_topics:["standards","guidelines","technical requirements"]},
+      {id:"thematic-approach-decision-isba30c-18-2025",reference:"ISBA/30/C/18",title:"Decision on a Thematic Approach to Elaboration of Exploitation Regulations",short_title:"Thematic Approach Decision",type:"road_map",category:"process_document",session:30,date:"2025-07",date_sort:"2025-07-02",status:"active",languages:["ar","zh","en","fr","es","ru"],description:"Council decision establishing a thematic approach for the continuation of the exploitation regulations elaboration.",key_topics:["thematic approach","Council decision","working groups"]},
+      {id:"further-rev-suspense-isba31c-crp3-2025-12",reference:"ISBA/31/C/CRP.3",title:"Further Revised Suspense Document",short_title:"Further Revised Suspense Doc (ISBA/31)",type:"companion_document",category:"companion_document",session:31,date:"2025-12",date_sort:"2025-12-01",url_pdf:"https://isa.org.jm/wp-content/uploads/2025/12/Further-Revised-Suspense-Document.pdf",status:"current",description:"Further revised suspense document tracking all outstanding and deferred provisions going into Session 31.",key_topics:["suspense","outstanding provisions","31st session"]},
+      {id:"briefing-note-31c-2026-02",reference:null,title:"Briefing Note on the Further Revised Consolidated Text",short_title:"Briefing Note (ISBA/31)",type:"briefing_note",category:"companion_document",session:31,date:"2026-02-24",date_sort:"2026-02-24",url_pdf:"https://isa.org.jm/wp-content/uploads/2026/02/Briefing-note-on-the-Further-Revised-Consolidated-Text-of-the-draft-Regulations-on-Exploitation-of-Mineral-resources-in-the-Area_v.24022026.pdf",status:"current",description:"Briefing note explaining the Further Revised Consolidated Text prepared for Session 31.",key_topics:["briefing note","revisions","31st session"]},
+      {id:"further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",reference:"ISBA/31/C/CRP.1/Rev.2",title:"Further Revised Consolidated Text of the Draft Regulations on Exploitation of Mineral Resources in the Area",short_title:"Further Revised Consolidated Text ★",type:"main_regulatory_text",category:"draft_regulations",session:31,date:"2026-02",date_sort:"2026-02-01",url_pdf:"https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.pdf",url_docx:"https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.docx",status:"current",description:"The most current version of the draft exploitation regulations (March 2026). This is the active working text for finalisation discussions at Session 31.",key_topics:["further revised","consolidated text","current text","31st session","finalisation"]},
+      {id:"further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",reference:"ISBA/31/C/CRP.2/Rev.2",title:"Further Revised Consolidated Text — Clean Version",short_title:"Further Revised Text — Clean",type:"main_regulatory_text",category:"clean_version",session:31,date:"2026-02",date_sort:"2026-02-01",url_pdf:"https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text-clean.pdf",url_docx:"https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text-clean.docx",status:"current",description:"Clean version of the Further Revised Consolidated Text without track changes or annotations.",key_topics:["clean version","consolidated text","31st session"]},
+      {id:"outstanding-issues-isba31c-crp4-2026-02",reference:"ISBA/31/C/CRP.4",title:"Draft Indicative List of Outstanding Issues",short_title:"Outstanding Issues List (ISBA/31)",type:"companion_document",category:"companion_document",session:31,date:"2026-02",date_sort:"2026-02-01",url_pdf:"https://isa.org.jm/wp-content/uploads/2026/02/Draft-indicative-list-of-outstanding-issues.pdf",status:"current",description:"Indicative list of outstanding issues requiring resolution for the finalisation of the exploitation regulations.",key_topics:["outstanding issues","unresolved provisions","finalisation gaps"]},
+      {id:"compliance-committee-isba31c-crp5-2026-03",reference:"ISBA/31/C/CRP.5",title:"Draft Decision on the Establishment of the Compliance Committee",short_title:"Compliance Committee Decision",type:"companion_document",category:"process_document",session:31,date:"2026-03",date_sort:"2026-03-01",url_pdf:"https://isa.org.jm/wp-content/uploads/2026/03/Draft-Decision-on-the-Establishment-of-the-Compliance-Committee.pdf",status:"current",description:"Draft decision on the establishment of the Compliance Committee under the exploitation regulations.",key_topics:["compliance committee","institutional structure","enforcement"]}
+    ];
+
+    const TYPE_CONFIG = {
+      main_regulatory_text: { color: '#1e3a8a', bg: '#dbeafe', label: 'Main Regulatory Text', border: '#1e3a8a' },
+      companion_document: { color: '#0f766e', bg: '#ccfbf1', label: 'Companion Document', border: '#0f766e' },
+      briefing_note: { color: '#0f766e', bg: '#ccfbf1', label: 'Briefing Note', border: '#0f766e' },
+      standards_guidelines: { color: '#0f766e', bg: '#ccfbf1', label: 'Standards & Guidelines', border: '#0f766e' },
+      stakeholder_submission: { color: '#92400e', bg: '#fef3c7', label: 'Stakeholder Input', border: '#92400e' },
+      road_map: { color: '#14532d', bg: '#dcfce7', label: 'Process / Road Map', border: '#14532d' },
+      discussion_paper: { color: '#374151', bg: '#f3f4f6', label: 'Discussion Paper', border: '#9ca3af' },
+      clean_version: { color: '#1e3a8a', bg: '#e0e7ff', label: 'Clean Version', border: '#1e3a8a' },
+    };
+
+    const STATUS_CONFIG = {
+      current: { bg: '#16a34a', label: '● CURRENT', text: 'white' },
+      active: { bg: '#2563eb', label: '● ACTIVE', text: 'white' },
+      superseded: { bg: '#d1d5db', label: 'Superseded', text: '#6b7280' },
+      historical: { bg: '#fde68a', label: 'Historical', text: '#92400e' },
+    };
+
+    let currentFilter = 'all';
+    let showCurrentOnly = false;
+
+    // ─── RENDER ──────────────────────────────────────────────────────────────────
+    function groupBySession(docs) {
+      const groups = {};
+      docs.forEach(d => {
+        const key = d.session || 'pre';
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(d);
+      });
+      return groups;
+    }
+
+    const SESSION_YEARS = {20:2014,21:2015,22:2016,23:2017,24:2018,25:2019,26:2020,27:2022,28:2023,29:2024,30:2025,31:2026};
+
+    function getFilterType(type) {
+      if (['companion_document','briefing_note','standards_guidelines','clean_version'].includes(type)) return 'companion_document';
+      if (['road_map'].includes(type)) return 'road_map';
+      return type;
+    }
+
+    function renderTimeline(filter = 'all', currentOnly = false) {
+      const container = document.getElementById('timeline-container');
+      let docs = [...DOCUMENTS].sort((a,b) => a.date_sort.localeCompare(b.date_sort));
+      if (filter !== 'all') docs = docs.filter(d => getFilterType(d.type) === filter);
+      if (currentOnly) docs = docs.filter(d => d.status === 'current');
+
+      document.getElementById('doc-count').textContent = docs.length + ' documents';
+
+      const groups = groupBySession(docs);
+      const sessions = Object.keys(groups).sort((a,b) => Number(a)-Number(b));
+
+      container.innerHTML = sessions.map(session => {
+        const year = SESSION_YEARS[Number(session)] || session;
+        const sessionDocs = groups[session];
+        const hasMain = sessionDocs.some(d => d.type === 'main_regulatory_text' || d.type === 'clean_version');
+
+        return `
+          <div class="mb-10">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm text-white shadow-md ${session==31?'badge-current':''}"
+                     style="background: ${session==31?'#003366':session>=29?'#006699':'#6b7280'}">
+                  ${session==31?'31★':session}
+                </div>
+                <div>
+                  <div class="font-bold text-gray-800">${session==31?'Session 31 · 2026 ← Current':'Session '+session+' · '+year}</div>
+                  <div class="text-xs text-gray-500">${sessionDocs.length} document${sessionDocs.length>1?'s':''} · ISA ${session}th Session, Kingston</div>
+                </div>
+              </div>
+              ${hasMain ? '<div class="ml-2 px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-bold rounded">REGULATORY TEXT UPDATE</div>' : ''}
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ml-14">
+              ${sessionDocs.map(doc => renderCard(doc)).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderCard(doc) {
+      const tc = TYPE_CONFIG[doc.type] || TYPE_CONFIG.discussion_paper;
+      const sc = STATUS_CONFIG[doc.status] || STATUS_CONFIG.historical;
+      const isMain = doc.type === 'main_regulatory_text';
+      const isCurrent = doc.status === 'current';
+
+      return `
+        <div class="doc-card bg-white rounded-xl shadow-sm border-l-4 p-4 cursor-pointer ${isCurrent?'ring-2 ring-green-400':''}"
+             style="border-left-color: ${tc.border}"
+             onclick="showModal('${doc.id}')">
+          <div class="flex items-start justify-between mb-2">
+            <span class="text-xs font-semibold px-2 py-0.5 rounded-full" style="background:${tc.bg};color:${tc.color}">${tc.label}</span>
+            <span class="text-xs font-bold px-2 py-0.5 rounded-full ml-2 shrink-0" style="background:${sc.bg};color:${sc.text}">${sc.label}</span>
+          </div>
+          ${doc.reference ? `<div class="text-xs font-mono text-blue-700 mb-1">${doc.reference}</div>` : ''}
+          <div class="font-semibold text-gray-900 text-sm leading-snug mb-1">${doc.short_title || doc.title}</div>
+          <div class="text-xs text-gray-500 mb-2">${doc.date}</div>
+          ${doc.key_topics ? `<div class="flex flex-wrap gap-1">${doc.key_topics.slice(0,3).map(t=>`<span class="text-xs bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">${t}</span>`).join('')}</div>` : ''}
+          ${(doc.url_pdf||doc.url_docx||doc.url_web) ? `<div class="mt-2 flex gap-2">${doc.url_pdf?'<span class="text-xs text-blue-600">📄 PDF</span>':''}${doc.url_docx?'<span class="text-xs text-blue-600">📝 DOCX</span>':''}${doc.url_web?'<span class="text-xs text-blue-600">🔗 Web</span>':''}</div>` : ''}
+        </div>
+      `;
+    }
+
+    // ─── MODAL ───────────────────────────────────────────────────────────────────
+    function showModal(id) {
+      const doc = DOCUMENTS.find(d => d.id === id);
+      if (!doc) return;
+      const tc = TYPE_CONFIG[doc.type] || TYPE_CONFIG.discussion_paper;
+      const sc = STATUS_CONFIG[doc.status] || STATUS_CONFIG.historical;
+
+      document.getElementById('modal-badge').textContent = tc.label;
+      document.getElementById('modal-badge').style.cssText = `background:${tc.bg};color:${tc.color};font-size:12px;font-weight:700;padding:4px 12px;border-radius:9999px`;
+      document.getElementById('modal-title').textContent = doc.title;
+      document.getElementById('modal-ref').textContent = doc.reference || '—';
+      document.getElementById('modal-date').textContent = doc.date + (doc.pages ? ` · ${doc.pages} pages` : '');
+      document.getElementById('modal-desc').textContent = doc.description;
+
+      const topicsEl = document.getElementById('modal-topics');
+      topicsEl.innerHTML = doc.key_topics
+        ? `<div class="flex flex-wrap gap-2">${doc.key_topics.map(t=>`<span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">${t}</span>`).join('')}</div>`
+        : '';
+
+      const linksEl = document.getElementById('modal-links');
+      linksEl.innerHTML = '';
+      if (doc.url_pdf) linksEl.innerHTML += `<a href="${doc.url_pdf}" target="_blank" class="px-4 py-2 bg-blue-800 text-white text-sm font-semibold rounded-lg hover:bg-blue-700">📄 Download PDF</a>`;
+      if (doc.url_docx) linksEl.innerHTML += `<a href="${doc.url_docx}" target="_blank" class="px-4 py-2 bg-blue-100 text-blue-800 text-sm font-semibold rounded-lg hover:bg-blue-200">📝 Download DOCX</a>`;
+      if (doc.url_web) linksEl.innerHTML += `<a href="${doc.url_web}" target="_blank" class="px-4 py-2 bg-gray-100 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-200">🔗 View on ISA Website</a>`;
+
+      document.getElementById('modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.add('hidden');
+    }
+
+    document.getElementById('modal').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+
+    // ─── FILTER CONTROLS ─────────────────────────────────────────────────────────
+    function filterDocs(type) {
+      currentFilter = type;
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.remove('active','bg-blue-800','text-white','bg-teal-700','bg-yellow-600','bg-green-700','bg-gray-500');
+        b.classList.add('text-gray-600');
+      });
+      const btn = document.getElementById(`filter-${type === 'main_regulatory_text' ? 'main' : type === 'companion_document' ? 'companion' : type === 'stakeholder_submission' ? 'stakeholder' : type === 'road_map' ? 'process' : type === 'discussion_paper' ? 'prep' : 'all'}`);
+      if (btn) { btn.classList.add('bg-blue-800','text-white'); }
+      renderTimeline(currentFilter, showCurrentOnly);
+    }
+
+    function toggleCurrentOnly() {
+      showCurrentOnly = document.getElementById('current-only').checked;
+      renderTimeline(currentFilter, showCurrentOnly);
+    }
+
+    // ─── INIT ────────────────────────────────────────────────────────────────────
+    renderTimeline();
+  </script>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 mt-8 py-6 px-8 text-center text-xs text-gray-400">
+    <p>Data sourced from the International Seabed Authority — <a href="https://www.isa.org.jm" class="text-blue-600 hover:underline">isa.org.jm</a></p>
+    <p class="mt-1">ISA Exploitation Regulations App · Open Source · <a href="https://github.com/KVN-B/ISA" class="text-blue-600 hover:underline">github.com/KVN-B/ISA</a></p>
+  </footer>
+</body>
+</html>

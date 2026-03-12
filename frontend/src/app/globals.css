@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --isa-blue: #003366;
+  --isa-teal: #006699;
+  --isa-gold: #CC9900;
+  --isa-green: #009966;
+}
+
+@layer base {
+  body {
+    @apply text-gray-900;
+  }
+}
+
+@layer utilities {
+  .bg-isa-blue { background-color: var(--isa-blue); }
+  .bg-isa-teal { background-color: var(--isa-teal); }
+  .bg-isa-gold { background-color: var(--isa-gold); }
+  .text-isa-blue { color: var(--isa-blue); }
+  .text-isa-gold { color: var(--isa-gold); }
+  .border-isa-gold { border-color: var(--isa-gold); }
+}
+
+/* Regulation viewer: highlight bracketed text */
+.bracket-unresolved {
+  background-color: #fef3c7;
+  border-left: 3px solid #f59e0b;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.bracket-alternative {
+  background-color: #dbeafe;
+  border-left: 3px solid #3b82f6;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.circular-flag {
+  background-color: #fee2e2;
+  border-left: 3px solid #ef4444;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+/* Chat bubbles */
+.chat-user {
+  @apply bg-isa-blue text-white rounded-2xl rounded-br-sm px-4 py-3 max-w-lg ml-auto;
+}
+
+.chat-assistant {
+  @apply bg-white border border-gray-200 rounded-2xl rounded-bl-sm px-4 py-3 max-w-2xl shadow-sm;
+}
+
+/* Smooth transitions */
+* { @apply transition-colors duration-150; }
