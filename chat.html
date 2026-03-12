@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISA Exploitation Regulations — Ask a Question</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --isa-blue:  #003366;
+      --isa-teal:  #006699;
+      --isa-gold:  #CC9900;
+    }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f0f4f8; }
+
+    /* Chat bubbles */
+    .bubble-user {
+      background: var(--isa-blue); color: white;
+      border-radius: 18px 18px 4px 18px;
+      padding: 12px 16px; max-width: 72%;
+      margin-left: auto; word-break: break-word;
+    }
+    .bubble-assistant {
+      background: white; color: #1f2937;
+      border-radius: 18px 18px 18px 4px;
+      padding: 14px 18px; max-width: 88%;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+      word-break: break-word;
+    }
+    .bubble-assistant p { margin-bottom: 0.6em; }
+    .bubble-assistant p:last-child { margin-bottom: 0; }
+    .bubble-assistant ul { list-style: disc; padding-left: 1.4em; margin-bottom: 0.6em; }
+    .bubble-assistant ol { list-style: decimal; padding-left: 1.4em; margin-bottom: 0.6em; }
+    .bubble-assistant li { margin-bottom: 0.25em; }
+    .bubble-assistant strong { font-weight: 700; color: #111827; }
+    .bubble-assistant code {
+      background: #f3f4f6; border-radius: 4px; padding: 1px 5px;
+      font-size: 0.85em; font-family: monospace; color: #1e3a8a;
+    }
+    .bubble-assistant h3 { font-weight: 700; font-size: 1em; margin-bottom: 0.4em; color: #003366; }
+
+    /* Typing cursor */
+    .typing-cursor::after {
+      content: '▋'; animation: blink 0.8s step-start infinite; color: #003366;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* Scroll snap for chat */
+    #chat-messages { scroll-behavior: smooth; }
+
+    /* Suggestion pills */
+    .suggestion-pill {
+      background: white; border: 1.5px solid #d1d5db; color: #374151;
+      border-radius: 999px; padding: 6px 14px; font-size: 0.8rem;
+      cursor: pointer; transition: all 0.15s; white-space: nowrap;
+      display: inline-block;
+    }
+    .suggestion-pill:hover { border-color: var(--isa-blue); color: var(--isa-blue); background: #eff6ff; }
+
+    /* Status dot */
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .status-dot.online  { background: #22c55e; box-shadow: 0 0 0 3px rgba(34,197,94,0.25); }
+    .status-dot.offline { background: #ef4444; box-shadow: 0 0 0 3px rgba(239,68,68,0.25); }
+    .status-dot.checking{ background: #f59e0b; animation: pulse-amber 1s infinite; }
+    @keyframes pulse-amber { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    /* Textarea auto-resize via JS */
+    #chat-input { resize: none; min-height: 44px; max-height: 180px; overflow-y: auto; }
+
+    /* Citation & flag chips */
+    .citation-chip {
+      display: inline-block; background: #eff6ff; color: #1e40af;
+      border: 1px solid #bfdbfe; border-radius: 5px;
+      font-size: 0.7rem; font-family: monospace; font-weight: 600;
+      padding: 2px 7px; margin: 2px 3px 2px 0; cursor: default;
+    }
+    .flag-unresolved  { background: #fef3c7; color: #92400e; border-color: #fcd34d; }
+    .flag-suspense    { background: #ffedd5; color: #9a3412; border-color: #fb923c; }
+    .flag-circular    { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
+    .flag-out_of_scope{ background: #f3f4f6; color: #374151; border-color: #d1d5db; }
+
+    /* Sidebar scrollable */
+    #sidebar { overflow-y: auto; }
+
+    /* Mobile hide sidebar */
+    @media (max-width: 768px) { #sidebar { display: none; } }
+  </style>
+</head>
+<body class="h-screen flex flex-col overflow-hidden">
+
+  <!-- ── Header ──────────────────────────────────────────────────── -->
+  <header class="text-white px-6 py-3 flex items-center justify-between shadow-lg flex-shrink-0"
+          style="background: linear-gradient(135deg, #003366 0%, #006699 100%);">
+    <div class="flex items-center gap-4">
+      <a href="timeline.html" class="text-white opacity-70 hover:opacity-100 text-sm font-medium">← Timeline</a>
+      <div>
+        <div class="font-bold text-sm leading-tight">ISA · Exploitation Regulations</div>
+        <div class="text-xs opacity-70">Ask a Question — Grounded in UNCLOS + ISA Regulatory Texts</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <!-- Backend status -->
+      <div class="flex items-center gap-2 text-xs">
+        <span class="status-dot checking" id="status-dot"></span>
+        <span id="status-label" class="opacity-80">Connecting…</span>
+      </div>
+      <!-- Current doc badge -->
+      <a href="https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.pdf"
+         target="_blank"
+         class="hidden md:block text-xs bg-yellow-400 text-blue-900 font-bold px-3 py-1 rounded-full hover:bg-yellow-300">
+        ISBA/31/C/CRP.1/Rev.2 ↗
+      </a>
+    </div>
+  </header>
+
+  <!-- ── Main layout ──────────────────────────────────────────────── -->
+  <div class="flex flex-1 overflow-hidden">
+
+    <!-- ── Left sidebar ─────────────────────────────────────────── -->
+    <aside id="sidebar" class="w-64 bg-white border-r border-gray-200 flex-shrink-0 p-4 text-xs text-gray-600">
+
+      <div class="font-bold text-gray-800 mb-2 text-sm">📌 About this assistant</div>
+      <p class="mb-3 leading-relaxed">
+        Answers are grounded strictly in the ISA regulatory document corpus.
+        No speculation — every answer cites specific provisions and documents.
+      </p>
+
+      <div class="font-bold text-gray-700 mb-1.5">Knowledge base</div>
+      <div class="space-y-1 mb-4" id="kb-status">
+        <div class="flex items-center gap-1.5"><span class="text-gray-300">○</span> Documents (33)</div>
+        <div class="flex items-center gap-1.5"><span class="text-gray-300">○</span> Working Groups (26+)</div>
+        <div class="flex items-center gap-1.5"><span class="text-gray-300">○</span> Standards &amp; Guidelines (46)</div>
+      </div>
+
+      <div class="border-t border-gray-100 pt-3 mb-3">
+        <div class="font-bold text-gray-700 mb-1.5">Legal basis</div>
+        <div class="space-y-1">
+          <div>⚖️ <a href="https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf" target="_blank" class="text-blue-600 hover:underline">UNCLOS 1982</a></div>
+          <div>⚡ <a href="https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm" target="_blank" class="text-blue-600 hover:underline">1994 IA</a> — prevails over Part XI</div>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-100 pt-3 mb-3">
+        <div class="font-bold text-gray-700 mb-1.5">Current text</div>
+        <a href="https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.pdf"
+           target="_blank" class="block text-blue-700 font-mono font-bold hover:underline">
+          ISBA/31/C/CRP.1/Rev.2
+        </a>
+        <div class="text-gray-400 mt-0.5">Feb 2026 · PDF ↗</div>
+      </div>
+
+      <div class="border-t border-gray-100 pt-3 mb-3">
+        <div class="font-bold text-gray-700 mb-1.5">Outstanding issues</div>
+        <a href="https://isa.org.jm/wp-content/uploads/2026/02/Draft-indicative-list-of-outstanding-issues.pdf"
+           target="_blank" class="block text-orange-700 font-mono font-bold hover:underline">
+          ISBA/31/C/CRP.4
+        </a>
+        <div class="text-gray-400 mt-0.5">Feb 2026 · PDF ↗</div>
+      </div>
+
+      <div class="border-t border-gray-100 pt-3 text-gray-400">
+        <div class="font-semibold text-gray-500 mb-1">Backend</div>
+        <div id="backend-url-display" class="font-mono break-all">http://localhost:8000</div>
+        <button onclick="checkBackend()" class="mt-1 text-blue-500 hover:underline">Re-check connection</button>
+      </div>
+    </aside>
+
+    <!-- ── Chat main ─────────────────────────────────────────────── -->
+    <main class="flex-1 flex flex-col overflow-hidden">
+
+      <!-- Offline banner -->
+      <div id="offline-banner"
+           class="hidden bg-red-50 border-b border-red-200 px-6 py-3 text-sm text-red-800 flex-shrink-0">
+        <strong>Backend not running.</strong> Start it with:<br>
+        <code class="font-mono text-xs bg-red-100 px-2 py-0.5 rounded mt-1 inline-block">
+          cd '/Users/krisvannijen/Documents/ISA App/backend' &amp;&amp;
+          export ANTHROPIC_API_KEY=your_key &amp;&amp;
+          uvicorn app.main:app --reload
+        </code>
+      </div>
+
+      <!-- Messages area -->
+      <div id="chat-messages" class="flex-1 overflow-y-auto px-6 py-6 space-y-5">
+
+        <!-- Welcome message (always shown) -->
+        <div class="flex gap-3">
+          <div class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-1">ISA</div>
+          <div>
+            <div class="bubble-assistant">
+              <p><strong>Welcome to the ISA Exploitation Regulations Assistant.</strong></p>
+              <p>I can answer questions about the draft exploitation regulations for polymetallic nodules, grounded strictly in the regulatory corpus:</p>
+              <ul>
+                <li><strong>ISBA/31/C/CRP.1/Rev.2</strong> — Further Revised Consolidated Text (Feb 2026)</li>
+                <li><strong>ISBA/31/C/CRP.3</strong> — Suspense Document (deferred provisions)</li>
+                <li><strong>ISBA/31/C/CRP.4</strong> — Outstanding Issues List</li>
+                <li><strong>UNCLOS Part XI + 1994 IA</strong> — Foundational legal framework</li>
+                <li>Working group history, intersessional outputs, and Standards &amp; Guidelines pipeline</li>
+              </ul>
+              <p class="text-gray-500 text-xs mt-2">All answers cite specific documents and provisions. Unresolved brackets and suspense items are flagged explicitly.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Suggested questions (shown until first message) -->
+      <div id="suggestions-panel" class="flex-shrink-0 px-6 py-3 border-t border-gray-200 bg-white">
+        <div class="text-xs text-gray-400 font-semibold mb-2 uppercase tracking-wide">Suggested questions</div>
+        <div class="flex flex-wrap gap-2" id="suggestions-list">
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What is the current status of the exploitation regulations?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What are the main outstanding issues still to be resolved?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What is the relationship between the Regulations and Standards &amp; Guidelines?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">Which standards and guidelines are already prepared?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What did the OEWG on Financial Terms achieve?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What is the legal basis for ISA exploitation regulations?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">Which provisions are in the suspense document?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What are the FOP groups working on?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">How does the 1994 IA modify UNCLOS Part XI?</span>
+          <span class="suggestion-pill" onclick="useSuggestion(this)">What working groups covered environmental protection?</span>
+        </div>
+      </div>
+
+      <!-- Input bar -->
+      <div class="flex-shrink-0 bg-white border-t border-gray-200 px-4 py-3">
+        <div class="max-w-4xl mx-auto flex items-end gap-3">
+          <div class="flex-1 relative">
+            <textarea id="chat-input"
+              class="w-full border border-gray-300 rounded-2xl px-4 py-3 text-sm leading-snug focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent pr-12"
+              placeholder="Ask about the exploitation regulations, working groups, standards, legal basis…"
+              rows="1"
+              oninput="autoResize(this)"
+              onkeydown="handleKeydown(event)"></textarea>
+          </div>
+          <button id="send-btn"
+            onclick="sendMessage()"
+            class="flex-shrink-0 w-11 h-11 rounded-full flex items-center justify-center transition-all"
+            style="background: #003366;"
+            title="Send (Enter)">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+            </svg>
+          </button>
+          <button onclick="clearChat()"
+            class="flex-shrink-0 w-11 h-11 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center transition-colors"
+            title="Clear conversation">
+            <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+            </svg>
+          </button>
+        </div>
+        <div class="text-center text-xs text-gray-400 mt-1">
+          Press <kbd class="bg-gray-100 px-1 py-0.5 rounded text-gray-600">Enter</kbd> to send ·
+          <kbd class="bg-gray-100 px-1 py-0.5 rounded text-gray-600">Shift+Enter</kbd> for new line ·
+          Grounded in UNCLOS + ISA regulatory texts
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    const API_BASE = 'http://localhost:8000';
+    let conversationHistory = [];
+    let isStreaming = false;
+    let threadId = null;
+    let backendOnline = false;
+
+    // ── Backend health check ────────────────────────────────────────
+    async function checkBackend() {
+      const dot   = document.getElementById('status-dot');
+      const label = document.getElementById('status-label');
+      dot.className   = 'status-dot checking';
+      label.textContent = 'Checking…';
+
+      try {
+        const res  = await fetch(`${API_BASE}/api/health`, { signal: AbortSignal.timeout(4000) });
+        const data = await res.json();
+
+        backendOnline = true;
+        dot.className   = 'status-dot online';
+        label.textContent = 'Backend connected';
+        document.getElementById('offline-banner').classList.add('hidden');
+
+        // Update KB status in sidebar
+        const kb = document.getElementById('kb-status');
+        kb.innerHTML = `
+          <div class="flex items-center gap-1.5 text-green-700">
+            <span>✅</span> Documents ${data.data?.documents_loaded ? '(loaded)' : '(not loaded)'}
+          </div>
+          <div class="flex items-center gap-1.5 text-green-700">
+            <span>✅</span> Working Groups ${data.data?.working_groups_loaded ? '(loaded)' : '(not loaded)'}
+          </div>
+          <div class="flex items-center gap-1.5 text-green-700">
+            <span>✅</span> Standards &amp; Guidelines ${data.data?.standards_guidelines_loaded ? '(loaded)' : '(not loaded)'}
+          </div>`;
+      } catch (e) {
+        backendOnline = false;
+        dot.className   = 'status-dot offline';
+        label.textContent = 'Backend offline';
+        document.getElementById('offline-banner').classList.remove('hidden');
+      }
+    }
+
+    // ── Send message ────────────────────────────────────────────────
+    async function sendMessage() {
+      if (isStreaming) return;
+      const input = document.getElementById('chat-input');
+      const text  = input.value.trim();
+      if (!text) return;
+      if (!backendOnline) { alert('Backend is not running. See the setup instructions above.'); return; }
+
+      // Hide suggestions after first message
+      document.getElementById('suggestions-panel').style.display = 'none';
+
+      // Add user bubble
+      addUserBubble(text);
+      conversationHistory.push({ role: 'user', content: text });
+      input.value = '';
+      autoResize(input);
+
+      // Add assistant bubble (placeholder)
+      const assistantBubble = addAssistantBubble('');
+      assistantBubble.classList.add('typing-cursor');
+      scrollToBottom();
+
+      isStreaming = true;
+      document.getElementById('send-btn').disabled = true;
+      document.getElementById('send-btn').style.opacity = '0.5';
+
+      let fullText = '';
+      let citations = [];
+      let flags = [];
+
+      try {
+        const response = await fetch(`${API_BASE}/api/chat/stream`, {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: text,
+            history: conversationHistory.slice(-10),   // last 5 turns
+            thread_id: threadId,
+          }),
+        });
+
+        if (!response.ok) {
+          const err = await response.json();
+          throw new Error(err.detail || `HTTP ${response.status}`);
+        }
+
+        const reader  = response.body.getReader();
+        const decoder = new TextDecoder();
+        let   buffer  = '';
+
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+
+          buffer += decoder.decode(value, { stream: true });
+          const lines = buffer.split('\n');
+          buffer = lines.pop();
+
+          for (const line of lines) {
+            if (!line.startsWith('data: ')) continue;
+            const json_str = line.slice(6).trim();
+            if (!json_str) continue;
+
+            const event = JSON.parse(json_str);
+
+            if (event.type === 'delta') {
+              fullText += event.text;
+              assistantBubble.innerHTML = renderMarkdown(fullText);
+              assistantBubble.classList.add('typing-cursor');
+              scrollToBottom();
+
+            } else if (event.type === 'done') {
+              citations  = event.citations || [];
+              flags      = event.flags || [];
+              threadId   = event.thread_id || threadId;
+
+            } else if (event.type === 'error') {
+              throw new Error(event.message);
+            }
+          }
+        }
+
+      } catch (err) {
+        fullText = `⚠️ Error: ${err.message}\n\nPlease check the backend is running and ANTHROPIC_API_KEY is set.`;
+        assistantBubble.innerHTML = renderMarkdown(fullText);
+        flags = [];
+      }
+
+      assistantBubble.classList.remove('typing-cursor');
+
+      // Append metadata (citations + flags)
+      if (citations.length || flags.length) {
+        const meta = document.createElement('div');
+        meta.className = 'mt-2 flex flex-wrap items-center gap-1';
+
+        flags.forEach(f => {
+          const chip = document.createElement('span');
+          chip.className = `citation-chip flag-${f}`;
+          const labels = {
+            unresolved: '⚠ Unresolved bracket',
+            suspense:   '⏸ In suspense document',
+            circular:   '🔁 Circular dependency',
+            out_of_scope: '📵 Out of scope',
+          };
+          chip.textContent = labels[f] || f;
+          meta.appendChild(chip);
+        });
+
+        citations.slice(0, 10).forEach(c => {
+          const chip = document.createElement('span');
+          chip.className = 'citation-chip';
+          chip.textContent = c;
+          meta.appendChild(chip);
+        });
+
+        assistantBubble.parentElement.appendChild(meta);
+      }
+
+      conversationHistory.push({ role: 'assistant', content: fullText });
+      scrollToBottom();
+
+      isStreaming = false;
+      document.getElementById('send-btn').disabled = false;
+      document.getElementById('send-btn').style.opacity = '1';
+    }
+
+    // ── Suggestion pills ───────────────────────────────────────────
+    function useSuggestion(el) {
+      const input = document.getElementById('chat-input');
+      input.value = el.textContent.trim();
+      autoResize(input);
+      input.focus();
+    }
+
+    // ── DOM helpers ─────────────────────────────────────────────────
+    function addUserBubble(text) {
+      const messages = document.getElementById('chat-messages');
+      const row = document.createElement('div');
+      row.className = 'flex justify-end';
+      row.innerHTML = `<div class="bubble-user text-sm">${escapeHtml(text)}</div>`;
+      messages.appendChild(row);
+    }
+
+    function addAssistantBubble(text) {
+      const messages = document.getElementById('chat-messages');
+      const row = document.createElement('div');
+      row.className = 'flex gap-3';
+      row.innerHTML = `
+        <div class="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-white text-sm font-bold flex-shrink-0 mt-1">ISA</div>
+        <div>
+          <div class="bubble-assistant text-sm">${text}</div>
+        </div>`;
+      messages.appendChild(row);
+      return row.querySelector('.bubble-assistant');
+    }
+
+    function clearChat() {
+      if (!confirm('Clear the conversation?')) return;
+      const messages = document.getElementById('chat-messages');
+      // Remove all except the welcome message (first child)
+      while (messages.children.length > 1) {
+        messages.removeChild(messages.lastChild);
+      }
+      conversationHistory = [];
+      threadId = null;
+      document.getElementById('suggestions-panel').style.display = '';
+    }
+
+    function scrollToBottom() {
+      const el = document.getElementById('chat-messages');
+      el.scrollTop = el.scrollHeight;
+    }
+
+    // ── Keyboard ────────────────────────────────────────────────────
+    function handleKeydown(e) {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    }
+
+    function autoResize(el) {
+      el.style.height = 'auto';
+      el.style.height = Math.min(el.scrollHeight, 180) + 'px';
+    }
+
+    // ── Markdown renderer (minimal) ──────────────────────────────────
+    function renderMarkdown(text) {
+      return text
+        // Bold
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        // Code inline
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        // Headers h3
+        .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+        // Unordered lists
+        .replace(/^[\*\-] (.+)$/gm, '<li>$1</li>')
+        .replace(/(<li>.*<\/li>\n?)+/g, '<ul>$&</ul>')
+        // Ordered lists
+        .replace(/^\d+\. (.+)$/gm, '<li>$1</li>')
+        // Paragraphs
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/^(?!<[hulo]|<\/[ul])(.+)$/gm, (m) => m.startsWith('<') ? m : m)
+        // Wrap in paragraph
+        .replace(/^(.+)$/, '<p>$1</p>')
+        // Newlines within paragraphs → <br>
+        .replace(/([^>])\n([^<])/g, '$1<br>$2');
+    }
+
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+    }
+
+    // ── Init ────────────────────────────────────────────────────────
+    checkBackend();
+    // Re-check every 30s
+    setInterval(checkBackend, 30000);
+    // Focus input
+    document.getElementById('chat-input').focus();
+  </script>
+
+  <!-- Footer -->
+  <footer class="flex-shrink-0 border-t border-gray-200 py-2 px-6 text-center text-xs text-gray-400 bg-white">
+    Grounded in ISA regulatory texts — <a href="https://www.isa.org.jm" class="text-blue-600 hover:underline">isa.org.jm</a>
+    · <a href="timeline.html" class="text-blue-600 hover:underline">Document Timeline</a>
+    · <a href="https://github.com/KVN-B/ISA" class="text-blue-600 hover:underline">GitHub</a>
+    · Backend: <span id="backend-url-display-footer">http://localhost:8000</span>
+  </footer>
+
+</body>
+</html>
