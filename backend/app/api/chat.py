@@ -391,7 +391,7 @@ async def chat(request: Request, body: ChatRequest):
     client = anthropic.Anthropic(api_key=api_key)
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=2048,
+        max_tokens=8096,
         system=SYSTEM_PROMPT,
         messages=messages,
     )
@@ -430,7 +430,7 @@ async def chat_stream(request: Request, body: ChatRequest):
         try:
             with client.messages.stream(
                 model="claude-sonnet-4-6",
-                max_tokens=2048,
+                max_tokens=8096,
                 system=SYSTEM_PROMPT,
                 messages=messages,
             ) as stream:
