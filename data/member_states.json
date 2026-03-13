@@ -3,1239 +3,1239 @@
     "name": "ISA Secretariat",
     "code": "ISA",
     "is_admin": true,
-    "pin_hash": "8d3d9a0448eb7a162086c7f85880f9f3448e6da44294b5d8e17d4409905ee4ed",
-    "_pin_plaintext": "625443"
+    "pin_hash": "28f2a030baf1a118b4bf222668a2328764923efc8a7a44a068961e382be92646",
+    "_pin_plaintext": "582531"
   },
   {
     "name": "Albania",
     "code": "ALB",
     "is_admin": false,
-    "pin_hash": "3985ce3b47d34f399a27e16affd48475348e2f715b04297234aac8be327eda3c",
-    "_pin_plaintext": "909558"
+    "pin_hash": "6b9711ed297d97f3a7ed44a34f93f6d84885fa53e906e6637683889e554dc919",
+    "_pin_plaintext": "814272"
   },
   {
     "name": "Algeria",
     "code": "DZA",
     "is_admin": false,
-    "pin_hash": "dfb86e1eb580ce662618d41b342730ee15d7b52768c691d20b1b4e783cd98f40",
-    "_pin_plaintext": "486729"
+    "pin_hash": "d67c87b08757aa3db8c1ddb4eb3ca19f04f493046cdab666a78bef43725317f3",
+    "_pin_plaintext": "616781"
   },
   {
     "name": "Angola",
     "code": "AGO",
     "is_admin": false,
-    "pin_hash": "3f0f73217d23469f91c9f5a816a751e7d8d9bea06b4aa402aac04a4fb0963887",
-    "_pin_plaintext": "708412"
+    "pin_hash": "db67b019517ee86bd012f4f4a7eb726a1aefd0fe9915416a6909062e702d83df",
+    "_pin_plaintext": "508369"
   },
   {
     "name": "Antigua and Barbuda",
     "code": "ATG",
     "is_admin": false,
-    "pin_hash": "717acf7297be82bb55994c2562335a3a69f5c038888ac0dd28d44d44905704b6",
-    "_pin_plaintext": "381044"
+    "pin_hash": "c6d6f52d69b2a57e8b2eef4c53b0d2912c381b0c180503d81ec380a19441c602",
+    "_pin_plaintext": "861160"
   },
   {
     "name": "Argentina",
     "code": "ARG",
     "is_admin": false,
-    "pin_hash": "9975baa75e1603273cbd3d94746a0442e22d5dc0268750dd45229f343f53fe19",
-    "_pin_plaintext": "443809"
+    "pin_hash": "6b7e4e067dc7359215b83a6bbf0b66cac4eb5f93e7c12799502756f8c2bfe7cf",
+    "_pin_plaintext": "162230"
   },
   {
     "name": "Armenia",
     "code": "ARM",
     "is_admin": false,
-    "pin_hash": "a3ffdbd2f2f2a84473c5dd3bff57ea2e25e7026372053a302436549a73573938",
-    "_pin_plaintext": "281293"
+    "pin_hash": "399d5bb5415453e4fa356b0e756ce3c880aeacb8fdfa28d6231af72af933a01e",
+    "_pin_plaintext": "911201"
   },
   {
     "name": "Australia",
     "code": "AUS",
     "is_admin": false,
-    "pin_hash": "fec0d4af3db867df411069e1dfd41aeec72404bc561323a4045ac9e6a749c955",
-    "_pin_plaintext": "184828"
+    "pin_hash": "c3140ae6520c0cf5e9af5ef4415e59146a00905f7844c9aeb104f830802934a0",
+    "_pin_plaintext": "682997"
   },
   {
     "name": "Austria",
     "code": "AUT",
     "is_admin": false,
-    "pin_hash": "14f3fce483dc2b837d29f5ba3b0d91c20d3965d0c4e3146ac9c8d8c2cc4b6c80",
-    "_pin_plaintext": "723879"
+    "pin_hash": "56dc80c9b2565838b4f5f5128481a56b2c6ea7f173266d6b25f0fda6125e10d5",
+    "_pin_plaintext": "105523"
   },
   {
     "name": "Bahamas",
     "code": "BHS",
     "is_admin": false,
-    "pin_hash": "b6bae61038bd220a844d6a9320029c8b7cf7aa7352787b88291fb5eba22cd9a9",
-    "_pin_plaintext": "795897"
+    "pin_hash": "9e247d596fc19527b131cd4a2034e28b7c2cf30abf68c764f406723f66ca0ad2",
+    "_pin_plaintext": "562268"
   },
   {
     "name": "Bahrain",
     "code": "BHR",
     "is_admin": false,
-    "pin_hash": "1ee7ccf9f123fd50ab8ebac3c81615a61c9b53da6dfc92bd7d11ff3d199f667e",
-    "_pin_plaintext": "791024"
+    "pin_hash": "31c8be7670b3775d5883e1ded1a0cff9e5b45c2c46b1994829e4875fb2bbff09",
+    "_pin_plaintext": "838247"
   },
   {
     "name": "Bangladesh",
     "code": "BGD",
     "is_admin": false,
-    "pin_hash": "89b34aea7350c1c6da8084d9430f3469c56eb955a49975dfd83c02c28e849864",
-    "_pin_plaintext": "638676"
+    "pin_hash": "9121f1289a9f01ade964655d197a2677adb81171811bb8a807eeaae4faa8cbe8",
+    "_pin_plaintext": "375182"
   },
   {
     "name": "Barbados",
     "code": "BRB",
     "is_admin": false,
-    "pin_hash": "5922f3fd539862fa4e062c26b24811340424dd64f4ad979d845adb4c49c45340",
-    "_pin_plaintext": "478178"
+    "pin_hash": "3ce707b3a13393b1a6fbf0ca774be782b715aef541d5f96b27e2aa96c9a39400",
+    "_pin_plaintext": "696861"
   },
   {
     "name": "Belarus",
     "code": "BLR",
     "is_admin": false,
-    "pin_hash": "63b2c4a036eea5459dc1fe508a7198ce546b5770795579df8396e4ecb1cc84e4",
-    "_pin_plaintext": "747607"
+    "pin_hash": "2c532406f03e2429f0bdda8307d4a0280b7fc4e5fcf8dff62d08b0aa76291249",
+    "_pin_plaintext": "280026"
   },
   {
     "name": "Belgium",
     "code": "BEL",
     "is_admin": false,
-    "pin_hash": "25e3d0973917d8c661cb7a647f2eddbf507aa279c87546e7c1f2ef08ce97f884",
-    "_pin_plaintext": "973193"
+    "pin_hash": "1f831c705c812b59e6e48ab2331cd7e807a4d5a47b6493eb2b509c7b00757f2c",
+    "_pin_plaintext": "147499"
   },
   {
     "name": "Belize",
     "code": "BLZ",
     "is_admin": false,
-    "pin_hash": "c94ada0165659e21e87086588836f8e5e36087aafbc4cefb9a3629fa5f9ab270",
-    "_pin_plaintext": "309410"
+    "pin_hash": "9e2be91d91fbb851a0ddf464cd24a2c656e492a973b8823fbe289a18880a84af",
+    "_pin_plaintext": "382574"
   },
   {
     "name": "Benin",
     "code": "BEN",
     "is_admin": false,
-    "pin_hash": "649c62330c76db0a6f9d5b7d3e5af9f42da20de5b561844c99e006e47a49c508",
-    "_pin_plaintext": "922399"
+    "pin_hash": "b62e10389c643050e1357bdd4957ff541e5f362854eae428936515c0643e633a",
+    "_pin_plaintext": "565982"
   },
   {
     "name": "Bolivia (Plurinational State of)",
     "code": "BOL",
     "is_admin": false,
-    "pin_hash": "a40e752d8b80f744b42f5d1545bc2a1c75a2c2243629e5c0d6b8868c92e7831d",
-    "_pin_plaintext": "214111"
+    "pin_hash": "842f3bb5413378e0e8a5a8380ebfa5f1f13f6a4c53b1558aa8f35d42eba2c3e5",
+    "_pin_plaintext": "929226"
   },
   {
     "name": "Bosnia and Herzegovina",
     "code": "BIH",
     "is_admin": false,
-    "pin_hash": "0c0d4850a4b11e5156ccbf8d74b3bf7aff7b7f62dd85d782df76887c14d58262",
-    "_pin_plaintext": "263524"
+    "pin_hash": "7da87e9ea437863f95fb92ab8fd7b494bfa8db12c71ba0cd3ecd3326dc6b23c4",
+    "_pin_plaintext": "604180"
   },
   {
     "name": "Botswana",
     "code": "BWA",
     "is_admin": false,
-    "pin_hash": "1e8ac54beb76711c0cf3bc993cc00c7642760d4f74ed99d0249b80d7cffecef5",
-    "_pin_plaintext": "589228"
+    "pin_hash": "697bd340d37c90f2882d21dbd81c5e3442bc3f5d1a04e9cca35ab299fc0a6aa1",
+    "_pin_plaintext": "612244"
   },
   {
     "name": "Brazil",
     "code": "BRA",
     "is_admin": false,
-    "pin_hash": "e1a32d4b0562522008711e1365b9e2de8983b9d40a75fefce26f00a040d23b65",
-    "_pin_plaintext": "143681"
+    "pin_hash": "0a4074aff07ff9848914d9dc39494c9da9aa87b33f736608077a3acbae9a3067",
+    "_pin_plaintext": "556975"
   },
   {
     "name": "Brunei Darussalam",
     "code": "BRN",
     "is_admin": false,
-    "pin_hash": "32a89f135fd301e75b193ff27deb62959307b09d0bddc6c0d0913c0fa6f6609c",
-    "_pin_plaintext": "939454"
+    "pin_hash": "d5fb7eb3d98c21becec1bc5f09d71e2d323ed62f0f5a6eaa109f9e085e2b6717",
+    "_pin_plaintext": "960656"
   },
   {
     "name": "Bulgaria",
     "code": "BGR",
     "is_admin": false,
-    "pin_hash": "11ee242dff7811ccf57a28134f29e214f2f04ec303368323b4c3727d3f0ea805",
-    "_pin_plaintext": "176554"
+    "pin_hash": "ad7b65b37407a65c5e08af576dc3ad07c3d8be89bbc456270115c7af5f8537bf",
+    "_pin_plaintext": "123403"
   },
   {
     "name": "Cabo Verde",
     "code": "CPV",
     "is_admin": false,
-    "pin_hash": "55bee35e6f9a29ce38970d782f40ad8733d23a3657721baaf5d55ff503572934",
-    "_pin_plaintext": "759331"
+    "pin_hash": "342c14120d1a80d89d4366a3db3fdd2608a342203378092592f7fc18a623f5c1",
+    "_pin_plaintext": "346205"
   },
   {
     "name": "Cambodia",
     "code": "KHM",
     "is_admin": false,
-    "pin_hash": "03e13bd177d484ac2b35d5bbf9d31546a49c1550d7760664107ae362eeaeb069",
-    "_pin_plaintext": "873496"
+    "pin_hash": "aeaa8b47598bc4c80092df3fe7eca5a3fed02219512366fb597760fb612f7e95",
+    "_pin_plaintext": "869311"
   },
   {
     "name": "Cameroon",
     "code": "CMR",
     "is_admin": false,
-    "pin_hash": "3a744ce22572eeab5f823530096968f59103e5e3b3224553e6c6f45ead67bf06",
-    "_pin_plaintext": "772517"
+    "pin_hash": "7fc08d4c7d53efe94c2f608b83f8b67b9e02fe0b9bb99e0f23f0c73ebae1c659",
+    "_pin_plaintext": "407227"
   },
   {
     "name": "Canada",
     "code": "CAN",
     "is_admin": false,
-    "pin_hash": "7e92a8018e64150f04860d5ee07aba1b0492e30c71f72f1f737bfe95659e3c79",
-    "_pin_plaintext": "312268"
+    "pin_hash": "37a84274b518f2ac474edaebfc4540c4b79f0e52ff4b2e1e63d9c48741487d71",
+    "_pin_plaintext": "693525"
   },
   {
     "name": "Chile",
     "code": "CHL",
     "is_admin": false,
-    "pin_hash": "50abbde2c9b17c18ce5faf0cb3940092bcea019386794e9ed051d69f892e353f",
-    "_pin_plaintext": "597303"
+    "pin_hash": "6e73b1facd60f3afe19c4f4d8ea69ecf76c3c00af9d2030693c14f8ac63738cb",
+    "_pin_plaintext": "285163"
   },
   {
     "name": "China",
     "code": "CHN",
     "is_admin": false,
-    "pin_hash": "25a44163acbfbe411b88f424433105906f9eb9b2c7ec915453d2e017f46faa2d",
-    "_pin_plaintext": "320520"
+    "pin_hash": "9dd2747074b669230f152d95d633d152f5137e38d9c44e826337c9b7be7f23cf",
+    "_pin_plaintext": "336543"
   },
   {
     "name": "Colombia",
     "code": "COL",
     "is_admin": false,
-    "pin_hash": "851c761f5908fa6164da902e593f17b39719c004e8e0c80d54ef8e326397466d",
-    "_pin_plaintext": "394134"
+    "pin_hash": "ac3002b9b3269fc0a6edeb7bd7df2cd98b8bbcce25d97cb013a1115c64beecab",
+    "_pin_plaintext": "641843"
   },
   {
     "name": "Comoros",
     "code": "COM",
     "is_admin": false,
-    "pin_hash": "cde4c7a41cdb2b79998929bb6a64c97d87252988d5d47a690587530bd8a11974",
-    "_pin_plaintext": "563788"
+    "pin_hash": "1cb012442b382bd081226261c45af585a7db5b1281034b52598f564f5313ad8f",
+    "_pin_plaintext": "445050"
   },
   {
     "name": "Congo",
     "code": "COG",
     "is_admin": false,
-    "pin_hash": "304fe31b610d3c8c3bca61ce596f6aa016eeee5f8ac08c71efddcc2f1c829a83",
-    "_pin_plaintext": "381422"
+    "pin_hash": "1b18ebc066e3584af8e11cbee0b110ab370bed65fa37ea4815feea66060c6836",
+    "_pin_plaintext": "824576"
   },
   {
     "name": "Cook Islands",
     "code": "COK",
     "is_admin": false,
-    "pin_hash": "db75901dd45faf354a852ead3eb76f828467becf7b89f79a91a92514685df24d",
-    "_pin_plaintext": "628331"
+    "pin_hash": "f8da2bd80ad40c78cc0963466bc53fe1dfa871eb72eb55700aa6300127254286",
+    "_pin_plaintext": "782587"
   },
   {
     "name": "Costa Rica",
     "code": "CRI",
     "is_admin": false,
-    "pin_hash": "99729b3f8e3912b0e6b40b50601ce5fdf50c762252850a799c2465e123620263",
-    "_pin_plaintext": "661192"
+    "pin_hash": "66bc18e254e9779197f264b3057aa373c1ada680767cd4a48cf6be8e5ef00618",
+    "_pin_plaintext": "451470"
   },
   {
     "name": "Côte d'Ivoire",
     "code": "CIV",
     "is_admin": false,
-    "pin_hash": "abba819c8057c5113617279b4092b4a28c734a4005dfd5ecdad16515de555864",
-    "_pin_plaintext": "268569"
+    "pin_hash": "c026e3a5121187770dbb105e8b30841db4fc6c8977e26919b2b9afd3294054e7",
+    "_pin_plaintext": "223195"
   },
   {
     "name": "Croatia",
     "code": "HRV",
     "is_admin": false,
-    "pin_hash": "21f03a8b01831381f857ee7854379b9cff132da90fbadac6a00ce398e005591d",
-    "_pin_plaintext": "947550"
+    "pin_hash": "ef018a85761ffe125eac7934bf1700c94b015f6654a36c243e75a6ab7588d33e",
+    "_pin_plaintext": "812136"
   },
   {
     "name": "Cuba",
     "code": "CUB",
     "is_admin": false,
-    "pin_hash": "4672e3c2e5cab23d3e4d32126d1556d8f0e53187750231805af39402328f9c47",
-    "_pin_plaintext": "873904"
+    "pin_hash": "604f3bd5b915ece2dae32d791151263edb7b1a0d1f8e934e380fb1227d8ef089",
+    "_pin_plaintext": "154122"
   },
   {
     "name": "Cyprus",
     "code": "CYP",
     "is_admin": false,
-    "pin_hash": "0b9c537b79ef1f7b21fdd9d5f436f70abf9680c0f2938be2f31da2edc2c0f444",
-    "_pin_plaintext": "212285"
+    "pin_hash": "867a384bcbb0c705c2ece7edb0e54ded90851e74c426687e755a76b9d8921bc6",
+    "_pin_plaintext": "846363"
   },
   {
     "name": "Czechia",
     "code": "CZE",
     "is_admin": false,
-    "pin_hash": "5aadabccc73f90eacb56c1a80d9536cb277204fed28b19931d3292a0036d9a7b",
-    "_pin_plaintext": "618010"
+    "pin_hash": "1de93f4b7c5c0c8f8d5945ff521dc021342b6a0b1689a247beb7d13c235e1eac",
+    "_pin_plaintext": "432078"
   },
   {
     "name": "Democratic People's Republic of Korea",
     "code": "PRK",
     "is_admin": false,
-    "pin_hash": "82f337f992466e92f118fd61213ca5d8f3dc82be945a38253c59d64f3dd6e68d",
-    "_pin_plaintext": "961934"
+    "pin_hash": "bab6b3994c8b9d14b0bb7c20d1d899566fc5fde67a396b908cbacb849cdd2bdd",
+    "_pin_plaintext": "311435"
   },
   {
     "name": "Democratic Republic of the Congo",
     "code": "COD",
     "is_admin": false,
-    "pin_hash": "0f71e67dcee7cd206bc37874a633ebde334dc5dc2ecc733af32fc6d89cf15993",
-    "_pin_plaintext": "307700"
+    "pin_hash": "9f8b272a59b7793bbc122158a0871c1ed44cf0551630deba1787b16e6c26182d",
+    "_pin_plaintext": "243407"
   },
   {
     "name": "Denmark",
     "code": "DNK",
     "is_admin": false,
-    "pin_hash": "02ab208bfb701c5cd6cc0d38e39f9f3d8f587444d9f609e751143bea7f127569",
-    "_pin_plaintext": "628910"
+    "pin_hash": "63ba3fb0511ff352e1353c1779d9fbdf92bc48f914295fd9448f4391278fc44c",
+    "_pin_plaintext": "294967"
   },
   {
     "name": "Djibouti",
     "code": "DJI",
     "is_admin": false,
-    "pin_hash": "71208a0c1dcb0a7af6a86099834beefab6fd95501b7a9163993baac0c2985ba2",
-    "_pin_plaintext": "100481"
+    "pin_hash": "aeb102b1bd36dcfa481e47415e836f8cff61f53770ebf9bf4756884e9005618d",
+    "_pin_plaintext": "197345"
   },
   {
     "name": "Dominica",
     "code": "DMA",
     "is_admin": false,
-    "pin_hash": "766301faa01fdfc4226331750bb4d16d93757ac475fc1c6a338f9b08c1a4b8fc",
-    "_pin_plaintext": "297268"
+    "pin_hash": "f59835051985ac3ea7988743284a6306add9178ecb854b3d7549df670b8fd8fa",
+    "_pin_plaintext": "695345"
   },
   {
     "name": "Dominican Republic",
     "code": "DOM",
     "is_admin": false,
-    "pin_hash": "b39f714c74575b5a14cf7a4b6e877d2208e35bc119d938aebbb1689797478bf8",
-    "_pin_plaintext": "610265"
+    "pin_hash": "de8119291df939ee6bb57db1e640c9e78020c355b557658373bd71f966d61982",
+    "_pin_plaintext": "466813"
   },
   {
     "name": "Ecuador",
     "code": "ECU",
     "is_admin": false,
-    "pin_hash": "31d9128c6555e867db2b373e50a09656845311324d7e0979e7b42716c8197ca5",
-    "_pin_plaintext": "285373"
+    "pin_hash": "b5134d390ec81fee1b9be5999efb0c89ac14cdf714e38209abb9d80f5f21c428",
+    "_pin_plaintext": "989695"
   },
   {
     "name": "Egypt",
     "code": "EGY",
     "is_admin": false,
-    "pin_hash": "afb193520426ba7a004e7fce5e49ab22bcbaf9e33cdd2caec621bd8fd12127e5",
-    "_pin_plaintext": "113349"
+    "pin_hash": "d2be4d977f0aeb60bb20c25d62c8dcec8633a6cb7912b8e18284cb40cfe9785c",
+    "_pin_plaintext": "840710"
   },
   {
     "name": "El Salvador",
     "code": "SLV",
     "is_admin": false,
-    "pin_hash": "ddc9098996b7941bfb8267af26506476cf6094b21a57835eca1dc5ddb8a64f43",
-    "_pin_plaintext": "196665"
+    "pin_hash": "a69a36ada9f3ea777c2a9723a5fb0e7981e617283530596043fd2df370920153",
+    "_pin_plaintext": "854556"
   },
   {
     "name": "Equatorial Guinea",
     "code": "GNQ",
     "is_admin": false,
-    "pin_hash": "97a912b50e7b9584402c545b08ff0170d207fa08dfd7bea59f0efee7486e8ed4",
-    "_pin_plaintext": "758856"
+    "pin_hash": "7ee8609cce3b5337886e07c6e5994017db6c88bc05336cfda6b75ba8acc3f4a4",
+    "_pin_plaintext": "607160"
   },
   {
     "name": "Eritrea",
     "code": "ERI",
     "is_admin": false,
-    "pin_hash": "d5769b5ce299cd3a0bce77184a7231291d5bf6762adc686cd3e2d81d06814339",
-    "_pin_plaintext": "190191"
+    "pin_hash": "3bf4a26fe8cf2523f31295a9fbb27c7d7c6a408c5cd5c1205715f479e2ddcb25",
+    "_pin_plaintext": "285911"
   },
   {
     "name": "Estonia",
     "code": "EST",
     "is_admin": false,
-    "pin_hash": "30a9c4600775a9b1f110d2f51402f9c0076baeb1b292274fb721cf931a061d36",
-    "_pin_plaintext": "905841"
+    "pin_hash": "ebc974155fb7826db2f1b6d603c98c8de58e5eafab44d492d23f97e4b60861ec",
+    "_pin_plaintext": "682747"
   },
   {
     "name": "Eswatini",
     "code": "SWZ",
     "is_admin": false,
-    "pin_hash": "78e158c3d25868aff312662b1c8f329210cd088623aa6ad156dcd51748e0fed3",
-    "_pin_plaintext": "548963"
+    "pin_hash": "2a6ae4202c1c36fd1f22bf8cbc0a649baf1d84a4f0701c4024375f272c181cc3",
+    "_pin_plaintext": "691524"
   },
   {
     "name": "Ethiopia",
     "code": "ETH",
     "is_admin": false,
-    "pin_hash": "c06a404b7c2e3d867c7f903be51ec142b9228b830073dbf78b1021e594c615b3",
-    "_pin_plaintext": "295572"
+    "pin_hash": "0c4d5d64da01cd4c62759ed556e84c41d608fd3f6c6f91957653a85e3a8d232f",
+    "_pin_plaintext": "204202"
   },
   {
     "name": "European Union",
     "code": "EU0",
     "is_admin": false,
-    "pin_hash": "c04b920018db40de7f25c163ed03057fdcc931dceeddac694852736d9f19fd80",
-    "_pin_plaintext": "869093"
+    "pin_hash": "7287dbcfb00d56917d58454cc4656516f6d6dac17a56f9e58c1ca0eb9f39e078",
+    "_pin_plaintext": "537204"
   },
   {
     "name": "Fiji",
     "code": "FJI",
     "is_admin": false,
-    "pin_hash": "a50896c7c9957c136308ebabfae85dbfcdef4ccb14abf80e22800ad134d7a502",
-    "_pin_plaintext": "574474"
+    "pin_hash": "0f88c736fecf2fd81ba4d00f8e4f64395d5b636f6ccb02b831316015a09c7909",
+    "_pin_plaintext": "137356"
   },
   {
     "name": "Finland",
     "code": "FIN",
     "is_admin": false,
-    "pin_hash": "08ec13ffc5022cd0aa77280329d6bf7bfd04768e871e77b86c1593cd6e0007ef",
-    "_pin_plaintext": "672702"
+    "pin_hash": "fce6c7e4170032d5582d536ec3c0f999def0ee8fde51268081ca0c324609e051",
+    "_pin_plaintext": "566577"
   },
   {
     "name": "France",
     "code": "FRA",
     "is_admin": false,
-    "pin_hash": "91c618cdb60f33d6dfe9efc06f288512225cdd287eed99eab5992ebf0166f6d6",
-    "_pin_plaintext": "364860"
+    "pin_hash": "01d4631927262070c1d8ee8153f9e6a26b07c9d7861113374419c503349556db",
+    "_pin_plaintext": "850212"
   },
   {
     "name": "Gabon",
     "code": "GAB",
     "is_admin": false,
-    "pin_hash": "686a386150bd33fb2022f29492ec4b5c4f1bff300cdc297ab84f1dcc959b846f",
-    "_pin_plaintext": "485089"
+    "pin_hash": "65ab67d8e37d5012eff9a903b1dfa667011b3defc12dbfb291f6dfebcb051f86",
+    "_pin_plaintext": "681919"
   },
   {
     "name": "Gambia",
     "code": "GMB",
     "is_admin": false,
-    "pin_hash": "3a425f0c874041dba20c86662d64bfadfe59cfe6387ab1896f51e7e97627e0da",
-    "_pin_plaintext": "574796"
+    "pin_hash": "e39ad0fa931f58e4bd1ff42a93f001a29951ccaa638ac115c74c8bf01d22444b",
+    "_pin_plaintext": "599444"
   },
   {
     "name": "Georgia",
     "code": "GEO",
     "is_admin": false,
-    "pin_hash": "1dafafb797de6b5f265ebd01172f4cfd9057f1e15c62289a271307720826e394",
-    "_pin_plaintext": "931308"
+    "pin_hash": "caba02385ac49e3b18eeba7390bb43e3fa9d1fa90102a48d265f1e84f326feca",
+    "_pin_plaintext": "322263"
   },
   {
     "name": "Germany",
     "code": "DEU",
     "is_admin": false,
-    "pin_hash": "b403a4877ea4baa3caa86e30cafcac75948d57b8f4d8cacd09f6cf5d51a5f91c",
-    "_pin_plaintext": "172062"
+    "pin_hash": "b9e3f82fdc0a2cf0ab80235c3015b4333d7973d5681489ad439910889364d000",
+    "_pin_plaintext": "617811"
   },
   {
     "name": "Ghana",
     "code": "GHA",
     "is_admin": false,
-    "pin_hash": "f44264d61c09846908c69235fd7eaeecee2c91aa42f83757e28d596e5445b200",
-    "_pin_plaintext": "827046"
+    "pin_hash": "f214526a849a0f38b15a2a02f9a73652b273033734767203809d0775d486cfd3",
+    "_pin_plaintext": "601231"
   },
   {
     "name": "Greece",
     "code": "GRC",
     "is_admin": false,
-    "pin_hash": "aba05a8ccb0cc3d3cc0000b24e3009e186e912e004a04bba1821d8edc7fbfacd",
-    "_pin_plaintext": "162948"
+    "pin_hash": "82834a5d1a63b9dbfa20a7db3f0718157b899381c748fd916572426e23c2eb27",
+    "_pin_plaintext": "492109"
   },
   {
     "name": "Grenada",
     "code": "GRD",
     "is_admin": false,
-    "pin_hash": "da80225ac78c8e8e621a7c9a71a176987d24c933e881bf1efc12b07a8e2bbe94",
-    "_pin_plaintext": "390139"
+    "pin_hash": "dc15b5ccabd8fd3141c244b7dbc6fe95078299ea3ce3016cbb483893fcdd4236",
+    "_pin_plaintext": "888316"
   },
   {
     "name": "Guatemala",
     "code": "GTM",
     "is_admin": false,
-    "pin_hash": "9b0b318510a29c0792ef73b704bdc2327fb0c298db58aa7a37fdea90e1815dfc",
-    "_pin_plaintext": "646181"
+    "pin_hash": "a23997e0572cc7f542690758e307ef829ae9ff67ad943b8b9c5e3ce02db2b81d",
+    "_pin_plaintext": "683831"
   },
   {
     "name": "Guinea",
     "code": "GIN",
     "is_admin": false,
-    "pin_hash": "a88666d5a13ea444541476d2c68a59a3dfbbc6e5f77a37af25cb2442f356f2c0",
-    "_pin_plaintext": "249117"
+    "pin_hash": "a9036825456f5178775a2061600a573244bc42ef3fe31fa1be99feb515e75d47",
+    "_pin_plaintext": "531403"
   },
   {
     "name": "Guinea-Bissau",
     "code": "GNB",
     "is_admin": false,
-    "pin_hash": "cea8ad175c58e0f40686c0fd017475e0f50f9a3eaad4e9a2107e8274c43c09c9",
-    "_pin_plaintext": "357251"
+    "pin_hash": "f7681ec5c98378627c8460b7c95e4c2822d75a76ae1092aec505f87d45ec432c",
+    "_pin_plaintext": "222907"
   },
   {
     "name": "Guyana",
     "code": "GUY",
     "is_admin": false,
-    "pin_hash": "5027fc712244450cf4108e621f1b5e67fd5992672493c62579e210fa623123d7",
-    "_pin_plaintext": "446321"
+    "pin_hash": "827df8427819128c531719440e694b7916f535df97ff239f13c9c19f6e87e80f",
+    "_pin_plaintext": "345488"
   },
   {
     "name": "Haiti",
     "code": "HTI",
     "is_admin": false,
-    "pin_hash": "3e5e901e4155fab2c4e6d0f9493669a47aa816bf7b93f51e07d63e89c2fff202",
-    "_pin_plaintext": "223562"
+    "pin_hash": "a7f89e3cf3756d5d176b046e23a5c2522f8d87686fbcb0eebe1c66afd4e0ad6f",
+    "_pin_plaintext": "658737"
   },
   {
     "name": "Honduras",
     "code": "HND",
     "is_admin": false,
-    "pin_hash": "9fdaebd40df14078b4c4e6d3cbd917885a5d1ef0b0e878f1a7c965f427820d2a",
-    "_pin_plaintext": "839826"
+    "pin_hash": "33c8f7f8ee267c306fb74f86206fc456e8f75d5944bbe2854430f16396ada7a4",
+    "_pin_plaintext": "766464"
   },
   {
     "name": "Hungary",
     "code": "HUN",
     "is_admin": false,
-    "pin_hash": "e430b153f063f4c4031d8c6a8d0221b20a277cfac3bd1da137c33f54cf9a5df6",
-    "_pin_plaintext": "258716"
+    "pin_hash": "4c131c8d73d6365a8085114d64ffbe6fa23b151672efdaf2526f7545b47dfe38",
+    "_pin_plaintext": "957027"
   },
   {
     "name": "Iceland",
     "code": "ISL",
     "is_admin": false,
-    "pin_hash": "32572e07c9f2af90fa6378503ea2b35a7a215e21bf242e97671ac59aed5858df",
-    "_pin_plaintext": "497084"
+    "pin_hash": "0357843a98ca68bf90c4212ed77b01d319764d98a9a6f9514898e225ea89de6e",
+    "_pin_plaintext": "343970"
   },
   {
     "name": "India",
     "code": "IND",
     "is_admin": false,
-    "pin_hash": "b0d65b8731c5dbd112aa30bc635c762fca1395fb53642f3c50a533519de381f3",
-    "_pin_plaintext": "553074"
+    "pin_hash": "4235853eb579e14bbd447387e7e4bbb652953dd8cbcfad0fe9740ddc0b7c308a",
+    "_pin_plaintext": "225562"
   },
   {
     "name": "Indonesia",
     "code": "IDN",
     "is_admin": false,
-    "pin_hash": "77d29edd8807af4074b50075e9f005599276853a320619d8000794c6713358c6",
-    "_pin_plaintext": "173870"
+    "pin_hash": "959ecdf45cc3733e1605b7e43704132f9d8be2180d14d3d2751bc1cc48134a34",
+    "_pin_plaintext": "163954"
   },
   {
     "name": "Iran (Islamic Republic of)",
     "code": "IRN",
     "is_admin": false,
-    "pin_hash": "a702567759933e9efbcf7c5186ca6a1c4c71cb09a007cf595d0c63cfdb3bb8c9",
-    "_pin_plaintext": "156826"
+    "pin_hash": "ac277dba4dfcb1f41b9e9327ee17835dbb8f1d3f019d908d8bfa939328852c3a",
+    "_pin_plaintext": "880417"
   },
   {
     "name": "Iraq",
     "code": "IRQ",
     "is_admin": false,
-    "pin_hash": "145ee08f1608971a73245ee9b0bef86e86e6597f8791577e11bb92a00997ea43",
-    "_pin_plaintext": "694090"
+    "pin_hash": "12051cd00dbe4697cb23de94b180b376cbd7e35a9ced41ffd1cafff18f2e126a",
+    "_pin_plaintext": "443794"
   },
   {
     "name": "Ireland",
     "code": "IRL",
     "is_admin": false,
-    "pin_hash": "f5bf827a2b188814a58c9b09659b9265126beb3be55858cb278951fc479c79f9",
-    "_pin_plaintext": "217667"
+    "pin_hash": "71cb8351bd54a170f405d1d581af635036f73ba8569dcf89a7de879b11de51e2",
+    "_pin_plaintext": "377708"
   },
   {
     "name": "Italy",
     "code": "ITA",
     "is_admin": false,
-    "pin_hash": "8208c3636a705becade35b12f663fa8566a979bc8b4a1add8b9a21aa61e3aa77",
-    "_pin_plaintext": "767101"
+    "pin_hash": "13799af7f86a565c40eed3006bd75bfacbd138af3e3bfbd61e6b9d87c6305869",
+    "_pin_plaintext": "250875"
   },
   {
     "name": "Jamaica",
     "code": "JAM",
     "is_admin": false,
-    "pin_hash": "be16e940ba429e59279c42a0364738c0f0d8c3e5e8a593ff7b0ac671b92f6512",
-    "_pin_plaintext": "409611"
+    "pin_hash": "aa542f4780db97099a18d8f1ac1c82ff632d802cc7b2fce05b489ff2033e173c",
+    "_pin_plaintext": "335286"
   },
   {
     "name": "Japan",
     "code": "JPN",
     "is_admin": false,
-    "pin_hash": "1958fc7ad3ac03ef258926f772c8b81bf3d067204783f84bbb471d1320908639",
-    "_pin_plaintext": "397764"
+    "pin_hash": "1c61b695b67e98b2ad07f382fa71bc7d93bc96ea660374c9f5371528648f4817",
+    "_pin_plaintext": "105682"
   },
   {
     "name": "Jordan",
     "code": "JOR",
     "is_admin": false,
-    "pin_hash": "dff430c6ec2621e46e857ea70481c24fd9f554432e9e50f22d6cda39f8e16138",
-    "_pin_plaintext": "767941"
+    "pin_hash": "e16a653f1a8f7bb2ec033ab9884ba106055b220464971e7d3ab9563cf2bd806f",
+    "_pin_plaintext": "232964"
   },
   {
     "name": "Kenya",
     "code": "KEN",
     "is_admin": false,
-    "pin_hash": "3af3bf16241a552f1176f373eead131149f4fb0a131e376ee2729443fd2c709a",
-    "_pin_plaintext": "757769"
+    "pin_hash": "3051cd298c2886edbb3010f29ded0d66882b6338c4ab5c4c6dba2ce6d1a1d41d",
+    "_pin_plaintext": "498234"
   },
   {
     "name": "Kiribati",
     "code": "KIR",
     "is_admin": false,
-    "pin_hash": "572c6a9e504fa061fb280089406b5f532376e3e351a00edb600c27285c759c70",
-    "_pin_plaintext": "134640"
+    "pin_hash": "820c14ccb3aa21cd69f7f0af0c1ccc7f3f7ab48597f0d3722c339b550f405c1f",
+    "_pin_plaintext": "439316"
   },
   {
     "name": "Kuwait",
     "code": "KWT",
     "is_admin": false,
-    "pin_hash": "bbbacf82c7e2613ff816df6f2010adb3ccf1f5173118cca728413af5b8906e28",
-    "_pin_plaintext": "518542"
+    "pin_hash": "ed92314238267bbf8a8e516910fdf5d203009c1fbc2c06243f120cb09faf3b83",
+    "_pin_plaintext": "143604"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "code": "KGZ",
+    "is_admin": false,
+    "pin_hash": "743984dabe4be0f16eaa44fc7f7943800682a16f81a80c9298091f204d625af0",
+    "_pin_plaintext": "439691"
   },
   {
     "name": "Lao People's Democratic Republic",
     "code": "LAO",
     "is_admin": false,
-    "pin_hash": "7bde6e4593cbe40446094a0ee3140fc796aad1882739a441dfca5e7b3eb05688",
-    "_pin_plaintext": "778317"
+    "pin_hash": "7460c3cdd3b7d28ee8fa63ea19d846a89f0ede4a6cdf8bcb69b4caf6157aa0c7",
+    "_pin_plaintext": "829268"
   },
   {
     "name": "Latvia",
     "code": "LVA",
     "is_admin": false,
-    "pin_hash": "e73b6e6a556915c87e3f82ff5833333fee63bf48d7d52bcd4771e6f8eb79045e",
-    "_pin_plaintext": "191052"
+    "pin_hash": "c691f9f54506b821e958fff84ed7dccc28256fe250709c6c10923ca4cc4d05de",
+    "_pin_plaintext": "772237"
   },
   {
     "name": "Lebanon",
     "code": "LBN",
     "is_admin": false,
-    "pin_hash": "f32f3daea8140f46b83f386e28310dfb02acdce16e2c14fc7a1c65eb264d7384",
-    "_pin_plaintext": "302756"
+    "pin_hash": "cd39a4cbb8df985b1fd3c6894880fc5c111faa5e0e8af31701ccee41bc97eab1",
+    "_pin_plaintext": "271995"
   },
   {
     "name": "Lesotho",
     "code": "LSO",
     "is_admin": false,
-    "pin_hash": "0917969724741d0d7387cf9be64777c92500ad44903d753ec7bcae09b743c4c2",
-    "_pin_plaintext": "869297"
+    "pin_hash": "06388fc1dbc46efe56a7b31b78e5475b983938332214160532f6e4203943a283",
+    "_pin_plaintext": "311987"
   },
   {
     "name": "Liberia",
     "code": "LBR",
     "is_admin": false,
-    "pin_hash": "5657b886665af8b7b8fe0ba5a55240e887fc40ab7ac07e4751f43d28f8d81b92",
-    "_pin_plaintext": "566951"
+    "pin_hash": "f71a8f12331de5430d36d0829fb484a0cd952293f9319f8adb8cced7c17e6fde",
+    "_pin_plaintext": "654925"
   },
   {
     "name": "Libya",
     "code": "LBY",
     "is_admin": false,
-    "pin_hash": "7afee91144dbe557d5fe19de9f37c96435fb2d067cc9df519c9d5374004fa1b1",
-    "_pin_plaintext": "644744"
+    "pin_hash": "221c08cdf1cc62f68c0dfc4208c78e4844f92f3d390e9ecafd4ebc178763f4e0",
+    "_pin_plaintext": "659761"
   },
   {
     "name": "Lithuania",
     "code": "LTU",
     "is_admin": false,
-    "pin_hash": "4287f61e07263307d6f47a8314ab6272fa5b16b754563ea9f56f69c6d6141555",
-    "_pin_plaintext": "998595"
+    "pin_hash": "2d87200fa488adf61372810ec4752b910e858965ffbfdd72f17f63f235acc225",
+    "_pin_plaintext": "387110"
   },
   {
     "name": "Luxembourg",
     "code": "LUX",
     "is_admin": false,
-    "pin_hash": "b3e25d13171ab83c63ab1c12395229452fe1e9b7f0b00cfc8ea396ab206ddf5c",
-    "_pin_plaintext": "209606"
+    "pin_hash": "94c46e875b08bc2fdce5d3c8ca0c0a5240fdbcf69c7cfb643520f31e66bf6f4d",
+    "_pin_plaintext": "701820"
   },
   {
     "name": "Madagascar",
     "code": "MDG",
     "is_admin": false,
-    "pin_hash": "a3553e471145391e3bcd01e737fbc70cb76c7944c09472e817f2f27978882035",
-    "_pin_plaintext": "851755"
+    "pin_hash": "ea2d31e3c4b897f0a50943970ea3bdfe6e74269d5c6c39fa5c8ca6865d91aac0",
+    "_pin_plaintext": "303645"
   },
   {
     "name": "Malawi",
     "code": "MWI",
     "is_admin": false,
-    "pin_hash": "358724129109b8094cb0bcea567b0571564006c730973ed16b4df955d951efd5",
-    "_pin_plaintext": "538792"
+    "pin_hash": "24008f337ceff244a154c0451d5694be44bc6d402f6aaa28dc0a149520b190f6",
+    "_pin_plaintext": "453032"
   },
   {
     "name": "Malaysia",
     "code": "MYS",
     "is_admin": false,
-    "pin_hash": "8bd72b788426a0c40f2db63028597eaacf0abb16127ed252334b0002f2e4e64a",
-    "_pin_plaintext": "885721"
+    "pin_hash": "4090a76f98da3bf3c08096c19ab9ef9119d475cda046776ab745bfbe0198b6c7",
+    "_pin_plaintext": "188262"
   },
   {
     "name": "Maldives",
     "code": "MDV",
     "is_admin": false,
-    "pin_hash": "1a3e444296c7623e67cc97ceab1f45292077c5c4660c77f5e87903462bbc9f7c",
-    "_pin_plaintext": "320348"
+    "pin_hash": "314c4971021006d2dbbfa48f2484140f2ebae0de7da81f20e98c5ee86552f120",
+    "_pin_plaintext": "802404"
   },
   {
     "name": "Mali",
     "code": "MLI",
     "is_admin": false,
-    "pin_hash": "aff8f651459ef7732be0a9e76c30d4906af4df2209732c375ae47ac225cbcb42",
-    "_pin_plaintext": "703291"
+    "pin_hash": "b3116750df99189e4f1fc1e06a5a0920fd420f7d6a13c6826d422b869cbe3740",
+    "_pin_plaintext": "472115"
   },
   {
     "name": "Malta",
     "code": "MLT",
     "is_admin": false,
-    "pin_hash": "5889fbd054c54ec136059b400e8c6411a32d5c0e041a0cd18acbbb7c2db8031c",
-    "_pin_plaintext": "571026"
+    "pin_hash": "51e61df060a2e2f626e5492bd0b7474137c58464f9529bf90de7526a4f3b32ca",
+    "_pin_plaintext": "563066"
   },
   {
     "name": "Marshall Islands",
     "code": "MHL",
     "is_admin": false,
-    "pin_hash": "b0fb4d4aaecdbaa2ac7a33b0e4c57cdf516a30d8909ec7c28324434409656ae0",
-    "_pin_plaintext": "447316"
+    "pin_hash": "efdf29553411816e96b755831c116279c384135cca5156f6d5f4a0a36c9eafa1",
+    "_pin_plaintext": "900188"
   },
   {
     "name": "Mauritania",
     "code": "MRT",
     "is_admin": false,
-    "pin_hash": "c1adc4869c695cc1395662ef0c3958e3fc598d3684188e3f04a242881b5c622f",
-    "_pin_plaintext": "114492"
+    "pin_hash": "215dbf6ce3d27643c34e2b8e8275b77cd09c3e6ffb01235c6ca14976bdc3eef6",
+    "_pin_plaintext": "261392"
   },
   {
     "name": "Mauritius",
     "code": "MUS",
     "is_admin": false,
-    "pin_hash": "6ec839a9fc81b55363ddadd677e50a5110f148dc384137a215227643247f928e",
-    "_pin_plaintext": "775115"
+    "pin_hash": "4c96c1fd7b9db109fb876ab90565e7ddcebe67a9b16ff6a705ac7dc4428e2da4",
+    "_pin_plaintext": "336753"
   },
   {
     "name": "Mexico",
     "code": "MEX",
     "is_admin": false,
-    "pin_hash": "09940a7b41209fb48706872bdd116f19d81a57aa07b0671caf4616f4e90cd6dc",
-    "_pin_plaintext": "529703"
+    "pin_hash": "e8026a43d9e7d2e309bfce94031dc051cda93c8f6b935ae34c8ea543bec9c0e5",
+    "_pin_plaintext": "863114"
   },
   {
     "name": "Micronesia (Federated States of)",
     "code": "FSM",
     "is_admin": false,
-    "pin_hash": "128d5a84b1d54aa285c053c897efd6f73db1d1923128c6720bb4b3cabf3378c5",
-    "_pin_plaintext": "120643"
+    "pin_hash": "fee3964a78bbe4263d55d5020d3684a10cdaf5a132f78ab30971fc5b0df236f0",
+    "_pin_plaintext": "334045"
   },
   {
     "name": "Monaco",
     "code": "MCO",
     "is_admin": false,
-    "pin_hash": "341c94024036c273a8de48280520c2bf5690635720bda98fe105f4e6539c8459",
-    "_pin_plaintext": "860909"
+    "pin_hash": "d2728170740b32ef0a103ca7607b526af49ebbcb3e5b0eec979cf20a36fdfd96",
+    "_pin_plaintext": "423688"
   },
   {
     "name": "Mongolia",
     "code": "MNG",
     "is_admin": false,
-    "pin_hash": "97cafe8ba67234829b55a5e785691a2248592419d9ce5e50bd5479dc507ba5cc",
-    "_pin_plaintext": "691861"
+    "pin_hash": "36e6068ee2757f745b1b706a41a9bc50ba3aa7a29fbc9188508bd39b3ebef52f",
+    "_pin_plaintext": "964810"
   },
   {
     "name": "Montenegro",
     "code": "MNE",
     "is_admin": false,
-    "pin_hash": "8a3160d911f519c019fff8659d5f7321247f217fb69fbcff33ad35a19a035124",
-    "_pin_plaintext": "668864"
+    "pin_hash": "7c8db7568ae693aad783a5befe42a7db09d22eb257ed4de1ea3972699d7c7ce3",
+    "_pin_plaintext": "357659"
   },
   {
     "name": "Morocco",
     "code": "MAR",
     "is_admin": false,
-    "pin_hash": "e4463135826d7a9ea1cea18a7a87067aa372d50c40f33418a4ac29849429a7ad",
-    "_pin_plaintext": "888987"
+    "pin_hash": "1754adc9733dc82b79e7ab43a7553afcc5ef40bb72fb57d9352c3271d4ec3152",
+    "_pin_plaintext": "224689"
   },
   {
     "name": "Mozambique",
     "code": "MOZ",
     "is_admin": false,
-    "pin_hash": "4040c659c361b1045af26d04adf1324348e93f450d3153e99aa1a31b94394f51",
-    "_pin_plaintext": "571431"
+    "pin_hash": "1e041978a9d1d24d7d2d89832eff3714afb1bd7c52f26da3f182d57ff47bcba2",
+    "_pin_plaintext": "965903"
   },
   {
     "name": "Myanmar",
     "code": "MMR",
     "is_admin": false,
-    "pin_hash": "65cdc56d152ae3a4b0bb336f6ab6bbf8e008eb3a47354089985ace5d019a3947",
-    "_pin_plaintext": "891483"
+    "pin_hash": "d48d237cd486d203de1259daa1433d3d10f69ffee2b242adb529b751d2bd01a5",
+    "_pin_plaintext": "962045"
   },
   {
     "name": "Namibia",
     "code": "NAM",
     "is_admin": false,
-    "pin_hash": "6ac496f8de8439fee5911fd57ef852f34f26d37e52eeb0b8bec716f1859a85d5",
-    "_pin_plaintext": "817352"
+    "pin_hash": "bd6382442cc84c43141f1f7155612129d080e078772f9a333b1755fede525d6f",
+    "_pin_plaintext": "430063"
   },
   {
     "name": "Nauru",
     "code": "NRU",
     "is_admin": false,
-    "pin_hash": "c0d6c33fccbff6203f3403d6bdd7123fdc198197fa3fad1444663f03388cceef",
-    "_pin_plaintext": "373627"
+    "pin_hash": "000ddebc3d5b04b2d830a17f4acfdfef88ed6738961c17bd0b86c7fa7606051e",
+    "_pin_plaintext": "303882"
   },
   {
     "name": "Nepal",
     "code": "NPL",
     "is_admin": false,
-    "pin_hash": "e02ef617c43f3204427e993980187475191edba27283fd27d4741ab7276e9d16",
-    "_pin_plaintext": "371213"
+    "pin_hash": "6a92ee0497895e80c891c9a39b7e9079fefe1f36c32e7e47029035964a436d45",
+    "_pin_plaintext": "575313"
   },
   {
     "name": "Netherlands",
     "code": "NLD",
     "is_admin": false,
-    "pin_hash": "3496413b63de4c3f02b09ce0341e3f236e220fd5808f3a4b7b4e864a6aed5b20",
-    "_pin_plaintext": "173215"
+    "pin_hash": "9189e0187d9d5da1013862466739e30cbd823cd2fca4c9e6c106e064f383952b",
+    "_pin_plaintext": "312444"
   },
   {
     "name": "New Zealand",
     "code": "NZL",
     "is_admin": false,
-    "pin_hash": "aa3c97bbe6b2f66c52d00563d67c66fa28d545fa62cac345cc78b2e129ad897d",
-    "_pin_plaintext": "814108"
+    "pin_hash": "6bf3c57bfe329c961be893bf86b0236625b1c8318cbee1321f4c6e54981c4f5d",
+    "_pin_plaintext": "888250"
   },
   {
     "name": "Nicaragua",
     "code": "NIC",
     "is_admin": false,
-    "pin_hash": "81f4f03abb1421c212b9a54ca09571245bbc7a8ee50d8d8fdbdb9919f7a8cd87",
-    "_pin_plaintext": "772826"
+    "pin_hash": "945864abb673537215c3f04804036f25d2c1174f4b838b07c52a0f90d8a1cf9e",
+    "_pin_plaintext": "662712"
   },
   {
     "name": "Niger",
     "code": "NER",
     "is_admin": false,
-    "pin_hash": "1743d24d4b07fb1c5b25d9f69a39deb345a6ec220438da993abd62373067fd8d",
-    "_pin_plaintext": "848689"
+    "pin_hash": "eff687c3bc0822272035a30cae9e7ad608b775caf7fef7998100b07b7e77f734",
+    "_pin_plaintext": "238361"
   },
   {
     "name": "Nigeria",
     "code": "NGA",
     "is_admin": false,
-    "pin_hash": "05edae93610097d80c61f929986cede76a6283f48b900d4785fcd8adf6a88c46",
-    "_pin_plaintext": "593657"
+    "pin_hash": "eed7df32e070ca23ebbaf09fe8eafcb4e6d9f63a82924cef16830cb33e00531d",
+    "_pin_plaintext": "742659"
   },
   {
     "name": "Niue",
     "code": "NIU",
     "is_admin": false,
-    "pin_hash": "60ebc4db2142a3cfc0a75a6fd5ceaacf1e91d36babe73d629c8e7b328b9bff85",
-    "_pin_plaintext": "237124"
+    "pin_hash": "1d71b22a743c4b1cfaa1498dd5d8f3404fd1582dbe4289ac38e27452d0e98df0",
+    "_pin_plaintext": "432599"
   },
   {
     "name": "Norway",
     "code": "NOR",
     "is_admin": false,
-    "pin_hash": "07c580118a9b822145c534d5c5d9809b05ec0e954b4a7cc027b4e748fbeff6a2",
-    "_pin_plaintext": "385108"
+    "pin_hash": "47fed340c1daf90704fb7f04931ec8c050bda1686a8a47e8f128f6e16512dd5a",
+    "_pin_plaintext": "339898"
   },
   {
     "name": "Oman",
     "code": "OMN",
     "is_admin": false,
-    "pin_hash": "b758753036d807d1baea53090ad357ac18344c1bb148c3bc201c52c1c7610cbc",
-    "_pin_plaintext": "315047"
+    "pin_hash": "0945f965323111f8b9cabb4e1848e73947266edf6446a851798e932abfb1370b",
+    "_pin_plaintext": "929117"
   },
   {
     "name": "Pakistan",
     "code": "PAK",
     "is_admin": false,
-    "pin_hash": "99f8387020d69ecc36af538f179167123d8ff59a056c5f7cb94f846c2b739442",
-    "_pin_plaintext": "588183"
+    "pin_hash": "6dc0f4b6e5c61862cc01bb587fe391f1aceb9ef2bf7fbd180efe06807c4d8936",
+    "_pin_plaintext": "716354"
   },
   {
     "name": "Palau",
     "code": "PLW",
     "is_admin": false,
-    "pin_hash": "dce7c12f83dcf4918f184bb8fa116657555f1be4f8dc4c445207df3dddcdc7ab",
-    "_pin_plaintext": "773320"
+    "pin_hash": "c1edbc79bd292524fefb9112e38d48a7b9dd3a6a6a3eec4ce9376774dd101f7e",
+    "_pin_plaintext": "318783"
   },
   {
     "name": "Palestine",
     "code": "PSE",
     "is_admin": false,
-    "pin_hash": "8a52bafe7efa3adaf5e93ada95f729d7702c63662547d94d890d1d2cb8c98420",
-    "_pin_plaintext": "305194"
+    "pin_hash": "181b1faa770d76effd5f0d772284b449ecdf1b5ae878dd3eb60ad59077ae3471",
+    "_pin_plaintext": "710967"
   },
   {
     "name": "Panama",
     "code": "PAN",
     "is_admin": false,
-    "pin_hash": "4209bc5ff0f102ac5b374da3969106cb72652e9e75f18cef0d31011859661d52",
-    "_pin_plaintext": "223720"
+    "pin_hash": "49cc4ebb2f3ff1a7bc7774c7b11b297579445925ef4a33c0dceafab06f0fc500",
+    "_pin_plaintext": "324554"
   },
   {
     "name": "Papua New Guinea",
     "code": "PNG",
     "is_admin": false,
-    "pin_hash": "f97a8ad6a1caf24732519fb92edcf15f6783557cb05210ac4637edcd0db252b1",
-    "_pin_plaintext": "605368"
+    "pin_hash": "2d261afe8822f2ed2a8090af0edab38fa7887fa2b71da7db7814c49a0c5cc75a",
+    "_pin_plaintext": "156575"
   },
   {
     "name": "Paraguay",
     "code": "PRY",
     "is_admin": false,
-    "pin_hash": "a2bfd3e83eb7bf31ca66507e031804886209e9b63d9c7db3b0e6deb8ab4883d3",
-    "_pin_plaintext": "863740"
+    "pin_hash": "dda6ff6c59f53485c60ad0dfd303e20dee16499bf67cbca1654b224e4d3d7669",
+    "_pin_plaintext": "260906"
   },
   {
     "name": "Peru",
     "code": "PER",
     "is_admin": false,
-    "pin_hash": "a524ce9ce5e7af915d4fda34c7eb3aa2ba5e5e84ba0eb7010634e80e02ab2e9e",
-    "_pin_plaintext": "495387"
+    "pin_hash": "a68e4f1b2eea6754720a04651787971085776b5c4074d6fe96e5d5a65e7d41f0",
+    "_pin_plaintext": "620927"
   },
   {
     "name": "Philippines",
     "code": "PHL",
     "is_admin": false,
-    "pin_hash": "3a419c4f9d7f5ca8ec68e2cfa280ff46a8fed13d7c9837f5a9dcb011357f03d5",
-    "_pin_plaintext": "317750"
+    "pin_hash": "4a0ab2d3fa14640e5a49b6f7bf50ab681df2b1e48316822381bd3422ffaf4278",
+    "_pin_plaintext": "614961"
   },
   {
     "name": "Poland",
     "code": "POL",
     "is_admin": false,
-    "pin_hash": "74c60cee91c705359719c45d8d44f7e6cc59aa35fc4f2f3c1f7730e5229003c6",
-    "_pin_plaintext": "750909"
+    "pin_hash": "237ee091425f518976e5ef5077da3dcc85914f2a90a930ec47973974f4f7dd81",
+    "_pin_plaintext": "869775"
   },
   {
     "name": "Portugal",
     "code": "PRT",
     "is_admin": false,
-    "pin_hash": "53a9222f945536e8268623aedb7d0ca5107496f9632233a895ea593193a2cc7c",
-    "_pin_plaintext": "982923"
+    "pin_hash": "76784cc709164fbadf6acb1e358132dab1b17b753e214bddcca4552e3c119eb5",
+    "_pin_plaintext": "245303"
   },
   {
     "name": "Qatar",
     "code": "QAT",
     "is_admin": false,
-    "pin_hash": "18c3a089a9997960096f9850d42fcae74cd4a41df538c03fe22a907d174887c5",
-    "_pin_plaintext": "874047"
+    "pin_hash": "b8f10d2d678f61316daafa89aa0876dd795b0b8ed5176dacea674a83a09723e9",
+    "_pin_plaintext": "436436"
   },
   {
     "name": "Republic of Korea",
     "code": "KOR",
     "is_admin": false,
-    "pin_hash": "560a91fefd82ea6fd38ddbde583b852fd8e56cc66589439694389fa59eba48c5",
-    "_pin_plaintext": "258557"
+    "pin_hash": "06880c0f575d99d25977538c2a01d931228e40a6eb5b4bdbed165bddb0ab105a",
+    "_pin_plaintext": "487759"
   },
   {
     "name": "Republic of Moldova",
     "code": "MDA",
     "is_admin": false,
-    "pin_hash": "d5341053eef71c7e1265404a53488ebce3e499f103129da6e5097ae36803b7aa",
-    "_pin_plaintext": "180156"
+    "pin_hash": "99eb326c033dee0f68caf92f060bcfddc4c0e49bf9ac034909ab318157aa6263",
+    "_pin_plaintext": "838891"
   },
   {
     "name": "Romania",
     "code": "ROU",
     "is_admin": false,
-    "pin_hash": "09d0b2589b6a0d5dc83735ec37d0b2d23eed35040e1cb222d79b3dd7ec4a3496",
-    "_pin_plaintext": "191450"
+    "pin_hash": "7f782043163fedfbaa99273e1193d8fdd277c7e13c134b3fb17cfe0055ec3c0b",
+    "_pin_plaintext": "565121"
   },
   {
     "name": "Russian Federation",
     "code": "RUS",
     "is_admin": false,
-    "pin_hash": "c85a8c76dd274722b2552a0214d6cedffaab93c8e4bf0d7353b94380bde1a0a6",
-    "_pin_plaintext": "834776"
+    "pin_hash": "9256d31d01a3343071f7eef191ff5d40c5ed38326cad8ea88f730d0d887d5ac3",
+    "_pin_plaintext": "563135"
   },
   {
     "name": "Saint Kitts and Nevis",
     "code": "KNA",
     "is_admin": false,
-    "pin_hash": "e4844dbe85e7c85e5d193c7d488fb75e38badeee5a779e3474f45af66d07ddf2",
-    "_pin_plaintext": "613780"
+    "pin_hash": "b0d18e20b0e20348dcde8cdafc26fabcc7fefd2e6c5241a1a79d9c314dbd7f55",
+    "_pin_plaintext": "682446"
   },
   {
     "name": "Saint Lucia",
     "code": "LCA",
     "is_admin": false,
-    "pin_hash": "573702a435bdf8708f20b7e922dd108b9c9681d76c8a012edbc44a87c75cf975",
-    "_pin_plaintext": "185111"
+    "pin_hash": "8df70a8cc990f7a6e25395cbb0af2a7610f29ebd1e24e8071f0d11e716dd4a32",
+    "_pin_plaintext": "656015"
   },
   {
     "name": "Saint Vincent and the Grenadines",
     "code": "VCT",
     "is_admin": false,
-    "pin_hash": "71102dc2aea6763ec488bdbf02565146391a86aacc15c0505699fc78ae3e19c8",
-    "_pin_plaintext": "197515"
+    "pin_hash": "8e4a01ddeb6ac3f99cc711bce7428c63402a83e23435a5898465b72caadc7cd1",
+    "_pin_plaintext": "855323"
   },
   {
     "name": "Samoa",
     "code": "WSM",
     "is_admin": false,
-    "pin_hash": "1c225958759db3ec69f53fdccfd8e83e96d40c0e0c3e20abf26e1cce90e6ac47",
-    "_pin_plaintext": "932016"
+    "pin_hash": "dd12b9d196b2f737ba44a54d11e8d3b775acfd17c121ffa6193e9979d4fffa4e",
+    "_pin_plaintext": "196466"
   },
   {
     "name": "Sao Tome and Principe",
     "code": "STP",
     "is_admin": false,
-    "pin_hash": "8abda3907171169bf5139fde4c5c8e3326b86b08373692b4ab112a9f5da4c758",
-    "_pin_plaintext": "359177"
+    "pin_hash": "c3f362244ef8c2298d3475287477856efb6a91b83dd3278498199e9b921b2a6c",
+    "_pin_plaintext": "713871"
   },
   {
     "name": "Saudi Arabia",
     "code": "SAU",
     "is_admin": false,
-    "pin_hash": "69e276d51df0bdaff8af947d8a9ebb69e40a89313f4eeadf2f0ecd7e88f5970f",
-    "_pin_plaintext": "618852"
+    "pin_hash": "e25709e91a46c5ca47b14b04219e60a5327eed25dcc37fbebb59bd482cb0cc19",
+    "_pin_plaintext": "152647"
   },
   {
     "name": "Senegal",
     "code": "SEN",
     "is_admin": false,
-    "pin_hash": "a0cfcf158756dc70fdbb9e84a35cd1f78318762ac742e1d99fcbbb61e65049df",
-    "_pin_plaintext": "873631"
+    "pin_hash": "6847e1c0ed8dee9e5eee33c7437ffeaaabb3fa9aff98f9fbd5cae6a545decd0f",
+    "_pin_plaintext": "213940"
   },
   {
     "name": "Serbia",
     "code": "SRB",
     "is_admin": false,
-    "pin_hash": "a1373881ecc8227c1b48ce40c44d160d6e3d03be6d2ac3034fd0416b5f97550a",
-    "_pin_plaintext": "157260"
+    "pin_hash": "ae302dd56e44c06f381f9f2ea91a4a33af55845589562275be0ecfd8f2606f19",
+    "_pin_plaintext": "820459"
   },
   {
     "name": "Seychelles",
     "code": "SYC",
     "is_admin": false,
-    "pin_hash": "32c4934b805043bf2ff39628c8c0afce5bcb2f789d09aa5e46a0165ddf9585af",
-    "_pin_plaintext": "880921"
+    "pin_hash": "f4be3dbe055b576cae5bf85aef9c37cf36bbcead879f3a43c02580682f1084f6",
+    "_pin_plaintext": "741083"
   },
   {
     "name": "Sierra Leone",
     "code": "SLE",
     "is_admin": false,
-    "pin_hash": "60dd2edaca75d394cac3404fa587d80cd8d71ebbf804f6c97ff18e1a269ba855",
-    "_pin_plaintext": "668985"
+    "pin_hash": "90fdd1fd802bbbbefd0839f7dd52efceea2b53020e07632df8b2659317853560",
+    "_pin_plaintext": "719715"
   },
   {
     "name": "Singapore",
     "code": "SGP",
     "is_admin": false,
-    "pin_hash": "5213e71489b4194ea1c94e22e807295e6ad888fac4dfe08862fd8b39eba93cf6",
-    "_pin_plaintext": "498324"
+    "pin_hash": "9687d9e865c93b722403a3af71167196e3b66f0cb9b7b90be88acd9a615403ec",
+    "_pin_plaintext": "380338"
   },
   {
     "name": "Slovakia",
     "code": "SVK",
     "is_admin": false,
-    "pin_hash": "87a4ec41bb722d9a815166f762774a8d08893898b60e8e9b0b1e707bb8c70df6",
-    "_pin_plaintext": "781771"
+    "pin_hash": "d086220afeadeb5deb614d458c02d5c1533b12c20aefc029806ef9fe60b41a27",
+    "_pin_plaintext": "911341"
   },
   {
     "name": "Slovenia",
     "code": "SVN",
     "is_admin": false,
-    "pin_hash": "31c1de8e5ab6c9c6f2dfb5d98c5fe627d0fc68c265de40f07e2209a2fd7b2499",
-    "_pin_plaintext": "147913"
+    "pin_hash": "97f103ef8e9e979b6f4dfc25db4a165ee68d516697160f6f9847047b4569196a",
+    "_pin_plaintext": "474231"
   },
   {
     "name": "Solomon Islands",
     "code": "SLB",
     "is_admin": false,
-    "pin_hash": "12896faca0c03727b071aea72e1fc2a2da746105144520068d8aef948ba0641f",
-    "_pin_plaintext": "934006"
+    "pin_hash": "c833f94de670b494fb88a798a50ccae0dcee431ffd2b7e2d47ef0584e97b1bd7",
+    "_pin_plaintext": "278865"
   },
   {
     "name": "Somalia",
     "code": "SOM",
     "is_admin": false,
-    "pin_hash": "402ebce1c5fda5f1ddf6aa495f24f8c3c1f83079eb121e6855a55a9c5619c362",
-    "_pin_plaintext": "940315"
+    "pin_hash": "4f0fea7dcef92ced1c4fac9e1780fd0558c03a9d6a5e04b046f57ce373065cd6",
+    "_pin_plaintext": "438331"
   },
   {
     "name": "South Africa",
     "code": "ZAF",
     "is_admin": false,
-    "pin_hash": "5795236c7cfbb1a7efe5d6cfe99af59ccd72413a841c36f4d4e7868706879f8b",
-    "_pin_plaintext": "356206"
+    "pin_hash": "048e88c4133c8b0c9fe0043bbe6290037d5f43b9b19bd77ca1998256bee03a50",
+    "_pin_plaintext": "382498"
   },
   {
     "name": "Spain",
     "code": "ESP",
     "is_admin": false,
-    "pin_hash": "dac450334091750e63fae01f615ae6efadbb76548aba837f99834f3a7f50271e",
-    "_pin_plaintext": "167516"
+    "pin_hash": "1aee981e4220a9b497848f4708270c41ecc54e9a7ec584630f669652a9fefdb5",
+    "_pin_plaintext": "480109"
   },
   {
     "name": "Sri Lanka",
     "code": "LKA",
     "is_admin": false,
-    "pin_hash": "70c8ec2218c0cd14e1b13d7297c65877523e7114416ebc859d66ed9f3ef6f597",
-    "_pin_plaintext": "942522"
+    "pin_hash": "950d6563471266a2b3f6deae5be63395829f4d086ca913381ec85dcd17460fab",
+    "_pin_plaintext": "926085"
   },
   {
     "name": "Sudan",
     "code": "SDN",
     "is_admin": false,
-    "pin_hash": "92787a03ef5485cc7624b3febe18ebcfbb663111ef7cecaba668a04b5b3b39e0",
-    "_pin_plaintext": "248551"
+    "pin_hash": "39ffb2d7ef3396ae1c380a250c0404d97f40d86dc104f0d11d1a0299f372c917",
+    "_pin_plaintext": "223668"
   },
   {
     "name": "Suriname",
     "code": "SUR",
     "is_admin": false,
-    "pin_hash": "54a0ed09c71a3a428985034a1ff73e0a5d850548b96879232586a339713da51a",
-    "_pin_plaintext": "419568"
+    "pin_hash": "c0539504e28257c0354d07d3b8355c14f190e3c0b1fa1c82136cc97ba6ba2582",
+    "_pin_plaintext": "794140"
   },
   {
     "name": "Sweden",
     "code": "SWE",
     "is_admin": false,
-    "pin_hash": "ab03da732dbbc6950e0e93c59e06a0b279b3a8721eaf51bcd02807eb3660344b",
-    "_pin_plaintext": "868334"
+    "pin_hash": "bc1ada118fd94db63f959e8c7d3a6beb1b3ddf3881b92ff955c50b070ab93057",
+    "_pin_plaintext": "913905"
   },
   {
     "name": "Switzerland",
     "code": "CHE",
     "is_admin": false,
-    "pin_hash": "8a922236509968c221699c9cec089793fe30e016f20b087fb6a63f5abf1a7ced",
-    "_pin_plaintext": "936231"
+    "pin_hash": "7f92167e884569642b0b0e15ddeb453eefbb674cda00f512b6bcc430e982bc14",
+    "_pin_plaintext": "466387"
   },
   {
     "name": "Tanzania (United Republic of)",
     "code": "TZA",
     "is_admin": false,
-    "pin_hash": "74a616da766e16bb946e50dccfe2c3ee8db81b078c5951ba5fed3a77a5eb67b7",
-    "_pin_plaintext": "789842"
+    "pin_hash": "274b6b4136e8392f4f6c6c01bb9bcd0c28ec4e7fcf6ca999704e3b2c36e44572",
+    "_pin_plaintext": "171171"
   },
   {
     "name": "Thailand",
     "code": "THA",
     "is_admin": false,
-    "pin_hash": "d168f0fa8e2a6d7d1db035e48b218271bccae7ef351f75de8421fabc93398512",
-    "_pin_plaintext": "837756"
+    "pin_hash": "1d532ab87e21fd4c9001501b9d41fc8454974884f8b2ac433f61786f4a2fdcf1",
+    "_pin_plaintext": "998852"
   },
   {
     "name": "Timor-Leste",
     "code": "TLS",
     "is_admin": false,
-    "pin_hash": "663be1d5e31cecc26a0fcd01060126d3fc7dd4abe57f636d06faea7db598273d",
-    "_pin_plaintext": "355172"
+    "pin_hash": "ad6da94564f9ad0786b9b0856f74490248e05a555a6d2909693bdf6ea37398d7",
+    "_pin_plaintext": "539408"
   },
   {
     "name": "Togo",
     "code": "TGO",
     "is_admin": false,
-    "pin_hash": "8c69c327e9d0cfd4a1b588b5a7094893620ac7f401d142fdb37d462483eddc1f",
-    "_pin_plaintext": "356695"
+    "pin_hash": "c04a8758f178e75d5d260c92a0f5266817411d109d7f8d9e5c9afc9ccf49ac24",
+    "_pin_plaintext": "453021"
   },
   {
     "name": "Tonga",
     "code": "TON",
     "is_admin": false,
-    "pin_hash": "f4c6f0923e187230d2640858760d5c5a5aa89357b9fa93302c15fdf13aeaea48",
-    "_pin_plaintext": "846333"
+    "pin_hash": "186e3ea27f254cf503392ae0ebe09309e9884c99e6731b4c5fe2cc1940c50a86",
+    "_pin_plaintext": "724979"
   },
   {
     "name": "Trinidad and Tobago",
     "code": "TTO",
     "is_admin": false,
-    "pin_hash": "fd770b910660847934207e653eae86d602526c921af8c4430ac8b18ecf302287",
-    "_pin_plaintext": "446224"
+    "pin_hash": "14537dfa45394cf27d523a954139757d6dfef7bfbc221f18ad04187f1021bad9",
+    "_pin_plaintext": "464284"
   },
   {
     "name": "Tunisia",
     "code": "TUN",
     "is_admin": false,
-    "pin_hash": "5cfe95a6dba262d90dd9f16de0808db22cfa57339d5a7faea144a29f5d4c08b9",
-    "_pin_plaintext": "927941"
+    "pin_hash": "ca288c497baa383f7614bee4e1b4e17267e0c4eb52ddd175304c2ffc2fc34fb8",
+    "_pin_plaintext": "366732"
   },
   {
     "name": "Tuvalu",
     "code": "TUV",
     "is_admin": false,
-    "pin_hash": "55b62ec2b5bbcc35376c5e0552d317ce6033cd1b8908604a6954b7aa9a0f30f4",
-    "_pin_plaintext": "901369"
+    "pin_hash": "1544eca33cf86f61eb24b2ab37cf45dc7a2e5dc0c0e56e4c903dfa8daf0fa734",
+    "_pin_plaintext": "614285"
   },
   {
     "name": "Uganda",
     "code": "UGA",
     "is_admin": false,
-    "pin_hash": "9208d10e8fb6380ab7a76399cc871d63488c80acb5a129090182f91596dbe20d",
-    "_pin_plaintext": "519554"
+    "pin_hash": "44b36a32a21d0b5b2d81fdca116bf5f85b903a19781dcd6cc26a14108efe6b03",
+    "_pin_plaintext": "140907"
   },
   {
     "name": "Ukraine",
     "code": "UKR",
     "is_admin": false,
-    "pin_hash": "8dfdb88af4c2bf546ab916aa481ac76d7e3f680ff519c79d2b4aeba56aa64961",
-    "_pin_plaintext": "382844"
+    "pin_hash": "94cde91e675d605ccd059b3cab21130abcadadeb24d924078ae173d7eb258689",
+    "_pin_plaintext": "541782"
   },
   {
     "name": "United Arab Emirates",
     "code": "ARE",
     "is_admin": false,
-    "pin_hash": "c553840c925d2786919997f1218be5cc688c467635d9dd04677908276dd86cea",
-    "_pin_plaintext": "425797"
+    "pin_hash": "f0262b76d9877ce8d9100c74384935bb5fa8c9a241f37617f22be8b2bba158e9",
+    "_pin_plaintext": "497133"
   },
   {
     "name": "United Kingdom",
     "code": "GBR",
     "is_admin": false,
-    "pin_hash": "75aef6a6d1f62b561000429ac95a26b6ced2bdff0fed4d4d7f4b8fb262b6e28a",
-    "_pin_plaintext": "513625"
-  },
-  {
-    "name": "United States of America",
-    "code": "USA",
-    "is_admin": false,
-    "pin_hash": "7215010fb5bcdccb9ae72c5c5bd25f8e34b88bb46ddb085eb8b93154ab491ffb",
-    "_pin_plaintext": "379027"
+    "pin_hash": "de29ad73a4d30e27947cc814a5b8433e3c4f46d5deb72958e07c4f6ee6346474",
+    "_pin_plaintext": "559489"
   },
   {
     "name": "Uruguay",
     "code": "URY",
     "is_admin": false,
-    "pin_hash": "04939f473fc92d7293889ae5a3a7a5a662f94c7acd2b3bab4c0fd4d83639301c",
-    "_pin_plaintext": "639037"
+    "pin_hash": "1ff3cc63d73abc4bb1bd0e5d18a7b69d19a4f3e882648d5e497124aafa197ca0",
+    "_pin_plaintext": "356716"
   },
   {
     "name": "Vanuatu",
     "code": "VUT",
     "is_admin": false,
-    "pin_hash": "d33fa587d43119bbc6a6dbbfa3068939989fdc5a03f39057c07dcb24881a99cf",
-    "_pin_plaintext": "761263"
+    "pin_hash": "51d048357d49d56e8c342aa25e76525d7784615fe7effeeb2e120798ca68b400",
+    "_pin_plaintext": "171830"
   },
   {
     "name": "Venezuela (Bolivarian Republic of)",
     "code": "VEN",
     "is_admin": false,
-    "pin_hash": "e8237354e7374eb833f97e2be964a04c7d98c532745f050d18e251c7e42e0a11",
-    "_pin_plaintext": "245047"
+    "pin_hash": "1edb4091376d61fa9c56ecdcfef2038c45771a6fd8a1e2a2a1b0bca2961ae01f",
+    "_pin_plaintext": "241358"
   },
   {
     "name": "Viet Nam",
     "code": "VNM",
     "is_admin": false,
-    "pin_hash": "443829b40776f858fd77f8e2fc6c9008c121e8258fd742d6f6b36dc6b4736aaa",
-    "_pin_plaintext": "750171"
+    "pin_hash": "bc1970cb88bbd0b48cb877bc085c4024a4841c121f05b47ed3a6b8f042088ee0",
+    "_pin_plaintext": "429081"
   },
   {
     "name": "Yemen",
     "code": "YEM",
     "is_admin": false,
-    "pin_hash": "f8184ea332a54452dc0c79e555b5106c8a24efd2b19c59a98e2847e89ca0289d",
-    "_pin_plaintext": "756128"
+    "pin_hash": "8306494385686f3024075e312109b7b45397fb0df0f46b720dd76326827c1641",
+    "_pin_plaintext": "320307"
   },
   {
     "name": "Zambia",
     "code": "ZMB",
     "is_admin": false,
-    "pin_hash": "b8f48cb900c18f57b0e618125b730c09ea35938fa9d080c6f41881351bf34a6f",
-    "_pin_plaintext": "483780"
+    "pin_hash": "808d2c076de4d39d2538a1b4634e9ce5bf96054de879d31d247b11d804782a8f",
+    "_pin_plaintext": "292574"
   },
   {
     "name": "Zimbabwe",
     "code": "ZWE",
     "is_admin": false,
-    "pin_hash": "e8d6f545d8ec380115cb87f64ee99c3a0a5fa2239b29f462a70ad45b2b3f2163",
-    "_pin_plaintext": "359745"
+    "pin_hash": "295fbe8922bcf8fc6708064113a29127a8f5327454267fd26294ec1a9464f3db",
+    "_pin_plaintext": "329867"
   }
 ]

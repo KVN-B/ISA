@@ -19,7 +19,9 @@ ROOT     = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
 OUT_FILE = DATA_DIR / "member_states.json"
 
-# ── All 169 ISA Member States (as of 2025) ────────────────────────────────────
+# ── All 170 ISA Member States (as of September 2025) ─────────────────────────
+# Kyrgyzstan joined as the 170th member state on 20 September 2025.
+# Note: USA is NOT included — it has not ratified UNCLOS and is not an ISA member.
 # Source: https://www.isa.org.jm/members/
 MEMBER_STATES = [
     ("Albania", "ALB"), ("Algeria", "DZA"), ("Angola", "AGO"),
@@ -50,7 +52,8 @@ MEMBER_STATES = [
     ("India", "IND"), ("Indonesia", "IDN"), ("Iran (Islamic Republic of)", "IRN"),
     ("Iraq", "IRQ"), ("Ireland", "IRL"), ("Italy", "ITA"), ("Jamaica", "JAM"),
     ("Japan", "JPN"), ("Jordan", "JOR"), ("Kenya", "KEN"), ("Kiribati", "KIR"),
-    ("Kuwait", "KWT"), ("Lao People's Democratic Republic", "LAO"),
+    ("Kuwait", "KWT"), ("Kyrgyzstan", "KGZ"),
+    ("Lao People's Democratic Republic", "LAO"),
     ("Latvia", "LVA"), ("Lebanon", "LBN"), ("Lesotho", "LSO"),
     ("Liberia", "LBR"), ("Libya", "LBY"), ("Lithuania", "LTU"),
     ("Luxembourg", "LUX"), ("Madagascar", "MDG"), ("Malawi", "MWI"),
@@ -81,7 +84,7 @@ MEMBER_STATES = [
     ("Tonga", "TON"), ("Trinidad and Tobago", "TTO"), ("Tunisia", "TUN"),
     ("Tuvalu", "TUV"), ("Uganda", "UGA"), ("Ukraine", "UKR"),
     ("United Arab Emirates", "ARE"), ("United Kingdom", "GBR"),
-    ("United States of America", "USA"), ("Uruguay", "URY"), ("Vanuatu", "VUT"),
+    ("Uruguay", "URY"), ("Vanuatu", "VUT"),
     ("Venezuela (Bolivarian Republic of)", "VEN"), ("Viet Nam", "VNM"),
     ("Yemen", "YEM"), ("Zambia", "ZMB"), ("Zimbabwe", "ZWE"),
 ]
