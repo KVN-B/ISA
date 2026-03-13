@@ -8,6 +8,13 @@
   <style>
     body { font-family: 'Segoe UI', system-ui, sans-serif; }
     .sticky-header { position: sticky; top: 0; z-index: 40; }
+    .suggestion-pill {
+      display: inline-block; cursor: pointer; font-size: 0.75rem;
+      border: 1px solid #e2e8f0; border-radius: 9999px;
+      padding: 5px 14px; background: #fff; color: #4b5563;
+      transition: all 0.15s;
+    }
+    .suggestion-pill:hover { border-color: #2563eb; color: #1d4ed8; background: #eff6ff; }
 
     /* ── Chat bubbles ─────────────────────────────────── */
     .msg-user { background:#eff6ff; border:1px solid #bfdbfe; }
@@ -121,23 +128,20 @@
             <span><strong>Regulatory layer</strong> — ISA Mining Code, EMMP, EIS standards</span>
           </div>
         </div>
-        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
-          <button onclick="sendExample('What are the environmental impacts of sediment plumes from nodule collection?')"
-            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
-            🌊 What are the environmental impacts of sediment plumes from nodule collection?
-          </button>
-          <button onclick="sendExample('How does the ISA framework address biodiversity loss in the Clarion-Clipperton Zone?')"
-            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
-            🐠 How does the ISA framework address biodiversity loss in the Clarion-Clipperton Zone?
-          </button>
-          <button onclick="sendExample('What does the science say about recovery timescales for disturbed abyssal ecosystems?')"
-            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
-            🔁 What does the science say about recovery timescales for disturbed abyssal ecosystems?
-          </button>
-          <button onclick="sendExample('What financial terms and royalty structures are proposed for DSM contractors?')"
-            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
-            💰 What financial terms and royalty structures are proposed for DSM contractors?
-          </button>
+        <div class="mt-4">
+          <div class="text-xs text-gray-400 font-semibold mb-2 uppercase tracking-wide">Suggested questions</div>
+          <div class="flex flex-wrap gap-2">
+            <span class="suggestion-pill" onclick="sendExample('What are the environmental impacts of sediment plumes from nodule collection?')">🌊 Sediment plume impacts on benthic fauna</span>
+            <span class="suggestion-pill" onclick="sendExample('What does the science say about recovery timescales for disturbed abyssal ecosystems?')">🔁 Recovery timescales for disturbed abyssal ecosystems</span>
+            <span class="suggestion-pill" onclick="sendExample('Will deep-sea mining affect fisheries and mid-water species?')">🐟 Impacts on fisheries and mid-water species</span>
+            <span class="suggestion-pill" onclick="sendExample('What does the peer-reviewed literature say about biodiversity loss in the Clarion-Clipperton Zone?')">🐠 Biodiversity loss in the Clarion-Clipperton Zone</span>
+            <span class="suggestion-pill" onclick="sendExample('What does the science say about noise and light pollution from deep-sea mining operations?')">🔊 Noise and light pollution from DSM operations</span>
+            <span class="suggestion-pill" onclick="sendExample('How are Environmental Impact Assessments regulated under the ISA Mining Code?')">📋 Environmental Impact Assessments under the Mining Code</span>
+            <span class="suggestion-pill" onclick="sendExample('What thresholds define serious harm to the marine environment under the regulations?')">⚠️ Thresholds for serious harm to the marine environment</span>
+            <span class="suggestion-pill" onclick="sendExample('Can sediment plumes from DSM operations spread beyond contractor area boundaries?')">💨 Transboundary sediment plume dispersion</span>
+            <span class="suggestion-pill" onclick="sendExample('What does the science say about microbial communities and carbon cycling in polymetallic nodule fields?')">🦠 Microbial communities and carbon cycling in nodule fields</span>
+            <span class="suggestion-pill" onclick="sendExample('What financial terms and royalty structures are proposed for DSM contractors?')">💰 Financial terms and royalty structures for DSM contractors</span>
+          </div>
         </div>
       </div>
     </div>
