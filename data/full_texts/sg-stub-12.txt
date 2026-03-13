@@ -1,0 +1,28 @@
+STANDARDS AND GUIDELINES ITEM #12
+============================================================
+Title:          Draft standard and guidelines on commercial production
+Short title:    Commercial Production
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: production
+
+RELATED DRAFT REGULATIONS (3):
+  • DR 25
+  • DR 27
+  • DR 29
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: commercial production.
+It gives operational effect to DR 25, DR 27, DR 29.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #12 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

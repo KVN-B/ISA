@@ -1,0 +1,29 @@
+STANDARDS AND GUIDELINES ITEM #43
+============================================================
+Title:          Draft standard and guidelines on the preparation of the annual report and auditing and other reporting requirements under an exploitation contract
+Short title:    Annual Report, Auditing and Reporting Requirements
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase not yet determined / TBD
+  Note: [] [2] — phase not yet determined, likely Phase 2
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: reporting_compliance
+
+RELATED DRAFT REGULATIONS (3):
+  • DR 38-39
+  • DR 75
+  • DR 83bis
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: annual report, auditing and reporting requirements.
+It gives operational effect to DR 38-39, DR 75, DR 83bis.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #43 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

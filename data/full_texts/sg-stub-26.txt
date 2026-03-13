@@ -1,0 +1,27 @@
+STANDARDS AND GUIDELINES ITEM #26
+============================================================
+Title:          Draft guidelines for the process modifying a plan of work and or the meaning of material change
+Short title:    Modifying a Plan of Work / Material Change
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 2 — must be ready before the first application for exploitation is approved
+
+LEGAL NATURE: Guideline — recommendatory in nature, not legally binding
+
+SUBJECT AREA: application_process
+
+RELATED DRAFT REGULATIONS (2):
+  • DR 25
+  • DR 57
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Guideline will provide detailed
+requirements and/or guidance on: modifying a plan of work / material change.
+It gives operational effect to DR 25, DR 57.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #26 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

@@ -1,0 +1,26 @@
+STANDARDS AND GUIDELINES ITEM #19
+============================================================
+Title:          Draft standard and guidelines on the undertaking of joint arrangements
+Short title:    Joint Arrangements
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: contractual
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 19
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: joint arrangements.
+It gives operational effect to DR 19.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #19 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

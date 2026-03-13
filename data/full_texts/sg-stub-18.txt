@@ -1,0 +1,29 @@
+STANDARDS AND GUIDELINES ITEM #18
+============================================================
+Title:          Draft guidelines for access to environmental data and information
+Short title:    Access to Environmental Data and Information
+ISA document:   (not yet assigned)
+
+STATUS: To be merged with another S&G item
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+
+LEGAL NATURE: Guideline — recommendatory in nature, not legally binding
+
+SUBJECT AREA: data_information
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 92bis
+
+NOTE: This S&G item is expected to be merged with a related item.
+The merged document will cover the combined scope of both items.
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Guideline will provide detailed
+requirements and/or guidance on: access to environmental data and information.
+It gives operational effect to DR 92bis.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #18 · Status: to_be_merged
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

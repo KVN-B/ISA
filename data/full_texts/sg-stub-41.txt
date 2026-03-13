@@ -1,0 +1,27 @@
+STANDARDS AND GUIDELINES ITEM #41
+============================================================
+Title:          Draft standard and guidelines for stakeholder consultation
+Short title:    Stakeholder Consultation
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase not yet determined / TBD
+  Note: [] [1] — phase not yet determined / under discussion
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: governance_participation
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 93bis
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: stakeholder consultation.
+It gives operational effect to DR 93bis.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #41 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

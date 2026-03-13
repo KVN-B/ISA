@@ -1,0 +1,27 @@
+STANDARDS AND GUIDELINES ITEM #20
+============================================================
+Title:          Draft guidelines for procedures for stakeholder participation in activities in the Area
+Short title:    Stakeholder Participation Procedures
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+
+LEGAL NATURE: Guideline — recommendatory in nature, not legally binding
+
+SUBJECT AREA: governance_participation
+
+RELATED DRAFT REGULATIONS (2):
+  • DR 2
+  • DR 11
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Guideline will provide detailed
+requirements and/or guidance on: stakeholder participation procedures.
+It gives operational effect to DR 2, DR 11.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #20 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

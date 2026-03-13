@@ -1,0 +1,29 @@
+STANDARDS AND GUIDELINES ITEM #33
+============================================================
+Title:          Draft standard and guidelines on the maritime security plan
+Short title:    Maritime Security Plan
+ISA document:   (not yet assigned)
+
+STATUS: In suspense — linked to provisions deferred from the main regulatory text
+
+DEVELOPMENT PHASE: Phase 3 — must be ready before commercial mining commences
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: safety
+
+RELATED ANNEXES: Annex VI, B (2) (in the Suspension Document)
+
+IMPORTANT: This S&G is linked to provisions that are currently in the
+SUSPENSE DOCUMENT (ISBA/31/C/CRP.3). These provisions have been deferred
+from the main regulatory text pending further negotiation. The S&G cannot
+be finalised until the parent regulatory provision is resolved.
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: maritime security plan.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #33 · Status: in_suspense_document
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

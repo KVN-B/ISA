@@ -1,0 +1,38 @@
+STANDARDS AND GUIDELINES ITEM #35
+============================================================
+Title:          Draft standard and guidelines on the administration and management of payment of royalty and royalty returns
+Short title:    Royalty Administration and Management
+ISA document:   (not yet assigned)
+
+STATUS: In suspense — linked to provisions deferred from the main regulatory text
+
+DEVELOPMENT PHASE: Phase not yet determined / TBD
+  Note: [] [1] — phase not yet determined / under discussion
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: financial_payments
+
+RELATED DRAFT REGULATIONS (5):
+  • DR 55
+  • DR 64
+  • DR 70
+  • DR 71
+  • DR 79
+
+RELATED ANNEXES: Appendix IV
+
+IMPORTANT: This S&G is linked to provisions that are currently in the
+SUSPENSE DOCUMENT (ISBA/31/C/CRP.3). These provisions have been deferred
+from the main regulatory text pending further negotiation. The S&G cannot
+be finalised until the parent regulatory provision is resolved.
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: royalty administration and management.
+It gives operational effect to DR 55, DR 64, DR 70 and 2 other regulations.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #35 · Status: in_suspense_document
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

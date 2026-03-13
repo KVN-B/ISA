@@ -1,0 +1,30 @@
+STANDARDS AND GUIDELINES ITEM #38
+============================================================
+Title:          Draft standard on the royalty mechanism
+Short title:    Royalty Mechanism
+ISA document:   (not yet assigned)
+
+STATUS: In suspense — linked to provisions deferred from the main regulatory text
+
+DEVELOPMENT PHASE: Phase not yet determined / TBD
+  Note: [] [1] — phase not yet determined / under discussion
+
+LEGAL NATURE: Standard — legally BINDING on contractors and the ISA
+
+SUBJECT AREA: financial_payments
+
+RELATED ANNEXES: Appendix IV (moved to suspense document)
+
+IMPORTANT: This S&G is linked to provisions that are currently in the
+SUSPENSE DOCUMENT (ISBA/31/C/CRP.3). These provisions have been deferred
+from the main regulatory text pending further negotiation. The S&G cannot
+be finalised until the parent regulatory provision is resolved.
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard will provide detailed
+requirements and/or guidance on: royalty mechanism.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #38 · Status: in_suspense_document
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

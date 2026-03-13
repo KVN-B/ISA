@@ -1,0 +1,28 @@
+STANDARDS AND GUIDELINES ITEM #28
+============================================================
+Title:          Draft standard and guidelines for protocols relating to notifiable events
+Short title:    Notifiable Events Protocols
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 2 — must be ready before the first application for exploitation is approved
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: compliance_enforcement
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 34
+
+RELATED ANNEXES: Appendix I
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: notifiable events protocols.
+It gives operational effect to DR 34.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #28 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

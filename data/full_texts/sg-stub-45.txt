@@ -1,0 +1,26 @@
+STANDARDS AND GUIDELINES ITEM #45
+============================================================
+Title:          Guidelines on information to be submitted upon expiration of an exploitation contract
+Short title:    Contract Expiration Information
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 3 — must be ready before commercial mining commences
+
+LEGAL NATURE: Guideline — recommendatory in nature, not legally binding
+
+SUBJECT AREA: contractual
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 91
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Guideline will provide detailed
+requirements and/or guidance on: contract expiration information.
+It gives operational effect to DR 91.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #45 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

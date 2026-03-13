@@ -1,0 +1,27 @@
+STANDARDS AND GUIDELINES ITEM #11
+============================================================
+Title:          Draft standard and guidelines on the development and implementation of Environmental Threshold values and indicators
+Short title:    Environmental Threshold Values and Indicators
+ISA document:   (not yet assigned)
+
+STATUS: Under development — LTC is currently drafting this S&G
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: environmental_management
+
+RELATED ANNEXES: Annex VII
+
+NOTE: This S&G is actively being drafted by the Legal and Technical
+Commission (LTC). A consultation draft may be published before adoption.
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: environmental threshold values and indicators.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #11 · Status: under_development
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

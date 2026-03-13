@@ -1,0 +1,29 @@
+STANDARDS AND GUIDELINES ITEM #44
+============================================================
+Title:          Draft standard and guidelines on the preparation and implementation of closure plans and post-closure monitoring and evaluation
+Short title:    Closure Plans and Post-Closure Monitoring
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 3 — must be ready before commercial mining commences
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: environmental_closure
+
+RELATED DRAFT REGULATIONS (2):
+  • DR 59
+  • DR 61
+
+RELATED ANNEXES: Annex VIII
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: closure plans and post-closure monitoring.
+It gives operational effect to DR 59, DR 61.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #44 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

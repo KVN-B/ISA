@@ -1,0 +1,30 @@
+STANDARDS AND GUIDELINES ITEM #30
+============================================================
+Title:          Standard and guidelines for the use of remote electronic monitoring and technology
+Short title:    Remote Electronic Monitoring
+ISA document:   (not yet assigned)
+
+STATUS: Terms of Reference prepared — scope defined, drafting not yet started
+
+DEVELOPMENT PHASE: Phase 2 — must be ready before the first application for exploitation is approved
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: compliance_enforcement
+
+RELATED DRAFT REGULATIONS (2):
+  • DR 102
+  • DR 102bis
+
+NOTE: Terms of Reference (ToR) have been prepared for this S&G,
+defining its scope and objectives. Drafting has not yet commenced.
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: remote electronic monitoring.
+It gives operational effect to DR 102, DR 102bis.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #30 · Status: tor_prepared
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

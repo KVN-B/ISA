@@ -1,0 +1,30 @@
+STANDARDS AND GUIDELINES ITEM #25
+============================================================
+Title:          Draft standard and guidelines on the inspection procedures, inspection reports and the preparation of the rules and operating procedures
+Short title:    Inspection Procedures and Operating Rules
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 2 — must be ready before the first application for exploitation is approved
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: compliance_enforcement
+
+RELATED DRAFT REGULATIONS (5):
+  • DR 97
+  • DR 99
+  • DR 100
+  • DR 101
+  • DR 102 Alt
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: inspection procedures and operating rules.
+It gives operational effect to DR 97, DR 99, DR 100 and 2 other regulations.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #25 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

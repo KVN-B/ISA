@@ -1,0 +1,28 @@
+STANDARDS AND GUIDELINES ITEM #22
+============================================================
+Title:          Draft standard and guidelines on the assessment framework for Mining Discharges
+Short title:    Mining Discharges Assessment Framework
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+  Note: [1] — phase assignment under discussion
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: environmental_management
+
+RELATED DRAFT REGULATIONS (2):
+  • DR 3(9)
+  • DR 53ter
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: mining discharges assessment framework.
+It gives operational effect to DR 3(9), DR 53ter.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #22 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

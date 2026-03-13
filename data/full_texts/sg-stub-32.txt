@@ -1,0 +1,26 @@
+STANDARDS AND GUIDELINES ITEM #32
+============================================================
+Title:          Draft standard on the Environmental Compensation fund
+Short title:    Environmental Compensation Fund
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 2 — must be ready before the first application for exploitation is approved
+
+LEGAL NATURE: Standard — legally BINDING on contractors and the ISA
+
+SUBJECT AREA: financial_environmental
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 54 (in suspense document)
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard will provide detailed
+requirements and/or guidance on: environmental compensation fund.
+It gives operational effect to DR 54 (in suspense document).
+
+============================================================
+Source: ISA standards_guidelines.json · Item #32 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

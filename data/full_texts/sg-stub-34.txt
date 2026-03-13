@@ -1,0 +1,33 @@
+STANDARDS AND GUIDELINES ITEM #34
+============================================================
+Title:          Draft standard on the Financial Terms of a Contract
+Short title:    Financial Terms of a Contract
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase not yet determined / TBD
+  Note: [] [1] — phase not yet determined / under discussion
+
+LEGAL NATURE: Standard — legally BINDING on contractors and the ISA
+
+SUBJECT AREA: financial_contractual
+
+RELATED DRAFT REGULATIONS (7):
+  • DR 54
+  • DR 63
+  • DR 64
+  • DR 64bis
+  • DR 64ter
+  • DR 64quater
+  • DR 64qui
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard will provide detailed
+requirements and/or guidance on: financial terms of a contract.
+It gives operational effect to DR 54, DR 63, DR 64 and 4 other regulations.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #34 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

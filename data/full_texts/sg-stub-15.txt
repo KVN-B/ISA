@@ -1,0 +1,26 @@
+STANDARDS AND GUIDELINES ITEM #15
+============================================================
+Title:          Draft standard and guidelines on the undertaking and preparation of a scoping report
+Short title:    Scoping Report
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 1 — must be ready before adoption of the Exploitation Regulations
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: environmental_impact_assessment
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 47bis
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: scoping report.
+It gives operational effect to DR 47bis.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #15 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.

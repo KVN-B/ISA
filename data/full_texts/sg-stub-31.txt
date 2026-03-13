@@ -1,0 +1,28 @@
+STANDARDS AND GUIDELINES ITEM #31
+============================================================
+Title:          Draft standard and guidelines for the application of human health and safety management systems and plans
+Short title:    Health and Safety Management Systems
+ISA document:   (not yet assigned)
+
+STATUS: To be developed — no work has started yet
+
+DEVELOPMENT PHASE: Phase 2 — must be ready before the first application for exploitation is approved
+
+LEGAL NATURE: Standard AND Guideline — contains both binding and recommendatory elements
+
+SUBJECT AREA: safety
+
+RELATED DRAFT REGULATIONS (1):
+  • DR 30bis
+
+RELATED ANNEXES: Annex VI, A
+
+WHAT THIS S&G WILL COVER:
+When adopted, this Standard and Guideline will provide detailed
+requirements and/or guidance on: health and safety management systems.
+It gives operational effect to DR 30bis.
+
+============================================================
+Source: ISA standards_guidelines.json · Item #31 · Status: to_be_developed
+This is a METADATA STUB — no full text exists yet for this S&G.
+It is one of 36 S&G items yet to be drafted as of March 2026.
