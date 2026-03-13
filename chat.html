@@ -160,7 +160,7 @@
 
       <div class="border-t border-gray-100 pt-3 text-gray-400">
         <div class="font-semibold text-gray-500 mb-1">Backend</div>
-        <div id="backend-url-display" class="font-mono break-all">http://localhost:8000</div>
+        <div id="backend-url-display" class="font-mono break-all text-xs"></div>
         <button onclick="checkBackend()" class="mt-1 text-blue-500 hover:underline">Re-check connection</button>
       </div>
     </aside>
@@ -259,7 +259,7 @@
   </div>
 
   <script>
-    const API_BASE = 'http://localhost:8000';
+    const API_BASE = '';  // relative URL — works on localhost and on any live domain
     let conversationHistory = [];
     let isStreaming = false;
     let threadId = null;
@@ -283,6 +283,13 @@
         dot.className   = 'status-dot online';
         label.textContent = 'Backend connected';
         document.getElementById('offline-banner').classList.add('hidden');
+
+        // Show live URL in sidebar/footer displays
+        const liveUrl = window.location.origin;
+        const urlEl1 = document.getElementById('backend-url-display');
+        const urlEl2 = document.getElementById('backend-url-display-footer');
+        if (urlEl1) urlEl1.textContent = liveUrl;
+        if (urlEl2) urlEl2.textContent = liveUrl;
 
         // Update KB status in sidebar
         const kb = document.getElementById('kb-status');
@@ -533,7 +540,7 @@
     · <a href="timeline.html" class="text-blue-600 hover:underline">Document Timeline</a>
     · <a href="/alternatives" class="text-blue-600 hover:underline">🗳️ Alternatives</a>
     · <a href="https://github.com/KVN-B/ISA" class="text-blue-600 hover:underline">GitHub</a>
-    · Backend: <span id="backend-url-display-footer">http://localhost:8000</span>
+    · Backend: <span id="backend-url-display-footer"></span>
   </footer>
 
 </body>

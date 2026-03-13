@@ -24,7 +24,11 @@ from pydantic import BaseModel
 
 router = APIRouter()
 
-DATA_DIR = Path(__file__).parent.parent.parent.parent / "data"
+# DATA_DIR can be overridden via environment variable for production deployments
+# (e.g. Railway persistent volume mounted at /data).
+# Falls back to the repo's data/ folder for local development.
+_default_data = Path(__file__).parent.parent.parent.parent / "data"
+DATA_DIR    = Path(os.environ.get("DATA_DIR", str(_default_data)))
 PREFS_FILE  = DATA_DIR / "preferences.json"
 STATES_FILE = DATA_DIR / "member_states.json"
 

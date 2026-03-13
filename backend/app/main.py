@@ -15,7 +15,10 @@ from fastapi.staticfiles import StaticFiles
 
 from app.api import alternatives, chat, documents, regulations
 
-DATA_DIR = Path(__file__).parent.parent.parent / "data"
+# DATA_DIR can be overridden via environment variable for production deployments.
+# Falls back to the repo's data/ folder for local development.
+_default_data = Path(__file__).parent.parent.parent / "data"
+DATA_DIR = Path(os.environ.get("DATA_DIR", str(_default_data)))
 
 
 @asynccontextmanager

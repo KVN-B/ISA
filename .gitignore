@@ -41,3 +41,7 @@ secrets.json
 
 # Claude Code settings
 .claude/settings.local.json
+
+# Live user data — never commit votes or temp PDFs
+data/preferences.json
+data/full_texts/_tmp_*.pdf
