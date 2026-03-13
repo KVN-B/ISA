@@ -1,0 +1,622 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/7
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March–1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral resources in
+the Area
+Draft standard and guidelines on the development and
+application of environmental management systems
+Prepared by the Legal and Technical Commission
+* ISBA/27/C/L.1.
+21-17332 (E) 280122
+*2117332*
+
+[Page 2]
+ISBA/27/C/7
+Standard on the development and application of
+environmental management systems
+1. The Environmental Management System is that part of the overall mining
+operation management system applied by a Contractor that includes organizational
+structure, planning activities, responsibilities, practices, procedures, processes and
+resources for developing, implementing, achieving, reviewing, maintaining and
+reporting on the environmental policy, goals and objectives and environmental
+performance.
+2. The regulations on exploitation of mineral resources in the Area specify the
+requirements for an Environmental Management System.
+3. The Contractor shall develop an Environmental Management System that:
+(a) Delivers site-specific environmental outcomes consistent with the
+environmental management and monitoring plan;
+(b) Ensures the prevention, reduction and control of pollution of the Marine
+Environment from mining operations consistent with the environmental objectives;
+(c) Is developed in alignment with recognized standards and systems,
+including the approaches adopted by the standards and guidance of the International
+Organization for Standardization (ISO) as modified from time to time, in particular:
+(i) ISO 31000: Risk management – Guidelines;
+(ii) ISO 14001:2015 Environmental management systems – Requirements
+with guidance for use;
+(iii) ISO 19011:2018 Guidelines for auditing management systems;
+(d) Is consistent with the Rules, Regulations, Procedures and Standards of the
+International Seabed Authority.
+4. The Contractor shall take key steps to develop and implement an environmental
+management system, including the following:
+(a) Identifying and understanding all aspects of the seabed mining operation
+that may have an Environmental Effect;
+(b) Ensuring that its operations are designed, planned and carried out in a
+systematic and controlled manner to prevent, minimize or eliminate harmful effects
+on the Marine Environment;
+(c) Conducting monitoring activities to observe harmful effects on the Marine
+Environment and to control and evaluate whether the outcomes achieved are as
+planned;
+(d) Assessing its operations in the light of the environmental objectives and
+identifying strategies to address areas for improvement;
+(e) Implementing corrective actions to address the areas of nonconformity and
+where improvement is needed;
+(f) Adapting the environmental management system when necessary.
+2/16 21-17332
+
+[Page 3]
+ISBA/27/C/7
+Guidelines on the development and application of
+environmental management systems
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+II. Purpose and scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+III. Leadership and policy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+A. Leadership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+B. Policy, objectives and strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+C. Roles, responsibilities and authorities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+IV. Identification of requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+A. Legal requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+B. Environmental baseline data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+C. Environmental impact assessment and environmental impact statement . . . . . . . . . . . . . . 7
+V. Operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+A. Operational planning and control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+B. Non-conformity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+C. Procurement and subcontractor management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+D. Emergency response and contingency plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+VI. Monitoring and performance evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+A. Environmental Management and Monitoring Plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+B. Evaluation of performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+C. Reporting to and notifying the International Seabed Authority. . . . . . . . . . . . . . . . . . . . . . 11
+VII. Audits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+VIII. Environmental management system review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+IX. Support . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+A. Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+B. Awareness and competence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+C. Communications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+D. Management system documentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+X. Definitions and abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+21-17332 3/16
+
+[Page 4]
+ISBA/27/C/7
+I. Introduction
+1. The present document describes the development and application of an
+environmental management system. It provides guidance on how to fulfil the
+requirements of the regulations on exploitation of mineral resources in the Area
+(regulations on exploitation).
+2. The Guidelines should be read in conjunction with the regulations on
+exploitation, as well as other relevant International Seabed Authority Standards and
+Guidelines, including but not limited to those related to:
+(a) Environmental Impact Assessment and Environmental Impact Statement;
+(b) Environmental Management and Monitoring Plan;
+(c) Establishment of baseline environmental data;
+(d) Safe management and operation of mining vessels and Installations.
+II. Purpose and scope
+3. The purpose of the Guidelines is to describe how an environmental management
+system for exploitation of mineral resources in the Area should be set up. These
+Guidelines focus on the development and content of the system.
+4. The figure below illustrates the overall framework within which other
+environmental processes should be integrated as well as the main elements of an
+environmental management system.
+5. In order to ensure that the environmental management system is effective and
+efficient, some framing elements should be in place. The Contractor’s management
+should perform effective leadership, such as by setting out directions through the
+environmental policy, setting overall objectives of its operations and establishing the
+required organizational structure and chain of responsibility. Furthermore, to support
+the system, suitable resources need to be in place.
+6. As a whole, all these elements should be in place to ensure an effective and
+efficient environmental management system.
+4/16 21-17332
+
+[Page 5]
+ISBA/27/C/7
+Main elements of the environmental management system
+Note: The numbers refer to the sections in these Guidelines.
+7. Except as otherwise specified herein, terms and phrases defined in the
+regulations on exploitation have the same meaning in these Guidelines.
+III. Leadership and policy
+A. Leadership
+8. The management of the Contractor should demonstrate leadership and
+commitment with regard to the environmental management system, including its
+implementation. This includes:
+(a) Ensuring that environmental policy, objectives, strategies, plans and
+relevant guidelines are established and implemented;
+(b) Ensuring that sufficient resources are available to support and implement
+the system;
+(c) Communicating to the Contractor’s personnel and subcontractors the
+importance of effective environmental management and of compliance with the system;
+(d) Ensuring that the system achieves its intended outcomes;
+(e) Promoting continual improvements;
+(f) Conducting regular management reviews;
+(g) Supporting other relevant management roles in demonstrating their
+environmental management leadership as it applies to their areas of responsibility.
+B. Policy, objectives and strategy
+9. Environmental policy: The senior management of the Contractor should
+establish, implement, maintain and communicate an environmental policy.
+21-17332 5/16
+
+[Page 6]
+ISBA/27/C/7
+10. Environmental objectives: The senior management of the Contractor should
+establish environmental objectives at relevant functions and levels in the
+organization. The objectives should take into account the specificities of the seabed
+mining operation and be aligned with the identified environmental issues and conform
+with the Contractor’s obligations (see sect. IV below) and with the rules, regulations,
+procedures and Standards of the International Seabed Authority.
+11. The Contractor should ensure that environmental objectives are:
+(a) Specific, measurable, achievable, realistic and time-bound;
+(b) Based on the Best Available Scientific Evidence;
+(c) Monitored in a standardized manner as documented in the Environmental
+Management and Monitoring Plan;
+(d) Communicated to the Contractor’s personnel and subcontractors;
+(e) Referred to when reporting the outcomes of monitoring undertaken in
+accordance with the Environmental Management and Monitoring Plan;
+(f) Updated as appropriate (typically as a result of the outcome of the
+management review).
+12. The environmental objectives may be long-term, medium-term or short-term in
+nature. Some guidelines distinguish between the terms “objectives” for the long term
+and “targets” or “objectives” for the short term. The present Guidelines make no
+distinction between these terms.
+13. Strategy: The Contractor should establish a strategy describing how to achieve
+the environmental objectives. The strategy should be implemented by establishing a
+plan which describes:
+(a) What needs to be done (lines of action);
+(b) Where this needs to be done;
+(c) What resources will be required;
+(d) Who will be responsible;
+(e) When the actions will be completed (deadline);
+(f) How the results, including monitoring indicators, will be evaluated,
+including a time frame and external audits;
+(g) How and when the strategy will be adapted according to the monitoring
+data collected;
+(h) What individual and detailed contingency assessments and management
+measures will be taken to remedy or mitigate potential impacts of the activities;
+(i) How the results will be communicated.
+C. Roles, responsibilities and authorities
+14. The Contractor should ensure that the responsibilities and authorities for
+relevant roles are assigned and communicated throughout the organization.
+15. The senior management of the Contractor should assign responsibility and
+authority for:
+(a) Ensuring that the environmental management system is consistent with the
+Standard;
+6/16 21-17332
+
+[Page 7]
+ISBA/27/C/7
+(b) Reporting in a timely manner on the performance of the system, including
+environmental performance, to the senior management;
+(c) Reporting to the International Seabed Authority (see paras. 43–46 below).
+IV. Identification of requirements
+A. Legal requirements
+16. The Contractor should identify the national and international legal requirements
+and other obligations, rules and standards applicable to the mining operation, and
+communicate internally the relevance of these obligations and of obligations arising
+from the regulations on exploitation to relevant parties within the Contractor’s
+organization.
+17. The regulations on exploitation require contractors to carry out Exploitation
+under an exploitation contract with reasonable regard for other activities in the Marine
+Environment. The Contractor should therefore identify activities and installations
+which may be affected by the Contractor’s seabed mining activities, including as
+identified through the Environmental Impact Assessment and the Environmental
+Impact Statement.
+18. Based on the issues identified above, the Contractor should assess and decide
+how to manage the effects of its mining operation, with reasonable regard for other
+activities, through operational controls (see sect. V below), including in cooperation
+with other operators.
+B. Environmental baseline data
+19. The Guidelines for the establishment of baseline environmental data provide
+guidance on how the Contractor should identify the current status of the seabed.
+C. Environmental impact assessment and environmental
+impact statement
+20. The regulations on exploitation provide that the Contractor shall prepare an
+Environmental Impact Statement in accordance with regulation 47 and in the format
+recommended in annex IV to the Regulations. A Standard on the Environmental Impact
+Assessment process and Guidelines on the Environmental Impact Assessment content
+and Environmental Impact Statement template provide guidance on how the Contractor
+is to conduct an Environmental Impact Assessment and report on its results.
+V. Operations
+A. Operational planning and control
+21. The regulations on exploitation provide that the Contractor shall plan,
+implement and modify measures necessary for ensuring effective protection for the
+Marine Environment from harmful effects and take all necessary measures to prevent,
+reduce and control pollution and other hazards to the Marine Environment from its
+activities in the Area (see paras. 16–18 and 20 above).
+22. This relates to both the Contractor’s operations and operations performed by the
+Contractor’s subcontractors.
+21-17332 7/16
+
+[Page 8]
+ISBA/27/C/7
+23. The Contractor should establish suitable mitigating measures to reduce the
+environmental effects to a level that is as low as reasonably practicable (referred to
+as the “ALARP” level), taking into account the Environmental Impact Assessment
+and the Environmental Impact Statement, based on the Best Available Scientific
+Evidence, Best Environmental Practices, Best Available Technology and Best
+Available Techniques that should be used.
+24. To achieve this, the Contractor should:
+(a) Establish operational criteria for the seabed mining activities;
+(b) Communicate the criteria to relevant personnel and subcontractors;
+(c) Ensure that the operational activities and processes are implemented in
+accordance with the criteria;
+(d) Monitor the operational activities and processes and report on the results;
+(e) Store all documented information to be able to demonstrate with
+confidence that the seabed mining activities have been carried out as planned.
+25. The Contractor should ensure that the mitigating measures set out in the
+Environmental Impact Statement and the Environmental Management and
+Monitoring Plan take into account the following hierarchy of controls:
+(a) Designing technical and engineering controls that eliminate or reduce the
+harmful effects of the process or activity;
+(b) Establishing organizational and operational controls that eliminate or
+reduce the harmful effects of the process or activity;
+(c) Limiting impacts to the smallest area practicable;
+(d) Rehabilitating or restoring degraded ecosystems when impacts have
+already occurred.
+26. The process or activity, and also the control hierarchy selected, may also involve
+the use of equipment or chemicals or both.
+B. Non-conformity
+27. Nonconformity refers to a failure to meet one or more requirements outlined in
+a mandatory provision.
+28. It may be identified during the seabed mining operations through an internal or
+external audit (see sect. VII below), or during post-closure management and
+monitoring of Environmental Effects.
+29. When a nonconformity occurs, the Contractor should therefore:
+(a) React to the nonconformity by, as applicable:
+(i) Taking action to control and correct it;
+(ii) Addressing the consequences, including mitigating adverse environmental
+impacts and to the extent possible restoring and rehabilitating the affected area;
+(b) Evaluating the need for action to eliminate the causes of the nonconformity
+so that it does not reoccur (corrective action), by:
+(i) Reviewing the nonconformity;
+(ii) Determining the causes of the nonconformity;
+(iii) Determining if similar nonconformities exist, or could potentially occur;
+8/16 21-17332
+
+[Page 9]
+ISBA/27/C/7
+(c) Implementing any action needed;
+(d) Verifying the implementation and effectiveness of the corrective actions
+with follow-up internal and external audits (see sect. VII below);
+(e) Report the nonconformity, the actions taken to remedy it and the results of
+the audits to the International Seabed Authority.
+30. It is important that, if corrective actions are needed, they can be implemented
+swiftly and that the necessary equipment for this is in place.
+C. Procurement and subcontractor management
+31. Procurement covers the procurement of both equipment and other physical
+assets, and also of services.
+32. Procurement: The Contractor should establish a process to ensure that
+environmental considerations are taken into consideration when ordering and
+procuring equipment and other physical assets, and when engaging subcontractors,
+ensuring that equipment and other physical assets used are those that produce no or
+only minimal environmental effects.
+33. Subcontractor management: The Contractor should establish a process to ensure
+that possible environmental impacts are taken into consideration when selecting and
+engaging subcontractors and evaluating their performance, noting that, under the
+standard clauses for exploitation contracts appended to the regulations on
+exploitation, a subcontract must include appropriate terms and conditions to ensure
+that the performance of the subcontract will reflect and uphold the same standards
+and requirements as those of the contract between the Contractor and the International
+Seabed Authority. The following could be covered in the subcontractor selection and
+management process (non-exhaustive list):
+(a) During subcontractor prequalification and selection phase the Contractor
+should:
+(i) Define the expectations to the individual subcontractors, including
+alignment with the Contractor’s environmental policy and objectives;
+(ii) Develop an environmental self-assessment form, taking into account the
+rules, regulations, procedures and recommendations of the International Seabed
+Authority, which is to be filled out by the potential subcontractor;
+(iii) Communicate to the subcontractor the Contractor’s expectations related to
+environmental performance, during both the prequalification and the tendering
+phases;
+(iv) Review and assess the subcontractor’s ability to meet the Contractor’s
+expectations related to environmental performance, including status of the
+subcontractor’s environmental management system and historical performance
+(if relevant);
+(b) During the operations phase, the Contractor should:
+(i) Provide regular training activities for the subcontractor, focused in
+particular on meeting and understanding the environmental objectives of the
+Contractor and arrange regular meetings at different levels (both management
+and operational levels);
+(ii) Carry out inspections or audits of the subcontractor, at the office and on
+site (see also paras. 43–46 below);
+21-17332 9/16
+
+[Page 10]
+ISBA/27/C/7
+(iii) Require the notification of incidents in accordance with the regulations on
+exploitation (see also sect. VII below);
+(iv) Require regular reporting of environmental performance.
+D. Emergency response and contingency plan
+34. The regulations on exploitation provide that the Contractor shall prepare an
+Emergency Response and Contingency Plan in accordance with annex V to the
+Regulations. Such a plan aims to establish, implement, maintain and improve the
+processes needed to prepare for, and respond to potential emergency situations,
+including those that are likely to have harmful effects on the Marine Environment. A
+Standard and Guidelines on the preparation and implementation of emergency
+response and contingency plans provide guidance on how the Contractor may
+implement these obligations.
+VI. Monitoring and performance evaluation
+A. Environmental management and monitoring plan
+35. The purpose of the environmental management and monitoring plan is to
+manage environmental effects and confirm that the environmental quality objectives
+and standards for the mining operation are met. Some parameters may need to be
+monitored continuously, whereas others are measured and analysed at defined
+intervals. Some parameters may need to be monitored, whereas others are calculated.
+36. The regulations on exploitation provide that the Contractor shall prepare an
+environmental management and monitoring plan in accordance with regulation 48
+and annex VII to the Regulations. The Guidelines for the preparation of
+environmental management and monitoring plans provide further guidance on the
+development of environmental monitoring plans by contractors.
+B. Evaluation of performance
+37. The results of the monitoring activities should be evaluated in accordance with
+the criteria, method and frequency defined by the Contractor in the environmental
+management and monitoring plan (see paras. 21–26, 35 and 36 above). The evaluation
+may assess the results against the following:
+(a) Operational criteria defined by the Contractor (see paras. 21–26 above);
+(b) Environmental objectives (see paras. 9–13 above);
+(c) Legal requirements (see paras. 16–18 above);
+(d) Good industry practice;
+(e) The Standards and Guidelines related to baseline data collection,
+environmental impact assessments, and environmental management and monitoring
+plans (see paras. 19, 20, 35 and 36 above).
+38. Medium- and long-term trends in monitoring data should be evaluated against
+the environmental objectives annually. In addition, the trends may be evaluated,
+whether these are positive (improvement in environmental performance) or negative,
+regardless of whether serious harmful effects have occurred or are considered likely
+to occur, and reported.
+10/16 21-17332
+
+[Page 11]
+ISBA/27/C/7
+39. The results should be summarized by the Contractor on an annual basis, and
+presented to the International Seabed Authority and the sponsoring State or States
+(see paras. 43–46 below). The Contractor should provide the full monitoring and
+evaluation reports.
+40. The regulations on exploitation provide that the Contractor shall conduct
+performance assessments of the environmental management and monitoring plan. If
+the performance criteria are not met, the Contractor is required to take corrective
+action in accordance with the Regulations to improve the performance and meet the
+objectives. The Contractor should keep a record of the corrective action taken,
+including evidence showing how the corrective action has resulted in the desired
+outcome.
+41. If the Contractor does not have the necessary resources for this purpose, the
+capacity needs to be improved to meet the performance criteria. This could mean
+increasing resourses in one or several areas, such as:
+(a) Human resources;
+(b) Infrastructure resources;
+(c) Financial resources.
+42. Human resources may mean personnel with specialized skills and knowledge.
+Infrastructure resources may consist of the Contractor’s equipment, storage and
+processing vessels, waste management and transport vessels. Financial resources may
+be the necessary financial means to maintain the equipment, ensure the progress of
+the project and fund corrective action.
+C. Reporting to and notifying the International Seabed Authority
+43. Reporting to the International Seabed Authority and notification of the
+International Seabed Authority in the event of Incidents and notifiable events are
+governed by the regulations on exploitation.
+44. Annual reporting: The regulations on exploitation require that the annual report
+to the International Seabed Authority include the results obtained from environmental
+monitoring programmes in relation to its activities in the Contract Area (see paras. 35
+and 36 above). The regulations on exploitation also require a Contractor to compile
+and submit a performance assessment report on the Environmental Management and
+Monitoring Plan to the Secretary-General.
+45. Taking into account the requirements for annual reports and performance
+assessments set out in the regulations on exploitation, the Environmental
+Management System should describe the following:
+(a) Parameters to report;
+(b) Format of reporting;
+(c) Method of reporting;
+(d) When to report.
+46. Notifiable events: In accordance with the regulations on exploitation, the
+Contractor shall immediately notify its sponsoring State or States and the Secretary-
+General of the happening of any event listed in appendix I to the Regulations. This
+includes such events as significant leaks of hazardous substances and unauthorized
+mining discharges.
+21-17332 11/16
+
+[Page 12]
+ISBA/27/C/7
+VII. Audits
+47. An audit is a systematic, independent and documented process for obtaining
+evidence and determining the extent to which the audit criteria are fulfilled. The audit
+criteria should consist of the environmental objectives and criteria developed under
+the environmental management system and documented in the environmental
+management and monitoring plan. An audit aims to ascertain whether the organization
+does what it intends to do: in other words, that it compares the actual activities and
+results against the requirements and expectations.
+48. Generally, audits can be carried out as first-party audits, second-party audits and
+third-party audits:
+(a) First-party audits are internal audits carried out by, and within, the
+Contractor organization;
+(b) Second-party audits are external audits carried out by the Contractor,
+auditing its subcontractors and suppliers;
+(c) Third-party audits are external audits carried out by the International
+Seabed Authority or a certification body, auditing the Contractor.
+49. The Contractor should prepare a programme for conducting audits of the
+environmental management system, in the form of first party audits and second party
+audits. The programme should cover annual audits. The programme should be based
+on a risk-based approach.
+50. The programme should cover internal audits (first party) and external audits of
+subcontractors (second party).
+51. The Contractor needs to ensure that the audit team is competent and independent
+of the audited unit or subcontractor.
+52. The Contractor should establish a procedure for the panning and conduct of the
+different types of audits. The procedure should, among other requirements, cover the
+following tasks:
+(a) Annual audit programme (when and who prepares and approves the
+programme), risk-based approach;
+(b) Competence requirements of auditors;
+(c) Notification, planning of each specific audit;
+(d) Setting up an audit plan;
+(e) Templates for notification, and audit report;
+(f) Following up the audits;
+(g) Reporting on the results of the audit to the International Seabed Authority.
+VIII. Environmental management system review
+53. The management system review is a high-level process in which the senior
+management of the Contractor, informed by the audit results, reviews the
+organization’s environmental management system.
+54. The senior management of the Contractor should review the organization’s
+environmental management system at regular intervals, including the adaptive
+management techniques (process, procedure and response).
+12/16 21-17332
+
+[Page 13]
+ISBA/27/C/7
+55. The purpose of the management review is to ensure the environmental management
+system’s continued suitability, adequacy and effectiveness for the seabed mining operation.
+56. The input to the management review shall include:
+(a) Status of actions from previous management reviews;
+(b) Changes in:
+(i) External and internal issues relating to the seabed mining operation that are
+relevant for the Contractor or the environmental management system or both;
+(ii) Contractor’s obligations (see paras. 16–18 above);
+(iii) Key environmental issues as defined in relation to the environmental
+impact assessment (see para. 20 above);
+(iv) Extent to which environmental objectives have been achieved (see
+paras. 9–13 and 37–42 above);
+(c) Information on the Contractor’s environmental performance, including
+positive or negative trends in:
+(i) Nonconformity and corrective actions (see paras. 27–30 above);
+(ii) Monitoring and measurement results (see paras. 35–42 above);
+(iii) Audit results (see sect. VII above);
+(iv) Adequacy of resources;
+(d) Relevant communications with the sponsoring State or States, the
+International Seabed Authority and stakeholders;
+(e) Opportunities for continual improvement.
+57. The output of the management review should include:
+(a) Conclusions on the continuing suitability, adequacy and effectiveness of
+the environmental management system for the seabed mining operation;
+(b) Decisions related to continual improvement opportunities;
+(c) Decisions related to any need for changes to the environmental
+management system, including resources, policy and strategy;
+(d) Actions, if needed, when environmental objectives have not been achieved;
+(e) Any implications for the strategic direction of the organization;
+(f) Any further recommendations for improvements, including the necessary
+means to achieve them;
+(g) Planning of the next management review.
+58. The Contractor should retain documented information as evidence of the
+management review.
+IX. Support
+A. Resources
+59. The Contractor should ensure that sufficient resources are available to carry out its
+seabed mining operations in a way that corresponds with the environmental management
+system. Resources in this context includes those referred to above. They also comprise
+people with relevant competence, equipment, funding and available time.
+21-17332 13/16
+
+[Page 14]
+ISBA/27/C/7
+B. Awareness and competence
+60. The Contractor should ensure awareness among its personnel by ensuring
+knowledge and understanding of:
+(a) Policy and procedures followed by the Contractor;
+(b) Environmental aspects related to their functions;
+(c) Key elements of the environmental management system.
+61. The Contractor should ensure that appropriate duties are assigned to the right
+personnel by:
+(a) Identifying the competence profile needed for individual positions and
+functions;
+(b) Identifying the current competence among relevant personnel;
+(c) Identifying gaps in competence for relevant personnel;
+(d) Preparing a competence plan for relevant personnel and providing the
+necessary regular and continuous training.
+62. Training can take the form of on-the-job-training, classroom training, e-learning
+and others.
+63. Personnel in this context are permanent employees, temporary employees,
+hired-in personnel and subcontractor personnel working under the instructions of the
+Contractor.
+C. Communications
+64. Communications from the Contractor should cover both internal and external
+communication.
+65. The Contractor should establish, implement and maintain processes needed for
+internal and external communications relevant to the environmental management
+system, including:
+(a) The issues to be communicated;
+(b) When to communicate;
+(c) With whom to communicate;
+(d) How to communicate.
+66. The Contractor should respond to communications and requests for information
+concerning its environmental management system within a reasonable period of time.
+67. The Contractor should retain documented information as evidence of its
+communications.
+68. Where internal communication is concerned, the Contractor should internally
+communicate information relevant to the environmental management system among
+the various levels and functions within its organization, including relevant changes.
+It should also ensure that its communication processes enable persons performing
+work under the Contractor’s control to contribute to continual improvement,
+including in particular staff members with responsibilities for achieving
+environmental objectives.
+14/16 21-17332
+
+[Page 15]
+ISBA/27/C/7
+69. Where external communication is concerned, the Contractor should externally
+communicate information relevant to the environmental management system, as
+established by the organization’s communication processes and as required by its
+obligations under the regulations on exploitation. External communications should be
+communicated in a timely manner.
+70. Whether internal or external, communication from the Contractor should:
+(a) Include relevant information;
+(b) Be appropriate and understandable to the parties to whom it is
+communicated (personnel, stakeholders and other interested parties);
+(c) Be clear and transparent
+(d) Be truthful, trustworthy and not misleading.
+D. Management system documentation
+71. The regulations on exploitation set out the books, records and samples that a
+Contractor must keep and maintain.
+72. The Contractor should have a system to ensure that the right documentation is
+available at all times to the right personnel.
+73. When creating and updating documented information, the Contractor should
+ensure that the following aspects are appropriate:
+(a) Identification and description (e.g. a title, date, author or reference
+number);
+(b) Format (covering such aspects as language, software version, graphics and
+others) and media (whether in hard copy or electronic);
+(c) Review and approval for suitability and adequacy.
+74. Documented information required by the environmental management system
+and by the International Seabed Authority should be subject to controls to ensure that
+it is available and suitable for use, where and when it is needed, and that it is
+adequately protected from such risks as loss of confidentiality, improper use or loss
+of integrity.
+75. For the control of documented information, the Contractor should undertake the
+following activities as applicable:
+(a) Distribution, access, retrieval and use;
+(b) Storage and preservation, including preservation of legibility;
+(c) Control of changes (e.g. version control);
+(d) Retention and disposal.
+76. Documented information of external origin which is necessary for the planning
+and operation of the environmental management system should be identified by the
+Contractor and verified.
+77. When the Contractor receives documented information of external origin this
+may be verified by:
+(a) Ensuring that it is the version that is specified, and not a prior version;
+(b) Marking prior versions of documents as obsolete;
+21-17332 15/16
+
+[Page 16]
+ISBA/27/C/7
+(c) Maintaining a database which keeps track of all internal and external
+documents, their titles, dates and revisions.
+X. Definitions and abbreviations
+78. “ALARP” means as low as reasonably practicable.
+79. “Subcontractor” means a party in a contractual relationship with the Contractor
+to support the execution of the mining operation in the Area.
+16/16 21-17332

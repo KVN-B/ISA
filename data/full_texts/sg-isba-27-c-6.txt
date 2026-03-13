@@ -1,0 +1,1408 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/6
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March–1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral resources
+in the Area
+Draft guidelines for the preparation of Environmental
+Management and Monitoring Plans
+Prepared by the Legal and Technical Commission
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+A. Scope and purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+B. Terminology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+C. Use of the present guidelines in the context of regulations and other standards or guidelines 5
+II. General principles for Environmental Management and Monitoring Plans . . . . . . . . . . . . . . . . 5
+III. Preparing an Environmental Management and Monitoring Plan for submission with a Plan of
+Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+A. Preparation of Environmental Management and Monitoring Plans for submission of
+Plan of Work application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+B. Project area description . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+C. Environmental Management System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+D. Environmental Impact Assessment and predicted Environmental Effects . . . . . . . . . . . . . 7
+E. Monitoring and management programme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+F. Planning performance assessments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+G. Mining discharges and waste assessment and prevention audit . . . . . . . . . . . . . . . . . . . . . 14
+H. Personnel training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+I. Report of competent person . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+* ISBA/27/C/L.1.
+21-17330 (E) 280122
+*2117330*
+
+[Page 2]
+ISBA/27/C/6
+J. Additional considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+IV. Cost of preparing the Environmental Management and Monitoring Plan . . . . . . . . . . . . . . . . . . 18
+V. Stakeholder review and public access . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+VI. Performance assessment, review and reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+VII. Information sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+A. References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+B. Useful links . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Annex I . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Annex II . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+Annex III . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+2/34 21-17330
+
+[Page 3]
+ISBA/27/C/6
+List of abbreviations and acronyms
+EIA Environmental Impact Assessment
+EIS Environmental Impact Statement
+EMMP Environmental Management and Monitoring Plan
+EMS Environmental Management Systems
+ERA Environmental Risk Assessment
+IRZs impact reference zones
+ISA International Seabed Authority
+ISO International Organization for Standardization
+PRZs preservation reference zones
+21-17330 3/34
+
+[Page 4]
+ISBA/27/C/6
+I. Introduction
+1. Regulation 48 requires that the EMMP prepared and submitted by an applicant
+for a Plan of Work under the draft regulations on exploitation of mineral resources in
+the Area (exploitation regulations) must set out commitments and procedures on how
+mitigation measures will be implemented, how the effectiveness of such measures
+will be monitored, what the management responses will be to the monitoring results
+and what reporting systems will be adopted and followed.
+2. The present guidelines have been developed to provide practical and technical
+guidance on the implementation of an EMMP associated with exploitation of mineral
+resources in the Area, as specified in regulations 13 (3) (b), 31, 38, 42, 48, 49, 50, 51,
+annex IV, section 11 and annex VII of the exploitation regulations.
+3. The guidance below is not intended to be prescriptive, the aim is to provide sufficient
+direction to enable applicants/Contractors to formulate an approach for environmental
+management and monitoring. These guidelines should be read in conjunction with the
+exploitation regulations, the relevant Exploration Regulations, other relevant International
+Seabed Authority rules, regulations, recommendations and procedures, as well as other
+relevant standards and guidelines. To the extent of any inconsistency between the present
+guidelines and the regulations, including their annexes, or any standards, the regulations,
+including their annexes, and the Standards will prevail.
+A. Scope and purpose
+4. The scope and purpose of an EMMP as prescribed by the exploitation regulations
+is to “manage and confirm that Environmental Effects meet the environmental quality
+objectives and standards for the mining operation” (regulation 48 (1)).
+5. “Environmental Effects” as defined by the exploitation regulations means any
+consequences in the marine environment arising from the conduct of exploitation
+activities, whether positive, negative, direct, indirect, temporary or permanent, or
+cumulative effect arising over time or in combination with other mining impacts.
+6. Regulation 48 (1) requires that the EMMP outline commitments and procedures on
+how the mitigation measures will be implemented, how the effectiveness of such
+measures will be monitored, what the management responses will be to the monitoring
+results and what reporting systems will be adopted and followed. Regulation 48 (3)
+requires that the EMMP shall cover the main aspects prescribed by the Authority in annex
+VII to the exploitation regulations in accordance with the present guidelines, good
+industry practice, best available scientific evidence and best available techniques.
+B. Terminology
+7. Unless otherwise stated, terms defined in the exploitation regulations and the
+United Nations Convention on the Law of the Sea have the same meaning when used
+in the present guidelines.
+• “Regulation” means a regulation in the exploitation regulations.
+• The precautionary approach is the approach reflected in principle 15 of the Rio
+Declaration, which states that: “In order to protect the environment, the
+precautionary approach shall be widely applied by States according to their
+capabilities. Where there are threats of serious or irreversible damage, lack of
+full scientific certainty shall not be used as a reason for postponing cost-
+effective measures to prevent environmental degradation”.
+4/34 21-17330
+
+[Page 5]
+ISBA/27/C/6
+C. Use of the present guidelines in the context of regulations and
+other standards or guidelines
+8. Users of the present guidelines should take steps to check with the Authority whether
+further standards or guidelines have been issued at the time they prepare their EMMP.
+9. In conjunction with the exploitation regulations: The exploitation regulations
+should be strictly followed, and applicable terms used as reference. The
+applicant/Contractor should also conduct a search for laws, regulations and guidelines
+published by governing bodies that could be of relevance for the project, including
+national laws and other industry codes that could be developed from time to time. The
+present guidelines do not specify any national, state or provincial legislation to retain
+relevance, given laws and regulations are amended or updated from time to time. The
+present guidelines promote best practices when used in conjunction with relevant
+legislation, regulations and procedural guidelines.
+10. In consultation with other EMMP guidance documents and examples:
+Additional resources can be found in section 5 of the present guidelines. There are
+numerous guidance documents from related industries that can provide valuable,
+relevant approaches to establishing management and monitoring actions.
+II. General principles for Environmental Management and
+Monitoring Plans
+11. Environmental management is critical under the exploitation regulations.
+Applicants and/or Contractors should familiarize themselves with applicable
+provisions of the exploitation regulations relating to the Marine Environment and
+EMMPs, including but not limited to regulations 2, 31, 32, 44, 46, 48, 49, 51 and 52.
+12. One of the fundamental policies and principles set out in regulation 2 is to
+provide “pursuant to article 145 of the Convention, for the effective protection of the
+Marine Environment from the harmful effects which may arise from Exploitation”
+based on the principle of “a fundamental consideration for the development of
+environmental objectives shall be the effective protection of the Marine Environment,
+including biological diversity and ecological integrity”, the application of the
+precautionary approach and “the application of an ecosystem approach”.
+13. The EIA, EIS and EMMP and relevant regional environmental management plan
+and Standards are important instruments for adherence to these principles. In
+accordance with regulation 52, the EMMP shall be subject to regular performance
+assessment and is therefore a “living document”, essentially, to ensure that the
+commitments made in the EIS are implemented throughout the project life.
+Consideration of the content of the EIA, EIS and EMMP should commence at the
+earliest stage of programme and engineering development.
+14. An EMMP should:
+• Identify scientific uncertainties and include adaptive management strategies and
+apply the precautionary approach for managing uncertainty, where appropriate;
+• Establish specific commitments to auditable and measurable outcomes and clear
+time frames (with regard to the applicable provisions of the exploitation regulations);
+• Outline the actions a Contractor will take in the event that operations result in
+unanticipated Environmental Effects or EMMP performance objectives are not met;
+• Clearly explain technical terms and acronyms used;
+• Clearly define responsibilities and roles;
+21-17330 5/34
+
+[Page 6]
+ISBA/27/C/6
+• Be reviewed and updated in accordance with regulation 52.
+15. Regulation 48 requires that the EMMP be consistent with other plans, including
+the Closure Plan and Emergency Response and Contingency Plan. Regulation 48
+further provides that the EMMP shall cover the main aspects prescribed in annex VII
+and shall be:
+• Based on the EIA and the EIS;
+• In accordance with the relevant regional environmental management plan;
+• Prepared in accordance with the applicable guidelines, Good Industry Practice,
+Best Available Scientific Evidence and Best Available Techniques, and
+consistent with other plans in these regulations, including the Closure Plan and
+the Emergency Response and Contingency Plan.
+III. Preparing an Environmental Management and Monitoring
+Plan for submission with a Plan of Work
+A. Preparation of Environmental Management and Monitoring Plan
+for submission of Plan of Work application
+16. Annex X, paragraph 3.2 (e), to the exploitation regulations requires that the
+EMMP be submitted by the applicant to the Authority as part of the application of a
+Plan of Work for Exploitation.
+17. The present section III provides guidance to applicants on the requirements for
+preparing an EMMP for an application for a Plan of Work.
+18. An EMMP checklist has been provided in annex III to the present guidelines to
+assist applicants/Contractors in determining if all relevant and necessary elements are
+contained within the EMMP.
+B. Project area description
+19. In accordance with annex VII, paragraph 2 (b) of the exploitation regulations,
+the EMMP must contain a description of the area likely to be affected by the proposed
+activities.
+20. That description should be consistent with annex IV, section 3.1, “Project area
+definition”, to the exploitation regulations (EIS template).
+21. Annex VII, paragraph 2 (i), to the exploitation regulations also requires that
+each EMMP include the location and planned monitoring and management of
+preservation reference zones and impact reference zones, or other spatial management
+planning tools. These zones and tools assist Contractors in monitoring and evaluating
+the impacts of deep seabed mining on the Marine Environment.
+22. Annex II to the present guidelines contains checklists established to assist the
+applicant/Contractor in monitoring IRZs and PRZs.
+C. Environmental Management System
+23. Annex VII, paragraph 2 (d), to the exploitation regulations requires that an
+EMMP provide details of the applicant’s EMS and environmental policy. Detailed
+guidance regarding preparation of the EMS can be found in the EMS guidelines.
+6/34 21-17330
+
+[Page 7]
+ISBA/27/C/6
+D. Environmental Impact Assessment and predicted Environmental Effects
+24. Annex VII, paragraph 2 (e) and (f), to the exploitation regulations requires:
+• An assessment of the potential Environmental Effects of the proposed activities
+on the Marine Environment and any significant changes likely to result.
+• An assessment of the significance of the potential Environmental Effects and
+proposed mitigation measures, management control procedures and responses to
+minimize the harm from Environmental Effects consistent with the EIA and the EIS.
+25. The EIA, ERA and mitigation measures are used to prepare the detailed
+monitoring plans within the EMMP. Detailed guidance regarding an EIA, ERA and
+EIS can be found in their respective guidelines. The applicant should develop
+mitigation measures and control procedures for each Environmental Effect identified
+in the EIA process and described in the EIS. The mitigation measures identified for
+each potential Environmental Effect identified in the EIA (refer to guideline 2) should
+then be used to design the monitoring programme(s) (see below). Given the
+fundamental link between engineering design and environmental outcomes,
+consideration of mitigation measures should be included from the earliest stages of
+programme and engineering design.
+E. Monitoring and management programme
+26. Annex VII, paragraph 2 (g) requires that an EMMP must include a description of:
+• The planned monitoring program;
+• The overall approach, standards, protocols, methodologies, procedures and
+performance assessment of the EMMP, including the necessary risk assessment
+and management techniques, including adaptive management techniques (process,
+procedure, response), if appropriate, needed to achieve the desired outcomes.
+27. Section III.E 1 below provides guidance on management techniques and
+sections III.E 2 to 4 below on the monitoring programme.
+1. Adaptive management
+28. Adaptive environmental management:
+• Is an iterative approach involving explicit testing of the achievement of defined
+goals;
+• Provides modest and reversible management interventions, to generate further
+knowledge about the resource being studied.1 Adaptive management is often
+portrayed as a multi-step cyclical process involving problem identification,
+design, implementation, monitoring, and assessment;2
+• Is important to ensure the linking of ongoing science to decision-making;3
+29. While inherent uncertainties will take time, gained knowledge and experience
+to resolve, 4 applicants and Contractors should maintain familiarity with the
+fundamental principles of the exploitation regulations as set out in regulation 2
+__________________
+1 Aline Jaeckel, “Deep Seabed Mining and Adaptive Management: The Procedural Challenges for the
+International Seabed Authority”, Marine Policy 70 (2016): 205–11, https://doi.org/10.1016/
+j.marpol.2016.03.008.
+2 Ibid.
+3 Swaddling, “Pacific-ACP States Regional Environmental Management Framework For Deep Sea
+Minerals Exploration and Exploitation”.
+4 Ramirez-Llodra et al., “Strategic Environmental Goals and Objectives for Seabed Mining”.
+21-17330 7/34
+
+[Page 8]
+ISBA/27/C/6
+(among other applicable regulations), which include the application of the
+precautionary approach. Adaptive management is an important part of the
+implementation of a precautionary approach in that it ensures that the management
+and monitoring of Environmental Effects is constantly informed by Best Available
+Scientific Evidence, Best Available Techniques and Best Environmental Practices.
+30. Review of management objectives and evaluation of monitoring plans are key
+components of adaptive management in the context of mineral exploitation in the Area.
+31. This adaptive management process will aid in the advancement of scientific
+understanding of sites at which Mineral Exploitation will occur, mining technologies,
+impacts and the environment’s response, thereby providing critical feedback to
+inform future decision-making.5 The adaptive management process will assist an
+applicant or Contractor in concluding whether they are unable to mitigate or monitor
+an Environmental Effect in accordance with its EIA, EIS or applicable regulations. In
+this regard, the EMMP should reflect, among other matters, the applicant or
+Contractor’s obligations under regulation 28 (3) and the applicant or Contractor’s
+temporary closure planning in its Closure Plan.
+32. A useful way to describe the implementation of adaptive management is in terms
+of a setup or deliberative phase during which key components are put in place, and
+an iterative phase in which the components are linked together in a sequential decision
+process.6
+33. The setup phase involves a framing of the resource problem in terms of
+objectives, management alternatives, models and monitoring protocols. The iterative
+phase utilizes these elements in an ongoing cycle of learning about system structures
+and functions and managing on the basis of what is learned (see figure I).
+Figure I
+Adaptive management feedback loop
+4 Monitor
+1 2 3 8
+6 Feedback
+Assessment Planning Implement Reporting
+initial plan
+Note: A dditional links to resources to assist with developing appropriate component monitoring
+plans are provided in Section VI.B.
+Source: Adapted from Williams et al., 2011.7
+__________________
+5 Swaddling, “Pacific-ACP States Regional Environmental Management Framework For Deep Sea
+Minerals Exploration and Exploitation”.
+6 B K Williams, Robert C. Szaro and Carl D. Shapiro, Adaptive Management: The U.S.
+Department of the Interior Technical Guide (Washington, D.C.: U.S. Department of the Interior,
+2009), http://pubs.er.usgs.gov/publication/70194537.
+7 Byron K. Williams, “Adaptive Management of Natural Resources – Framework and Issues”,
+Journal of Environmental Management, Adaptive management for Natural Resources, 92, no. 5
+(May 1, 2011): 1346–53, https://doi.org/10.1016/j.jenvman.2010.10.041.
+8/34 21-17330
+
+[Page 9]
+ISBA/27/C/6
+2. Monitoring programme overview
+34. As set out above, the EMMP will include an assessment of the significance of
+the potential Environmental Effects and the proposed mitigation measures,
+management control procedures to minimize harm from Environmental Effects and
+proposed mitigation measures to avoid, minimize and reduce impacts.
+35. The implementation of these assessments, procedures and measures requires
+monitoring to confirm environmental performance and the effectiveness of the
+implementation strategy (monitoring programme).
+36. In addition to the requirements set out in annex VII to the regulations,
+annex VII, paragraphs 2 (g) and (l), require that the monitoring programme must
+detail the parameters identified to be monitored and/or sampled during an EIA/EIS to
+evaluate Environmental Effects and the associated monitoring actions to be taken.
+3. Parameters to be monitored
+37. The types of environmental parameters that should be monitored as part of
+exploitation applications in the Area are those studied during the baseline study, EIA
+and EIS phase, which are further described and/or prescribed in the guidelines for the
+establishment of baseline data, standard and guidelines for EIAs, and guidelines for
+the preparation of an EIS.
+Monitoring methodology
+38. Environmental Effects identified in the EIS will be monitored in accordance
+with Best Environmental Practices, consistent with annex VII, paragraph 2 (k) and
+regulation 48 (3) (c) of the exploitation regulations.
+39. The specific details relating to the monitoring methodology for each identified
+potential Environmental Effect will vary based on the planned activities, management
+objectives, character and magnitude of potential Environmental Effects, site
+characteristics (while adhering to the exploitation regulations and other relevant
+standards and guidelines).8 Monitoring methodology/results should give a sufficient
+degree of confidence that Environmental Effects are as anticipated and agreed
+performance standards are being met (monitoring should have the statistical power to
+detect changes in environmental state). Any variance in specific details relating to
+each potential Environmental Effect should not be due to a difference in effort, such
+as the techniques used, available equipment or other resources, including financial
+and human.
+40. The EMMP should describe the types of monitoring to be used through the
+various phases of exploitation. Types of monitoring include:
+• Validation monitoring: this monitoring should take place at the commencement
+of the project or activity and involves intensive, real-time and comprehensive
+monitoring to validate assumptions made in the baseline/EIA/EIS phase of the
+project. Upon the completion of the validation monitoring period, the operation
+may enter into a “steady state” compliance monitoring period;9
+• Compliance monitoring: this monitoring should be implemented throughout the
+project’s operations to monitor the prescribed mitigation measures and assess
+__________________
+8 Alison Swaddling et al., “Pacific-ACP States Regional Scientific Research Guidelines for Deep Sea
+Minerals” (Pacific Community (SPC), 2016), https://www.researchgate.net/publication/
+311104561_Pacific-ACP_states_regional_scientific_research_guidelines_for_deep_sea_minerals.
+9 Leonardus J. Gerber and Renée L. Grogan, “Challenges of Operationalising Good Industry
+Practice and Best Environmental Practice in Deep Seabed Mining Regulation”, Marine Policy,
+September 2018, S0308597X18304639, https://doi.org/10.1016/j.marpol.2018.09.002.
+21-17330 9/34
+
+[Page 10]
+ISBA/27/C/6
+whether the measures are effective in reducing the impacts to acceptable levels.
+This monitoring should be conducted periodically, the timing of which will vary
+from project to project (but which will be agreed with the Authority and set out in
+the EMMP). It should be used to check that the levels of specific environmental
+parameters are consistent with applicable regulations, standards, guidelines and
+contractual obligations. This type of monitoring will assist applicants/Contractors
+carrying out performance assessments (see section III.F below).
+• Long-term monitoring: monitoring of Environmental Effects should continue
+after completion of operations. This monitoring will be a continuation of some
+aspects of the compliance monitoring components, but likely with adjusted
+frequency and timescale. The details of long-term monitoring will be developed
+in accordance with the Closure Plan. Applicants and Contractors should refer to
+the standards and guidelines on Closure Plans for further guidance.
+41. The effort and resources allocated to monitoring different parameters should be
+proportionate to the nature and scale of the predicted environmental impacts and effects
+(subject to complying with the overall objectives and requirements in the exploitation
+regulations), the level of residual uncertainty from the EIA and the areas of main focus
+for adaptive management strategies. The monitoring should reflect the sum total of
+predicted impacts and management strategies, with the aim of determining if the
+environmental objectives are being achieved. Monitoring methodology/results should
+give a sufficient degree of confidence that Environmental Effects are as anticipated and
+agreed performance standards are being met (monitoring should have the statistical
+power to detect changes in environmental states).
+42. It is expected that data collected during Exploration to support the baseline
+definition of the project will be used in conjunction with data collected in subsequent
+monitoring activities. The EMMP may need to be modified following the collection
+of additional data and throughout the monitoring programme (subject to the
+exploitation regulations, including regulation 57).
+43. The applicant should provide a detailed description of the proposed methods
+and procedures for collecting, analysing and interpreting data.10 Specifically, for each
+activity, the applicant should provide information, including but not limited to the
+following, in accordance with Best Environmental Practices:
+• Parameter to be evaluated and a description of what information that particular
+variable will provide pertinent to a potential Environmental Effect;
+• Detailed monitoring/sample collection procedures, including quality assurance/
+quality control samples;
+• List of monitoring/sampling equipment and supplies;
+• Specifications of monitoring/sampling equipment (including calibration
+procedures);
+• Laboratory methods and detection limits, if applicable;
+• Monitoring/sampling timing and frequency;
+• Cleaning/decontamination procedures;
+• Record and storage keeping procedures, including raw data, metadata and
+physical specimens;
+• An estimate of the anticipated annual cost of monitoring;
+__________________
+10 Clark, Durden, and Christiansen, “Environmental Impact Assessments for Deep-Sea Mining”.
+10/34 21-17330
+
+[Page 11]
+ISBA/27/C/6
+• Data organization, analysis and interpretation procedures;
+• Proposed methods of presenting the data (maps, photographs, data tables, graphs
+and live data feeds), including transferability to external databases (for example,
+DeepData). If the applicant/Contractor possesses the capability, they can use
+real-time electrical compliance monitoring technology;
+• A monitoring checklist specifying when the monitoring must be carried out, who
+is responsible, what methods will be used to measure effectiveness and if
+follow-up action is required.11
+44. The adoption of consistent data collection methodology by applicants/
+Contractors will enable the Authority to effectively manage the data and combine it
+to gain a “big picture” understanding of mineral resources and the environments of
+the Area12 in the EMMP review and approval process. Applicants/Contractors may
+identify different/new Best Available Techniques for monitoring, if sufficient
+justification is provided. Not all sampling methodology is applicable to all resource
+types and should be evaluated by the applicant/Contractor.
+4. Monitoring stations
+45. Annex VII, paragraph 2 (h) of the exploitation regulations provides that an
+EMMP must provide a detailed description of the proposed monitoring stations across
+the project area, including the frequency of monitoring and data collection, the spatial
+and temporal nature of such monitoring and justification for such arrangements.
+46. Monitoring associated with exploitation in the Area should take place in
+multiple locations in the project area, including but not limited to:
+• Monitoring to evaluate the characteristics of the operational plume and any
+Environmental Effects;
+• Monitoring to evaluate the characteristics of the “returned water” plume and any
+Environmental Effects;
+• Permanent monitoring in locations to assess physical oceanography
+characteristics such as current speed and direction to inform operational
+decision-making and any Environmental Effects;
+• Monitoring in locations to meet specific monitoring objectives relative to the
+Environmental Effects identified in the EIS;
+• IRZ monitoring;
+• PRZ monitoring.
+F. Planning performance assessments
+1. Overview
+47. Annex VII requires that an EMMP include details of the planned performance
+assessment of the EMMP (annex VII, para. 2 (g)) and the details of the quality control
+and management standards, including the frequency of the review of the performance
+of the EMMP (annex VII, para. 2 (l)).
+__________________
+11 New South Wales Department of Infrastructure Planning & Natural Resources and Planning &
+Natural Resources Department of Infrastructure, Guideline for the Preparation of Environmental
+Management Plans (Sydney, NSW, Australia 2000: Department of Infrastructure, Planning and
+Natural Resources, 2004).
+12 Saddling et al., “Pacific-ACP States Regional Scientific Research Guidelines for Deep Sea Minerals”.
+21-17330 11/34
+
+[Page 12]
+ISBA/27/C/6
+48. The applicant’s description and plan of the performance assessment should be
+consistent with regulation 52. Therefore, the below guidance links the EMMP
+description of the planned performance assessment with the requirements in
+regulation 52.
+2. Format
+49. Regulation 52 (3) requires that the Contractor compile and submit a
+performance assessment report in accordance with the relevant guidelines. The format
+for the performance assessment report can be found in annex I to the present
+guidelines.
+3. Description of the performance assessment
+50. In accordance with regulation 52, the planned performance assessment must
+consider:
+• The compliance of the mining operation with the EMMP;
+• The continued appropriateness and adequacy of the EMMP, including the
+management conditions and actions attaching thereto.
+51. Each performance assessment should also include, for inclusion in the report
+that is required under regulation 52 (3):
+• An assessment of whether the EMMP is achieving or continuing to achieve its
+objectives and the requirements of any relevant approval conditions, the
+contract and the rules, regulations and procedures of the Authority;
+• An assessment of environmental monitoring records and the results of any prior
+assessments;
+• An examination of updated external information (academic literature, workshop
+and technical reports from the Authority or other relevant groups) and
+environmental data from other sources (namely, published by the Authority on
+DeepData);
+• Any reasons for varying the EMMP;
+• The performance assessment criteria (this is detailed further below);
+• Information on whether corrective action is required, where corrective actions
+refer to changes to mitigation measures or monitoring measures to ensure
+environmental objectives and standards are met (this is detailed further below);
+• Information on whether identified corrective actions have been undertaken, and
+if so, an assessment of the effectiveness of such actions. The results should be
+used to inform future stages of the project.
+52. Contractors should be aware that the specifications in the present guidelines
+may be revised by the Authority during the implementation of the EMMP, in the spirit
+of promoting continuous improvement.13
+__________________
+13 CSIR Environmental, “Guideline for Environmental Management Plans” (Republic of South
+Africa, Provincial Government of the Western Cape, Department of Environmental Affairs &
+Development Planning, Cape Town: Department of Environmental Affairs & Development
+Planning, Cape Town, 2005).
+12/34 21-17330
+
+[Page 13]
+ISBA/27/C/6
+4. Description of performance assessment criteria
+53. Performance assessment criteria should take the form of environmental
+objectives and standards that are:
+• Quantitative and measurable;
+• Qualitative, where appropriate and where applicable qualitative goals and
+standards are available;
+• Able to achieve the environmental outcomes when implemented.
+5. Description of plan for corrective action
+54. Performance criteria should include threshold values or conditions under which
+corrective actions are taken.
+55. Subject to section III.F.6 below, the EMMP should specify:
+• Monitoring results which exceed the threshold values for corrective action;
+• How monitoring records will be maintained;14
+• How records of mitigation measures will be maintained;
+• When follow up action is required;
+• Potential corrective actions;
+• Procedures and timelines for reporting non-compliance to the Commission/
+Authority.15
+56. Contractors should ensure their corrective action plan is in accordance with
+regulation 51 (b), which requires Contractors to implement all applicable mitigation
+and management measures to protect the Marine Environment, as set out in the
+Standards referred to in regulation 45.
+6. Description of plan in respect of notifiable events
+57. Applicants should ensure that their EMMP complies with the exploitation
+regulations requirements in respect of a “notifiable event”, as defined in appendix I
+to the exploitation regulations and detailed in regulation 34.
+58. In particular, applicants or Contractors should note in the EMMP that, if a
+“notifiable event” is identified during a performance assessment, regulation 34
+requires that:
+• The Contractor shall immediately notify their sponsoring State or States and the
+Secretary-General of the happening of any of the notifiable events;
+• The Contractor shall, as soon as reasonably practicable, but no later than 24
+hours after the Contractor becomes aware of any such event, provide written
+notification to the Secretary-General of the event, including a description of the
+event, the immediate response action taken (including, if appropriate, a
+statement regarding the implementation of an Emergency Response and
+Contingency Plan) and any planned action to be taken; and
+• The Contractor shall ensure that all regulatory authorities are notified and
+consulted, as appropriate.
+__________________
+14 Australian Government, Department of Environment, “Environmental Management Plan
+Guidelines”.
+15 Ibid.
+21-17330 13/34
+
+[Page 14]
+ISBA/27/C/6
+7. Description of the frequency of scheduled performance assessments
+59. In accordance with Regulation 52, the frequency of a performance assessment
+shall be in accordance with the period specified in the EMMP.
+60. The frequency of the performance assessment should be appropriate to the
+nature and scale of the impacts and risks of the of the impacts and risks of the activity,
+with consideration given to the level of confidence in the cause-effect relationship for
+each risk/impact. Where there is less confidence in the effectiveness of a control
+measure, it would be appropriate to implement more regular performance
+assessments. In the context of deep seabed mining, Contractors should plan to carry
+out performance assessments more regularly as control measures.
+8. Description of the non-scheduled and triggered performance assessments
+61. The EMMP should include non-scheduled triggers for carrying out performance
+assessments. For example:
+(a) Following a Notifiable Event (see above);
+(b) When there is a material adjustment to the relevant regional environmental
+management plan;
+(c) When relevant new or revised rules, regulations, procedures or Standards
+and guidelines are issued by the Authority.
+9. Description of who carries out the performance assessment
+62. Applicants should plan for performance assessments to be carried out internally or
+by independent competent persons (independent competent persons). If they are carried
+out internally, they should also be done by competent persons. Further guidance on
+Independent Competent Persons is set out in Section J below. As to competent persons
+that are not independent competent persons, it is recommended that they:
+• Have practical experience with the preparation of EMMPs;
+• Have ability, training, knowledge, and/or experience with offshore mining
+operations and environmental monitoring programs;
+• Have the ability to evaluate whether deficiencies are present within an EMMP
+with specific regard to the monitoring program and performance standards.
+G. Mining discharges and waste assessment and prevention audit
+1. Overview
+63. Regulation 50 provides:
+(a) Subject to sub-paragraph (b) below, a Contractor shall not dispose, dump
+or discharge into the Marine Environment any mining discharge, except where such
+disposal, dumping or discharge is permitted in accordance with:
+• The assessment framework for mining discharges as set out in the guidelines
+(mining discharge guidelines);
+• The EMMP.
+(b) Sub-paragraph (a) above shall not apply if such disposal, dumping or
+discharge into the Marine Environment is carried out for the safety of the vessel or
+installation or the safety of human life, provided that all reasonable measures are
+14/34 21-17330
+
+[Page 15]
+ISBA/27/C/6
+taken to minimize the likelihood of Serious Harm to the Marine Environment, and
+such disposal, dumping or discharge shall be reported forthwith to the Authority.
+64. Annex VII, paragraph 2 (o) of the exploitation regulations provides that the
+EMMP must include details of mining discharges, including a waste assessment and
+prevention audit.
+65. “Mining discharge” means any sediment, waste or other effluent directly
+resulting from exploitation, including shipboard or installation processing
+immediately above a mine site of minerals recovered from that mine site.
+2. Planned management of mining discharge and waste
+66. Contractors planned management of mining discharge and waste under an
+EMMP should be consistent with the exploitation regulations, the mining discharge
+guidelines, the EIA, the EIS and any relevant conventions, standards, legislation or
+instruments.
+67. To the extent applicable, planned management of waste/discharge should be
+managed in accordance with the International Convention for the Prevention of
+Pollution from Ships (see the exclusion of certain seabed mining activities in article 2
+(3) (b) (ii)) and the Convention on the Prevention of Marine Pollution by Dumping
+of Wastes and Other Matter (see the exclusion of certain seabed mining activities in
+article III (1) (c)). Onshore waste and off-shore waste should be managed in
+accordance with applicable local directives.
+3. Waste assessment and prevention audit
+68. The waste assessment and prevention audit should:
+(a) Assess the Contractors compliance with its planned management of
+mining discharge and waste under its EMMP;
+(b) Assess mining discharge and waste prevention. To do so, the waste
+assessment and prevention audit should evaluate:
+• The amount, type, and hazard of the waste in accordance with the mining
+discharge guidelines;
+• The source of the waste;
+• The feasibility of waste prevention or reduction techniques. Waste prevention
+or reduction techniques may include input substitution, process modification,
+clean production technology, or a combination thereof.
+69. If the waste assessment and prevention audit identifies opportunities for waste
+prevention at the source, the Contractor should create a waste prevention strategy that
+includes specific waste reduction targets, with stipulations to ensure that targets are
+being met.16
+70. Following a waste assessment and prevention audit, a Contractor should update
+their planned management of mining discharge and waste under its EMMP. As part of
+this update, the Contractor should demonstrate that appropriate consideration has
+been given to the following hierarchy of waste management options, which implies
+an order of increasing environmental impact, illustrated in figure II.
+__________________
+16 International Maritime Organization, “1996 Protocol to the Convention on the Prevention of
+Marine Pollution by Dumping of Wastes and Other Matter, 1972, as Amended in 2006”, 2006.
+21-17330 15/34
+
+[Page 16]
+ISBA/27/C/6
+Figure II
+Waste management hierarchy
+Prevention Most preferred
+Reduction
+Recycle
+Recovery
+Disposal
+Least preferred
+Source: Adapted from United Nations Environment Programme, Department of Economic and
+Social Affairs and Food and Agriculture Organization of the United Nations,
+“SIDS-FOCUSED Green Economy: An Analysis of Challenges and Opportunities”
+(www.unep.org/greeneconomy and www.unep.org/regionalseas, 2012).
+71. The examination of each alternative should include an assessment of the
+potential effects on the Marine Environment in accordance with the Contractors
+obligations under the exploitation regulations (including regulations 2 (e) (ii) and 32).
+H. Personnel training
+72. Successful completion of monitoring activities requires the proper training of
+personnel, and the EMMP should therefore contain clearly described training
+protocols. This can be included in the overall training for the site, which is
+summarized below. Refer to guidelines 6 and 12 for additional guidance on training.
+73. Regulation 37 of the exploitation regulations is relevant to the extent that
+personnel of the Authority and developing states are “engaged or to be engaged in
+activities in the project area”. Training programmes should be developed and
+implemented prior to the start of exploitation. Training should continue through the
+exploitation process as engineering design and project execution methods are
+developed. All training should be documented. The training should be tailored to the
+role of the individual in the project, with a preference for on-site training whenever
+possible. When on-site training is not possible, formal, in-class training should be
+conducted. The EMMP should describe the training to be implemented.
+74. Records of all training conducted should be maintained and include:17
+• The person receiving the training;
+• The date the training was received;
+• The name and qualifications of the person conducting the training;
+• Any records of competency reports or assessments carried out at the conclusion
+of the training.
+__________________
+17 Ibid.
+16/34 21-17330
+
+[Page 17]
+ISBA/27/C/6
+I. Report of competent person
+75. Annex VII of the exploitation regulations requires that the EMMP is verified by
+the report of independent competent persons (independent competent person report).
+76. The term “competent persons” is utilized in several industries and is generally
+regarded as persons with ability, training, knowledge or experience to provide review
+and training and/or take corrective actions in their area of expertise. 18 It is
+recommended that the independent competent persons who verify the EMMP:
+• Have practical experience with the preparation of environmental management
+and environmental monitoring plans;
+• Have ability, training, knowledge and/or experience with offshore mining
+operations and environmental monitoring programmes;
+• Have the ability to evaluate whether deficiencies are present within an EMMP
+with specific regard to the monitoring programme and performance standards;
+• Are not directly employed by the applicant (that is, should be a contracted third
+party) or any subsidiaries of the applicant; not directly employed by ISA; and
+should not have been directly involved in the development of an EMMP that is
+subject to the review or verification of the competent person.
+77. The independent competent persons report should include in respect of each
+independent competent person:
+• A statement of the competent person’s qualifications and experience;
+• A statement of the competent person’s independence vis-à-vis the applicant;
+• Concise explanations of the method used by applicant under the EMMP;
+• Confirmation that the applicant’s EMMP and methodology contained therein is
+sensitive to the economic, geological, environmental and geographic features of
+the project.
+78. Pursuant to annex VII of the exploitation regulations, an applicant must include
+the competent persons report in their final EMMP submitted with their plan of work
+application.
+J. Additional considerations
+79. Environmental data collected under an EMMP is generally information that the
+Authority is entitled to request.
+__________________
+18 Examples of “competent persons” definition from the mining industry are provided below. The
+Australasian Code for Reporting of Exploration Results, Mineral Resources and Ore Reserves
+(‘the JORC Code’), a professional code of practice that sets minimum standards for Public
+Reporting of minerals Exploration Results, Mineral Resources and Ore Reserves, defines
+“competent person” as a Member or Fellow of The Australasian Institute of Mining and
+Metallurgy, or of the Australian Institute of Geoscientists, or of a “Recognized Professional
+Organization” and as having a minimum of five years’ experience working with the style of
+mineralization or type of deposit under consideration and relevant to the activity which that
+person is undertaking. The United States Mine Safety and Health Administration (MSHA), a
+“competent person” means one who is capable of identifying existing and predictable hazards in
+the surroundings or working conditions which are unsanitary, hazardous, or dangerous to
+employees, and who has authorization to take prompt corrective measures to eliminate them (30
+Code of Federal Regulations 46.2(d)).
+21-17330 17/34
+
+[Page 18]
+ISBA/27/C/6
+80. In this context, in addition to the mandatory reporting requirements,
+applicants/Contractors are encouraged to agree additional requirements on an
+individual basis in the EMMP. For example, Contractors may consider providing
+certain environmental data on a continuous basis to the Authority in real time.
+81. On a regular basis (monthly or quarterly), Contractors could provide monitoring
+reports, including monitoring data, statistical analysis, test results and model
+validation, assessment of trends and identification of areas for improvement.
+Contractors should also discuss with the Authority the provision of periodic reports
+on longer-term Environmental Effects (annually or post-survey, and every 5-year
+substantive review).
+IV. Cost of preparing the Environmental Management and
+Monitoring Plan
+82. Applicants should note that for the purposes of the Financing Plan contained in
+annex III to the exploitation regulations, they should detail and record the cost of
+preparing the EMMP. Further guidance in this regard is provided in the guidelines on
+the Financing Plan.
+V. Stakeholder review and public access
+83. Applicants/Contractors should familiarize themselves with regulations 11, 17 (3),
+and 52 (4) in respect of stakeholder engagement and the publication of information.
+VI. Performance assessment, review and reporting
+84. Contractors should familiarize themselves with the requirements in regulations
+38 (1), 38 (2), 51 (1) (a) and 52 in respect of ongoing reporting, performance
+assessments and consultations with the Commission.
+VII. Information sources
+A. References
+Australian Government, Department of Environment. “Environmental Management
+Plan Guidelines”, 2014.
+Australian Government, NOPSEMA. “Environment plan content requirement”,
+September 2020.
+Canada-Newfoundland and Labrador Offshore Petroleum Board. “Offshore Waste
+Treatment Guidelines”, December 15, 2010.
+Clark, M.R., Jennifer M. Durden, and Sabine Christiansen. “Environmental Impact
+Assessments for Deep-Sea Mining: Can We Improve Their Future Effectiveness?” Marine
+Policy. Accessed December 18, 2019. https://doi.org/10.1016/j.marpol.2018.11.026.
+Clark, M.R., H.L. Rouse, G. Lamarche, J.I. Ellis, Christopher Wayne Hickey, and
+National Institute of Water and Atmospheric Research (N.Z.). “Preparation of
+Environmental Impact Assessments: General Guidelines for Offshore Mining and
+Drilling with Particular Reference to New Zealand” (New Zealand). National Institute
+of Water and Atmospheric Research, 2017.
+18/34 21-17330
+
+[Page 19]
+ISBA/27/C/6
+CSIR Environmentek. “Guideline for Environmental Management Plans”. Republic
+of South Africa, Provincial Government of the Western Cape, Department of
+Environmental Affairs & Development Planning, Cape Town: Department of
+Environmental Affairs & Development Planning, Cape Town, 2005.
+Department of Planning, Transport, and Infrastructure. “Underwater Piling Noise
+Guidelines”. Government of South Australia, November 2012.
+Durden, Jennifer M., Kevin Murphy, Aline Jaeckel, Cindy Lee Van Dover, Sabine
+Christiansen, Kristina M. Gjerde, Aleyda Ortega, and Daniel O. B. Jones. “A
+Procedural Framework for Robust Environmental Management of Deep-Sea Mining
+projects Using a Conceptual Model”. Marine Policy 84 (2017): 193–201.
+Fjukmoen, Øyvind, Amund Ulfsnes, Tor Jensen, Jon Kristian Haugland, and Lars
+Ulvestad. “Handbook – Species and Habitats of Concern, Mapping Assessment,
+Mitigation, and Monitoring. – In Relation to Oil and Gas Activities”, June 17, 2019.
+Gedamke, Jason, Jolie Harrison, Leila Hatch, Robyn Angliss, Jay Barlow, Catherine
+Berchok, Chris Caldow, et al. “Ocean Noise Strategy Roadmap”. National Oceanic
+and Atmospheric Administration, 2016.
+Gerber, Leonardus J., and Grogan, Renée L.. “Challenges of Operationalising Good
+Industry Practice and Best Environmental Practice in Deep Seabed Mining
+Regulation”. Marine Policy, September 2018, S0308597X18304639.
+https://doi.org/10.1016/j.marpol.2018.09.002.
+International Maritime Organization. “1996 Protocol to the Convention on the Prevention of
+Marine Pollution by Dumping of Wastes and Other Matter, 1972, as Amended in 2006”, 2006.
+———. “International Convention for the Control and Management of Ships Ballast
+Water and Sediments”, 2004.
+International Organization for Standardization. “ISO 14001:2015 Environmental
+Management Systems – Requirements with Guidance for Use”, 2015.
+International Seabed Authority. “Briefing Paper – Design of IRZs and PRZs in Deep-
+Sea Mining Contract Areas”, 2018. https://ran-s3.s3.amazonaws.com/isa.org.jm/s3fs-
+public/files/documents/bp02-2018irz-final-18jul.pdf.
+———. “ISBA/25/C/WP.1 – Draft Regulations on Exploitation of Mineral Resources
+in the Area”. ISA, 2019.
+International Seabed Authority, Legal and Technical Commission. “ISBA/16/LTC/2
+The International Marine Minerals Society’s Code of Environmental Management of
+Marine Mining”. The Mining Code, 2010. https://www.isa.org.jm/mining-code.
+———. “ISBA/17/LTC/7 – Environmental Management Plan for the Clarion-
+Clipperton Zone”, 2011.
+International Seabed Authority, Legal and Technical Commission, and Legal and
+Technical Commission. “ISBA/25/LTC/6 – Recommendations for the Guidance of
+Contractors for the Assessment of Possible Environmental Impacts Arising from
+Exploration for Marine Minerals in the Area”, April 18, 2019.
+ISA Draft Regulations (n.d.).
+Jaeckel, Aline. “Deep Seabed Mining and Adaptive Management: The Procedural
+Challenges for the International Seabed Authority”. Marine Policy 70 (2016): 205–
+11. https://doi.org/10.1016/j.marpol.2016.03.008.
+New South Wales Department of Infrastructure Planning & Natural Resources, and
+Planning & Natural Resources Department of Infrastructure. Guideline for the
+Preparation of Environmental Management Plans. Sydney, NSW, Australia 2000:
+Department of Infrastructure, Planning and Natural Resources, 2004.
+21-17330 19/34
+
+[Page 20]
+ISBA/27/C/6
+Orr, Terry, Stephen Wood, Michael Drunsic, and Gordon Perkins. “Development of
+Guidance for Lighting of Offshore Wind Turbines Beyond 12 Nautical Miles”.
+Sterling, VA: US Dept. of the Interior, Bureau of Ocean Energy Management, Office
+of Renewable Energy Programs, 2016.
+Ramirez-Llodra, Eva, Lisa A. Levin, Anna Metaxas, Kristina Gjerde, Amber Cobley,
+and Maria C. Baker. “Strategic Environmental Goals and Objectives for Seabed
+Mining”. Deep-Ocean Stewardship Initiative, 2018.
+Swaddling, Alison. “Pacific-ACP States Regional Environmental Management
+Framework For Deep Sea Minerals Exploration and Exploitation”. Pacific
+Community (SPC), 2016.
+Swaddling, Alison, Malcolm R Clark, Marie Bourrel, Hannah Lily, Geoffroy
+Lamarche, Christopher Wayne Hickey, Helen L Rouse, Scott Nodder, Graham
+Rickard, and Philip Sutton. “Pacific-ACP States Regional Scientific Research
+Guidelines for Deep Sea Minerals”. Pacific Community (SPC), 2016.
+https://www.researchgate.net/publication/311104561_Pacific-ACP_states_regional_
+scientific_research_guidelines_for_deep_sea_minerals.
+The PEW Charitable Trusts. “Regional Environmental Management Plans Are Key to
+Deep-Sea Conservation”, July 2019. https://www.pewtrusts.org/en/research-and-
+analysis/fact-sheets/2019/07/regional-environmental-management-plans-are-key-to-
+deep-sea-conservation.
+“UN Sustainable Development Goals”. Accessed January 7, 2020.
+https://sustainabledevelopment.un.org/.
+UNEP, UN DESA, and FAO. “SIDS-FOCUSED Green Economy: An Analysis of Challenges
+and Opportunities”. www.unep.org/greeneconomy and www.unep.org/regionalseas, 2012.
+United Nations Conference on the Human Environment. “Rio Declaration on Environment
+and Development,” November 13, 2006. https://www.cbd.int/doc/ref/rio-declaration.shtml.
+Williams, B K, Robert C. Szaro, and Carl D. Shapiro. Adaptive Management: The
+U.S. Department of the Interior Technical Guide. Washington, D.C.: U.S. Department
+of the Interior, 2009. http://pubs.er.usgs.gov/publication/70194537.
+Williams, Byron K. “Adaptive Management of Natural Resources – Framework and Issues”.
+Journal of Environmental Management, Adaptive management for Natural Resources, 92,
+no. 5 (May 1, 2011): 1346–53. https://doi.org/10.1016/j.jenvman.2010.10.041.
+20/34 21-17330
+
+[Page 21]
+2 B. Useful links
+1
+-1
+7
+3
+3
+0
+Topic Internet address Comments
+EMMP general resources
+International Seabed https://www.isa.org.jm/documents-and-publications Authority documents, including publications,
+Authority https://www.isa.org.jm/central-data-repository legal documents, patents and DeepData repository
+Pacific Community- http://dsm.gsd.spc.int/index.php/publications-and-reports Publications and reports on deep sea minerals,
+European Union Deep regional environmental management framework,
+Sea Minerals Project and regional scientific research guidelines
+Rules, regulations and procedures
+International Seabed https://www.isa.org.jm/mining-code/Regulations The mining code
+Authority
+International Marine https://www.immsoc.org/IMMS_downloads/ Code for Environmental Management of Marine
+Minerals Society 2011_SEPT_16_IMMS_Code.pdf Mining
+International Marine https://www.immsoc.org/IMMS_code.htm Code for Environmental Management
+Minerals Society
+Det Norske Veritas https://www.dnvgl.com/maritime/index.html Shipping compliance and pollution reduction
+American Bureau of https://ww2.eagle.org/en/rules-and-resources.html Safety, compliance and environmental protection
+Shipping on marine and offshore assets
+International Maritime http://www.imo.org/en/About/Conventions/ListOfConventions/ International shipping and safety law obligations
+Organization Pages/Default.aspx
+United Nations http://www.unesco.org/new/en/culture/themes/underwater-cultural- Rules concerning Activities directed at
+Educational, Scientific heritage/2001-convention/annex-of-the-convention/ Underwater Cultural Heritage (annex to the
+and Cultural Organization Convention on the Protection of the Underwater
+Cultural Heritage)
+Standards and guidelines
+Equator Principles https://equator-principles.com/best-practice-resources/ Equator Principles and Association Governance
+Rules
+I
+S
+B
+International Organization https://www.iso.org/iso-14001-environmental-management.html ISO Environmental Management Standards A
+for Standardization
+/2
+2 1 7 /C
+/3
+4
+/6
+
+[Page 22]
+2 /32
+4
+Topic Internet address Comments I S B
+A
+/2
+International Finance https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_ International Finance Corporation Performance 7
+/C
+Corporation corporate_site/sustainability-at-ifc/publications/publications_handbook_pps Standards on Environmental and Social /6
+Sustainability
+Extractive Industries https://eiti.org/document/eiti-standard-2019#download Extractive Industries Transparency Initiative
+Transparency Initiative Standard
+Activity-specific component plan development resources
+Activity design and https://www.ourenergypolicy.org/wp-content/uploads/2014/06/OMF.pdf Provides information and methods to ensure
+integrity alignment with equipment design, working
+methods and operations procedures
+Ecological monitoring https://www.researchgate.net/publication/311104561_Pacific-ACP_states_ Provides information about targets, indicators and
+regional_scientific_research_guidelines_for_deep_sea_minerals thresholds for sustaining marine ecosystem
+integrity
+Monitoring techniques https://www.researchgate.net/publication/311104561_Pacific-ACP_states_ Provides aspects to be included and parameters to
+and methods regional_scientific_research_guidelines_for_deep_sea_minerals be measured in monitoring plans, including
+geology, sediment and seafloor communities.
+Methods for resource https://www.norskoljeoggass.no/contentassets/13d5d06ec9464156b2 Provides methods for mapping and monitoring of
+mapping and monitoring 272551f0740db0/handbook-shec-mapping-assessment-and-monitoring- seabed communities
+v0-final-signed.pdf
+Noise management https://cetsound.noaa.gov/Assets/cetsound/documents/ Provides strategies for assessing ocean noise
+Roadmap/ONS_Roadmap_Final_Complete.pdf impacts
+Noise and vibration https://www.dpti.sa.gov.au/__data/assets/pdf_file/0004/88591/DOCS_ Guidelines for management and mitigation of
+management AND_FILES-7139711-v2-Environment_-_Noise_-_DPTI_Final_word_ underwater piling noise
+editing_version_Underwater_Piling_Noise_Guide.pdf
+Lighting management https://www.boem.gov/sites/default/files/environmental-stewardship/ Guidance of offshore lighting management
+Environmental-Studies/Renewable-Energy/Offshore-Lighting-
+Guidance.pdf
+Ballast water http://library.arcticportal.org/1913/1/International%20Convention%20for International Convention for the Control and
+management %20the%20Control%20and%20Management%20of%20Ships%27%20B Management of Ships’ Ballast Water and
+allast%20Water%20and%20Sediments.pdf Sediments
+2
+1
+-1
+7
+3
+3
+0
+
+[Page 23]
+ISBA/27/C/6
+Annex I
+Environmental Monitoring and Management Plan (EMMP)
+[Example, table of contents/form of performance assessment]
+21-17330 23/34
+
+[Page 24]
+ISBA/27/C/6
+Annex II
+A. Checklist of monitoring criteria for impact reference zones and
+preservation reference zones: polymetallic nodules in the Area
+Description of how the plan addresses the
+Item Criteria criteria, or rationale for alternate criteria
+Monitoring
+1. It is recommended that experiences from other sectors be leveraged
+in the development of monitoring approaches and designs.
+2. It is recommended that collected biological samples be appropriately
+archived in a reputable museum or research institute, if possible.
+3. Data standards should be backwards-compatible.
+4. Impacts predicted in the EIA should be monitored at sites using
+stratified sampling design within IRZs to assess impact across all
+habitat types, direct and indirect impacts, and spatial scales. Without
+limiting the types of impacts that should be identified by the
+contractor in the EIA and reported in the EIS, the contractor should
+consider the following non-exhaustive list of key impacts to be
+monitored:
+• Physical removal/direct alteration of substrate, sediment and biota
+• Change in geochemistry of the seabed substrate
+• Changes to seafloor integrity
+• Release of heavy metals and other contaminants as well as potential
+accumulation through the food chain
+• Effects on the organisms and communities by plumes (such as
+smothering or effects on suspension feeders)
+• Potential effects on plankton or nekton and mesopelagic fishes from
+the seafloor or discharge plumes
+• Turbidity reducing visibility in the water column for predatory fish
+• Potential impacts on commercial fish, fisheries, marine mammals
+and migratory vertebrates such as turtles and sharks
+• Noise and light
+• Changes in water column properties
+5. Further refinement is needed for monitoring variables to be measured in
+keeping with the spatial and temporal nature of the project.
+6. Contractors should consider variance and statistical power in PRZ
+and IRZ monitoring.
+7. The contactor should monitor IRZs and PRZs for at least the duration
+of any mining activity and in accordance with the Closure Plan.
+Abbreviations: EIA, Environmental Impact Assessment; EIS, Environmental Impact Statement; IRZ, impact reference zone;
+PRZ, preservation reference zone.
+24/34 21-17330
+
+[Page 25]
+ISBA/27/C/6
+B. Checklist of monitoring criteria for impact reference zones and
+preservation reference zones: polymetallic sulphides in the Area
+Description of how the plan addresses the
+Item Criteria criteria, or rationale for alternate criteria
+Monitoring
+1. Experiences from other sectors should be leveraged in the
+development of monitoring approaches and designs.
+2. It is recommended that collected biological samples be appropriately
+archived in a reputable museum or research institute, if possible.
+3. Data standards should be backwards-compatible.
+4. Stratified sampling design to monitor within IRZs and PRZs should
+be used to assess impact across all habitat and impact types.
+5. IRZs should be designated and monitored to assess all impacts from
+mining activities within and outside the contract area.
+6. Impacts predicted in the EIA should be monitored at sites using
+stratified sampling design within IRZs to assess impacts across all
+habitat types, direct and indirect impacts, and spatial scales. Without
+limiting the types of impacts that should be identified by the contractor
+in the EIA and reported in the EIS, it is recommended that contractors
+consider monitoring the following list of non-exhaustive impacts:
+• Sediment alteration/removal
+• Smothering
+• Marine mammal populations
+• Noise and light
+• Plume – operational and discharge
+• Changes in fluid flux
+• Faunal removal
+• Trophic ecology
+• Habitat loss or change
+• Homogenization of habitat
+• Taxonomic composition change
+• Ecotoxicology
+• Sediment restructuring
+• Community Structure
+• Community Function
+• Productivity
+7. Further refinement is needed for monitoring variables to be measured
+in keeping with the spatial and temporal nature of the monitoring.
+21-17330 25/34
+
+[Page 26]
+ISBA/27/C/6
+Description of how the plan addresses the
+Item Criteria criteria, or rationale for alternate criteria
+8. Contractors should consider variance and statistical power in PRZ
+and IRZ monitoring.
+9. The contractor should monitor IRZs and PRZs for at least the
+duration of any mining activity and in accordance with the Closure
+Plan. In the context of the Closure Plan, there should then be a
+review to assess the relative importance of mining impacts and
+evaluate if any longer-term effects (residual Environmental Effects)
+must be monitored for a reasonable period after the activities in
+mining area.
+Abbreviations: IRZ, impact reference zone; PRZ, preservation reference zone.
+26/34 21-17330
+
+[Page 27]
+ISBA/27/C/6
+C. Checklist of monitoring criteria for impact reference zones and
+preservation reference zones: cobalt-rich crust areas
+Description of how the plan addresses the
+Item Criteria criteria, or rationale for alternate criteria
+Monitoring
+1. Experiences from other sectors should be leveraged in the
+development of monitoring approaches and designs.
+2. It is recommended that collected biological samples be appropriately
+archived in a reputable museum or research institute, if possible.
+3. Data standards should be backwards-compatible.
+4. Impacts predicted in the EIA/EIS should be monitored at sites using
+stratified sampling design within IRZs to assess impact across all habitat
+types, direct and indirect impacts and spatial scales. Without limiting the
+types of impacts that should be identified by the contractor in the EIA
+and reported in the EIS, the contractor should consider the following
+non-exhaustive list of key impacts to be monitored:
+• Physical removal of crusts, sediment and animals
+• Change in texture and geochemistry of the seabed substrate
+• Release of heavy metals and other contaminants as well as potential
+accumulation through the food chain
+• Smothering or other effects on the biology of benthic animals by
+sediment from the plume
+• Potential effects on plankton, nekton and mesopelagic fishes from
+the seafloor or discharge plumes
+• Turbidity reducing visibility in the water column for predatory fish
+• Potential impacts on commercial fish, fisheries, marine mammals
+and migratory vertebrates such as turtles and sharks
+• Noise and light
+• Changes in water column properties
+5. Without limiting the types of metrics that should be identified by the
+contractor in the EIA, EIS and EMMP, the contractor should consider
+assessing changes in the following non-exhaustive list of key metrics:
+• Composition, abundance and condition of epibenthic species,
+sediment properties such as physical (such as sediment thickness
+and particle size) and geochemical characteristics.
+• Water column characteristics such as turbidity and dissolved oxygen
+measured by sensors on conductivity-temperature-depth instruments
+or moorings (landers) with a variety of sensors (such as turbidity
+sensors, dissolved oxygen, temperature, salinity, current metre or
+Acoustic Doppler Current Profiler, sediment traps and hydrophone
+for acoustic monitoring of a change in behaviour or distribution of
+marine mammals). Furthermore, the Contractor should undertake
+regular conductivity-temperature-depth instrument casts in both
+IRZs and PRZs throughout the water column.
+21-17330 27/34
+
+[Page 28]
+ISBA/27/C/6
+Description of how the plan addresses the
+Item Criteria criteria, or rationale for alternate criteria
+• The concentrations of heavy metals and contaminants in the
+sediment and the water column.
+• Composition and abundance of plankton if there are oceanographic
+retention situations such as closed-circulation cells (Taylor columns)
+which may also lead to increased bioaccumulation in sessile filter-
+feeders, plankton and predatory fish.
+6. Further refinement is needed for monitoring variables to be measured
+in keeping with the spatial and temporal nature of the monitoring.
+7. Contractors must consider variance and statistical power in PRZ and
+IRZ monitoring.
+8. The contractor should monitor IRZs and PRZs for at least the duration
+of any mining activity and in accordance with the Closure Plan.
+Abbreviations: ADCP, Acoustic Doppler Current Profiler; CTD, conductivity-temperature-depth instrument; EIA, Environmental
+Impact Assessment; EIS, Environmental Impact Statement; EMMP, Environmental Monitoring and Management Plan;
+IRZ, impact reference zone; PRZ, preservation reference zone.
+28/34 21-17330
+
+[Page 29]
+2 Annex III
+1
+-1
+7
+3 3 Environmental Monitoring and Management Plan (EMMP) review form
+0
+EMMP component Does the EMMP contain: Draft regulations requirement Do the components of the EMMP meet these requirements? EMMP reference
+Project description Project goals and Regulation 48 (1); Does the EMMP identify clear project goals and objectives?
+objectives regulation 50; annex
+VII, paragraph 2 (b),
+Project Is there a list of the stakeholders containing:
+(m), (o) and (q)
+stakeholders
+• each stakeholder’s role on the project;
+• how/when they will be consulted during the project?
+Contractor project Does the project design brief summarize the dialogue between
+design brief the Contractor with persons affected by, or interested in, the
+activity?
+Does it take into account their input and reference them
+directly?
+Organizational Does the EMMP describe how the Contractor’s environmental
+structure and team fits into the organizational structure?
+responsible parties
+Does it outline the responsibilities of key personnel?
+Mining technology Are mining technology and methods explained step-by-step?
+and methods
+Does the EMMP include a discussion regarding best available
+techniques?
+Waste assessment Does the EMMP describe every potential waste generated,
+and prevention waste characteristics and the way that the waste will be
+audit disposed of?
+Is it clear that the Contractor has implemented recycling and
+waste reduction techniques whenever possible?
+I
+S
+B
+A
+/2
+2 9 7 /C
+/3
+4
+/6
+
+[Page 30]
+3 /30
+4
+EMMP component Does the EMMP contain: Draft regulations requirement Do the components of the EMMP meet these requirements? EMMP reference I S B
+A
+/2
+Environmental Organizational Regulation 46 (1) Are the roles of key personnel outlined? 7
+/C
+Management structure and and annex IV (11.1)
+For every person defined as being key personnel, is it clear
+/6
+System responsibilities
+how they support site-specific environmental objectives?
+Environmental Regulation 46 (2) and Does the EMMP include a discussion of the Contractor’s
+Management annex, para. 2 (d) environmental policy?
+System and
+Does the Contractor describe their over-arching
+Contractor
+environmental management system and how the EMMP fits
+environmental
+into that system?
+policy
+Is there a clear route for reporting to senior management to
+ensure regular evaluation of the monitoring and management?
+Is the EMMP accessible and presented in a format that allows
+contractor personnel and contractors to understand the
+purpose and procedures, particularly in the case of actions to
+be taken if thresholds are exceeded?
+Is there an appropriate mechanism to store monitoring data
+and metadata in a way that allows for evaluation of changes
+over time?
+Environmental EIA and potential Regulation 48 (3) (a) Are all potential Environmental Effects identified in the EIA
+Impact Assessment, Environmental and annex VII, discussed in the EMMP?
+risk assessment, Effects para. 2 (e)
+If a potential Environmental Effect results in a significant
+and mitigation
+change in the project site, does the EMMP assess the Effect
+hierarchy
+and the severity of the change, and explain further mitigation
+monitoring
+measures?
+programme
+Does the EMMP describe mitigation measures for all potential
+Environmental Effects identified in the EIA?
+Does the EMMP cite reputable sources confirming that the
+mitigations measures proposed represent good industry
+practices?
+Risk assessment Annex VII (2) (g) Does the EMMP describe the environmental risk assessment
+techniques used to assess each potential Environmental
+2 Effect?
+1
+-1
+7
+3
+3
+0
+
+[Page 31]
+2
+-11 EMMP component Does the EMMP contain: Draft regulations requirement Do the components of the EMMP meet these requirements? EMMP reference
+7
+3
+3
+0 Mitigation Annex VII, para. 2 Does the EMMP identify how the mitigation hierarchy was
+hierarchy (f) and regulation employed for the identification of mitigation strategies for
+47 (1) (d) each Environmental Effect?
+Monitoring Regulation 48 (1), Does the monitoring plan identify each Environmental Effect
+programme and annex IV, section documented in the EIS?
+component plans 11.3.1
+summary
+For each Environmental Effect deemed significant, is there a
+component plan and/or mitigation strategy?
+Is each component plan a detailed, stand-alone document?
+Component Annex VII, para. 2 (g) Is each component plan specific to the planned activities,
+management and management objectives, characteristics, project area,
+monitoring plan equipment and resources of the project?
+development
+Monitoring Annex VII, para. 2 (g), Does each component plan provide a detailed description of
+methodology annex IV, section the proposed methods and procedures for collecting,
+11.3.2 analysing and interpreting data?
+Is it documented that the proposed monitoring/sampling
+methods are appropriate for the parameter?
+Are the proposed monitoring/sampling/storage methods
+approved by pertinent regulatory agencies/bodies or agreed
+upon in reputable literature?
+Does the sampling methodology allow for the detection of
+expected Environmental Effects from the exploitation
+activities?
+Monitoring stations Annex VII, Does each component plan provide a detailed description of
+para. 2 (h) (i) the proposed sampling/monitoring locations and the spatial
+arrangement of proposed sampling locations?
+Is justification for the proposed sampling arrangement
+provided?
+I
+S
+B
+Are IRZs and PRZs clearly defined and justified? A
+/2
+3 1 7 /C
+/3
+4
+/6
+
+[Page 32]
+3 /32
+4
+EMMP component Does the EMMP contain: Draft regulations requirement Do the components of the EMMP meet these requirements? EMMP reference I S B
+A
+/2
+Performance Annex VII, para.2 (c) Have performance standards been developed for each 7
+/C
+standards and (j) monitored parameter that will be used to assess whether the /6
+mitigation actions have been effective?
+Are performance criteria quantitative and measurable, to the
+extent practicable? If not, are qualitative goals and standards
+applicable?
+Are these performance standards based on reputable literature
+and/or on work by pertinent regulatory agencies/ bodies?
+Are threshold values or conditions under which corrective
+actions are necessary provided for each monitored parameter?
+Does each component plan include procedures for identifying
+the need for corrective action and procedures for reporting
+non-compliance?
+Are proposed corrective actions supported by reputable
+literature or pertinent regulatory agencies/bodies?
+Adaptive Annex VII, para. 2 (g) Are the basic principles of adaptive management defined,
+management allowing the reviewer to confirm that the Contractor
+understands its principles?
+Is an adaptive management plan provided that identifies the
+key iterative phases of the plan (decision-making, monitoring
+and assessment)?
+Does the adaptive management plan include a phase to
+evaluate monitoring results with respect to stakeholder input,
+project objectives, management alternatives, updated models
+and/or monitoring protocols?
+Quality control and Annex VII, para. 2 (l), Does the EMMP include details of the quality control and
+management regulation 52 (3) management standards, including the frequency of the review
+standards of the performance of the EMMP?
+Does the EMMP set out the frequency with which a
+performance assessment report should be submitted and
+details as to what is to be contained in this report?
+2
+1
+-1
+7
+3
+3
+0
+
+[Page 33]
+2
+-11 EMMP component Does the EMMP contain: Draft regulations requirement Do the components of the EMMP meet these requirements? EMMP reference
+7
+3
+3
+0 Reporting Annex VII, para. 2 (s) Does the EMMP include details of reporting requirements and
+timing?
+Best practices Best practices Annex VII, para. 2 (k) Does the EMMP include a description of a system for
+evaluation and (m) ensuring that the plan adheres to Good Industry Practice, Best
+Available Techniques and Best Available Scientific Evidence?
+Does the system provide detail for how the Contractor will
+effectively engage stakeholders and independent experts to
+continuously review monitoring, data collection and data
+evaluation techniques?
+Does the EMMP detail a system for consideration of
+cumulative impacts of the proposed activities?
+Does the EMMP detail a system for consideration of other
+marine users?
+Does the EMMP include a description of how these practices
+are reflected in the proposed exploitation activities?
+Consultation and Ongoing Annex VII, para. 2 (p) Does the EMMP provide a description of relevant
+research consultation and and (r) stakeholders and parties identified to have interests in the
+research proposed project area?
+Does the EMMP detail the protocol for ongoing review and
+modification of the description of stakeholders and interested
+persons?
+Does the EMMP provide a schedule and detailed protocol for
+consultation and cooperation activities?
+Does the EMMP provide a method of analysing and
+identifying ongoing opportunities to collaborate with other
+stakeholders or interested persons on environmental studies?
+Training Types of training Annex VII, para. 2 (n) Does the training programme include training requirements
+programme required, personnel for each proposed operational and monitoring activity?
+requiring training I
+Is training tailored to the roles and responsibilities of S
+and record-keeping B
+personnel? A
+requirements /2
+3 3 7 /C
+/3
+4
+/6
+
+[Page 34]
+3 /34
+4
+EMMP component Does the EMMP contain: Draft regulations requirement Do the components of the EMMP meet these requirements? EMMP reference I S B
+A
+Is it clearly stated which key personnel roles will undergo
+/2
+7
+/C
+which training and when? /6
+Does the structure of the training programme allow for
+training programmes to be added as the project evolves?
+Is it clearly stated how training records will be maintained?
+Closure Plan Annex IV, section Does the EMMP include an overview of what the Closure
+11.3.3 Plan will entail (with the full details included in the separate
+document, the Closure Plan)?
+Reporting Report submittal to Regulation 48 (3) (b) Has the EMMP been reviewed and verified by an independent
+the Authority and and annex IV, competent person with applicable experience? Are the
+data-sharing for section 11.4 competent person’s qualifications provided in the document?
+regional
+Does the EMMP document the Contractor’s understanding of
+environmental
+annual reporting requirements?
+management
+Are there details regarding the timing of each reporting
+requirement?
+Are provisions included for uploading data to the Authority’s
+DeepData database?
+Does the EMMP outline how incidents will be reported and
+managed?
+2
+1
+-1
+7
+3
+3
+0

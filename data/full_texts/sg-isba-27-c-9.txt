@@ -1,0 +1,380 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/9
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March‒1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral resources
+in the Area
+Draft standard and guidelines for the safe management and
+operation of mining vessels and installations
+Prepared by the Legal and Technical Commission
+Standard for the safe management and operation of mining vessels
+and installations
+1. The safe management and operation of mining vessels and Installations is part
+of the safety management system to be implemented and maintained by the Contractor
+in accordance with the regulations on exploitation of mineral resources in the Area.
+For the purposes of the present standard, “mining vessels and Installations” means
+the vessels and Installations used in the support and conduct of mining in the Area.
+2. The Contractor shall ensure that the management and operation of all mining
+vessels and Installations engaged in exploitation of mineral resources in the Area are
+safe and comply with applicable international rules, regulations and standards.
+3. The Contractor shall ensure the development of a safety, security and
+environmental protection management system that:
+(a) Ensures the safety of personnel, the protection of the marine environment
+and the safety of mining vessels and Installations, and property;
+(b) Includes risk analyses and emergency preparedness analyses to provide a
+balanced and comprehensive picture of the risk associated with exploitation and
+ensure that the risk of incidents is reduced to as low as is reasonably practicable;
+(c) Applies recognized international standards and systems, including the
+International Management Code for the Safe Operation of Ships and for Pollution
+Prevention and the approaches adopted in International Organization for
+Standardization (ISO) standards and guidance, in particular ISO 31000:2018 – Risk
+Management – Guidelines, ISO 9001:2015 – Quality management systems –
+Requirements, and ISO 19901-6:2009 – Petroleum and natural gas industries –
+Specific Requirements for offshore structures – Part 6: Marine operations, or
+equivalent;
+__________________
+* ISBA/27/C/L.1.
+21-17336 (E) 010222
+*2117336*
+
+[Page 2]
+ISBA/27/C/9
+(d) Is consistent with International Seabed Authority rules, regulations and
+procedures, and other related international regulations, such as the International
+Convention for the Prevention of Pollution from Ships (MARPOL) and the
+International Convention for the Safety of Life at Sea (SOLAS).
+2/10 21-17336
+
+[Page 3]
+ISBA/27/C/9
+Guidelines for the safe management and operation of mining
+vessels and installations
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+A. Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+B. Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+II. Safety management process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+A. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+B. Description of the process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+III. Regulatory framework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+A. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+B. Technical and operational safety regime . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+IV. Safe management of operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+A. Compliance management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+B. Contingency plans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+C. Working environment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+D. Audit and review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+E. Performance monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+F. Information management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+21-17336 3/10
+
+[Page 4]
+ISBA/27/C/9
+I. Introduction
+1. These guidelines contain guidance on the safe management and operation of
+vessels and Installations used in the support and conduct of exploitation in the Area.
+“Vessels” means the vessels that are stationary on the mining site during the mining
+operations to run and support the marine and submarine operations involved,
+including the temporary storage and transfer of mined material to cargo vessels for
+transport away from the mining site. Such vessels and Installations are hereinafter
+termed “mining vessels and Installations”.
+A. Scope
+2. These guidelines apply to mining vessels and Installations intended to be
+deployed for exploitation in the Area. The guidelines are based on good industry
+practice and are recommendations for the implementation of the applicable mandatory
+requirements contained in the regulations on exploitation of mineral resources in the
+Area (regulations on exploitation) and should be read in conjunction with the standard.
+B. Purpose
+3. The purpose of these guidelines is to describe how a Contractor can achieve the
+safe management and operation of mining vessels and Installations engaged in the
+Area by minimizing risk and ensuring the protection of:
+(a) Human life at sea;
+(b) Marine environment;
+(c) Mining vessels and Installations, and property.
+4. Safe management and operation require the identification and understanding of
+the risks to human life and property at sea and the marine environment, together with
+a system of planning, controls, training and compliance with applicable
+internationally recognized rules and regulations and national laws.
+5. These guidelines shall also be read in conjunction with the regulations on
+exploitation, as well as other relevant International Seabed Authority standards and
+guidelines, including but not limited to those related to:
+(a) Emergency response and contingency planning;
+(b) Environmental impact assessments and environmental impact statements;
+(c) Environmental management and monitoring planning;
+(d) Scope and standard of baseline data collection;
+(e) Hazard identification and risk assessment.
+II. Safety management process
+A. Introduction
+6. The objective of the process of development and implementation of safe
+management of mining vessels and Installations is to ensure that the Contractor,
+Subcontractors and all associated parties and personnel engaged in supporting
+exploitation in the Area comply with the same level of safety during operations.
+4/10 21-17336
+
+[Page 5]
+ISBA/27/C/9
+B. Description of the process
+7. Prior to the deployment of a mining vessel or installation, the Contractor should,
+in its application to the Authority for approval of a plan of work, document the
+operational intent and profile following the topics set out in figure I and providing
+relevant documentation as necessary.
+Figure I
+Overview of topics to be considered in the safe management and operation plan
+III. Regulatory framework
+8. The regulations on exploitation and the standard require that the management and
+operation of all mining vessels and Installations comply with applicable international
+rules and standards; the rules, regulations and procedures of the Authority; the national
+laws of the flag State relating to vessel standards and crew safety in the case of vessels
+or of the sponsoring State or States in the case of Installations; and the national laws of
+the sponsoring State or States in relation to any matters that fall outside the jurisdiction
+of the flag State, such as worker rights for non-crew members and human health and
+safety that pertains to the mining process rather than to ship operations.
+9. Compliance shall be demonstrated by means of processes, procedures and
+documented actions that conform to these rules, regulations and required safety standards.
+10. Depending on the type of vessels and operations, existing industry guidelines
+that would assist such compliance include the following:
+(a) Guidelines for the Safe Management and Operation of Offshore Support
+Vessels, issued by United Kingdom Offshore Operators Association and the Chamber
+of Shipping;1
+__________________
+1 See www.libramar.net/news/guidelines_for_the_safe_management_and_operation_
+of_offshore_support_vessels/2017-07-29-1314.
+21-17336 5/10
+P
+P
+P
+P
+P
+P
+P
+a r t
+a rt 1
+a rt 2
+a rt 3
+a rt 4
+a rt 5
+a rt 6
+T
+C
+M
+A
+R
+E
+Pm
+o p ic
+o m p lia n c e
+a n a g e m e n t sy ste m
+s s e t d e sc rip tio n
+isk m a n a g e m e n t
+m e rg e n c y re sp o n s
+e rfo rm a n c e
+o n ito rin g
+e
+C o n te n t
+O u tlin e s th e a p p ro a c h a n d m e th o d s u se d to d e s c rib e a n d d e m o n s tra te c o m p lia n c e w ith th e re le v a n t
+re g u la tio n s , a s w e ll a s th e re q u ire m e n ts a n d e x p e c ta tio n s o f o p e ra to rs a n d e x te rn a l sta k e h o ld e rs .
+P ro v id e s a d e s c rip tio n o f th e o p e ra to r’s m a n a g e m e n t sy s te m to e n s u re th a t h e a lth , s a fe ty a n d
+e n v iro n m e n ta l ris k s a re re d u c e d to a to le ra b le (a s lo w a s re a so n a b ly p ra c tic a b le ) le v e l. T h e m e th o d s
+to re d u c e risk m u st b e c o n sid e re d in p a rt 4 .
+P ro v id e s a d e s c rip tio n o f th e a s s e t, its o p e ra tio n s, a n d th e e q u ip m e n t a n d sy ste m s n e c e s sa ry to re d u c e
+ris k to a to le ra b le le v e l, fo llo w in g th e a s lo w a s re a s o n a b ly p ra c tic a b le p rin c ip le , a n d to fu lfil th e
+re q u ire m e n ts o f th e a p p lic a n t’s s c o p e o f o p e ra tio n s . T h e e q u ip m e n t a n d sy ste m s m u s t b e c o n s id e re d
+in p a rt 4 .
+P ro v id e s a d e s c rip tio n o f th e ris k m a n a g e m e n t p ro c e ss fo r a s su rin g th a t th e ris k s a s so c ia te d w ith th e
+p ro p o s e d s c o p e o f o p e ra tio n s a re re d u c e d to a le v e l th a t is to le ra b le , fo llo w in g th e a s lo w a s
+re a s o n a b ly p ra c tic a b le p rin c ip le , to th e o p e ra to r a n d o th e r sta k e h o ld e rs . T h e ris k m a n a g e m e n t p ro c e s s
+m u s t c o n sid e r th e e le m e n ts d e s c rib e d in p a rt 2 a n d th e sy s te m s a n d e q u ip m e n t d e s c rib e d in p a rt 3 .
+P ro v id e s a d e s c rip tio n o f e m e rg e n c y re s p o n s e a rra n g e m e n ts a n d p la n s . T h e se s h o u ld b e d e s c rib e d
+b a se d o n th e risk m a n a g e m e n t p ro c e ss o u tlin e d in p a rt 4 .
+P ro v id e s a d e s c rip tio n o f m o n ito rin g a rra n g e m e n ts to e n s u re th a t th e ris k m a n a g e m e n t m e a s u re s
+id e n tifie d in p a rt 4 a re im p le m e n te d , m a in ta in e d a n d e ffe c tiv e in th e w o rk p la c e .
+
+[Page 6]
+ISBA/27/C/9
+(b) Guidelines for Offshore Marine Operations, issued by Norwegian
+Shipowners’ Association, Norwegian Oil and Gas Association, Netherlands Oil and
+Gas Exploration and Production Association, Danish Shipowners’ Association, Oil &
+Gas UK and United Kingdom Chamber of Shipping;2
+(c) Code of Safety for Special Purpose Ships, 2008;3
+(d) ISO 19901-6:2009 Marine Operations;4
+(e) NORSOK Standard J-003 Marine Operations (Rev. 2, Aug. 1997)
+(withdrawn but may be used as supplement to ISO 19901-6), issued by Norwegian
+Oil Industry Association and Federation of Norwegian Engineering Industries.5
+A. Introduction
+11. The operator of the mining vessels and Installations is responsible for
+implementing the various requirements by means of procedures, documentation,
+drawings, analysis reports, etc.
+12. The Contractor is responsible for ensuring that the regulatory regime is followed
+by means of verifications, spot checks, periodic reviews, audits, etc.
+13. The ultimate responsibility lies with the Contractor.
+B. Technical and operational safety regime
+14. Figure II provides an overview of the technical and operational compliance
+requirements for mining vessels and Installations.
+Figure II
+Overview of technical and operational compliance of mining vessels and Installations
+__________________
+2 See http://g-omo.info/wp-content/uploads/2021/11/GOMO-Complete-Document-November-2021.pdf.
+3 See www.cdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/
+MSCResolutions/MSC.266(84).pdf and www.cdn.imo.org/localresources/en/KnowledgeCentre/
+IndexofIMOResolutions/MSCResolutions/MSC.408(96).pdf.
+4 See www.iso.org/standard/34591.html.
+5 See www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standard-categories/J-
+Marine-Operation/j-003/.
+6/10 21-17336
+
+[Page 7]
+ISBA/27/C/9
+15. For the ship/marine system part of mining vessels and Installations, the design and
+outfitting should comply with classification rules and the relevant national laws of the
+flag State or sponsoring States. During operation, the mining vessels and Installations
+should follow the classification society and flag State and sponsoring States supervision
+schemes and comply with the International Safety Management Code.
+16. For the mining system part of the mining vessels and Installations, it is recommended
+that the mining specific equipment be certified according to applicable rules.
+17. The Contractor should ensure that the mining vessels and Installations engaged
+in mining operations have an adequate management system covering the interface for
+marine and mining operations.
+IV. Safe management of operations
+18. This section covers the requirements that a Contractor should fulfil in addition to
+the technical and operational safety regime mentioned in section III of these guidelines.
+A. Compliance management
+19. Compliance management is an important part of the safe management of
+operations.
+20. Compliance with the rules and regulations (including for those aspects covered
+in section III B, on the technical and operational safety regime) is key to maintaining
+a minimum level of safety both at the design stage as well as in operations. The
+Contractor should establish a system that ensures continued compliance with
+applicable rules, regulations and standards.
+21. While the existing rules and regulations cover most parts of the mining vessels
+and Installations in terms of design and operations for the marine side, there are gaps
+when it comes to the operational side of mining systems and the interface with the
+marine systems. The Contractor, together with the operator, should establish a safety
+case compliance demonstration on how the requirements pertaining to health, safety
+and the environment are intended to be met.
+22. The compliance demonstration should be proportionate to the magnitude of risk.
+The primary objectives of a risk assessment in this context are to identify and rank
+the risks across the range of components covered under the design and operation of
+mining vessels and Installations so that they can be adequately managed through the
+evaluation and implementation of appropriate risk reduction measures. In this regard,
+guidance on approaches to hazard identification and risk assessment, on what
+constitutes a suitable and sufficient risk assessment, and on risk management best
+practice are provided in the guidelines on tools and techniques for hazard
+identification and risk assessments.
+23. The Contractor should have ultimate responsibility for any risk study carried
+out on their undertaking. The Contractor is responsible for:
+(a) Initiating the process of risk assessment;
+(b) Scoping the risk assessment (given the knowledge of the asset, stage in the
+life cycle, etc.). This should include the context and purpose of the work, the
+processes and parts of the installation to be included, the approach or depth of risk
+assessment to be employed and the format of the report;
+(c) Subcontracting specialist contractors to handle appropriate aspects, e.g.
+leadership of hazard identification, quantification, as appropriate;
+21-17336 7/10
+
+[Page 8]
+ISBA/27/C/9
+(d) Providing the necessary inputs and members of brainstorming teams to the
+subcontractors;
+(e) Providing all necessary resources and support;
+(f) Reviewing the outputs so as to ensure that details of the installation and
+its operation are appropriate and to obtain an understanding of the hazards, potential
+consequences and risks;
+(g) Making use of the results of the risk assessment as part of the continuous
+improvement of safety, e.g. by using it to identify and evaluate possible remedial
+measures;
+(h) Reviewing the risk assessment periodically and updating it as required.
+The ownership of the risk assessment needs to be retained by the Contractor who will
+therefore need to carefully consider how to supply the data input required by the
+Subcontractor, including details of the asset and its operation. In all cases, personnel
+carrying out the risk assessment should have a knowledge of the:
+(i) Equipment, process and/or activity to be assessed;
+(ii) Hazards present;
+(iii) Probability/likelihood of the failure scenarios realizing a hazard;
+(iv) Consequences of exposure to the hazards present or produced;
+(i) Producing a risk assessment that is fully appropriate for the installation and
+purpose, rather than a generic risk assessment for the type of vessel and installation
+(unless it can be demonstrated that the generic study is adequate and conservative and
+does not fail to address significant issues which are specific to the asset).
+24. The relationship between the risk assessment and the Contractor’s safety
+management system is shown in figure III below.
+Figure III
+Risk assessment as part of safety management
+25. Risks are reduced to as low as is practicable by employing risk assessments to
+help focus and maximize the process of continual improvement within the safety
+8/10 21-17336
+
+[Page 9]
+ISBA/27/C/9
+management system. Ongoing review as part of the process can help determine
+whether additional controls are required or justified, thereby providing assurance to
+management that both safety and business risks are adequately managed and
+controlled. Active engagement across all levels of the workforce in the process of risk
+assessment is to be encouraged, with a view to gaining an understanding, and thus
+greater acceptance, of the risks and their relative priorities. Risk assessment is an
+essential part of any safety management system.
+B. Contingency plans
+26. Plans and procedures for emergency situations should be established and
+maintained based on a systematic evaluation of possible scenarios. Depending on the
+commercial importance of the mining system, plans and procedures for contingency
+repair should also be established. More details are provided in the standard for the
+preparation and implementation of emergency response and contingency plans.
+C. Working environment
+27. The Maritime Labour Convention, 2006, and the International Labour Organization
+requirements currently in force apply to marine crew. However, similar documents that
+describe the working environment for mining crew and crew that are not part of the
+marine crew should be established. Such documents should outline the working
+environment measures relating to the health, safety and environment standards that shall
+be followed and should be prepared in accordance with the Health and Safety Plan.
+28. The documents should also describe the occupational health services, the measures
+for assessing physical activity, the employer’s obligation to undergo training in health,
+safety and environment work, the rest and recovery periods, etc. The requirements that
+apply to the working environment should also be part of this document, which should
+describe the general requirements relating to the working environment, the physical and
+psychosocial working environment, chemical and biological health hazards etc. Such
+requirement may follow an existing international standard.
+D. Audit and review
+29. Audits and reviews of the vessel and mining system should be conducted
+regularly. The frequency should be defined by those responsible for the operation of
+the vessel and mining Installations. The main objective of the reviews should be to:
+(a) Assess the effectiveness and suitability of the safety management system
+(b) Establish the improvement needs
+30. The main objective of the audits should be to:
+(a) Assess compliance with regulations and company requirements
+(b) Establish rectification needs
+E. Performance monitoring
+31. A visible framework for performance management should be developed and
+maintained where information sharing and application integration among operations
+and maintenance to provide a comprehensive view of production, technical
+performance and product quality. This will be the basis for improving integration
+21-17336 9/10
+
+[Page 10]
+ISBA/27/C/9
+between production management and the management of vessels and Installations.
+Performance monitoring is recommended to reduce unplanned downtime, decrease
+maintenance costs and reduce health, safety and environment risks. An effective
+performance management strategy should be in place to drive safer, more reliable
+operations, while facilitating optimal performance at a lower sustainable cost. An
+example of a risk-based strategy and performance monitoring framework is indicated
+in figure IV.
+Figure IV
+Performance monitoring framework
+F. Information management
+32. A system for the collection of life cycle information should be established and
+maintained in order to ensure access to the relevant documentation throughout the
+systems service life. Life cycle information shall include:
+• Documents from the project phase
+• Operational procedures/manuals
+• Operational data
+• Documents covering any modifications or events
+• Inspection, monitoring and testing records and reports
+• Reports covering any assessments or analyses
+10/10 21-17336

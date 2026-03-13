@@ -1,0 +1,687 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/12
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March–1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral
+resources in the Area
+Draft standard and guidelines for the preparation and
+implementation of emergency response and contingency plans
+Prepared by the Legal and Technical Commission
+* ISBA/27/C/L.1.
+21-17340 (E) 280122
+*2117340*
+
+[Page 2]
+ISBA/27/C/12
+Standard for the preparation and implementation of
+emergency response and contingency plans
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+A. Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+B. Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+II. Emergency preparedness scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+A. Definition of objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+B. Definition of scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+C. Description of premises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+D. Definition of roles and responsibilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+E. Competence and participation in emergency preparedness assessments . . . . . . . . . . . . . . 6
+F. Methods, models and tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+G. System boundaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+H. Definition of the plan of execution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+III. Incidents having harmful effects on the marine environment . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+IV. Barrier management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+V. Emergency response organization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+VI. Communication lines and notification process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+VII. Drills . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+VIII. Internal and external audits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+IX. Process improvement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+X. Definitions and abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+2/18 21-17340
+
+[Page 3]
+ISBA/27/C/12
+I. Introduction
+1. In the present standard, the Legal and Technical Commission sets out the
+process to be followed for the preparation and implementation of emergency response
+and contingency plans for the exploitation of mineral resources in the Area in
+accordance with the regulations on exploitation of mineral resources in the Area
+(regulations on exploitation).
+2. The standard is to be read in conjunction with the regulations on exploitation,
+in particular regulations 33 and 53 and annex V, as well as other relevant International
+Seabed Authority standards and guidelines, including, but not limited to, those related
+to:
+(a) Environmental impact assessments and environmental impact statements;
+(b) Environmental management and monitoring plans;
+(c) Environmental management systems;
+(d) Safe management of mining vessels and installations;
+(e) Tools and techniques for hazard identification and risk assessment.
+A. Scope
+3. The present standard applies to assets intended to be deployed for exploitation
+of mineral resources in the Area and sets out mandatory requirements for the
+preparation and implementation of emergency response and contingency plans.
+4. The standard shall be read in conjunction with the equivalent sections in the
+guidelines for the preparation and implementation of emergency response and
+contingency plans.
+B. Purpose
+5. The objective of the standard is to describe the process for preparing and
+implementing emergency response and contingency plans for managing accidents and
+incidents that could potentially occur during mining operations in the Area, and to
+establish a set of unified and coordinated response mechanisms.
+6. While identifying potential accidents and incident scenarios, it is important to
+consider mitigating actions for controlling the associated risks. An emergency
+response and contingency plan is a vital contributor to mitigating the risk of incidents
+occurring during exploitation of mineral resources
+II. Emergency preparedness scenarios
+7. The contractor shall carry out a hazard identification process that provides a
+balanced and comprehensive representation of potential hazards throughout the total
+mining life cycle in order to inform the development of an emergency response and
+contingency plan. The hazard identification process shall be appropriate and consider
+potential incident scenarios associated with the processes, operations or phases of
+mining operations.
+8. The contractor shall carry out risk analyses to identify and assess the potential
+cause, likelihood and consequence of potential incidents, in order to identify
+appropriate actions and management strategies for preventing and responding to such
+21-17340 3/18
+
+[Page 4]
+ISBA/27/C/12
+incidents, as well as ascertaining the effects that various processes, operations and
+modifications will have on major incidents and environmental risk.
+9. The contractor shall prepare an emergency preparedness manual, which shall
+cover the areas set out in the present standard of the contractor’s health, safety,
+environment and quality management systems.
+10. An overview of the emergency preparedness assessment process is set out in the
+figure below.
+Emergency preparedness assessment process
+Abbreviations: EPA, emergency preparedness assessment; DSHA, defined situations of hazards
+and accidents.
+11. An emergency preparedness assessment combines all the elements shown in the
+figure above. The first element of the emergency preparedness assessment starts with
+defining the basic parameters for emergency preparedness and setting the scope. The
+establishment of the context for the emergency preparedness assessment shall include,
+as a minimum, the steps outlined in the present section.
+12. In contingency planning, the contractor shall consider and cover the major
+categories of scenarios that are foreseen as occurring as a result of an incident such
+as collision, grounding, fire and explosion, pollution incidents, safety incidents and
+security incidents. Contractors shall establish their own individual manuals for
+security planning and ensure that they undertake thorough information management.
+13. The second element of the emergency preparedness assessment is hazard
+identification. That is followed by the third step (EPA 3), which involves establishing
+defined situations of hazards and accidents and then preparing for each of the
+situations so defined.
+4/18 21-17340
+
+[Page 5]
+ISBA/27/C/12
+14. The contractor shall carry out emergency preparedness analyses, which shall be
+part of the basis for making decisions when, for example, defining hazard and
+accident situations, stipulating performance requirements or success criteria for
+emergency preparedness, or selecting and setting out the dimensions of emergency
+preparedness measures. The output from hazard identification or risk assessments
+shall be used as a basis for establishing defined situations of hazards and accidents.
+The course of events will be analysed according to those situations and the governing
+performance requirements for emergency preparedness identified, as seen under EPA 4
+in the figure above.
+A. Definition of objectives
+15. The contractor shall define the objectives for the emergency preparedness
+assessments that are relevant for the project according to the phases of the proposed
+operations. The objectives shall be suitable for the purpose of the assessments,
+particularly with respect to providing sufficient and appropriate input to decision-
+making at the right time. The defined objectives for the emergency preparedness
+assessments (and the elements included) shall be documented.
+B. Definition of scope
+16. The contractor shall define the scope of the emergency preparedness
+assessments, which shall include, as a minimum: (a) defined objects of analysis or in
+other words, installation(s), plant(s), system(s), activity/activities, operation(s) and/or
+phase(s) that are the subject of analysis; and (b) a description of the activities to be
+carried out. Guidance on the subjects to be included in the emergency preparedness
+assessment is included in the guidelines for the preparation and implementation of
+emergency response and contingency plans and in annex V to the draft regulations on
+exploitation.
+C. Description of premises
+17. The contractor shall identify and describe the premises for an emergency
+preparedness assessment. The premises shall, as a minimum:
+(a) Define the purpose of the assessment in accordance with the needs of the
+activity;
+(b) Identify and describe the target groups for the results of the assessment;
+(c) Identify the relevant regulations, requirements, specifications and
+classification society rules;
+(d) Identify the overall emergency preparedness approach;
+(e) Identify other internal company requirements;
+(f) Identify the relevant risk assessment premises and assumptions that may
+influence the emergency preparedness assessment;
+(g) Identify the relevant operational premises for the assessment.
+21-17340 5/18
+
+[Page 6]
+ISBA/27/C/12
+D. Definition of roles and responsibilities
+18. The contractor, with other involved parties, shall define the responsibilities
+related to the planning and execution of the entire emergency response and
+contingency plan process, as well as the elements and the various tasks and activities
+to be undertaken. The other involved parties shall mean the contractor’s organization,
+subcontractors, if relevant, and other external participants that are likely to play a role
+in the mining operations. This process shall be undertaken in consultation with the
+sponsoring State(s), the flag State(s) and coastal States and other entities having
+relevant jurisdictional competence or rights and legitimate interests with regard to
+specific components of the plan.
+E. Competence and participation in emergency
+preparedness assessments
+19. During an emergency preparedness assessment, the relevant personnel with the
+necessary competence shall be included and involved in all phases of the life cycle.
+The guidelines for the preparation and implementation of emergency response and
+contingency plans provide an example of the relevant personnel.
+20. In addition, personnel with engineering or design competence shall be involved
+during the phases of the project, Personnel from the emergency preparedness
+organization shall be involved in assessments in the operational and modification
+phases.
+F. Methods, models and tools
+21. All methods, models and tools that are used shall be tailored to the needs of the
+decision support system and the objectives and scope of the individual analysis.
+G. System boundaries
+22. The contractor shall define and describe in a suitable manner the boundaries of
+the emergency preparedness assessment. The description shall, as a minimum, include
+the following main aspects:
+(a) The technical system (process, structure, utility, safety, emergency
+preparedness systems);
+(b) The period of time and types of operations and activities to which the
+analysis relates;
+(c) Available resources on the vessel/installation;
+(d) Interaction with relevant resources – company, field, area and external
+emergency resources;
+(e) Definition of groups that are exposed to risk, including possible third party
+groups.
+23. The boundaries of the emergency preparedness assessment shall be documented.
+6/18 21-17340
+
+[Page 7]
+ISBA/27/C/12
+H. Definition of the plan of execution
+24. The contractor shall establish a plan for the execution of the emergency
+preparedness assessment. The plan shall include the expected deliveries, schedule,
+decision milestones and target groups for assessment. Responsibilities for executing,
+follow-up and management of deviations from the plan shall be established and the
+plan, including its follow-up, shall be documented.
+III. Incidents having harmful effects on the marine environment
+25. The contractor shall update the environmental risk and emergency preparedness
+analyses if there are significant changes affecting the environmental risk or the emergency
+preparedness situation. The effectiveness of the emergency response and contingency
+plan shall be tested on an annual basis and the plan updated as needed, but in any event
+at least once every five years. The contractor’s management systems and their alignment
+with those of the subcontractors, if any, are vital during the mining operations. The
+emergency preparedness manual shall therefore establish such links, common goals and
+objectives for the handling of an emergency incident. The emergency preparedness
+manual shall also refer to the relevant parts of the subcontractors’ safety management and
+environmental management systems and vice versa. The health, safety, environment and
+quality manual or management systems manual shall contain sections including
+emergency preparedness and environmental management.
+26. For environmental risk analyses, varying vulnerability in different geographical
+areas shall be accounted for and the respective regional environmental management
+plans must be taken into account.
+27. In environmental risk analyses, the contractor shall include and document an
+assessment of pollution hazards and the measures to be taken to prevent or reduce
+such hazards; for example, mining discharges and measures to control such
+discharges.
+28. The contractor shall take into account historical incidents, ensuring that the
+dimensions of the contingency are in accordance with the environmental risk.
+IV. Barrier management
+29. Barriers shall be established to identify conditions that could lead to failures,
+hazards or accidents, reduce the possibility of such failures, hazards or accident, or
+limit serious harm to the marine environment. A description of the mining operations
+and equipment, including the emergency response plan and emergency response
+equipment, shall be listed as part of the emergency preparedness manual where the
+barriers are specifically identified.
+30. Where more than one barrier is necessary, they shall be independent of one
+another. The contractor or the party responsible for operations shall specify the
+strategies and principles that form the basis for the design, use and maintenance of
+barriers, so that their function is safeguarded throughout the life of the asset.
+31. The contractor shall ensure that personnel are aware of which barriers have been
+established and the function that they are intended to fulfil, as well as the performance
+requirements that have been defined in respect of the finalized technical, operational
+or organizational elements necessary for the individual barrier to be effective.
+Personnel shall also be aware of which barriers and elements of barriers are not
+functioning or have been impaired. Details of the known natural marine
+21-17340 7/18
+
+[Page 8]
+ISBA/27/C/12
+environmental conditions that may influence the efficiency of response equipment or
+the effectiveness of a response effort shall be presented. The contractor shall
+implement the necessary measures to remedy or compensate for missing or impaired
+barriers as fast as is practicable.
+V. Emergency response organization
+32. The structure and function of the internal groups, both offshore and onshore,
+that will have responsibility for the implementation of the emergency response and
+contingency plan shall be set out in the plan. That may involve such designations as
+the incident response team, for both vessel and shore-based management aspects
+associated with emergency response.
+VI. Communication lines and notification process
+33. Together with the emergency preparedness organization, the contractor shall
+also identify the communication lines within the organization. The communication
+process shall also be included in the contingency plans that address the different
+scenarios being considered.
+34. The communication lines shall be presented by means of flow charts,
+organization charts and so on, complete with a list of the functions expected to be
+fulfilled by a certain position, including the competence requirements for that
+position. The key functions shall participate in drills and exercises once every year
+and their participation recorded.
+35. Together with communication lines, a notification process for informing or
+notifying the relevant stakeholders in the event of an incident shall be established.
+36. The regulations on exploitation require that the contractor shall not proceed or
+continue with exploitation if it is reasonably foreseeable that proceeding or
+continuing would cause or contribute to an incident or prevent the effective
+management of such incident. The communication lines shall be prepared in
+accordance with the regulations on exploitation. A deadline for notifications shall also
+be included. The contractor shall ensure that any subcontractors are obliged to
+promptly notify any incidents.
+VII. Drills
+37. Drills and exercises are vital for contingency planning. As a minimum, the drills
+and exercises shall be prepared and conducted according to the different scenarios
+considered under contingency planning. The contractor shall ensure that the necessary
+training and drills are conducted regularly, so that all personnel are always able to
+handle operational disturbances and hazard and accident situations in an effective
+manner. Personnel shall carry out training and exercises related to the specific facility
+where the work is to be performed.
+38. Through drills, the contractor shall verify that all the performance requirements
+for emergency preparedness against serious pollution are fulfilled and that the
+emergency preparedness resources that are intended to be used are operational and
+available. The verification shall be completed prior to starting the planned activity
+and the documentation shall be made available to the International Seabed Authority
+upon request.
+8/18 21-17340
+
+[Page 9]
+ISBA/27/C/12
+VIII. Internal and external audits
+39. Periodic audits shall be conducted, and the results of such audits shall be made
+available. The contractor shall provide the outcomes of the three types of audit set out
+below to the International Seabed Authority. It is the responsibility of the contractor
+to ensure that the subcontractor and independent audits are conducted in accordance
+with the requirements listed in the present standard.
+40. The first type of audit involves the subcontractor, who shall carry out an internal
+audit. The level of authority of who shall execute such audits shall be documented,
+with the expectation that such personnel are competent in carrying out audits with a
+high-level understanding of operations. Such audits shall be performed twice a year.
+While documenting the audits in the form of an audit report, a separate record of
+nonconformities and observations shall be documented.
+41. The second type of audit involves the contractor, who shall audit the
+subcontractor and the asset(s). The contractor shall be responsible for documenting
+such audits and the maintenance of a separate register for nonconformities and
+observations along with the audit report. Such audits shall be conducted at least once
+a year. Any nonconformities identified during the audit must be rectified.
+42. The third type of audit involves an audit by an external party of the contractor
+and the subcontractor. The basis for such an audit shall be the audit reports from both
+the subcontractor and the contractor. However, the audit shall be carried out
+independently and may cover additional information beyond what has already been
+reported. It shall also be possible to align the audit to coincide with a drill to enable
+the active participation of all parties. Such audits shall be conducted at least once a
+year.
+IX. Process improvement
+43. The Contractor shall continuously improve health, safety and the working
+environment by identifying the processes, activities and products in need of
+improvement, and implementing the necessary improvement measures. Those
+measures shall be followed up and the effects evaluated and documented. Individual
+employees shall be encouraged to actively identify weaknesses and suggest solutions.
+44. Applying experience from one’s own activities and those of others shall be
+facilitated in the improvement work.
+45. The process improvement shall be part of the audits and this needs to be
+documented and demonstrated during the periodical audits.
+X. Definitions and abbreviations
+46. Except as otherwise specified herein, the terms and phrases defined in the
+regulations on exploitation shall have the same meaning in the present standard.
+47. “Asset” means all vessels and installations used in the mining operation.
+48. “Classification society” means a body or entity (known as “the society”) which
+is responsible for the development and maintenance of rules and the verification of
+compliance with the rules throughout the life of a vessel, as well as the assignment of
+a class to a ship upon the completion of satisfactory surveys.
+49. “DSHA” means defined situations of hazards and accidents.
+21-17340 9/18
+
+[Page 10]
+ISBA/27/C/12
+50. “EPA” means emergency preparedness assessment.
+51. “HSEQ” means health, safety, environment and quality.
+52. “Subcontractor” means a party in a contractual relationship with the contractor
+to support the execution of the mining operation.
+10/18 21-17340
+
+[Page 11]
+ISBA/27/C/12
+Guidelines for the preparation and implementation of
+emergency response and contingency plans
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+A. Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+B. Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+II. Emergency preparedness scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+A. Definition of objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+B. Definition of scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+C. Definition of responsibilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+D. Competence and participation in emergency preparedness assessments . . . . . . . . . . . . . . 13
+III. Incidents having harmful effects on the marine environment . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+IV. Emergency response organization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+V. Communication lines and notification process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+VI. Drills and exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+VII. Internal and external audits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+VIII. Process improvement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+IX. Definitions and abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Appendix
+Identification of accidental events . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+21-17340 11/18
+
+[Page 12]
+ISBA/27/C/12
+I. Introduction
+A. Background
+1. The present guidelines serve as a supporting document for the standard for the
+preparation and implementation of emergency preparedness and contingency plans
+for exploitation operations in the Area and should be read in conjunction with the
+corresponding sections in the standard, in particular draft regulations 33 and 53 and
+annex V to the regulations on exploitation. The standard describes the process to be
+undertaken to prepare and implement emergency response and contingency plans for
+managing accidents and incidents that could occur during mining operations in the
+Area.
+B. Purpose
+2. The objective of the present document is to provide guidance on the
+requirements set out in the regulations on exploitation and the standard.
+II. Emergency preparedness scenarios
+3. The purpose of an emergency preparedness assessment is to update the response
+strategies, performance requirements, emergency preparedness organization and
+measures to cover the design, construction and operational phase. The objective of
+this analysis is to provide the basis for the emergency preparedness plan and the drills
+and training plans, in accordance with the standard.
+A. Definition of objectives
+4. The objectives for the emergency preparedness plan should be clearly defined
+for each phase. The objectives may be function-based, goal-based or a combination
+of the two, depending on the framework chosen for establishing the plan. Functional
+objectives are those that relate to the specific functions of a given phase, while goal-
+based objectives are focused on achieving specific parameters within each phase.
+B. Definition of scope
+5. The scope should clearly define the object being addressed, namely installation,
+system, plant, activity and so on, and the description of actions involved for the object
+being addressed. Depending on the system(s) subjected to the assessment and the
+objectives of the process, the emergency preparedness assessment may include the
+establishment of escape, evacuation and rescue strategies.
+C. Definition of responsibilities
+6. When assigning responsibilities, it is imperative to factor in the necessary
+competence of the personnel involved and ensure a sufficient level of authority within
+the respective organizations to execute the relevant tasks expected. As an example,
+organizational hierarchy should not hinder the level of authority when executing the
+aforementioned responsibilities.
+12/18 21-17340
+
+[Page 13]
+ISBA/27/C/12
+D. Competence and participation in emergency
+preparedness assessments
+7. An example of relevant personnel to be included and involved in life-cycle
+phases during an emergency preparedness assessment is as follows:
+(a) Operational experience (e.g. senior marine crew, mining crew);
+(b) Emergency preparedness assessment (regulatory requirements, methods);
+(c) Health, safety and environment personnel;
+(d) External emergency resource representatives, if applicable and required.
+III. Incidents having harmful effects on the marine environment
+8. For environmental risk analyses, a reference-based environmental risk analysis
+may be performed if updated analyses for a comparable activity in the vicinity are
+available. The data should be based on the best available input data sourced from a
+relevant entity, including baseline data to be collected by the contractor. Evidence
+that the environmental risk will be similar or lower than in the reference activity
+should be provided. The analyses should give a brief description of the vulnerability
+of the selected environmental objectives. Further, the selection of the environmental
+objectives should be justified and the data source should be referenced.
+9. The environmental risk analyses should have a description of the critical
+functions that are used to assess the damage and the degree of seriousness of the
+damage (the consequence) for the different environmental objectives. Any
+assumptions made in the estimations, for example based on insufficient knowledge,
+should be described.
+10. For environmental emergency preparedness analyses, the contractor should set
+goals and mechanisms for reduction of the environmental risk, including goals for
+protecting the vulnerable environmental objectives prior to the emergency
+preparedness analysis. The analyses should also cover minor discharge incidents and
+measures to limit and combat them.
+IV. Emergency response organization
+11. The emergency preparedness analyses based on the risk ownership identified
+could be further developed to assign different roles to handle a risk or a risk group.
+As an example, two defined situations of hazards and accidents are described below
+for illustrating this point.
+12. The two defined situations of hazards and accidents considered are:
+(a) Occupational/acute medical condition (DSHA 1);
+(b) Release of toxic gas/asphyxiant gas (DSHA 2).
+13. The organization may consist of lifeboat 1 team, lifeboat 2 team, helideck team,
+man overboard boat team, technical team, on-scene commander, emergency response
+team, medical personnel, first aid team and so on.
+14. For DSHA 1, the roles may be allocated to a first aid team, a helideck team, an
+emergency response team and a medical person. For DSHA 2, the roles may be
+allocated to a technical team, a first aid team, an emergency response team, an
+on-scene commander (in case of high fatalities) and a medical person. In this setting,
+21-17340 13/18
+
+[Page 14]
+ISBA/27/C/12
+the overall risk ownership could lie with the on-scene commander but is distributed
+among different functions within the on-board organization.
+15. A suitably manned and competent organization should be put in place to handle
+events that could have wide variations in terms of consequence and the probability of
+occurrence. Links to the shore-based organization in coordinating efforts during an
+incident should be ensured.
+16. Examples of different levels of emergency preparedness organizations are, for
+example, first line or second line. The first line of emergency preparedness
+organizations is expected to be responsible for the direct management and control of
+any emergency occurring on board, including notification, mobilization, handling and
+normalization of the emergency. The shore-based organization is considered the
+second line emergency preparedness organization and constitutes the main onshore
+support centre for the asset in an emergency. More levels of such organizations should
+be evaluated and, if found necessary, presented.
+V. Communication lines and notification process
+17. The contingency plans are not expected to detail the communication lines as
+such but give an overview of the relevant parts of the emergency preparedness
+organization that can be linked to handling the different scenarios considered. The
+expectation in establishing such communication lines is to address the various
+stakeholder needs (International Seabed Authority, sponsoring State, flag State,
+coastal States, etc.), simplify the handling of incidents (roles and responsibilities) and
+establish the line of authority for onshore and offshore communications (namely who
+shall do what). It is expected that the key positions within the line of authority are
+manned by sufficiently competent personnel with relevant experience.
+18. The notification process should include a list of notifiable events, the relevant
+personnel to be notified, both internal and external, and the means of notification.
+Personnel who are part of the contractor and the subcontractors are considered as
+internal while all personnel outside these are considered external. The contact details
+for relevant personnel should be easily available and the means of communication to
+each of the relevant personnel, email, fax, text message and so on, should be well
+established. This is to ensure that there is clarity in terms of notification during an
+incident. Drills and exercises may follow the system for communication and
+notification as best practice.
+VI. Drills and exercises
+19. In order to fulfil the requirements for training and drills, simulator training
+should be used for monitoring and control functions. Personnel who have emergency
+preparedness functions should practice their emergency preparedness tasks at least
+once during each period of stay. Mustering and evacuation routines should be
+included in the drill. At least one annual drill should be carried out for the emergency
+preparedness management and for personnel attending to collaborate on emergency
+preparedness against acute pollution.
+20. Drills related to collaboration on emergency preparedness against acute
+pollution should include skills training in the individual emergency preparedness
+functions and co-training between the contractor and other involved parties. The
+result of the drill should be evaluated by the contractor.
+21. When hired facilities or vessels are used, a drill should be conducted at an early
+point in time, in accordance with a coordinated emergency preparedness plan for the
+14/18 21-17340
+
+[Page 15]
+ISBA/27/C/12
+contractor and the subcontractors, if any. If the same facility is used for a lengthy
+consecutive period, a major annual drill should be held involving both unit and area
+resources, relevant external resources, the contractor’s and subcontractors’ onshore
+emergency preparedness organizations and the supervisory authorities. A record of
+such drills is expected to be maintained and made available upon request by the
+International Seabed Authority.
+22. While performing drills, the communication and notification process should, as
+far as possible, be adhered to. This is to test and ensure the necessary preparedness in
+case of a real emergency.
+VII. Internal and external audits
+23. Periodic audits may be conducted either by onshore personnel or the personnel
+on board. However, it is recommended that an audit be conducted by onshore
+personnel as far as is practical to ensure neutrality and also to avoid potential conflicts
+on board. The audits should have a structure that includes an audit notification, an
+audit plan, minutes of meetings, logging of observations and nonconformities. The
+level of information capture from different types of audits may be categorized and
+logged according to the type of audit performed. Regardless of the type of audit, the
+information collected and the resulting audit reports, including conclusions drawn,
+should be made easily available upon request by the International Seabed Authority.
+VIII. Process improvement
+24. A sound health, safety and working environment culture can be observed in
+enterprises that organize continuous, critical and thorough work in order to reduce
+risk and improve health, safety and the work environment. Elements of a sound
+health, safety and working environment culture include that:
+(a) The effort and means in the health, safety and environment work are
+continuously subject to a critical assessment as regards potential goal conflicts and
+efficiency;
+(b) There is a clear understanding in the organization that culture is not an
+individual quality but something that is developed in the interaction between people
+and the given framework conditions;
+(c) Development and collective learning are facilitated through competence
+enhancement, participation and systematic and critical reflection at all levels;
+(d) Health, safety and environment work cannot be viewed independently
+from each other or from other value-creating processes in the enterprise.
+25. Identification for improvements can be based, in part, on the results of analyses
+and surveys, on investigation of hazard and accident situations, on the handling of
+nonconformities and on the experience gained from internal follow-up or the
+experience gained by others. Applying experience can, for example, include
+information on faults and defects, as well as examples of good problem-solving and
+practices, including identification of the root causes.
+IX. Definitions and abbreviations
+26. The terms and abbreviations in these guidelines have the same meaning as in
+the standard.
+21-17340 15/18
+
+[Page 16]
+ISBA/27/C/12
+Appendix
+Identification of accidental events
+A. For all assets, the risk analysis shall as a minimum consider
+whether the following accidental events are relevant
+1. Collisions:
+• Collision with supply ship
+• Collision with fishing vessel
+• Collision with standby vessel
+• Collision with transport vessel (e.g. a bulk carrier)
+• Collision with underwater craft
+• Collision with drifting objects
+2. Incorrect weight distribution:
+• Shifting of deck cargo
+• Swinging loads from cranes or derricks
+• Shifting of ballast
+• Shifting of mined materials
+• Icing
+3. Falling objects:
+• Shifting, falling deck cargo
+• Falling crane booms
+• Falling crane lifts
+4. Drift:
+• Line breakage
+• Multiple line breakage/dragging anchor
+• Failure of dynamic positioning system
+• Winch failure
+5. Helicopter accident on the unit.
+6. Hull/structural failure.
+7. Fires in enclosed spaces:
+• Fire in accommodation spaces
+• Fire in machinery spaces
+• Fire in workrooms
+8. Explosions in machinery spaces and other equipment rooms.
+9. Loss of control during transit:
+• Collision during transit
+• Grounding
+• Towing failure
+16/18 21-17340
+
+[Page 17]
+ISBA/27/C/12
+10. Incorrect operation of systems, including systems treating foodstuffs (storage
+method, etc.) and potable water.
+11. Failure during ship-to-ship transfer of mined material:
+• Clogging of hose
+• Break of hose
+• Pump failure
+12. Severe weather such as hurricanes, storms, squalls, lightning, waterspouts and
+extreme waves.
+13. Responding to distress calls from nearby passing vessels in accordance with
+regulation 33 of the International Convention for the Safety of Life at Sea.
+B. Accidental events to be especially considered for mining operations
+1. Hydrocarbon blowout:
+• Shallow gas blowout on seabed
+• Reservoir blowout on drilling floor
+• Blowout caused by various possible events
+2. Release of toxic gases.
+3. Potential fire scenarios related to mining operations:
+• Fire in “high fire-risk” areas
+4. Explosion scenarios related to mining operations:
+• Explosion in “high risk” areas
+5. Vertical riser system:
+• Clogged buffer system
+• Clogged riser pipe
+• Leakage of riser pipe
+• Break of riser pipe
+• Failure of recovery system
+• Pump leakage
+• Entanglement
+6. Seafloor collector:
+• Hydraulic/electrical failure
+• Lack of or limited manoeuvrability
+• Oil spillage
+• Collision with other equipment (e.g. remotely operated vehicles, autonomous
+underwater vehicles, monitoring equipment)
+• Collision with natural obstacles (rocks)
+• Collision with artificial obstacles (anchoring remains/weights)
+• A-frame failure
+• Lift wire winch failure
+21-17340 17/18
+
+[Page 18]
+ISBA/27/C/12
+• Umbilical winch failure
+• Umbilical cable internal failure
+• Umbilical entanglement
+• Severing of umbilical
+• Surface equipment hydraulic power unit failure
+C. Accidental events to be especially considered for vessels with
+diving capability
+Critical accidental events in connection with diving operations in general.
+D. Accidental events to be especially considered for a high number
+of personnel:
+1. Smoke and gas due to fire, release from nearby installations.
+2. Accident involving gangways.
+3. Narrow escape routes.
+4. Evacuation possibilities, in view of a large number of persons, life-saving
+appliances, etc.
+5. Outbreak and spread of contagious diseases.
+E. Notifiable events under the regulations on exploitation
+1. Medical emergency.
+2 Fatality of a person.
+3. Missing person.
+4. Occupational lost time illness.
+5. Occupational lost time injury.
+6. Medical evacuation.
+7. Fire/explosion resulting in an injury or major damage or impairment.
+8. Collison resulting in an injury or major damage or impairment.
+9. Significant leak of hazardous substance.
+10. Unauthorized mining discharge.
+11. Adverse environmental conditions with likely significant safety and/or
+environmental consequences.
+12. Significant threat or breach of security.
+13. Implementation of an emergency response and contingency plan.
+14. Major impairment/damage compromising the ongoing integrity or emergency
+preparedness of an installation or vessel.
+15. Impairment/damage to safety or environmentally critical equipment.
+16. Significant contact with fishing gear.
+17. Contact with submarine pipelines or cables.
+18/18 21-17340

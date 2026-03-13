@@ -1,0 +1,1096 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/8
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March–1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral resources
+in the Area
+Draft guidelines on the tools and techniques for hazard
+identification and risk assessments
+Prepared by the Legal and Technical Commission
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+A. Purpose of the present Guidelines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+B. Format of the present Guidelines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+C. Use of the present Guidelines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+II. General principles of Hazard identification and Risk assessment . . . . . . . . . . . . . . . . . . . . . . . . 4
+A. Key principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+B. Approaches to Risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+C. The importance of Stakeholder consultation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+III. Risk assessment process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+A. Establishing context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+B. Hazard identification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+C. Risk analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+D. Risk evaluation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+E. Risk treatment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+F. Monitoring and review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+G. Risk communication process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+* ISBA/27/C/L.1.
+21-17333 (E) 280122
+*2117333*
+
+[Page 2]
+ISBA/27/C/8
+H. Recording and reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+I. Risk assessment tools and techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+IV. Best practice in Risk Management . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+V. Abbreviations, acronyms and definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+VI. Information sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+A. References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+B. Useful links . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+2/27 21-17333
+
+[Page 3]
+ISBA/27/C/8
+I. Introduction
+1. The present Guidelines have been developed to provide practical and technical
+guidance on the tools and methodologies for identifying Hazards and assessing Risks
+associated with the Exploitation of Mineral Resources in the Area and are generally
+applicable to numerous parts of the Exploitation Regulations.
+2. Given the uncertainties inherent in mineral Exploitation in the Area, a rigorous
+Risk Management strategy is necessary at every phase of the project. Therefore, the
+Risk Management process is to be incorporated into various components of a
+Contractor’s application for a Plan of Work for Exploitation, including the HSP, the
+Closure Plan, the EIA, the EMMP and the ERCP. It is also to be incorporated into
+day-to-day Exploitation activities, including the management and operation of mining
+support vessels and Installations.
+A. Purpose of the present Guidelines
+3. The purpose of the present Guidelines is to provide information on approaches
+and tools for Hazard identification and Risk assessment. The intent is to “reduce the
+risk of Incidents as much as reasonably practicable, to the point where the cost of
+further risk reduction would be grossly disproportionate to the benefits of such
+reduction”.
+4. The guidance below is not intended to be prescriptive; the aim is to provide
+sufficient direction to enable Contractors to formulate an approach to the
+implementation of Risk Management strategies through the use of Hazard
+identification and Risk assessment tools. The guidance contained below is intended
+as a reasonably comprehensive starting point from which a practical and appropriate
+Hazard identification and Risk assessment can be developed within a process that
+involves rigorous Stakeholder engagement. The present Guidelines are also intended
+for users and reviewers (including a wide range of Stakeholders) of the following
+Plan of Work components: HSP, Closure Plan, EIA, EMMP and ERCP.
+5. Hazard identification and Risk assessment activities should inform methods to
+reduce the Risk of Incidents and impacts of Exploitation on the Marine Environment
+as much as reasonably practicable and should:
+(a) Serve to establish the necessary Risk assessment and Risk Management
+systems to effectively implement the proposed Plan of Work in accordance with Good
+Industry Practice, Best Available Techniques, Best Environmental Practices and the
+regulations, including the technology and procedures to meet health, safety and
+environmental requirements for the activities proposed in the Plan of Work;
+(b) Provide a basis for EIA and EIS;
+(c) Provide for the protection of human life and safety.
+B. Format of the present Guidelines
+6. The present Guidelines consist of the following sections:
+• Section I contains details concerning the purpose and scope of the Guidelines
+and provides the Contractor with information on the organization of the
+Guidelines and the ways in which they are linked to the regulations and other
+Guidelines.
+21-17333 3/27
+
+[Page 4]
+ISBA/27/C/8
+• Section II contains details concerning the key principles of Hazard identification
+and Risk assessment, triggers for and timing of the Risk Management process,
+and a discussion of pertinent Stakeholders.
+• Section III contains details concerning the Risk assessment process, specifically
+establishing the context, Hazard identification, Risk analysis, Risk evaluation,
+and Risk treatment, monitoring, review and communication. In addition, a
+summary of potential Risk assessment tools and techniques is provided.
+• Section IV contains a summary of the best practices associated with the Risk
+assessment and Risk Management process.
+• Section V contains a list of abbreviations and definitions of terms used
+throughout the present Guidelines.
+• Section VI contains references and links to additional sources of information
+useful in Hazard identification and Risk assessment.
+C. Use of the present Guidelines
+7. The present Guidelines should be read in conjunction with the Exploitation
+Regulations, the relevant Exploration Regulations and other Standards and Guidelines
+of the Authority.
+8. The appropriate REMP should also be considered by the Contractor in that it
+may affect more regional Hazards and Risk elements.
+9. Additional resources can be found in section VI of the present Guidelines.
+Overarching guidance documents for all industries include ISO standard 31000:2018
+(Risk management: guidelines), IEC standard 31010:2019 (Risk management: risk
+assessment techniques) and ISO standard 9000:2015 (Quality management:
+fundamentals and vocabulary). There are numerous guidance documents issued by
+national jurisdictions and related industries that can provide valuable and relevant
+approaches to performing Hazard identification and Risk assessment.
+II. General principles of Hazard identification and
+Risk assessment
+A. Key principles
+10. Two of the fundamental policies and principles of the Exploitation Regulations
+are to provide for “the effective protection of the Marine Environment from the
+harmful effects which may arise from Exploitation and to provide for the protection
+of human life and safety”.
+11. All activities associated with the Exploitation of Minerals in the Area inherently
+involve some level of potential Risk to the environment and/or the health and safety
+of the personnel engaged to perform such activities. Hazard identification and Risk
+assessment are critical elements used in the preparation of key Risk Management
+documents (e.g., the EIA as documented in the EIS, the EMMP, the ERCP, the HSP
+and others). In them, appropriate controls used by the Contractor are established to
+reduce the potential for harm to both the environment and humans. The principles of
+Risk Management are well established across a wide range of industries, and there is
+a wealth of valuable guidance on the methodologies and tools associated with
+transparent, systematic processes to review and control Risks, including an ISO
+4/27 21-17333
+
+[Page 5]
+ISBA/27/C/8
+standard on risk management (ISO 31000:2018), which can be applied to
+Exploitation, in addition to many others.
+B. Approaches to Risk assessment
+12. Risk assessment is a part of Risk Management; it is a structured process to
+identify how objectives may be affected and analyse the Risk in terms of
+consequences and their probability before a decision is made on whether further
+treatment is required. Risk assessment is an attempt to answer the following
+fundamental questions:
+(a) What can go wrong?
+(b) How likely is it to go wrong ?
+(c) What are the impacts?
+(d) Is the level of Risk acceptable or does it require Mitigation?
+13. As shown in figure 1 below, the following elements form the pillars of Risk
+assessment (i.e. identifying, analysing, assessing and communicating Risks):
+(a) Establishing context;
+(b) Hazard identification;
+(c) Risk analysis (frequency and consequence assessment);
+(d) Risk evaluation (risk representation);
+(e) Risk treatment;
+(f) Monitoring and reviews;
+(g) Communication and consultation.
+21-17333 5/27
+
+[Page 6]
+ISBA/27/C/8
+Figure 1
+Overview of the Risk assessment process within the context of the Risk
+Management process
+Source: Adapted from ISO/IEC standard 31010:2019.
+C. The importance of Stakeholder consultation
+14. Successful Risk assessment is dependent on effective communication and
+consultation with Stakeholders. A robust and transparent process of performing
+Hazard identification and Risk assessment activities will be critical to the review and
+acceptance of management documents generated as a result. These Stakeholders
+include, but are not limited to:
+(a) Member States;
+(b) Sponsoring State(s);
+(c) Other relevant Authority Contractors;
+(d) Authority observers;
+(e) Scientific community;
+(f) Environmental (non-governmental organization) community;
+(g) Industry Stakeholders (e.g. suppliers, subcontractors, potential customers);
+(h) Other entities, as appropriate.
+6/27 21-17333
+
+[Page 7]
+ISBA/27/C/8
+III. Risk assessment process
+15. Hazard identification and Risk assessment fits within a larger process that
+ensures that the Plan of Work meets the objectives outlined above in section II.A,
+throughout the entire life cycle of the project. The other Standards and Guidelines
+listed in section I.C, are intrinsically linked with the Risk assessment and Risk
+Management process, and the Contractor should review the applicable Guidelines
+regarding those plans when performing the Hazard identification and Risk
+assessment.
+16. Table 1 contains a brief summary of the Risk assessment components
+accompanying each phase of the project life cycle, as well as the associated reporting
+requirements to the Authority.
+Table 1
+Risk assessment components
+Project phase Phase-specific Risk assessment characteristics Submission to the Authority
+Pre-Feasibility Study and/or Broad review of potential Hazards and Results incorporated into the Mining
+Feasibility Study Risks associated with the mineral Workplan included in the application
+deposit and proposed Exploitation, in for approval of a Plan of Work
+which all geological, engineering, submitted to the Authority under
+legal, operating, economic, social, regulation 7 of the Exploitation
+environmental and other relevant Regulations
+factors are considered
+Design of a detailed Plan of – Establishment of Hazard Results incorporated into the following
+Work identification and Risk assessment components of the application for
+process; approval of a Plan of Work submitted
+to the Authority under regulation 7 of
+– Identification of Hazards and
+the Exploitation Regulations, including
+evaluation of Risks specifically
+HSP, Closure Plan, EIA, EMMP and
+associated with environmental
+ERCP
+impacts, health and safety, security
+Risks, management and operation
+of mining support vessels and
+Installations, and closure associated
+with the proposed Exploitation
+Operations – Ongoing Risk assessment and new Annual reporting to the Authority
+Hazard identification based on the under regulation 38 (1) of the
+environmental and safety Exploitation Regulations throughout
+monitoring results and the adaptive the duration of the contract
+management process
+– Modifications as needed to the HSP,
+EMMP, and ERCP to ensure that
+Mitigation and safety results are
+acceptable
+21-17333 7/27
+
+[Page 8]
+ISBA/27/C/8
+Project phase Phase-specific Risk assessment characteristics Submission to the Authority
+Closure – Risks relating to Environmental Closure Plan submitted to the Authority
+Effects are to be quantified, under regulations 59 and 60 of the
+assessed and managed, which Exploitation Regulations at least 12
+includes the gathering of months prior to the planned end of
+information relevant to closure or production
+suspension of the Exploitation
+– Evaluation of post-closure Hazards
+and Risks and associated proposed
+post-closure monitoring and
+Mitigation measures
+Post-closure monitoring Ongoing Risk assessment and new Final performance assessment report
+Hazard identification based on the submitted at the cessation of post-
+post-closure environmental monitoring closure monitoring activities to the
+results and adaptive management Authority under regulation 61 of the
+process Exploitation Regulations
+A. Establishing context
+17. Establishing the context informs the rest of the Risk assessment process,
+including the definition of Risk assessment objectives and Risk criteria, and the
+identification of appropriate Risk assessment tools and techniques. For a specific Risk
+assessment, (e.g. the ERA in the case of an EIS/EMMP/ERCP, or health and safety
+Risk assessment in the case of the HSP/ERCP), establishing the context should
+include the following:
+(a) Establishing the external context with respect to the environment in which
+the system (i.e. the Exploitation) operates, including:
+(i) Physicochemical, biological, social, cultural, political, legal, regulatory
+and economic factors, whether international, national, regional or local;
+(ii) Perceptions and values of external Stakeholders;
+(b) Establishing the internal context with respect to:
+(i) Capabilities of the Contractor organization in terms of resources and knowledge;
+(ii) Internal Stakeholders and policies;
+(iii) Internal structures (e.g. governance, roles and accountability);
+(c) Establishing the context of the Risk Management process;
+(d) Defining Risk criteria involves deciding on the following:
+(i) The nature and types of consequences to be included and how those will
+be measured;
+(ii) The way in which probabilities are to be expressed;
+(iii) The way in which a level of Risk will be determined;
+(iv) The criteria by which it will be decided when a Risk needs treatment;
+(v) The criteria for deciding when a Risk is acceptable and/or tolerable;
+(vi) Whether and how combinations of Risks will be taken into account.
+8/27 21-17333
+
+[Page 9]
+ISBA/27/C/8
+18. One particular aspect of deep seabed Exploitation that complicates the
+assessment of environmental impacts is that there is a lack of scientific certainty
+associated with deep-sea species and ecosystems. A Precautionary Approach is
+therefore required, as indicated by regulation 2 (e) (ii) of the Exploitation
+Regulations. There are fewer uncertainties with regard to the evaluation of health and
+safety Risks associated with surface vessels and Installations on the open ocean and
+with operational machinery, as there are a number of existing and well-established
+industries (e.g. offshore oil and gas drilling, land-based mining, dredging, deep-sea
+fishing) that can be drawn upon to inform the Hazard identification and Risk
+assessment processes necessary to protect human health and safety to adhere to reduce
+Risks to a level considered consistent with the ALARP principle.
+B. Hazard identification
+19. Hazards are sources of potential harm; identifying them should be the first step
+in the Risk analysis process. The Hazards associated with all aspects of the project
+should be identified and understood before moving to the second step of identifying
+the Risks for analysis. The Hazard identification process should be dynamic and
+ongoing to ensure that any new Hazards are identified following changes in the Plan
+of Work and throughout different phases of the project. This phase is critical in the
+context of the Risk Management since an overlooked Hazard (hence Risk) cannot be
+further assessed and controlled.
+20. The Hazard identification process should include a review of all potential
+Hazards that could result in consequences for personnel, surface vessels and the
+environment during all phases of the project. There are a number of general categories
+of potential Hazards associated with the activities proposed in the Plan of Work and
+Mining Area that should be reviewed. Hazard categories and examples of aspects to
+evaluate include, but are not limited to:
+(a) Natural environment and ecosystem issues (i.e. Exploitation causing
+changes in water composition or clarity, or noise affecting the food chain and
+availability of prey; potential oxygen depletion; sediment plume effects on the
+seafloor and water column; bioaccumulation of toxic metals and other contaminants,
+among others);
+(b) Pollution and hazardous substance issues (i.e. potential pollution from
+vessels or equipment to the Marine Environment, potential for fire, explosions and
+biological Hazards, among others);
+(c) Occupational issues (e.g. Hazards present in the work environment,
+potential for personnel issues and ergonomic problems, among others);
+(d) Climatic and natural events (e.g. impacts of hurricanes, lightning and
+wind, among others);
+(e) Socioeconomic issues (e.g. potential identification of human remains of
+an archaeological or historical nature, impacts on marine traffic, fisheries, and
+traditional and other users of the Area).
+21. Commonly used techniques to aid in Hazard identification include, but are not
+limited to, the following:
+(a) HAZID technique;
+(b) Hazard review;
+(c) What-if analysis;
+(d) Checklist analysis;
+21-17333 9/27
+
+[Page 10]
+ISBA/27/C/8
+(e) HAZOP analysis;
+(f) Failure modes and effects analysis.
+22. Those techniques are described in further detail in ISO/IEC standard
+31010:2019. Links to resources to assist with Hazard identification are provided in
+section VI.B.
+23. For existing and well-established technologies and industries, Hazard
+identification can rely heavily on previous experience and studies and may require no
+more than a simple identification technique to enumerate the Hazards. For example,
+as noted in section III.A, for the evaluation of health and safety Hazards associated
+with surface vessels and Installations on the open ocean and operational machinery,
+use can be made of the well-established Risks in similar industries (offshore oil and
+gas drilling, land-based mining, dredging and deep-sea fishing) as a guide. However,
+for use of new technologies or work in ecosystems where there is a lack of full
+scientific certainty (i.e. deep seabed Exploitation, and deep-sea species and
+ecosystems), a more thorough analysis should be employed (such as the HAZOP
+analysis) to gain sufficient confidence that all the Hazards have been identified.
+C. Risk analysis
+24. Risk analysis is the process of determining the consequences and their
+probabilities for each identified Hazard or Risk event. The consequences and
+probabilities for each Hazard are then combined to determine a level of Risk (see
+sect. III.D). This process involves an assessment of (a) the frequency and probability
+of the Hazard occurring and (b) the severity of the consequences associated with the
+Hazard. This can be accomplished using both quantitative and qualitative methods.
+25. The Risk assessment methodology applied should be efficient (cost-effective)
+and sufficiently detailed to enable the ranking of the Risks for the subsequent
+consideration of Risk reduction. The rigour of the assessment should be proportionate
+to the complexity of the problem and the magnitude of the Risks. It is expected that
+assessments would progress through the following stages (see figure 2):
+(a) Qualitative, in which frequency and severity are determined purely
+qualitatively;
+(b) Semi-quantitative, in which frequency and severity are quantified
+approximately, within ranges;
+(c) Quantified Risk assessment, in which full quantification occurs.
+26. These approaches to Risk assessment reflect a range of detail of assessment
+from qualitative (lowest) to fully quantified (highest). The approach should be chosen
+taking into account:
+(a) The level of estimated Risk (and its proximity to the limits of tolerability);
+(b) The complexity of the problem and/or the difficulty encountered in
+answering the question whether more needs to be done to reduce the Risk.
+10/27 21-17333
+
+[Page 11]
+ISBA/27/C/8
+Figure 2
+Proportionate Risk assessment
+Abbreviations: Q, qualitative Risk assessment; SQ, semi-quantitative Risk assessment; QRA,
+quantified Risk assessment.
+27. The overall process from Hazard identification to determination of the Risk is
+graphically represented in figure 3.
+Figure 3
+Overview of the Risk analysis process
+Source: Adapted from Vamanu and others.
+28. Choosing the appropriate Risk assessment approach or combination of
+approaches is a key step in supporting the Risk Management process. Qualitative Risk
+assessments are commonly based on experience or expertise and result in categorical
+estimates of Risk. Quantitative Risk assessments involve the assignment of data-
+supported numeric values in the assessment of probability and consequence. They
+commonly follow an initial qualitative assessment focused on the highest-priority
+Risks identified. Quantitative Risk assessments are more likely to be used to account
+for the compounding of effects from multiple scenarios or events.
+21-17333 11/27
+
+[Page 12]
+ISBA/27/C/8
+29. Importantly, Risk assessments should be used to provide an input into the
+decision-making process; those responsible for such decision-making should be
+suitably qualified, experienced and of sufficient seniority to be competent and
+accountable for their actions.
+30. The lower levels of assessment (qualitative and semi-quantitative) are
+considered most appropriate for screening for Hazards and events that need to be
+analysed in greater detail, for example to assist in determining the events to be
+included in the representative set for a more detailed assessment. One approach to
+deciding the appropriate level of detail would be to start with a qualitative approach
+and to opt for more detail whenever it becomes apparent that the current level is
+unable to offer the following:
+(a) The required understanding of the Risks;
+(b) Discrimination between the Risks of different events;
+(c) Assistance in deciding whether more needs to be done (making compliance
+judgements).
+31. Figure 4 below depicts a screening process to determine the appropriate Risk
+assessment level.
+Figure 4
+Screening to determine appropriate Risk assessment level
+Abbreviations: Q, qualitative Risk assessment; SQ, semi-quantitative Risk assessment; QRA,
+quantified Risk assessment.
+12/27 21-17333
+
+[Page 13]
+ISBA/27/C/8
+32. Both qualitative and quantitative Risk assessments provide Contractors with the
+knowledge required to properly control and communicate the Risk. Qualitative
+assessments, which involve expert judgment, may be sufficient for many operations,
+such as simple operations in which the level of Risk is dependent on fewer variables
+and where uncertainties are relatively low. Quantitative assessments, however, can
+offer additional insight if the operation or technology is more complex, decisions
+regarding the effectiveness of Risk controls and potential consequences are dependent
+on many variables, multiple paths to failure exist, the Risk is greater, or uncertainties
+are greater. Ultimately, choosing the appropriate Risk assessment method is also
+useful for the proper communication of Risk between the Contractor, the Authority
+and other Stakeholders.
+33. Risk estimation entails assessing both the severity (consequence) and frequency
+(likelihood) of hazardous events. The amount of detail and effort required is
+progressively greater for qualitative, semi-quantitative and quantified Risk
+assessments. For the qualitative or semi-quantitative approaches, drawing up a Risk
+matrix is a convenient method for ranking and presenting the results. It is important
+that the Risk matrix used should be capable of discriminating between the Risks of
+the different hazardous events for the installation.
+34. Examples of quantitative and qualitative assessment methods are provided
+below.
+Procedures
+35. Frequency/probability assessment procedures and consequence assessment
+procedures are discussed below.
+Frequency/probability assessment
+36. The objective of a frequency/probability assessment is to provide a
+characterization of Risk Hazards by likelihood of their occurrence by estimating how
+likely a hazardous event is to occur, the range of outcomes from such an event and
+the frequency of such outcomes. The three following general approaches are
+commonly employed to estimate probability; they may be used individually or jointly:
+(a) Use of relevant historical data;
+(b) Probability forecasts using predictive techniques;
+(c) Expert opinion used in a systematic and structured process.
+37. During a frequency assessment, inductive or deductive analysis can be used to
+determine the range of outcomes of an event. In inductive Hazard analysis, a bottom-
+up technique is used to consider a Hazard event and its possible effects on the
+operation in its entirety. Deductive Hazard analysis is a top-down technique used to
+consider hypothetical situations in which an operation is failing in a certain way and
+an attempt is made to determine the possible causes or contributing behaviours.
+38. The level of detail resulting from a frequency assessment is dependent on the
+stage of the project at which it is being evaluated; the further along the project is, the
+more detail and data can potentially be included in the assessment. If a quantitative
+approach to frequency assessment is not possible by using available data on the
+project in question, the use of statistical data on the historical frequency of events
+should be considered for the frequency assessment.
+39. The results of the probability assessment can be used to assign a specific
+probability category to each Risk, which can then be used in the Risk evaluation (see
+sect. III.D). An example of a probability scale for environmental impacts and health
+and safety impacts is presented in table 2.
+21-17333 13/27
+
+[Page 14]
+ISBA/27/C/8
+Table 2
+Probability scale for environmental impacts and health and safety impacts
+Probability of an Incident occurring
+Category during the project period
+Likely > 50%
+Reasonably likely 10%–50%
+Unlikely 1%–10%
+Remote 0.1%–1%
+Extremely remote < 0.1%
+40. Examples of frequency assessment methods are provided below. Links to
+resources to assist with Hazard identification are provided in section VI.B.
+Consequence assessment
+41. In consequence assessment, the level of the impact that could occur is evaluated,
+as is the level of the impact of a hazardous event on personnel, surface vessels and
+the environment. For example, consequences can include the accidental release of
+material, a release of energy or the loss of onboard resources. An event may have a
+range of impacts of different magnitudes and affect a range of objectives and
+Stakeholders. The types of consequences to be analysed and the Stakeholders affected
+are decided earlier, when the context is established (see sect. III.A).
+42. Consequence analysis may involve the following:
+(a) Taking into consideration existing controls to treat the consequences,
+together with all relevant contributory factors that affect the consequences;
+(b) Relating the consequences of the Risk to the original objectives;
+(c) Considering both immediate consequences and those that may arise after
+a certain time has elapsed, if consistent with the scope of the assessment;
+(d) Considering secondary consequences, such as those having an impact on
+associated systems, activities, equipment or organizations.
+43. The activities employed in the consequence assessment phase may include the
+following:
+(a) Characterizing the material or energy associated with the Hazard being
+analysed;
+(b) Estimating (by means of models and correlations) the transport of the
+material and/or the propagation of the energy in the environment to the target of
+interest (people, structures and others);
+(c) Identifying the effects of the propagation of energy or material on the
+target of interest;
+(d) Quantifying the health, safety, environmental or economic impacts
+(depending on the target of interest).
+44. Consequence modelling usually involves sophisticated computer programs
+designed for specific tasks, most of which are intended for safety or environmental
+purposes (e.g. fire, explosion overpressure, and smoke and gas dispersion modelling).
+Such models can serve to predict the range, intensity, and mortality and morbidity
+rates.
+14/27 21-17333
+
+[Page 15]
+ISBA/27/C/8
+45. The results of the probability assessment can be used to assign a specific
+consequence category to each Risk, which can then be used in the Risk evaluation
+(see sect. III.D). An example of a consequence scale for environmental impacts based
+on water quality is presented in table 3.
+Table 3
+Consequence scale for environmental impacts based on water quality
+Negative effects Description
+No The Hazard is not expected to have any negative effects on water or
+sediment quality. There are no expected negative effects on the
+ecosystem (no chronic effects). This means that the water
+concentration and/or sediment concentration is not expected to
+exceed limit values for chronic effects on biota.
+Low The Risk of negative effects on water or sediment quality is low. The
+Risk of negative effects on the ecosystem is low (chronic effects).
+This means that the water concentration and/or sediment
+concentration is not expected to exceed limit values for chronic
+effects on biota. Recovery is possible.
+Considerable The Hazard has considerable negative effects on water or sediment
+quality. The Hazard has considerable negative effects on the
+ecosystem (chronic effects). This means that the water concentration
+and/or sediment concentration is expected to exceed limit values for
+chronic effects on biota. Only partial recovery in the long term
+(more than 1,000 years) is possible.
+Large The Hazard has large negative effects on water or sediment quality.
+The Hazard has large negative effects on the ecosystem (chronic or
+acute effects). This means that the water concentration and/or
+sediment concentration is expected to exceed limit values for
+chronic effects on biota. Only partial recovery from a long-term
+perspective (more than 1,000 years) is possible.
+Severe The Hazard has severe negative effects on water or sediment quality.
+The Hazard has severe negative effects on the ecosystem (chronic or
+acute effects). This means that the water concentration and/or
+sediment concentration is expected to exceed limit values for
+chronic effects on biota. Recovery is not possible.
+46. Examples of consequence assessment methods are provided in section III.C.
+Links to resources to assist with Hazard identification are provided in section VI.B.
+Accounting for uncertainties
+47. The Risk Management process is intended to support decision-making by taking
+account of uncertainty and the possibility of future events or circumstances (intended
+or unintended) and their effects on agreed objectives. The uncertainties associated
+with the analysis of Risk are often considerable. An understanding of those
+uncertainties is necessary to interpret and communicate Risk analysis results
+effectively. Risk is identified and analysed using data, methods and models, and the
+analysis of uncertainties associated with those plays an important part in their
+application. Uncertainty analysis involves determining the variation or imprecision
+in the results brought about by the collective variation in the parameters and
+21-17333 15/27
+
+[Page 16]
+ISBA/27/C/8
+assumptions used to define the results. An area closely related to uncertainty analysis
+is sensitivity analysis. When making decisions as part of managing Risk, it is
+important to remember that this is not an absolute science; it revolves around
+managing uncertainty to achieve the objectives of protecting human health and the
+Marine Environment.
+48. By considering the uncertainty in data, analyses and interpretation, an
+assessment can be made of where there are major gaps in understanding the impacts
+of the proposed activities, which can help to direct further work to improve
+knowledge and confidence.
+49. Because deep seabed mining is a new industry associated with uncertainties, it
+is important that the Precautionary Approach is applied to the management of
+environmental Risk. The Precautionary Approach requires addressing and preventing
+environmental Risks at early stages, even if uncertainties remain.
+D. Risk evaluation
+50. Evaluating Risk is a complex area in which, in the purest sense, the Risk level
+is compared to predetermined acceptance criteria to facilitate decisions on treatment.
+There are some instances in which this is applicable and the assessment results are
+more absolute, showing which Risks are acceptable and which are not, so that clear
+decisions can be made concerning the extent and nature of treatment and priorities.
+The Exploitation Regulations do not list thresholds for environmental impacts
+(EIA/EIS).
+51. Until sufficient data on the Area exist and the Authority establishes EIA
+thresholds and other Standards, Contactors could use project-specific and area-
+specific impact thresholds based on data and analyses commensurate in quality with
+the extent of the impact.
+52. Once the Contractor has evaluated the Risk level, Risks should be ranked and
+categorized according to their significance (low, moderate, or high Risk), which will
+inform the level of Risk treatment required to achieve a level of Risk that is As Low
+As Reasonably Practicable.
+1. Risk representation
+53. Risk representation is the term used to describe the act of combining the results
+obtained though the Hazard identification and Risk assessment (frequency and
+consequences) activities in an easy format to be communicated to Stakeholders and
+used to inform the decision-making process. There are multiple methods of Risk
+representation (e.g. Risk matrix, F-N curves, Risk profile, Risk isopleth, Risk index),
+but the Risk matrix is the most frequently used Risk representation tool.
+54. When considering Risk representation, the Contractor should choose a method
+that meets the following criteria:
+(a) Easy to apply;
+(b) Easy to understand;
+(c) Widely accepted (and thus, a useful Risk communication tool for
+multidisciplinary teams);
+(d) Allows Risks to people, environment, assets to be treated consistently;
+(e) Allows prioritization of the Hazards.
+16/27 21-17333
+
+[Page 17]
+ISBA/27/C/8
+55. The Risk matrix is a way of graphically representing Risk. A Risk matrix has
+two dimensions: consequence (also known as severity) and frequency (also known as
+likelihood or probability). Within the space defined by these dimensions, the
+following three areas are delimited (see also figure 5):
+(a) A green area, corresponding to low probability and limited consequences;
+(b) A yellow area, corresponding to medium probability and moderate
+consequences;
+(c) A red area, corresponding to high probability and extensive consequences.
+Figure 5
+Example of a Risk matrix structure
+Source: Adapted from Vamanu and others.
+56. Risk matrices are a consistent, concise way to communicate the level of Risk
+that a Hazard presents, whether it relates to the environment or to health and safety.
+Hence, a Risk matrix allows multi-disciplinary teams to rank the Risks in order of
+significance, screen out the insignificant ones and evaluate the need for further Risk
+reduction/prevention measures (i.e. Risk treatment) to be taken with regard to various
+Hazards.
+57. Figure 5 above is a very simple example of a Risk matrix; in practice there is a
+wide range of forms for the layout, labelling, definition of severity and probability
+terms. There are many methods in addition to the matrix format (see Standard and
+Guidelines for the Environmental Impact Assessments Process and ISO standard
+31000:2018), although the key to a successful Risk assessment involves evaluating
+similar components, even if those are analysed using different methods and presented
+in different ways. A number of examples have been provided for reference in
+section III.C.
+2. Cumulative Risk
+58. One issue that is not addressed through the Risk matrix tool is cumulative Risk,
+because the Risk matrix is used to evaluate one Hazard at a time. It is in the interest
+of the Contractor to determine whether smaller Risks, if not addressed, can
+accumulate and, together, become an unacceptable Risk.
+21-17333 17/27
+
+[Page 18]
+ISBA/27/C/8
+59. Cumulative Risk can be due to the aggregate effects of multiple Exploitation
+operations in a region or the combination of different impacts resulting from a single
+activity. Cumulative Risk is likely to be less obvious, as it is often subtle and spread
+over time. The Exploitation Regulations contain a recommendation to consider
+cumulative Risks in the EIS (and by extension, the EMMP) for their environmental
+impacts. From a health and safety perspective, cumulative impacts may result from
+personnel exposure to multiple stressors, (inhalation, repetitive motion and others).
+The Exploitation Regulations include a duty to cooperate with the scientific
+community, other Contractors, and the Authority in identifying gaps in scientific
+knowledge regarding the Area and developing best practices that will improve
+existing Standards and protocols. This will necessitate an iterative process, as
+knowledge of the affected ecosystems (and, to a lesser extent, operational personnel)
+evolves.
+E. Risk treatment
+60. After the Contractor has evaluated the Risk level of each Hazard, Risk treatment
+(also referred to as Risk Mitigation or control) options should be evaluated. This
+involves selecting one or more relevant options for changing the probability of an
+occurrence, the effect of Risks (i.e. severity), or both, and implementing those
+options.
+61. Results from the Risk assessment process serve as inputs into the Risk treatment
+process. While it is typically accepted that moderate Risks (in the yellow category of
+the Risk matrix) or high Risks (in the red category of the Risk matrix) require Risk
+treatment, it does not necessarily mean that Risks that are classified as low (green
+category of the Risk matrix) are controlled to a level that is As Low As Reasonably
+Practicable. In the context of Exploitation of Minerals in the deep seabed
+environment, there may be low Risks that still require Risk treatment/Risk
+Management (e.g., manage via routine procedures or monitoring).
+62. Inherent in most approaches to Risk treatment is the need to appropriately
+design and effectively execute Risk controls. A Risk control is a system, process,
+procedure, equipment or other organizational capacity that prevents the consequences
+of the threat from occurring. Controls can be:
+(a) Preventive – aimed at preventing the unwanted events from occurring;
+(b) Detective – designed to detect the unwanted event as it is occurring;
+(c) Protective – designed to reduce the immediate impacts;
+(d) Mitigating – designed to reduce the long-term impacts of the unplanned
+event through eventual recovery to an acceptable state.
+63. Figure 6 shows the basic hierarchy of controls for health and safety and
+environmental Risks. The key objective of Risk Management is avoidance of impacts
+(on the environment or humans) caused by planned or unplanned activities associated
+with Exploitation in the Area.
+18/27 21-17333
+
+[Page 19]
+ISBA/27/C/8
+Figure 6
+Hierarchy of health and safety and environmental controls
+Abbreviation: PPE, personal protective equipment.
+64. Once the Contractor identifies a preferred Risk treatment option, the modified
+scenario can be reassessed to determine the new level of Risk (i.e. reassessing the
+severity and likelihood of the consequences), with the objective of determining
+whether further treatment is required and/or if secondary Risks are introduced. If
+present, secondary Risks should be incorporated into the same treatment plan as the
+original Risk and the link between the two Risks should be identified. An example of
+this might be the application of an engineering control to reduce the chances of a
+release into the environment (e.g. a redundant valve), but the change poses additional
+health and safety Risks (e.g. without pressure relief, the trapped pressure between the
+valves creates an increased Risk of injury).
+65. The identified Risk controls will form the foundation of the EMS and HSP.
+Obligations for reporting the effectiveness of the Risk treatment methods is discussed
+in section III.E.
+F. Monitoring and review
+66. The Contractor should conduct ongoing monitoring and periodic reviews of the
+Risk Management process and its outcomes throughout the life cycle of the project.
+Such a review may be conducted concurrent with audit and review of the EMMP. The
+purpose of monitoring and review is to assure and improve the quality and
+effectiveness of the Risk assessment process, implementation and outcomes. In
+particular, Risk controls implemented by the Contractor should be monitored for
+effectiveness (i.e. re-evaluated) over time and adapted to changing conditions.
+67. A Risk Management review serves to:
+(a) Evaluate the effectiveness of the existing Risk treatment actions and Risk
+levels by reviewing environmental and health and safety monitoring records,
+corrective actions and the results of any prior audits;
+(b) Identify any new Hazards and associated Risks resulting from changes in
+the Plan of Work or implementation of new phases of the project.
+68. A review or audit of a Risk Management plan could be undertaken at the
+following times. It may coincide with a review or audit of the EMMP or HSP.
+21-17333 19/27
+
+[Page 20]
+ISBA/27/C/8
+(a) Following environmental and health and safety events (e.g. Notifiable
+Events as set out in appendix I to the Exploitation Regulations), such as a significant
+leak of hazardous substance, an unauthorized Mining Discharge, adverse
+environmental conditions with likely significant environmental consequences,
+impairment of and/or damage to environmentally critical equipment, occupational
+time lost to illness or injury, medical evacuation, or a fatality;
+(b) When there is a substantive adjustment to the relevant REMP;
+(c) Periodically, for deep seabed Exploitation and/or monitoring activities
+undertaken over extended timeframes, (e.g. every two years for operations/closure
+period lasting five years or less, and every five years for operations/closure period
+lasting more than five years).
+69. A procedure should be developed by the project management team for
+conducting Risk Management audits and include the following key components:
+(a) Establish audit procedures;
+(b) Determine the frequency of audits;
+(c) Develop processes for scheduling, reporting and maintaining records (e.g.
+maintenance of a formal Risk register);
+(d) Ensure that the auditors are competent in that they should be able to
+undertake the audit objectively and competently. Audits may be undertaken by
+internal parties or external competent persons;
+(e) Address personnel responsible for conducting the review and required
+resources.
+70. The Contractor should include information concerning Risk Management in the
+annual report to be submitted in accordance with regulation 38 of the Exploitation
+Regulations. Reference is made to section III.H, for further details regarding reporting
+requirements.
+G. Risk communication process
+71. Communication and consultation are important considerations at each step of
+the Risk Management process and may include the following key components:
+(a) Cooperation and dialogue with Stakeholders, with a focus on consultation
+and engagement;
+(b) Developing a communication plan for both internal and external
+Stakeholders at the earliest phase of the project;
+(c) Identifying, recording and integrating, if necessary, Stakeholder
+perceptions of Risk into the decision-making process;
+(d) Establishing a team-based approach to define the context, ensure that all
+Risks are identified and ensure that different views are considered.
+72. Consultation and cooperation among users of the Area and relevant
+Stakeholders will aid in the advancement of the scientific understanding of the sites
+where mineral Exploitation will occur, the mining technologies involved, the impacts
+and the environment’s response, which results in critical feedback to inform future
+decision-making. Consultation involves a dialogue with people who may be interested
+in or affected by a proposed activity. It is an opportunity to inform people about the
+proposed project and an invitation to contribute to the project design/issue
+identification and resolution process. Specifically, with regard to Risk assessment,
+20/27 21-17333
+
+[Page 21]
+ISBA/27/C/8
+communication is a key part of building trust, improving understanding within the
+Stakeholder community of Exploitation of the Area and the related Risks, and helping
+industry to better understand the views of Stakeholders who may be affected by those
+activities. It is recommended that Contractors take the following seven principles of
+Risk communication into account throughout the life-cycle of the project:
+(a) Accept and involve the public as a partner;
+(b) Plan carefully and evaluate efforts made;
+(c) Listen to the Stakeholders’ specific concerns;
+(d) Be honest, frank, and open;
+(e) Work with other credible sources;
+(f) Meet the needs of the media;
+(g) Speak clearly and with compassion.
+73. Therefore, in accordance with regulation 3 of the Exploitation Regulations, a
+plan for ongoing consultation with parties identified as having existing interests in
+the proposed project area, as well as relevant Stakeholders (see sect. II.C) should be
+provided. The Contractor should describe the proposed consultation methods and
+timelines, as well as the relevant Stakeholders and interested parties to be contacted.
+H. Recording and reporting
+74. The Risk Management process and its outcomes should be documented and
+reported through appropriate mechanisms, such as within the application for the Plan
+of Work (see sect. III) and the annual report (discussed below). The aim of recording
+and reporting is to:
+(a) Communicate all Risks considered and Risk Management activities
+conducted;
+(b) Provide information for decision-making and identify key intervention
+points;
+(c) Serve as a reference when reviewing Risks after some time has elapsed to
+consider circumstances that have changed owing to strategy implementation or
+changed business, environmental, regulatory or social conditions;
+(d) Assist in interactions with Stakeholders, including those who bear
+responsibility and are accountable for Risk Management activities.
+75. The extent of the report will depend on the objectives and scope of the
+assessment, and the documentation can include:
+(a) Objectives and scope;
+(b) Description of relevant parts of the system and their functions;
+(c) Summary of the external and internal context of the organization and how
+it relates to the situation, system or circumstances being assessed;
+(d) Risk criteria applied and their justification;
+(e) Limitations, assumptions and justification of hypotheses;
+(f) Assessment methodology;
+(g) Risk identification results;
+(h) Data, assumptions and their sources and validation;
+21-17333 21/27
+
+[Page 22]
+ISBA/27/C/8
+(i) Gaps in uncertainties regarding data, analyses or interpretation;
+(j) Risk analysis results and their evaluation;
+(k) Sensitivity and uncertainty analysis;
+(l) Critical assumptions and other factors that need to be monitored;
+(m) Discussion of results;
+(n) Conclusions and recommendations;
+(o) References.
+76. Risk registers are commonly used to present Risk information, to document the
+outputs resulting from the Risk identification process and to present the results of
+Risk analysis and strategy development. Typical contents of Risk registers include:
+(a) A tabulation of the Risk events considered;
+(b) Events excluded, the reasons for excluding them and their likelihood and
+consequences;
+(c) The results of Risk analysis and evaluation;
+(d) Existing control measures, planned management actions, allocations of
+responsibility and timing of actions.
+77. Links to resources to assist with developing Risk registers are provided in
+section VI.B.
+78. Risk analysis results will be incorporated into the following components of the
+application for approval of a Plan of Work submitted to the Authority under regulation 7
+of the Exploitation Regulations, including the HSP, the Closure Plan, the EIA as
+documented within the EIS, the EMMP and the ERCP.
+I. Risk assessment tools and techniques
+79. Various Risk assessment tools and techniques for Hazard identification and Risk
+analysis are discussed in ISO/IEC standard 31010:2019. Links to resources that can
+be useful in Hazard identification and Risk analysis are provided in section VI.B.
+IV. Best practice in Risk Management
+80. Below is a summary of some of the best practices to consider when undertaking
+Risk assessment and Risk Management activities in an effort to conform with the
+Exploitation Regulations:
+(a) Establish Risk Management systems based on Good Industry Practice,
+Best Available Techniques and Best Environmental Practices, including the
+technology and procedures to meet health and safety and environmental requirements
+for the activities proposed in the Plan of Work (regulation 13 (3) (c)). In that regard,
+the Contractor could consider having its Risk Management systems assessed by an
+accredited certification body;
+(b) Design the Risk Management programme to reduce the Risk of Incidents
+as much as reasonably practicable, to the point where the cost of further Risk
+reduction would be grossly disproportionate to the benefits of such reduction, taking
+into account the relevant Guidelines. The reasonable practicability of Risk reduction
+measures should be kept under review in the light of new knowledge and technology
+developments and Good Industry Practice, Best Available Techniques and Best
+22/27 21-17333
+
+[Page 23]
+ISBA/27/C/8
+Environmental Practices. In assessing whether the time, cost and effort would be
+grossly disproportionate to the benefits of further reducing the Risk, consideration
+should be given to best practice Risk levels compatible with the operations being
+conducted (regulation 32);
+(c) Apply the Precautionary Approach, as reflected in principle 15 of the Rio
+Declaration on Environment and Development, to the assessment and management of
+Risk of harm to the Marine Environment from Exploitation in the Area
+(regulation 44 (a));
+(d) Openly consult and cooperate with users of the Area and relevant
+Stakeholders on the Risks and impacts of Exploitation on the Marine Environment
+(regulation 3).
+V. Abbreviations, acronyms and definitions
+ALARP As Low As Reasonably Practicable
+EIA Environmental Impact Assessment
+EIS Environmental Impact Statement
+EMMP Environmental Management and Monitoring Plan
+EMS Environmental Management System
+ERA Environmental Risk Assessment
+ERCP Emergency Response and Contingency Plan
+HAZID technique Hazard identification technique
+HAZOP analysis Hazard and operability analysis
+HSP Health and Safety Plan
+IEC International Electrotechnical Commission
+ISO International Organization for Standardization
+REMP Regional Environmental Management Plan
+“Hazard” means any object, situation, or behaviour that has the potential to
+cause injury, ill health or damage to property or the environment.
+“Risk” means the probability, high or low, that any Hazard will actually cause
+harm.
+“Risk Management” means the coordinated activities to direct and control an
+organization with regard to Risk.
+“Precautionary Approach” means an approach to environmental Risk
+Management in which environmental Risks are addressed and prevented at early
+stages, even if uncertainties remain, recognized in principle 15 of the Rio Declaration,
+which reads as follows: “In order to protect the environment, the Precautionary
+Approach shall be widely applied by States according to their capabilities. Where
+there are threats of serious or irreversible damage, lack of full scientific certainty shall
+not be used as a reason for postponing cost-effective measures to prevent
+environmental degradation”. The Precautionary Approach does not necessarily mean
+that proposed projects with unknown effects or impacts should not proceed; however,
+21-17333 23/27
+
+[Page 24]
+ISBA/27/C/8
+such projects should proceed with appropriate checks and Risk reduction measures in
+place.
+“As Low As Reasonably Practicable” (“ALARP”) means the principle, in Risk
+Management, of reducing “the risk of Incidents as much as reasonably practicable to
+the point where the cost of further risk reduction would be grossly disproportionate
+to the benefits of such reduction”. As laid down in the Exploitation Regulations, the
+“reasonable practicability of risk reduction measures shall be kept under review in
+the light of new knowledge and technology developments and Good Industry Practice,
+Best Available Techniques and Best Environmental Practices”.
+VI. Information sources
+A. References
+Australia, and Tourism Department of Industry and Resources. “Risk Management:
+Leading Practice Sustainable Development Program for the Mining Industry.” Dept.
+of Industry, Tourism and Resources, 2016.
+Clark, M.R., Jennifer M. Durden, and Sabine Christiansen. “Environmental Impact
+Assessments for Deep-Sea Mining: Can We Improve Their Future Effectiveness?”
+Marine Policy. Accessed December 18, 2019. https://doi.org/10.1016/
+j.marpol.2018.11.026.
+Clark, M.R., H.L. Rouse, G. Lamarche, J.I. Ellis, Christopher Wayne Hickey, and
+National Institute of Water and Atmospheric Research (N.Z.). “Preparation of
+Environmental Impact Assessments: General Guidelines for Offshore Mining and
+Drilling with Particular Reference to New Zealand.” (New Zealand) National Institute
+of Water and Atmospheric Research, 2017.
+CSIR Environmentek. “Guideline for Environmental Management Plans.” Republic
+of South Africa, Provincial Government of the Western Cape, Department of
+Environmental Affairs & Development Planning, Cape Town: Department of
+Environmental Affairs & Development Planning, Cape Town, 2005.
+Department of Environment and Conservation. “Risk Assessment Matrix.”
+Government of Western Australia, n.d.
+DNV GL. “Recommended Practice: Managing Environmental Aspects and Impacts
+of Seabed Mining.” DNV GL, 2016.
+Durden, Jennifer M., Kevin Murphy, Aline Jaeckel, Cindy Lee Van Dover, Sabine
+Christiansen, Kristina M. Gjerde, Aleyda Ortega, and Daniel O. B. Jones. “A
+Procedural Framework for Robust Environmental Management of Deep-Sea Mining
+Projects Using a Conceptual Model.” Marine Policy 84 (2017): 193–201.
+Düzgün, Sebnem. “F-N Curves, Social Aspects and Risk Acceptability,” n.d., 23.
+International Organization for Standardization. “ISO 31000:2009 Risk Management -
+Guidelines.” International, 2018. http://www.iso.org/cms/render/live/en/sites/isoorg/
+home/standards/popular-standards/iso-31000-risk-management.html.
+International Organization for Standardization “ISO 31000:2018 Risk Management -
+Guidelines,” 2018.
+International Organization for Standardization, and International Electrotechnical
+Commission. “IEC 31010:2009 Risk Management — Risk Assessment Techniques,”
+2009. http://www.iso.org/cms/render/live/en/sites/isoorg/contents/data/standard/
+07/21/72140.html.
+24/27 21-17333
+
+[Page 25]
+ISBA/27/C/8
+International Seabed Authority. “ISBA/25/C/WP.1 - Draft Regulations on
+Exploitation of Mineral Resources in the Area.” ISA, 2019.
+National Aeronautics and Space Administration; Bureau of Safety and Environmental
+Enforcement. “Probabilistic Risk Assessment: Applications for the Oil & Gas
+Industry.” National Aeronautics and Space Administration; Bureau of Safety and
+Environmental Enforcement, 2017.
+The Biodiversity Consultancy. “A Cross-Sector Guide for Implementing the
+Mitigation Hierarchy.” Koninklijke Brill NV. Accessed January 30, 2020.
+https://doi.org/10.1163/9789004322714_cclc_2015-0013-003.
+“The Mining Code | International Seabed Authority.” Accessed February 9, 2020.
+https://www.isa.org.jm/mining-code.
+United Nations Conference on the Human Environment. “Rio Declaration on
+Environment and Development,” November 13, 2006. https://www.cbd.int/doc/
+ref/rio-declaration.shtml.
+Vamanu, B., A. Necci, S. Tarantola, and E. Krausmann. “Offshore Risk Assessment:
+An Overview of Methods and Tools.” European Commission, 2016.
+Washburn, Travis W., Phillip J. Turner, Jennifer M. Durden, Daniel O.B. Jones, Philip
+Weaver, and Cindy L. Van Dover. “Ecological Risk Assessment for Deep-Sea
+Mining.” Ocean & Coastal Management 176 (June 2019): 24–39.
+https://doi.org/10.1016/j.ocecoaman.2019.04.014.
+B. Useful links
+Topic URL
+Standards and Guidelines
+International Organization for https://www.iso.org/iso-31000-risk-management.html
+Standardization (ISO) 31000:2018 Risk
+management – Guidelines
+International Electrotechnical Commission https://www.iso.org/standard/72140.html
+(IEC) 31010:2019 Risk management –
+Risk assessment techniques
+Pacific-ACP States Regional Guidance http://dsm.gsd.spc.int/index.php/publications-and-reports
+Documents and Reports (multiple
+resources)
+Risk Assessment Tools and Techniques
+Risk assessment and management: Leading https://www.industry.gov.au/data-and-publications/leading-practice-
+Practice Sustainable Development handbook-risk-management
+Program for the Mining Industry
+(Commonwealth of Australia, 2016)
+Offshore Risk Assessment: An overview of https://euoag.jrc.ec.europa.eu/vicos/uploads/2018/10/03/Offshore%
+methods and tools (Vamanu, 2016) 20Risk%20Assessment.Methods%20and%20tools.pdf
+DNVGL-RP-O601 Recommended https://www.dnvgl.com/oilgas/download/dnv-gl-rp-O601-
+Practice: Managing environmental aspects managing-environmental-aspects-and-impacts-of-seabed-
+and impacts of seabed mining (2016) mining.html
+21-17333 25/27
+
+[Page 26]
+ISBA/27/C/8
+Topic URL
+Probabilistic Risk Assessment: https://www.bsee.gov/sites/bsee.gov/files/pra-05012017-
+Applications for the Oil & Gas Industry whitepaper.pdf
+(National Aeronautics and Space
+Administration, 2017)
+Hazard Identification and Risk Assessment https://www.nopsema.gov.au/assets/Guidance-notes/A122420.pdf
+(National Offshore Petroleum Safety and
+Environmental Management Authority, 2017)
+Guidance Notes on Risk Assessment https://ww2.eagle.org/content/dam/eagle/rules-and-
+Applications for the Marine and Offshore guides/current/other/97_riskassessapplmarineandoffshoreoandg/pub
+Oil and Gas Industries (American Bureau 97_riskassesment.pdf
+of Shipping, 2000)
+Offshore Risk Assessment Vol 1. https://www.springer.com/gp/book/9781447174431
+Principles, Modelling and Applications of
+QRA Studies (Vinnem, 2020)
+Ecological risk assessment for deep-sea https://www.researchgate.net/publication/333538553_Ecological_ri
+mining (Washburn, 2019) sk_assessment_for_deep-sea_mining
+Section 4.6.3 Summary of Operation https://www.iadc.org/forms/access-hse-case-guidelines-modu/
+Boundaries (SOOB) Combined Operations –
+Health, Safety and Environmental Case
+Guidelines for Mobile Offshore Drilling
+Units (International Association of Drilling
+Contractors, 2015)
+Guidelines for Ecological Risk Assessment https://www.epa.gov/risk/guidelines-ecological-risk-assessment
+(US EPA, 1998)
+Climate Change effects and impacts https://www.mfe.govt.nz/publications/climate-change/climate-
+assessment: A guidance manual for local change-effects-and-impacts-assessment-guidance-manual-local-6
+government in New Zealand [publication
+ME 870, Chapter 6-Risk Assessment] (NZ
+Ministry for the Environment, 2008)
+Guidance on Risk Assessment for Offshore https://www.hse.gov.uk/offshore/sheet32006.pdf
+Installations (UK Health and Safety
+Executive, 2006)
+Revised Guidelines for Formal Safety http://www.imo.org/en/OurWork/Safety/SafetyTopics/Documents/
+Assessment (FSA) for Use in the IMO MSC-MEPC%202-Circ%2012-Rev%202.pdf
+Rule-Making Process, (IMO, 2018)
+Risk Management Framework for Mining https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-
+in BC [Governance Example] (Ministry of industry/mineral-exploration-mining/documents/compliance-and-
+Energy, Mines and Petroleum Resources, enforcement/miningbc_risk_management_framework_july2018.pdf
+Ministry of Environment and Climate
+Change Strategy, The Environmental
+Assessment Office, 2018)
+Risk Assessment Examples
+Expert risk assessment of activities in the https://www.mfe.govt.nz/publications/marine/expert-risk-
+New Zealand Exclusive Economic Zone assessment-activities-new-zealand-exclusive-economic-zone-and
+26/27 21-17333
+
+[Page 27]
+ISBA/27/C/8
+Topic URL
+and Extended Continental Shelf (National
+Institute of Water and Atmospheric
+Research Ltd, 2012)
+Chapter 19 Environmental Management http://eisdocs.dsdip.qld.gov.au/Port%20of%20Gladstone%20Wester
+Plan – Port of Gladstone Western Dredging n%20Basin%20Dredging/EIS/19-environmental-management-
+Project Environmental Impact Statement plan.pdf
+(GHD, 2009)
+Navigational Risk Assessment for The New https://www.epa.govt.nz/assets/FileAPI/proposal/NSP000002/Evide
+Zealand King Salmon Co. Ltd. (Enhanced nce/4bd456a77f/Navigational-Risk-Assessment.pdf
+Operating Systems Limited, 2012)
+Environmental Impact Statement for South https://www.yumpu.com/en/document/read/52661607/embley
+of Embley Project – Section 19 Hazard and
+Risk, (Rio Tinto Alcan, n.d.)
+Risk Management Framework for Mining https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-
+in BC [Governance Example] (Ministry of industry/mineral-exploration-mining/documents/compliance-and-
+Energy, Mines and Petroleum Resources, enforcement/miningbc_risk_management_framework_july2018.pdf
+Ministry of Environment and Climate
+Change Strategy, The Environmental
+Assessment Office, 2018)
+Risk Representation – Risk Matrix Examples
+Basic Risk Assessment Matrix (Western https://ww2.health.wa.gov.au/~/media/Files/Corporate/general%20d
+Australia Department of Environment and ocuments/Clandestine%20drug%20labs/PDF/Risk-Assessment-
+Conservation) Matrix-Provided-by-the-Department-of-Environment-
+Regulation.pdf
+Final Guidelines for Port & Harbour Risk https://www.maritimenz.govt.nz/commercial/ports-and-
+Assessment and Safety Management harbours/documents/Port-harbour-risk-assessment.pdf
+Systems in New Zealand (Maritime Safety
+Authority of New Zealand, 2004)
+21-17333 27/27

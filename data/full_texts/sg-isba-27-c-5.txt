@@ -1,0 +1,1872 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/5
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March–1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral resources
+in the Area
+Draft guidelines for the preparation of environmental
+impact statements
+Prepared by the Legal and Technical Commission
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+A. Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+B. Terminology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+II. Environmental Impact Statement: template . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+III. Information sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+A. Sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+B. Selected useful links . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Annex . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+* ISBA/27/C/L.1.
+21-17328 (E) 280122
+*2117328*
+
+[Page 2]
+ISBA/27/C/5
+I. Introduction
+1. The present Guidelines have been developed to provide practical and technical
+guidance on preparing an Environmental Impact Statement (EIS) for the exploitation
+of mineral resources in the Area, as specified in regulation 47 and annex IV of the
+regulations on exploitation.
+A. Purpose
+2. The purpose of the EIS is to document and report the results of the
+environmental impact assessment (EIA). As stated in the Regulations on Exploitation
+of Mineral Resources in the Area, the EIS shall be in the form prescribed in annex IV
+and shall be:
+(a) Inclusive of a prior environmental risk assessment;
+(b) Based on the results of the environmental impact assessment;
+(c) In accordance with the objectives and measures of the relevant regional
+environmental management plan; and
+(d) Prepared in accordance with the applicable Guidelines, Good Industry
+Practice, Best Available Scientific Evidence, Best Environmental Practices and Best
+Available Techniques.
+3. The EIS documents and reports the results from the EIA and provides an impact
+assessment for the Environmental Effects identified by the EIA, with measures to
+manage such effects within acceptable levels. As such, the EIS is nested within the
+broader EIA process. However, while the Standard and Guidelines produced for the
+EIA process include the reporting stage (the EIS), the present Guidelines have been
+produced to be stand-alone and address specifically the EIS template provided in
+annex IV to the regulations on exploitation. That annex provides a high-level EIS
+template to provide contractors with recommendations for achieving EIA consistency
+and standardization.
+4. The Guidelines should be read in conjunction with the regulations on
+exploitation, the relevant Exploration Regulations and other relevant Standards and
+Guidelines of the International Seabed Authority, including but not limited to those
+related to:
+(a) Application for approval of the Plan of Work in the form of a contract (to
+conduct exploitation activities in the Area);
+(b) Environmental impact assessment process;
+(c) Environmental Management and Monitoring Plans;
+(d) Environmental management systems;
+(e) Environmental baseline data collection;
+(f) Hazard identification and risk assessment.
+5. The Guidelines strongly encourage applicants or contractors to have recourse to
+the Guidelines on the expected scope and standard of baseline data collection in the
+preparation of an EIS. The latter Guidelines will assist applicants or contractors to
+compile and collate the necessary baseline data that form a critical part of the EIA
+process and its reporting in the EIS, including the description of existing conditions
+and the assessment of impacts of activities.
+2/41 21-17328
+
+[Page 3]
+ISBA/27/C/5
+6. The applicable regional environmental management plan (REMP) should also
+be considered by the applicant or Contractor in the EIA process and any management
+approaches outlined in the REMP incorporated into the management and mitigation
+methodologies of the EIA and the EIS.
+B. Terminology
+7. Except as otherwise specified herein, terms and phrases defined in the
+regulations on exploitation have the same meaning in the present Guidelines.
+8. “Effect” is the consequence or outcome of an action or activity during the
+project. It is typically broader and more functional than an impact (see definition
+below).
+9. “Environmental impact assessment (EIA)” is the process of identifying,
+predicting, evaluating and mitigating the physicochemical, biological, socioeconomic
+and other relevant effects of development proposals prior to major decisions being
+taken and commitments made. This includes all potential effects, both positive and
+negative, and encompasses natural and anthropogenic receptors.
+10. “Environmental Impact Statement (EIS)” is the documentation of the EIA
+process, which describes the predicted effects of the project on the environment (and
+their magnitude), the measures that the applicant is committed to taking to avoid,
+minimize and reduce them where possible, and the residual effects that cannot be
+avoided.
+11. “Environmental risk assessment (ERA)” is a process to identify, analyse and
+evaluate the nature and extent of activities and the level of risk to characteristics of
+the environment.
+12. “Impact” is the influence of an action or activity during the project on the
+environment.
+13. Except as otherwise specified herein, terms and phrases defined in the
+regulations on exploitation have the same meaning in the present Guidelines.
+II. Environmental Impact Statement: template
+14. The applicant or Contractor should prepare an EIS following the template
+provided in annex IV to the Regulations on Exploitation as appropriate. The format
+is intended to “provide the International Seabed Authority, its member States and
+other Stakeholders with unambiguous documentation of the potential Environmental
+Effects on which the Authority can base its assessment, and any subsequent approval
+that may be granted”.
+15. The recommended format of the EIS template is designed to cover the general
+content of an EIS, in the recognition that details of methodology or thresholds are
+likely to be resource- and project-specific. The table of contents recommended in the
+annex is reproduced below (acknowledging that the EIS template is not prescriptive
+but a general guide to structure and content), along with the corresponding subsection
+of the present Guidelines that provides guidance on the specific content of the EIS:
+21-17328 3/41
+
+[Page 4]
+ISBA/27/C/5
+EIS section Guideline section
+Executive summary II.1
+Introduction II.2
+Policy, legal and administrative context II.3
+Description of the proposed project II.4
+Description of the existing physicochemical environment II.5
+Description of the existing biological environment
+Description of the existing socioeconomic environment
+Assessment of impacts on the physicochemical environment and II.6
+proposed Mitigation
+Assessment of impacts on the biological environment and proposed
+Mitigation
+Assessment of impacts on the socioeconomic environment and
+proposed Mitigation
+Accidental events and natural hazards II.7
+Environmental management, monitoring and reporting II.8
+Product stewardship II.9
+Consultation II.10
+Glossary and abbreviations II.11
+Study team II.12
+References II.13
+Appendices II.14
+1. Executive summary
+16. The executive summary is intended to be a non-technical summary that provides
+a concise overview of the EIA and an initial view of the potential issues associated
+with the proposed exploitation activity by interested stakeholders. It should include
+the following elements:
+(a) Description of the proposed project and its objectives;
+(b) Economic, financial, and other benefits to be derived from the project;
+(c) Anticipated impacts of the activity (physicochemical, biological, and
+socioeconomic impacts);
+(d) Mitigation measures to avoid, remedy, or minimize environmental
+impacts;
+(e) Linkages with the development of the Environmental Management and
+Monitoring Plan (EMMP) and the Closure Plan;
+(f) Description of consultation with stakeholders and interested parties.
+4/41 21-17328
+
+[Page 5]
+ISBA/27/C/5
+17. The topics should be covered as succinctly as possible and follow the same
+sequence as in the main report, to facilitate reference to more detailed descriptions.
+18. The Contractor should prepare the executive summary in such a manner that it
+can form a stand-alone document. The executive summary should include sufficient
+detail to provide the user with an understanding of the key aspects of the assessment,
+especially those relevant to decision points.
+19. The description of impacts discussed in the executive summary should be
+aligned with the risk and priority of impacts, which may be determined by
+consideration of the following:
+(a) Size of the project footprint and area of potential impact, as distinct from
+the area of anticipated impact;
+(b) Impacts on the marine ecosystem, with specific reference to the significant
+findings relating to the physiochemical, biological, and socioeconomic environments
+during the EIA process.
+2. Introduction
+20. The purpose of the introduction is to set the scene for the EIA: it sets out the
+background to the proposal, a summary of the proposed activity (with reference to
+additional details still to be provided) and outlines the EIA format, so that readers
+will understand where to look for certain information. The introduction will rely
+heavily on information included in the Plan of Work relevant to the context and
+findings of the EIA.
+21. This section should include sufficient detail for readers to form an overall
+impression of the proposed project and how it has developed, and to understand how
+the EIA is structured. As this section principally provides a road map to more detailed
+material in the EIA, it may be relatively short.
+(a) Background
+22. This section should include a short description of the proposed project,
+including all main activities and locations, and indicate the background work
+conducted prior to the EIA, such as environmental baseline studies, risk assessments
+performed as part of prospecting or exploration, and previous consultation with
+stakeholders.
+23. The background should contain highlights from the previous activities and refer
+the reader to appropriate sections in the EIS for more information.
+(b) Project viability
+24. This section will present and discuss details of the economic context of the
+project, provide a justification for project execution and a description of the benefits
+to humankind. Reference will be made to key elements of the Plan of Work (described
+more fully in the project description section, II.4) and will probably focus on
+ecosystem management aspects, namely, physiochemical, biological and
+socioeconomic considerations. The determination of project viability may include a
+summary of feasibility investigations related to geophysical, engineering,
+geotechnical, oceanographic, biological and other components of project operations.
+(c) Project history
+25. The Contractor should summarize work conducted prior to the EIA. A brief
+description of the following may be included:
+21-17328 5/41
+
+[Page 6]
+ISBA/27/C/5
+(a) Resource discovery;
+(b) Exploration undertaken;
+(c) Component testing conducted, including a description of activities, if
+applicable.
+It should be noted that, if component testing was conducted, reports are to be included
+in an annex to the EIS.
+26. Details of resource discovery and exploration undertaken, depth zones, and
+physical location may be presented in narrative form and accompanied by figures.
+The time, location, and parties involved in exploration work should be included.
+(d) Project proponent
+27. This section of the introduction will summarize the credentials of the proponent
+of the contract, including major shareholders, other contracts or licences held
+(including in other jurisdictions), previous and existing contracts with the Authority,
+and the proponent’s environmental record. This section should also cover the
+technological and environmental expertise, capacity and financial resources of the
+proponent (it is noted that discussion of the technical expertise and experience of
+individuals performing the EIS is covered in section II.12).
+28. The project proponent discussion in the EIS should include aspects in support
+of the commitments made by the Contractor in the executive summary and in the
+EMMP.
+(e) Scope and layout of report
+29. The subsection entitled “This report” in the annex IV template is intended to
+guide users of the EIS in the effective use of the information contained in the EIS.
+The section includes the following elements:
+(a) Scope: This subsection should include a discussion of what is included in
+the EIS, and what is considered to be out of scope, based on earlier work. An
+important aspect here is a link to other supporting information, including the scoping
+report from early in the EIA process, and previous risk assessments that evaluated
+low-risk activities and those that received less emphasis in the EIA. Sufficient
+information must be provided to ensure that the conclusions are properly understood,
+or readers should be directed to the information used to form the risk determination,
+to enable them to independently evaluate the risk. The applicant or Contractor should
+highlight the activities determined in risk assessments to be higher risk and hence the
+focus of the EIA;
+(b) Structure: This subsection should refer to the prescribed structure of the
+template, but should also indicate where to find information that is not obvious from
+the table of contents, for example in cases where the EIS relates to a larger project
+covering several Mining Areas within the Contract Area or for an EIS that contains a
+large volume of information.
+3. Policy, legal and administrative context
+30. Relevant policies, legislation, agreements, Standards and Guidelines that are
+applicable to the proposed mining operation must be discussed in the EIS to
+demonstrate an understanding of national and international expectations for the
+Contractor’s proposed mining project. While this is relatively straightforward, it is
+still important to ensure that this section is clear and complete.
+6/41 21-17328
+
+[Page 7]
+ISBA/27/C/5
+31. The Contractor should outline the following aspects that may apply to the
+proposed activities, and indicate how compliance with them will be assured:
+(a) National and international legislation, regulations or guidelines that apply
+to the proposed exploitation activities;
+(b) Non-mining-related legislation, policies or regulations that may be
+relevant to the proposed exploration activities, such as shipping regulations, maritime
+declarations, marine scientific research, climate change policies and sustainable
+development goals;
+(c) International agreements, including the United Nations Convention on the
+Law of the Sea (UNCLOS), the International Convention for the Safety of Life at Sea
+(SOLAS Convention), the International Convention for the Prevention of Pollution
+from Ships (MARPOL) and the Convention on the Prevention of Marine Pollution by
+Dumping of Wastes and Other Matter (London Convention);
+(d) Regional agreements that are relevant to the area of operation, in particular
+the Authority’s appropriate regional environmental management plan;
+(e) Standards and Guidelines that will be adhered to during the life of the
+contract, including the Standards and Guidelines of the Authority; the Equator
+Principles; the environmental and risk management standards of the International
+Organization for Standardization (ISO); the environmental management standard of
+the International Marine Minerals Society (IMMS); and performance standards on
+environmental and social sustainability of the International Finance Corporation
+(IFC).
+4. Project description
+32. The EIS must include a description of the proposed exploitation, providing
+details of the proposed activities, including relevant diagrams and drawings. In
+accordance with the template headings and subheadings, the description of the
+proposed exploitation should cover the following information:
+(a) A statement of the objectives sought by the project, including the
+underlying purpose and need for the proposed action;
+(b) The precise location and boundaries of the proposed project (including the
+Mining Area or Areas and the Contract Area), preferably on a detailed bathymetric
+map, along with the general location of the project on a regional map;
+(c) The type, size, shape, tonnage and grade of the mineral deposit;
+(d) The spatial and temporal scale of the mining operation, including the
+mining sequence and anticipated technologies for exploitation activities;
+(e) The volumes of material to be recovered, processed and deposited or
+discharged into the water column or back onto the seabed;
+(f) The depth of penetration into the seabed and the proposed mineral
+collection technique;
+(g) The likely extent of any secondary impacts such as sediment plumes;
+(h) The method used to transport recovered minerals to the surface;
+(i) The proposed shipboard method for dewatering and separation of the
+mineral resource from the sea floor sediment;
+(j) Method for trans-shipment or transfers at sea of mineral-bearing ore;
+21-17328 7/41
+
+[Page 8]
+ISBA/27/C/5
+(k) The proposed waste management, transport and disposal activities for
+materials or effluents to be discharged into the Marine Environment, and the
+management of shipboard wastes to be transported to shore-based disposal facilities,
+including the handling and management of hazardous materials;
+(l) Construction and operation standards for equipment to be used in mining
+activities;
+(m) The workforce, including procedures for preserving the health and safety
+of the personnel involved in the exploitation activities;
+(n) Capacity-building commitments entered into by the Contractor;
+(o) Commissioning and decommissioning procedures;
+(p) Detailed development timetable for the entire life cycle of the project;
+(q) Proposed details of any practicable restoration of the project area.
+33. Background information such as project phases, facilities and machinery, and
+process flow diagrams may be provided as appendices.
+34. A key aspect of this section is the description of mining methodologies. Most
+oil and gas operations use well-known techniques, equipment and overall operating
+procedures, whereas the mining of seabed minerals is a relatively new activity and
+there is no standard methodology. Methodologies will vary with mineral type and
+depth. Where the technology is new or untested, this section needs to be very detailed,
+as it is fundamental to an understanding of the likely impacts. This should include the
+operations on the sea floor, and also water column activities (such as riser pipe
+transfer), and also the methods for disposing of processing water, fine sediment and
+other by-products. If there are relevant national or international best practices, it will
+be useful to include an assessment of how the proposed operation will be aligned with
+them.
+35. A description of the overall timetable, from initiation and equipment
+construction through to decommissioning and closure of operations, is important for
+determining the extent and nature of various environmental impacts. The description
+should include the major phases of the operation, together with the milestone dates
+on which relevant tasks and activities are expected to be completed. The development
+timetable provided under this section should clearly indicate the different phases in
+the development proposal. For clarity purposes, a flow chart or Gantt chart should be
+used where appropriate.
+36. In the final section, the Contractor should provide an alternatives analysis
+demonstrating that reasonable alternatives to the proposed project were rigorously
+explored and objectively evaluated. Alternative screening criteria typically include
+the following:
+(a) Environmental impacts;
+(b) Technical factors;
+(c) Logistics;
+(d) Financial feasibility;
+(e) Stakeholder support.
+37. The analysis summary could include a brief description of the preferred
+alternative and the rationale for its identification, and direct readers to sections of the
+EIS or other documents setting out full details of the process that led to identification
+of the preferred option and discussion of eliminated alternatives and the reasons for
+their elimination.
+8/41 21-17328
+
+[Page 9]
+ISBA/27/C/5
+5. Description of the existing physicochemical, biological and
+socioeconomic environments
+38. This section provides regional and site-specific information on the various
+environmental conditions at the activity site or sites. The applicant or Contractor
+should provide a description of the baseline condition of the physiochemical,
+biological and socioeconomic environment. The aim is to provide a robust
+environmental assessment against which impacts will be assessed. While the template
+in annex IV to the regulations on exploitation provides a separate section for each of
+these parameters, the Contractor should consider the interrelationship of these
+parameters and the potential impacts of the proposed project on each of the
+parameters.
+39. For each of the three parameters (physiochemical, biological and
+socioeconomic), the EIS should provide a detailed account of the Contractor’s
+knowledge of the baseline conditions in the proposed Contract Area. These
+descriptions should be based on both primary data from baseline studies completed
+in the proposed Contract Area (for example, as part of exploration activities) and
+secondary information from a review of existing literature and scientific studies for
+the surrounding region. The Contractor should make use of information maintained
+in the Authority’s DeepData database to examine characteristics of the surrounding
+area. Maps, diagrams and photographs should be used in each section to clarify and
+illustrate existing conditions, and relevant prior work in the proposed Contract Area
+should be included in the appendices to the EIS.
+40. The details in these sections should be based on site-specific and regional ERAs
+that identified the higher-risk impacts that should be emphasized in the EIA. Each
+section should provide a robust environmental assessment against which impacts can
+be assessed. The level of detail in each section should be commensurate with the scale
+and intensity of the proposed activity.
+41. The sections on the physicochemical and biological environments should
+include the following common descriptions and discussions:
+(a) Key messages (overview of the main findings, covered in six or fewer
+bullets);
+(b) Regional overview (general environmental conditions within a broader
+regional context, including a regional reference map);
+(c) Studies completed (including environmental reference baseline data
+collected in accordance with the exploration contract and contained in the DeepData
+database);
+(d) Summary of the existing (physiochemical, biological or socioeconomic)
+environment (including key findings and notes on special considerations, and more
+extensive than the key message section);
+(e) Gaps and levels of uncertainty in existing knowledge.
+42. Information specific to each of the three environments is described further
+below.
+(a) Aspects specific to the description of the existing physicochemical environment
+43. This section of the EIS should also include a discussion of aspects specific to
+the existing physicochemical environment, including:
+(a) Meteorology and air quality (overview of climatology and description of
+air quality, including chemical characteristics);
+21-17328 9/41
+
+[Page 10]
+ISBA/27/C/5
+(b) Geological setting (general geological landscape and topography, notable
+characteristics such as hydrothermal vents, seamounts, abyssal hills and canyons, and
+nature and extent of the resource);
+(c) Physical oceanographic regional and site-specific setting (general
+oceanographic aspects, such as temperature, salinity, stratification, currents and tides
+and sediment rates);
+(d) Chemical oceanographic setting (water mass characteristics at various
+depths, such as nutrients, particle loads, turbidity and others);
+(e) Seabed substrate characteristics (substrate composition, including pore-
+water profiles, grain size, sediment mechanics and sediment composition);
+(f) Natural hazards (potential hazards for the region, including seismic
+activity, volcanic activity, cyclones, hurricanes and tsunamis) and how these may vary
+in future as a consequence of climate change;
+(g) Noise and light, including intensity, backscatter and attenuation (ambient
+levels and influence of existing maritime, exploration and exploitation activity in and
+around the proposed Contract Area);
+(h) Greenhouse gas emissions and climate change, including gas and chemical
+emissions from natural and anthropogenic activities in the region and affecting the
+sea floor environment and water column chemistry, as well as ecosystem functions
+and services.
+Reference should be made to recommendations of the International Seabed Authority
+on baseline data collection (ISBA/25/LTC/6/Rev.1) and to the Guidelines on
+environmental baseline data, for more detail on certain oceanographic and chemical
+parameters.
+(b) Aspects specific to the description of the existing biological environment
+44. In addition to the discussion topics listed in paragraph 41 above, this section
+should include a discussion of aspects specific to the existing biological environment.
+The Contractor should divide the discussions by depth regime (surface, midwater and
+benthic, where appropriate) and include a discussion of the various biological
+components and communities that are present in or make use of the area in and around
+the proposed Contract Area. By presenting the biological conditions by depth, the
+users of the EIS can assess linkages between observed or anticipated impacts and the
+source and location of such impacts.
+45. The discussion will address the diversity, abundance, biomass, connectivity,
+trophic relationships, resilience, ecosystem function and temporal variability of the
+communities present at each depth. Community-level analyses, previous work with
+ecosystem models and ecosystem indications should also be included in this
+discussion.
+46. The Contractor should provide a comprehensive list of known species in and
+around the proposed Contract Area. Taxonomic and ecological groups (ranging from
+microbial communities to megafauna) that should be included at each depth include:
+(a) Surface (from the surface to a depth of approximately 200 metres) –
+phytoplankton, zooplankton, surface fish, near-surface fish, seabirds, turtles and
+marine mammals;
+(b) Midwater (from a depth of approximately 200 metres to approximately 50
+metres above the sea floor) – zooplankton, nekton, mesopelagic and bathypelagic fish,
+and deep-diving mammals;
+10/41 21-17328
+
+[Page 11]
+ISBA/27/C/5
+(c) Benthic (from approximately 50 metres above the sea floor to the sea
+floor’s surface) – benthic invertebrates and fish communities, including infauna and
+demersal fish.
+47. It should be noted that specific depth intervals for the measurement and
+presentation of baseline data should be appropriate for the particular environment and
+that the more detailed description given in the Guidelines should be followed for the
+establishment of baseline environmental data.
+48. It is expected that much of this information will be data collated from the
+Contractor’s own research and baseline data collection during exploration, but can
+also include other data sources, including:
+(a) Literature review to uncover all published records;
+(b) Museum, university or research institute collection specimen records;
+(c) Research databases available from national or international institutes
+(including the DeepData database for the region);
+(d) Global biodiversity databases available online (such as www.iobis.org and
+www.fishbase.org for invertebrates and fish respectively).
+49. The Contractor should include a description of species composition and
+abundance. This should include the size distributions of the fauna and their life history
+stages (such as larval and juvenile stages, which differ from the adult stage).
+Considerations of species richness, faunal densities and community structures and
+connectivity should be specifically included. Discussions of species should include
+considerations of whether they are endemic (restricted to just the site, resource
+substrate or region) or are known to be rare, threatened or endangered.
+50. In addition, this section should include a summary of existing studies of the
+ecosystems and communities across depths and integrate elements of those studies,
+including life-history stages, recruitment and behavioural information. Food energy
+linkages and the complexity of the food web should be included, giving consideration
+to the impacts that may result from contaminants or other disruptions to the food web.
+Given the emphasis on the ecosystem approach to management, it is important to
+consider wider community relationships in respect of which information is available
+that will enable assessments to move beyond community descriptions to incorporate
+potential changes in ecosystem function (for example, Armstrong and others, 2012;
+Tuck and others, 2014; and Thurber and others, 2015). It is common for multivariate
+grouping and clustering-type analyses to be carried out for benthic invertebrate fauna
+in particular. Where, however, analyses may span the depth-based habitats, they
+should be included in the ecosystem and community section. There should, at the very
+least, be a description and assessment of information on trophic interactions and the
+linkages between food energy and contaminants in the food chain. Emphasis might
+be placed on knowledge of trophic levels, the degree of interaction between benthic
+and pelagic communities, whether there are specialized predators that could be more
+vulnerable than generalists, and the complexity of the food web and species
+interactions, with a view to gaining an idea of the resilience of the system to
+disturbances.
+51. Scientific interests may prompt a deeper look and the development of models to
+quantify the trophic structure and energy flows through the ecosystem. There are a
+number of ecosystem models that could be considered, as data are collected during
+exploration phases. Such data can begin to support a trophic model structure that
+quantifies the transfer of organic material through a food web, such as that based on
+the widely used mass-balance Ecopath trophic model (Christensen and Walters,
+2004). Modelling is likely to become a more common feature of EIAs, enabling
+21-17328 11/41
+
+[Page 12]
+ISBA/27/C/5
+mining-like perturbations to the system to be modelled and assessed (for example,
+Chatham Rock Phosphate, 2014). Validation or verification of the efficacy of models
+needs to be included, however, as an integral part of the process.
+52. Each of these sections should describe sources and levels of uncertainty in the
+data or analyses used. There are several available resources to assist the Contractor
+in evaluating the above aspects and these are not duplicated here. A list of helpful
+resources that may be used in presenting the existing biological environment may be
+found in section III.B below.
+(c) Aspects specific to the description of the existing socioeconomic environment
+53. In addition to the generic discussion topics listed above, this section of the EIS
+should include a discussion of aspects specific to the existing socioeconomic
+environment, related in particular to the ecosystem services in and around the
+proposed Contract Area that might be affected by the proposed project. Because the
+proposed projects will take place in the Area, direct socioeconomic impacts to specific
+communities are not necessarily expected.
+54. Nevertheless, the project may have social impacts on people, by changing their:
+(a) Way of life (lifestyles, work, interactions, recreation, etc.);
+(b) Culture (customs, values and beliefs);
+(c) Community (cohesion, stability, character and services);
+(d) Political and governance systems (such as the extent to which people can
+control decisions that affect them);
+(e) Environment (quality, food security and safety);
+(f) Health and well-being (physical, mental, social and spiritual);
+(g) Personal and property rights (economic effects and customary rights);
+(h) Fears and aspirations (perceptions about safety and the future).
+These aspects should be described where relevant.
+55. Potential impacts on ecosystem services are included in the regulations on
+exploitation, with reference to the preparation of an EIS.
+56. Accordingly, this section can discuss existing uses that comprise the ecosystem
+services for the proposed Mining Areas or Contract Area, including but not limited to:
+(a) Fisheries (for example, surface-level spawning grounds, nursery areas, or
+feeding sites, as applicable);
+(b) Marine traffic (for example, non-contract-related marine traffic occurring
+at or near the proposed Contract Area);
+(c) Tourism (for example, cruise line routes or areas used for game fishing,
+sightseeing, marine mammal watching, or other relevant tourism activities);
+(d) Marine scientific research (namely, any scientific research being
+conducted in or around the proposed Contract Area outside of environmental studies
+or sampling performed for the EIA or EIS or proposed in the EMMP);
+(e) Other uses of the area in and around the proposed Contract Area (for
+example, submarine cables, exploration projects or other exploitation projects);
+(f) Sites of archaeological or historical significance located in or around the
+proposed Contract Area.
+12/41 21-17328
+
+[Page 13]
+ISBA/27/C/5
+57. Relevant area-based management classifications or tools established under
+subregional, regional or global processes should be identified and the reasons for their
+designation explained, as this can enhance understanding of the ecological
+importance of certain areas. The scope, geographical coverage and objectives of such
+classifications and tools should also be explained.
+58. Contractors should also consider characteristics of and issues specific to the
+proposed workforce as part of the existing socioeconomic environment, including
+topics such as the health, safety and well-being of personnel involved with
+exploitation activities and any commitments entered into by the Contractor with
+regard to capacity-building in the Area.
+6. Assessment of impacts on the physicochemical, biological and socioeconomic
+environments and proposed Mitigation
+59. The Contractor should provide an assessment of potential impacts on the
+physiochemical, biological, and socioeconomic environment. While the EIS template
+provides a separate section for each of these parameters, the Contractor should also
+consider the interrelation of these parameters and the potential impacts of the
+proposed project on each parameter.
+60. For each of the parameters (physiochemical, biological, and socioeconomic),
+the EIS should provide a detailed description and evaluation of the potential impacts
+that could result from the proposed project. The discussion should consider potential
+impacts from all phases of the proposed mining activities, and also from potential
+accidental events. For each of these phases of mining (including accidental events)
+and for each of the potentially affected environments (physiochemical, biological or
+socioeconomic, or a combination thereof), the Contractor should include a discussion
+of the following:
+(a) The nature and extent of any actual or potential impact;
+(b) Measures that will be taken to avoid, remedy or mitigate such impacts;
+(c) Any unavoidable (residual) impacts that may remain.
+61. The key objective of these sections is for the Contractor to clearly communicate
+the nature and extent of residual impacts, the length of time any impact from them
+will continue, and whether or not the environment is expected to recover (and in what
+time frame, following disturbance). Each section should focus on the elements
+identified in the prior ERA that highlighted the higher risk impacts of the proposed
+mining activity.
+62. The level of detail in each section should be commensurate with the scale and
+intensity of the proposed activity.
+63. Each section should include the following:
+(a) Key messages (overview of the main findings);
+(b) Description of impacts:
+(i) Nature and extent of any actual or potential impact, including indirect and
+cumulative impacts, and interactions across impacts;
+(ii) Measures that will be taken to avoid, remedy, or mitigate such impacts
+(and that will be addressed in the EMMP);
+(iii) Unavoidable (residual) impacts that will remain;
+(c) Specific discussion of cumulative impacts, including such impacts from
+proposed operations by the Contractor and other operations in the region;
+(d) Summary of the residual effects (for example, in a tabular format).
+21-17328 13/41
+
+[Page 14]
+ISBA/27/C/5
+64. The area of potential impact should be described in detail. This is especially
+relevant to potential dispersal of impacts beyond the Mining Area or the Contract
+Area.
+65. The sources and levels of uncertainty associated with impacts should be
+quantified as far as possible. Attribution of confidence to analysis and prediction of
+impacts is important for understanding both the relative importance of impacts and
+the likely efficacy of mitigation measures. Assessment of uncertainty should:
+(a) Identify relevant areas of uncertainty and gaps in knowledge, with the
+implications that these have for the environmental impact assessment and its results;
+(b) Propose how such uncertainty can be reduced or managed.
+66. The Contractor should discuss information on potential recovery times
+following disturbance and the longevity of residual effects. This will give readers an
+understanding of the temporal component and efficacy of proposed mitigation
+measures.
+67. Information specific to each of the three environments (physiochemical,
+biological and socioeconomic) is described further below.
+(a) Aspects specific to the assessment of impacts on the physiochemical environment
+68. This section of the EIS should also include a discussion of impacts and
+mitigation efforts specific to the existing physiochemical environment, including:
+(a) Meteorology and air quality;
+(b) Geological setting;
+(c) Seabed substrate characteristics;
+(d) Physical oceanographic setting;
+(e) Chemical oceanographic setting;
+(f) Energy flow pathways (such as hydrothermal fluids);
+(g) Natural hazards;
+(h) Noise and light;
+(i) Greenhouse gas emissions and climate change;
+(j) Maritime safety and interactions with shipping;
+(k) Waste management;
+(l) Other issues.
+69. The Contractor should provide a description and evaluation of potential impacts
+of the proposed project on the physical environment described in associated previous
+section on existing conditions. Sources of potential impact may include physical
+disturbance and modification of the seabed during mining activities, sediment plumes
+that could disperse beyond the footprint of the Contract Area, and the transport and
+processing of materials conducted at the surface in the Contract Area.
+70. Cross references with other sections of the EIS should be provided to enable an
+evaluation of cause and effect linkages.
+14/41 21-17328
+
+[Page 15]
+ISBA/27/C/5
+(b) Aspects specific to the assessment of impacts on the biological environment
+71. This section of the EIS should also include a discussion of aspects specific to
+the existing biological environment, including:
+(a) Surface;
+(b) Midwater;
+(c) Benthic;
+(d) Ecosystem and community level.
+72. The Contractor should provide a description and evaluation of potential impacts
+of the proposed project on the existing biological environment as described in section 5
+above. Sources of potential impact should be discussed in terms of their depth regime
+and at a community and ecosystem level. Sources of potential impact may include
+increased vessel activities and potential pollution from these vessels; changes in water
+composition or clarity; noise affecting the food chain and availability of prey;
+potential oxygen depletion; sediment plume effects in the water column; and
+bioaccumulation of toxic metals and other contaminants. Temporal and spatial
+impacts should be discussed in each subsection.
+73. It is important that the final ERA associated with the EIA process be considered
+in this section. Impacts of the mining or drilling operations will depend on the
+resources, site and methods used and there are many such potential impacts. The
+following are some of the key effects on biological structure and function that this
+section should always consider:
+(a) Potential surface impacts (0–200 metres):
+(i) Increased vessel activities and potential pollution (from vessel discharges
+and wastes) of the surrounding area;
+(ii) Reduction in primary production (for example, through shading by
+discharges); in shallow or clear deeper water this may affect macroalgae or
+microalgae on the sea floor;
+(iii) Stimulation of primary production by increased nutrient release (such as
+nitrogen or iron in discharges) in photic depths;
+(iv) Reduction in the availability of prey (through changes in abundance,
+displacement or visibility), with effects on surface and deep-diving mammals
+and birds, fish and mobile pelagic invertebrates (including through changes in
+water composition and clarity or through noise and lights);
+(v) Impacts of vessel activities on and above the actual sea surface;
+(b) Potential water column impacts (200 metres from the surface to 50 metres
+above the sea floor):
+(i) Plankton and mesopelagic fish mortality;
+(ii) Toxic effects of the release of metals and other contaminants (such as
+ammonia and sulphides, causing pH reduction);
+(iv) Bioaccumulation of toxic metals though the midwater food chain;
+(v) Sediment plume effects through the water column (such as reduction in
+visual clarity for feeding);
+(vi) Potential oxygen depletion at depth;
+(vii) Effects on deep-diving marine mammals;
+21-17328 15/41
+
+[Page 16]
+ISBA/27/C/5
+(viii) Potential noise effects (such as direct avoidance, masking faunal
+communication and feeding disruption);
+(c) Potential benthic impacts (sea floor to 50 metres above):
+(i) Direct physical impact of mining and sampling gear;
+(ii) Smothering and burying of animals by sediment;
+(iii) Clogging of suspension feeding structures;
+(iv) Toxic effects of the release of metals and other contaminants (such as
+ammonia and sulphides);
+(v) Potential noise effects;
+(vi) Loss of essential habitat (such as spawning, nursery and feeding grounds);
+(vii) Loss of other habitats and communities of particular biological
+importance.
+74. Impact assessments often focus on the spatial scale, but the temporal nature and
+extent of impacts are equally important, and these will vary between faunal groups
+and the source of impact.
+75. A number of receptor groups should be considered in assessing impacts on the
+biological environment. These relate to baseline faunal groups (see the Guidelines on
+baseline environmental data), and will vary by site, but typically will include:
+(a) Primary producers (such as phytoplankton, microalgae and macroalgae);
+(b) Pelagic communities (such as fish and squids);
+(c) Demersal fish (such as predators and scavengers);
+(d) Benthic invertebrates (such as microfauna, meiofauna, macrofauna,
+megafauna, microbes and protists);
+(e) Marine mammals;
+(f) Seabirds;
+(g) Other rare or endangered species;
+(h) Ecologically important or sensitive biogenic habitat-forming species.
+These groups form the basis for more integrated community and ecosystem-level
+assessments of impact.
+76. Cross references to other sections of the EIS should be provided to inform the
+user of cause and effect linkages.
+(c) Aspects specific to the assessment of impacts on the socioeconomic environment
+77. Socioeconomic impact assessments should:
+(a) Identify stakeholders, groups and communities affected by the project;
+(b) Describe data covering key socioeconomic issues of the affected
+communities (such as community history, indigenous communities and culture) that
+have shaped social and economic development;
+(c) Explain methods used to carry out the assessment;
+(d) Identify socioeconomic impacts and prediction of the significance,
+duration and extent of impacts;
+(e) Identify potential mitigation measures;
+(f) Describe an appropriate monitoring framework.
+16/41 21-17328
+
+[Page 17]
+ISBA/27/C/5
+78. Socioeconomic impact assessments may include consideration of the scale of
+effects (such as the creation of jobs and estimates of the risk of environmental
+impacts), extent of duration of impacts in time and space, intensity or severity of
+social impacts and an assessment of whether impacts are likely to be cumulative. It is
+important to consider the social equity or distribution of impacts across different
+populations: in other words, which groups are likely to be affected in which ways.
+Attitudes towards and perceptions of the proposed project are among the variables
+that should be considered in determining the significance of impacts.
+79. A number of steps can help with constructing the likely nature and extent of
+potential impacts on existing interests. The steps identified below are recommended
+by the United States National Oceanic and Atmospheric Administration (1994):
+(a) First, scoping and identification of the probable social impacts for each of
+the existing interests may be based on the consultation process or interviews.
+Consideration needs to be given to the impacts perceived by affected groups and
+communities. Principal methods may include public meetings, interviews,
+workshops, surveys and reviews of the existing social science literature;
+(b) Second, the likely and possible effects need to be estimated. The probable
+social impacts can be formulated in terms of predicted conditions without the
+proposed activity (baseline projection, from section 6 of annex IV to the regulations
+on exploitation); predicted conditions with the proposed activity; and predicted
+impacts, which may be interpreted as the differences between the future with and
+without the proposed activity;
+(c) Third, after direct impacts have been estimated, the assessment should
+consider how affected people will respond in terms of attitude and actions. Important
+elements here include proposed mitigation measures. Mitigation includes avoiding the
+impact by not taking or modifying an action; minimizing the impacts through the
+design or operation of the project; undertaking restoration or rehabilitation actions, or
+compensating for (offsetting) the impact by providing substitute facilities or resources.
+80. The Contractor can include a consideration of desirable outcomes (such as
+beneficial impacts) and should include the scale of the effects, expected duration of
+such effects and an assessment of whether the effects are likely to be cumulative.
+Potential adverse impacts should be presented using the same format. The Contractor
+should include a discussion of the probable socioeconomic impacts in comparison to
+predicted conditions without the proposed project.
+81. Economic impacts should be described and should include aspects of profit and
+loss (net of costs) and effects on employment, including the location of those jobs and
+the communities that will be affected. Indirect economic effects (such as the benefits
+of additional jobs, revenue or economic activity in related or secondary sectors)
+should be identified separately from direct employment and revenue arising from the
+proposed activity.
+82. This section of the EIS should include a discussion of aspects specific to the
+existing socioeconomic environment, including:
+(a) Fisheries;
+(b) Marine traffic;
+(c) Tourism;
+(d) Marine scientific research;
+(e) Area-based management tools;
+(f) Other.
+21-17328 17/41
+
+[Page 18]
+ISBA/27/C/5
+Impacts on these elements may extend beyond the area of the proposed project and
+may affect social or economic aspects in a regional setting.
+83. Cross references to other sections of the EIS should be provided to inform the
+user of cause and effect linkages.
+7. Accidental events and natural hazards
+84. A stand-alone Emergency Response Plan (ERP) should be developed as part of
+the development of the EMMP, in accordance with the Regulations on Exploitation,
+pursuant to which the ERP is to be current and based on identified potential hazards,
+with established procedures for managing environmental emergencies. In addition,
+the ERP should also state the important emergency contacts that handle environmental
+emergencies related to the mining activities and the contact details. The ERP should
+include responses to natural hazards, extreme weather, and accidents.
+85. The EIS should refer users to the ERP, but the EIS itself should still include a
+discussion on environmentally hazardous discharges that could result from accidents
+or extreme natural events, as these are fundamentally different from normal
+operational discharges of wastes and wastewaters. The discussion should outline the
+probability of such accidental discharges, the impact that they could have and the
+measures that will be taken to prevent or respond to such an event. Residual impacts
+caused by such an event should also be included.
+8. Environmental management, monitoring and reporting
+86. The EMMP is separate from the EIS that is submitted with the Plan of Work and
+is discussed in further detail in a separate Standard and Guidelines. The EIS should
+refer users to the EMMP and need include only a brief discussion highlighting key
+issues that will be addressed in the EMMP, including:
+(a) Organizational structure and responsibilities;
+(b) Environmental management system or systems;
+(c) Environmental objectives;
+(d) Mitigation and management;
+(e) Monitoring plan;
+(f) Corrective procedures;
+(g) Closure Plan;
+(h) Reporting for monitoring activities;
+(i) Incident reporting.
+87. Nevertheless, the EIS is the document in which the impacts of the proposed
+project are detailed and sufficient information needs to be provided to enable the
+Authority to anticipate possible environmental management, monitoring and
+reporting requirements for an environmental approval. The information listed should
+reflect the proponent’s environmental policy and how that policy is to be implemented
+to meet the requirements of this section and previous sections during different stages
+of the project life (namely, from construction to decommissioning and closure).
+9. Product stewardship
+88. The principles of product stewardship encourage those who design, produce,
+sell, or use a product to take responsibility for reducing negative impacts on the
+environment, public health, worker safety, and the economy. The EIS should contain
+18/41 21-17328
+
+[Page 19]
+ISBA/27/C/5
+a description of the intended use of the mineral-bearing ore. This description should
+address how the Contractor will minimize health, safety, environmental, and
+socioeconomic effects of the intended product or products, and should address the
+following potential impacts:
+(a) Energy and materials consumption;
+(b) Waste generation;
+(c) Toxic substances;
+(d) Air and water emissions.
+89. Proposed product stewardship should be aligned with the Sustainable
+Development Goals, as applicable. In particular, responsible production and
+consumption patterns should be established. This entails ensuring that the proposed
+project does not lead to environmental degradation or overtaxing of natural resources
+while reducing waste and improving resource efficiency.
+10. Consultation
+90. This section of the EIS should describe stakeholder engagement activities that
+took place during the process of the EIA (see the Guidelines on the EIA process),
+together with any stakeholder consultation activities anticipated after the Plan of
+Work has been submitted to the Authority.
+91. The EIS should include a description of the nature and extent of any
+consultations conducted as part of the EIA and any consultations expected as part of
+the EIS public comment period or review by the Authority. This discussion should
+include a description of the process by which stakeholders were identified.
+92. The Contractor should include a description of the protocol used for collecting,
+logging and responding to stakeholder comments and concerns. The EIS should
+include an evaluation of how the consultations performed were aligned with relevant
+consultation obligations, if any.
+93. The Contractor should list authorizations and other approvals required to
+implement the project (both national and international), and a list of related
+environmental review and consultation requirements under applicable regulations,
+standards or policies.
+11. Glossary and abbreviations
+94. The EIS should include a glossary of terms used in the EIS, and also a list of
+any acronyms and abbreviations used throughout the document. The EIS should also
+include definitions for specific key terms used in the EIS, regardless of whether they
+appear in the regulations on exploitation. This will help to ensure that users of the
+EIS, including the decision-makers and relevant stakeholders, have a clear
+understanding of the intention behind the use of certain terms in the EIS. The glossary
+should be included in the table of contents for the EIS and referenced in the
+introduction section of the EIS.
+12. Study team
+95. The EIS shall list the names of the persons who were primarily responsible for
+preparing the statement and any significant background papers, including basic
+components of the statement. Where possible, the persons who were responsible for
+a particular analysis, including analyses in background papers, shall be identified.
+21-17328 19/41
+
+[Page 20]
+ISBA/27/C/5
+96. The list of preparers and contributors shall also state their qualifications,
+including:
+(a) Expertise;
+(b) Experience;
+(c) Education;
+(d) Professional disciplines;
+(e) Relevant registrations.
+97. Curricula vitae of key members of the study team may be included in the
+appendices if the Contractor determines that this information would be useful to
+stakeholders reviewing the EIS.
+13. References
+98. Evidence obtained from outside sources should be documented throughout the
+EIS, with the use of footnotes or other suitable reference mechanism. In addition, all
+sources used in preparation of the EIS (including those specifically referenced in the
+body of the document) should be listed in bibliography format, with full details of the
+source (including website addresses, if applicable). This enables users of the EIS to
+review the supporting documentation independently.
+14. Appendices
+99. The appendices section should include a list of all technical reports carried out
+for parts of the EIA or that are used in support of any aspect of the EIA (such as prior
+risk assessments or monitoring activities conducted as part of exploration contracts).
+Copies of these reports should be provided as appendices to the report, with clear
+indications as to which aspect of the EIS the document is being provided to support.
+III. Information sources
+A. Sources
+Armstrong, C.W., N.S. Foley, R. Tinch and S. van den Hove (2012). Services from
+the deep: Steps towards valuation of deep sea goods and services. Ecosystem Services
+2: 2–13. Available at http://dx.doi.org/10.1016/j.ecoser.2012.07.001.
+Australia, New South Wales Department of Infrastructure, Planning and Natural
+Resources (2004). Guideline for the Preparation of Environmental Management
+Plans.
+Australian Government, Department of Environment (2014). Environmental
+Management Plan Guidelines.
+Chatham Rock Phosphate (2014). Marine Consent Application and Environmental
+Impact Assessment. Available at www.rockphosphate.co.nz/marine-consent-application/.
+Christensen, V., and C.J. Walters (2004). Ecopath with Ecosim: methods, capabilities
+and limitations. Ecological Modelling 172: 109–139.
+Clark, M.R., J.M. Durden and S. Christiansen (2020). Environmental impact
+assessments for deep-sea mining: can we improve their future effectiveness? Marine
+Policy 114. Available at http://dx.doi.org/10.1016/j.marpol.2018.11.026.
+Clark, M.R., H.L. Rouse, G. Lamarche, J.I. Ellis and C.W. Hickey (2017). Preparation
+of environmental impact assessments: general guidelines for offshore mining and
+drilling with particular reference to New Zealand. NIWA Science and Technology
+Series 81: 103.
+20/41 21-17328
+
+[Page 21]
+ISBA/27/C/5
+Durden, J.M., L.E. Lallier, K. Murphy, A. Jaeckel, K. Gjerde and D.O.B. Jones (2018).
+Environmental impact assessment process for deep-sea mining in “the Area”. Marine
+Policy 87: 194–202. Available at http://dx.doi.org/10.1016/j.marpol.2017.10.013.
+Durden, J.M., K. Murphy, A. Jaeckel, C.L. Van Dover, S. Christiansen, K. Gjerde, A.
+Ortega and D.O.B. Jones (2017). A procedural framework for robust environmental
+management of deep-sea mining projects using a conceptual model. Marine Policy
+84: 193–201. Available at http://dx.doi.org/10.1016/j.marpol.2017.07.002.
+European Communities (2001). Guidelines for the Assessment of Indirect and
+Cumulative Impacts as well as Impact Interventions. Luxembourg: Office for Official
+Publications of the European Communities, 2001.
+International Organization for Standardization (2015). ISO 14001:2015
+Environmental Management Systems – Requirements with Guidance for Use.
+International Seabed Authority (2020). ISA DeepData. 6 January 2020. Available at
+https://data.isa.org.jm/isa/map/.
+__________ (2012). ISA Technical Study #10: Environmental management needs for
+exploration and exploitation of deep sea minerals. Kingston: International Seabed
+Authority.
+International Seabed Authority, Legal and Technical Commission (2010).
+ISBA/16/LTC/2 The International Marine Minerals Society’s Code of Environmental
+Management of Marine Mining. The Mining Code, 2010. Available at
+www.isa.org.jm/mining-code.
+__________ (2019). Recommendations for the guidance of contractors for the
+assessment of possible environmental impacts arising from exploration for marine
+minerals in the Area. ISBA/25/LTC/6.
+Le, J.T., L.A. Levin and R.T. Carson (2017). Incorporating ecosystem services into
+environmental management of deep-seabed mining. Deep-Sea Research Part II –
+Topical Studies in Oceanography 137: 486–503. Available at
+http://dx.doi.org/10.1016/j.dsr2.2016.08.007.
+National Oceanic and Atmospheric Administration (1994). Guidelines and principles
+for social impact assessment. Inter-organizational committee on guidelines and
+principles for social impact assessment: 27 p.
+Senécal, P., B. Goldsmith and S. Conover (1999). Principles of Environmental Impact
+Assessment Best Practice. No. 4.
+Sharma, Rahul (ed.) (2019). Environmental Issues of Deep-Sea Mining: Impacts,
+Consequences and Policy Perspectives. Cham, Switzerland: Springer.
+Swaddling, A. (2016). Pacific-ACP States Regional Environmental Management
+Framework for Deep Sea Minerals Exploration and Exploitation. Suva: Pacific
+Community.
+Swaddling, A., M.R. Clark, M. Bourrel, H. Lily, G. Lamarche, C. Hickey, H. Rouse,
+S. Nodder, G. Rickard, P. Sutton and R. Wysoczanski (2016). Pacific-ACP States
+Regional Scientific Research Guidelines for Deep Sea Minerals. Suva: Pacific
+Community.
+Thurber, A.R., A.K. Sweetman, B.E. Narayanaswamy, D.O.B. Jones DOB, J. Ingels
+and R.L. Hansman. 2014. Ecosystem function and services provided by the deep sea.
+Biogeosciences 11: 3941–3963.
+21-17328 21/41
+
+[Page 22]
+ISBA/27/C/5
+Tuck, I., M. Pinkerton, D.M. Tracey, O.F. Anderson and S. Chiswell. 2014. Ecosystem
+and environmental indicators for deepwater fisheries. New Zealand Aquatic
+Environment and Biodiversity Report 127: 143 p.
+United Nations, Rio Declaration on Environment and Development, Report of the
+United Nations Conference on Environment and Development, Rio de Janeiro, 3–14
+June 1992, A/CONF.151/26/Rev.l (vol. I), annex.
+22/41 21-17328
+
+[Page 23]
+ISBA/27/C/5
+B. Selected useful links
+Topic source URL Comments
+Databases
+Ocean Biodiversity Information http://obis.org Global open-access data and
+System (OBIS) information clearing house on
+marine biodiversity
+FishBase http://fishbase.se/search.php Database of fish species,
+distribution and biology
+International Union for Conservation www.iucnredlist.org Red List of Threatened Species
+of Nature (IUNC)
+Bird Life International www.birdlife.org Conservation of bird species
+Swiss Seismological Service (SED) www.seismo.ethz.ch/en/home/ Seismological information
+worldwide
+PBS and The Ocean Alliance www.pbs.org/odyssey/index.html Five-year programme, called the
+Voyage of the Odyssey, designed to
+gather baseline data on levels of
+synthetic contaminants in the
+oceans
+Argo https://argo.ucsd.edu/ International programme that
+collects information from inside the
+ocean
+Coriolis www.coriolis.eu.org Project providing operational
+oceanography data to monitor and
+forecast ocean behaviour. Includes
+sea-surface observation, in situ
+measurements and assimilation of
+in situ and satellite data
+Rules, regulations and procedures
+International Seabed Authority www.isa.org.jm/mining-code Mining Code
+International Marine Minerals www.immsoc.org/IMMS_downloads Code for Environmental
+Society /2011_SEPT_16_IMMS_Code.pdf Management of Marine Mining
+International Marine Minerals www.immsoc.org/IMMS_code.htm Code for Environmental
+Society Management
+Det Norske Veritas (DNV) www.dnvgl.com/maritime/index.html Shipping compliance and pollution
+reduction
+American Bureau of Shipping (ABS) https://ww2.eagle.org/en/rules-and- Safety, compliance and
+resources.html environmental protection relevant
+to offshore operations
+Standards and guidelines
+Equator Principals https://equator- Equator Principals and Association
+principles.com/resources/ Governance Rules
+21-17328 23/41
+
+[Page 24]
+ISBA/27/C/5
+Topic source URL Comments
+ISO www.iso.org/iso-14001- ISO environmental management
+environmental-management.html system standards
+IFC https://www.ifc.org/wps/wcm/conn IFC Performance Standards on
+ect/c02c2e86-e6cd-4b55-95a2- Environmental and Social
+b3395d204279/IFC_Performance_ Sustainability
+Standards.pdf?MOD=AJPERES&C
+VID=kTjHBzk
+24/41 21-17328
+
+[Page 25]
+2 Annex
+1
+-1
+7
+3 2 Review form: EIS content (provided as a checklist to help the applicant or Contractor to evaluate
+8
+completeness and adequacy of content of the EIS)
+EIS section/ Relevant section in
+annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+Executive summary Is a description of the EIA and its objectives II.1
+included?
+Does the description contain:
+(a) Goals of the EIA?
+(b) Overall objectives?
+(c) Summary of the relationship between
+physiochemical, biological and socioeconomic
+environments?
+Are the predicted physicochemical, biological and
+socioeconomic impacts of the activity described?
+Are the residual impacts prioritized based on the
+magnitude of impact?
+Does the executive summary summarize the
+recommended mitigation measures to avoid, remedy
+or minimize environmental impacts?
+Does the executive summary include a discussion of
+the economic, financial and other benefits to be
+derived from the project?
+Is a statement of commitment to conservation,
+preservation and risk mitigation included?
+Does the executive summary summarize the dialogue
+between the Contractor with stakeholders and
+interested parties?
+I
+S
+B
+Is a statement of commitment in accordance with the A
+2 5 draft regulations included in the executive summary?
+/2
+7 /C
+/4
+1
+/5
+
+[Page 26]
+2 /46
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+Introduction 1.1–1.5 Does the introduction provide the necessary context II.2
+/C
+/5
+for the sections of the report? Does it indicate where
+additional information for the EIS can be found?
+Does the introduction summarize the proposed project
+rather than the EIA?
+Is a background section included in the introduction?
+Is information about previous activities included?
+Does the introduction discuss the project viability by
+providing details regarding:
+(a) Economic context?
+(b) Justification for the project execution?
+(c) Benefits?
+Is a summary of the work conducted prior to the EIA
+included?
+Are details regarding the credentials of the proponent
+for the contract discussed, including the following:
+(a) Major shareholders?
+(b) Other contracts?
+(c) Licences held?
+(d) Technological expertise?
+(e) Environmental expertise?
+(f) Capacity?
+(g) Financial resources?
+Is a description of the scope and report structure
+included in the Introduction?
+2
+1
+-1
+7
+3
+2
+8
+
+[Page 27]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+Policy, legal and Does the EIS discuss how the Contractor will address II.3
+administrative context international and national legislation, regulation, or
+2.1–2.4 guidelines that apply to the proposed exploitation
+activities?
+Does the EIS discuss how the Contractor will address
+relevant non-mining related legislation, policies, or
+regulations?
+Does the EIS discuss how the Contractor will address
+international agreements such as:
+(a) UNCLOS?
+(b) SOLAS Convention?
+(c) MARPOL?
+(d) London Convention?
+Does the EIS discuss how the Contractor will address
+standards and guidelines that will be adhered to
+during the life of the contract from groups such as:
+(a) International Seabed Authority?
+(b) Equator Principles?
+(c) International Organization for Standardization
+(ISO)?
+(d) International Marine Minerals Society (IMMS)?
+(e) International Finance Corporation (IFC)?
+(f) Extractive Industries Transparency Initiative?
+I
+S
+B
+A
+/2
+2 7 7 /C
+/4
+1
+/5
+
+[Page 28]
+2 /48
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+Description of the Does the EIS contain a description of the proposed II.4
+/C
+/5
+proposed development exploitation, including details of proposed activities
+3.1–3.8 and relevant diagrams and drawings?
+Does the EIS include a Contractor alternatives
+analysis demonstrating that reasonable alternatives to
+the proposed project were explored and objectively
+evaluated?
+Description of the Does the EIS include an overview of the main II.5
+existing findings, covered in six or fewer bullets?
+physicochemical
+environment 4.1–4.12
+Does the EIS include an overview of the regional
+context and regional reference maps for the Contract
+Area?
+Does the EIS provide a description of all studies II.5
+completed, including environmental reference
+baseline data collected under the exploration
+contract?
+Does the EIS include scientific data contained in the
+Authority’s DeepData database both for the Contract
+Area and for the regional context?
+Does the EIS discuss meteorology and air quality,
+including:
+(a) Overview of the climatology?
+(b) Description of existing air quality (including
+chemical characteristics)?
+Does the EIS discuss the geological setting,
+including:
+(a) General geological landscape and topography?
+2
+-11 (b) Nature and extent of the resource?
+7
+3
+2
+8
+
+[Page 29]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+Does the EIS discuss the physical oceanographic
+regional and site-specific setting, including:
+(a) General oceanographic aspects such as
+stratification and sediment rates?
+(b) Notable characteristics such as hydrothermal
+vents, seamounts, and canyons?
+Description of the Does the EIS discuss the sea substrate characteristics II.5
+existing and substrate composition, including:
+physicochemical
+(a) Pore-water profiles?
+environment
+4.1–4.12
+(b) Grain size?
+(cont.)
+(c) Sediment mechanics?
+(d) Sediment composition?
+Does the EIS discuss potential natural hazards for the
+region, including:
+(a) Seismic activity?
+(b) Volcanic activity?
+(c) Cyclones, hurricanes or tsunamis?
+Does the EIS discuss noise and light conditions,
+including:
+(a) Ambient levels?
+(b) Influence of existing maritime, exploration, and
+exploitation activity in and around the proposed
+Contract Area?
+Does the EIS discuss greenhouse gas emissions and
+climate change considerations, including: I
+S
+B
+A
+/2
+2 9 7 /C
+/4
+1
+/5
+
+[Page 30]
+3 /40
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+(a) Gas emissions from natural and anthropogenic
+/C
+/5
+activities in the region and affecting the sea floor
+and water column chemistry?
+(b) Chemical emissions from natural and
+anthropogenic activities in the region and
+affecting the sea floor and water column
+chemistry?
+Does the EIS document the use of best available
+scientific evidence and best available techniques in
+studying the above conditions?
+Does the EIS contain a summary that expands on the
+key messages above for the physiochemical
+environment, which includes key findings and also
+special considerations?
+Description of the Does the EIS include an overview of the main II.5
+existing biological findings, covered in six or fewer bullets?
+environment
+Does the EIS include an overview of the regional
+5.1–5.5
+context and regional reference maps for the Contract
+Area?
+Does the EIS provide a description of all studies
+completed, including environmental reference
+baseline data collected under the exploration
+contract?
+Does the EIS include scientific data contained in the
+Authority’s DeepData database both for the Contract
+Area and for the regional context?
+For the surface depth (surface to a depth of
+approximately 200 metres), does the EIS discuss the
+following taxonomic and ecological groups:
+(a) Phytoplankton?
+2
+1
+-1 (b) Zooplankton?
+7
+3
+2
+8
+
+[Page 31]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+(c) Surface fish?
+(d) Near surface fish?
+(e) Seabirds?
+(f) Turtles?
+(g) Marine mammals?
+For the midwater depth (from a depth of
+approximately 200 metres to approximately 50 metre
+above the sea floor), does the EIS discuss the
+following taxonomic/ecological groups:
+(a) Zooplankton?
+(b) Nekton?
+(c) Mesopelagic and bathypelagic fish?
+(d) Deep-diving mammals?
+Description of the For the taxonomic and ecological groups listed above, II.5
+existing biological does the EIS discuss:
+environment
+(a) Diversity?
+5.1–5.5
+(cont.)
+(b) Biomass?
+(c) Species composition?
+(d) Species richness?
+(e) Species abundance?
+(f) Size of the fauna?
+(g) Temporal variability?
+(h) Ecosystem function? I
+S
+B
+A
+(i) Resilience? /2
+3 1 7 /C
+/4
+1
+/5
+
+[Page 32]
+3 /42
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+(j) Trophic relationships?
+/C
+/5
+(k) Life-history stages of fauna (e.g. larval and
+juvenile stages which differ from adults)?
+(l) Community structures and connectivity
+(including recruitment and behavioural
+information)?
+(m) Considerations of endemic species?
+(n) Considerations for species that known to be rare,
+threatened, or endangered?
+Does the EIS document the use of best available
+scientific evidence and best available techniques in
+studying the above conditions?
+Does the EIS contain a summary that expands on the
+key messages above for the biological environment,
+which includes key findings as well as special
+considerations?
+Description of the Does the EIS include an overview of the main II.5
+existing socioeconomic findings, covered in six or fewer bullets?
+environment
+Does the EIS include an overview of the regional
+6.1–6.4
+context and regional reference maps for the Contract
+Area?
+Description of the Does the EIS discuss the following aspects of
+existing socioeconomic ecosystem services:
+environment
+(a) Fisheries (e.g. surface-level spawning grounds,
+6.1–6.4
+nursery areas or feeding sites, as applicable)?
+(cont.)
+(b) Marine traffic (i.e. non-contract-related marine
+traffic occurring at or near the proposed Contract
+Area)?
+2
+1
+-1
+7
+3
+2
+8
+
+[Page 33]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+(c) Tourism (e.g. cruise-line routes or areas used for
+game fishing, sightseeing, marine mammal
+watching or other relevant tourism activities)?
+(d) Marine scientific research (i.e. any scientific
+research being conducted in or around the
+proposed Contract Area outside of
+environmental studies or sampling performed for
+the EIA or EIS or proposed in the environmental
+management and monitoring plan)?
+(e) Area-based data management tools such as
+DeepData?
+(f) Other uses of the area in and around the
+proposed Contract Area (e.g. submarine cables,
+exploration projects, or other exploitation
+projects)?
+(g) Sites of archaeological or historical significance
+located in or around the proposed Contract
+Area?
+Does the EIS document the use of best available
+scientific evidence and best available techniques in
+studying the above conditions?
+Does the EIS contain a summary that expands on the
+key messages above for the socioeconomic
+environment, which includes key findings and also
+special considerations?
+Assessment of impacts For the physiochemical environment, does the EIS II.6
+on the physiochemical include a description of direct, indirect, and
+environment and cumulative impacts:
+proposed Mitigation
+(a) Nature and extent of any or potential impacts?
+7.1–7.15
+I
+S
+B
+(b) Measures that will be taken to avoid, remedy, or A
+mitigate such impacts?
+/2
+3 3 7 /C
+/4
+1
+/5
+
+[Page 34]
+3 /44
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+(c) Remaining (residual) impacts?
+/C
+/5
+For the physiochemical environment, does the EIS
+include a discussion of:
+(a) Key messages (overview of the main findings)?
+(b) Description of impacts, including:
+(i) The nature and extent of any actual or potential
+impact, including indirect and cumulative
+impacts, and interactions across impacts?
+(ii) Measures that will be taken to avoid, remedy, or
+mitigate such impacts (and that will be
+addressed in the environmental management and
+monitoring plan)?
+(iii) Unavoidable (residual) impacts that will
+remain?
+(c) Specific discussion of cumulative impacts,
+including such impacts from proposed
+operations by the Contractor and other
+operations in the region?
+Does the EIS discuss the following aspects specific to
+potential impacts on the physiochemical environment:
+(a) Meteorology and air quality?
+(b) Geological setting?
+(c) Physical oceanographic setting?
+(d) Chemical oceanographic setting?
+(e) Seabed substrate characteristics?
+(f) Natural hazards?
+2 1 (g) Noise and light?
+-1
+7
+3
+2
+8
+
+[Page 35]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+(h) Greenhouse gas emissions and climate change?
+(i) Maritime safety and interactions with shipping?
+(j) Waste management?
+(k) Other issues?
+Assessment of impacts Does the EIS discuss, at a minimum, sources of II.6
+on the physiochemical potential impact that include:
+environment and
+(a) Physical disturbance of the seabed during
+proposed Mitigation
+mining activities?
+7.1–7.15
+(cont.)
+(b) Sediment plumes that could disperse beyond the
+footprint of the Contract Area?
+(c) Potential impact from material transport and
+processing activities conducted at the surface in
+the Contract Area?
+Does the discussion provide cross-references to other
+sections of the EIS to inform the user about cause and
+effect linkages?
+Does the discussion include the expected time to
+recover following disturbance and the longevity of
+residual effects?
+Does EIS include a summary of the residual effects in
+a tabular format?
+Assessment of impacts For the biological environment, does the EIS discuss II.6
+on the biological a description of direct, indirect, and cumulative
+environment and impacts:
+proposed Mitigation
+(a) Nature and extent of any or potential impacts?
+8.1–8.8
+(b) Measures that will be taken to avoid, remedy or
+I
+S
+mitigate such impacts? B
+A
+/2
+3 5 (c) Remaining (residual) impacts? 7 /C
+/4
+1
+/5
+
+[Page 36]
+3 /46
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+For the biological environment, does the EIS include
+/C
+/5
+a discussion of:
+(a) Key messages (overview of the main findings)?
+(b) Description of impacts, including:
+(i) Nature and extent of any actual or potential
+impact, including indirect and cumulative
+impacts, and interactions across impacts?
+(ii) Measures that will be taken to avoid, remedy, or
+mitigate such impacts (and that will be
+addressed in the environmental management and
+monitoring plan)?
+(iii) Unavoidable (residual) impacts that will
+remain?
+(c) Specific discussion of cumulative impacts,
+including such impacts from proposed
+operations by the Contractor and other
+operations in the region?
+Assessment of impacts Does the EIS discuss aspects specific to the existing
+on the biological biological environment, such as the following:
+environment and
+(a) Depth:
+proposed Mitigation
+8.1–8.8
+(i) Surface?
+(cont.)
+(ii) Midwater?
+(iii) Benthic?
+(b) Ecosystems?
+(c) Communities?
+This section should also include a summary of
+existing studies of the ecosystems and communities,
+2
+1
+-1
+7
+3
+2
+8
+
+[Page 37]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+and temporal and spatial impacts should be discussed
+in each subsection.
+For each aspect listed above, does the EIS discuss
+potential impacts that include:
+(a) Impacts from increased vessel activities and
+potential pollution from these vessels?
+(b) Impacts from changes in water composition,
+clarity or noise, affecting the food chain and
+availability of prey?
+(c) Potential oxygen depletion impacts?
+(d) Sediment plume effects in the water column?
+(e) Bioaccumulation of toxic metals and other
+contaminants?
+(f) Temporal and spatial impacts?
+Does the discussion provide cross-references to other
+sections of the EIS to inform the user about cause and
+effect linkages?
+Does the discussion include the expected time to
+recover following disturbance and the longevity of
+residual effects?
+Does EIS include a summary of the residual effects in
+a tabular format?
+Assessment of impacts For the socioeconomic environment, does the EIS II.6
+on the socioeconomic include a description of direct, indirect, and
+environment and cumulative impacts:
+proposed Mitigation
+(a) Nature and extent of any or potential impacts?
+9.1–9.5
+I
+(b) Measures that will be taken to avoid, remedy, or S B
+A
+mitigate such impacts? /2
+3 7 7 /C
+/4
+1
+/5
+
+[Page 38]
+3 /48
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+(c) Remaining (residual) impacts?
+/C
+/5
+For the socioeconomic environment, does the EIS
+include a discussion of:
+(a) Key messages (overview of the main findings)?
+(b) Description of impacts, including:
+(i) Nature and extent of any actual or potential
+impact, including indirect and cumulative
+impacts, and interactions across impacts?
+(ii) Measures that will be taken to avoid, remedy, or
+mitigate such impacts (and that will be
+addressed in the environmental management and
+monitoring plan)?
+(iii) Unavoidable (residual) impacts that will
+remain?
+(c) Specific discussion of cumulative impacts,
+including such impacts from proposed
+operations by the Contractor and other
+operations in the region?
+For the socioeconomic environment, does the EIS
+include a discussion of:
+(a) Fisheries?
+(b) Marine traffic?
+(c) Tourism?
+(d) Marine scientific research?
+(e) Area-based management tools?
+(f) Other considerations?
+2
+1
+-1
+7
+3
+2
+8
+
+[Page 39]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+Does the EIS include a discussion of desirable
+outcomes or beneficial impacts as wells as potential
+adverse impacts for the socioeconomic environment?
+Does the EIS include a discussion of the scale of the
+effects, expected duration of such effects, and an
+assessment of whether the effects are likely to be
+cumulative?
+Does this section provide cross-references to other
+sections of the EIS to inform the user about cause and
+effect linkages?
+Does EIS include a summary of the residual effects in
+a tabular format?
+Accidental events and Does the EIS refer users to a stand-alone emergency II.7
+natural hazards response plan, which details identified potential
+10.1–10.3 hazards and established procedures for managing
+environmental emergencies? Does the EIS include a
+discussion on environmentally hazardous discharges,
+including probability of occurrence and proposed
+measures to prevent or respond to such an event?
+Environmental Does the EIS refer users to the environmental II.8
+management, management and monitoring plan and include a brief
+monitoring and discussion of key issues addressed in the
+reporting environmental management and monitoring plan,
+11.1–11.4 including:
+(a) Organizational structure and responsibilities?
+(b) Environmental management systems?
+(c) Environmental objectives?
+(d) Mitigation and management?
+I
+S
+(e) Monitoring plan? B
+A
+/2
+3 9 (f) Corrective procedures? 7 /C
+/4
+1
+/5
+
+[Page 40]
+4 /40
+1
+E anIS
+n
+es xe c It Vio sn e/
+c tion Do the components of the EIS meet these requirements?
+R Ge ul ie dv ea ln int es se ction in
+Describe how the EIS meets these criteria
+I S B
+A
+/2
+7
+(g) Closure plan?
+/C
+/5
+(h) Reporting for monitoring activities?
+(i) Incident reporting?
+Product stewardship Does the EIS contain a description of the intended II.9
+12 use of the mineral-bearing ore and address how
+health, safety, environmental, and socioeconomic
+effects of the intended product or products will be
+minimized, including the potential impacts of:
+(a) Energy and materials consumption?
+(b) Waste generation?
+(c) Toxic substances?
+(d) Air and water emissions?
+Consultation Does the EIS clearly identify the stakeholders for the II.10
+13.1–13.4 project and their role relevant to approvals and
+consultation? Does the EIS discuss the nature and
+extent of any consultations conducted as part of the
+EIS?
+Does the EIS include a description of the protocol
+used for collecting, logging and responding to
+stakeholder comments and concerns, and an
+evaluation of how consultations were aligned with
+relevant consultation obligations, if any?
+Does the EIS contain a statement describing the
+intended use of the EIS, including a list of
+stakeholders expected to use the EIS? This section
+should include a list of authorizations and other
+approvals required to implement the project, and of
+related environmental review and consultation
+requirements.
+2
+1
+-1
+7
+3
+2
+8
+
+[Page 41]
+2
+-11 EIS section/ Relevant section in
+7 annex IV section Do the components of the EIS meet these requirements? Guidelines Describe how the EIS meets these criteria
+3
+2
+8
+Glossary and Does the EIS include a glossary of terms used in the II.11
+abbreviations EIS and a list of any acronyms and abbreviations
+14 used throughout the documents?
+Study team Does the EIS list the names of persons responsible for II.12
+15 preparing the statement? The list should include the
+qualifications of the preparers and contributors,
+including:
+(a) Expertise?
+(b) Experience?
+(c) Education?
+(d) Professional disciplines?
+(e) Relevant registrations?
+Are résumés of key members included in appendices?
+References Is all evidence from outside sources provided in the II.13
+16 EIS documented in footnotes or by another suitable
+reference mechanism?
+Are all references used in preparation of the EIS
+(including those specifically referenced in the body of
+the document) listed in bibliography format,
+including the full details of the sources?
+Appendices Does the EIS include an appendices section with a list
+17 of all technical reports carried out for parts of the EIA
+or that were used in support of any aspect of the EIA
+or EIS?
+I
+S
+B
+A
+/2
+4 1 7 /C
+/4
+1
+/5

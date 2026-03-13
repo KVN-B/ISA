@@ -22,8 +22,8 @@ DATA_DIR = ROOT / "data"
 TEXT_DIR = DATA_DIR / "full_texts"
 TEXT_DIR.mkdir(exist_ok=True)
 
-# Documents to ingest (by status)
-TARGET_STATUSES = {"current", "in_force"}
+# Documents to ingest (by status) — all statuses with PDFs
+TARGET_STATUSES = {"current", "in_force", "active", "historical", "superseded"}
 
 HEADERS = {
     "User-Agent": (
@@ -79,6 +79,19 @@ def ingest(force: bool = False):
         d for d in docs
         if d.get("status") in TARGET_STATUSES and get_pdf_url(d)
     ]
+
+    # Add Standards & Guidelines PDFs (ISBA/27 Phase 1 documents)
+    sg_path = DATA_DIR / "standards_guidelines.json"
+    if sg_path.exists():
+        sg_data = json.loads(sg_path.read_text())
+        sg_docs  = sg_data.get("isba_27_phase1_documents", {}).get("documents", [])
+        for sg in sg_docs:
+            pdf_url = sg.get("url_pdf")
+            if not pdf_url:
+                continue
+            ref   = sg.get("isba_reference", "sg-unknown")
+            sg_id = "sg-" + ref.lower().replace("/", "-").replace(" ", "-")
+            targets.append({"id": sg_id, "reference": ref, "url_pdf": pdf_url, "status": "sg_phase1"})
 
     print(f"Found {len(targets)} documents to ingest.\n")
 

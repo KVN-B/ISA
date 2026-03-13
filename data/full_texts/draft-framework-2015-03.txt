@@ -1,0 +1,1915 @@
+[Page 2]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+1
+
+[Page 3]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Contents Page
+Section 1 Executive summary 2
+Section 2 Draft framework for the Exploitation 4
+Regulations
+Section 3 Summary of the response of the Legal and 39
+Technical Commission to Stakeholder Survey
+submissions
+Section 4 Summary of high level issues 40
+Section 5 Draft action plan 45
+Section 6 Making a submission 52
+Published March 2015 by:
+International Seabed Authority
+14-20 Port Royal Street
+Kingston Jamaica
+1
+
+[Page 4]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 1: Executive summary
+The purpose of this Report of the Legal and Technical Commission (the Commission) is
+to respond to the Council’s decision (ISBA/20/C/31, paragraph 3) by which the Council
+”requested the Commission to continue its work on the regulations governing
+exploitation as a matter of priority and to make available to all members of the Authority
+and all stakeholders a draft framework for the regulation of exploitation as soon as
+possible after the February 2015 meeting”.
+This Report attempts to demonstrate the size (both depth and breadth) of the task in
+formulating rules, regulations and procedures for exploitation. It is also a statement of
+progress to date and indicates the immediate next steps and actions.
+The Report contains the following sections:
+ Section 1: Executive summary
+ Section 2: Draft framework for the Exploitation Regulations1
+ Section 3: Summary of the Commission’s response to Stakeholder Survey
+submissions
+ Section 4: Summary of high level issues
+ Section 5: Draft action plan for way forward to mid-2016.
+The Report was developed and finalised for immediate circulation to Members of the
+Authority and all stakeholders following the February Session of the Commission, which
+was held from 16 to 27 February 2015. Stakeholder groups follow the same broad
+groupings that responded to the Survey and as reported by the Commission to Council
+in 2014 and are considered to include: contractors, international organizations, non-
+government organizations, scientific institutions and universities, private entities, and
+individuals.
+Responses to this Report from Members of the Authority and all stakeholders are
+invited by mid-May so that the Secretariat can prepare an update for the session of the
+Commission in July 2015.
+The Commission will, in its Chair’s Report to Council in July 2015: (i) provide a
+summary of progress and next actions on the development of the Exploitation
+Regulations and (ii) include a latest version of the Draft framework for the Exploitation
+Regulations in an annex to the Chair’s Report.
+1 Disclaimer: This draft regulatory framework should not to be seen as “draft regulations”. The framework is work in
+progress by the Commission as it moves incrementally and in a consultative manner with Members of the Authority
+and all stakeholders towards the regulations themselves.
+2
+
+[Page 5]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 1: Executive summary
+Section 2 of this Report reflects the draft framework for the Exploitation Regulations. It
+currently contains 10 parts and 2 annexes. Specifically not included at this time are 4
+areas: (i) the financial and payment terms mechanism; (ii) a mining inspectorate; (iii)
+revenue management by the Authority and (iv) the Enterprise. The Commission will
+provide further details of possible financial and payment mechanisms to Council in July
+following further consideration.2 No further work on the remaining 3 items is proposed at
+this time. Additionally, the two annexes to the draft framework, addressing application
+procedure and standard contract clauses, reflect 5 further issues that have been
+identified for further work. These are: (i) dealings; (ii) annual reports; (iii) insurance; (iv)
+suspension and termination of contracts and penalties and (v) revision.
+Section 3 of this Report is a summary of the Commission’s response to the Stakeholder
+Survey submissions. It further encourages responses from Members of the Authority
+and all stakeholders to this Report by mid-May in order to further enrich the interactive
+dialogue that is key to the successful development of the exploitation regulations.
+Section 4 of this Report contains a brief commentary on 13 high level issues identified in
+the responses to the Stakeholder Survey and the work of the Commission to date.
+These issues must be addressed in the process of developing and finalising the
+exploitation regulations. Once again feedback is being sought including: (i) on high level
+issues that may have been omitted; (ii) on the brief commentary provided in regard to
+each of the issues, and (iii) suggestions on the way these issues may be addressed in
+the development of the regulatory framework.
+Section 5 of this Report comprises a Draft action plan. The plan at this time is
+considered appropriate to continue the further development of the regulations in a timely
+manner. It is anticipated it will develop over time. The action plan is drawn directly from
+the draft framework and actions have been prioritised according to when actions need
+to be initiated. It is premature to consider that actions will be completed at this stage, as
+many will be initiated and ongoing for some time.
+The Commission recognises the importance of an open, transparent and inclusive
+process in developing the exploitation framework and welcomes further stakeholder
+feedback.
+2 It is intended that a discussion paper relating to the financial mechanism be circulated before end March 2015 to all
+stakeholders for comment.
+3
+
+[Page 6]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 2: Draft framework for the Exploitation Regulations
+This Section 2 provides an outline of a suggested structure for future exploitation regulations together with a
+commentary against each component element of the regulatory framework and recommended actions.
+The suggested legal framework is similar to that under the current exploration regime, that is, a uniform set of headline
+regulations and a standardised contract.3 The aim is to develop a legal framework that is simple with clear objectives
+and endorses established principles and practice where applicable.
+As noted in the Executive summary, there are four areas of the regulatory framework that are not addressed in this
+Section 2, being:
+1. The payment mechanism: this is under separate discussion and an update on the financial regime will be presented
+at the Authority’s Annual Session in July 2015. However, a separate discussion paper on the development of a
+payment mechanism will be issued by the Secretariat in advance of the Session;
+2. The development and resourcing of a mining inspectorate within the Secretariat function. It is recommended that
+the administrative and enforcement functions of a “typical” mining regulator, environmental management agency
+and perhaps maritime security regime are benchmarked in due course;
+3. Revenue management by the Authority, that is the allocation of monies received by the Authority from production
+proceeds; and
+4. The operation and effective participation of the Enterprise.
+It is not the intention of the Commission to undertake further work in respect of 2, 3 and 4 above at this time.
+3 See Article 153(3) and Annex III Article 3(5) of the Convention requiring an approved plan of work to be in the form of a contract.
+4
+
+[Page 7]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Glossary of abbreviations
+APEIs Areas of particular environmental interest
+BEP Best environmental practice
+DSM Deep seabed mining
+EIA Environmental impact assessment
+EIS Environmental impact statement
+EITI Extractive Industries Transparency Initiative
+EMP Environmental management plan
+EMS Environmental management system
+IRZ Impact reference zone(s)
+PRZ Preservation reference zone(s)
+RRPs Rules, regulations and procedures (of the
+Authority)
+SEIA Strategic environmental impact assessment
+SEMP Strategic environmental management plan
+5
+
+[Page 8]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Suggested structure for Exploitation o Closure plan
+o Size and location of exploitation area covered
+Regulations
+by the plan of work
+Title  Fees
+o Fee for applications
+Preamble
+ Processing of applications
+ Objectives & overarching principles / purpose o Receipt, acknowledgement and safe custody of
+applications
+Part I – Introduction o Public review of the Environmental impact
+statement and Environmental management
+ Use of terms and scope
+plan [and Social impact assessment and
+Closure plan]
+Part II – Applications for approval of plans of work for
+o Consideration by the Legal and Technical
+exploitation in the form of contracts
+Commission
+ General provisions
+o Consideration and approval of plans of work for
+ Content of applications exploitation by the Council
+o Form of applications o Independent technical expert working group(s) /
+o Certificate of sponsorship sub-committees
+o Financial & technical capabilities
+o Previous contracts with the Authority Part III – Contracts for exploitation
+o Undertakings
+o The contract
+o Applications for approval of plans of work with
+o Rights of the contractor
+respect to a reserved area
+o Obligations of the Authority
+o Equity interest in a joint venture arrangement
+o Legal title to minerals
+o Data and information to be submitted for
+o Duration of contracts / renewal
+approval of the plan of work for exploitation
+o Performance requirements
+o Feasibility study
+o Conservation of the natural resources of the Area
+o Environmental impact statement
+o Use of sub-contractors
+o Environmental management plan
+o Vessels operating in the Area
+o Social impact assessment and action plan
+o Protection of submarine cables and pipelines
+o Financing plan
+o Health and safety
+6
+
+[Page 9]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+o Training
+o Periodic review of the implementation of the plan of Part VII – Enforcement, offences and penalties
+work for exploitation
+o Inspection
+o Termination of sponsorship
+o Offences & penalties
+o Responsibility and liability
+Part VIII – Settlement of disputes
+Part IV – Protection and preservation of the marine
+o Disputes
+environment
+o Protection and preservation of the marine environment Part IX – Other mineral resource categories
+o Environmental management
+Part X – Review
+o Emergency orders
+o Strategic environmental management plan
+Annexes to exploitation regulations
+o Rights of coastal States
+o Environmental bonds and performance guarantees Annex I – Application for approval of a plan of work for
+o Restoration and rehabilitation of the marine exploitation to obtain a contract
+environment
+Annex II – Standard clauses for exploitation contract plus
+o Adaptive management approach
+schedules
+o Seabed sustainability fund
+o Environmental liability trust fund
+o Human remains and objects and sites of an
+archaeological or historical nature
+Part V – Confidentiality
+o Confidentiality of data and information
+o Procedures to ensure confidentiality
+Part VI – General Procedures
+o Notice and general procedures
+o Recommendations for the guidance of contractors
+o Duty to co-operate
+7
+
+[Page 10]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+Part I Introduction
+Use of Terms Definitions applicable to The Exploration Regulations5 contain relatively few terms and This section will evolve as the
+and scope the exploitation regime. definitions. It is likely that the Exploitation Regulations will include regulatory framework evolves.
+more comprehensive definitions to aid interpretation. These will Definitions should reflect
+include those already presented in the Exploration Regulations, save internationally agreed and
+as amended to reflect current practice. accepted definitions where
+possible.
+Part II Applications for approval of plans of work for exploitation in the form of contracts
+ Not applicable.
+General Defines the entities that  Use wording identical to that contained in the Exploration
+may apply for a plan of Regulations.
+work for exploitation.
+ Guidelines for the
+Form of Defines requirement for a  Wording in Exploration Regulations remains relevant, however:-
+Preparation of a Plan of
+applications plan of work in a form to  Should a “plan of work for exploitation” cover multiple exploitation
+Work for Exploitation need
+be prescribed in Annex I. areas, within say the area covered under an existing contract for
+drafting, including a
+exploration?
+standard application form.
+ Each distinct area of exploitation may have different physical
+ Future development /
+characteristics and environmental conditions.
+licensing of an online
+ Options available to the Authority: (1) to request separate plans
+application management
+of work for exploitation where there are “material” differences
+system.
+between “exploitation areas” and / or (2) to request separate
+ Thought to be given to “new
+documents (Feasibility study, Environmental impact statement
+ways of doing business” as
+(EIS) and Environmental management plan (EMP)) for each
+highlighted by the
+exploitation area (as ultimately defined).
+4 Description corresponds to that contained in the Exploration Regulations, save for any new, proposed regulatory provision.
+5 Refers to the Regulations on Prospecting and Exploration for Polymetallic Nodules in the Area (PN Exploration Regulations), ISBA/19/C/17, 22 July 2013.
+8
+
+[Page 11]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+Commission in the context
+of exploration and its
+impact(s) on exploitation
+applications.6
+ Not applicable.
+Certificate of Defines the requirement  Use wording identical to that contained in the Exploration
+sponsorship for a certificate of Regulations.
+sponsorship.
+ Further best practice to be
+Financial and A key provision for the  Much of the wording reflected in the Exploration Regulation can
+developed from national
+technical delivery of due diligence be retained.
+regimes and suggestions in
+capabilities information about an  However, a greater level of detail will be required to evaluate
+the Stakeholder Survey.
+applicant. “financial capability” and “technical capability” in connection with
+ Guidelines for the
+the delivery of a plan of work for exploitation, including
+Preparation and Evaluation
+the capability to deliver approved development and production
+of Information relating to
+requirements and the delivery of EMP obligations.
+Financial capability and
+ Evaluation criteria needed for the Commissions’ assessment
+Technical capability to be
+procedures.
+drafted.
+ To consider how this regulation is to be applied uniformly across
+all contractor entities.
+ Not applicable.
+Previous Content of Exploration  Details of existing contract(s) for exploration is important in
+contracts with Regulation can be establishing a “preference and a priority” in an applicant’s plan of
+the Authority retained. work for exploitation.
+ Any assessment process to consider that deliverables and
+obligations under a contract(s) for exploration have been
+observed.
+6 See Summary Report of the Chair of the Legal and Technical Commission on the work of the Commission during the twentieth session of the International
+Seabed Authority, ISBA/20/C/20, 16 July 2014 at para 31.
+9
+
+[Page 12]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ Council could consider
+Undertakings Specific undertakings  Use wording identical to that contained in the Exploration
+incorporating additional
+contained in Annex III, Regulation. However, this maybe an opportunity to modify or
+undertakings particularly in
+Article 4(6) of the clarify undertakings fundamental to delivery of plan of work /
+Convention.7
+contractual obligations?
+connection with uneconomic
+practices.
+ Could be used to include specific and fundamental contract
+ A technical working paper
+terms, for example in respect of unfair economic practices
+requires preparation by an
+anticipated by Annex, Section 6(1)(b) of the Agreement8,
+expert familiar with the
+including disclosure of anti-competitive practices and the
+international trade issues
+obligation to pay fees and royalties etc.
+raised by Annex, Section
+6(1)(b) of the Agreement
+and specific RRPs drafted.
+ Not applicable (at this
+Applications for Wording in the  To consider wording in the light of the timing and
+stage).
+approval of Exploration Regulations operationalization of the Enterprise.
+plans of work appears to suffice.
+with respect to a
+reserved area
+ Action plan for
+Equity interest Wording in the  Again, to consider wording in the light of the timing and
+operationalization of the
+in a joint venture Exploration Regulations operationalization of the Enterprise.
+Enterprise to be developed.
+arrangement appears to suffice.
+ See Guidelines for the
+Data and This draft regulation  Documents that would typically9 be supplied in support of a plan
+Preparation of a Plan of
+information to should outline the of work for exploitation could include:
+Work for Exploitation above.
+be submitted for documents, information
+7 United Nations Convention on the Law of the Sea.
+8 Agreement relating to the implementation of Part XI of the United Nations Convention on the Law of the Sea of 10 December 1982.
+9 “Typically” refers to those documents usually supplied under a land-based mining regime. See for example, Model Mine Development Agreement, International
+Bar Association (2011).
+10
+
+[Page 13]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+approval of the and other data required i. Feasibility study (or report);  See also individual
+plan of work for for an application. ii. Environmental impact statement (EIS); document draft regulations
+exploitation iii. Environmental management plan (EMP); following.
+iv. Social impact assessment / statement and action plan
+(this may be integrated into the EIS above);
+v. Financing plan;
+vi. Closure plan;
+vii. Training plan / programme;
+viii. [Emergency response and procedures plan: although not
+normally a separate document as it would be reflected
+elsewhere, given the concept of “emergency orders” this
+could be provided as a separate document];
+ix. [Health, safety and maritime security plan: again this can
+be integrated into the EIS].
+ See also “Form of applications” above concerning separate
+documents or separate plans of work.
+ Guidelines for the
+Feasibility study Content and structure to  Content to be adequate to assess commercial viability of
+Preparation and Evaluation
+be defined for exploitation proposed exploitation activities by exploitation area.
+(criteria) of a Feasibility
+activities.  To be prepared in accordance with good mining industry practice
+study to be drafted.
+and based on sound engineering and economic principles and
+ Have any “blueprint”
+accompanied by a report of an independent expert(s), including
+feasibility studies been
+mining engineer.
+developed for DSM activities
+ As part of the application process, alternative development or
+that can be adopted by the
+production plans may be requested to ensure the optimization
+Authority? (To ensure
+(including timing) of proceeds of commercial production.
+consistency and
+comparability in
+applications).
+11
+
+[Page 14]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ Draft EIS template in
+Environmental Content of EIS to be  An EIS must be:
+Technical Study No.10 to be
+impact further defined / finalised i. Based on the Environmental impact assessment (EIA)
+reviewed and updated.
+statement (EIS) and be resource-category and on “sound engineering and economic principles” and
+specific.10
+good mining industry practice and verified by an
+ Guidelines for the
+Preparation and Evaluation
+independent environmental consulting firm.
+of an Environmental Impact
+ii. Prepared in a language to facilitate review by interested
+Statement to be drafted.13
+parties plus a non-technical summary.
+Should include simple rating
+iii. Establish baseline of environmental conditions (a key
+criteria. Needs to be
+deliverable under the Exploration Regulations).
+resource-category specific.
+iv. An assessment of project-related significant effects and
+ It is recommended that the
+impacts, including cumulative impacts.
+above be undertaken by an
+ A draft EIS template can be found in ISA Technical Study No:
+1011 but requires further development and finalisation. expert and a draft template
+and guidelines circulated for
+ The EIA / EIS should endorse an inter-disciplinary approach.
+comment by interested
+ The Stakeholder Survey highlighted a number of standards and
+parties.
+resources for EIA / EIS preparation to be taken account of in
+developing a model EIS.12
+ The concept of an “Environmental Impact Area” may need to be
+developed to cover areas beyond the exploitation area(s),
+horizontally and vertically (and cumulative impacts) where
+significant impacts may occur.
+10 As knowledge is improved, a more structured process of screening and scoping an EIS can evolve.
+11 Environmental Management Needs for Exploration and Exploitation of Deep Sea Minerals, ISA Technical Study No. 10 (2012) at 17.
+12 For example, Commission for Environmental Assessment Biodiversity in EIA & SEA Background Document to CBD Decision VIII/28: Voluntary Guidelines on
+Biodiversity-Inclusive Assessment April 2006; UNEP Environmental Impact Assessment and Strategic Environmental Assessment: Towards an Integrated
+Approach 2004; EIS Solwara 1 Project Nautilus Minerals Niugini Ltd.
+13 Simple set of criteria for rating EISs could be helpful. See for example, U.S. Environmental Protection Agency, Environmental Impact Assessment Rating System
+Criteria.
+12
+
+[Page 15]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ An EMP must be / include:  EMP template needs to be
+Environmental Structure and content of
+i. Based on the EIS and on “sound engineering and drafted.
+management EMP to be drafted /
+economic principles” and good mining industry practice  Guidelines for the
+plan (EMP) defined.
+(including IFC Performance Standards 1 and 614 and Preparation and Evaluation
+other relevant internationally recognized standards15) and of an Environmental
+verified by an independent environmental consulting firm. management plan to be
+ii. Prepared in a language to facilitate review by interested drafted.
+parties.  Similar to EIS, it is
+iii. Methodologies to be employed, sampling and archiving, recommended that the
+location of monitoring stations, measurable criteria and above be undertaken by an
+threshold indicators. expert and a draft template
+iv. Should reflect parameters for and functionality of and guidelines circulated for
+Preservation reference zones (PRZs) and Impact comment by interested
+reference zones (IRZs). parties.
+v. Measures / plans for monitoring, management,  Guidelines for the design
+conservation, remediation, restoration / rehabilitation16 and monitoring of
+and control including those to avoid, minimise, mitigate, Preservation Reference
+rehabilitate and offset, where appropriate, impacts on Zones and Impact
+biological diversity within the impacted area and plans to Reference Zones to be
+prevent, minimise, mitigate impacts to water column. developed. This may require
+ EMP to be supported by an approved environmental an expert working group.
+management system (see “Environmental management” below).  Possible multi-stakeholder
+ Subject to inspection regime and frequent (say, every 2 years?) workshops post
+independent audit. development of EIS and
+ Preparation (and delivery) to reflect Best environmental practice EMP templates.
+(BEP) and application of the precautionary approach.
+ Any conditions attaching to EMP approval to be outcomes based,
+measurable, clear, reasonable and enforceable.
+ See also Strategic environmental management plan under Part
+IV below: a need for co-operation and harmonisation with
+contractor EMP process.
+13
+
+[Page 16]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ Discussion to be advanced
+Social impact Content / action plan to  Can be integrated with EIS.17
+on a social action plan for
+assessment and be defined for exploitation  Given the remoteness of exploitation activities, no immediate
+the Area and a call to
+action plan (SIA) activities and socio- communities or individuals potentially significantly affected by
+stakeholders to make
+economic impacts in the operations.
+contributions to this
+Area.  Other users of the marine environment to be considered.
+discussion.
+ Considerations for a social action plan could include contributions
+to marine research (e.g. the funding of research within Areas of
+Particular Environmental Interest (APEIs)) and incremental
+training programmes.
+ See also Seabed Sustainability Fund under Part IV below.
+ Template Financing plan to
+Financing plan Structure and content of  The financing plan will set out the details of how a contractor will
+be drafted.
+plan to be developed. finance the capital expenditure, working capital needs of the
+development and production phases and environmental
+management obligations.
+ Regulations and / or contract to provide for a consent mechanism
+to any charge, mortgage or pledge where such security is
+required by a financial institution over the mineral resources /
+interest in a contract for exploitation.
+ Template Closure plan and
+Closure plan Structure and content of  A closure plan raises many issues. It is seen as a dynamic plan
+Guidelines for the
+plan to be developed. that requires regular review and updating and must anticipate
+Preparation and
+potential closure of an exploitation area prior to the expiration of
+Implementation of a Closure
+any plan of work.
+plan to be drafted.
+ At this point it is difficult to assess the exact contents of a Closure
+plan for the Area, but may include:-
+14 Endorsed in the Stakeholder Survey.
+15 Modified for DSM-specific impacts, as the case may be.
+16 See “Restoration and rehabilitation of the marine environment” below.
+17 Draft EIS in ISA Technical Study No. 10 reflects “Socio-economic impacts” supra note 8 at page 25.
+14
+
+[Page 17]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+o “basic” decommissioning (removal of installations, plant
+and machinery);
+o Restorative obligations at the time of closure?
+o Need for a guarantee or bond?
+o Post closure environmental management and monitoring
+obligations to be defined. Also to determine the period /
+duration of post closure monitoring – appropriate
+benchmark (years)?
+ There are matters of policy
+Size and Guidance criteria for  The Convention requires that RRPs be established in
+to be addressed by the
+location of determining the size (and accordance with objective criteria for the size of areas being:
+Council. Specific guidelines
+exploitation location) of exploitation stated production requirements, the state of the art of technology
+then need to be drawn up to
+area(s) covered area(s). and relevant physical characteristics of the areas…which “shall
+identify the criteria to be
+by the plan of be neither smaller nor larger than are necessary to satisfy this
+applied in assessing the size
+work objective”.18
+and location of exploitation
+ Some stakeholders noted that such RRPs should not simply be a
+area(s). It is likely that
+determinant of size but also of location and that the Authority
+additional expert input is
+reserve the right to determine mining block order19 (adaptive
+required here and / or initial
+management?20).
+thoughts of contractors as to
+ Albeit, stakeholder comments regarding block order were
+their proposed exploitation
+directed at environmental considerations, the point is equally
+areas and production
+valid from the viewpoint of practices such as “high-grading”. What
+requirements.
+will the Authority’s policy, if any, be here? An average balanced
+grade? How will / should this be defined?21
+18 Annex III, Article 17(2)(a) of the Convention.
+19 This may necessitate the sub-division of exploitation areas into blocks. To be balanced with applicant’s desire for commercial flexibility to manage exploitation
+operations.
+20 Initial duration of exploitation operations, review periods and the intensity of exploitation operations are also relevant considerations under an adaptive
+management approach.
+21 See also Section 4 to this Report: Summary of high level issues.
+15
+
+[Page 18]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ The US Deep Seabed Hard Minerals Resources Act makes
+reference to both size and location and to a “logical mining unit”
+which includes economic and environmental considerations as
+criteria.22
+ Principles (“criteria”) for determining the size and location of the
+exploitation area suggested in the framework could include (and
+reflecting stakeholder responses): -
+o The production requirements of the applicant
+(Convention) / the commercial viability of the exploitation
+area;
+o The state of the art technology to be employed
+(Convention);
+o The relevant physical characteristics of the area
+(Convention);
+o The environmental considerations including the location
+of the exploitation area(s) and the intensity of the
+exploitation operations;
+o The proximity of the exploitation area(s) to adjacent
+exploration and / or exploitation areas covered under
+other third party plans of work / reserved areas;23
+o The proximity of exploitation area(s) to marine protected
+areas (including APEIs) and vulnerable marine
+ecosystems;
+o The size and location of PRZs and IRZs (depending on
+design criteria – see “Environmental management plan”
+above);
+22 30 U.S. Code § 1413, License and permit applications, review, and certification.
+23 There is a real possibility that exploitation operations in one area may impact adjacent exploration or exploitation areas through smothering by operational and
+discharge plumes. This needs to be addressed and buffer zones considered.
+16
+
+[Page 19]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+o The proximity of exploitation area(s) to coastal States
+(including EEZs and deposits);
+o The impact on other users of the proposed exploitation
+area(s);
+o The proximity to submarine pipelines and cables.
+ It will not be possible to set
+Fee for Wording can be adapted  The actual costs of processing exploitation applications will be
+an application fee at this
+applications from the exploration considerably higher than that under exploration applications
+stage until the review,
+regulations. given the more stringent documentation reviews and inspections.
+assessment and
+Equally, decisions will need to be made concerning the costs for
+administration processes are
+independent evaluation processes (e.g. the EA / EMP) and who
+fully defined.
+these are to be incurred by.
+ Additional administration, revision, renewal and consent-type
+fees will likely arise under a contract for exploitation.
+ Note: the 1994 Agreement requires the payment of an annual fee
+from the date of commercial production.24 This will be reflected in
+the “Financial terms” Part of the regulations, when drafted.
+ Not applicable.
+Receipt, Wording can be adapted  No comment.
+acknowledgement from the exploration
+and safe custody
+regulations.
+of applications
+24 Annex, Section 8(1)(d). The point of commencement of commercial production is broadly defined in Annex III, Article 17(2)(g) of the Convention. There will be a
+number of factors that point toward commercial production having been reached. In land-based mining this can be a blurred area and the extent to which it is
+possible to define an operating capacity threshold may be preferable.
+17
+
+[Page 20]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ A working paper needs to be
+Public review of An open, inclusive and  Under the principle of transparency in decision-making on
+drafted setting out the public
+the cost-effective decision- matters likely to have a significant impact on the environment
+participation options and
+Environmental making process needs to (including socio-economic impacts), an-inclusive, open review
+procedures available,
+impact be developed for the process needs to be developed, particularly for the EIS / EMP,
+including independent expert
+statement and review of specific SIA and Closure plans.
+review(s), based on
+Environmental documents by interested  Public concerned / potentially impacted are not immediately
+stakeholder submissions
+management parties. identifiable but mankind as a whole has, arguably, a vested
+and best practice regimes.
+plan [and Social interest.
+The paper can then be
+impact  While a public review and engagement process is common
+circulated to stakeholders for
+assessment and practice in many national jurisdictions, this requires much thought
+comment.
+Closure plan] for activities in the Area, including the practicalities of any
+procedure, timings and costs.
+ A number of alternatives have been put forward by stakeholders,
+including review mechanisms by independent experts and panels
+and the public availability of relevant documents and information
+for review.
+ Detailed guidelines will be
+Consideration The content of this  A re-write of this regulation is likely required to provide for all the
+needed in respect of
+by the Legal and regulation (which can be necessary eventualities for the Commission’s consideration of a
+evaluation criteria to be used
+Technical adapted from the plan of work and its subsequent recommendation(s) to Council
+by the Commission.
+Commission Exploration Regulations) for approval or rejection of an applicant’s plan of work for
+ A technical working paper
+together with evaluation exploitation.
+needs to be drafted to
+guidelines is key for  Time limits and milestones in the process will also be critical to
+elaborate on the concept of
+contractors – element of contractors as well as the evaluation criteria on which the
+sound commercial principles
+certainty as to process, Commission will ultimately base their recommendations to
+(see 1994 Agreement,
+timings and evaluation Council. This could include any reasonable conditions25 proposed
+25 An indication of “reasonable conditions” and how this will be interpreted should be considered. Plans of work will not be identical. Conditions could include: the
+provision of a bond or guarantee; the purchase and maintaining of a specified category of insurance; any specific monitoring and reporting obligations (over and
+18
+
+[Page 21]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+criteria. by the Commission to the Council as part of that recommendation Annex, Section 6(1)(a)).27
+procedure.  A technical working paper is
+ An application for the approval of a plan of work for exploitation required to elaborate on
+will require approval of all “documents”26 submitted and must substantial evidence of risk
+ensure that the necessary review and public participation of serious harm to the
+procedures have been followed and account taken of marine environment in the
+submissions received by the Commission from interested parties. case of area(s) disapproved
+for exploitation.28
+ Should any specific Council
+Consideration Wording can be adapted  To consider whether Council should take an additional
+procedures and criteria be
+and approval of from the Exploration governance step of satisfying itself, particularly where a public
+developed here?
+plans of work for Regulations. review process is required, that submissions from any review
+exploitation by mechanism have been duly taken account of in the decision-
+the Council making process and that the application conforms, to best of
+knowledge and belief at the time, that say Annex, Section 6 of
+the Agreement has been complied with.
+ Should this be formalised
+Independent Consider setting up  Given the pressures that applications for plans of work for
+under the regulatory
+technical expert expert working groups or exploitation will place on the existing assessment and decision-
+framework?
+working group / sub-committees to making structure, additional expert working groups or sub-
+sub-committees support the work of the committees may be required.
+Commission.
+above those under the regulations); the appointment of observers; the duration of consent for an environmental management plan and any conditions relating in
+whole or part to an adaptive management approach. Conditions will be recorded in a relevant schedule to a contract for exploitation.
+26 Based on the documents (and other information requested) the Commission will need to be satisfied that an applicant has the capability and systems to deliver
+health and safety and environmental requirements; that the applicant has adequate technical and financial capability to deliver the plan of work and that project
+economics are sound etc.
+27 This provision stipulates that as part of the production policy of the Authority, the “development of the resources of the Area shall take place in accordance with
+sound commercial principles”. A marine minerals policy and programme document will need drafting when data and information on resources in the Area is more
+comprehensive.
+28 See Regulation 21(6)(c) PN Exploration Regulations.
+19
+
+[Page 22]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+Part III Contracts for exploitation
+ Not applicable.
+The Contract Wording can be adapted  In addition to the standard clauses, specific conditions may be
+from the Exploration approved by the Council based on recommendations by the
+Regulations. Commission and reflected in the relevant Schedule to the
+Contract.
+ Consideration to be given to
+Rights of the Wording can be adapted  It would seem appropriate to identify, as exhaustively as
+this by the Secretariat.
+contractor from the Exploration possible, what rights, including exclusive rights, are being
+Regulations. granted here, unless it is felt clear that the definition of
+“exploitation” covers this? For example, the definition of
+“exploitation” does not include “exploration” but should be a right
+to explore in the exploitation area(s).
+ Consideration to be given to
+Obligations of To provide clarity on any  To the extent that any duties of or obligations on the Authority are
+this by the Secretariat.
+the Authority obligations of the unclear or not dealt with elsewhere, a provision should be drafted
+Authority. to provide clarity, and reflected in the standard contract as
+appropriate.
+ Consideration of the phrase
+Legal title to To provide that legal title  Are there any restrictions that can / should be placed on the
+“recovery in accordance with
+minerals passes on “recovery” but transfer of title where the contractor is say in breach? For
+the Convention”29 requires a
+with any restrictions? example, a prohibition on sale / disposal until all fees, royalties,
+technical working paper to
+profit-share etc. have been paid – or suitable arrangements
+be drafted.
+made.
+ Further understanding of
+Duration of This draft regulation  The Convention prescribes limited objective criteria:30
+contractor development,
+contracts / relates to security of o The economic life of the mining project – depletion of ore,
+production and economic
+renewal tenure and a key the useful life of mining equipment and processing
+models and plans is required
+29 Annex III, Article 1 of the Convention.
+30 Annex III Article 17(b)(iii) of the Convention.
+20
+
+[Page 23]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+contractual term for facilities and commercial viability; here.
+contractors. o To permit commercial extraction; and  A balance needs to be
+o Reasonable time for construction of commercial-scale established between the
+mining and processing systems. commercial requirements of
+o But (important wording): “the total duration of contractors and the ability of
+exploitation, however, should also be short enough to the Authority to amend
+give the Authority an opportunity to amend the terms and terms and conditions in
+conditions of the plan of work at the time it considers accordance with revised
+renewal in accordance with [RRPs] which it has adopted RRPs.
+subsequent to approving the plan of work”.  A working paper needs to be
+ Duration will likely be resource category specific. developed for circulation to
+ The Stakeholder Survey identified periods of tenure ranging from stakeholders.
+an initial 10-year period to a general consensus range of 15-25  Guidelines need to be
+years and renewal (extension) periods of 5-10 years (at least in developed for the following:
+the case of polymetallic nodules). o Criteria for contract
+ Duration is also relevant to the development and revision of a duration – resource
+financial payment mechanism. specific.
+ It is suggested (from the Stakeholder Survey) that a substantive o Application and
+review period occur at approximately 5 years into the contract evaluation criteria
+term. The specific conditions attached to that review should be for a substantive
+established at the time of the initial application for a plan of work review.
+for exploitation. o Application and
+ It may be possible to approve stages of exploitation operations. evaluation criteria
+In the early phases of this industry, the nature of the deposit may for renewal of an
+require a gradual procession to commercial production. If it exploitation contract.
+subsequently comes to light that the deposit extent is less than
+originally forecast, the duration (or size of area) needs to be
+adjusted. Uneconomic production and recovery is to be avoided.
+ Commencement of mining: as soon as possible but a logical
+21
+
+[Page 24]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+development of production areas within the exploitation area
+leading to maximum economic recovery plus development of
+infrastructure and transporting and processing construction.
+ As to periods of renewal / extension, thought will need to be
+given as to whether this should be treated as a “fresh” application
+and subject to identical rules of process and procedure as the
+original application? Bearing in mind the inclusive and
+participative approach being taken.
+ A starting point for the regulations could be:
+o Specify a maximum initial period;
+o Define the parameters of any renewal against specified
+criteria (depletion of ore, commercial viability, contractor
+not in material default) and documentation needs;
+o Provide for a substantive review period at the end of first
+5 years based on pre-determined performance and other
+criteria and included in the contract – with the ability of
+the Authority to adjust terms etc.
+o And other review periods at pre-defined timeframes or
+triggered on the happening of specific events.
+ Guidelines for the evaluation
+Performance This draft regulation  Under the Convention31, the Authority is obliged to “establish a
+of Production performance
+requirements should specify the maximum time interval, after the exploration stage is completed
+requirements under a
+production obligations and the exploitation stage begins, to achieve commercial
+contract for exploitation to
+under a plan of work. production”. Allowance here is to be given for construction time
+be drafted. To include key
+and unavoidable delays.
+performance criteria and
+ Then following commercial production, “the Authority shall within
+indicators.
+reasonable limits and taking into consideration all relevant factors
+ Council to consider as a
+require the operator to maintain commercial production
+matter of policy, in
+31 Annex III Article 17(2)(c) of the Convention.
+22
+
+[Page 25]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+throughout the period of the plan of work”. Need to elaborate on discussion with relevant
+taking into consideration all relevant factors. That is, in practice, stakeholders, a cut-off point
+what factors will potentially delay, halt or suspend commercial for commercial inactivity.
+production? Technical and economic conditions will be one
+factor.
+ The mining plan and estimated date of commercial production will
+be assessed during the evaluation phase (Feasibility study). The
+approved Feasibility study locks the contractor in to the
+production undertakings in that study.
+ A cut-off point needs to be adopted where no commercial activity
+has taken place and to afford other operators the opportunity of
+developing the resources in that area. The US Deep Seabed
+Hard Minerals Act provides a cut-off point of 10 years, unless a
+contractor can show just cause.32 Equally, for any periods of
+inactivity, should the contractor be required to pay a surface
+rent? Arguably, yes but at what rate / level?
+ Also provision should be made for a contractor to apply for a
+suspension in commercial production due to say economic
+conditions (see also Revision clause in the contract).
+ Performance requirements expected of the contractor are key
+and arguably form fundamental terms of the contract. Flowing
+from the Feasibility study, key performance criteria and indicators
+should be established. Guidelines will be needed. For example,
+the Feasibility study should provide production estimates for the
+mining operation; where recovery falls below such agreed
+estimates by a pre-determined percentage, the Authority should
+be in a position to require the contractor to improve the efficiency
+32 See 30 U.S. Code § 1417, Duration of licenses and permits.
+23
+
+[Page 26]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+etc. of the mining operation.
+ From a commercial perspective, a contractor should be permitted
+to make minor changes to an approved programme of activities
+without recourse to the Authority. However, any material changes
+should require the Authority’s prior approval. The distinction
+between minor and material should be discussed and agreed
+during the application and approval process and also reflected in
+any guidelines.
+ It is usual in a land-based mining context that an operator is
+required to undertake capacity tests of the mining equipment.
+Again, this needs to be considered.
+ The following could also be included in this section:
+o Production takes place in accordance with sound
+commercial principles (see “Consideration by the Legal
+and Technical Commission” above);
+o No subsidization of activities;
+o No discrimination;
+o Stipulate Council’s powers to investigate and take
+measures.
+ A policy in respect of waste
+Conservation of General obligation to  To permit the Authority to impose reasonable conditions to
+management needs to be
+the natural avoid unnecessary waste. prevent waste.
+developed.
+resources of the  To permit the Council to issue conservation measures to promote
+Area33
+the conservation of the natural resources for future generations.
+ Visibility of processing and treatment of the ore should be
+stipulated.
+ Not applicable.
+Use of sub- To specify the obligations  Contractor’s right to sub-contract but also contractors to extract
+on a contractor where
+33 Article 145(b) of the Convention.
+24
+
+[Page 27]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+contractors sub-contractors are the necessary guarantees for sub-contractor performance.
+engaged.  The use of sub-contractors should be addressed in the Feasibility
+study – full disclosure.
+ Discussions between the
+Vessels To specify the obligations  Requirement for vessels engaged in exploitation activities to
+Authority and the
+operating in the on a contractor in relation remain in Class and be subject to general international legal
+International Maritime
+Area to vessels undertaking obligations and appropriate conventions.
+Organization to be
+activities in the Area.  Need to establish clear line of duties and responsibilities and co-
+formalised.
+operation between the Authority and the International Maritime
+Organization (IMO).
+ Discussions between the
+Protection of To specify the obligations  Procedures to be established to notify submarine cable operator
+Authority and relevant
+submarine on all parties including organizations of a plan of work application showing co-ordinates
+cables and notification procedures.34 of proposed exploitation area(s). representative organizations
+formalised.
+pipelines  Reporting / notification protocols to be established.
+ To determine additional
+Health and To specify the additional  To establish what supplementary duties and obligations the
+international / DSM-specific
+safety measures that Authority has as a regulator in connection with health and safety
+standards and the extent of
+supplement existing together with applicable standards.
+the Authority’s remit / duties
+international  Training of employees in health and safety procedures.
+agreements.35
+ Labour standards also require consideration.
+and responsibilities.
+ To establish areas of skills
+Training Training obligations on a  To be submitted as part of the documentation requirements on
+and talent shortages key to
+contractor. application for a plan of work.
+the development of the DSM
+ Thought to be given to the needs of the future industry and
+industry.
+training programmes targeted accordingly. Training obligations
+could also be facilitated under the requirements of a Social
+34 Arguably an obligation for sponsoring States to have RRPs in place as well. See Article 113 of the Convention.
+35 See Article 146 of the Convention. Relevant international agreements / practices include: International Convention for the Safety of Life at Sea and International
+Management Code for the Safe Operation of Ships and for Pollution Prevention (IMO).
+25
+
+[Page 28]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+impact assessment and contribution, that is, incremental training
+programmes including tertiary scholarships etc.
+ Note: training obligations of contractor personnel too in matters of
+occupational health and safety etc.
+ Guidelines on Procedures
+Periodic review As per content of  Periodic review at 5-year intervals. Contractor is obliged to
+and Information
+of the Exploration Regulations. implement / adjust its programme of activities for the next five
+Requirements for Review to
+implementation year period (adaptive management approach).
+be drafted.
+of the plan of  Greater clarity and guidance will be needed over the substance
+work for and content of these reviews for exploitation programmes.
+exploitation  Additionally certain events will require notification and perhaps
+the production of incident or exception reports. For example, if
+commercial production falls below average targets, casualties or
+the achievement of milestones. Specific conditions may be
+imposed which require more regular reporting. Reporting is
+obviously a key area of governance under the regime but it
+needs to be targeted and relevant to the Authority’s role as
+regulator.
+ To establish clarity on post
+Termination of As per Exploration  What obligations remain with the contractor post termination?
+termination obligations for a
+sponsorship Regulations. Does a contractor remain liable for say EMP monitoring
+contractor.
+obligations?
+ Legal workshop required to
+Responsibility As per Exploration  Wording of the Exploration Regulations principally reflects the
+explore and develop further
+and liability Regulations. Convention.36 The liability of the contractor is for wrongful acts.
+principles of responsibility
+There is also an overlap in responsibility and liability under the
+and liability in the Area.
+laws of a sponsoring State. Strict liability may be imposed under
+national law.
+ The area of liability and redress in the Area particularly as
+36 Annex III, Article 22.
+26
+
+[Page 29]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+regards environmental damage remains at an embryonic stage of
+development.37 Calls for a separate working group to look at this
+issue were made in the Stakeholder Survey.
+Part IV Protection and preservation of the marine environment
+ This area requires the
+Protection and General wording in  Acknowledgement of the general principles and obligations within
+formation of targeted expert
+preservation of Exploration Regulations the exploration regulations should remain. That is, application of
+workgroups consisting of a
+the marine to be adapted. the precautionary approach, BEP, measures to control pollution.
+broad range of stakeholders,
+environment Should also specify an adaptive management approach as part
+including relevant
+of BEP.
+international organizations.
+ A vast amount of work needs to be performed in this area from
+ Specific consideration of
+agreeing the thresholds of serious harm to the efficacy of PRZs
+“dumping” RRPs.
+and IRZs, developing workable environmental targets and
+indicators and the application of a precautionary-risk
+management framework. Prescriptive regulations and detailed
+guidelines will be the ultimate output here; however, it is too early
+to draft the same without input from experts, interested
+stakeholders, relevant international organizations (e.g. IMO in
+respect of marine pollution) and knowledge advancement.
+ Dumping: the 1972 London Convention38 and the 1996 Protocol
+to the London Convention currently exclude the dumping of
+wastes or other matter connected with seabed mining activities
+from its scope. More specifically Article 1(4)(3) of the 1996
+Protocol states “[t]he disposal or storage of wastes or other
+matter directly arising from, or related to the exploration,
+37 The Seabed Disputes Chamber of the ITLOS noted “[a]rticle 304…opens the liability regime for deep seabed mining to new developments in international law”,
+either under the existing regime or under customary international law. This is further endorsed by the Convention which obliges the ISA Assembly to promote
+“international co-operation concerning activities in the Area” and to encourage “the progressive development of international law relating thereto”.
+38 Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter.
+27
+
+[Page 30]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+exploitation and associated off-shore processing of seabed
+mineral resources is not covered by the provisions of this
+Protocol”.
+ It would thus seem that the disposal or storage of waste or other
+matter directly arising from “activities in the Area” will need to be
+regulated by the Authority as the competent agency /
+international body. What will constitute “dumping” in the Area?
+E.g. the deliberate disposal of sediment from on-board
+processing and vessels and mining collector in emergency
+situations? What protection measures will be needed (possible
+co-operation between the Authority and the IMO)?
+Regulations should be drafted and the terms for say an EMP
+should / could reflect specific waste assessment framework(s),
+monitoring and reporting obligations connected with the dumping
+of waste (as defined).
+ Specific guidelines on
+Environmental To operationalize the  The OSPAR Guidelines for Monitoring the Environmental Impact
+environmental management
+management EMP. of Offshore Oil and Gas Activities (2004-11) provide a sound
+systems to be developed.
+basis and guide aimed at environmental monitoring (the design
+and conduct of monitoring programmes) of discharges from oil
+and gas activities. This can be adapted for the specific
+requirements of exploitation activities together with other relevant
+best practice identified in the Stakeholder Survey and through
+future expert / workshop engagement.
+ This regulation should oblige the contractor to have an
+internationally recognized environmental management system
+(EMS) in place e.g. ISO 14001: 1996.
+ Specialists should conduct independent audits say every 2 years
+for the EMP and EMS.
+ Any material revisions to an EMP to require the prior approval of
+28
+
+[Page 31]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+the Authority.
+ Contractors should, in addition to their reporting obligations to the
+Authority, make available a public annual statement of its
+environmental targets and its performance delivery against
+environmental indicators.
+ Secretariat to review
+Emergency As per Exploration  This is an area that requires further detailed input as to its
+contemporary best practice
+orders Regulations. practical operation. While the rationale behind emergency
+in the field of marine disaster
+measures is sound, its practical application may be limited.
+management and
+Consequently, a focus on and during the application, reporting,
+responding to emergency
+inspection and review processes of contractor risk management
+situations including the
+systems and processes will be of greater significance, including a
+lessons learned.
+contractor’s Emergency response and procedures plan. While
+this regulation is targeted at the protection of the marine
+environment, human health and safety is of fundamental
+importance.
+ Can draw on much existing best practice where relevant,39
+including reporting protocols.
+ Regional workshops and co-
+Strategic The requirement to  This regulation would place an obligation on the Authority to
+operation to be developed to
+environmental conduct regional SEIAs conduct a Strategic environmental impact assessment(s) of the
+formulate regional SEMPs.
+management and deliver regional Area and to develop Strategic environmental management
+plan (SEMP) SEMPs. plan(s) (SEMPs) including the development of APEI’s.
+ The issue of regional SEMPs for the Area drew much discussion
+from stakeholders and the need to have SEMPs in place prior to
+commercial exploitation.
+ The regulation should specify the objectives of the SEMPs.
+39 For example, stakeholders suggested: International Convention on oil pollution preparedness, response and cooperation, 1990; IMO Pollution Incident
+Response Planning Resolutions MEPC.54(32) & MEPC.85(44); EPA (US) Area Contingency Planning Handbook and EU Directive 2012/18/EU on control of
+major-accident hazards involving dangerous substances.
+29
+
+[Page 32]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ See also contractor EMP obligations under Part II above: a need
+for co-operation and harmonization of SEMP and contractor EMP
+deliverables.
+ None at this stage.
+Rights of coastal The wording from the  Reference to any likely impacts on coastal states should be
+States Exploration Regulations addressed in the EIS, where considered significant. See also
+remains relevant. “Size and location of exploitation area(s) covered by the plan of
+work” above.
+ The interaction between
+Environmental To provide for a bond or  The necessity for a bond or related performance guarantee
+commercial insurance and
+bonds and financial guarantee where requires detailed consideration together with the form that any
+bond mechanisms needs to
+performance requested by the bond / guarantee should take: cash deposit, parent company
+be investigated together with
+guarantees Authority. guarantee, State guarantee, financial institution letter of credit –
+the terms and conditions,
+and associated investment grade of any issuer. Cash bonds are
+including appropriate
+preferable. The terms of its release and what can be deducted
+quantum of any bond.
+against the deposit must be established.
+ For commercial operators there is generally a preference for
+commercial insurance rather than bonds.
+ Importance of equality of financial treatment and comparable
+financial obligations across the contractor base.
+ Not all jurisdictions request a bond in practice under mining
+regimes but may make provision in their regulations for a bond,
+particularly to secure any closure obligations (restoration /
+rehabilitation). In the case of activities in the Area these
+obligations may be minimal (save for any post closure
+monitoring) and a cash bond or guarantee connected with the
+performance of the EMP may be more preferable.
+30
+
+[Page 33]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ None at this stage.
+Restoration and A general restoration  To include a general restoration obligation.40 Restoration to occur
+rehabilitation of obligation where where directed to do so by the Council. This would be based on
+the marine restoration is feasible the Commissions’ recommendations that would take account of
+environment seems appropriate. the likely effectiveness of techniques based on necessity;
+technical feasibility; and cost-efficiency on the basis of a cost
+benefit analysis, where such quantification can be reasonably
+assessed.
+ Restoration will also be impacted by “passive rehabilitation”, that
+is, the ability for natural recovery to occur.
+ “Restoration” & “rehabilitation” will require appropriate legal /
+scientific definition in a marine environment context.
+ Adaptive management in
+Adaptive A regulation that better  All actors to adopt an adaptive management approach to
+connection with exploitation
+management defines adaptive exploitation activities. Adaptive management may include:-
+activities in the Area
+approach management.  The permitting of exploitation operations to proceed on a
+requires further elaboration
+smaller scale or for shorter defined periods of time in order to
+with interested parties.
+assess impacts on the environment and on human health
+and safety;
+ The duration of any approval of an EMP;
+ The frequency of review periods to be imposed by the
+Authority; and
+ Additional reporting obligations under an EMP.
+ Note: this approach should be balanced with the commercial
+(economic) viability of operations (principles of sustainable
+development). Development of cost-benefit analysis models
+needed.
+40 General consensus by stakeholders for focus to be on impact minimisation and mitigation measures rather than restoration at this time.
+31
+
+[Page 34]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ A working paper to be
+Seabed To establish a seabed  The idea and rationale of a fund is for the Authority to be in a
+drafted articulating the
+sustainability sustainability fund with position, based on expert recommendations, to direct further
+concept and objectives of
+fund targeted objectives. research e.g. in relation to marine ecosystems in the Area and to
+such a fund for circulation to
+develop institutional capacities.41
+interested parties.
+ At the moment the Authority / Common heritage of mankind are
+in a “Catch 22” with no budget for large-scale research activities.
+Research remains a principal obligation for contractors.
+ The fund could be financed by way of a levy e.g. USD x per wet /
+dry ton of ore recovered on board the mining vessel.
+ Contributions to the fund could also be considered an element of
+social contribution.
+ The fund could target the development of technology, which also
+presents a revenue stream opportunity for the fund (e.g. patent
+royalties).
+ Such a funds merit and appeal has yet to be tested but there is a
+strong rationale for such a fund.
+ None at this stage.
+Environmental As recommended by the  The rationale for such a fund stems from a potential
+liability trust Seabed Disputes environmental liability gap. The merit of such a fund was
+fund Chamber of the ITLOS.42 presented in the Stakeholder Survey.
+ Given the suggested Seabed sustainability fund above, the need
+for an additional fund requires consideration. However, the
+rationale for this fund is different and could be funded by
+41 The concept of such a fund originated from the Stakeholder Survey and is based on the Aggregates Levy Sustainability Fund in the United Kingdom. The
+rationale for such a fund is also supported by other stakeholder comments including the development of a non-fault based mechanism for research in the deep sea
+environment.
+42 International Tribunal for the Law of the Sea: Case No. 17: Responsibilities and obligations of States sponsoring persons and entities with respect to activities in
+the Area (Request for Advisory Opinion submitted to the Seabed Disputes Chamber).
+32
+
+[Page 35]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+allocating a portion of production royalties received by the
+Authority.
+ None at this stage.
+Human remains The wording of the  The SIA and action plan should address any specific matters
+and objects and Exploration Regulations relating to the cultural heritage in the exploitation area(s).
+sites of an remains relevant.
+archaeological
+or historical
+nature
+Part V Confidentiality
+ Confidentiality is raised as a
+Confidentiality The wording of the  Amendment of the Exploration Regulation’s wording may be
+high-level issue under
+of data and Exploration Regulations required in the light of any agreed public participation and review
+Section 4 to this paper.
+information & may be relevant. processes. The principles of the EITI are also relevant here.
+Procedures to  There is a call, within the Stakeholder Survey for a presumption
+ensure that all data is public (including contracts for exploitation etc.)
+confidentiality unless demonstrated otherwise. This would not extend, however,
+to confidential information and data.
+ Data flow and participation / review processes will drive any
+amendment of the confidentiality provisions here. Best practice is
+to be sought.
+Part VI General procedures
+ None.
+Notice and The wording of the  None.
+general Exploration Regulations
+procedures remains relevant.
+33
+
+[Page 36]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ The process of issuing
+Recommendations The wording of the  This provision may need to be “updated” as to the processes
+recommendations by the
+for the guidance Exploration Regulations necessary to draft and adopt such recommendations, including
+of contractors Commission needs review.
+remains relevant. the necessity for expert input and review by interested parties
+where applicable.
+ None but see Section 4:
+Duty to A general duty on all  A general regulation to stipulate the Authority’s obligation to co-
+Summary of high level
+cooperate parties to co-operate and operate with a sponsoring State (and vice-versa) where required.
+issues.
+exchange information is Member States should equally be under a duty to co-operate and
+necessary. assist the Authority (and vice-versa).
+ A duty to co-operate with the Authority is not only essential for
+“joint” investigation and enforcement of operational obligations,
+but also of sharing information for financial auditing purposes. In
+practical terms once an ore vessel has left the Area, what
+“control” will the Authority have over auditing for say royalty
+payments? Access by a Member State to customs and related
+documentation when the vessel arrives in a Member State port or
+shipments to the treatment and processing plants will be crucial.
+ Aside from “co-operation”, perhaps an exchange of information
+provision is applicable here as well defining the types of
+information that needs to be shared to allow the Authority and
+Member States (and sponsoring States) to discharge their duties
+to the common heritage of mankind.
+Part VII Enforcement, offences & penalties
+ Develop a working paper
+Inspection To include inspection  The general wording of the Exploration Regulations (contract)
+setting out a suggested
+regime in headline should be retained. However, the inspection regime requires
+structure and options,
+regulations rather than detailed input, an understanding of any potential overlaps with
+including funding, for the
+standard terms of sponsoring State regimes and its funding and independence.
+operation of an inspection
+contract.  Use of best technology for remote supervision / “inspection”.
+regime, taking account of
+34
+
+[Page 37]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+ Need parameters for: comments made in the
+o What will be inspected? Stakeholder Survey.
+o The qualifications of inspectors? Multi-disciplined or
+specific focus?
+o The training of inspectors?
+o Production of an inspector’s manual.
+o Code of Good Practice on integrity, professionalism and
+transparency (see Paris MOU / Regional Port State
+Control).
+ Option here for Member States to nominate their nationals as
+inspectors. But for such nationals not to be permitted to inspect
+operations involving their nationals or persons under their control
+where a Member State is say a sponsoring State.
+ In a DSM context, could explore possibilities of cooperation
+between the Authority’s Mining Inspectorate and Regional PSC
+MOUs to collaborate on gathering and sharing data on
+contractors’ compliance with their obligations, including mining
+equipment certification and standards (apparently being
+developed by classification society ABS and maybe others),
+contingency, safety plans and other plans relevant to the Mining
+Inspectorate.
+ (See also ”Duty to co-operate” above, which will also be of
+relevance here).
+ Desktop review to be
+Offences & Specific, measurable  A specific list of offences to be included in the regulations, as
+undertaken on existing /
+penalties offences to be defined amended by the Council as appropriate. Parallels can be drawn
+comparable regimes.
+together with associated from existing regimes.
+ Interaction with sponsoring
+penalties.  Penalties can either be included in an annex to the regulations,
+State offence and penalty
+as amendable by the Council.
+regime to be understood.
+ General characteristics: proportionality; escalation process (i.e.
+35
+
+[Page 38]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft Specific elements Commentary / suggested content Actions for
+regulation operationalization of draft
+description4 regulation
+warning process, agreement for remedial action; enforcement
+notice; administrative penalty etc.). Penalties ideally against
+measurable parameters (targets, thresholds) rather than
+breaches of procedural obligations?
+Part VIII Disputes
+ A technical working paper
+Settlement of As per Exploration  Opportunity to consider “lower level” administrative appeals for
+needs to be prepared to set
+disputes Regulations. the plan of work application process? That is, a simpler appeal
+out dispute resolution
+mechanism for the Commissions’ recommendations on the
+options under the
+outcome of a plan of work or its constituent elements.
+Convention.
+Part XI Resources other than [mineral category]
+ None.
+Resources other As per Exploration  None.
+than [mineral Regulations.
+category]
+Part X Review
+ None.
+Review As per Exploration  Given an adaptive management approach, in the early stages of
+Regulations. development, the exploitation regulations will benefit from an
+annual evaluation.
+36
+
+[Page 39]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Annex II Contract for exploitation
+A full analysis of the proposed standard clauses for a contract for exploitation is not given below. Many of the standard clauses including
+development, production and performance obligations will flow from the headline regulations. However, there are 5 suggested provisions
+below that require action and / or consideration.
+Clause relating Commentary Action
+to:-
+“Dealings” or  A contractual clause (or regulation) may be needed to deal with any unfair or uneconomic Expert input required in
+arrangements practices (Annex, Section 6 of the Agreement) that occur in the downstream process. This needs connection with the
+expert consideration but there could be agreements, transactions or arrangement that may development of RRPs (under
+require the prior consent of / notification to the Authority (Council). the Agreement) relating to
+ This is a specialist area and requires expert input. That said, transparency, exchange of unfair and / or uneconomic
+information and co-operation will facilitate any appropriate obligations on the Contractor (and practices (in accordance with
+Member States under the Agreement). the requirements of the
+ Financial arrangements downstream may also impact the financial payment system depending on Agreement). See also
+its final formulation, including non-arm’s length sales. “Undertakings” above.
+Annual Reports  Guidelines will need to be prepared to determine the format and content of a contractor’s annual Guidelines for the
+report to the Authority. Subject to specifically agreed confidentiality criteria, these should be made Preparation of Annual
+publicly available (or as a minimum, part thereof) under the transparency principle. Reports to be drafted.
+ There also needs to be standardization in reporting. A template(s) needs to be devised for this
+purpose together with an analysis of actual performance against previously agreed performance
+indicators.
+ Though this clause speaks to “Annual Reports”, there will be other specific contractor reporting
+obligations under the regulations.
+37
+
+[Page 40]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Clause relating Commentary Action
+to:-
+Insurance  Requirement to maintain insurance in accordance with approved plan of work. Annual evidence Discussions with contractors,
+required. the insurance industry and
+ Requirement to maintain with “financially sound and reputable insurers” – consistent with Good other stakeholders needed
+Mining Industry Practice. This is a specialist area, not least when combined with environmental here to gain knowledge and
+liability insurance. Specific guidance and advice is required for the Authority to have a full understanding of insurance
+understanding of products available, including deductibles, and their efficacy. specifics, including
+ More prescriptive description of insurance requirements required. limitations, exceptions and
+ See also “Environmental bonds and performance guarantees” above. exclusions.
+Suspension and  Wording from Exploration Regulations to be retained. However, clarification needed over serious Technical paper to clarify
+termination of persistent and wilful violations;43 and what are considered fundamental terms of the exploitation meaning of serious persistent
+contract and
+contract? and wilful violations based on
+penalties
+ Fundamental terms of the contract can be specifically defined in the contract. Serious and existing best practice in
+persistent can be clarified in guidance notes reflecting a penalty regime. extractive industries.
+Revision  The revision clause in the Exploration Regulations is of greater significance to exploitation Technical paper to clarify
+contracts. meaning of inequitable,
+ The clause is to be taken from Annex III, Article 19 of the Convention. As an immature industry, it impracticable and impossible
+will be difficult to anticipate all eventualities. However, some guidance should be considered in referenced in Annex III,
+terms of understanding the concepts of inequitable, impracticable and impossible contained in Article 19, Convention.
+Annex III, Article 19.
+ Equally, any review periods provided for in the regulations could ease the operation of this
+contractual provision.
+ Transparency of any agreed changes to the terms of a contract is key; hence a disclosure
+provision should be reflected, subject to confidentiality provision.
+ Could include suspension of operations for market conditions (note: obligations under an EMP to
+continue).
+43 Annex III, Article 18 of the Convention.
+38
+
+[Page 41]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 3: Summary of the response of the Legal and Technical
+Commission to Stakeholder Survey submissions
+The Commission acknowledges submissions made to the Stakeholder Survey and takes this opportunity to thank all those
+who have responded. The submissions received to date are from: 20 Members of the Authority (includes responses from
+statutory bodies, governments, ministries and departments); 9 contractors; 13 non-governmental organizations; 4
+scientific and research institutions, 6 private entities and 3 individuals.
+A synthesis of submissions to the survey has been undertaken by the Secretariat. Submissions not asked to be kept
+confidential were placed on the website of the Authority; others remain confidential. The Commission took account of all
+submissions in its development of the draft framework for the Exploitation Regulations.
+The Commission is however aware that submissions anticipated particularly from many Member States have not been
+received so far. It is hoped that this Report will provide an opportunity and encourage those that have not responded to do
+so. These responses are requested to be submitted to the Secretariat not later than mid-May 2015 so that they can be
+considered in the further development of the framework before the Council meets in July 2015. A wider stakeholder base
+will also permit the Commission to better categorise stakeholder groups and interests.
+Stakeholders who responded to the 2014 Survey are also invited to provide further comments on this Report no later than
+mid-May 2015.
+39
+
+[Page 42]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 4: Summary of high level issues
+The Commission has considered a number of high level issues relating to both the strategic approach to and operational
+development of a regulatory framework. This Section 4 summarises these high level issues. Where applicable, actions
+flowing from a discussion of the issues will be reflected in the Draft action plan in Section 5 to this document.
+It is also likely that these issues will emerge into the regulatory framework in one form or other.
+At this stage, comments are invited as to whether (1) any high level issue is considered as missing from the list; (2) that
+the commentary appropriately reflects understanding of the issue and (3) how these issues could be incorporated into the
+framework.
+40
+
+[Page 43]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+High level issue Commentary
+1. Information and data – The Authority is currently operating in a data deficient environment, particularly as regards
+what we know, what we resource data and environmental data. It is recommended that the Authority establish a fit-for-
+don’t know, what we purpose data management strategy as a matter of priority. This is relevant for both the
+need to know development of the regulatory framework and on-going informed decision-making.
+2. An interim framework The basic draft framework at Section 2 of this document is a starting point to facilitate constructive
+dialogue with stakeholders and to aid identification of further areas of study and expert input. As a
+consequence of 1. above, the framework will remain very much “work-in-progress” until such time
+as knowledge gaps can be filled.
+3. One exploitation It is recommended at this stage that the core rules, regulations and procedures (RRPs) are set out
+framework? in one over-arching framework. Resource-specific RRPs can be developed at a later stage.
+However, an initial focus will be placed on a regulatory framework for polymetallic nodules.
+4. Activities in the Area – The specific boundary points for defining activities in the Area and the specific obligations and
+clearly defined boundary duties of the various actors, including that of the Authority, is unclear. This includes the potential
+points? overlap with the competencies of other relevant international organizations including the
+International Maritime Organization. A clear picture of boundary points, including those relevant to
+environmental, financial and resource conservation matters needs to be drawn.
+5. The transition between Aside from the issue of the extension of contracts for exploration, two further issues are relevant.
+exploration and First, the need to develop a process and procedures for prior environmental impact assessment for
+exploitation phases specific activities undertaken under a contract for exploration.44 Secondly, for reasons of
+commerciality, it is recommended that the concept of a provisional mining licence45, while having
+some merit, is forgone and that a substantive review period against pre-determined performance
+indicators is undertaken within a 5-year period from the commencement date of a contract for
+44 See IBSA/19/LTC/8.
+45 See ISA Technical Study: No. 11 at page 4 for background.
+41
+
+[Page 44]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+High level issue Commentary
+exploitation.
+6. Risk assessment, The development of risk assessment and risk management standards and systems (for
+evaluation and environmental, occupational health and safety and operational risk) is fundamental to the orderly
+management development of activities in the Area. It is recommended that the Authority gains a better
+understanding of the risk profile (hazards and classification) of anticipated exploitation operations
+through dialogue with contractors and other relevant experts plus ability to draw on existing risk
+frameworks in related sectors, including oil and gas.46
+7. Time limits and costs The need for certainty and fairness in the regulatory process points toward clearly prescribed time
+limits. Time-scales can be benchmarked against best practice mining regimes and be modified to
+take account of the decision-making structure of the Authority. Equally, the operation of the
+framework must be cost-effective and the sharing of its costs discussed.
+8. Confidentiality A tension could exist between the existing confidentiality provisions contained in the Exploration
+Regulations47 and the transparency demands of an exploitation framework, particularly public
+access to relevant data and information and participation in the environmental decision-making
+process.48 There is a growing call in the extractive industries for greater levels of transparency
+through information disclosure49 and a presumption that information relating to contracts and
+activities under contracts is publicly available50, save for confidential information.51 The issue of
+publicly available information and meaningful stakeholder participation in the decision-making
+processes is a policy matter for the Authority in discussion with interested stakeholders.
+46 Other assessment frameworks recommended by stakeholders includes: Assessment Framework for Scientific Research Involving Ocean Fertilization LC 32/15,
+annex 6 (IMO parties); Specific Guidelines for the Assessment of Carbon Dioxide for Disposal into Sub-seabed Geological Formation LC32/15 annex 8.
+47 See Regulations 36 and 37 PN Exploration Regulations.
+48 See The UNECE Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters, Aarhus, 25
+June 1998. See also IFC Performance Standards on Environmental and Social Sustainability, January 2012.
+49 For example, the Extractive Industries Transparency Initiative.
+50 Model Mine Development Agreement, MMDA 1.0, International Bar Association.
+51 Relating to “commercial”, “economic”, “property” and “business secrets” etc.
+42
+
+[Page 45]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+High level issue Commentary
+9. Effective protection for The importance of a number of environmental protection and mitigation tools under the Convention
+the marine environment and the procedural obligations to deliver the same is vital. It is recognised that the Authority and
+from harmful effects other actors should adopt an ecosystem-based approach to environmental management in the
+Area. Additionally, it is recognised that specific criteria and guidance must be developed for
+concepts such as “significant adverse change” and “vulnerable marine ecosystems”; to this end the
+Authority can draw upon existing best practice definitions52 and work already in progress across
+the stakeholder base. Equally, the development of a precautionary risk management framework is
+fundamental to the delivery of protection goals.
+10. “Internationally Standard(s) development as part of good mining industry practice53 is a pre-requisite to the orderly
+recognized standards” development of the industry and a key consideration for the regulatory framework across a broad-
+and their significance in range of subject matter. The content and credibility of industry standards should be delivered
+exploitation activities through consensus-building and a multi-stakeholder approach. Many international standards54,
+including those developed in the oil and gas sector, will be directly applicable to exploitation
+activities. Indeed many standards have been suggested by stakeholders.55 Others will require
+modification and development. Standard(s) development should, primarily, be an industry-driven
+initiative.56
+52 For example, under the UN FAO International Guidelines for the Management of Deep-Sea Fisheries in the High Seas and the Convention on Biological
+Diversity’s criteria for Ecologically or Biologically Significant Marine Areas (EBSAs).
+53 See Annex III, Article 17(1)(b)(xii) of the Convention relating to the adoption and application of mining standards and practices.
+54 Also need to consider regional or country standards which may be equivalent to, based on or have a higher level of standard. E.g. EU Regulation (EC) No
+761/2001 Eco-management and audit scheme (EU).
+55 For example: Code for Environmental Management of Marine Mining (IMMS); ISO 14001; ISO 9001/9002; ANZI Z10 or OHAS 18001 (health and safety
+management system-related).
+56 Ultimately standards will need to be backed-up by the necessary regulatory checks and balances: reporting, notification, inspection and independent audit
+obligations and procedures. That is, a general question of how standards will be enforced.
+43
+
+[Page 46]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+High level issue Commentary
+11. Sponsoring State(s) and It is not believed that the division of duties and responsibilities is clearly defined between a
+the Authority – a clear sponsoring State and the Authority. This relates to matters including enforcement and monitoring /
+division of duties and inspection, offence and penalty systems, liability and responsibility of a contractor etc. From a
+responsibilities? contractor’s perspective there is the potential for a duplicative regulatory burden. This needs to be
+clarified and duties and responsibilities more clearly defined. Equally, this also points to effective
+co-operation between the Authority and a sponsoring State.
+12. “High-grading” of mineral The issue of “high-grading” was addressed in the Stakeholder Survey and drew a number of
+deposits diverging stakeholder opinions including: that a grading policy should be a matter for commercial
+determination; that low-grade mining could become economical over time as technology develops
+and that high-grading potentially minimizes the environmental footprint (“untouched” lower grade
+areas). Other stakeholders made reference to the exploitation of an “average balanced grade”. The
+issue of grading policy needs further consideration with interested parties, including “typical” break-
+even cut-off grades (economic and technical feasibility) and environmental policy considerations.
+13. Other: existing best Other aspects of relevance include the need to draw on existing best practice and not to “reinvent
+practice, learnings, co- the wheel” and to identify any defects and learnings from the current exploration application and
+operation and implementation process, including new ways of doing business identified by the Commission.
+information-sharing Additionally, the general need for co-operation and information sharing will be fundamental to the
+effective operation of the regulatory framework.
+44
+
+[Page 47]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 5: Draft action plan
+This draft action plan is derived from Section 2 of this report “Draft framework for the Exploitation Regulations” which, when
+further developed by July, will be reported to Council for its consideration.
+The plan at this stage attempts to identify in a simple way the areas of priority as follows (the dates indicated are those of
+the anticipated upcoming meetings of the Commission):
+ Priority A: Initiate by July 2015;
+ Priority B: Initiate by February 2016;
+ Priority C: No action anticipated at this time.
+45
+
+[Page 48]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft regulation description Actions for operationalization of draft regulation Priority
+Action (A,
+B or C)
+Use of terms and scope  This section will evolve as the regulatory framework evolves. Definitions should reflect internationally C
+agreed and accepted definitions where possible. Involvement of marine jurists and linguists.
+Form of applications  Guidelines for the Preparation of a Plan of Work for Exploitation need drafting, including a standard A
+application form.
+C
+ Development / licensing of an online application management system.
+ Thought to be given to “new ways of doing business” as highlighted by the Commission in the context of A
+exploration and its impact(s) on exploitation applications.
+Financial and technical capabilities  Guidelines for the Preparation and Evaluation of information relating to Financial capability and Technical A
+capability to be drafted. These can reflect best practice from national regimes and detailed responses in
+the Stakeholder Survey.
+Undertakings  A working paper requires preparation by an expert familiar with the international trade issues raised by C
+Annex, Section 6(1)(b) of the Agreement and specific RRPs drafted.
+Equity interest in a joint venture  Action plan for operationalization of the Enterprise to be developed.57 C
+arrangement
+Feasibility study  Guidelines for the Preparation and Evaluation (criteria) of a Feasibility study to be drafted. A
+ Have any “blueprint” feasibility studies been developed for exploitation activities which can be adopted by
+the Authority? (To ensure consistency and comparability in applications).
+Environmental impact statement  Draft EIS template in Technical Study No.10 to be reviewed and updated. A
+ Guidelines for the Preparation and Evaluation of an Environmental Impact Statement to be drafted. Should
+include simple rating criteria. Needs to be resource-category specific.
+ [It is recommended that the above be undertaken by an expert and a draft template and guidelines
+57 The ISA Secretariat is preparing a discussion paper on this matter for presentation to the Commission at its July 2015 meeting.
+46
+
+[Page 49]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft regulation description Actions for operationalization of draft regulation Priority
+Action (A,
+B or C)
+circulated for comment by interested parties].
+Environmental management plan  EMP template needs to be drafted. B
+ Guidelines for the Preparation and Evaluation of an Environmental management plan to be drafted.
+ Similar to EIS, it is recommended that the above be undertaken by an expert and a draft template and
+guidelines circulated for comment by interested parties.
+ Guidelines for the design and monitoring of Preservation Reference Zones and Impact Reference Zones to
+be developed. This may require an expert working group.
+ Possible multi-stakeholder workshop(s) post development of EIS and EMP templates.
+Social impact assessment and action plan  Discussion to be advanced on a social action plan for the Area and a call to stakeholders to make B
+contributions to this discussion.
+Financing plan  Template Financing plan to be drafted. C
+Closure plan  Template closure plan and Guidelines for the Preparation and Implementation of a Closure plan (including B
+post-decommissioning surveys and monitoring) to be drafted.
+Size of exploitation area covered by the plan  There are matters of policy to be addressed by the Council. Specific guidelines then need to be drawn up B
+of work to identify the criteria to be applied in assessing the size and location of exploitation area(s). It is likely that
+additional expert input is required here and / or initial thoughts of contractors as to their proposed
+exploitation areas and production requirements.
+Public review of the environmental impact  A working paper needs to be drafted setting out the public participation options and procedures available, A
+statement and environmental management including independent expert review(s), based on stakeholder submissions and best practice regimes. The
+plan [and social impact assessment and paper can then be circulated to stakeholders for comment.
+closure plan]
+Consideration by the Legal and Technical  Detailed guidelines will be needed in respect of evaluation criteria to be used by the Commission. B
+Commission  A technical working paper needs to be drafted to elaborate on the concept of sound commercial principles
+B
+(see 1994 Agreement, Annex, Section 6(1)(a)).
+ A technical working paper is required to elaborate on substantial evidence of risk of serious harm to the B
+marine environment in the case of area(s) disapproved for exploitation.
+47
+
+[Page 50]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft regulation description Actions for operationalization of draft regulation Priority
+Action (A,
+B or C)
+Consideration and approval of plans of work  Should any specific Council procedures and criteria be developed here? B
+for exploitation by the Council
+Rights of the contractor  Consideration to be given to this by the Secretariat (clarity on rights being granted). B
+Obligations of the Authority  Consideration to be given to this by the Secretariat (clarity on Authority’s obligations). B
+Legal title to minerals  Consideration of the phrase “recovery in accordance with the Convention” requires a technical working B
+paper to be drafted.
+Duration of contracts  Further understanding of contractor development and production models and plans is required here. A
+ A balance needs to be established between the commercial requirements of contractors and the ability of
+the Authority to amend terms and conditions in accordance with revised RRPs.
+ A working paper needs to be developed for circulation to stakeholders.
+ Guidelines need to be developed for the following:
+o Criteria for contract duration – resource specific.
+o Application and evaluation criteria for a substantive review.
+o Application and evaluation criteria for renewal of an exploitation contract.
+Performance requirements  Guidelines for the evaluation of Production performance requirements under a contract for exploitation to C
+be drafted. To include key performance criteria and indicators.
+ Council to consider as a matter of policy, in discussion with relevant stakeholders, a cut-off point for
+commercial inactivity.
+Conservation of the natural resources of the  A policy in respect of waste management needs to be developed. C
+Area
+Vessels operating in the Area  Discussions between the Authority and the International Maritime Organization to be formalized. A
+Protection of submarine cables and pipelines  Discussions between the Authority and relevant representative organizations formalized. A
+48
+
+[Page 51]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft regulation Actions for operationalization of draft regulation Priority
+Action (A,
+B or C)
+Health and safety  To determine additional international / DSM-specific standards / development of best practice Emergency B
+Response Plan and Procedures.
+ Guidelines on the placing of floating installations and related safety zones in the Area to be developed in
+conjunction with IMO.
+Training  To establish areas of skills and talent shortages key to the development of the DSM industry. C
+Periodic review of the implementation of the  Guidelines on Procedures and Information Requirements for Review to be drafted. C
+plan of work for exploitation
+Termination of sponsorship  To clarify post termination obligations for a contractor. C
+Responsibility and liability  Legal workshop required to explore and develop further principles of responsibility and liability in the Area. C
+Protection and preservation of the marine  This area requires the formation of targeted expert workgroups consisting of a broad range of B
+environment stakeholders, including relevant international organizations. Specific areas to be identified including RRPs
+for “dumping”.
+Environmental management  Specific guidelines on environmental management systems to be developed together with reporting C
+requirements.
+Emergency orders  Secretariat to review contemporary best practice in the field of marine disaster management and A
+responding to emergency situations including the lessons learnt.
+Strategic environmental management plan  Regional workshops and co-operation to be developed to formulate regional SEMPs. B
+Environmental bonds and performance  The interaction between commercial insurance and bond mechanisms needs to be investigated together A
+guarantees with the terms and conditions, including appropriate quantum of any bond.
+Adaptive management approach  Adaptive management in connection with exploitation activities in the Area requires further elaboration with C
+interested parties.
+49
+
+[Page 52]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Draft regulation Actions for operationalization of draft regulation Priority
+Action (A,
+B or C)
+Seabed sustainability fund  A working paper to be drafted articulating the concept and objectives of such a fund for circulation to B
+interested parties.
+Confidentiality of data and information &  Confidentiality is raised as a high-level issue under Section 4 to this paper. C
+Procedures to ensure confidentiality
+Recommendations for the guidance of  The process of issuing recommendations by the Commission needs review. C
+contractors
+Inspection  Develop a working paper setting out a suggested structure and options, including funding, for the operation C
+of an inspection regime.
+Offences & penalties  Desktop review to be undertaken on existing / comparable regimes. B
+ Interaction with sponsoring State offence and penalty regime to be understood.
+Settlement of disputes  A technical working paper needs to be prepared to set out dispute resolution options under the C
+Convention.
+Annex II Contract for exploitation Actions for operationalization
+“Dealings” or arrangements  Expert input required in connection with the development of RRPs (under the Agreement) relating to unfair C
+and / or uneconomic practices (in accordance with the requirements of the Agreement). See also
+“Undertakings” above.
+Annual Reports  Guidelines for the Preparation of Annual Reports to be drafted. C
+Insurance  Discussions with contractors, the insurance industry and other stakeholders needed here to gain A
+knowledge and understanding of insurance specifics, including limitations, exceptions and exclusions. See
+also “Environmental bonds and performance guarantees” above.
+50
+
+[Page 53]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Annex II Contract for exploitation Actions for operationalization
+Suspension and termination of contract and  Technical paper to clarify meaning of serious persistent and wilful violations based on existing best practice C
+penalties in extractive industries.
+Revision  Technical paper to clarify meaning of inequitable, impracticable and impossible referenced in Annex III, C
+Article 19 Convention.
+High level issues Actions for operationalization Priority
+Action (A,
+B or C)
+Information and data – what we know, what  It is recommended that the Authority establish a fit-for-purpose data management strategy as a matter of A
+we don’t know, what we need to know priority.
+Risk assessment, evaluation and  It is recommended that the Authority gains a better understanding of the risk profile of proposed exploitation A
+management operations through dialogue with contractors (identification of hazards and potential incident categories).
+Effective protection for the marine  Specific criteria and guidance must be developed for concepts such as “significant adverse change” and B / C
+environment from harmful effects “vulnerable marine ecosystems”.
+ Development of a precautionary risk management framework (see Risk assessment, evaluation and
+management above).
+“Internationally recognized standards” and  Standard(s) development should, primarily, be an industry-driven initiative. Authority to engage with relevant B
+their significance in exploitation activities stakeholders to initiate a standard development process and framework.
+Sponsoring State(s) and the Authority – a  Authority to initiate dialogue with sponsoring States to discuss way forward. B
+clear division of duties and responsibilities?  Develop a matrix setting out the division of duties and responsibilities.
+“High-grading” of mineral deposits  The issue of grading policy needs further consideration with interested parties, including “typical” break- B
+even cut-off grades and environmental policy considerations.
+51
+
+[Page 54]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Section 6: Making a submission
+Structure of submission
+Please would you kindly structure your submission as follows:
+ An opening paragraph introducing you and / or your organization and your direct and / or indirect interest in activities in
+the Area (Please note for those stakeholders who responded to the Authority’s initial Stakeholder Survey, this is not required).
+ Your comments and / or suggestions referenced to the relevant part of this Report.
+ Any other general and / or specific comments you wish to make on the development of the regulatory framework.
+ A list of any supporting documents accompanying your submission, together with website links where applicable.
+ Your express consent (see below) to make your personal details and submission publicly available (note: the Authority
+may also reference your comments against specific Sections and parts of the framework for ease of reading by all
+stakeholders).
+ Your interest in future contact by the Authority and / or being part of a stakeholder group (except for those stakeholders
+who have already expressed such an interest).
+ Your contact details clearly identified.
+Closing date
+The closing date for submissions is Friday, 15th May 2015 at 1800hr (EST).
+Submission details
+Submissions should be sent by post or electronically as follows:
+Report to Stakeholders (ISBA/Cons/2015/1)
+International Seabed Authority
+14-20 Port Royal Street
+Kingston
+Jamaica
+52
+
+[Page 55]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+Email: consultation@isa.org.jm (format: PDF or Microsoft Word document).
+Online submission publication & confidentiality
+In the interests of transparency and to promote and encourage further discussion, the Authority may publish all
+submissions on a dedicated area of its website athttp://www.isa.org.jm/en/home.
+However, the Authority requires your express consent and approval to make submissions publicly available (i) including
+your name and organization as appropriate or (ii) to make your comments without disclosing any of your personal details.
+Please include such express consent in your submission where applicable. The default position is that your comments and
+personal details will be kept confidential without attribution.
+Future engagement & privacy
+The Authority will retain your personal contact details securely and in-confidence (except for any disclosure consented to
+above) with a view to contacting you solely in respect of future surveys, consultations and engagement.
+Should you no longer wish the Authority to store your personal details, please advise us by sending a request to remove
+your contact details to the email address above.
+Anonymous submissions
+Please note any submissions made anonymously will be disregarded for the purposes of this Report.
+53
+
+[Page 56]
+Developing a Regulatory Framework for Mineral Exploitation in the Area
+54

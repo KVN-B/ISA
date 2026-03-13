@@ -1,0 +1,2017 @@
+[Page 1]
+ISBA
+International Seabed Authority /27/C/4
+Council
+Distr.: General
+31 January 2022
+Original: English
+Twenty-seventh session
+Council session, part I
+Kingston, 21 March to 1 April 2022
+Item 11 of the provisional agenda*
+Draft regulations on exploitation of mineral resources
+in the Area
+Draft standard and guidelines for the environmental impact
+assessment process
+Prepared by the Legal and Technical Commission
+Standard for the environmental impact assessment process
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+II. Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+III. Principles and objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+IV. Definitions and abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+V. The environmental impact assessment process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+A. Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+B. Screening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+C. Scoping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+D. Impact assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+E. Mitigation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+F. Environmental impact assessment reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+G. Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+H. Decision-making . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+VI. Monitoring and environmental impact assessment audit steps . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+* ISBA/27/C/L.1.
+21-17327 (E) 020222
+*2117327*
+
+[Page 2]
+ISBA/27/C/4
+I. Introduction
+1. In the present standard, the Legal and Technical Commission sets out the
+requirements for the environmental impact assessment (EIA) process under regulation 47
+of the draft regulations on exploitation.
+II. Purpose
+2. The present standard sets out: (a) the requirements for the process that an
+applicant or contractor shall comply with in undertaking an EIA and in preparing an
+environmental impact statement (EIS) as stated in part IV, regulation 47 of the draft
+regulations on exploitation; and (b) the process, structure and general content of all
+EIAs prepared by an applicant or Contractor.
+3. The standard is to be read in conjunction with the draft regulations on
+exploitation, as well as other relevant International Seabed Authority standards and
+guidelines, including, but not limited to, those related to:
+(a) Application for approval of Plan of Work in the form of a contract (to
+conduct exploitation activities in the Area);
+(b) Environmental Impact Assessment;
+(c) Environmental Impact Statement;
+(d) Environmental Management and Monitoring Plans;
+(e) Environmental Management Systems;
+(f) Expected scope and standard of baseline data collection.
+4. The standard is to be read in conjunction with the appropriate regional
+environmental management plan.
+III. Principles and objectives
+5. The standard aims to ensure that EIAs and EISs for activities in the Area are
+designed with a view to:
+(a) Protect and conserve the Marine Environment;
+(b) Anticipate and avoid or minimize harmful environmental effects of
+exploitation activities;
+(c) Ensure that there is consistency of EIAs and EISs among different
+applicants and Contractors;
+(d) Ensure that environmental considerations are explicitly addressed and
+incorporated into the International Seabed Authority decision-making process.
+IV. Definitions and abbreviations
+6. Except as otherwise specified herein, terms and phrases defined in the draft
+regulations on exploitation have the same meaning in this standard.
+(a) “Effect” is the consequence or outcome of an action or activity during the
+project; it is typically broader and more functional than an impact (see definition below);
+(b) “Environmental impact assessment” (EIA) is “the process of
+identifying, predicting, evaluating and mitigating the physicochemical, biological,
+2/49 21-17327
+
+[Page 3]
+ISBA/27/C/4
+socioeconomic, and other relevant effects of development proposals prior to major
+decisions being taken and commitments made”.1 This includes all potential effects,
+both positive and negative, and encompasses natural and anthropogenic receptors;
+(c) “Environmental impact statement” (EIS) is the documentation of the
+environmental impact assessments process, which describes the predicted effects of
+the project on the environment (and their significance), the measures that the
+applicant is committed to taking in order to avoid, minimize and reduce them where
+possible, and the residual (remaining) effects that cannot be avoided;
+(d) “Environmental risk assessment” (ERA) is a process to identify, analyse
+and evaluate the nature and extent of activities and the level of risk to characteristics
+of the environment;
+(e) “Impact” is the influence of an action/activity during the project on the
+environment;
+(f) “Risk” is the probability, high or low, that an activity will cause harmful
+effects on living organisms and the environment.
+V. The environmental impact assessment process
+A. Overview
+7. The flow chart below (figure I) shows the steps of the EIA process. The steps
+are shown as sequential, but many are iterative with feedback into previous steps.
+Figure I
+Steps of the environmental impact assessment process
+__________________
+1 As defined by the International Association for Impact Assessment https://www.iaia.org/.
+21-17327 3/49
+
+[Page 4]
+ISBA/27/C/4
+B. Screening
+8. Screening is a step used to determine which projects should be subject to an EIA
+and to exclude those unlikely to have harmful environmental effects. When
+submitting an application for exploitation, all applicants are required to undertake an
+EIA. However, there could be situations such as when an exploitation contract has
+been approved and the project subsequently has undergone a change that could result
+in different environmental effects that may be of some significance. The screening
+process should determine whether or not a new EIS (or another mechanism, such as
+an addendum to the EIS) is needed.
+C. Scoping
+9. The applicant or Contractor shall undertake scoping in order to:
+(a) Identify the issues and activities that are likely to be important for the
+project and its EIA;
+(b) Define the focus of the EIA studies;
+(c) Identify key issues that shall be studied in more detail.
+10. The applicant or Contractor shall ensure that they:
+(a) Allocate appropriate time and resources for scoping;
+(b) Undertake scoping at the outset of the EIA process;
+(c) Demonstrate that scoping is undertaken with a reasonable understanding
+of the environmental setting for the project (i.e. Contract Area and regional setting),
+existing environmental baseline studies, gaps in existing information and
+understanding, and the project proposals (e.g. where mining will occur within a
+Contract Area, the mining technology);
+(d) Include consideration of alternatives. This should include alternatives to
+elements of the planned project already provisionally decided upon (e.g. the type of
+mining technologies to be used), as well as aspects that will be considered and decided
+through the EIA (e.g. details of environmental mitigation measures and mining
+operation plans);
+(e) Establish the technical, spatial and temporal constraints for the EIA;
+(f) Include an environmental risk assessment (ERA) to ensure that all relevant
+activities and associated impacts are identified, and their importance is assessed so
+that their effects and the impact assessment methods and the development of
+mitigation measures in the EIA are in proportion to the most significant or uncertain
+risks associated with the project;
+(g) Address the inherent uncertainties present at this stage of the EIA, through
+the application of a precautionary approach and the undertaking of studies that allow
+for a range of potential outcomes and impacts;
+(h) Offer a structured plan for the EIA, including activities to be undertaken
+in each step and proposed approaches and methodologies for addressing the key issues
+identified in the ERA;
+(i) Produce a scoping report.
+4/49 21-17327
+
+[Page 5]
+ISBA/27/C/4
+D. Impact assessment
+11. The assessment of impacts is the core of the EIA process. This component brings
+together all available data on the condition of the environment (the baseline) prior to
+any activity, the nature and scale of the activities proposed by the applicant or
+Contractor, the expected effects on the Marine Environment, and the evidence base
+for how the environment is expected to respond. Together with an enhanced ERA
+those components provide the basis for determining (a) the significance of the
+impacts, and (b) the development of mitigation to be incorporated into design and
+project planning to manage the effects on the Marine Environment.
+12. In the assessment of impacts, the applicant or Contractor shall consider the
+following:
+(a) The nature of the impact;
+(b) The potential extent, duration, frequency and severity of the impact;
+(c) Whether the impact is direct or indirect;
+(d) Cumulative and combined impacts;
+(e) Routine and non-routine impacts;
+(f) Uncertainty associated with the assessment of impacts.
+13. The applicant or Contractor shall take account of all identified risks and impacts,
+but focus, in a proportionate way, on the high risks identified in the scoping report in
+its assessment of impacts, taking into consideration any new information which may
+influence such assessment.
+14. Where the assessment of impacts draws on the modelled response of species,
+habitats or ecosystems to disturbance from mining, the applicant or Contractor shall refer
+to the evidence base for such information and how it has been used to assess the impacts.
+15. The applicant or Contractor shall also identify the impacts (including
+cumulative effects) of the project at a regional scale. Assessment of impacts shall
+result in understanding the absolute and relative significance of each impact in such
+a way to allow mitigation of harmful effects to be considered, at both the local and
+regional levels.
+E. Mitigation
+16. Subsequent to the identification of impacts and their significance, the applicant
+or Contractor shall identify and evaluate appropriate measures to avoid or minimize
+predicted harmful effects.
+17. The applicant or Contractor shall apply the mitigation hierarchy (working
+through a sequence from avoid/prevent through minimize, to restore/rehabilitate, to
+offset), when evaluating mitigation measures. The applicant or Contractor shall
+include examination of alternatives to establish the most technically and
+economically feasible, safe and environmentally sound approaches for achieving the
+project objectives.
+F. Environmental impact assessment reporting
+18. The EIS sets out the project parameters and how environmental assessment has
+been undertaken, including predicted impacts of the project, proposed measures for
+mitigation, significance of residual impacts, uncertainties in data or analyses that
+21-17327 5/49
+
+[Page 6]
+ISBA/27/C/4
+affect the predictions and how to address these, as well as concerns raised by
+consultations and how they have been addressed.
+G. Review
+19. The processing, review and consideration of the EIS is governed by the draft
+regulations on exploitation (part II, sections 2 and 3).
+H. Decision-making
+20. The decision-making process is governed by the draft regulations on
+exploitation (regulations 15 and 16).
+VI. Monitoring and environmental impact assessment
+audit steps
+21. Follow-up processes are required to monitor the project and ensure conditions
+of the contract are met, impacts are adequately monitored in accordance with an
+agreed monitoring programme, the effectiveness of mitigation and management
+measures can be assessed, and ways to improve the process are identified.
+22. The Contractor shall conduct monitoring and EIA audit steps through the
+Environmental Management and Monitoring Plan (EMMP).
+6/49 21-17327
+
+[Page 7]
+ISBA/27/C/4
+Draft guidelines for the environmental impact assessment process
+Contents
+Page
+I. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+A. Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+B. Purpose . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+C. Key steps in the environmental impact assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+II. Screening . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+III. Scoping. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+A. General process . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+B. Scoping initiation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+C. Project information and definition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+D. Environmental risk assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+E. Consultation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+F. Scoping report . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+IV. Impact assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+A. The importance of baseline data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+B. Impact assessment objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+C. Prediction of impacts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+D. Impact significance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+E. Cumulative impacts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+F. Uncertainty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+G. Environmental performance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+V. Mitigation. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+A. Evaluating alternatives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+B. Mitigation hierarchy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+C. Residual effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+VI. Reporting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+A. Summary of planned management and monitoring commitments . . . . . . . . . . . . . . . . . . . 37
+VII. Review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+A. Internal review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+B. External review . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+VIII. Decision-making . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+IX. Monitoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+X. Environmental impact assessment audit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+XI. Stakeholder involvement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+21-17327 7/49
+
+[Page 8]
+ISBA/27/C/4
+XII. Definitions and abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+XIII. References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+8/49 21-17327
+
+[Page 9]
+ISBA/27/C/4
+I. Introduction
+A. Background
+1. The environmental impact assessment (EIA) is an integral component of the
+planning, development and management of many human activities. The EIA
+requirements for mineral exploitation in the Area are set out in the Draft Regulations
+for Exploitation of Mineral Resources in the Area (regulations on exploitation).
+B. Purpose
+2. The purpose of the present guidelines is to expand the description of the process
+to be followed in undertaking an EIA for exploitation of mineral resources in the Area
+and to provide guidance to assist an applicant or Contractor in implementing the
+required components and stages of an EIA as set out in the draft regulations on
+exploitation and EIA standard.
+3. In accordance with regulation 47 of the draft regulations on exploitation, the
+EIA process:
+(a) Identifies, predicts, evaluates and mitigates the physicochemical,
+biological, socioeconomic and other relevant effects of the proposed mining
+activities;
+(b) Includes at the outset a screening and scoping process, which identifies
+and prioritizes the main activities and impacts associated with the potential mining
+operation, in order to focus the Environmental Impact Statement (EIS) on the key
+environmental issues. The environmental impact assessment should include an
+environmental risk assessment;
+(c) Includes an impact analysis to describe and predict the nature and extent
+of the Environmental Effects of the mining operation;
+(d) Identifies measures to manage such effects within acceptable levels,
+including through the development and preparation of an Environmental Management
+and Monitoring Plan (EMMP).
+4. The guidelines should be read in conjunction with the draft regulations on
+exploitation, the relevant regulations on exploration, as well as other relevant
+Standards and Guidelines of the International Seabed Authority, including, but not
+limited to, those related to:
+• Application for approval of Plan of Work in the form of a contract (to conduct
+exploitation activities in the Area);
+• Environmental Impact Statement;
+• Environmental Management and Monitoring Plans;
+• Environmental management systems;
+• Expected scope and standard of baseline data collection;
+• Hazard identification and risk assessment.
+5. The applicable regional environmental management plan (REMP) should also
+be considered by the applicant or Contractor in the EIA process and any management
+approaches outlined in the REMP incorporated into the management and mitigation
+methodologies of the EIA/EIS.
+21-17327 9/49
+
+[Page 10]
+ISBA/27/C/4
+6. The guidelines are not intended to contain legally binding requirements, but set
+out guidance for achieving the requirements of the regulations and the standard for
+EIA. There may be several ways to approach or undertake the stages in the EIA
+process, and it is for the applicant or Contractor to evaluate the most appropriate or
+effective means of achieving the outcome of a robust EIA process. Hence, the
+guidelines are not intended to be highly detailed or exhaustive, but to point the
+applicant or Contractor in the direction of appropriate methods to undertake certain
+activities, or to highlight that there may be several options available depending on the
+particular resource and environmental characteristics.
+C. Key steps in the environmental impact assessment
+7. The EIA process follows the steps specified in the EIA standard, which includes
+the key components in figure I. The monitoring and EIA audit components are
+covered as part of the guidelines on Environmental Management and Monitoring
+Plans (EMMP), and the present guidelines do not discuss those components in any
+detail. Although an EIA has various components, it should be emphasized that the
+process is an iterative one with strong interaction required between its components.
+Figure I
+Key components of the environmental impact assessment process.
+Note: Although presented as a sequence, most steps are iterative with feedback between
+components.
+10/49 21-17327
+
+[Page 11]
+ISBA/27/C/4
+8. The EIA process includes the following steps:
+(a) A screening exercise, if appropriate. All applications for approval of a Plan
+of Work for exploitation will require a prior EIA. However, proposed amendments to
+an approved exploitation plan of work may require screening to determine whether
+an EIA is required to assess the impacts of any activity requiring an amendment of
+the Plan of Work;
+(b) A scoping exercise, involving appropriate specialists, stakeholder
+consultation, and environmental risk assessment. This should be summarized in a
+scoping report which is shared with stakeholders, in order to seek feedback on the
+planned content and emphasis of the EIA;
+(c) An impact assessment, this will include assessment of baseline data collected
+during exploration activities and the results of studies that were identified during the
+scoping process as being required in accordance with the relevant International Seabed
+Authority regulations on exploration and International Seabed Authority
+recommendations (e.g., for baseline studies: ISBA/25/LTC/6/Rev.1) and the Guidelines
+on the Scope and Standard of Baseline Data Collection. The assessments will focus on
+the most important environmental characteristics highlighted during scoping, and
+description of the potential impacts of the activity at both a local and regional level;
+(d) An evaluation of significant and harmful effects on the environment,
+founded on clear and transparent assessment criteria and a robust evidence base;
+(e) The presentation and evaluation of potential mitigation measures, and
+subsequent statement of management and monitoring commitments (together with the
+EMMP), to avoid and minimize effects, and monitor residual impacts;
+(f) The production of an Environmental Impact Statement (EIS) that reports
+the findings of the EIA process.
+9. Effective and comprehensive stakeholder engagement and consultation is
+recommended from the scoping stage throughout the entire EIA process.
+10. The successful completion of an EIA process:
+(a) Facilitates informed decision-making by providing best practice scientific
+and quantitative analysis of the effects and consequences of proposed actions;
+(b) Assists with the selection of the most practicable and environmentally
+sound exploitation and monitoring techniques and approaches;
+(c) Screens out environmentally unsound options and enables a focus on
+feasible and acceptable options;
+(d) Encompasses all relevant issues and factors, including uncertainty of
+information, cumulative effects, social issues, and stakeholder concerns;
+(e) Directs evaluation processes and development of terms and conditions on
+the project;
+(f) Uses best available scientific techniques and methods to determine
+significance and harmfulness of effects;
+(g) Includes adaptation and feed-back mechanisms to inform the EMMP and
+future developments.
+11. In the following sections, comments and guidance are provided to assist carry out
+each of the steps in the EIA process. There is more emphasis placed on scoping than the
+other sections, as this is likely to be a critical step in assessing the status of available
+data and information as a basis for, and developing plans to, achieve a robust EIA.
+21-17327 11/49
+
+[Page 12]
+ISBA/27/C/4
+II. Screening
+12. Screening is not required for applications for approval of a Plan of Work for
+exploitation, as all applicants are required to undertake an EIA and submit an EIS.
+However, amendments to a Plan of Work, or monitoring of activities that suggests
+unexpected impacts, may or may not require an EIA and/or amendment to the EIS.
+Pursuant to the draft regulations on exploitation, it is the Contractor’s responsibility
+to notify the Authority in the event of any proposed change to the Plan of Work.
+13. There are numerous external sources of useful information and details on
+elements of screening processes and methodology (e.g., European Commission 2017).
+III. Scoping
+A. General process
+14. There are four main steps to be undertaken as part of the scoping process, which
+are:
+• Step 1 – Initiation of scoping, scoping is initiated by the applicant or
+Contractor at the point that they wish to commence their EIA for exploitation.
+It is expected that the applicant or Contractor will have conducted many studies
+relevant to the scoping process as part of exploration activities, and the scoping
+process will assist the applicant or Contractor direct their future studies towards
+the compilation of an EIS for exploitation. This is to ensure that the scientific
+baseline data collected during exploration is sufficient to support a robust EIA.
+• Step 2 – Information needed to undertake scoping, this stage involves
+identification and collation of the information that the applicant or Contractor
+must provide to prepare a scoping report. This includes project information and
+definition, as well as identification of studies that will inform risk assessment
+and understanding of the extent and nature of impacts associated with the
+potential mining operation.
+• Step 3 – Scoping consultation, this involves consultation with scientific
+experts, other relevant interested parties and the general public.
+• Step 4 – Scoping outputs, a scoping report is prepared as a formal plan for the
+EIA process and for specifying the content of the EIS.
+B. Scoping initiation
+15. The scoping process is initiated by the applicant or Contractor. While many
+essential studies (including baseline studies) will have been undertaken in the
+exploration phase, the start of the EIA process should include a formal consideration
+of the information (and subsequent studies) required for the assessment of the
+environmental impacts of exploitation.
+C. Project information and definition
+16. The scoping process should be informed by project plans, including:
+(a) Location of the project area including location maps (to scale), and a layout
+of the proposed mining area or areas (within the Contract Area). Locations of relevant
+impact reference zones and preservation reference zones may also be marked;
+12/49 21-17327
+
+[Page 13]
+ISBA/27/C/4
+(b) Description of likely activities and equipment associated with the
+proposal, including:
+(i) Mining plans and activities;
+(ii) Pumping activities;
+(iii) Dewatering and/or ore sorting activities;
+(iv) Ore transfer activities;
+(v) Ancillary vessel activities;
+(vi) Shipping activities including transport of ore, supplies and personnel.
+(c) Information regarding the type and nature of the mineral resource (e.g.,
+mineralogical and chemical composition, grain sizes, ore and gangue definitions);
+(d) Description of the likely mining plan (especially the mine site envelope)
+and mining schedule, including appropriate spatial and temporal details and any
+corresponding production rates and volumes. It is recognized there may be limited
+information on this at the scoping stage, but these are important elements that will be
+substantially informed by the EIA and required for the EIS. Hence at least a general
+description should be provided that will feed into more detail in the EIS.
+D. Environmental risk assessment
+1. General considerations
+17. The scoping process will identify the main activities and impacts relevant to the
+project, with the objective of focusing the EIA on the key environmental issues, as
+well as a check on whether available data are sufficient. This process is likely to
+involve parallel activities that include:
+(a) A review of the current environment (including social and economic)
+values and systems based on data collected by the applicant or Contractor to date and
+other relevant data collected by third parties, and highlighting those aspects most
+uncertain or most vulnerable to the impacts of the project;
+(b) A review of the intended project’s activities, identifying those likely to
+have environmental impacts;
+(c) A review of studies of the environmental effects of seabed mining (and
+other relevant activities) that have been undertaken by the applicant or Contractor and
+other parties to date, and an analysis of the relevance and quality of the studies as
+they might apply to the project.
+18. The above activities will inform a preliminary environmental risk assessment
+(ERA) that will identify the type of environmental impacts and extent to which the
+proposed project may cause harmful effects to the Marine Environment. The ERA process
+should involve suitably qualified experts across the range of topics that it addresses.
+19. Risk can be viewed in different ways, for example (a) the possibility of harmful
+effects on the Marine Environment as a consequence of an unforeseen or accidental
+incident (e.g., process failure leading to a spillage); or (b) a range of consequences
+(and their significance) of the impacts of a planned activity (e.g., effects of sediment
+deposition on the benthic ecosystem).
+20. Uncertainty may exist at this stage in the EIA process, for example over the
+extent of sedimentation and how the ecosystem may respond to it. Therefore, expert
+judgment and the degree of confidence in that judgment (and the evidence base
+underpinning it) determine the probability factor in establishing environmental risk.
+21-17327 13/49
+
+[Page 14]
+ISBA/27/C/4
+The ERA will need to examine the potential impacts of accidental events and there
+are numerous examples of tried and tested approaches to achieving this, especially
+from the oil and gas industry (e.g., Husky Oil 2001). However, these guidelines focus
+on addressing environmental risk for planned activities as part of normal operations,
+stemming from current levels of knowledge and associated uncertainty.
+21. It is important to note that the preliminary ERA may be revisited and updated
+as the EIA proceeds, for example at key milestones such as testing of mining
+equipment, plume modelling and completion of baseline studies and data
+interpretation. Revisiting and updating the ERA will be especially important for ERAs
+undertaken very early in the project development process when baseline data and
+project information may be limited. Hence, the level of detail included may differ
+between the scoping stage and later in the environmental EIA process as it develops
+from qualitative through to a more quantitative assessment, where a final ERA should
+be included as part of the EIS.
+2. Environmental risk assessment approach
+(a) Overview
+22. As noted above, an important objective of the EIA scoping process (and a
+requirement of the draft regulations on exploitation) is to ensure the EIA focuses on
+what are foreseen to be the main activities and impacts associated with the potential
+mining operation and does not spend undue time on elements of little risk (noting that
+the latter should nevertheless be included and discussed but not in the detail required
+for high impact activities). To help achieve this objective, the ERA should be viewed
+as forming part of a continuum of baseline and impact assessment studies that will
+have started during the exploration phase. Some of these studies may be relevant to
+the ERA for Exploitation, as the early stages of planning for Exploitation and the
+commencement of the EIA process are likely to overlap in time with Exploration
+activities, including baseline data acquisition, preparation of Exploration EIAs (e.g.,
+for seabed mining equipment trials), and monitoring the impacts of those trials.
+23. The activities undertaken during exploration and leading up to the scoping phase
+for an EIA for an exploitation contract, will not be the same for all projects, and an
+applicant or Contractor should design its ERA approach in the context of the best
+available information the applicant or Contractor has relevant to their particular
+project and environmental characteristics.
+24. These guidelines do not provide advice on a single or particular method for
+adoption, as they will be specific to aspects such as the mineral resource, geographical
+area, environmental setting and available data, proposed technology and equipment
+characteristics, etc. There are many approaches and methods that can be applied to ERA
+(refer to the International Seabed Authority guidelines on hazard identification and risk
+assessment), and these are well documented as part of an ISO 31000 standard, which
+includes a detailed report on risk assessment techniques, see IEC/ISO 31010 (2009).
+25. Other national guidance documentation as well as scientific literature, on risk
+assessment approaches and systems aligned with the International Organization for
+Standardization, can be additional useful resources.
+(b) Impact identification
+26. Preliminary identification of impacts is required during the scoping process to
+ensure that impacts which could result in harm to the Marine Environment are
+identified, and that studies are included as part of the EIA scope, in order to ensure
+the EIA fully quantifies, assesses and mitigates those impacts. Impact identification
+should consider all the project activities within the scope of the EIA, the impacts the
+14/49 21-17327
+
+[Page 15]
+ISBA/27/C/4
+activities are likely to have and the receptors that are expected to be affected by those
+impacts. Preliminary impact identification should acknowledge that further impacts
+may be identified in later stages of the EIA as more is learned about the baseline
+and/or from mining system component tests.
+27. The following are example impact identification methods:
+(a) Checklists: based on lists of special biophysical, social and economic
+factors that may be influenced by mining operations;
+(b) Matrices: typically, these are two-dimensional charts, with environmental
+components on one axis, and development actions/activities on the other. They build
+on simple checklists and introduce the aspect that different parts of the operation will
+have different impacts;
+(c) Networks: also known as causal chain analyses, these show links between
+a complex web of environmental system linkages and the effects of the project;
+(d) Overlay maps: these are geographic information system layers of the
+project area, on which successive layers are overlain representing various
+environmental components that are likely to be affected. They are very useful for
+understanding the spatial distribution of impacts.
+28. Checklist and matrix-type methods are likely to be most relevant at the scoping
+stage, becoming more sophisticated and quantitative further into the process.
+(c) Impact analysis and ranking the importance of issues for the environmental
+impact assessment
+29. For each identified impact, the analysis should consider the magnitude of the
+impact and the receptor characteristics (importance and sensitivity). The analysis
+should then draw on the evidence base and on expert input to assess the environmental
+consequence and the likelihood of that consequence being realised. It can be helpful
+at this stage if the analysis of impacts considers, to the extent practicable, the same
+or similar criteria to assess consequence as these will likely be used in the full impact
+assessment that later follows. This allows the ERA to be a precursor to the full impact
+assessment and avoids possible disconnects between the ERA and EIA processes.
+30. Impact matrices are a way of graphically representing two dimensions of risk:
+consequence (also known as severity) and frequency (also known as likelihood or
+probability) (see figure II). Each impact can be characterized as one of three areas of low,
+medium, and high relative risk based on a combination of likelihood and consequence.
+21-17327 15/49
+
+[Page 16]
+ISBA/27/C/4
+Figure II
+Example risk matrix structure
+Source: adapted from Swaddling 2016.
+31. Such matrices are very common in a range of risk assessments. Their application
+in the deep seabed mining context can be illustrated by tables used in a generic risk
+assessment of human activities in the Marine Environment around New Zealand
+(MacDiarmid et al., 2012) and in an assessment of the potential impacts of deep
+seabed mining on Pacific Island fisheries (Clark et al., 2017a). These studies applied
+likelihood and consequence scales based on Fletcher (2005) given in table 1 below.
+These scales should be tailored to the environmental characteristics of the particular
+region and habitats, and the likely effects of the proposed project. Hence they may
+vary between resources and geographical areas.
+Table 1
+Examples of likelihood, consequence categories and consequence descriptions
+for several environmental categories
+(a) Likelihood categories
+Likelihood Description
+Remote No known examples, but not impossible
+Rare May occur in exceptional circumstances
+Unlikely Uncommon, but has been known to occur elsewhere
+Possible Some evidence exists indicating this is could occur
+Occasional May occur from time to time
+Likely-certain It is expected to occur
+16/49 21-17327
+
+[Page 17]
+ISBA/27/C/4
+(b) Consequence categories
+Consequence Description
+Negligible Impact unlikely to be detectable at the scale of the
+stock/habitat/community
+Minor Minimal impact on stock/habitat/community structure or dynamics
+Moderate Maximum impact that still meets an objective (e.g. sustainable level
+of impact such as full exploitation rate for a target species).
+Major Wider and longer term impacts (e.g. long-term decline in stock
+size)
+Severe Very serious impacts occur, with relatively long time period likely
+to be needed to restore to an acceptable level (e.g. serious decline
+in spawning biomass limiting population increase).
+Catastrophic Widespread and permanent/irreversible damage or loss will occur-
+unlikely to ever be fixed (e.g. local extinction/extirpation)
+(c) Consequence descriptions
+Ecosystem functional Proportion of habitat
+Consequence Key species Protected species impact affected
+Negligible Undetectable Almost none are impacted Interactions may Affecting <1%
+for be occurring, but of area of
+populations it is unlikely that original habitat
+of these there would be
+species any change
+outside of natural
+variation
+Minor Possibly Some individuals impacted Affected species Measurable but
+detectable, but no impact on do not play a localized; affects
+but little population. keystone role – <1–5% of total
+impact on only minor habitat area
+population changes in
+size and relative
+none on abundance of
+their other constituents
+dynamics
+Moderate Affected but Level of interaction/ impact Measurable Impacts more
+long-term moderately affects changes to the widespread; 5–
+recruitment/ population ecosystem 20% of habitat
+dynamics components area is affected
+not impacted without there
+being a major
+change in function
+(i.e. no loss of
+components)
+21-17327 17/49
+
+[Page 18]
+ISBA/27/C/4
+Severe Affecting Level of impact severely Ecosystem Impacts very
+recruitment affects population levels function altered widespread; 20
+levels of measurably, and to 60% of habitat
+populations some function or is
+or their components are affected/removed
+capacity to missing/declining/
+increase increasing well
+outside historical
+acceptable range
+and/or allowed/
+facilitated new
+species to appear.
+Major Likely to Likely to cause local A major change to Activity may
+cause local extinctions if continues ecosystem result in major
+extinctions structure and changes to
+if continues function. ecosystem; 60–
+Different 90% affected
+dynamics now
+occur with
+different species
+or groups now
+affected.
+Catastrophic Local Local extinctions are Total collapse of Entire habitat in
+extinctions imminent/ immediate ecosystem region is in
+are processes. The danger of being
+imminent/ diversity of most affected; >90%
+immediate groups is reduced affected/
+and most removed
+ecological
+functional groups
+(primary
+producers, grazers
+etc.) have
+disappeared.
+Ecosystem
+functions such as
+carbon cycling,
+nutrient cycling,
+flushing and
+uptake have
+declined to very
+low levels.
+Source: (a) and (b) Clark et al. (2017a), and (c) MacDiarmid et al. (2012).
+32. Confidence (or uncertainty) is an important factor to be considered for ERA;
+and this examination of confidence levels should continue through the EIA process.
+The above MacDiarmid et al. (2012) and Clark et al. (2017a) studies factored into the
+assessment the confidence levels of the experts, in order to account for uncertainty
+and a precautionary approach (table 2).
+18/49 21-17327
+
+[Page 19]
+ISBA/27/C/4
+Table 2
+Description of confidence rating
+Confidence Rationale for confidence score
+Low a No data exist and no consensus among experts
+b Data exist, but are considered poor or conflicting
+c Agreement among experts, with low confidence
+High a Consensus among experts, with high confidence, even though
+data may be lacking
+b Consensus among experts supported by unpublished data (not
+been peer-reviewed but is considered sound)
+c Consensus among experts supported by reliable peer-reviewed
+data or information (published journal articles or reports)
+Source: Clark et al. (2017a).
+33. Considering uncertainty in data, analyses and interpretation allows an
+assessment of where there are major gaps in understanding the impacts of the
+proposed activities which can help direct further work to improve knowledge and
+confidence.
+34. As well as the approach illustrated above, the Intergovernmental Panel on
+Climate Change, for example, sets out an approach to confidence/uncertainty whereby
+a combination of the evidence (type, amount, quality, consistency) and the extent of
+(scientific) agreement are considered (figure III).
+Figure III
+Example confidence matrix
+Note: Confidence increases towards the top right-hand corner of the matrix.
+Source: Mastrandea et al., (2010).
+21-17327 19/49
+
+[Page 20]
+ISBA/27/C/4
+35. On-going scientific research will play a key role in understanding the likely
+effects of Exploitation activities. It is recommended that an applicant or Contractor
+may take a structured approach to address uncertainty (beginning with the ERA and
+continuing throughout the EIA process), in order to demonstrate how uncertainties
+have been considered initially and how they have subsequently been resolved and/or
+reduced as the EIA process proceeds.
+36. The overall environmental risk can then be considered in various ways, for
+example: (a) as a combination of the anticipated environmental consequence and the
+likelihood of the consequence occurring, advised by a consideration of confidence;
+or (b) as a combination of the likely magnitude of an impact and the likely importance
+and sensitivity of a receptor, with confidence levels being taken into account for both
+of these factors.
+37. The latter approach can allow the identification of where uncertainty exists most
+at the scoping stage (be it in the likely magnitude of an impact, in the sensitivity of a
+receptor to that impact, or in the importance of the receptor to the wider ecosystem –
+or combinations). This enables the applicant or Contractor to improve planning for
+actions and studies targeted towards reducing or resolving those uncertainties as the
+EIA progresses.
+38. Impact matrices and closely allied consequence-likelihood tables provide a
+consistent and concise format that is likely to be appropriate for an initial ERA during
+scoping. This facilitates communication of environmental risks, ranks the risks of
+potential operations in order of priority, screens out the insignificant ones and
+evaluates the need for further information. There are, however, more sophisticated
+approaches to risk assessment than solely the use of matrices, and these may be
+considered as more information becomes available. The ISO31000 standard and
+guidelines is a very good starting point to see what methods could be applicable,
+especially the methods outlined in ISO31010 (IEC-ISO 2009). A further useful
+resource on risk identification and assessment options for mining in the Area is the
+report and presentations from a 2018 workshop on risk management for deep-sea
+mining (MIT 2019).
+39. Whichever ERA method is adopted by an applicant or Contractor, it must meet
+the basic objective of identifying the most important issues for the EIA to focus on,
+and do so in a way that is systematic, thorough and underpinned (through expert
+involvement) by the evidence base existing at the time.
+3. Environmental risk assessment outcomes
+40. The environmental risk assessment should demonstrate and emphasize high-risk
+activities, but it also needs to describe low-risk elements: the latter still need to be
+documented in the ERA (where justification is required for concluding they are not
+considered relevant), low-risk activities, however, will require less attention in the EIA.
+41. The degree of confidence or uncertainty associated with the identification and
+assessment of risks at the scoping stage must also be considered in the development of
+the EIA scope. The ERA results may include an evaluation of whether the level of
+existing information and the extent of the evidence base is sufficient, and if not to advise
+the scope, nature and priority of future studies required to fully inform the EIA.
+42. The ERA report should set out the methodology and criteria used, and clearly
+communicate the risks identified, prioritize them and describe the actions arising from
+the assessment process, which will then be incorporated into the scope of the EIA.
+20/49 21-17327
+
+[Page 21]
+ISBA/27/C/4
+4. Summary
+43. In summary, applicants or Contractors should identify project activities that will
+have impacts on the Marine Environment, identify what those impacts will be, the
+important receptors that will be affected, the likelihood of them occurring, and the
+level of confidence in assessment of factors.
+44. Based on the above process, or one similar, the applicant or Contractor should
+identify and rank the most important issues for the EIA. This will show that large
+magnitude impacts on highly important and highly sensitive receptors with a high
+likelihood of occurrence will require the most attention in the EIA. Where there is
+higher uncertainty over the initial estimate of any of these factors, then an issue is
+accordingly ranked of higher importance for attention in the EIA.
+45. The ERA process may involve a suitable range of experts and stakeholders, so
+that differing views and perspectives on risks can be incorporated and the quality of
+the evidence base and extent of agreement on it can be factored into the process.
+46. The initial ERA undertaken at the EIA scoping stage may be revisited, and
+updated as required, during later EIA stages and before the EIS is submitted, to ensure
+that the EIA scope remains valid in terms of the environmental effects under
+consideration.
+E. Consultation
+1. Consultation during scoping
+47. Scoping may include a stakeholder identification exercise which provides the
+applicant or Contractor with a preliminary stakeholder list in relation to the project.
+These may include:
+(a) Relevant government agencies and civil society groups or communities of
+the sponsoring State;
+(b) Organizations or bodies with interests or operations within the region in
+which the proposal is located;
+(c) Coastal and member States with an interest in the region in which the
+proposal is located;
+(d) Non-governmental organizations with a focus aligned with any of the key
+environmental, or social or cultural factors engaged by the proposal;
+(e) Intergovernmental organizations with a management mandate relevant to
+the region or project.
+48. Consultation with these identified stakeholders during the scoping phase may
+then be carried out to inform development of the scoping report. This process enables
+the applicant or contractor to:
+(a) Provide enough information about the mining project for stakeholders to
+understand what is being proposed and to identify potential issues;
+(b) Make clear to stakeholders that the scoping process is about incorporating
+their views into the development of the scope of studies to inform the environmental
+impact assessment process;
+(c) Provide sufficient time for stakeholders to respond to requests for views
+and information;
+21-17327 21/49
+
+[Page 22]
+ISBA/27/C/4
+(d) Reassure stakeholders that any views that they express at the scoping stage
+will not preclude them from making further comments and, possibly, disagreeing at a
+later stage in the environmental impact assessment process;
+(e) Ensure that the views expressed are taken into account, and are seen to be
+taken into account, in the planning and preparing of the scoping report (and ultimately
+the environmental impact statement) and that an explanation is provided if
+recommendations are not followed.
+2. Consultation planning for the environmental impact assessment
+49. The applicant or contractor’s intended process for stakeholder consultation in
+relation to the EIA process may include:
+• An indicative schedule and methodology for engagement with key stakeholders
+throughout the EIA process; and
+• A proposed approach for dissemination of study results to key stakeholders in
+order to obtain and consider feedback.
+50. The applicant or contractor’s intended process should demonstrate how
+stakeholders will be reached by the consultations, will receive comprehensive,
+relevant, timely and appropriately presented information, and will have reasonable
+opportunity to provide comments through accessible means.
+F. Scoping report
+51. A scoping report may include the following:
+(a) Brief description of the planned mining project including any timelines
+(e.g., for construction), ancillary features, and plans/maps/photos to aid description
+of the site and the proposal;
+(b) Feasible alternatives that will be examined in detail and others that have
+been discounted, including explanations;
+(c) Any relevant strategic or policy decisions that have already been made and
+which may affect the project;
+(d) Relevant regulatory frameworks and documentation that determine the
+outcomes that will be considered acceptable by the regulator. In addition to the United
+Nations Convention on the Law of the Sea and the Agreement relating to the
+implementation of Part XI of the United Nations Convention on the Law of the Sea,
+these include:
+(i) Relevant International Seabed Authority rules, regulations and procedures,
+standards and guidelines, and the relevant regional environmental management
+plan;
+(ii) National laws and any other international instruments that apply to the
+proposed exploitation activities;
+(iii) Other national laws and international instruments relevant but ancillary to
+the exploitation activities (e.g., those related to shipping, applicable
+biodiversity, fisheries, marine scientific research, climate change);
+(iv) Any voluntary standards, principles and guidelines which the scoping
+report has taken into consideration (e.g., the Equator Principles, the
+International Finance Corporation Performance Standards on Environmental
+and Social Sustainability, the International Marine Minerals Society Code for
+22/49 21-17327
+
+[Page 23]
+ISBA/27/C/4
+Environmental Management of Marine Mining, standards set by the
+International Organization for Standardization or similar);
+(e) A list of stakeholders, the methodology used to identify them, their
+interests and how they have been engaged through scoping and will be further
+engaged in the environmental impact assessment process;
+(f) An initial desktop study of the current environment in the proposed
+contractor area (and broader region where appropriate). This includes social and
+economic values and characteristics;
+(g) Identification of applicable studies that have been undertaken by the
+applicant or contractor or other party to date and the relevance and quality of the
+studies as they might apply to the project;
+(h) Identification of effects likely to result in harm to the marine environment
+from the implementation of the activities (based on the environmental risk
+assessment);
+(i) Work that must be undertaken by the applicant or contractor to address any
+information gaps or uncertainties, including:
+(i) type of studies to be undertaken (e.g. desktop, modelling, survey);
+(ii) the purpose of each of the further studies to be undertaken;
+(iii) methodologies to be adopted for the assessment of each issue;
+(iv) the extent (spatial and temporal) of the study area to be considered for each
+issue;
+(v) the intended output from each study;
+(j) Timing and milestones for the environmental impact assessment process;
+(k) Process followed for producing the scoping report, including details of
+stakeholder consultations undertaken;
+(l) The process for dealing with changes to the scoping document in response
+to significant project changes or substantial new information.
+52. When further studies beyond those conducted during exploration activities are
+identified as being necessary to address key issues, the scoping report should outline
+the following:
+(a) The type and scope of studies required to identify the baseline conditions
+associated with each key issue (in accordance with the relevant environmental factors
+outlined in annex IV to the draft regulations on exploitation);
+(b) The type and scope of studies required to quantify or predict the direct,
+indirect and cumulative environmental impacts for each key issue. These studies
+should include consideration of impacts in relation to their duration, extent and
+reversibility (which will subsequently determine the significance of the impact). The
+studies should also be designed to assess impacts in the context of other regional
+activities and effects on the function of ecosystems on a regional scale, with reference
+to the relevant Regional Environmental Management Plan;
+(c) The scope of studies required to enable the applicant or contractor to
+propose in the subsequent EIS and EMMP valid, measurable, and effective mitigation
+and management strategies based on best available scientific evidence and best
+technological and applicable industry practice;
+(d) The scope of studies required to enable the applicant or Contractor to
+propose in the subsequent EIS and EMMP appropriate monitoring methodology for
+21-17327 23/49
+
+[Page 24]
+ISBA/27/C/4
+each issue throughout the life of the mining project (for example, during
+commissioning/validation, operations, decommissioning and closure).
+IV. Impact assessment
+53. In the following sections, the term impact is commonly used, but often will
+apply also to the effects depending on how the applicant or contractor structures the
+approach to the assessment.
+A. The importance of baseline data
+54. Baseline data are integral to the EIA, and especially relevant to the Impact
+Assessment process. The scoping step will have included a review of baseline data
+collected during exploration, and key gaps that need further studies to support
+assessment of the main impacts identified from the ERA. The applicant or Contractor
+should refer to the Guidelines on Baseline Data to aid in this review and evaluation
+of further work required.
+B. Impact assessment objectives
+55. The impact assessment stage should predict the effects that may result from the
+project, and assess not only the type, but also the significance of each possible impact
+and effect. In evaluating significance, the EIA process is seeking to reach the
+following targets:
+(a) Further refine identification of the important environmental impacts, so
+that mitigation efforts are focused;
+(b) In the EIS, report the nature and extent of potential impacts, residual
+effects and mitigation measures, to allow the Authority to make a decision regarding
+approval of the proposed mining project, and to develop suitable requirements to
+attach to any such approval.
+56. This assessment is closely linked with the key issues identified in the scoping
+ERA, and the plan laid out in the Scoping Report. It is important to note that methods
+and terminology used in assessment steps can often seem similar to those used in the
+scoping ERA. However, the next steps involve much more detailed analyses and
+assessment of the simpler likelihood and consequence concepts applied in scoping.
+There are many ways to undertake impact assessments and the guidance below
+focuses on the key aspects of assessment that should be covered, irrespective of the
+approach or methodology chosen to suit the specific situation.
+C. Prediction of impacts
+1. Impact hypotheses
+57. The identification of potential for effects on the marine environment should lead
+to a concise statement of the expected potential consequences of the mining project,
+i.e. the impact hypothesis, which can then inform the key aspects to cover as part of
+a monitoring plan developed under the EMMP. For further guidance on the EMMP,
+see the Guidelines on the Preparation of an Environmental Monitoring and
+Management Plan.
+The assessment of impacts should capture the range of potential effects and lead
+to formulating key questions. For example:
+24/49 21-17327
+
+[Page 25]
+ISBA/27/C/4
+(a) How will sediment and any associated bioavailable elements, heavy metals
+and contaminants be transported and dispersed in the Marine Environment?
+(b) How will the concentrations of sediments, elements, metals and
+contaminants change as they disperse and settle?
+(c) Which marine organisms are present (or likely to be present, based on past
+monitoring or life history information) in the zone of exposure?
+(d) What are the expected exposure pathways?
+(e) How would acute or sublethal toxicity be expressed in terms of
+consequences for populations of organisms in the vicinity of the mining project?
+58. These questions can be rephrased as hypotheses based on estimated effects that
+can be tested statistically with empirical data during the mining operation. For
+example:
+(a) Suspended sediment plumes above ambient concentration will not extend
+beyond the expected reference zone;
+(b) Mobile marine organisms will move away from the area of highest settled
+sediment;
+(c) Leaching of elements from ore collection will not disperse beyond the area
+of mining.
+59. This hypothesis style moves beyond simple description of impacts to enable
+questions to be answered which subsequently aids the development of appropriate
+and effective mitigation measures.
+2. Prediction approaches
+60. Several techniques may be used for predicting and presenting potential impacts.
+The choices should be appropriate to the circumstances. Choices may be based on:
+(a) Expert judgment with adequate reasoning and supporting data, this
+technique requires high professional experience;
+(b) Experiments or tests;
+(c) Numerical calculations and mathematical models, these can require a lot of
+data and expertise in mathematical modelling without which hidden errors can arise;
+(d) Physical or visual analysis;
+(e) Geographical information systems;
+(f) Environmental risk assessment;
+(g) Economic valuation of environmental impacts.
+3. Modelling approaches
+61. Predictive models are one tool that can assist the consideration of environmental
+impacts associated with a proposed project. An applicant or Contractor may employ
+appropriate modelling work in its EIA, including particularly:
+• Habitat mapping
+• Predictive habitat suitability modelling
+• Hydrodynamic modelling of sediment plumes and sedimentation footprints
+• Modelling of genetic connectivity.
+21-17327 25/49
+
+[Page 26]
+ISBA/27/C/4
+62. Where an applicant or Contractor uses predictive models for the purpose of
+informing an EIA, the following details should be included to enable a robust
+assessment of the model outputs:
+• Modelling methodology
+• Inputs, including the value, quantity, spatial and temporal extent of all data to
+the model
+• Assumptions used in the model
+• Sensitivity testing of the model
+• Calibration of the model (e.g. from component testing (i.e., collector tests) or
+test mining)
+• Description of the model runs, including the duration of time the model has been
+applied, the seasonal variations incorporated, and how these relate to the
+estimated project life
+• Remaining uncertainties relating to the model and its interpretation.
+63. An applicant or Contractor is strongly encouraged to have predictive models
+reviewed by independent scientific experts as part of the EIA process, and to include
+such review reports as annexes to the EIS.
+64. Where predictive models have been used to inform an EIA, the Contractor
+should ensure the monitoring programme (see Guideline on the EMMP for more
+information) is sufficiently comprehensive to allow for the validation of predictions
+made by the model. Notification of these results should also be reported by the
+Contractor to the International Seabed Authority as part of the annual reporting
+procedures (and shared with relevant external stakeholders).
+D. Impact significance
+65. There are many factors to take into account when considering the potential
+significance of an impact and their effects. Table 3 contains examples of issues
+spanning environment, legal, and society.
+Table 3
+Issues to consider when determining the significance of impacts
+The nature, duration and magnitude of the impact:
+• Is it positive or negative?
+• Is the impact a large change from the baseline condition?
+• Is the impact of long duration, reversible or irreversible?
+• Is the geographic extent of the impact large relative to the habitats
+disturbed?
+• Will mitigation involve proven methods, be costly, impossible or difficult?
+The nature of the affected resources and receptors:
+• Is the affected area of high importance or value for its biodiversity?
+• Is the affected area of high importance or value for its human resource use?
+• Does the affected area provide important ecosystem services?
+26/49 21-17327
+
+[Page 27]
+ISBA/27/C/4
+• Is the affected area sensitive to the impacts the project will cause?
+• Are the affected existing marine uses sensitive to the impacts the project
+will cause?
+• Is there a high level of existing impact or likely future pressures leading
+to cumulative impacts?
+Legal issues:
+• Is there potential for non-compliance with applicable International Seabed
+Authority rules, regulations and procedures, and applicable international
+instruments, as well as national laws and regulations?
+• Is there a potential conflict with any established International Seabed
+Authority policies or plans (including REMPs)?
+• Could impacts extend across different maritime zones, including to areas
+within national jurisdiction?
+• Will the rights of other sea users be affected?
+State and stakeholder views:
+• What are the views of International Seabed Authority members and
+observers, and coastal States?
+• What are the views of other marine users in the region?
+• What are the views of civil society organizations?
+• What are the views of scientific organizations?
+• Will socioeconomic conditions, health or amenity be impaired?
+Uncertainty:
+• Is the magnitude or significance of impacts uncertain because of lack of
+knowledge?
+• Are there methods available to predict and evaluate uncertain impacts or
+can they be developed?
+• How well developed is the evidence base for effects on the ecosystem in
+terms of the amount, quality and consistency of scientific data?
+• Could the activities potentially set off an unpredictable chain of events,
+the start of which is obvious but the final outcome (e.g. beyond the end of
+mining) of which cannot be predicted?
+66. An approach described in the next section is common in impact assessments,
+and involves the sensitivity (to the particular impact concerned), vulnerability and
+value of a receptor being combined with the impact magnitude (and probability, where
+appropriate) using informed judgment to arrive at a significance assessment for each
+impact. The assessment of significance considers mitigation measures that are
+embedded within the proposed activities. Hence it is a much more detailed evaluation
+than done for the Scoping Report and includes analysis of additional data and
+information collected during exploration activities associated with baseline surveys,
+component testing, and test mining where undertaken. It retains a categorical
+approach rather than continuous values, and typically results in a matrix-type output.
+However, as stressed throughout these guidelines, the key to a successful EIA
+21-17327 27/49
+
+[Page 28]
+ISBA/27/C/4
+involves assessment of similar components, even if analysed using different methods
+and presented in different ways.
+67. Significance can be evaluated by considering the magnitude of an impact in
+combination with the importance/sensitivity of the receptor or resource that is
+affected (see figure 4 below).
+Figure IV
+Iterative approach to assessing significance and project measures
+Source: Dong Energy 2016.
+1. Magnitude
+68. The magnitude (scale of change from the baseline, spatial extent, duration,
+frequency and reversibility) of an impact should be estimated, taking into
+28/49 21-17327
+
+[Page 29]
+ISBA/27/C/4
+consideration that an impact may represent a range of magnitudes. Where it is
+possible to predict quantified impacts, this should be included, for example: area of
+habitat loss; volumes of sediment removed; change in noise levels at various distances
+from source; and pollutant concentrations at various distances from source.
+69. For some impacts, e.g., noise, air and water pollution, significance may be
+assessed directly against numerical criteria and standards where these exist. Where it
+is predicted that such thresholds may be exceeded, mitigation plans must be
+incorporated into the project design to reduce the magnitude of the impact (and the
+significance of its effect) to within specified and previously agreed standards.
+70. For other impacts, it may be necessary to propose site-specific quantitative or
+qualitative assessment criteria, based on the level of change from the baseline
+environmental data, loss of components of the baseline environment, and the nature
+of a change (what is affected and how); the impact’s size, scale or intensity; its
+geographical extent; its duration, frequency, reversibility and, for unplanned events,
+likelihood of occurrence.
+71. Definition of magnitude categories will be case-specific, but are likely to be
+similar to those given in table 4.
+Table 4
+Example of magnitude criteria
+Magnitude of impact Criteria for assessing impact
+Large Total loss or major/substantial alteration to key elements or
+features of the baseline conditions such that post development
+character/composition/attributes will be fundamentally changed
+Medium Loss or alteration to one or more key elements or features of the
+baseline conditions such that post development character/
+composition/attributes will be materially changed
+Small A minor, but measurable, shift away from baseline conditions, not
+a material change. The underlying character/composition/attributes
+of the baseline condition will be similar to the pre-development
+situation.
+Negligible Within the range of normal natural variability in baseline
+conditions. Change barely distinguishable.
+Source: modified from Dong Energy 2016.
+2. Sensitivity
+72. In defining the sensitivity to a particular type of impact for each receptor, the
+tolerance of, adaptability to, recoverability from impact and value and/or importance
+of the receptor should be taken into consideration. Value and/or importance relates to
+scale of conservation importance, rarity, and potential for substitution. While it can
+be broken down in many ways, examples are:
+(a) Species importance, can be assessed according to the following, but not
+only these, criteria:
+(i) Species with highly localized distributions;
+(ii) The extent to which they are under threat;
+21-17327 29/49
+
+[Page 30]
+ISBA/27/C/4
+(iii) The importance of the species to wider ecological communities and the
+ecosystem (e.g. predator/prey relationships, ecosystem engineer);
+(iv) The degree of protection of species under national law, and international
+instruments;
+(b) The population being assessed, for the purposes of a particular species
+(e.g. in the context of a geographical range). This may lead to an effect of higher
+significance at a local level but lower at regional level;
+(c) Habitat importance, can be assessed according to the following criteria:
+(i) Classification as potentially important ecological areas (e.g., key
+ecological areas, ecologically or biologically significant areas or vulnerable
+marine ecosystems);
+(ii) The diversity of species supported;
+(iii) Life history traits of species supported;
+(iv) Use by restricted-range or endemic species;
+(v) Functional significance such as use for seasonal feeding, breeding and
+migration by important species;
+(vi) Structural complexity;
+(vii) Provision of ecosystem services.
+73. Table 5 (below) shows examples of the criteria for scoring sensitivity.
+Table 5
+Example of receptor criteria used in scoring sensitivity
+Sensitivity Examples of receptor
+High The receptor/resource has little ability to absorb change without
+fundamentally altering its present character, or is of international or
+national importance.
+Moderate The receptor/resource has moderate capacity to absorb change without
+significantly altering its present character, or is of high importance.
+Low The receptor/resource is tolerant of change without detriment to its
+character, is of low or local importance.
+Source: Dong Energy 2016.
+Significance
+74. The overall significance of an effect is determined by combining the magnitude
+of the impact with the sensitivity of the receptor. A matrix approach is commonly
+used. The significance may be one of, or a range of, not significant, minor, moderate,
+major or substantial. In cases where a range is suggested for the significance of effect,
+there remains the possibility that this may span the significance threshold (i.e. the
+range is given as minor to moderate). In such cases the final significance is based
+upon the expert’s professional judgment as to which outcome delineates the most
+likely effect, with an explanation as to why this is the case.
+75. The lack of an evidence base for how species and habitats in the deep sea will
+respond to human disturbance is a challenge for assessing the significance of impacts.
+In a similar way to the ERA in the Scoping Report, an evaluation can be based on the
+30/49 21-17327
+
+[Page 31]
+ISBA/27/C/4
+combination of assessment of importance/sensitivity of a receptor, against the scale
+of the impact (an example is given of the sort of resultant table in Table 6).
+Table 6
+Illustration of deriving significance of impact
+Magnitude of impact
+Sensitivity of receptor Negligible Small Medium Large
+Negligible Not significant Not significant or Not significant or Minor
+minor minor
+Low Not significant or Not significant or Minor Minor or
+minor minor moderate
+Moderate Not significant or Minor Moderate Moderate or
+minor major
+High Minor Moderate or Moderate or Major or
+major major substantial
+Source: modified from Dong Energy 2016.
+76. This process has been based largely on approaches used to assess environmental
+impacts. Broadly similar approaches can be applied in assessing socioeconomic
+impacts, but the views of stakeholders and affected parties may play a stronger role
+in determining significance and developing appropriate mitigation.
+77. Below we present an example that illustrates in ecological terms how an effect
+of major significance may vary from an effect of moderate significance and in turn
+from an effect of minor significance
+78. An effect of major significance is one that affects an entire population or
+species or community and/or change in distribution beyond which natural recruitment
+(reproduction, immigration from unaffected areas) would not return that population
+or species, or any population or species dependent upon it, to its former level within
+several generations. An effect of major significance may also adversely affect the
+integrity of the habitat, by substantially or irreversibly changing in the long term its
+ecological features, structures and functions, across all or most of its area, that enable
+it to sustain the habitat, complex of habitats and/or population levels of species that
+make it important.
+79. An effect of moderate significance is one that affects a portion of a population
+and may bring about a change in abundance and/or distribution over one or more
+generations but does not threaten the integrity of that population or any population
+dependent upon it. An effect of moderate significance may also affect the ecological
+functioning of a site, habitat or ecosystem, but without adversely affecting its overall
+integrity.
+80. An effect of minor significance is one that affects a specific group of localized
+individuals within a population over a short time period (one generation or less) but
+does not affect other trophic levels or the population itself. An effect of minor
+significance may also involve effects of limited extent, or to some elements of the
+habitat.
+21-17327 31/49
+
+[Page 32]
+ISBA/27/C/4
+E. Cumulative impacts
+81. The assessment of cumulative impacts in a deep-sea mining EIA is important. It
+needs to consider three key elements: (1) Multiple sources of impact (either different
+types of mining operation, or different sectors such as fishing); (2) Additive or
+interactive processes (repetition leading to accumulation of impacts); (3) Different
+types of cumulative effects.
+82. There are several evaluation criteria that should be considered:
+(a) Temporal accumulation – often where perturbations are so close in time
+there is no opportunity for recovery between disturbances (consider duration and
+frequency of perturbation);
+(b) Spatial accumulation, where perturbations are so close in space that they
+overlap (consider geographic scales, boundaries, directional patterns);
+(c) Perturbation type (single, multiple, likely trigger for further effects). This
+should also consider indirect effects further from the area of physical disturbance;
+(d) Processes of accumulation, including synergistic effects or progressive
+“nibbling” in small amounts (consider cause and effect, what is additive versus
+interactive);
+(e) Functional effects (causing changes in ecological processes or controlling
+properties);
+(f) Structural effects (spatial changes in biological or physical composition).
+83. Key steps in a Cumulative Effects Assessment and Management process
+(CEAM) incorporate a management aspect to specify mitigation measures for
+cumulative effects overall (useful advice for CEAM is Canter & Ross 2010).
+F. Uncertainty
+84. An applicant or Contractor should identify and detail uncertainties through the
+whole of the EIA, as this is consistent with, if not essential for, undertaking a
+scientifically robust EIA. This should cover both the identification of environmental
+values (the baseline study) and the assessment of impacts. The following groupings
+provide a useful way to approach this requirement (Clark et al. 2017b):
+(a) Acknowledge uncertainty, arising when there is incomplete understanding
+of structures, processes, interactions or system behaviours;
+(b) Uncertainty related to the unpredictability of chaotic (often random)
+components of complex systems or of human behaviour;
+(c) Structural uncertainty, arising from inadequate models, ambiguous system
+boundaries, or oversimplification or omission of processes from models;
+(d) Value uncertainty, arising from missing or inaccurate data, inappropriate
+spatial or temporal resolution, or poorly-known model parameters;
+(e) Interpretation uncertainty, arising when values or terms are or may be
+interpreted differently by different user groups.
+85. An applicant or Contractor may use the following steps to reduce uncertainty as
+part of the EIA methodology used, and should describe how this was done in the EIS
+(Rouse and Norton 2010):
+(a) Identify sources of uncertainty;
+32/49 21-17327
+
+[Page 33]
+ISBA/27/C/4
+(b) Reduce uncertainty where possible;
+(c) Acknowledge and manage the residual (unavoidable) uncertainty.
+Assessment confidence
+86. Where uncertainty can be statistically defined, then it can be included in range
+estimates of particular measures or metrics. However, this might not be possible in
+all situations. A qualitative description may be adequate, though an objectively
+defined scale is more helpful, and can be used even if the decision as to confidence
+level can only be based on expert judgment, rather than frequency data, as long as
+this limitation is stated. Such a scale that is meaningful in normal language might be:
+certain, probable, unlikely:
+• Certain/near-certain: probability estimated at 95 per cent chance or higher.
+• Probable: probability estimated above 50% but below 95%.
+• Unlikely: probability estimated above 5% but less than 50%.
+• Extremely Unlikely: probability estimated at less than 5%.
+G. Environmental performance
+87. The issue of environmental performance is a key one for assessing whether
+mitigation measures (through equipment design, operational methods, avoiding or
+minimizing an impact at source) will be adequate in reducing impacts to acceptable
+levels (residual impacts). Threshold criteria (for changes in the receiving
+environment) will need to be developed as scientific knowledge grows with further
+exploration and studies proposed to support the EIS or EMMP for the application of
+an exploitation contract.
+88. Until such time as sufficient data on the Area exists to allow the Authority to
+establish thresholds for a range of key components that are assessed in the EIA
+process, an applicant or Contractor should use project-specific and area-specific
+impact thresholds based on data and analyses commensurate in quality with the
+importance of the impact. In collaboration with the scientific community, an applicant
+or Contractor should ensure that baseline condition studies allow determination of the
+normal range of variability experienced across ecosystem characteristics and
+properties in and around the proposed Mining Area. Defining this range then allows
+consideration of thresholds near the limits of the normal range of variability, using
+approaches such as statistical analysis and modelling, as indicated by Best Available
+Scientific Evidence.
+89. The following sections discuss EIA thresholds that are used by industries that
+have certain elements in common with seabed mining, as well as scientific
+methodology for determining project-specific thresholds. This information is neither
+comprehensive nor definitive but is provided to assist an applicant or Contractor in
+evaluating potential threshold parameters and metrics.
+Peer industry thresholds
+90. An applicant or Contractor is encouraged to review studies performed by peer
+industries on the Marine Environment to identify potential scientific methodologies,
+risk assessment models, methods for establishing impact thresholds, and
+implementation of feedback monitoring of ecosystem properties to guide the
+performance of the applicant or Contractor’s EIA. There can be useful information
+available from offshore oil and gas drilling, dredging, proposed sulphide mining, and
+deep-sea tailing placement/disposal.
+21-17327 33/49
+
+[Page 34]
+ISBA/27/C/4
+91. Appendix 1 comprises tables providing some illustration of biological and
+physiochemical impact thresholds and methodologies, sorted by both applicable
+depth regime and applicable activity or process. The tables may be helpful to
+Contractors to link to experience from other industry sectors.
+V. Mitigation
+92. This stage involves evaluation of measures necessary for mitigation of impacts,
+in order to avoid, reduce and, if possible, remedy predicted harmful effects. Where
+appropriate, these should be incorporated into an EMMP.
+A. Evaluating alternatives
+93. An EIA process through the EIS and EMMP should describe the alternatives
+explored by the applicant or Contractor. Alternatives and mitigation can range from a
+high level to very detailed aspects of project design:
+(a) Alternative locations for all or part of the project;
+(b) Alternative technologies or modifications to technology;
+(c) Alternative layouts or operational designs e.g., strips of impact rather than
+blocks;
+(d) Alternative environmental measures e.g., connectivity corridors through a
+Contract Area.
+94. Whatever process is adopted to facilitate the evaluation of options, it is
+important that it is undertaken in a structured and logical way, and that the decisions
+reached are properly recorded and reasoned for later incorporation into the
+appropriate section of the EIS.
+B. Mitigation hierarchy
+1. General considerations
+95. An applicant or Contractor is required by the draft regulations on exploitation
+to identify, evaluate, commit to and implement measures to mitigate impacts.
+Mitigation for each impact type should be clearly specified in the EIS and EMMP.
+96. Contractors should consider the mitigation hierarchy (figure V) when
+developing their mitigation and management strategies in the EIS and EMMP. The
+mitigation hierarchy concept is based on progressively assessing mitigation options.
+34/49 21-17327
+
+[Page 35]
+ISBA/27/C/4
+Figure V
+Four-class mitigation hierarchy triangle
+Source: SPC, Swaddling 2016.
+97. Emphasis should be strongly on the “Avoid/Prevent” and “Minimize” sections
+of the hierarchy. It is not an acceptable practice in EIAs to move to the later stages of
+the hierarchy unless all other options are exhausted. Rehabilitation or offsetting of
+effects on the Marine Environment may be difficult or impossible to achieve but
+should still be considered if relevant.
+2. Avoid/prevent
+98. The mitigation hierarchy specifies that avoidance is the most effective and
+preferable way to deal with harmful environmental impacts. Once a harmful effect
+has been identified in the EIA process, the applicant or Contractor should consider
+whether it can be avoided, for example through feasible alternatives to parts of the
+proposal, such as changing the specific location, redesigning methods, adaption of
+technology, scaling down operations, etc.
+3. Minimize
+99. If an impact cannot be avoided, it should be minimized or reduced as far as
+practicable. This is commonly achieved through engineering designs, but can also
+introduce management measures such as spatial or temporal restrictions that can
+reduce duration, intensity and/or extent of unavoidable impacts (see examples in
+Secretariat of the Pacific Community 2013, Swaddling 2016, Sharma and Smith 2019).
+4. Rehabilitate or restore
+100. Rehabilitation or restoration measures are those taken to reinstate a degraded
+site following exposure to impacts that could not be completely avoided or
+minimized. Within this level, a second hierarchy exists:
+(a) Restoration to return an area to the original ecosystem that existed before
+impacts;
+(b) Rehabilitation to restore basic ecological functions and/or ecosystem
+services.
+101. Options for restoration or rehabilitation should be considered for all projects,
+even where there is considerable uncertainty whether restoration or rehabilitation is
+a feasible objective (Van Dover et al. 2014, Cuvelier et al. 2018).
+21-17327 35/49
+
+[Page 36]
+ISBA/27/C/4
+102. Consultation with research institutions and commercial entities may be useful
+in assessing whether rehabilitation options are feasible (e.g. MERCES project,2 Task 7.3
+of the JPI-Oceans MiningImpact2 project3).
+5. Offset
+103. Offset measures are those taken to compensate for residual harmful impacts
+Generally, offsetting is achieved by setting aside other areas to be protected from
+future impacts. In terrestrial and some coastal jurisdictions, offset measures can
+include situations where the offset area is unlike the impacted area.
+104. However, in the deep-sea mining context, the standard use of “offset” measures
+is unlikely to be appropriate or acceptable. An alternative type of compensatory
+approach is spatial management where protected areas have similar environmental
+characteristics to impacted areas at either local or regional scales. This can potentially
+include spatial management measures such as preservation reference zones in a
+Contract Area, and Areas of Particular Environmental Interest in a broader regional
+context.
+105. Environmental criteria for determining the location and size of such spatial
+management areas include:
+(a) Representativity: this covers a potentially wide range of habitat and
+biological diversity, and may necessitate multiple areas;
+(b) Connectivity: ideally sites should be linked to ensure the exchange of
+species between areas where required for maintaining ecosystem structure/function;
+(c) Replication: more than one site should be protected to account for natural
+variability and the possibility of catastrophic change;
+(d) Size: the site(s) should be large enough to ensure the ecological viability
+and integrity of the environment and communities.
+C. Residual effects
+106. Residual effects are those that remain even after the implementation of
+mitigation measures. Predictions for these should be reported clearly in the EIS,
+including description of impact, magnitude of impact, the receptors affected
+(importance and sensitivity), mitigation to be undertaken and proposed monitoring.
+Proposed monitoring measures should include any expectation of adaptive
+management to allow the residual effects to be reconsidered and uncertainty to be
+addressed. The treatment of residual effects will be a key element of the EMMP.
+VI. Reporting
+107. The EIS is designed to document clearly the anticipated impacts of the project,
+significance and harmfulness of effects, identification of possible measures for
+mitigation, identification of the residual effects and concerns raised by consultation.
+The EIS should be a stand-alone document.
+108. Annex IV of the draft regulations on exploitation specifies the form and
+expected content of the EIS. The guidelines on the preparation of an EIS elaborate on
+these requirements.
+__________________
+2 See www.merces-project.eu/.
+3 See jpi-oceans.eu/miningimpact-2.
+36/49 21-17327
+
+[Page 37]
+ISBA/27/C/4
+109. In addition to the information submitted as part of the EIS, it is recommended
+that the applicant or Contractor document and record the steps and progress of the
+entire EIA process and its outcomes. This may be more procedural description and
+detail than will be provided in the EIS, but as a separate record it may be a useful
+resource for responding to any queries arising from the Authority or for improving
+the process where shortcomings might be identified.
+A. Summary of planned management and monitoring commitments
+110. A summary of management and monitoring commitments made by the applicant
+or Contractor as a result of the impact assessment and consideration of mitigation
+measures, will form the basis of contractual obligations on the Contractor in terms of
+implementing the outcomes of the EIA process. Such a summary statement
+(sometimes termed a “Commitments Register”) is often provided in table form, with
+commitments forming the basis for clauses in the Exploitation Contract, and the
+content of the EMMP.
+VII. Review
+111. A comprehensive review process is essential to determine if the content of the
+EIA (EIS and EMMP) provides a satisfactory assessment of the project and can
+contribute to the decision-making process.
+A. Internal review
+112. The applicant or Contractor should thoroughly review the EIA before
+submission to ensure the EIA process was followed and was robust. Checks on the
+manner in which the EIA was carried out include the following:
+Process-specific
+• The assessment process was adjustable to the specific situation without
+compromising the integrity of the process;
+• Criteria applicable to various steps were established that were appropriate for
+the specific situation without compromising the integrity of the process;
+• Data collection effort was sufficient to characterize and prioritise residual risks;
+• Assessment and reporting efforts involved multiple techniques and a diverse set
+of professional experts;
+• Inclusive stakeholder consultation was conducted.
+Performed with scientific integrity
+• It applied Best Available Scientific Evidence;
+• It presented usable, actionable information and outputs; and
+• The assessment utilized best expert judgment and sound data collection and
+analysis, subject to independent verification and validation.
+Sustainability focus
+• The process supports sustainable development;
+21-17327 37/49
+
+[Page 38]
+ISBA/27/C/4
+• It included assessment, evaluation and analysis of potential consequences for
+socioeconomic, physiochemical and biological environments;
+• It aligned with efforts, goals, and standards of regional and global organizations;
+and
+• The assessment process demonstrated adherence to regional and global
+instruments and guidance.
+113. The evaluation of the performance of the EIA should include an assessment of
+whether the right technologies and methods were used in gathering environmental
+baseline data, as outlined in relevant International Seabed Authority
+recommendations (e.g., ISBA/25/LTC/6/Rev.1 and Corr.1) and the Guidelines on
+Baseline Data.
+114. Best Environmental Practices are defined in the Exploitation Regulations and
+may include, but are not limited to:
+• Use of best available techniques;
+• Adoption of an ecosystem approach to assessment and mitigation – considering
+environmental effects at the broad ecosystem level;
+• Comprehensive data collection, information management, and sharing of
+non-commercially sensitive data through the global data repository of the
+International Seabed Authority (ISA DeepData) as well as other relevant
+international/regional data repositories;
+• Transparency of processes, operations, and monitoring;
+• Consideration of other marine users and uses;
+• Consideration of indirect and cumulative impacts, as well as potential
+interactions of impacts;
+• Incorporation of ecosystem services into baseline estimates and monitoring
+plans, and
+• Effective mechanisms for stakeholder and independent expert engagement;
+• Capacity building through the establishment of partnerships and collaborations.
+115. There are several sources of checklists that can be used to evaluate how the EIA
+process has been conducted (e.g., European Union 2001).
+B. External review
+116. The applicant or Contractor will need to submit the EIS, once complete, to the
+Authority. The review by the International Seabed Authority of the EIS will include
+a stakeholder consultation period, as governed by the draft regulations on exploitation
+(part II, sections 2 and 3).
+VIII. Decision-making
+117. The draft regulations on exploitation (part II, sections 3 and 4) set out the
+decision-making process based on the information provided in the EIS and other
+relevant documents.
+38/49 21-17327
+
+[Page 39]
+ISBA/27/C/4
+IX. Monitoring
+118. The draft regulations on exploitation require that the EIS include a section on
+monitoring, and that an EMMP be provided as part of the environmental plans defined
+in the regulations.
+119. Further details are contained in the Standards and Guidelines for EIS and
+EMMP.
+X. Environmental impact assessment audit
+120. The Contractor should undertake regular follow-up and audit processes. These
+are necessary to monitor the project and ensure conditions are met, impacts are
+adequately monitored, and the effectiveness of mitigation and management measures
+can be assessed. This follow-up and audit process has a direct linkage to the EMMP.
+121. Follow-up and audit procedures will feed into the review of the EMMP and Plan
+of Work required under the draft regulations on exploitation (part IV, section 4).
+XI. Stakeholder involvement
+122. An applicant or Contractor is urged to engage with and consult stakeholders in
+a meaningful way during the EIA process. The aim is to ensure that the concerns and
+interests of stakeholders are considered and acknowledged during the preparation and
+drafting of an EIS. This can help ensure that the EIA is comprehensive, complete and
+takes into account various stakeholder perspectives, as well as Best Available
+Scientific Evidence. As noted in section 3.5, the scoping phase of the EIA includes a
+process for determining relevant stakeholders for consultation, as well as their
+engagement with the production of the draft scoping report for the EIS. Consultations
+could also be held at other stages where appropriate in the EIA process (e.g., impact
+assessment tasks).
+123. Stakeholder consultation should be conducted in a meaningful manner. This
+means:
+• providing appropriate access to up-to-date and comprehensive information
+about the mining plans and environmental data and impacts; and
+• providing reasonable opportunity for those consulted to raise enquiries and to
+make known their views.
+124. The draft regulations on exploitation recommend that the EIS includes details
+of stakeholder consultation. This should cover the following:
+• Stakeholder groups consulted (with their agreement, although names and
+contact details of individuals consulted might not be included);
+• Type of engagement undertaken (e.g., provision of written materials and
+facilitation of written feedback, webinars, face-to-face meetings, telephone
+discussions);
+• Description of the manner in which the engagement has been tailored to the
+stakeholders’ needs, (e.g., the presentation of information in multiple languages,
+or in a manner which is effective for stakeholders with disabilities, reading
+impairments or cultural barriers that may prevent effective transfer of
+information (such as the prohibition of women attending public meetings));
+• Date and time engagement was conducted;
+21-17327 39/49
+
+[Page 40]
+ISBA/27/C/4
+• Issues raised (at each engagement stage);
+• How these issues have been incorporated (or otherwise) into the EIS;
+• How the incorporation (or otherwise) has been communicated with the
+stakeholders.
+XII. Definitions and abbreviations
+125. Except as otherwise specified herein, terms and phrases defined in the draft
+regulations on exploitation have the same meaning in these guidelines.
+“Effect” is the consequence or outcome of an action or activity during the
+project. It is typically broader and more functional than an impact (see definition
+below).
+“Environmental Effects” are any consequences in the Marine Environment
+arising from the conduct of exploitation activities, whether positive, negative, direct,
+indirect, temporary or permanent, or cumulative effect arising over time or in
+combination with other mining impacts.
+“Environmental impact assessment” (EIA) is “the process of identifying,
+predicting, evaluating and mitigating the physicochemical, biological,
+socioeconomic, and other relevant effects of development proposals prior to major
+decisions being taken and commitments made”.4 This includes all potential effects,
+both positive and negative, and encompasses natural and anthropogenic receptors.
+“Environmental Impact Statement” (EIS) is the documentation of the EIA
+process, which describes the predicted effects of the project on the environment (and
+their significance), the measures that the applicant is committed to taking to avoid,
+minimize and reduce them where possible, and the residual (remaining) effects that
+cannot be avoided.
+“EMMP” means Environmental Management and Monitoring Plan.
+“Environmental Risk Assessment” (ERA) is a process to identify, analyse and
+evaluate the nature and extent of activities and the level of risk to characteristics of
+the environment.
+“Impact” is the influence of an action/activity during the project on the
+environment.
+“REMP” means Regional Environmental Management Plan.
+“Risk” is the probability, high or low, that an activity will cause harmful effects
+on living organisms and the environment.
+XIII. References
+126. There is an extensive literature on EIA. In this list we provide selected papers
+and reports that are referred to in the Guideline text, or that are useful general
+reference for additional guidance and information. References cited in the appendix
+are listed separately.
+Beanlands, G.E., P.N. Duinker. 1983. An ecological framework for environmental
+impact assessment in Canada. Institute for Resource and Environmental Studies.
+132 p.
+__________________
+4 As defined by the International Association for Impact Assessment (IAIA) https://www.iaia.org/.
+40/49 21-17327
+
+[Page 41]
+ISBA/27/C/4
+Canter, LW., and W. Ross. (2010). State of practice of cumulative effects
+assessment and management: the good, the bad, and the ugly. Impact Assessment
+and Project Appraisal 28:261–268.
+Clark, M. R. 2019. The development of Environmental Impact Assessments for
+deep-sea mining. Pages 447–470 in R. Sharma, editor. Environmental issues of
+deep-sea mining: impacts, consequences and policy perspectives.
+Clark, M. R., J. M. Durden, and S. Christiansen. 2019. Environmental Impact
+Assessments for deep-sea mining: Can we improve their future effectiveness?
+Marine Policy 114. [online 2018 – https://doi.org.10.1016/j.marpol.2018.11.026].
+Clark, M.R., Horn, P., Tracey, D.M., Hoyle, S., Goetz, K., Pinkerton, M., Sutton,
+P., Paul, V. 2017a. Assessment of the potential impacts of deep seabed mining
+on Pacific Island fisheries. Pacific Community, Suva, Fiji. 90 p.
+[http://dsm.gsd.spc.int/index.php/publications-and-reports].
+Clark, M. R., H. L. Rouse, G. Lamarche, J. I. Ellis, and C. W. Hickey. 2017b.
+Preparation of environmental impact assessments: general guidelines for
+offshore mining and drilling with particular reference to New Zealand. NIWA
+Science and Technology Series 81:103.
+Cuvelier D, Gollner S, Jones DOB, Kaiser S, Arbizu PM, et al. 2018. Potential
+Mitigation and Restoration Actions in Ecosystems Impacted by Seabed Mining.
+Frontiers in Marine Science 5.
+Dong Energy 2016: Hornsea Project Three Offshore Wind Farm preliminary
+environmental information report: Chapter 5-Environmental Impact Assessment
+methodology. HOW03 Scoping Report (azureedge.net).
+Durden, J. M., L. E. Lallier, K. Murphy, A. Jaeckel, K. Gjerde, and D. O. B.
+Jones. 2018. Environmental Impact Assessment process for deep-sea mining in
+‘the Area’. Marine Policy 87:194–202.
+Durden, J. M., K. Murphy, A. Jaeckel, C. L. Van Dover, S. Christiansen,
+K. Gjerde, A. Ortega, and D. O. B. Jones. 2017. A procedural framework for
+robust environmental management of deep-sea mining projects using a
+conceptual model. Marine Policy 84:193–201.
+Ellis, J. I., M. R. Clark, H. L. Rouse, and G. Lamarche. 2017. Environmental
+management frameworks for offshore mining: the New Zealand approach.
+Marine Policy 84:178–192.
+European Commission. 2001. Guidance on EIA: EIS Review.
+European Commission 2017: Environmental Impact Assessment of Projects:
+Guidance on Screening. 84 p. [https://ec.europa.eu/environment/eia/pdf/
+EIA_guidance_Screening_final.pdf]
+European Commission (2017): Environmental Impact Assessment of Projects:
+Guidance on Scoping.
+Glasson, J., Therivel, R., Chadwick, A. (2012). Introduction to environmental
+impact assessment. UCL Press Ltd, University College, London.
+Gronow C, Womersley J, Jones P, Rutter J, Lloyd P, Zoete T and Milligan C,
+2013, Environmental and Social Impact Assessment Good Practice Statements,
+EIANZ, Brisbane.
+Hobday, A.J., Smith, A., Webb, H., Daley, R., Wayte, S., Bulman, C., Dowdney, J.,
+Williams, A., Sporcic, M., Dambacher, J., Fuller, M., Walker, T. (2007)
+Ecological Risk Assessment for the Effects of Fishing: Methodology. Australian
+21-17327 41/49
+
+[Page 42]
+ISBA/27/C/4
+Fisheries Management Authority Report, R04/1072: 174p.
+http://www.afma.gov.au/environment/eco_based/eras/docs/methodology.pdf.
+IEC-ISO. 2009. International standard IEC/ISO 31010. Risk management-risk
+assessment techniques.
+ISO. 2018. International Standard: Risk management – Guidelines.
+Levin L.A., Mengerink K., Gjerde K.M., Rowden A.A., Van Dover C.L., Clark
+M.R., Ramirez-Llodra E., Currie B., Smith C.R., Sato K.N., Gallo N., Sweetman
+A.K., Lily H., Armstrong C.W., Brider J. (2016) Defining “serious harm” to the
+marine environment in the context of deep-seabed mining. Marine Policy
+74:245–259.
+MacDiarmid, A., Beaumont, J., Bostock, H., Bowden, D., Clark, M., Hadfield,
+M., Heath, P., Lamarche, G., Nodder, S., Orpin, A., Stevens, C., Thompson, D.,
+Torres, L., Wysoczanski, R. (2012) Expert Risk Assessment of Activities in the
+New Zealand Exclusive Economic Zone and Extended Continental Shelf. NIWA
+Client report, WLG2011-39: 106p.
+Mastrandrea, M.D., C.B. Field, T.F. Stocker, O. Edenhofer, K.L. Ebi,
+D.J. Frame, H. Held, E. Kriegler, K.J. Mach, P.R. Matschoss, G.-K. Plattner,
+G.W. Yohe, and F.W. Zwiers (2010) Guidance Note for Lead Authors of the
+IPCC Fifth Assessment Report on Consistent Treatment of Uncertainties.
+Intergovernmental Panel on Climate Change (IPCC). Available at
+<http://www.ipcc.ch>.
+MIT (2019). Deep-sea mining: resolving risk. Workshop hosted by MIT, Boston,
+2018 [see Workshop report: https://drive.google.com/drive/
+folders/1G7QRIbMX9mAX0-sOuy7xvUdvRpeXmZiQ?usp=sharing and
+Presentations from the workshop: https://drive.google.com/drive/
+folders/1G7QRIbMX9mAX0-sOuy7xvUdvRpeXmZiQ?usp=sharing].
+RAMSAR. 2010. Impact assessment: Guidelines on biodiversity-inclusive
+environmental impact assessment and strategic environmental assessment.
+Rouse, H.L., Norton, N. (2010) Managing scientific uncertainty for resource
+management planning in New Zealand. Australasian Journal of Environmental
+Management, 17: 66–76.
+Secretariat of the Pacific Community (2013). Deep Sea Minerals: Seafloor
+Massive Sulphides/Manganese Nodules/Cobalt-rich Crusts: A Physical,
+Biological, Environmental and Technical Review. Vol 1 A/B/C. [SPC-EU Deep
+Sea Minerals Project – Publications and Reports].
+Senécal, P., B. Goldsmith, and S. Conover. 1999. Principles of Environmental
+Impact Assessment Best Practice.
+Sharma, R., Smith, S. (2019). Deep-Sea mining and the Environment: an
+Introduction. In R. Sharma (ed)., Environmental Impacts of Deep-Sea mining.
+Springer Nature Switzerland (https://doi.org/10.1007/978-3-030-12696-4.1).
+Smit B., Spaling H. (1995) Methods for cumulative effects assessment.
+Environmental Impact Assessment Review 15:81–106.
+Swaddling, A. 2016. Pacific-ACP States regional environmental management
+framework for deep sea minerals exploration and exploitation. Noumea.
+Thornborough, KJ, Juniper, K, Smith S, and L-W Wong (2019). Towards an
+ecosystem approach to environmental impact assessment for deep-sea mining.
+In Environmental issues of deep-sea mining: impacts, consequences and policy
+perspectives., ed. R Sharma, pp. 63–94. Switzerland: Springer.
+42/49 21-17327
+
+[Page 43]
+ISBA/27/C/4
+Van Dover, CL, Aronson, J, Pendleton, L, Smith, S et al (2014) Ecological
+restoration in the deep sea: desiderata. Marine Policy 44: 98–106.
+Weaver, PPE, and Billett, D. (2019). Environmental impacts of nodule, crust
+and sulphide mining: an overview. In Environmental issues of deep-sea mining:
+impacts, consequences and policy perspectives, ed. R Sharma, pp. 27–62:
+Springer.
+21-17327 43/49
+
+[Page 44]
+4 /44
+9
+A ppendix I S B
+A
+Information available from selected peer industries relevant to environmental impact assessments for /2
+7
+deep-sea mining:
+/C
+/4
+Note: The tables include categorical identifiers to define existing methodologies:
+• “Threshold” indicates that a threshold has been established by at least one of the selected industries
+• “Impact assessment” indicates that a method of determining a specific impact exists (i.e., modelling)
+• Empty cells indicate that a threshold or method of determining impact does not exist for the given industry or activity and potential impact.
+Impacts to consider Assessment of impacts
+Categories Example impact Peer industries
+Seafloor massive
+Activity Oil and gas Dredging sulfide mining Academia
+Vessel or platform Air Exhaust or similar Threshold1,2 Impact
+operations assessment10
+Noise Incidental to operations; Threshold2 Threshold12
+engines or similar
+Emissions Light Incidental to operations; Threshold2
+floodlights or similar
+Chemical Accidental discharges of fuel Impact assessment Impact
+discharges or similar and threshold2,3,4 assessment10
+Sediment Accidental discharges of Impact
+discharges extracted material or tailings assessment
+Transport of Emissions Noise Incidental to operations; Threshold12,13
+materials (through engines or similar
+water column)
+Light Incidental to operations;
+floodlights or similar
+Chemical Accidental discharges of fuel Impact assessment
+discharges or similar and threshold3,4
+Sediment Accidental discharges of
+discharges extracted material or tailings
+2
+1
+-1
+7
+3
+2
+7
+
+[Page 45]
+2
+-11 Impacts to consider Assessment of impacts
+7
+3
+2 7 Categories Example impact Peer industries
+Seafloor massive
+Activity Oil and gas Dredging sulfide mining Academia
+Return-water Air Volatilization related to Impact
+discharge mining activities assessment and
+threshold
+Noise Incidental to operations;
+engines or similar
+Emissions Light Incidental to operations;
+floodlights or similar
+Chemical Accidental discharges of fuel
+discharges or similar
+Impact assessment
+and threshold3–9
+Sediment Accidental discharges of
+discharges extracted material or tailings
+Extraction or Noise Incidental to operations; Impact
+materials engines or similar assessment and
+threshold13
+Emissions Light Incidental to operations; Impact
+floodlights or similar assessment13
+Chemical Accidental discharges of fuel
+discharges or similar
+Sediment Accidental discharges of Impact Impact
+discharges extracted material or tailings assessment10 assessment and
+threshold13–16
+Oxygen reduction of sediments Threshold4 Impact
+assessment13
+Loss of habitat Threshold9 Impact
+assessment and
+I
+threshold13 S
+B
+A
+/2
+4 5 7 /C
+/4
+9
+/4
+
+[Page 46]
+4 /46
+9
+Regimen I S B
+A
+Activity Depth (m) Zone Categories Ecosystems Impact /2
+7
+/C
+Vessel or Air Surface biota; Exhaust or similar
+/4
+platform plankton
+Noise Incidental to operations; engines or similar
+operations (phytoplankton
+and zooplankton),
+Emissions Light Incidental to operations; floodlights or similar
+surface, near
+Surface
+Chemical surface fish (e.g., Accidental discharges of fuel or similar
+discharges tuna), seabirds,
+turtles, marine
+Sediment mammals Accidental discharges of extracted material or
+discharges tailings
+Noise Photic biota; Incidental to operations; engines or similar
+plankton
+Epipelagic Emissions Light Incidental to operations; floodlights or similar
+(phytoplankton
+zone
+and zooplankton),
+0–
+surface, near
+200 Chemical Accidental discharges of fuel or similar
+surface fish (e.g.,
+discharges
+tuna), seabirds,
+Transport
+Sediment turtles, marine Accidental discharges of extracted material or
+of
+discharges mammals tailings
+materials
+Noise Midwater biota; Accidental or related to transit
+zooplankton,
+Emissions Light
+mesopelagic and
+200– Mesopelagic bathypelagic
+Chemical Accidental discharges of fuel or similar
+1 000 zone fishes, deep
+discharges
+diving mammals
+Sediment Accidental discharges of extracted material or
+Return- discharges tailings
+water
+discharge Bathypelagic Noise Midwater biota; Accidental discharges of extracted material or
+to zooplankton, tailings
+Emissions Light
+Abyssopelagic mesopelagic and
+1 000– bathypelagic
+Chemical Accidental discharges of fuel or similar
+6 500 fishes, deep
+discharges
+diving mammals
+Sediment Accidental discharges of extracted material or
+discharges tailings
+2
+1
+-1
+7
+3
+2
+7
+
+[Page 47]
+2
+-11 Regimen
+7
+3
+2 7 Activity Depth (m) Zone Categories Ecosystems Impact
+Extraction Emissions Air Seafloor biota of Volatilization related to mining activities
+of any seafloor
+Noise
+materials depth, benthic
+Related to mining activities
+invertebrate and
+Light
+fish communities,
+Chemical infauna to an Related to mining activities; potential
+Sea floor (may occur discharges appropriate depth interactions with seabed materials or fluids
+at any depth) of sediment,
+Sediment demersal fish up Discharges of tailings; plume and burial
+discharges to 50m from potential
+seafloor
+Loss of habitat Destruction of seafloor; removal of nodules
+and accessory materials
+Oxygen reduction of
+sediments
+I
+S
+B
+A
+/2
+4 7 7 /C
+/4
+9
+/4
+
+[Page 48]
+ISBA/27/C/4
+References:
+1. US National Archives and Records Administration’s Office (2021). Electronic
+Code of Federal Regulations. [www.ecfr.gov/cgi-bin/ECFR?page=browse]
+2 Canada-Newfoundland and Labrador Offshore Petroleum Board (2010)
+Offshore Waste Treatment Guidelines. [www.cer-rec.gc.ca/en/about/acts-
+regulations/other-acts/offshore-waste-treatment-guidelines/]
+3 Smit M.G.D., R.G. Jak & H. Rye (2006): Framework for the Environmental
+Impact Factor for drilling discharges. TNO-report B&O 2006-DH-0045. ERMS
+report no. 3.
+4 Smit, M.G.D., Tamis, J.E., Jak, R.G., Karman, C.C., Kjeilen-Eilertsen, G.,
+Trannum, H., Neff, J. (2006). Threshold Levels and Risk Functions for Non-Toxic
+Sediment Stressors: Burial, Grain Size Changes, and Hypoxia. ERMS Report
+No. 9. TNO-report DH-0046/A.
+5 Zigic, S.; Dunn, R. Drill Cuttings and Muds Discharge Modelling Study, for
+Appraisal Drilling Campaign in Permit NT/P69 Bonaparte Basin.
+6 COWI Tanzania. Environmental Impact Statement – Additional Offshore Oil
+and Gas Exploration Drilling in Block 2, Tanzania. [www.cowi.com/tags/
+environmental-impact-assessment]
+7 Clark, M.R.; Rouse, H.L.; Lamarche, G.; Ellis, J.I.; Hickey, C.W. (2017).
+Preparation of environmental impact assessments: general guidelines for
+offshore mining and drilling with particular reference to New Zealand. NIWA
+Science and Technology Series 81: 103.
+8 Kjeilen-Eilertsen, G., Trannum, H., Jak, R., Smit, M., Neff, J., Durell, G. (2004).
+Literature Report on Burial: Derivation of PNEC as Component in the MEMW
+Model Tool. ERMS Report 9B. AM2004/024.
+9 Smit, M.G.D.; Holthaus, K.I.E.; Trannum, H.C.; Neff, J.M.; Kjeilen-Eilertsen,
+G.; Jak, R.G.; Singsaas, I.; Huijbregts, M.A.J.; Hendriks, A.J. (2008). Species
+sensitivity distributions for suspended clays, sediment burial, and grain size
+change in the marine environment. Environmental Toxicology and Chemistry
+27(4): 1006–1012. <http://dx.doi.org/10.1897/07-339.1>
+10 Table 1: Environmental and Dredging Guidelines Applicable to Deepsea Nodule
+Mining. [www.isa.org.jm/files/documents/copy_of_environmental_and_
+dredging_guidelines_applicable_to_dsm-nodules_rev0.xlsx]
+11 Coffey Natural Systems/Nautilus Minerals Ltd (2008). Environmental Impact
+Statement. Solwara 1 Project. Volume A. Main report. 226 p.
+12 Southall, B.L.; Finneran, J.J.; Rcichmuth, C.; Nachtigall, P.E.; Ketten, D.R.;
+Bowles, A.E.; Ellison, W.T.; Nowacek, D.P.; Tyack, P.L. (2019). Marine
+Mammal Noise Exposure Criteria: Updated Scientific Recommendations for
+Residual Hearing Effects. Aquatic Mammals 45(2): 125–232.
+<http://dx.doi.org/10.1578/am.45.2.2019.125>
+13 Verichev, S., Jak, R., de Wit, L., Duinveld, G et al. (2014). Towards Zero Impact
+of Deep Sea Offshore Projects: An assessment framework for future
+environmental studies of deep-sea and offshore mining projects
+[www.researchgate.net/publication/296706482_Towards_Zero_
+Impact_of_Deep_Sea_Offshore_Projects]
+48/49 21-17327
+
+[Page 49]
+ISBA/27/C/4
+14 Jones, R.; Fisher, R.; Stark, C.; Ridd, P. (2015). Temporal Patterns in Seawater
+Quality from Dredging in Tropical Environments. Plos One 10(10).
+<http://dx.doi.org/10.1371/journal.pone.0137112>
+15 Jones, R.; Bessell-Browne, P.; Fisher, R.; Klonowski, W.; Slivkoff, M. (2016).
+Assessing the impacts of sediments from dredging on corals. Marine Pollution
+Bulletin 102(1): 9–29. <http://dx.doi.org/10.1016/j.marpolbul.2015.10.049>
+16 Josefson, A.B.; Hansen, J.L.S.; Asmund, G.; Johansen, P. (2008). Threshold
+response of benthic macrofauna integrity to metal contamination in West
+Greenland. Marine Pollution Bulletin 56(7): 1265–1274.
+<http://dx.doi.org/10.1016/j.marpolbul.2008.04.028>
+21-17327 49/49
