@@ -13,7 +13,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.api import alternatives, chat, documents, regulations
+from app.api import alternatives, chat, documents, regulations, science
+from app.api.science import load_science_index
 
 # DATA_DIR can be overridden via environment variable for production deployments.
 # Falls back to the repo's data/ folder for local development.
@@ -82,6 +83,13 @@ async def lifespan(app: FastAPI):
         app.state.alternatives = {"alternatives": []}
         print("ℹ️   alternatives.json not found (run scripts/extract_alternatives.py)")
 
+    # Science papers index (from scripts/ingest_science_papers.py)
+    n_chunks = load_science_index(DATA_DIR)
+    if n_chunks:
+        print(f"✅  Science index built: {n_chunks} chunks from science_papers.json")
+    else:
+        print("ℹ️   science_papers.json not found (run scripts/ingest_science_papers.py)")
+
     yield   # server runs here
 
 
@@ -111,6 +119,7 @@ app.include_router(documents.router,     prefix="/api/documents",   tags=["Docum
 app.include_router(chat.router,          prefix="/api/chat",        tags=["Chat"])
 app.include_router(regulations.router,   prefix="/api/regulations", tags=["Regulations"])
 app.include_router(alternatives.router,  prefix="/api",             tags=["Alternatives"])
+app.include_router(science.router,       prefix="/api/science",     tags=["Science"])
 
 
 @app.get("/")
@@ -129,16 +138,22 @@ async def serve_timeline():
 async def serve_alternatives():
     return FileResponse(str(ROOT_DIR / "alternatives.html"))
 
+@app.get("/science")
+async def serve_science():
+    return FileResponse(str(ROOT_DIR / "science.html"))
+
 
 @app.get("/api/health")
 async def health():
+    from app.api.science import _science_index
     return {
         "status":  "ok",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "data": {
             "documents_loaded":            bool(getattr(app.state, "documents", {}).get("documents")),
             "working_groups_loaded":       bool(getattr(app.state, "working_groups", {})),
             "standards_guidelines_loaded": bool(getattr(app.state, "standards_guidelines", {})),
             "full_texts_loaded":           len(getattr(app.state, "full_texts", {})),
+            "science_chunks_indexed":      _science_index._n,
         },
     }

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Science Anchor · ISA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .sticky-header { position: sticky; top: 0; z-index: 40; }
+
+    /* ── Chat bubbles ─────────────────────────────────── */
+    .msg-user { background:#eff6ff; border:1px solid #bfdbfe; }
+    .msg-science { background:#f0fdf4; border-left:3px solid #22c55e; }
+    .msg-regulatory { background:#fffbeb; border-left:3px solid #f59e0b; }
+
+    /* ── Two-panel response ───────────────────────────── */
+    .layer-science {
+      background:#f0fdf4; border:1px solid #bbf7d0;
+      border-radius:12px; padding:16px 18px;
+    }
+    .layer-regulatory {
+      background:#fffbeb; border:1px solid #fde68a;
+      border-radius:12px; padding:16px 18px;
+    }
+    .layer-label {
+      font-size:0.72rem; font-weight:700; letter-spacing:0.05em;
+      text-transform:uppercase; margin-bottom:8px;
+    }
+    .layer-science   .layer-label { color:#15803d; }
+    .layer-regulatory .layer-label { color:#b45309; }
+
+    /* ── Markdown rendering ───────────────────────────── */
+    .md-content h2 { font-size:1.05rem; font-weight:700; margin:12px 0 6px; }
+    .md-content h3 { font-size:0.95rem; font-weight:600; margin:10px 0 4px; }
+    .md-content p  { margin:6px 0; line-height:1.65; font-size:0.88rem; }
+    .md-content ul, .md-content ol { margin:6px 0 6px 16px; font-size:0.88rem; line-height:1.65; }
+    .md-content li { margin:3px 0; }
+    .md-content hr { border:none; border-top:1px solid #d1d5db; margin:12px 0; }
+    .md-content strong { font-weight:600; }
+    .md-content em { font-style:italic; }
+    .md-content code { background:#f1f5f9; padding:1px 5px; border-radius:3px; font-size:0.82rem; }
+
+    /* ── Citation chips ───────────────────────────────── */
+    .cite-chip {
+      display:inline-block; background:#e0f2fe; color:#0369a1;
+      border-radius:999px; padding:2px 10px; font-size:0.7rem;
+      font-weight:600; margin:2px 2px; white-space:nowrap;
+    }
+    .reg-chip {
+      display:inline-block; background:#fef3c7; color:#92400e;
+      border-radius:999px; padding:2px 10px; font-size:0.7rem;
+      font-weight:600; margin:2px 2px; white-space:nowrap;
+    }
+
+    /* ── Paper library ────────────────────────────────── */
+    .paper-card { transition:background 0.1s; }
+    .paper-card:hover { background:#f8fafc; }
+
+    /* ── Loading dots ─────────────────────────────────── */
+    @keyframes dotpulse {
+      0%,80%,100% { opacity:.2; } 40% { opacity:1; }
+    }
+    .dot { width:6px; height:6px; border-radius:50%; background:#6b7280;
+           display:inline-block; margin:0 2px; }
+    .dot:nth-child(1) { animation:dotpulse 1.2s ease-in-out infinite 0s; }
+    .dot:nth-child(2) { animation:dotpulse 1.2s ease-in-out infinite .2s; }
+    .dot:nth-child(3) { animation:dotpulse 1.2s ease-in-out infinite .4s; }
+
+    /* ── Tab styling ──────────────────────────────────── */
+    .tab-btn.active-tab { background:#1e40af; color:#fff; }
+    .tab-btn { transition:all 0.15s; }
+
+    textarea { resize:none; }
+    textarea:focus { outline:none; }
+    .send-btn:disabled { opacity:0.5; cursor:not-allowed; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen text-gray-900">
+
+<!-- ── Header ────────────────────────────────────────────────────────────── -->
+<header class="sticky-header bg-white border-b border-gray-200 shadow-sm">
+  <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+    <div class="flex items-center gap-3">
+      <a href="/" class="text-gray-400 hover:text-blue-600 text-sm font-medium">⌂ Home</a>
+      <div>
+        <div class="font-bold text-blue-900 text-base leading-tight">⚓ Science Anchor</div>
+        <div class="text-xs text-gray-500">Dual-layer answers: peer-reviewed science + ISA regulatory framework</div>
+      </div>
+    </div>
+    <div class="flex items-center gap-2">
+      <span id="index-status" class="text-xs text-gray-400 hidden sm:block">Loading…</span>
+      <div class="flex rounded-lg overflow-hidden border border-gray-200">
+        <button id="tab-chat"    onclick="switchTab('chat')"    class="tab-btn active-tab px-4 py-1.5 text-xs font-semibold">💬 Ask</button>
+        <button id="tab-library" onclick="switchTab('library')" class="tab-btn bg-white text-gray-600 px-4 py-1.5 text-xs font-semibold">📚 Library</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ── Chat view ──────────────────────────────────────────────────────────── -->
+<div id="view-chat" class="max-w-5xl mx-auto px-4 py-6">
+
+  <!-- Intro card -->
+  <div id="intro-card" class="bg-white border border-gray-200 rounded-2xl shadow-sm p-6 mb-6">
+    <div class="flex items-start gap-4">
+      <div class="text-3xl">⚓</div>
+      <div>
+        <div class="font-bold text-gray-800 mb-1">How this works</div>
+        <p class="text-sm text-gray-600 leading-relaxed mb-3">
+          Every question is answered through <strong>two independent knowledge layers</strong> —
+          kept strictly separate so you can see exactly where each claim comes from.
+        </p>
+        <div class="flex flex-wrap gap-3 text-xs">
+          <div class="flex items-center gap-1.5 bg-green-50 text-green-800 px-3 py-1.5 rounded-lg border border-green-200">
+            <span>🔬</span>
+            <span><strong>Science layer</strong> — peer-reviewed literature (328 papers, 1959–2026)</span>
+          </div>
+          <div class="flex items-center gap-1.5 bg-amber-50 text-amber-800 px-3 py-1.5 rounded-lg border border-amber-200">
+            <span>⚖️</span>
+            <span><strong>Regulatory layer</strong> — ISA Mining Code, EMMP, EIS standards</span>
+          </div>
+        </div>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <button onclick="sendExample('What are the environmental impacts of sediment plumes from nodule collection?')"
+            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
+            🌊 What are the environmental impacts of sediment plumes from nodule collection?
+          </button>
+          <button onclick="sendExample('How does the ISA framework address biodiversity loss in the Clarion-Clipperton Zone?')"
+            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
+            🐠 How does the ISA framework address biodiversity loss in the Clarion-Clipperton Zone?
+          </button>
+          <button onclick="sendExample('What does the science say about recovery timescales for disturbed abyssal ecosystems?')"
+            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
+            🔁 What does the science say about recovery timescales for disturbed abyssal ecosystems?
+          </button>
+          <button onclick="sendExample('What financial terms and royalty structures are proposed for DSM contractors?')"
+            class="text-left text-xs bg-gray-50 hover:bg-blue-50 border border-gray-200 rounded-lg p-3 transition-colors">
+            💰 What financial terms and royalty structures are proposed for DSM contractors?
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Message thread -->
+  <div id="thread" class="space-y-5 mb-4"></div>
+
+  <!-- Input area -->
+  <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-4">
+    <textarea id="input"
+      rows="3"
+      placeholder="Ask a question about deep-sea mining — the answer will draw separately on peer-reviewed science and ISA regulatory documents…"
+      onkeydown="handleKey(event)"
+      class="w-full text-sm text-gray-800 placeholder-gray-400 bg-transparent border-0 leading-relaxed"></textarea>
+    <div class="flex items-center justify-between mt-3">
+      <div class="text-xs text-gray-400">
+        <kbd class="bg-gray-100 px-1.5 py-0.5 rounded text-xs">Shift+Enter</kbd> for new line ·
+        <kbd class="bg-gray-100 px-1.5 py-0.5 rounded text-xs">Enter</kbd> to send
+      </div>
+      <button id="send-btn" onclick="sendMessage()"
+        class="send-btn flex items-center gap-2 px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-xl transition-colors">
+        <span>Send</span>
+        <span class="text-base">↑</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Offline banner -->
+  <div id="offline-banner" class="hidden mt-4 bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm">
+    <strong>⚠️ Backend not connected.</strong>
+    <code class="block mt-1 text-xs bg-amber-100 px-3 py-1 rounded">
+      cd '/Users/krisvannijen/Documents/ISA App/backend' &amp;&amp; python3 -m uvicorn app.main:app --reload
+    </code>
+  </div>
+</div>
+
+<!-- ── Library view ───────────────────────────────────────────────────────── -->
+<div id="view-library" class="max-w-5xl mx-auto px-4 py-6 hidden">
+  <div class="bg-white border border-gray-200 rounded-2xl shadow-sm p-5 mb-4">
+    <div class="flex flex-wrap items-center gap-3">
+      <input id="library-search" type="text" placeholder="Search by title, author, or year…"
+        oninput="filterLibrary()" autocomplete="off"
+        class="flex-1 min-w-48 text-sm border border-gray-200 rounded-lg px-3 py-2 outline-none focus:border-blue-400"/>
+      <span id="lib-count" class="text-xs text-gray-400 whitespace-nowrap">Loading…</span>
+    </div>
+  </div>
+  <div id="lib-list" class="bg-white border border-gray-200 rounded-2xl shadow-sm divide-y divide-gray-100"></div>
+  <div id="lib-more" class="mt-3 text-center hidden">
+    <button onclick="loadMorePapers()" class="text-sm text-blue-600 hover:underline">Load more…</button>
+  </div>
+</div>
+
+<!-- ── Footer ─────────────────────────────────────────────────────────────── -->
+<footer class="mt-12 border-t border-gray-200 bg-white py-4 text-center text-xs text-gray-400">
+  <a href="/" class="text-blue-600 hover:underline">⌂ Home</a>
+  · <a href="/timeline" class="text-blue-600 hover:underline">📅 Timeline</a>
+  · <a href="/chat" class="text-blue-600 hover:underline">💬 Chat</a>
+  · <a href="/alternatives" class="text-blue-600 hover:underline">🗳️ Alternatives</a>
+  · <a href="https://github.com/KVN-B/ISA" class="text-blue-600 hover:underline">GitHub</a>
+</footer>
+
+<script>
+const API_BASE = '';
+let HISTORY = [];
+let THREAD_ID = null;
+let IS_STREAMING = false;
+
+// Library state
+let ALL_PAPERS = [];
+let FILTERED_PAPERS = [];
+let LIB_OFFSET = 0;
+const LIB_PAGE = 40;
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+
+async function init() {
+  try {
+    const r = await fetch(`${API_BASE}/api/science/status`);
+    if (!r.ok) throw new Error();
+    const s = await r.json();
+    const el = document.getElementById('index-status');
+    if (s.ready) {
+      el.textContent = `${s.indexed_papers} papers · ${s.indexed_chunks.toLocaleString()} chunks indexed`;
+      el.classList.remove('hidden');
+    } else {
+      el.textContent = 'Science index not built — run ingest_science_papers.py';
+      el.classList.remove('hidden');
+    }
+  } catch {
+    document.getElementById('offline-banner').classList.remove('hidden');
+  }
+}
+
+// ── Tab switching ─────────────────────────────────────────────────────────────
+
+function switchTab(tab) {
+  document.getElementById('view-chat').classList.toggle('hidden',    tab !== 'chat');
+  document.getElementById('view-library').classList.toggle('hidden', tab !== 'library');
+  document.getElementById('tab-chat').classList.toggle('active-tab',    tab === 'chat');
+  document.getElementById('tab-chat').classList.toggle('bg-white',      tab !== 'chat');
+  document.getElementById('tab-chat').classList.toggle('text-gray-600', tab !== 'chat');
+  document.getElementById('tab-library').classList.toggle('active-tab',    tab === 'library');
+  document.getElementById('tab-library').classList.toggle('bg-white',      tab !== 'library');
+  document.getElementById('tab-library').classList.toggle('text-gray-600', tab !== 'library');
+  if (tab === 'library' && ALL_PAPERS.length === 0) loadLibrary();
+}
+
+// ── Library ───────────────────────────────────────────────────────────────────
+
+async function loadLibrary() {
+  try {
+    const r = await fetch(`${API_BASE}/api/science/papers?limit=500`);
+    if (!r.ok) throw new Error();
+    const d = await r.json();
+    ALL_PAPERS = d.results || [];
+    FILTERED_PAPERS = [...ALL_PAPERS];
+    renderLibraryPage(true);
+  } catch {
+    document.getElementById('lib-list').innerHTML =
+      '<p class="text-sm text-gray-400 p-4">Could not load paper library.</p>';
+  }
+}
+
+function filterLibrary() {
+  const q = document.getElementById('library-search').value.toLowerCase();
+  FILTERED_PAPERS = q
+    ? ALL_PAPERS.filter(p =>
+        (p.title || '').toLowerCase().includes(q) ||
+        (p.authors || '').toLowerCase().includes(q) ||
+        (p.year || '').includes(q)
+      )
+    : [...ALL_PAPERS];
+  LIB_OFFSET = 0;
+  renderLibraryPage(true);
+}
+
+function loadMorePapers() {
+  LIB_OFFSET += LIB_PAGE;
+  renderLibraryPage(false);
+}
+
+function renderLibraryPage(reset) {
+  const list = document.getElementById('lib-list');
+  const page = FILTERED_PAPERS.slice(LIB_OFFSET, LIB_OFFSET + LIB_PAGE);
+  document.getElementById('lib-count').textContent =
+    `${FILTERED_PAPERS.length.toLocaleString()} papers`;
+
+  if (reset) list.innerHTML = '';
+  page.forEach(p => {
+    const div = document.createElement('div');
+    div.className = 'paper-card px-5 py-3 cursor-default';
+    div.innerHTML = `
+      <div class="flex items-start gap-3">
+        <span class="text-xs text-gray-400 font-mono w-10 shrink-0 pt-0.5 text-right">${esc(p.year || '—')}</span>
+        <div class="flex-1 min-w-0">
+          <div class="text-sm font-medium text-gray-800 leading-snug">${esc(p.title || '')}</div>
+          <div class="text-xs text-gray-500 mt-0.5">${esc(p.authors_short || '')}</div>
+        </div>
+        <span class="text-xs text-gray-300 shrink-0">${p.n_chunks || 0}ch</span>
+      </div>`;
+    list.appendChild(div);
+  });
+
+  const hasMore = LIB_OFFSET + LIB_PAGE < FILTERED_PAPERS.length;
+  document.getElementById('lib-more').classList.toggle('hidden', !hasMore);
+}
+
+// ── Chat ──────────────────────────────────────────────────────────────────────
+
+function handleKey(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendMessage();
+  }
+}
+
+function sendExample(text) {
+  document.getElementById('input').value = text;
+  sendMessage();
+}
+
+async function sendMessage() {
+  if (IS_STREAMING) return;
+  const input = document.getElementById('input');
+  const msg   = input.value.trim();
+  if (!msg) return;
+
+  input.value = '';
+  document.getElementById('intro-card').classList.add('hidden');
+  document.getElementById('send-btn').disabled = true;
+  IS_STREAMING = true;
+
+  appendUserBubble(msg);
+  const placeholder = appendAssistantPlaceholder();
+
+  try {
+    const body = JSON.stringify({
+      message:   msg,
+      thread_id: THREAD_ID,
+      history:   HISTORY.slice(-10),  // last 5 exchanges
+    });
+
+    const resp = await fetch(`${API_BASE}/api/science/stream`, {
+      method:  'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body,
+    });
+
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+    const reader  = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText  = '';
+    let sciCites  = [];
+    let regCites  = [];
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const raw = decoder.decode(value, { stream: true });
+      for (const line of raw.split('\n')) {
+        if (!line.startsWith('data: ')) continue;
+        const payload = JSON.parse(line.slice(6));
+        if (payload.delta) {
+          fullText += payload.delta;
+          renderDualLayer(placeholder, fullText, sciCites, regCites, false);
+        }
+        if (payload.done) {
+          THREAD_ID = payload.thread_id;
+          sciCites  = payload.science_citations || [];
+          regCites  = payload.regulatory_citations || [];
+          renderDualLayer(placeholder, fullText, sciCites, regCites, true);
+        }
+        if (payload.error) throw new Error(payload.error);
+      }
+    }
+
+    HISTORY.push(
+      { role: 'user',      content: msg },
+      { role: 'assistant', content: fullText },
+    );
+  } catch (err) {
+    placeholder.innerHTML =
+      `<div class="text-sm text-red-500">Error: ${esc(err.message)}</div>`;
+  } finally {
+    IS_STREAMING = false;
+    document.getElementById('send-btn').disabled = false;
+    input.focus();
+  }
+}
+
+// ── Rendering ─────────────────────────────────────────────────────────────────
+
+function appendUserBubble(text) {
+  const thread = document.getElementById('thread');
+  const div = document.createElement('div');
+  div.className = 'flex justify-end';
+  div.innerHTML = `
+    <div class="msg-user max-w-xl rounded-2xl px-4 py-3 text-sm leading-relaxed">
+      ${esc(text)}
+    </div>`;
+  thread.appendChild(div);
+  div.scrollIntoView({ block: 'end', behavior: 'smooth' });
+}
+
+function appendAssistantPlaceholder() {
+  const thread = document.getElementById('thread');
+  const div = document.createElement('div');
+  div.className = 'response-block';
+  div.innerHTML = `
+    <div class="flex items-center gap-1.5 text-xs text-gray-400 mb-2 pl-1">
+      <span class="font-semibold text-blue-900">⚓ Science Anchor</span>
+      <span>is retrieving…</span>
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+    <div class="layer-grid"></div>`;
+  thread.appendChild(div);
+  div.scrollIntoView({ block: 'end', behavior: 'smooth' });
+  return div;
+}
+
+function renderDualLayer(container, text, sciCites, regCites, done) {
+  // Split the response at the --- divider
+  const [sciencePart, regulatoryPart] = splitResponse(text);
+
+  const grid = container.querySelector('.layer-grid');
+  grid.innerHTML = `
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="layer-science">
+        <div class="layer-label">🔬 What the science says</div>
+        <div class="md-content science-text">${renderMarkdown(sciencePart)}</div>
+      </div>
+      <div class="layer-regulatory">
+        <div class="layer-label">⚖️ What the regulatory framework provides</div>
+        <div class="md-content regulatory-text">${renderMarkdown(regulatoryPart)}</div>
+      </div>
+    </div>
+    ${done && (sciCites.length || regCites.length) ? renderCiteBar(sciCites, regCites) : ''}
+  `;
+
+  // Update header once done
+  const header = container.querySelector('.flex.items-center');
+  if (done && header) {
+    header.innerHTML = `<span class="font-semibold text-blue-900">⚓ Science Anchor</span>`;
+  }
+
+  container.scrollIntoView({ block: 'end', behavior: 'smooth' });
+}
+
+function splitResponse(text) {
+  // Split at the divider line "---" between the two sections
+  // The model should produce: [Science section] --- [Regulatory section]
+  // We detect the divider between the two ## headings
+
+  const dividerRe = /\n---+\n/;
+  const headingRe = /##\s*⚖️\s*What the regulatory/i;
+
+  let sciPart = text;
+  let regPart = '';
+
+  // Prefer heading-based split
+  const headingMatch = text.search(headingRe);
+  if (headingMatch > 0) {
+    sciPart = text.slice(0, headingMatch);
+    regPart = text.slice(headingMatch);
+  } else {
+    // Fallback: divider split
+    const divMatch = text.match(dividerRe);
+    if (divMatch) {
+      const idx = text.indexOf(divMatch[0]);
+      sciPart = text.slice(0, idx);
+      regPart = text.slice(idx + divMatch[0].length);
+    }
+  }
+
+  // Strip the leading ## heading from each part for cleaner display
+  sciPart = sciPart.replace(/^##\s*🔬\s*What the science says\s*/i, '').trim();
+  regPart = regPart.replace(/^##\s*⚖️\s*What the regulatory framework provides\s*/i, '').trim();
+
+  return [sciPart, regPart || ''];
+}
+
+function renderCiteBar(sciCites, regCites) {
+  const sci = sciCites.map(c => `<span class="cite-chip">${esc(c)}</span>`).join('');
+  const reg = regCites.map(c => `<span class="reg-chip">${esc(c)}</span>`).join('');
+  if (!sci && !reg) return '';
+  return `<div class="mt-3 flex flex-wrap gap-1 items-center">
+    ${sci ? `<span class="text-xs text-gray-400 mr-1">Science:</span>${sci}` : ''}
+    ${reg ? `<span class="text-xs text-gray-400 ml-2 mr-1">Regulatory:</span>${reg}` : ''}
+  </div>`;
+}
+
+// ── Minimal Markdown renderer ─────────────────────────────────────────────────
+
+function renderMarkdown(text) {
+  if (!text) return '<span class="text-gray-400 text-xs italic">Waiting for response…</span>';
+
+  let h = esc(text);
+
+  // Bold and italic (do before escaping replaces * → &amp;* etc.)
+  // Note: esc() replaces & but we need to work on the raw text then escape
+  // Actually: esc first, then transform ** and * patterns on HTML-escaped text
+  h = h
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*\n]+?)\*/g,  '<em>$1</em>')
+    .replace(/`([^`]+?)`/g,      '<code>$1</code>');
+
+  // Block-level elements (process line by line)
+  const lines = h.split('\n');
+  const out = [];
+  let inList = false;
+
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+
+    // HR
+    if (/^---+$/.test(line.trim())) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push('<hr/>');
+      continue;
+    }
+    // h3
+    if (line.startsWith('### ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<h3>${line.slice(4)}</h3>`);
+      continue;
+    }
+    // h2
+    if (line.startsWith('## ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<h2>${line.slice(3)}</h2>`);
+      continue;
+    }
+    // h1
+    if (line.startsWith('# ')) {
+      if (inList) { out.push('</ul>'); inList = false; }
+      out.push(`<h2>${line.slice(2)}</h2>`);
+      continue;
+    }
+    // List item
+    if (/^[•\-\*]\s/.test(line)) {
+      if (!inList) { out.push('<ul>'); inList = true; }
+      out.push(`<li>${line.replace(/^[•\-\*]\s/, '')}</li>`);
+      continue;
+    }
+    // Numbered list
+    if (/^\d+\.\s/.test(line)) {
+      if (!inList) { out.push('<ul>'); inList = true; }
+      out.push(`<li>${line.replace(/^\d+\.\s/, '')}</li>`);
+      continue;
+    }
+    // End list
+    if (inList && line.trim() === '') {
+      out.push('</ul>');
+      inList = false;
+    }
+    // Paragraph
+    if (line.trim()) {
+      out.push(`<p>${line}</p>`);
+    } else if (out.length && !inList) {
+      // blank line separator
+    }
+  }
+  if (inList) out.push('</ul>');
+
+  return out.join('');
+}
+
+// ── Utility ───────────────────────────────────────────────────────────────────
+
+function esc(s) {
+  return (s || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

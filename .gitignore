@@ -45,3 +45,6 @@ secrets.json
 # Live user data — never commit votes or temp PDFs
 data/preferences.json
 data/full_texts/_tmp_*.pdf
+
+# Science papers source PDFs stay in Zotero — never commit them
+# data/science_papers.json IS committed (29 MB build artefact needed on Railway)
