@@ -110,6 +110,10 @@ app.include_router(regulations.router,   prefix="/api/regulations", tags=["Regul
 app.include_router(alternatives.router,  prefix="/api",             tags=["Alternatives"])
 
 
+@app.get("/")
+async def serve_index():
+    return FileResponse(str(ROOT_DIR / "index.html"))
+
 @app.get("/chat")
 async def serve_chat():
     return FileResponse(str(ROOT_DIR / "chat.html"))

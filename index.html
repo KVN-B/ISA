@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ISA Exploitation Regulations Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .tool-card {
+      transition: transform 0.15s, box-shadow 0.15s;
+      cursor: pointer;
+    }
+    .tool-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.10);
+    }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+    .dot-green  { background: #22c55e; }
+    .dot-amber  { background: #f59e0b; animation: pulse 1.5s infinite; }
+    .dot-red    { background: #ef4444; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    .stat-chip {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: #f1f5f9; border-radius: 9999px;
+      padding: 3px 10px; font-size: 0.72rem; color: #475569;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+<!-- ── Header ──────────────────────────────────────────────────────────────── -->
+<header class="bg-[#1e3a5f] text-white">
+  <div class="max-w-5xl mx-auto px-6 py-8">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <div class="text-xs font-semibold tracking-widest text-blue-300 uppercase mb-1">
+          International Seabed Authority
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-bold leading-tight">
+          Exploitation Regulations Platform
+        </h1>
+        <p class="mt-2 text-blue-200 text-sm max-w-xl">
+          AI-powered reference and decision-support tools for the finalisation
+          of the ISA draft exploitation regulations.
+        </p>
+      </div>
+      <!-- Backend status -->
+      <div class="flex-shrink-0 mt-1">
+        <div class="bg-white/10 rounded-xl px-4 py-3 text-sm text-center min-w-[130px]">
+          <div class="flex items-center justify-center gap-2 mb-1">
+            <span id="hdr-dot" class="status-dot dot-amber"></span>
+            <span id="hdr-label" class="font-medium text-xs">Checking…</span>
+          </div>
+          <div id="hdr-docs" class="text-blue-300 text-xs"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Knowledge base stats -->
+    <div id="kb-stats" class="mt-5 flex flex-wrap gap-2 opacity-0 transition-opacity duration-500">
+      <span class="stat-chip bg-white/10 text-blue-100">📄 <span id="stat-pages">…</span> pages</span>
+      <span class="stat-chip bg-white/10 text-blue-100">📁 <span id="stat-docs">…</span> documents</span>
+      <span class="stat-chip bg-white/10 text-blue-100">📋 46 Standards &amp; Guidelines</span>
+      <span class="stat-chip bg-white/10 text-blue-100">🤝 Working groups tracked</span>
+      <span class="stat-chip bg-white/10 text-blue-100">🗳️ 34 open alternatives</span>
+      <span class="stat-chip bg-white/10 text-blue-100">🌍 169 Member States</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── Tool cards ───────────────────────────────────────────────────────────── -->
+<main class="max-w-5xl mx-auto px-6 py-10">
+
+  <h2 class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-5">Available Tools</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+
+    <!-- Timeline -->
+    <a href="/timeline" class="tool-card block bg-white rounded-2xl border border-slate-200 shadow-sm p-6 no-underline">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl">📅</div>
+        <div class="flex-1">
+          <div class="font-bold text-slate-800 text-lg">Document Timeline</div>
+          <div class="text-xs text-blue-600 font-medium mt-0.5">timeline</div>
+          <p class="mt-2 text-sm text-slate-500 leading-relaxed">
+            Visual history of every regulatory text from 2014 to today — filterable
+            by document type, session, and status. Includes intersessional working
+            groups and the full Standards &amp; Guidelines pipeline.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="stat-chip">2014 – 2026</span>
+            <span class="stat-chip">38 documents</span>
+            <span class="stat-chip">5 layers</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Chat -->
+    <a href="/chat" class="tool-card block bg-white rounded-2xl border border-slate-200 shadow-sm p-6 no-underline">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl">💬</div>
+        <div class="flex-1">
+          <div class="font-bold text-slate-800 text-lg">AI Legal Assistant</div>
+          <div class="text-xs text-blue-600 font-medium mt-0.5">chat</div>
+          <p class="mt-2 text-sm text-slate-500 leading-relaxed">
+            Ask questions grounded strictly in UNCLOS Part XI, the 1994
+            Implementation Agreement, and current ISA texts. Verbatim provision
+            retrieval from ~2,875 pages of extracted regulatory text.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="stat-chip">~2,875 pages</span>
+            <span class="stat-chip">77 documents</span>
+            <span class="stat-chip" id="chat-status-chip">
+              <span id="chat-dot" class="status-dot dot-amber"></span>
+              Checking backend…
+            </span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Alternatives -->
+    <a href="/alternatives" class="tool-card block bg-white rounded-2xl border border-slate-200 shadow-sm p-6 no-underline">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl">🗳️</div>
+        <div class="flex-1">
+          <div class="font-bold text-slate-800 text-lg">Alternatives &amp; Preferences</div>
+          <div class="text-xs text-blue-600 font-medium mt-0.5">alternatives</div>
+          <p class="mt-2 text-sm text-slate-500 leading-relaxed">
+            Every bracketed alternative in the current draft (CRP.2/Rev.2) extracted
+            and presented for Member State review. PIN-authenticated voting with
+            full transparency across all 169 states.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="stat-chip">34 alternatives</span>
+            <span class="stat-chip">169 Member States</span>
+            <span class="stat-chip">Full transparency</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- S&G Drafting Engine — coming next -->
+    <div class="tool-card bg-white rounded-2xl border border-dashed border-slate-300 shadow-sm p-6 opacity-70">
+      <div class="flex items-start gap-4">
+        <div class="text-3xl grayscale">✍️</div>
+        <div class="flex-1">
+          <div class="flex items-center gap-2">
+            <div class="font-bold text-slate-600 text-lg">S&amp;G Drafting Engine</div>
+            <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-semibold">Coming next</span>
+          </div>
+          <div class="text-xs text-slate-400 font-medium mt-0.5">in development</div>
+          <p class="mt-2 text-sm text-slate-400 leading-relaxed">
+            AI-assisted first drafts for the 36 unwritten Standards &amp; Guidelines,
+            grounded in the regulatory text and existing S&amp;G. Cross-checked to
+            eliminate duplication and circular references.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <span class="stat-chip">36 S&amp;G to draft</span>
+            <span class="stat-chip">10 S&amp;G as templates</span>
+            <span class="stat-chip">Circular ref. check</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Quick links ────────────────────────────────────────────────────────── -->
+  <div class="mt-10">
+    <h2 class="text-xs font-semibold tracking-widest text-slate-400 uppercase mb-4">Source Documents</h2>
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm divide-y divide-slate-100">
+
+      <a href="https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text-clean.pdf"
+         target="_blank"
+         class="flex items-center justify-between px-5 py-3 hover:bg-slate-50 group">
+        <div>
+          <span class="text-sm font-medium text-slate-700 group-hover:text-blue-600">ISBA/31/C/CRP.2/Rev.2</span>
+          <span class="ml-2 text-xs text-slate-400">Further Revised Consolidated Text (clean) · Feb 2026</span>
+        </div>
+        <span class="text-xs text-blue-500">PDF ↗</span>
+      </a>
+
+      <a href="https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.pdf"
+         target="_blank"
+         class="flex items-center justify-between px-5 py-3 hover:bg-slate-50 group">
+        <div>
+          <span class="text-sm font-medium text-slate-700 group-hover:text-blue-600">ISBA/31/C/CRP.1/Rev.2</span>
+          <span class="ml-2 text-xs text-slate-400">Further Revised Consolidated Text (track changes) · Feb 2026</span>
+        </div>
+        <span class="text-xs text-blue-500">PDF ↗</span>
+      </a>
+
+      <a href="https://isa.org.jm/wp-content/uploads/2025/12/Further-Revised-Suspense-Document.pdf"
+         target="_blank"
+         class="flex items-center justify-between px-5 py-3 hover:bg-slate-50 group">
+        <div>
+          <span class="text-sm font-medium text-slate-700 group-hover:text-blue-600">ISBA/31/C/CRP.3</span>
+          <span class="ml-2 text-xs text-slate-400">Further Revised Suspense Document · Dec 2025</span>
+        </div>
+        <span class="text-xs text-blue-500">PDF ↗</span>
+      </a>
+
+      <a href="https://www.isa.org.jm/wp-content/uploads/2025/07/Consolidation-of-Part-XI_e-book.pdf"
+         target="_blank"
+         class="flex items-center justify-between px-5 py-3 hover:bg-slate-50 group">
+        <div>
+          <span class="text-sm font-medium text-slate-700 group-hover:text-blue-600">ISA Part XI Consolidation</span>
+          <span class="ml-2 text-xs text-slate-400">UNCLOS Part XI + 1994 IA as single instrument · 2025</span>
+        </div>
+        <span class="text-xs text-blue-500">PDF ↗</span>
+      </a>
+
+      <a href="https://www.isa.org.jm/the-mining-code/standards-and-guidelines/"
+         target="_blank"
+         class="flex items-center justify-between px-5 py-3 hover:bg-slate-50 group">
+        <div>
+          <span class="text-sm font-medium text-slate-700 group-hover:text-blue-600">Standards &amp; Guidelines</span>
+          <span class="ml-2 text-xs text-slate-400">ISA Mining Code · All 46 items</span>
+        </div>
+        <span class="text-xs text-blue-500">isa.org.jm ↗</span>
+      </a>
+
+    </div>
+  </div>
+
+</main>
+
+<!-- ── Footer ───────────────────────────────────────────────────────────────── -->
+<footer class="mt-6 border-t border-slate-200 bg-white py-4 text-center text-xs text-slate-400">
+  ISA Exploitation Regulations Platform ·
+  <a href="https://github.com/KVN-B/ISA" target="_blank" class="text-blue-500 hover:underline">github.com/KVN-B/ISA</a>
+  · Open Source
+</footer>
+
+<script>
+  const API_BASE = 'http://localhost:8000';
+
+  async function checkBackend() {
+    try {
+      const r    = await fetch(`${API_BASE}/api/health`, { signal: AbortSignal.timeout(6000) });
+      const data = await r.json();
+
+      // Header dot
+      document.getElementById('hdr-dot').className   = 'status-dot dot-green';
+      document.getElementById('hdr-label').textContent = 'Backend online';
+
+      // Doc count
+      const n = data.data?.full_texts_loaded || 0;
+      document.getElementById('hdr-docs').textContent  = n ? `${n} docs loaded` : '';
+      document.getElementById('stat-docs').textContent  = n;
+      document.getElementById('stat-pages').textContent = '~2,875';
+
+      // Chat chip
+      document.getElementById('chat-dot').className = 'status-dot dot-green';
+      document.getElementById('chat-status-chip').innerHTML =
+        '<span class="status-dot dot-green"></span> Backend connected';
+
+      // Show kb stats
+      document.getElementById('kb-stats').style.opacity = '1';
+
+    } catch {
+      document.getElementById('hdr-dot').className    = 'status-dot dot-red';
+      document.getElementById('hdr-label').textContent = 'Backend offline';
+      document.getElementById('chat-dot').className   = 'status-dot dot-red';
+      document.getElementById('chat-status-chip').innerHTML =
+        '<span class="status-dot dot-red"></span> Backend offline';
+    }
+  }
+
+  checkBackend();
+  setInterval(checkBackend, 30000);
+</script>
+</body>
+</html>
