@@ -8,6 +8,7 @@ import os
 from contextlib import asynccontextmanager
 from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
@@ -15,6 +16,10 @@ from fastapi.staticfiles import StaticFiles
 
 from app.api import alternatives, chat, documents, regulations, science
 from app.api.science import load_science_index
+
+# Load .env from project root (repo root is two levels above backend/app/).
+# No-op if .env doesn't exist (e.g. Railway injects env vars directly).
+load_dotenv(Path(__file__).parent.parent.parent / ".env")
 
 # DATA_DIR can be overridden via environment variable for production deployments.
 # Falls back to the repo's data/ folder for local development.
