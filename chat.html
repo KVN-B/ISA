@@ -267,13 +267,16 @@
 
     // ── Backend health check ────────────────────────────────────────
     async function checkBackend() {
+      // Don't interrupt the status dot while a response is streaming
+      if (isStreaming) return;
+
       const dot   = document.getElementById('status-dot');
       const label = document.getElementById('status-label');
       dot.className   = 'status-dot checking';
       label.textContent = 'Checking…';
 
       try {
-        const res  = await fetch(`${API_BASE}/api/health`, { signal: AbortSignal.timeout(4000) });
+        const res  = await fetch(`${API_BASE}/api/health`, { signal: AbortSignal.timeout(10000) });
         const data = await res.json();
 
         backendOnline = true;
