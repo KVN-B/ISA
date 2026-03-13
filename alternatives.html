@@ -14,13 +14,40 @@
     .flag { font-size: 0.65rem; padding: 1px 5px; border-radius: 9999px; }
     .alt-card { scroll-margin-top: 80px; }
     #login-modal { backdrop-filter: blur(4px); }
-    .context-text { font-style: italic; color: #6b7280; font-size: 0.8rem; }
-    .badge-alt { background: #dbeafe; color: #1d4ed8; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+    .badge-inline       { background:#dbeafe; color:#1d4ed8; }
+    .badge-slash        { background:#ede9fe; color:#6d28d9; }
+    .badge-para_alt     { background:#fef3c7; color:#92400e; }
+    .badge-full_reg     { background:#fee2e2; color:#b91c1c; }
+    .badge-optional     { background:#d1fae5; color:#065f46; }
+    .type-badge { font-size: 0.68rem; padding: 2px 7px; border-radius: 4px; font-weight: 600; white-space: nowrap; }
     .option-label { background: #f0f9ff; border: 1px solid #bae6fd; color: #0369a1; font-size: 0.7rem; padding: 1px 6px; border-radius: 4px; font-weight: 700; letter-spacing: 0.02em; }
+    .option-label-delete { background: #fff7ed; border: 1px solid #fed7aa; color: #c2410c; }
     .sticky-header { position: sticky; top: 0; z-index: 40; }
     .withdraw-btn { font-size: 0.7rem; color: #ef4444; cursor: pointer; }
     .withdraw-btn:hover { text-decoration: underline; }
-    details > summary { cursor: pointer; }
+    /* Regulation text block */
+    .reg-text-body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 0.82rem;
+      line-height: 1.7;
+      color: #374151;
+      white-space: pre-wrap;
+      word-break: break-word;
+      max-height: 420px;
+      overflow-y: auto;
+      padding: 12px 14px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+    }
+    .reg-text-body::-webkit-scrollbar { width: 4px; }
+    .reg-text-body::-webkit-scrollbar-thumb { background:#d1d5db; border-radius:2px; }
+    details > summary { list-style: none; cursor: pointer; user-select: none; }
+    details > summary::-webkit-details-marker { display: none; }
+    details[open] .chevron { transform: rotate(90deg); }
+    .chevron { display:inline-block; transition: transform 0.2s; margin-right: 4px; }
+    .filter-btn { transition: all 0.1s; }
+    .filter-btn.active-filter { background:#2563eb; color:#fff; border-color:#2563eb; }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen">
@@ -31,7 +58,7 @@
     <div class="flex items-center gap-3">
       <a href="/" class="text-gray-400 hover:text-blue-600 text-sm font-medium">⌂ Home</a>
       <div>
-        <div class="font-bold text-blue-900 text-base leading-tight">Alternatives & Preferences</div>
+        <div class="font-bold text-blue-900 text-base leading-tight">Alternatives &amp; Preferences</div>
         <div class="text-xs text-gray-500">ISBA/31/C/CRP.2/Rev.2 · Bracketed alternatives</div>
       </div>
     </div>
@@ -58,14 +85,19 @@
   <!-- Filter bar -->
   <div class="border-t border-gray-100 bg-gray-50 px-4 py-2 max-w-6xl mx-auto flex flex-wrap items-center gap-2">
     <span class="text-xs text-gray-400 font-medium mr-1">Filter:</span>
-    <button onclick="setFilter('all')"      id="f-all"    class="filter-btn active-filter px-3 py-1 text-xs rounded-full border">All</button>
-    <button onclick="setFilter('unvoted')"  id="f-unvoted" class="filter-btn px-3 py-1 text-xs rounded-full border">Not yet voted</button>
-    <button onclick="setFilter('voted')"    id="f-voted"   class="filter-btn px-3 py-1 text-xs rounded-full border">Voted</button>
-    <button onclick="setFilter('full_regulation')" id="f-full" class="filter-btn px-3 py-1 text-xs rounded-full border">Full-reg alternates</button>
+    <button onclick="setFilter('all')"            id="f-all"      class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">All</button>
+    <button onclick="setFilter('unvoted')"        id="f-unvoted"  class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Not yet voted</button>
+    <button onclick="setFilter('voted')"          id="f-voted"    class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Voted</button>
+    <span class="text-gray-300 text-xs">|</span>
+    <button onclick="setFilter('inline')"         id="f-inline"   class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Alt.1/Alt.2</button>
+    <button onclick="setFilter('slash')"          id="f-slash"    class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Slash [A]/[B]</button>
+    <button onclick="setFilter('para_alt')"       id="f-para_alt" class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Para. Alt.</button>
+    <button onclick="setFilter('optional_para')"  id="f-optional_para" class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Optional Para.</button>
+    <button onclick="setFilter('full_regulation')" id="f-full_regulation" class="filter-btn px-3 py-1 text-xs rounded-full border bg-white text-gray-600 border-gray-200">Full-Reg Alt.</button>
     <div class="flex-1"></div>
     <input id="search-input" type="text" placeholder="Search by regulation…"
       oninput="applyFilters()"
-      class="text-xs border rounded-full px-3 py-1 w-48 outline-none focus:border-blue-400"/>
+      class="text-xs border rounded-full px-3 py-1 w-48 outline-none focus:border-blue-400 bg-white"/>
   </div>
 </header>
 
@@ -146,7 +178,6 @@
     if (saved) {
       try {
         SESSION = JSON.parse(saved);
-        // Validate it
         const r = await fetch(`${API_BASE}/api/auth/me`, {
           headers: { Authorization: `Bearer ${SESSION.token}` }
         });
@@ -168,7 +199,6 @@
       document.getElementById('loading').classList.add('hidden');
       document.getElementById('alts-list').classList.remove('hidden');
 
-      populateStateDropdown(altsData);
       renderStats();
       applyFilters();
     } catch (e) {
@@ -177,22 +207,9 @@
     }
   }
 
-  function populateStateDropdown() {
-    // We'll load states from a simple approach — just use a static list
-    // populated from member_states.json via a future API call.
-    // For now, user types their state code directly.
-    const sel = document.getElementById('login-state');
-    // Will be populated from API if available
-    fetch(`${API_BASE}/api/alternatives`).then(r => r.json()).then(() => {
-      // States available — try to fetch state list
-      // For simplicity, we allow manual code entry via a text input fallback
-    }).catch(() => {});
-  }
-
   // ── Auth ─────────────────────────────────────────────────────────────────
 
   function openLoginModal() {
-    // Replace select with text input for state code + populate dropdown
     document.getElementById('login-modal').classList.remove('hidden');
     document.getElementById('login-pin').focus();
     loadStatesIntoDropdown();
@@ -202,8 +219,6 @@
     const sel = document.getElementById('login-state');
     if (sel.options.length > 1) return;
     try {
-      // Fetch states via the health endpoint to check connectivity, then use hardcoded approach
-      // The states list is in member_states.json — we expose it via a simple endpoint
       const r = await fetch(`${API_BASE}/api/auth/states`);
       if (r.ok) {
         const states = await r.json();
@@ -251,7 +266,7 @@
       localStorage.setItem('isa_session', JSON.stringify(SESSION));
       closeLoginModal();
       updateAuthUI();
-      applyFilters(); // re-render with vote highlights
+      applyFilters();
     } catch {
       showLoginError('Could not connect to backend.');
     } finally {
@@ -298,9 +313,9 @@
 
   function setFilter(f) {
     currentFilter = f;
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active-filter','bg-blue-600','text-white','border-blue-600'));
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active-filter'));
     const active = document.getElementById(`f-${f}`);
-    if (active) { active.classList.add('active-filter','bg-blue-600','text-white','border-blue-600'); }
+    if (active) active.classList.add('active-filter');
     applyFilters();
   }
 
@@ -320,8 +335,8 @@
       visible = visible.filter(a => SESSION && ALL_PREFS[a.id]?.[SESSION.state_code]);
     } else if (currentFilter === 'unvoted') {
       visible = visible.filter(a => !SESSION || !ALL_PREFS[a.id]?.[SESSION.state_code]);
-    } else if (currentFilter === 'full_regulation') {
-      visible = visible.filter(a => a.type === 'full_regulation');
+    } else if (['inline','slash','para_alt','full_regulation','optional_para'].includes(currentFilter)) {
+      visible = visible.filter(a => a.type === currentFilter);
     }
 
     renderAlts(visible);
@@ -352,43 +367,77 @@
       return;
     }
     empty.classList.add('hidden');
-
     container.innerHTML = alts.map(alt => renderAltCard(alt)).join('');
   }
 
-  function renderAltCard(alt) {
-    const prefs    = ALL_PREFS[alt.id] || {};
-    const myVote   = SESSION ? prefs[SESSION.state_code] : null;
-    const totalVotes = Object.keys(prefs).length;
-    const typeLabel = alt.type === 'full_regulation'
-      ? '<span class="badge-alt ml-2">Full Regulation</span>'
-      : '<span class="badge-alt ml-2">Inline</span>';
+  // ── Type helpers ──────────────────────────────────────────────────────────
 
+  const TYPE_META = {
+    inline:          { label: 'Alt.1 / Alt.2',       cls: 'badge-inline' },
+    slash:           { label: 'Slash [A]/[B]',        cls: 'badge-slash' },
+    para_alt:        { label: 'Paragraph Alternative', cls: 'badge-para_alt' },
+    full_regulation: { label: 'Full Regulation Alt.',  cls: 'badge-full_reg' },
+    optional_para:   { label: 'Optional Paragraph',   cls: 'badge-optional' },
+  };
+
+  function typeBadge(type) {
+    const m = TYPE_META[type] || { label: type, cls: 'badge-inline' };
+    return `<span class="type-badge ${m.cls}">${m.label}</span>`;
+  }
+
+  // ── Card rendering ────────────────────────────────────────────────────────
+
+  function renderAltCard(alt) {
+    const prefs      = ALL_PREFS[alt.id] || {};
+    const myVote     = SESSION ? prefs[SESSION.state_code] : null;
+    const totalVotes = Object.keys(prefs).length;
+
+    // ── Regulation text block ──────────────────────────────────────────────
+    let regTextHtml = '';
+    if (alt.regulation_text && alt.regulation_text.trim()) {
+      // Trim to avoid runaway regulation bodies that include next regulation
+      const regText = alt.regulation_text.trim();
+      const id = `regtext-${alt.id}`;
+      regTextHtml = `
+        <details class="mt-3 mb-1" id="details-${alt.id}">
+          <summary class="flex items-center gap-1 text-xs font-semibold text-gray-500 hover:text-gray-700 select-none py-1">
+            <span class="chevron text-gray-400">▶</span>
+            📄 Full text of ${escHtml(alt.regulation)}
+          </summary>
+          <div class="reg-text-body mt-2">${escHtml(regText)}</div>
+        </details>`;
+    }
+
+    // ── Option cards ───────────────────────────────────────────────────────
     const optionCards = alt.options.map((opt, idx) => {
       const votesForOpt = Object.values(prefs).filter(v => v.option_index === idx);
       const pct = totalVotes > 0 ? Math.round((votesForOpt.length / totalVotes) * 100) : 0;
       const isMyVote = myVote?.option_index === idx;
 
-      // State flags (first 8)
-      const stateNames = votesForOpt.slice(0, 8).map(v =>
-        `<span class="flag bg-blue-100 text-blue-700">${v.state_name.split(' ')[0]}</span>`
+      // State names (first 10)
+      const stateNames = votesForOpt.slice(0, 10).map(v =>
+        `<span class="flag bg-blue-100 text-blue-700">${escHtml(v.state_name.split(' ')[0])}</span>`
       ).join(' ');
-      const moreVotes = votesForOpt.length > 8 ? `<span class="text-xs text-gray-400">+${votesForOpt.length - 8} more</span>` : '';
+      const moreVotes = votesForOpt.length > 10
+        ? `<span class="text-xs text-gray-400">+${votesForOpt.length - 10} more</span>` : '';
 
       const clickable = SESSION ? `onclick="castVote('${alt.id}', ${idx})" style="cursor:pointer"` : '';
-      const selectedClass = isMyVote ? 'selected shadow-md' : 'hover:border-blue-300';
+      const selectedClass = isMyVote ? 'selected shadow-md' : 'hover:border-gray-300';
+
+      // Label styling — Delete option gets orange label
+      const isDelete = opt.label === 'Delete';
+      const labelCls = isDelete ? 'option-label option-label-delete' : 'option-label';
 
       return `
         <div class="option-card border-2 rounded-xl p-4 mb-3 ${selectedClass}" ${clickable}>
           <div class="flex items-start justify-between gap-2 mb-2">
-            <span class="option-label">${escHtml(opt.label)}</span>
+            <span class="${labelCls}">${escHtml(opt.label)}</span>
             <div class="flex items-center gap-2">
               ${isMyVote ? '<span class="text-xs font-semibold text-blue-600">✓ Your vote</span>' : ''}
-              <span class="text-xs text-gray-500 font-medium">${votesForOpt.length} vote${votesForOpt.length !== 1 ? 's' : ''}</span>
+              <span class="text-xs text-gray-400 font-medium">${votesForOpt.length} vote${votesForOpt.length !== 1 ? 's' : ''}</span>
             </div>
           </div>
           <p class="text-sm text-gray-700 leading-relaxed mb-3">${escHtml(opt.text)}</p>
-          <!-- Vote bar -->
           ${totalVotes > 0 ? `
           <div class="flex items-center gap-2">
             <div class="flex-1 bg-gray-100 rounded-full h-1.5 overflow-hidden">
@@ -396,7 +445,6 @@
             </div>
             <span class="text-xs text-gray-400 w-8 text-right">${pct}%</span>
           </div>` : ''}
-          <!-- State names -->
           ${votesForOpt.length > 0 ? `<div class="mt-2 flex flex-wrap gap-1">${stateNames}${moreVotes}</div>` : ''}
         </div>`;
     }).join('');
@@ -411,21 +459,31 @@
            as a Member State to record your preference.
          </p>` : '';
 
-    const contextBefore = alt.context_before
-      ? `<span class="context-text">…${escHtml(alt.context_before)} </span>` : '';
-    const contextAfter  = alt.context_after
-      ? `<span class="context-text"> ${escHtml(alt.context_after)}…</span>` : '';
-
     return `
       <div id="alt-${alt.id}" class="alt-card bg-white rounded-2xl border border-gray-200 shadow-sm p-5">
+
+        <!-- Card header -->
         <div class="flex flex-wrap items-center gap-2 mb-1">
-          <h3 class="font-bold text-blue-900">${escHtml(alt.regulation)}</h3>
+          <h3 class="font-bold text-blue-900 text-base">${escHtml(alt.regulation)}</h3>
           ${alt.paragraph ? `<span class="text-xs text-gray-500">· ${escHtml(alt.paragraph)}</span>` : ''}
-          ${typeLabel}
+          ${typeBadge(alt.type)}
           ${totalVotes > 0 ? `<span class="ml-auto text-xs text-gray-400">${totalVotes} state${totalVotes !== 1 ? 's' : ''} voted</span>` : ''}
         </div>
-        <p class="text-xs text-gray-500 mb-4">${contextBefore}[alternatives]${contextAfter}</p>
+
+        <!-- Full regulation text (collapsible) -->
+        ${regTextHtml}
+
+        <!-- Divider + voting prompt -->
+        <div class="border-t border-gray-100 mt-4 pt-3 mb-1">
+          <p class="text-xs font-semibold text-gray-500 mb-3">
+            ${SESSION ? 'Select your preferred option:' : 'Competing options:'}
+          </p>
+        </div>
+
+        <!-- Option cards -->
         ${optionCards}
+
+        <!-- Footer: login hint / withdraw -->
         <div class="flex items-center justify-between mt-1">
           ${loginHint}
           ${withdrawBtn}
@@ -462,7 +520,6 @@
         const err = await r.json();
         if (r.status === 401) { SESSION = null; localStorage.removeItem('isa_session'); updateAuthUI(); }
         alert(err.detail || 'Vote failed.');
-        // Reload prefs
         await refreshPrefs();
         applyFilters();
       } else {
@@ -505,11 +562,8 @@
     return (str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  // Style filter buttons on load
+  // Bootstrap
   document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => {
-      b.classList.add('bg-white','text-gray-600','border-gray-200','hover:border-blue-400');
-    });
     setFilter('all');
     init();
   });
