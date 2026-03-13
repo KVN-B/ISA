@@ -59,12 +59,12 @@
 
     <!-- Knowledge base stats -->
     <div id="kb-stats" class="mt-5 flex flex-wrap gap-2 opacity-0 transition-opacity duration-500">
-      <span class="stat-chip bg-white/10 text-blue-100">📄 <span id="stat-pages">…</span> pages</span>
-      <span class="stat-chip bg-white/10 text-blue-100">📁 <span id="stat-docs">…</span> documents</span>
+      <span class="stat-chip bg-white/10 text-blue-100">📄 <span id="stat-pages">…</span> pages of regulatory text</span>
+      <span class="stat-chip bg-white/10 text-blue-100">📁 <span id="stat-docs">…</span> regulatory documents</span>
+      <span class="stat-chip bg-white/10 text-blue-100">🔬 <span id="stat-science">…</span> peer-reviewed papers</span>
       <span class="stat-chip bg-white/10 text-blue-100">📋 46 Standards &amp; Guidelines</span>
       <span class="stat-chip bg-white/10 text-blue-100">🤝 Working groups tracked</span>
       <span class="stat-chip bg-white/10 text-blue-100">🗳️ 309 open alternatives</span>
-      <span class="stat-chip bg-white/10 text-blue-100">🔬 328 science papers</span>
       <span class="stat-chip bg-white/10 text-blue-100">🌍 170 Member States</span>
     </div>
   </div>
@@ -112,7 +112,7 @@
           </p>
           <div class="mt-4 flex flex-wrap gap-2">
             <span class="stat-chip">~2,875 pages</span>
-            <span class="stat-chip">77 documents</span>
+            <span class="stat-chip">77 regulatory documents</span>
             <span class="stat-chip" id="chat-status-chip">
               <span id="chat-dot" class="status-dot dot-amber"></span>
               Checking backend…
@@ -262,17 +262,27 @@
 
   async function checkBackend() {
     try {
-      const r    = await fetch(`${API_BASE}/api/health`, { signal: AbortSignal.timeout(6000) });
-      const data = await r.json();
+      const [healthRes, sciRes] = await Promise.all([
+        fetch(`${API_BASE}/api/health`,          { signal: AbortSignal.timeout(6000) }),
+        fetch(`${API_BASE}/api/science/status`,  { signal: AbortSignal.timeout(6000) }),
+      ]);
+      const data    = await healthRes.json();
+      const sciData = sciRes.ok ? await sciRes.json() : {};
 
       // Header dot
-      document.getElementById('hdr-dot').className   = 'status-dot dot-green';
+      document.getElementById('hdr-dot').className    = 'status-dot dot-green';
       document.getElementById('hdr-label').textContent = 'Backend online';
 
-      // Doc count
-      const n = data.data?.full_texts_loaded || 0;
-      document.getElementById('hdr-docs').textContent  = n ? `${n} docs loaded` : '';
-      document.getElementById('stat-docs').textContent  = n;
+      // Regulatory doc count
+      const nDocs    = data.data?.full_texts_loaded  || 0;
+      const nPapers  = sciData.indexed_papers        || 0;
+      const nTotal   = nDocs + nPapers;
+
+      document.getElementById('hdr-docs').textContent   = nTotal
+        ? `${nDocs} regulatory docs · ${nPapers} science papers`
+        : '';
+      document.getElementById('stat-docs').textContent  = nDocs;
+      document.getElementById('stat-science').textContent = nPapers || '327';
       document.getElementById('stat-pages').textContent = '~2,875';
 
       // Chat chip
