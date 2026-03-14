@@ -157,6 +157,9 @@ async def health():
         "version": "0.3.0",
         "api_key_configured": bool(api_key),
         "api_key_length":     len(api_key),
+        # Railway diagnostics — helps confirm which env vars are visible to the process
+        "railway_env":        os.environ.get("RAILWAY_ENVIRONMENT", "not set"),
+        "railway_port":       os.environ.get("PORT", "not set"),
         "data": {
             "documents_loaded":            bool(getattr(app.state, "documents", {}).get("documents")),
             "working_groups_loaded":       bool(getattr(app.state, "working_groups", {})),
