@@ -185,9 +185,87 @@ def _build_science_context(query: str, top_k: int = 7) -> str:
     return "\n".join(parts)
 
 
+_REG_PRIORITY_DOCS = [
+    "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
+    "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
+    "further-rev-suspense-isba31c-crp3-2025-12",
+    "outstanding-issues-isba31c-crp4-2026-02",
+    "isa-consolidated-part-xi-2025",
+    "losc-unclos-1982",
+    "standards-guidelines-isba30c-crp4-2025-03",
+    "standards-guidelines-isba30c-crp5-2025-07",
+]
+_REG_TOPICAL_CHARS = 12_000   # max chars from topical search
+_REG_CONTEXT_LINES = 35       # lines of context around each match
+
+
+def _topical_regulatory_search(full_texts: dict, query: str) -> str:
+    """
+    Keyword search over the full-text regulatory corpus for topical queries
+    (i.e. those without specific regulation-number patterns).
+    Returns up to _REG_TOPICAL_CHARS of verbatim regulatory text.
+    """
+    keywords = [w for w in re.findall(r"[a-z]{4,}", query.lower())
+                if w not in STOPWORDS]
+    if not keywords:
+        return ""
+
+    parts   = ["\n─── REGULATORY TEXT EXCERPTS (topical search) ──────────────────"]
+    total   = 0
+    doc_order = _REG_PRIORITY_DOCS + [k for k in full_texts if k not in _REG_PRIORITY_DOCS]
+
+    for doc_id in doc_order:
+        text = full_texts.get(doc_id)
+        if not text or total >= _REG_TOPICAL_CHARS:
+            break
+        lines = text.splitlines()
+        matched: list[tuple[int, int]] = []
+
+        for i, line in enumerate(lines):
+            ll = line.lower()
+            # Require at least 2 different keywords to match in nearby lines
+            window = " ".join(lines[max(0, i-2):i+3]).lower()
+            hits = sum(1 for kw in keywords if kw in window)
+            if hits >= 2:
+                start = max(0, i - _REG_CONTEXT_LINES // 2)
+                end   = min(len(lines), i + _REG_CONTEXT_LINES // 2)
+                if matched and start <= matched[-1][1]:
+                    matched[-1] = (matched[-1][0], max(end, matched[-1][1]))
+                else:
+                    matched.append((start, end))
+
+        if not matched:
+            continue
+
+        label = doc_id.replace("-", " ").title()
+        parts.append(f"\n[Source: {label}]")
+        for start, end in matched[:4]:
+            excerpt = "\n".join(lines[start:end])
+            if total + len(excerpt) > _REG_TOPICAL_CHARS:
+                excerpt = excerpt[:_REG_TOPICAL_CHARS - total]
+            parts.append(f"... (lines {start+1}–{end}) ...\n{excerpt}\n...")
+            total += len(excerpt)
+            if total >= _REG_TOPICAL_CHARS:
+                break
+
+    parts.append("─────────────────────────────────────────────────────────────\n")
+    return "\n".join(parts) if len(parts) > 2 else ""
+
+
 def _build_regulatory_context(app_state, query: str) -> str:
     """Focused regulatory Layer 2: full-text excerpts + brief catalogue summary."""
+    full_texts: dict = getattr(app_state, "full_texts", {})
+
+    # Try specific-reference retrieval first (DR numbers, Annex, Article, Part)
     excerpts = _retrieve_full_text(app_state, query)
+
+    # If no verbatim text came back (only the document-list placeholder), fall
+    # back to topical keyword search so general questions still get real text.
+    no_text = "FULL-TEXT DOCUMENTS AVAILABLE" in excerpts or "No verbatim matches" in excerpts
+    if no_text and full_texts:
+        topical = _topical_regulatory_search(full_texts, query)
+        if topical:
+            excerpts = topical
 
     # Compact document list (just references + one-line description)
     docs_state  = getattr(app_state, "documents", {})
