@@ -151,15 +151,9 @@ async def serve_science():
 @app.get("/api/health")
 async def health():
     from app.api.science import _science_index
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     return {
         "status":  "ok",
         "version": "0.3.0",
-        "api_key_configured": bool(api_key),
-        "api_key_length":     len(api_key),
-        # Railway diagnostics — helps confirm which env vars are visible to the process
-        "railway_env":        os.environ.get("RAILWAY_ENVIRONMENT", "not set"),
-        "railway_port":       os.environ.get("PORT", "not set"),
         "data": {
             "documents_loaded":            bool(getattr(app.state, "documents", {}).get("documents")),
             "working_groups_loaded":       bool(getattr(app.state, "working_groups", {})),
