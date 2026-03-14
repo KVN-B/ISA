@@ -95,7 +95,7 @@ async def lifespan(app: FastAPI):
     else:
         print("ℹ️   science_papers.json not found (run scripts/ingest_science_papers.py)")
 
-    yield   # server runs here
+    yield   # server runs here — env vars confirmed loaded at this point
 
 
 app = FastAPI(
