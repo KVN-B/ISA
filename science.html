@@ -358,14 +358,19 @@ async function sendMessage() {
     let fullText  = '';
     let sciCites  = [];
     let regCites  = [];
+    let buffer    = '';   // holds incomplete SSE lines across read() calls
 
     while (true) {
       const { done, value } = await reader.read();
       if (done) break;
-      const raw = decoder.decode(value, { stream: true });
-      for (const line of raw.split('\n')) {
+      buffer += decoder.decode(value, { stream: true });
+      // Split on newlines; keep the last (possibly incomplete) fragment in buffer
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+      for (const line of lines) {
         if (!line.startsWith('data: ')) continue;
-        const payload = JSON.parse(line.slice(6));
+        let payload;
+        try { payload = JSON.parse(line.slice(6)); } catch { continue; }
         if (payload.delta) {
           fullText += payload.delta;
           renderDualLayer(placeholder, fullText, sciCites, regCites, false);
