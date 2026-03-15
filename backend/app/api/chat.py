@@ -32,6 +32,9 @@ You have access to a comprehensive knowledge base that includes:
 - The outstanding issues list: ISBA/31/C/CRP.4
 - Full details of all intersessional working groups (Phases 1–3) and Friends of the President groups
 - All 46 Standards and Guidelines (S&G) in their development pipeline
+- VERBATIM FULL TEXT of all 10 adopted S&G documents (ISBA/27/C/3 through ISBA/27/C/12), \
+  including the full text of the draft Guidelines on baseline environmental data (ISBA/27/C/11) \
+  and the Guidelines on environmental management and monitoring plans (ISBA/27/C/12).
 - The foundational legal framework: UNCLOS Part XI + 1994 Implementation Agreement
 
 STRICT RULES — follow these without exception:
@@ -45,7 +48,9 @@ STRICT RULES — follow these without exception:
 7. When asked about Standards & Guidelines: distinguish clearly between Standards (legally BINDING) \
    and Guidelines (recommendatory).
 8. Answer in the same language as the question (the platform supports all 6 UN official languages).
-9. For questions about specific regulatory text: direct users to the PDF URLs in the knowledge base.
+9. For questions about specific regulatory text or S&G documents: the verbatim text IS available \
+   in the context under FULL-TEXT EXCERPTS. Quote from it directly rather than directing users \
+   to the PDF. Only direct to PDFs if the specific passage was not retrieved in the context.
 10. Be concise, precise, and use regulatory terminology correctly.
 11. If your response is long and you are approaching the output limit, DO NOT silently cut off. \
     Instead, finish the current section cleanly, then add: \
@@ -123,6 +128,14 @@ def _retrieve_full_text(app_state, query: str) -> str:
     for m in re.finditer(r'"([^"]{4,60})"', query):
         terms.append(m.group(1))
 
+    # ISBA document references  e.g. "ISBA/27/C/11", "ISBA/31/C/CRP.2/Rev.2"
+    # The PDF-extracted text contains these as "/27/C/11" on a separate line.
+    is_isba_doc_request = False
+    for m in re.finditer(r'\bISBA/(\d+/[A-Z]+/[^\s,\.\)]+)', query, re.IGNORECASE):
+        suffix = "/" + m.group(1).rstrip(".,;)")   # e.g. "/27/C/11"
+        terms.append(suffix)
+        is_isba_doc_request = True
+
     if not terms:
         # No specific references — return short overview of available full texts
         doc_ids = list(full_texts.keys())
@@ -132,21 +145,39 @@ def _retrieve_full_text(app_state, query: str) -> str:
             "(Ask about a specific regulation, Part, Annex, or Article to retrieve verbatim text.)\n"
         )
 
-    # Prioritise current/clean text first
+    # For explicit ISBA document requests, use a much larger context window
+    # so the AI can return verbatim text rather than a short header snippet.
+    _active_ctx = 3000 if is_isba_doc_request else _CONTEXT_LINES
+    _active_max = 30_000 if is_isba_doc_request else _EXCERPT_CHARS * 3
+
+    # Prioritise current/clean text first (for DR/Part/Annex queries).
+    # For explicit ISBA document requests, surface the matching S&G/doc file first
+    # so that its full text fills the budget before any incidental cross-references.
     priority_order = [
         "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
         "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
         "further-rev-suspense-isba31c-crp3-2025-12",
         "isa-consolidated-part-xi-2025",
     ]
-    ordered_ids = priority_order + [k for k in full_texts if k not in priority_order]
+    if is_isba_doc_request:
+        # Move docs whose IDs contain the ISBA suffix (e.g. "27-c-11") to the front
+        def _isba_rank(doc_id: str) -> int:
+            for term in terms:
+                # term is like "/27/C/11" → normalise to "27-c-11" for filename matching
+                normalised = term.lstrip("/").lower().replace("/", "-")
+                if normalised in doc_id.lower():
+                    return 0
+            return 1
+        ordered_ids = sorted(full_texts.keys(), key=_isba_rank)
+    else:
+        ordered_ids = priority_order + [k for k in full_texts if k not in priority_order]
 
     result_parts = ["\n─── FULL-TEXT EXCERPTS (verbatim from PDFs) ─────────────────────"]
     total_chars = 0
 
     for doc_id in ordered_ids:
         text = full_texts.get(doc_id)
-        if not text or total_chars >= _EXCERPT_CHARS * 3:
+        if not text or total_chars >= _active_max:
             break
 
         lines = text.splitlines()
@@ -155,8 +186,8 @@ def _retrieve_full_text(app_state, query: str) -> str:
         for term in terms:
             for i, line in enumerate(lines):
                 if term.lower() in line.lower():
-                    start = max(0, i - _CONTEXT_LINES // 2)
-                    end   = min(len(lines), i + _CONTEXT_LINES // 2)
+                    start = max(0, i - _active_ctx // 2)
+                    end   = min(len(lines), i + _active_ctx // 2)
                     # Merge overlapping ranges
                     if matched_ranges and start <= matched_ranges[-1][1]:
                         matched_ranges[-1] = (matched_ranges[-1][0], max(end, matched_ranges[-1][1]))
@@ -171,8 +202,8 @@ def _retrieve_full_text(app_state, query: str) -> str:
 
         for start, end in matched_ranges[:3]:   # max 3 excerpts per doc
             excerpt = "\n".join(lines[start:end])
-            if total_chars + len(excerpt) > _EXCERPT_CHARS * 3:
-                excerpt = excerpt[:_EXCERPT_CHARS]
+            if total_chars + len(excerpt) > _active_max:
+                excerpt = excerpt[:_active_max - total_chars]
             result_parts.append(f"... (lines {start+1}–{end}) ...\n{excerpt}\n...")
             total_chars += len(excerpt)
 
