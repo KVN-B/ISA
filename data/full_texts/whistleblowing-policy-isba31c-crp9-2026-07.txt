@@ -1,0 +1,386 @@
+[Page 1]
+ISBA/31/C/CRP.9
+04 July 2026
+English only
+Thirty-first session
+Council session, part II
+Kingston,
+13-24 July 2026
+General Policy on whistleblowing
+Report of the Secretary-General
+I. Introduction
+1. The present report is submitted to assist the discussion of the Council of the outstanding
+issue of whistle-blowing procedures, in line with the draft list of outstanding issues presented
+by the Secretariat.1
+2. During the second part of the thirtieth session, most delegations agreed on the content of
+draft regulation 101bis on whistleblowing procedures in the Revised Consolidated Text2, which
+has been retained as a placeholder pending further discussion on the content of a general
+whistleblowing policy of the Authority. While the establishment of mechanisms to promote
+integrity and accountability gathered support, some delegations expressed concern that
+embedding whistle-blowing provisions directly in the draft Regulations on Exploitation may
+exceed the scope of the Mining Code and raise issues of jurisdiction, enforceability and
+institutional coherence.
+3. The present report is submitted following the discussions of the Council on the appropriate
+scope, legal basis and modalities of a whistle-blowing framework within the International
+Seabed Authority. It presents a proposal for the development of a General Policy on Whistle-
+blowing and Protection Against Retaliation applicable across the Authority as an institution,
+including its staff and, in due course, the staff of the Enterprise. It also examines the respective
+roles and responsibilities of sponsoring States, contractors and subcontractors in promoting
+appropriate whistle-blowing mechanisms in relation to activities in the Area, while remaining
+consistent with the Authority’s mandate under the United Nations Convention on the Law of
+the Sea (the “Convention”) and the Agreement relating to the Implementation of Part XI of the
+United Nations Convention on the Law of the Sea of 10 December 1982 (the “1994
+Agreement”).
+4. The objective of the present report is to assist the Council in determining an appropriate
+institutional approach that is consistent with the Convention, the 1994 Agreement and the
+mandate and institutional framework of the Authority, while ensuring appropriate safeguards
+for accountability, transparency and the protection of individuals who report misconduct in
+good faith.
+II. Rationale for a general policy on whistle-blowing
+5. Whistle-blowing refers to the reporting, in good faith, of misconduct or wrongdoing by
+individuals associated with an institution. Effective whistle-blowing mechanisms contribute to
+institutional integrity by providing safe channels for reporting, protecting individuals from
+retaliation, safeguarding confidential information, and ensuring that allegations are addressed
+through competent oversight structures.
+1 ISBA/31/C/CRP.4.
+2 ISBA/30/C/CRP.1/Rev.2.
+1
+
+[Page 2]
+6. During the Council’s recent deliberations, a majority of delegations agreed that, given the
+horizontal nature of whistle-blowing obligations and their relevance across all organs and
+activities of the Authority, any such regime should be developed as a general institutional policy
+applicable across all organs and activities of the Authority, rather than incorporated into the
+Mining Code, which governs exploitation activities in the Area and primarily concerns
+contractors.
+7. A general policy would therefore:
+(a) ensure consistency across all organs of the Authority;
+(b) apply beyond a single set of regulations;
+(c) provide a sound administrative and legal foundation for a system of protection and
+reporting; and
+(d) avoid extending the Authority’s regulatory reach beyond what is authorised under the
+Convention.
+8. The adoption of a general policy on whistle-blowing would be consistent with the practice
+of other international organisations such as the United Nations, the International Atomic Energy
+Agency, and the World Health Organization.
+III. Legal Basis and Institutional Competence
+9. The Convention and the 1994 Agreement do not establish an express obligation for the
+Authority to adopt whistle-blowing procedures.
+10. A legal basis can be however inferred from the powers of the different organs of the
+Authority.
+11. In this respect, a distinction must be drawn between the general whistle-blowing policy as
+outlined in the present report, which falls under the competence of the Assembly in cooperation
+with the Council, and the specific measures that may be adopted to implement such policy
+within the respective spheres of competence of the organs of the Authority. In particular, the
+Council may adopt rules, regulations and procedures relating to activities in the Area, including
+measures applicable to contractors and inspectors, where appropriate and upon the
+recommendation of the Legal and Technical Commission. Any amendments to the Staff
+Regulations and Staff Rules necessary to implement the policy would fall within the
+competence of the Assembly, while administrative instructions and other internal
+administrative measures for their implementation would be adopted by the Secretary-General
+in her capacity as the chief administrative officer of the Authority.
+12. For the purposes of the present report, the legal basis for the adoption of a general whistle-
+blowing policy is provided by article 160, paragraph 1, of the Convention and section 3,
+paragraph 1, of the annex to the 1994 Agreement, which empower the Assembly, in cooperation
+with the Council, to establish general policies in conformity with the relevant provisions of the
+Convention on any question or matter within the competence of the Authority.
+IV. Proposed Scope of the General Policy
+A. Staff of the Authority
+13. The general policy should apply to all staff members of the Authority, including officials
+supporting the Assembly, Council, Legal and Technical Commission and other subsidiary
+bodies. Such a policy would establish procedures for reporting misconduct, define safeguards
+against retaliation, and articulate the obligations of staff to cooperate with authorised audits or
+investigations. In this regard, the policy would give practical effect to article 167 of the
+Convention, pursuant to which the staff of the Authority are international civil servants whose
+responsibilities are exclusively owed to the Authority and who shall neither seek nor receive
+instructions from any Government or from any other source external to the Authority. A whistle-
+2
+
+[Page 3]
+blowing framework may therefore contribute to safeguarding the independence, integrity and
+impartiality of the international civil service of the Authority by providing secure mechanisms
+through which concerns regarding misconduct, improper influence, breaches of duty or
+violations of applicable rules may be reported and addressed.
+14. The general policy should therefore empower the Secretary-General – as the chief
+administrative officer of the Authority pursuant to article 166 of the Convention – to adopt
+specific whistle-blowing procedures applicable to the Staff of the Authority, as well as to other
+individuals which – despite not being part of the Staff of the Authority – work under the
+authority of the Secretary-General.
+B. Inspectors
+15. The policy should extend to inspectors, where relevant. Given the nature of their mandate
+and their role in monitoring compliance, inspectors must be provided with clear procedures and
+robust protection against retaliation.
+C. The Enterprise
+16. When the Enterprise becomes independent of the Secretariat, a dedicated whistle-blowing
+policy, aligned with the general policy of the Authority, should be adopted by its governing
+organs. The Enterprise, operating under the direction and control of the Council, should develop
+internal whistle-blowing arrangements consistent with the principles of the present policy and
+the provisions of the Convention including Annex IV and the 1994 Agreement.
+D. Contractors, subcontractors and sponsoring States
+17. In light of the limits on the Authority’s jurisdiction, the Authority lacks the legal
+competence to impose binding whistle-blowing or anti-retaliation requirements covering the
+entirety of activities carried out by contractors. Inter alia, by way of example, internal labour,
+employment or corporate governance measures could not be prescribed. Such matters fall
+within the exclusive competence of sponsoring States, whose domestic legal systems regulate
+the internal labour protections and procedures applicable to entities under their jurisdiction.
+18. In this respect, the Council may recommend that sponsoring States encourage entities they
+sponsor to adopt and implement national whistle-blowing policies consistent with their
+domestic legal systems. Such a recommendation would be aligned with States’ obligations
+under Articles 139 and 153(4) of the Convention to ensure that contractors act in conformity
+with the applicable rules, regulations and procedures of the Authority.
+19. The applicability of the proposed whistle-blowing procedures towards contractors must
+therefore necessarily be limited to “activities in the Area” as defined by the 2011 advisory
+opinion of the Seabed Dispute Chamber of the International Tribunal for the Law of the Sea.
+By way of example, misconduct of contractors in meeting their environmental obligations
+might fall within the scope of the rules adopted on the basis of the whistle-blowing policy. On
+the contrary, misconduct of contractors in the phase of processing of minerals – which is not
+an “activity in the Area” – could not be covered by such a policy.
+20. The Authority has no direct contractual relationship with subcontractors. Consequently, any
+whistleblowing obligations applicable to Contractors cannot be imposed upon subcontractors
+directly. Compliance could only be ensured indirectly, by requiring Contractors to incorporate
+corresponding obligations into their contractual arrangements with subcontractors.
+21. Based on the above, the rules, regulations and procedures adopted by the Council on the
+basis of a whistle-blowing policy should therefore address the position of individuals employed
+by contractors of the Authority and their subcontractors who wish to report misconduct relating
+to “activities in the Area” directly to the Authority.
+V. Institutional Considerations
+3
+
+[Page 4]
+22. A whistle-blowing policy requires a mechanism for receiving complaints, ensuring
+confidentiality, protecting against retaliation and conducting follow-up reviews. The Authority
+may consider two options:
+(a) establishing its own internal mechanism; or
+(b) exploring potential future inclusion within the United Nations Ethics Office system.
+23. Both options would require careful examination of legal, administrative and financial
+implications, including potential costs to be considered by the Finance Committee and
+approved by the Assembly. The latter approach may, however, offer advantages in aligning the
+Authority with established international best practices and reducing the need to establish an
+entirely new mechanism internally.
+24. It is important to emphasize that the framework of the United Nations Ethics Office does
+not authorize or encourage the unrestricted disclosure of confidential information. Its purpose
+is to provide protected reporting channels through which information concerning alleged
+misconduct may be communicated to competent authorities while preserving the confidentiality
+of the information received. Any whistle-blowing mechanism adopted by the Authority would
+therefore need to operate in full conformity with article 168 of the Convention and with the
+applicable provisions of the Mining Code relating to industrial secrets, proprietary data and
+other confidential information entrusted to the Authority in the exercise of its functions.
+VI. Conclusions and Recommendations
+25. A general whistle-blowing policy will strengthen the Authority’s system of governance and
+reinforce the shared commitment to transparency, accountability and integrity.
+26. In light of the above, the Council is invited to:
+(a) take note of the analysis contained in the present report;
+(b) consider the draft decision of the Council contained in Annex I for the development of
+the general whistle-blowing policy contained in the Annex to such decision; and
+(c) invite the Assembly to consider the adoption of such a policy pursuant to Article 160,
+paragraph 1 of the Convention and Section 3 of the Annex to the 1994 Agreement.
+4
+
+[Page 5]
+Annex I
+Draft decision of the Council of the International Seabed Authority to the
+Assembly of the International Seabed Authority on the adoption of a
+general whistle-blowing policy
+The Council of the International Seabed Authority,
+Recalling article 160 of the United Nations Convention on the Law of the Sea (the
+“Convention”), and Section 3, paragraph 1 of the Annex to the Agreement relating to the
+Implementation of Part XI of the United Nations Convention on the Law of the Sea of 10
+December 1982 (the “1994 Agreement”), which empower the Assembly of the Authority to
+establish, in cooperation with the Council, general policies in conformity with the relevant
+provisions of this Convention on any question or matter within the competence of the
+Authority;
+Recalling article 166 of the Convention, which identifies the Secretary-General as the chief
+administrative officer of the Authority,
+Recalling Section 9, paragraph 7 of the 1994 Agreement, which requires decisions by the
+Assembly and the Council on the matters listed therein to take into account recommendations
+of the Finance Committee,
+Recalling also its discussions at the thirtieth session on the institutional, compliance and
+governance measures necessary to support the implementation of Part XI of the Convention
+and the 1994 Agreement,
+Recognizing the importance of strengthening transparency, accountability and integrity across
+all organs of the Authority,
+Recognizing also that whistle-blowing mechanisms constitute an important element of good
+governance and institutional integrity within international organizations,
+Taking note of the report of the Secretary-General on a general whistle-blowing policy for the
+Authority,
+1. Requests the Secretary-General to consult with the United Nations Ethics Office
+regarding the feasibility, modalities, legal implications and potential costs of establishing a
+cooperation arrangement relating to whistle-blowing and protection against retaliation, and
+to submit a report thereon to the Council;
+2. Requests the Finance Committee to examine the financial implications arising from the
+possible establishment of such a cooperation arrangement, including any financial
+contributions or cost-sharing arrangements that may be required, and to submit its
+recommendations thereon to the Council and the Assembly, including options for
+incorporating any associated costs into the budget of the Authority;
+3. Further requests the Secretary-General, taking into account the recommendations of
+the Finance Committee, to include in the proposed programme and budget of the Authority
+the resources required for its implementation;
+4. Encourages sponsoring States, consistent with their responsibilities under articles 139 and
+153 of the Convention and section 4 of the Annex to the 1994 Agreement, to develop or
+strengthen, as appropriate, national legislation and internal policies relating to whistle-
+blowing and protections against retaliation, with a view to promoting transparency,
+accountability and responsible corporate governance in entities engaged in activities in the
+Area;
+5. Further decides, upon consideration of the report of the Secretary-General referred to in
+paragraph 1 above and the recommendations of the Finance Committee referred to in
+paragraph 2 above, to finalize its consideration of the draft General Policy on Whistle-
+5
+
+[Page 6]
+blowing and Protection against Retaliation, with a view to recommending its adoption by the
+Assembly.
+6
+
+[Page 7]
+Annex
+Draft General Policy of the International Seabed Authority on Whistle-
+blowing and Protection Against Retaliation
+I. Purpose and Scope
+1. The present general policy establishes the framework for reporting misconduct or
+wrongdoing within the International Seabed Authority (“the Authority”), and for protecting
+individuals who report such matters in good faith from any form of retaliation.
+2. The policy applies to:
+(a) Staff members of the Secretariat of the Authority;
+(b) Inspectors of the Authority, where relevant;
+(c) Staff of the Enterprise, once it becomes independent of the Secretariat;
+(d) Other individuals acting under the authority of the Secretary-General, as appropriate.
+3. The present policy shall also apply to contractors of the Authority with respect to activities
+in the Area, when incorporated into the relevant rules, regulations and procedures of the
+Authority.
+4. The rules, regulations and procedures referred to in the preceding paragraph shall ensure that
+the obligations arising from the present policy are extended to subcontractors and agents of
+contractors through appropriate contractual arrangements between the Contractors and its
+subcontractors and agents of contractors.
+5. Sponsoring States are encouraged to develop national legislation and internal policies
+promoting safe mechanisms for reporting wrongdoing committed by sponsored entities, and
+protection to individuals who report such matters in good faith from any form of retaliation
+relating, inter alia to internal labour, employment or corporate governance issues.
+6. Members of the Authority are encouraged to act, as well as to ensure that they representatives
+act, consistently with the principles embodied in the present policy.
+II. Definition and Principles
+7. For the purpose of this policy, whistle-blowing means the reporting in good faith of
+information that an individual reasonably believes indicates misconduct, wrongdoing, breach
+of applicable rules or regulations, abuse of authority, fraud, corruption, or other violations of
+the standards of conduct expected within and by the Authority.
+Retaliation means any direct or indirect detrimental action, recommendation or omission taken
+because an individual engaged in protected whistle-blowing activity.
+8. The policy is guided by the following principles:
+(a) Integrity, transparency and accountability are essential for the Authority in fulfilling its
+mandate under the United Nations Convention on the Law of the Sea (“the Convention”) and
+the Agreement relating to the Implementation of Part XI of the United Nations Convention on
+the Law of the Sea of 10 December 1982 (“the 1994 Agreement”);
+(b) Individuals must be able to report wrongdoing without fear of retaliation;
+(c) Reports must be handled confidentially, impartially and in a timely manner;
+(d) The policy must respect the limits of the Authority’s jurisdiction, including on matters
+pertaining to contractors and sponsoring States.
+7
+
+[Page 8]
+9. Nothing in the present policy shall be interpreted as modifying, limiting or derogating from
+any obligation of confidentiality established under the Convention, the 1994 Agreement, the
+rules, regulations and procedures of the Authority, or any contractual arrangements concluded
+pursuant thereto.
+10. The reporting of information under the present policy shall not authorize the disclosure,
+dissemination or public release of information that is subject to confidentiality obligations
+under applicable law. In particular, this policy shall be implemented in a manner consistent
+with:
+(a) Article 168 of the Convention concerning the confidentiality obligations applicable to
+the staff of the Authority;
+(b) Any provisions relating to confidential information contained in the rules, regulations
+and procedures of the Authority, including those forming part of the Mining Code;
+(c) Any future regulations, standards, guidelines or procedures adopted by the Authority
+concerning the treatment and protection of confidential information; and
+(d) Any confidentiality obligations arising under contracts approved by the Authority, to
+the extent consistent with the Convention and the rules, regulations and procedures of the
+Authority.
+11. Information received pursuant to the present policy shall be handled in accordance with
+applicable confidentiality requirements. The competent authority responsible for receiving or
+reviewing a report shall take appropriate measures to protect confidential information while
+ensuring that allegations of misconduct or wrongdoing are properly assessed and, where
+appropriate, investigated.
+III. Duties of Staff Members and Relevant Personnel
+11. In accordance with Article 167 of the Convention, staff members of the Authority are
+bound to the highest standards of efficiency, competence and integrity.
+12. The staff members of the Authority:
+(a) Have the duty to report any breach of the regulations, rules or administrative
+instructions of the Authority through the designated channels;
+(b) Shall not be retaliated against for reporting in good faith or for cooperating with duly
+authorised audits, investigations or oversight mechanisms;
+(c) Shall not retaliate, threaten, intimidate or interfere with other individuals exercising
+their right or duty to report wrongdoing.
+13. These duties shall apply to Inspectors, where relevant, and to staff members of the
+Enterprise, once it becomes independent of the Secretariat.
+IV. Reporting Mechanisms
+14. The Council shall, in accordance with the present general policy, develop specific policies
+to be pursued by the Authority on whistle-blowing, including where appropriate by adopting
+rules, regulations, procedures, standards and guidelines, as appropriate, applying to organs,
+contractors and inspectors of the Authority.
+15. The Secretary-General shall establish confidential and secure reporting channels for
+whistle-blowers applicable to the Staff of the Authority, which may include:
+(a) An internal reporting mechanism within the Secretariat; and
+(b) A protected channel to the United Nations Ethics Office, subject to the establishment
+of an appropriate cooperation arrangement between the Authority and the United Nations
+Ethics Office.
+8
+
+[Page 9]
+16. Reports may be made anonymously; however, the ability to investigate may be limited in
+such circumstances.
+17. Once the Enterprise becomes independent of the Secretariat, the Director-General of the
+Enterprise shall, in accordance with the present policy, adopt administrative rules and
+regulations on whistle-blowing applicable to the staff of the Enterprise, consistent with Annex
+IV of the Convention.
+V. Protection Against Retaliation
+18. No staff member of the Authority, inspector or staff member of the Enterprise shall be
+subject to retaliation for having reported wrongdoing in good faith or for having cooperated
+with authorised audits or investigations.
+19. Retaliation, for the purposes of this policy, includes any direct or indirect act that
+adversely affects the employment, career, working conditions, security or dignity of the
+reporting individual.
+20. Allegations of retaliation shall be promptly reviewed, and appropriate measures shall be
+taken to protect affected individuals, including interim protective measures if necessary.
+21. Individuals who knowingly make false or malicious allegations may be subject to
+administrative or disciplinary action.
+VI. Contractors and Subcontractors
+22. The Council shall establish, upon recommendation of the Legal and Technical
+Commission and where appropriate, procedures enabling individuals to submit information
+concerning possible non-compliance by contractors with obligations relating to activities in
+the Area. Such reports shall be handled in accordance with the procedures established under
+this policy.
+23. In addition to the rules, regulations and procedures adopted by the Council, contractors
+and subcontractors engaged in activities in the Area are encouraged to adopt internal whistle-
+blowing mechanisms and protections consistent with recognized international standards, in
+accordance with their obligations under national law and their sponsoring State.
+24. It is recommended that such mechanisms:
+(a) Allow employees to report wrongdoing safely and confidentially;
+(b) Prohibit retaliation and provide remedies for individuals who experience retaliation;
+(c) Facilitate cooperation with investigations by sponsoring States or other competent
+authorities.
+25. Nothing in this section shall be interpreted as extending the Authority’s jurisdiction to
+impose internal governance requirements on contractors beyond its mandate under Part XI of
+the Convention.
+VII. Sponsoring States
+26. Sponsoring States play a central role in ensuring that contractors under their jurisdiction
+or control comply with the Convention, the 1994 Agreement, and the rules and regulations of
+the Authority.
+27. Sponsoring States are encouraged to:
+(a) Develop or strengthen national legislation and internal policies providing protection
+against retaliation for individuals who report wrongdoing committed by their sponsored
+entities;
+9
+
+[Page 10]
+(b) Promote responsible corporate governance and transparency in entities engaged in
+activities in the Area;
+(c) Facilitate coordination with the Authority, where appropriate.
+VIII. Implementation and Review
+28. The Council and Assembly may periodically review this policy to ensure its effectiveness,
+coherence with international practice, and alignment with the Authority’s evolving
+institutional framework.
+29. The present policy shall enter into force upon adoption by the Assembly of the
+International Seabed Authority.
+30. The Secretary-General shall, within six months of the entry into force of this policy,
+submit to the Council a report on the measures taken or proposed to implement the present
+policy, including the establishment of reporting channels and the adoption of specific
+procedures.
+10

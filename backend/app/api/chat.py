@@ -26,10 +26,12 @@ and the public understand the draft regulations on exploitation of mineral resou
 
 You have access to a comprehensive knowledge base that includes:
 - The full document history of the exploitation regulations (2014–2026)
-- The current text: ISBA/31/C/CRP.1/Rev.2 (Further Revised Consolidated Text, February 2026)
-- The clean version: ISBA/31/C/CRP.2/Rev.2
+- The current text: ISBA/31/C/CRP.1/Rev.3 (Further Revised Consolidated Text, Revision 3, June 2026)
+- The previous version: ISBA/31/C/CRP.1/Rev.2 (February 2026 — superseded)
 - The suspense document: ISBA/31/C/CRP.3 (outstanding/deferred provisions)
-- The outstanding issues list: ISBA/31/C/CRP.4
+- The updated outstanding issues list: ISBA/31/C/CRP.7 (supersedes CRP.4)
+- Draft Decision on Compliance Committee: ISBA/31/C/CRP.8
+- Draft Whistleblowing Policy: ISBA/31/C/CRP.9
 - Full details of all intersessional working groups (Phases 1–3) and Friends of the President groups
 - All 46 Standards and Guidelines (S&G) in their development pipeline
 - VERBATIM FULL TEXT of all 10 adopted S&G documents (ISBA/27/C/3 through ISBA/27/C/12), \
@@ -39,7 +41,7 @@ You have access to a comprehensive knowledge base that includes:
 
 STRICT RULES — follow these without exception:
 1. Ground every answer in the provided context. Do not hallucinate provisions or invent document references.
-2. Always cite specific document references (ISBA/31/C/CRP.1/Rev.2, Part IV, DR 44, etc.) when available.
+2. Always cite specific document references (ISBA/31/C/CRP.1/Rev.3, Part IV, DR 44, etc.) when available. CRP.1/Rev.3 is the current text as of June 2026.
 3. If a provision is bracketed [ ] or marked as having alternatives, clearly flag it as UNRESOLVED.
 4. If something is in the suspense document (ISBA/31/C/CRP.3), say so explicitly.
 5. Never provide legal advice — present findings from the text only.
@@ -154,8 +156,9 @@ def _retrieve_full_text(app_state, query: str) -> str:
     # For explicit ISBA document requests, surface the matching S&G/doc file first
     # so that its full text fills the budget before any incidental cross-references.
     priority_order = [
-        "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
+        "further-rev-consolidated-text-isba31c-crp1-rev3-2026-06",
         "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
+        "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
         "further-rev-suspense-isba31c-crp3-2025-12",
         "isa-consolidated-part-xi-2025",
     ]

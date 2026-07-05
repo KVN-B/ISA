@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-07-05",
   "source": "International Seabed Authority — https://www.isa.org.jm",
   "mineral_type": "polymetallic_nodules",
   "foundational_legal_framework": {
@@ -8,55 +8,74 @@
       "section_1_costs_institutional": {
         "ia_section": 1,
         "subject": "Costs to States Parties and Institutional Arrangements",
-        "unclos_articles_affected": ["Articles 156-170 (Authority structure)"],
+        "unclos_articles_affected": [
+          "Articles 156-170 (Authority structure)"
+        ],
         "change": "Streamlined the Authority's initial structure and reduced costs. Limited the Enterprise's initial operations."
       },
       "section_2_enterprise": {
         "ia_section": 2,
         "subject": "The Enterprise",
-        "unclos_articles_affected": ["Articles 170, 173"],
+        "unclos_articles_affected": [
+          "Articles 170, 173"
+        ],
         "change": "Enterprise no longer required to begin operations concurrently with ISA. Must initially operate through joint ventures with private contractors."
       },
       "section_3_decision_making": {
         "ia_section": 3,
         "subject": "Decision-making in the Council",
-        "unclos_articles_affected": ["Article 161"],
+        "unclos_articles_affected": [
+          "Article 161"
+        ],
         "change": "Revised Council voting procedures. Consensus must be sought before any vote. Revised Chamber composition for voting majorities."
       },
       "section_4_review_conference": {
         "ia_section": 4,
         "subject": "Review Conference",
-        "unclos_articles_affected": ["Article 155"],
+        "unclos_articles_affected": [
+          "Article 155"
+        ],
         "change": "Eliminated the mandatory 15-year Review Conference. A review conference may be convened but is no longer automatic."
       },
       "section_5_transfer_of_technology": {
         "ia_section": 5,
         "subject": "Transfer of Technology",
-        "unclos_articles_affected": ["Article 144", "Annex III Article 5"],
+        "unclos_articles_affected": [
+          "Article 144",
+          "Annex III Article 5"
+        ],
         "change": "Mandatory technology transfer obligation significantly weakened. Now only on 'fair and reasonable commercial terms and conditions' on a market basis."
       },
       "section_6_production_policies": {
         "ia_section": 6,
         "subject": "Production Policies",
-        "unclos_articles_affected": ["Articles 150-151"],
+        "unclos_articles_affected": [
+          "Articles 150-151"
+        ],
         "change": "Anti-protectionist production limitations replaced with general obligation to promote vigorous competition and prevent monopolisation."
       },
       "section_7_economic_assistance": {
         "ia_section": 7,
         "subject": "Economic Assistance to Developing States",
-        "unclos_articles_affected": ["Article 151(10)"],
+        "unclos_articles_affected": [
+          "Article 151(10)"
+        ],
         "change": "Mandatory economic assistance fund replaced with a more flexible mechanism under the Finance Committee."
       },
       "section_8_finance_committee": {
         "ia_section": 8,
         "subject": "Finance Committee (new body)",
-        "unclos_articles_affected": ["New — no UNCLOS equivalent"],
+        "unclos_articles_affected": [
+          "New — no UNCLOS equivalent"
+        ],
         "change": "Created a new Finance Committee with decision-making by consensus. States with the largest assessed contributions have disproportionate influence."
       },
       "section_9_financial_terms": {
         "ia_section": 9,
         "subject": "Financial Terms of Contracts",
-        "unclos_articles_affected": ["Annex III Article 13"],
+        "unclos_articles_affected": [
+          "Annex III Article 13"
+        ],
         "change": "Simplified the complex two-tier financial system (fixed fee + profit-sharing). Contractors may now choose between a royalty system or a profit-sharing system."
       }
     }
@@ -85,7 +104,14 @@
       "url_web": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
       "url_treaty_collection": "https://treaties.un.org/pages/ViewDetailsIII.aspx?mtdsg_no=XXI-6&chapter=21&Temp=mtdsg3&clang=_en",
       "status": "in_force",
-      "languages": ["en", "fr", "ar", "zh", "ru", "es"],
+      "languages": [
+        "en",
+        "fr",
+        "ar",
+        "zh",
+        "ru",
+        "es"
+      ],
       "articles": 320,
       "annexes": 9,
       "states_parties": 169,
@@ -143,7 +169,14 @@
       "url_web": "https://www.un.org/depts/los/convention_agreements/convention_overview_part_xi.htm",
       "url_treaty_collection": "https://treaties.un.org/Pages/ViewTreatiesII.aspx?objid=0800000280043ad5",
       "status": "in_force",
-      "languages": ["en", "fr", "ar", "zh", "ru", "es"],
+      "languages": [
+        "en",
+        "fr",
+        "ar",
+        "zh",
+        "ru",
+        "es"
+      ],
       "description": "The 1994 Agreement fundamentally reformed Part XI of UNCLOS to make it acceptable to industrialised states. Under Article 2, the IA and Part XI are interpreted and applied as a single instrument. In case of inconsistency, the IA PREVAILS. Ratification of UNCLOS after 1994 automatically constitutes consent to the IA. The Annex to the IA contains 9 sections modifying specific UNCLOS Part XI provisions — see foundational_legal_framework.part_xi_articles_modified_by_ia for the full breakdown.",
       "key_topics": [
         "Part XI reform",
@@ -172,7 +205,9 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2025/07/Consolidation-of-Part-XI_e-book.pdf",
       "url_web": "https://www.isa.org.jm",
       "status": "current",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "ISA-published e-book (2025) presenting UNCLOS Part XI and the 1994 Implementation Agreement as a consolidated single instrument, showing which UNCLOS provisions are modified by the IA. This is the most practical reference for the exploitation regulations drafting process, as it shows the applicable law in consolidated form.",
       "key_topics": [
         "Part XI consolidated",
@@ -197,9 +232,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/FinTerms2014.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Comparable study on developing financial terms for deep-sea mining exploitation in the Area.",
-      "key_topics": ["financial terms", "royalties", "fiscal regime"]
+      "key_topics": [
+        "financial terms",
+        "royalties",
+        "fiscal regime"
+      ]
     },
     {
       "id": "draft-framework-2015-03",
@@ -214,9 +255,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/Report-2015.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "First draft framework document for deep-sea mineral exploitation regulations.",
-      "key_topics": ["framework", "exploitation", "mineral resources"]
+      "key_topics": [
+        "framework",
+        "exploitation",
+        "mineral resources"
+      ]
     },
     {
       "id": "disc-paper-financial-2015",
@@ -231,9 +278,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/DiscussionPaper-FinMech.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Discussion paper on financial mechanisms for exploitation in the Area.",
-      "key_topics": ["financial terms", "fiscal regime", "royalties"]
+      "key_topics": [
+        "financial terms",
+        "fiscal regime",
+        "royalties"
+      ]
     },
     {
       "id": "rev-draft-framework-2015-07",
@@ -248,9 +301,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/Rev_RegFramework_ActionPlan_14072015.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Revised draft framework and action plan for exploitation regulations development.",
-      "key_topics": ["framework", "action plan", "high-level issues"]
+      "key_topics": [
+        "framework",
+        "action plan",
+        "high-level issues"
+      ]
     },
     {
       "id": "first-working-draft-2016-02",
@@ -265,9 +324,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/Draft_ExplReg_SCT.pdf",
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "The first formal working draft of the exploitation regulations and standard contract terms.",
-      "key_topics": ["regulations", "standard contract terms", "exploitation"]
+      "key_topics": [
+        "regulations",
+        "standard contract terms",
+        "exploitation"
+      ]
     },
     {
       "id": "stakeholder-comments-2016",
@@ -282,9 +347,14 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/comments_listing.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Compilation of stakeholder comments on the first working draft.",
-      "key_topics": ["stakeholder comments", "working draft feedback"]
+      "key_topics": [
+        "stakeholder comments",
+        "working draft feedback"
+      ]
     },
     {
       "id": "disc-paper-env-2017",
@@ -299,9 +369,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/DP-EnvRegsDraft25117.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Discussion paper on environmental aspects of the draft exploitation regulations.",
-      "key_topics": ["environment", "EIA", "environmental management"]
+      "key_topics": [
+        "environment",
+        "EIA",
+        "environmental management"
+      ]
     },
     {
       "id": "draft-regs-isba23-2017-08",
@@ -316,9 +392,15 @@
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2022/04/ISBA23-LTC-CRP3-Rev.pdf",
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Draft regulations prepared by the Legal and Technical Commission for the 23rd session.",
-      "key_topics": ["draft regulations", "LTC", "exploitation"]
+      "key_topics": [
+        "draft regulations",
+        "LTC",
+        "exploitation"
+      ]
     },
     {
       "id": "stakeholder-submissions-2017",
@@ -333,9 +415,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/list-1.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Compiled stakeholder submissions on the 2017 draft regulations.",
-      "key_topics": ["stakeholder submissions", "civil society", "industry"]
+      "key_topics": [
+        "stakeholder submissions",
+        "civil society",
+        "industry"
+      ]
     },
     {
       "id": "briefing-note-isba24c-crp1-2018-02",
@@ -350,9 +438,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/isba24c-crp1-en_0.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Briefing note summarising submissions received on the draft exploitation regulations.",
-      "key_topics": ["submissions", "briefing", "stakeholder feedback"]
+      "key_topics": [
+        "submissions",
+        "briefing",
+        "stakeholder feedback"
+      ]
     },
     {
       "id": "rev-draft-regs-isba24ltc-2018-06",
@@ -367,9 +461,15 @@
       "url_pdf": null,
       "url_web": "https://www.isa.org.jm/documents/isba24ltcwp1",
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Revised draft regulations prepared following the 2018 stakeholder consultation.",
-      "key_topics": ["revised draft", "regulations", "LTC working paper"]
+      "key_topics": [
+        "revised draft",
+        "regulations",
+        "LTC working paper"
+      ]
     },
     {
       "id": "stakeholder-submissions-isba24-2018",
@@ -384,9 +484,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/comments_0.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Stakeholder submissions on the ISBA/24 revised draft regulations.",
-      "key_topics": ["stakeholder submissions", "industry", "civil society"]
+      "key_topics": [
+        "stakeholder submissions",
+        "industry",
+        "civil society"
+      ]
     },
     {
       "id": "briefing-note-isba25c-crp1-2018-11",
@@ -401,9 +507,14 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/ISBA25C-CRP1.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Briefing note on submissions received for the 25th session.",
-      "key_topics": ["briefing", "submissions"]
+      "key_topics": [
+        "briefing",
+        "submissions"
+      ]
     },
     {
       "id": "draft-regs-isba25c-wp1-2019-03",
@@ -418,9 +529,14 @@
       "url_pdf": null,
       "url_web": "https://www.isa.org.jm/documents/isba-25-c-wp-1/",
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Draft regulations presented at the 25th session of the Council.",
-      "key_topics": ["draft regulations", "Council working paper"]
+      "key_topics": [
+        "draft regulations",
+        "Council working paper"
+      ]
     },
     {
       "id": "briefing-note-isba25c-2-2019",
@@ -435,9 +551,14 @@
       "url_web": "https://www.isa.org.jm/documents/isba25c2/",
       "url_pdf": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Briefing note on submissions received for the 25th session (December 2018).",
-      "key_topics": ["briefing", "submissions"]
+      "key_topics": [
+        "briefing",
+        "submissions"
+      ]
     },
     {
       "id": "comments-germany-isba25c-2019",
@@ -452,9 +573,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/isba25_c29-e_0.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Official comments by Germany on the draft exploitation regulations.",
-      "key_topics": ["Germany", "state comments", "regulatory feedback"]
+      "key_topics": [
+        "Germany",
+        "state comments",
+        "regulatory feedback"
+      ]
     },
     {
       "id": "drafting-suggestions-isba26c-crp1",
@@ -469,9 +596,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2022/04/collation_of_specific_drafting_suggestions_for_posting_0.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Collation of specific drafting suggestions submitted by Council members.",
-      "key_topics": ["drafting suggestions", "Council members", "textual proposals"]
+      "key_topics": [
+        "drafting suggestions",
+        "Council members",
+        "textual proposals"
+      ]
     },
     {
       "id": "comments-isba26c-2",
@@ -486,9 +619,15 @@
       "url_web": "https://www.isa.org.jm/documents/19472/",
       "url_pdf": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Official comments document on the draft exploitation regulations for the 26th session.",
-      "key_topics": ["comments", "stakeholder feedback", "regulations"]
+      "key_topics": [
+        "comments",
+        "stakeholder feedback",
+        "regulations"
+      ]
     },
     {
       "id": "council-proposals-compilation-2020",
@@ -503,9 +642,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2023/08/compile_council_2.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Compilation of Council proposals in response to ISBA/25/C/37, paragraphs 7-8.",
-      "key_topics": ["Council proposals", "observations", "regulatory response"]
+      "key_topics": [
+        "Council proposals",
+        "observations",
+        "regulatory response"
+      ]
     },
     {
       "id": "member-states-comments-2020",
@@ -520,9 +665,16 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2023/08/comments-jan2020a-final.pdf",
       "url_web": null,
       "status": "historical",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Comprehensive compilation of comments from member states, observers, and stakeholders (January 2020).",
-      "key_topics": ["member states", "observers", "NGOs", "industry comments"]
+      "key_topics": [
+        "member states",
+        "observers",
+        "NGOs",
+        "industry comments"
+      ]
     },
     {
       "id": "roadmap-isba28c-24-2023",
@@ -537,9 +689,20 @@
       "url_web": "https://www.isa.org.jm/documents/isba-28-c-24/",
       "url_pdf": null,
       "status": "active",
-      "languages": ["ar", "zh", "en", "fr", "es", "ru"],
+      "languages": [
+        "ar",
+        "zh",
+        "en",
+        "fr",
+        "es",
+        "ru"
+      ],
       "description": "Council decision adopting a road map for the finalisation of the exploitation regulations.",
-      "key_topics": ["road map", "Council decision", "finalisation timeline"]
+      "key_topics": [
+        "road map",
+        "Council decision",
+        "finalisation timeline"
+      ]
     },
     {
       "id": "consolidated-text-isba29c-crp1-2024-02",
@@ -554,9 +717,16 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2024/02/Consolidated_text.pdf",
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Consolidated text prepared for the 29th session (first consolidated version), incorporating all proposals and comments from previous sessions.",
-      "key_topics": ["consolidated text", "brackets", "alternatives", "29th session"]
+      "key_topics": [
+        "consolidated text",
+        "brackets",
+        "alternatives",
+        "29th session"
+      ]
     },
     {
       "id": "roadmap-isba29c-9-add1-2024-07",
@@ -571,9 +741,20 @@
       "url_web": "https://www.isa.org.jm/documents/isba-29-c-9-add-1/",
       "url_pdf": null,
       "status": "active",
-      "languages": ["ar", "zh", "en", "fr", "es", "ru"],
+      "languages": [
+        "ar",
+        "zh",
+        "en",
+        "fr",
+        "es",
+        "ru"
+      ],
       "description": "Addendum to the Council road map document for the 29th session.",
-      "key_topics": ["road map", "process", "timeline"]
+      "key_topics": [
+        "road map",
+        "process",
+        "timeline"
+      ]
     },
     {
       "id": "rev-consolidated-text-isba30c-crp1-2024-11",
@@ -589,10 +770,18 @@
       "url_docx": null,
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Revised consolidated text (256 pages) prepared by the President of the Council for the 30th session. Incorporates proposals from ISBA/29 sessions. Contains square brackets for unresolved provisions, alternatives for contested concepts, and President's commentary boxes.",
       "pages": 256,
-      "key_topics": ["revised consolidated text", "brackets", "alternatives", "President's text", "30th session"]
+      "key_topics": [
+        "revised consolidated text",
+        "brackets",
+        "alternatives",
+        "President's text",
+        "30th session"
+      ]
     },
     {
       "id": "rev-suspense-doc-isba30c-crp2-2024-11",
@@ -607,9 +796,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2024/11/29112024-Revised-Suspense-document.pdf",
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Revised suspense document tracking provisions held over for further discussion.",
-      "key_topics": ["suspense", "outstanding provisions", "deferred items"]
+      "key_topics": [
+        "suspense",
+        "outstanding provisions",
+        "deferred items"
+      ]
     },
     {
       "id": "compilation-proposals-isba30c-crp3-2024-12",
@@ -624,9 +819,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2024/12/Compilation_of_Proposals.pdf",
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Compilation of all textual proposals submitted for the draft exploitation regulations.",
-      "key_topics": ["proposals", "textual amendments", "member state submissions"]
+      "key_topics": [
+        "proposals",
+        "textual amendments",
+        "member state submissions"
+      ]
     },
     {
       "id": "standards-guidelines-isba30c-crp4-2025-03",
@@ -641,9 +842,15 @@
       "url_pdf": "https://www.isa.org.jm/wp-content/uploads/2025/03/Draft-list-of-Standards-and-Guidelines-ISBA30.pdf",
       "url_web": null,
       "status": "superseded",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Draft list of standards and guidelines to accompany the exploitation regulations.",
-      "key_topics": ["standards", "guidelines", "technical requirements"]
+      "key_topics": [
+        "standards",
+        "guidelines",
+        "technical requirements"
+      ]
     },
     {
       "id": "standards-guidelines-isba30c-crp5-2025-07",
@@ -658,9 +865,15 @@
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2025/03/Draft-list-of-Standards-and-Guidelines-ISBA30.pdf",
       "url_web": null,
       "status": "active",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Updated draft list of standards and guidelines associated with the draft exploitation regulations.",
-      "key_topics": ["standards", "guidelines", "technical requirements"]
+      "key_topics": [
+        "standards",
+        "guidelines",
+        "technical requirements"
+      ]
     },
     {
       "id": "thematic-approach-decision-isba30c-18-2025",
@@ -675,9 +888,20 @@
       "url_web": null,
       "url_pdf": null,
       "status": "active",
-      "languages": ["ar", "zh", "en", "fr", "es", "ru"],
+      "languages": [
+        "ar",
+        "zh",
+        "en",
+        "fr",
+        "es",
+        "ru"
+      ],
       "description": "Council decision establishing a thematic approach for the continuation of the exploitation regulations elaboration.",
-      "key_topics": ["thematic approach", "Council decision", "working groups"]
+      "key_topics": [
+        "thematic approach",
+        "Council decision",
+        "working groups"
+      ]
     },
     {
       "id": "further-rev-suspense-isba31c-crp3-2025-12",
@@ -692,9 +916,15 @@
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2025/12/Further-Revised-Suspense-Document.pdf",
       "url_web": null,
       "status": "current",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Further revised suspense document tracking all outstanding and deferred provisions going into Session 31.",
-      "key_topics": ["suspense", "outstanding provisions", "31st session"]
+      "key_topics": [
+        "suspense",
+        "outstanding provisions",
+        "31st session"
+      ]
     },
     {
       "id": "briefing-note-31c-2026-02",
@@ -709,9 +939,15 @@
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/02/Briefing-note-on-the-Further-Revised-Consolidated-Text-of-the-draft-Regulations-on-Exploitation-of-Mineral-resources-in-the-Area_v.24022026.pdf",
       "url_web": null,
       "status": "current",
-      "languages": ["en"],
+      "languages": [
+        "en"
+      ],
       "description": "Briefing note explaining the Further Revised Consolidated Text prepared for Session 31.",
-      "key_topics": ["briefing note", "revisions", "31st session"]
+      "key_topics": [
+        "briefing note",
+        "revisions",
+        "31st session"
+      ]
     },
     {
       "id": "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
@@ -726,10 +962,18 @@
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.pdf",
       "url_docx": "https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text.docx",
       "url_web": null,
-      "status": "current",
-      "languages": ["en"],
+      "status": "superseded",
+      "languages": [
+        "en"
+      ],
       "description": "The most current version of the draft exploitation regulations. Prepared by the President of the Council for Session 31 (March 2026). This is the working text for finalisation discussions.",
-      "key_topics": ["further revised", "consolidated text", "current text", "31st session", "finalisation"]
+      "key_topics": [
+        "further revised",
+        "consolidated text",
+        "current text",
+        "31st session",
+        "finalisation"
+      ]
     },
     {
       "id": "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
@@ -744,10 +988,16 @@
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text-clean.pdf",
       "url_docx": "https://isa.org.jm/wp-content/uploads/2026/02/Further-Revised-Consolidated-Text-clean.docx",
       "url_web": null,
-      "status": "current",
-      "languages": ["en"],
+      "status": "superseded",
+      "languages": [
+        "en"
+      ],
       "description": "Clean version of the Further Revised Consolidated Text without track changes or annotations.",
-      "key_topics": ["clean version", "consolidated text", "31st session"]
+      "key_topics": [
+        "clean version",
+        "consolidated text",
+        "31st session"
+      ]
     },
     {
       "id": "outstanding-issues-isba31c-crp4-2026-02",
@@ -761,10 +1011,16 @@
       "date_sort": "2026-02-01",
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/02/Draft-indicative-list-of-outstanding-issues.pdf",
       "url_web": null,
-      "status": "current",
-      "languages": ["en"],
+      "status": "superseded",
+      "languages": [
+        "en"
+      ],
       "description": "Indicative list of outstanding issues requiring resolution for the finalisation of the exploitation regulations.",
-      "key_topics": ["outstanding issues", "unresolved provisions", "finalisation gaps"]
+      "key_topics": [
+        "outstanding issues",
+        "unresolved provisions",
+        "finalisation gaps"
+      ]
     },
     {
       "id": "compliance-committee-isba31c-crp5-2026-03",
@@ -778,10 +1034,85 @@
       "date_sort": "2026-03-01",
       "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/03/Draft-Decision-on-the-Establishment-of-the-Compliance-Committee.pdf",
       "url_web": null,
-      "status": "current",
-      "languages": ["en"],
+      "status": "superseded",
+      "languages": [
+        "en"
+      ],
       "description": "Draft decision on the establishment of the Compliance Committee under the exploitation regulations.",
-      "key_topics": ["compliance committee", "institutional structure", "enforcement"]
+      "key_topics": [
+        "compliance committee",
+        "institutional structure",
+        "enforcement"
+      ]
+    },
+    {
+      "id": "further-rev-consolidated-text-isba31c-crp1-rev3-2026-06",
+      "reference": "ISBA/31/C/CRP.1/Rev.3",
+      "short_title": "Further Revised Consolidated Text (Rev.3)",
+      "title": "Further Revised Consolidated Text of the Draft Regulations on Exploitation of Mineral Resources in the Area — Revision 3",
+      "date": "2026-06",
+      "session": "ISBA/31",
+      "body": "Council",
+      "type": "consolidated_text",
+      "status": "current",
+      "description": "Third revision of the Further Revised Consolidated Text, prepared by the Secretariat for Part II of the 31st session (July 2026). Incorporates outcomes of informal working groups and Friends of the President from the intersessional period.",
+      "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/06/Further-Revised-Consolidated-Text-Rev.3-ISBA-31-C-CRP.1-Rev.3.pdf",
+      "url_word": "https://isa.org.jm/wp-content/uploads/2026/06/Further-Revised-Consolidated-Text-Rev.3-ISBA-31-C-CRP.1-Rev.3.docx",
+      "supersedes": "ISBA/31/C/CRP.1/Rev.2"
+    },
+    {
+      "id": "outstanding-issues-isba31c-crp7-2026-07",
+      "reference": "ISBA/31/C/CRP.7",
+      "short_title": "Updated Outstanding Issues List",
+      "title": "Updated Draft Indicative List of Outstanding Issues",
+      "date": "2026-07",
+      "session": "ISBA/31",
+      "body": "Council",
+      "type": "process_document",
+      "status": "current",
+      "description": "Updated list of outstanding and deferred issues in the draft exploitation regulations, prepared for Part II of the 31st session. Supersedes CRP.4 (February 2026).",
+      "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/07/ISBA-31-C-CRP.7-Updated-draft-indicative-list-of-outstanding-issues.pdf",
+      "supersedes": "ISBA/31/C/CRP.4"
+    },
+    {
+      "id": "compliance-committee-isba31c-crp8-2026-06",
+      "reference": "ISBA/31/C/CRP.8",
+      "short_title": "Compliance Committee — Draft Decision",
+      "title": "Draft Decision on the Establishment of a Compliance Committee",
+      "date": "2026-06",
+      "session": "ISBA/31",
+      "body": "Council",
+      "type": "draft_decision",
+      "status": "current",
+      "description": "Draft Council decision establishing a Compliance Committee within the ISA institutional framework, prepared for consideration at Part II of the 31st session.",
+      "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/06/Draft-decision-relating-to-the-establishment-of-a-Compliance-Committee-5-June-2026-1.pdf",
+      "supersedes": "ISBA/31/C/CRP.5"
+    },
+    {
+      "id": "whistleblowing-policy-isba31c-crp9-2026-07",
+      "reference": "ISBA/31/C/CRP.9",
+      "short_title": "Draft General Policy on Whistleblowing",
+      "title": "Draft General Policy on Whistleblowing",
+      "date": "2026-07",
+      "session": "ISBA/31",
+      "body": "Council",
+      "type": "policy_document",
+      "status": "current",
+      "description": "Draft general policy on whistleblowing for the ISA, prepared for adoption at Part II of the 31st session.",
+      "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/07/ISBA-31-C-CRP.9-General-Policy-on-Whistleblowing.pdf"
+    },
+    {
+      "id": "sg-development-isba31ltc8-2026-06",
+      "reference": "ISBA/31/LTC/8",
+      "short_title": "S&G Development Report (LTC)",
+      "title": "Development of Standards and Guidelines for Activities in the Area",
+      "date": "2026-06",
+      "session": "ISBA/31",
+      "body": "Legal and Technical Commission",
+      "type": "standards_guidelines",
+      "status": "active",
+      "description": "LTC report on the development of Standards and Guidelines for activities in the Area, prepared for Part II of the 31st session. Advance Unedited Version.",
+      "url_pdf": "https://isa.org.jm/wp-content/uploads/2026/06/ISBA_31_LTC_8_AUV.pdf"
     }
   ],
   "regulatory_text_progression": [
@@ -791,19 +1122,56 @@
     "draft-regs-isba25c-wp1-2019-03",
     "consolidated-text-isba29c-crp1-2024-02",
     "rev-consolidated-text-isba30c-crp1-2024-11",
-    "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02"
+    "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
+    "further-rev-consolidated-text-isba31c-crp1-rev3-2026-06"
   ],
   "sessions_metadata": {
-    "21": {"year": 2015, "location": "Kingston"},
-    "22": {"year": 2016, "location": "Kingston"},
-    "23": {"year": 2017, "location": "Kingston"},
-    "24": {"year": 2018, "location": "Kingston"},
-    "25": {"year": 2019, "location": "Kingston"},
-    "26": {"year": 2020, "location": "Kingston"},
-    "27": {"year": 2022, "location": "Kingston"},
-    "28": {"year": 2023, "location": "Kingston"},
-    "29": {"year": 2024, "location": "Kingston"},
-    "30": {"year": 2025, "location": "Kingston"},
-    "31": {"year": 2026, "location": "Kingston", "part_I": "9-19 March 2026", "part_II": "June-July 2026 (TBC)"}
-  }
+    "21": {
+      "year": 2015,
+      "location": "Kingston"
+    },
+    "22": {
+      "year": 2016,
+      "location": "Kingston"
+    },
+    "23": {
+      "year": 2017,
+      "location": "Kingston"
+    },
+    "24": {
+      "year": 2018,
+      "location": "Kingston"
+    },
+    "25": {
+      "year": 2019,
+      "location": "Kingston"
+    },
+    "26": {
+      "year": 2020,
+      "location": "Kingston"
+    },
+    "27": {
+      "year": 2022,
+      "location": "Kingston"
+    },
+    "28": {
+      "year": 2023,
+      "location": "Kingston"
+    },
+    "29": {
+      "year": 2024,
+      "location": "Kingston"
+    },
+    "30": {
+      "year": 2025,
+      "location": "Kingston"
+    },
+    "31": {
+      "year": 2026,
+      "location": "Kingston",
+      "part_I": "9-19 March 2026",
+      "part_II": "June-July 2026 (TBC)"
+    }
+  },
+  "version": "1.4.0"
 }
