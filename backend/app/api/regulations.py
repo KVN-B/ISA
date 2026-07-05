@@ -1,5 +1,5 @@
 """
-Regulations API — parse and serve the structured content of ISBA/31/C/CRP.1/Rev.2.
+Regulations API — parse and serve the structured content of ISBA/31/C/CRP.1/Rev.3.
 Exposes individual regulations, parts, annexes, and provision status.
 """
 
@@ -25,16 +25,14 @@ class ProvisionStatus(BaseModel):
 @router.get("/structure")
 async def get_document_structure():
     """
-    Return the high-level structure of ISBA/31/C/CRP.1/Rev.2:
+    Return the high-level structure of ISBA/31/C/CRP.1/Rev.3:
     parts, sections, and regulation numbers.
     This is populated by the document ingestion pipeline.
     """
-    # Structure derived from ISBA/30/C/CRP.1 table of contents (256 pages)
-    # Will be updated once ISBA/31/C/CRP.1/Rev.2 is ingested
     return {
-        "document": "ISBA/31/C/CRP.1/Rev.2",
+        "document": "ISBA/31/C/CRP.1/Rev.3",
         "title": "Further Revised Consolidated Text",
-        "date": "2026-02",
+        "date": "2026-06",
         "parts": [
             {"part": "Preamble", "regulations": []},
             {"part": "Part I — Introduction", "regulations": ["1", "2", "3", "4"]},
@@ -60,7 +58,7 @@ async def get_provisions_status():
     have alternatives, or are in the suspense document.
     """
     return {
-        "source": "ISBA/31/C/CRP.1/Rev.2 + ISBA/31/C/CRP.3 (Suspense Document)",
+        "source": "ISBA/31/C/CRP.1/Rev.3 + ISBA/31/C/CRP.3 (Suspense Document)",
         "summary": {
             "total_regulations": "~96+",
             "bracketed": "Multiple — see suspense document ISBA/31/C/CRP.3",
@@ -96,11 +94,11 @@ async def get_circular_dependencies():
 @router.get("/outstanding-issues")
 async def get_outstanding_issues():
     """
-    Return the list of outstanding issues from ISBA/31/C/CRP.4.
+    Return the list of outstanding issues from ISBA/31/C/CRP.7.
     """
     return {
-        "source": "ISBA/31/C/CRP.4 — Draft Indicative List of Outstanding Issues",
-        "url": "https://isa.org.jm/wp-content/uploads/2026/02/Draft-indicative-list-of-outstanding-issues.pdf",
+        "source": "ISBA/31/C/CRP.7 — Updated List of Outstanding Issues (Jul 2026)",
+        "url": "https://isa.org.jm/wp-content/uploads/2026/07/ISBA-31-C-CRP7-Outstanding-issues.pdf",
         "note": "Run ingest_documents.py to parse and index the outstanding issues list.",
         "issues": [],
     }

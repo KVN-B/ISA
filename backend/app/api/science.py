@@ -186,9 +186,11 @@ def _build_science_context(query: str, top_k: int = 7) -> str:
 
 
 _REG_PRIORITY_DOCS = [
+    "further-rev-consolidated-text-isba31c-crp1-rev3-2026-06",
     "further-rev-consolidated-text-clean-isba31c-crp2-rev2-2026-02",
     "further-rev-consolidated-text-isba31c-crp1-rev2-2026-02",
     "further-rev-suspense-isba31c-crp3-2025-12",
+    "outstanding-issues-isba31c-crp7-2026-07",
     "outstanding-issues-isba31c-crp4-2026-02",
     "isa-consolidated-part-xi-2025",
     "losc-unclos-1982",
@@ -272,7 +274,8 @@ def _build_regulatory_context(app_state, query: str) -> str:
     all_docs    = docs_state.get("documents", [])
     current_doc = next((d for d in all_docs if d.get("status") == "current"), None)
     suspense    = next((d for d in all_docs if "crp3" in (d.get("id") or "").lower()), None)
-    outstanding = next((d for d in all_docs if "crp4" in (d.get("id") or "").lower()), None)
+    outstanding = next((d for d in all_docs if "crp7" in (d.get("id") or "").lower()), None) \
+        or next((d for d in all_docs if "crp4" in (d.get("id") or "").lower()), None)
 
     summary_lines = [
         "═══ LAYER 2 · ISA REGULATORY FRAMEWORK ════════════════════════",
