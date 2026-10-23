@@ -17,9 +17,10 @@
     .star-filled { color:#f59e0b; }
     .star-empty  { color:#e2e8f0; }
 
-    .tag-sponsor { background:#eff6ff; color:#2563eb; }
-    .tag-land    { background:#fef3c7; color:#92400e; }
-    .tag-green   { background:#f0fdf4; color:#15803d; }
+    .tag-sponsor    { background:#eff6ff; color:#2563eb; }
+    .tag-land       { background:#fef3c7; color:#92400e; }
+    .tag-green      { background:#f0fdf4; color:#15803d; }
+    .tag-moratorium { background:#fdf4ff; color:#7e22ce; }
 
     tr:hover td { background:#f1f5f9; }
 
@@ -117,6 +118,10 @@
           <div class="text-xl font-bold text-blue-300" id="stat-sponsor">—</div>
           <div class="text-xs text-slate-400">sponsors</div>
         </div>
+        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
+          <div class="text-xl font-bold text-purple-300" id="stat-moratorium">—</div>
+          <div class="text-xs text-slate-400">moratorium call</div>
+        </div>
       </div>
     </div>
   </header>
@@ -153,6 +158,7 @@
 
       <!-- Context toggles -->
       <span class="text-xs text-slate-400 self-center pl-2 pr-1">Context:</span>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="moratorium" onclick="toggleFilter('moratorium',this)">📢 Moratorium/Pause</button>
       <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="sponsor" onclick="toggleFilter('sponsor',this)">🏭 Sponsors</button>
       <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="land" onclick="toggleFilter('land',this)">⛏️ Land Mining</button>
       <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="green" onclick="toggleFilter('green',this)">🌿 Green Gov</button>
@@ -234,7 +240,7 @@
     let allStates = [];
     let sortKey = 'name';
     let sortDir = 1;
-    let filters = { stance: 'all', sponsor: false, land: false, green: false };
+    let filters = { stance: 'all', moratorium: false, sponsor: false, land: false, green: false };
 
     const STANCE_LABELS = {
       oppose: 'Opposing', support: 'Supporting',
@@ -258,6 +264,7 @@
 
       let rows = allStates.filter(s => {
         if (filters.stance !== 'all' && s.dsm_position.stance !== filters.stance) return false;
+        if (filters.moratorium && !s.dsm_position.moratorium_call) return false;
         if (filters.sponsor && !s.context.sponsoring_state) return false;
         if (filters.land && !s.context.land_based_mining) return false;
         if (filters.green && !s.context.green_government) return false;
@@ -290,9 +297,10 @@
         const stanceLabel = STANCE_LABELS[stance] || 'Unknown';
         const stanceClass = STANCE_CLASS[stance] || 'stance-unknown';
         const tags = [];
-        if (s.context.sponsoring_state)  tags.push(`<span class="tag-sponsor text-xs px-1.5 py-0.5 rounded-full font-medium">🏭 Sponsor</span>`);
-        if (s.context.land_based_mining) tags.push(`<span class="tag-land text-xs px-1.5 py-0.5 rounded-full font-medium">⛏️ Mining</span>`);
-        if (s.context.green_government)  tags.push(`<span class="tag-green text-xs px-1.5 py-0.5 rounded-full font-medium">🌿 Green</span>`);
+        if (s.dsm_position.moratorium_call) tags.push(`<span class="tag-moratorium text-xs px-1.5 py-0.5 rounded-full font-medium">📢 Moratorium</span>`);
+        if (s.context.sponsoring_state)     tags.push(`<span class="tag-sponsor text-xs px-1.5 py-0.5 rounded-full font-medium">🏭 Sponsor</span>`);
+        if (s.context.land_based_mining)    tags.push(`<span class="tag-land text-xs px-1.5 py-0.5 rounded-full font-medium">⛏️ Mining</span>`);
+        if (s.context.green_government)     tags.push(`<span class="tag-green text-xs px-1.5 py-0.5 rounded-full font-medium">🌿 Green</span>`);
 
         const contractors = s.context.sponsored_contractors?.length
           ? `<div class="text-xs text-slate-400 mt-0.5 leading-tight">${s.context.sponsored_contractors.join(', ')}</div>`
@@ -387,6 +395,7 @@
 
       let rows = allStates.filter(s => {
         if (filters.stance !== 'all' && s.dsm_position.stance !== filters.stance) return false;
+        if (filters.moratorium && !s.dsm_position.moratorium_call) return false;
         if (filters.sponsor && !s.context.sponsoring_state) return false;
         if (filters.land && !s.context.land_based_mining) return false;
         if (filters.green && !s.context.green_government) return false;
@@ -412,9 +421,10 @@
           <div class="pv-grid">`;
         group.forEach(s => {
           const tags = [];
-          if (s.context.sponsoring_state) tags.push('🏭');
-          if (s.context.land_based_mining) tags.push('⛏️');
-          if (s.context.green_government)  tags.push('🌿');
+          if (s.dsm_position.moratorium_call) tags.push('📢');
+          if (s.context.sponsoring_state)     tags.push('🏭');
+          if (s.context.land_based_mining)    tags.push('⛏️');
+          if (s.context.green_government)     tags.push('🌿');
           const govMark = s.dsm_position.source_url ? ' <sup>↗</sup>' : '';
           html += `<div class="pv-card">
             <div class="pv-name">${s.name}${govMark}</div>
@@ -473,17 +483,19 @@
         document.getElementById('hdr-total').textContent = allStates.length;
 
         const counts = { oppose:0, support:0, conditional:0, unknown:0 };
-        let sponsors = 0;
+        let sponsors = 0, moratoriums = 0;
         allStates.forEach(s => {
           const st = s.dsm_position.stance;
           counts[st] = (counts[st] || 0) + 1;
           if (s.context.sponsoring_state) sponsors++;
+          if (s.dsm_position.moratorium_call) moratoriums++;
         });
         document.getElementById('stat-oppose').textContent      = counts.oppose;
         document.getElementById('stat-support').textContent     = counts.support;
         document.getElementById('stat-conditional').textContent = counts.conditional;
         document.getElementById('stat-unknown').textContent     = counts.unknown;
         document.getElementById('stat-sponsor').textContent     = sponsors;
+        document.getElementById('stat-moratorium').textContent  = moratoriums;
 
         renderTable();
       } catch(err) {

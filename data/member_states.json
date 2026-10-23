@@ -33,7 +33,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -62,7 +63,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -91,7 +93,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -122,7 +125,8 @@
         "dscc_listed": true,
         "statement": "Called for a precautionary pause on deep-sea mining",
         "source_url": "https://www.deepseaconservationcoalition.org/",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -151,7 +155,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -184,7 +189,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -213,7 +219,8 @@
         "dscc_listed": false,
         "statement": "Supports precautionary approach; has not formally opposed DSM",
         "source_url": "https://www.isa.org.jm/wp-content/uploads/2023/07/Australian.pdf",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 2,
@@ -248,7 +255,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -277,7 +285,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -309,7 +318,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -338,7 +348,8 @@
         "dscc_listed": false,
         "statement": "Bahrain is the sponsoring state for Impossible Metals Inc.'s polymetallic nodule exploration application",
         "source_url": "",
-        "date": "2025"
+        "date": "2025",
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -369,7 +380,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -398,7 +410,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -427,7 +440,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -456,7 +470,8 @@
         "dscc_listed": false,
         "statement": "Belgium has an active DSM contractor (GSR); government position supports DSM proceeding under ISA framework",
         "source_url": "https://www.health.belgium.be/nl/themas/leefmilieu/marien-milieu/diepzeemijnbouw",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -487,7 +502,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -516,7 +532,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -545,7 +562,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -574,7 +592,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -603,7 +622,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -636,7 +656,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause on DSM; renounced its ISA exploration contract in 2021",
         "source_url": "https://www.isa.org.jm/wp-content/uploads/2023/07/Brazil.pdf",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -673,7 +694,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -705,7 +727,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -736,7 +759,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -767,7 +791,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -796,7 +821,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -825,7 +851,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -854,7 +881,8 @@
         "dscc_listed": false,
         "statement": "Seabed mining should take place only if effective protection of the marine environment is provided through a rigorous regulatory structure, applying precautionary and ecosystem-based approaches, using science-based and transparent management, and ensuring effective compliance with a robust inspection mechanism",
         "source_url": "https://www.canada.ca/en/global-affairs/news/2023/07/canadas-position-on-seabed-mining-in-areas-beyond-national-jurisdiction.html",
-        "date": "2023"
+        "date": "2023",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -887,7 +915,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -916,7 +945,8 @@
         "dscc_listed": true,
         "statement": "One of the earliest and strongest advocates for a moratorium; led the call at the ISA in 2021 alongside Pacific states",
         "source_url": "https://www.chile.gob.cl/jamaica/noticias/chile-promueve-que-extraccion-minera-submarina-se-aplace-hasta-contar",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -949,7 +979,8 @@
         "dscc_listed": false,
         "statement": "Supports development of DSM subject to ISA regulatory framework; has multiple active exploration contracts",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -987,7 +1018,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1016,7 +1048,8 @@
         "dscc_listed": true,
         "statement": "Listed by DSCC as calling for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -1048,7 +1081,8 @@
         "dscc_listed": false,
         "statement": "Cook Islands has an ISA exploration contractor and has enacted national DSM legislation (Seabed Minerals Act), demonstrating active support for DSM development",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -1079,7 +1113,8 @@
         "dscc_listed": true,
         "statement": "One of the leading advocates for a moratorium; often co-sponsors key proposals at ISA with Chile",
         "source_url": "",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -1108,7 +1143,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1140,7 +1176,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1169,7 +1206,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1204,7 +1242,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1233,7 +1272,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1264,7 +1304,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1299,7 +1340,8 @@
         "dscc_listed": true,
         "statement": "Kingdom of Denmark joined states calling for precautionary pause; includes Faroe Islands and Greenland",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -1328,7 +1370,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1357,7 +1400,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1386,7 +1430,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -1415,7 +1460,8 @@
         "dscc_listed": true,
         "statement": "Called for moratorium; hosted key regional meetings on DSM with Chile and Costa Rica",
         "source_url": "https://isa.org.jm/wp-content/uploads/2024/08/Ecuador-item15-2August2024.pdf",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -1448,7 +1494,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1480,7 +1527,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1512,7 +1560,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1541,7 +1590,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1570,7 +1620,8 @@
         "dscc_listed": true,
         "statement": "Called for moratorium; very vocal Pacific SIDS position",
         "source_url": "https://www.fiji.gov.fj/Media-Centre/News/FIJI-SUPPORTS-MORATORIUM-ON-DEEP-SEA-MINING",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -1599,7 +1650,8 @@
         "dscc_listed": true,
         "statement": "Joined precautionary pause call; notable given domestic nickel/cobalt industry",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -1632,7 +1684,8 @@
         "dscc_listed": true,
         "statement": "President Macron called for a moratorium at One Ocean Summit 2022; France suspended its IFREMER exploration activities",
         "source_url": "https://www.diplomatie.gouv.fr/en/french-foreign-policy/climate-and-environment/news/2023/article/international-seabed-authority-council-france-calls-for-expanding-the-coalition",
-        "date": "2022"
+        "date": "2022",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -1663,7 +1716,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1695,7 +1749,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1724,7 +1779,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1753,7 +1809,8 @@
         "dscc_listed": true,
         "statement": "German Federal Environment Ministry formally called for a precautionary pause; BGR paused activities; Germany positioned as leader of environmentally-minded states",
         "source_url": "https://www.bundesumweltministerium.de/en/pressrelease/marine-protection-germany-will-not-sponsor-deep-sea-mining-until-further-notice",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -1784,7 +1841,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1817,7 +1875,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1846,7 +1905,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1875,7 +1935,8 @@
         "dscc_listed": true,
         "statement": "Joined call for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 2,
@@ -1904,7 +1965,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1933,7 +1995,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1962,7 +2025,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -1995,7 +2059,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2024,7 +2089,8 @@
         "dscc_listed": true,
         "statement": "Joined precautionary pause call",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 2,
@@ -2053,7 +2119,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2082,7 +2149,8 @@
         "dscc_listed": false,
         "statement": "Precautionary stance; monitoring developments",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 2,
@@ -2111,7 +2179,8 @@
         "dscc_listed": false,
         "statement": "Supports ISA regulatory framework for DSM; has three exploration contracts",
         "source_url": "https://isa.org.jm/wp-content/uploads/2024/08/India_Statement-on-SG-annual-report.pdf",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -2147,7 +2216,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2181,7 +2251,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2213,7 +2284,8 @@
         "dscc_listed": true,
         "statement": "Formally called for precautionary pause; co-sponsored key moratorium resolutions at ISA",
         "source_url": "https://www.gov.ie/en/department-of-foreign-affairs/press-releases/government-calls-for-a-precautionary-pause-of-deep-sea-mining-on-the-international-seabed/",
-        "date": "2023"
+        "date": "2023",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -2242,7 +2314,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national government position statement found",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2271,7 +2344,8 @@
         "dscc_listed": false,
         "statement": "Jamaica as host state of ISA plays a neutral administrative role but has an exploration contractor",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -2305,7 +2379,8 @@
         "dscc_listed": false,
         "statement": "Supports development of DSM; critical minerals strategy; active exploration",
         "source_url": "https://www.isa.org.jm/wp-content/uploads/2022/06/japan.pdf",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -2337,7 +2412,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2368,7 +2444,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; vocal about developing state interests and benefit sharing",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -2397,7 +2474,8 @@
         "dscc_listed": false,
         "statement": "Complex position: has ISA contractor (Marawa Research) but is existentially threatened by climate change",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 2,
@@ -2428,7 +2506,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2460,7 +2539,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2489,7 +2569,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2518,7 +2599,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2547,7 +2629,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2576,7 +2659,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2607,7 +2691,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2640,7 +2725,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2669,7 +2755,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2698,7 +2785,8 @@
         "dscc_listed": true,
         "statement": "Joined call for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -2732,7 +2820,8 @@
         "dscc_listed": true,
         "statement": "Joined call for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 2,
@@ -2764,7 +2853,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2797,7 +2887,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2826,7 +2917,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2857,7 +2949,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2886,7 +2979,8 @@
         "dscc_listed": true,
         "statement": "Called for moratorium; one of most vulnerable Pacific SIDS to climate change and ocean impacts",
         "source_url": "",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -2915,7 +3009,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -2948,7 +3043,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; vulnerable island state",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -2977,7 +3073,8 @@
         "dscc_listed": true,
         "statement": "Joined call for precautionary pause; active in regional DSM discussions",
         "source_url": "https://www.gob.mx/sre/prensa/mexico-supports-a-moratorium-on-deep-sea-mining-in-areas-beyond-national-jurisdiction",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -3011,7 +3108,8 @@
         "dscc_listed": true,
         "statement": "Called for moratorium; co-leads Pacific SIDS moratorium coalition",
         "source_url": "",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -3040,7 +3138,8 @@
         "dscc_listed": true,
         "statement": "Prince Albert II called for moratorium; Monaco hosts key ocean conservation events",
         "source_url": "https://en.gouv.mc/Policy-Practice/Monaco-Worldwide/News/ISA-Monaco-reaffirms-its-opposition-to-deep-seabed-mining",
-        "date": "2022"
+        "date": "2022",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -3069,7 +3168,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3102,7 +3202,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3131,7 +3232,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3164,7 +3266,8 @@
         "dscc_listed": true,
         "statement": "Joined call for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 2,
@@ -3197,7 +3300,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3231,7 +3335,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3265,7 +3370,8 @@
         "dscc_listed": false,
         "statement": "Triggered the two-year rule in June 2021 to force ISA to issue regulations; critical turning point in DSM history",
         "source_url": "",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -3296,7 +3402,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3325,7 +3432,8 @@
         "dscc_listed": false,
         "statement": "Supports precautionary approach; Dutch Parliament passed motions calling for moratorium but government has not formally adopted",
         "source_url": "https://www.isa.org.jm/wp-content/uploads/2023/07/Netherlands.pdf",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 3,
@@ -3354,7 +3462,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; leads Pacific precautionary bloc alongside Chile and Pacific SIDS",
         "source_url": "https://www.isa.org.jm/wp-content/uploads/2022/12/New_Zealand_Statement_1.pdf",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -3383,7 +3492,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3414,7 +3524,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3446,7 +3557,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3479,7 +3591,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3508,7 +3621,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3537,7 +3651,8 @@
         "dscc_listed": false,
         "statement": "Norway opened its continental shelf to DSM in January 2024; controversial decision; received strong opposition from EU, environmental groups",
         "source_url": "https://www.regjeringen.no/en/aktuelt/opening-of-an-area-on-the-norwegian-continental-shelf-for-mineral-activities/id3033970",
-        "date": "2024"
+        "date": "2024",
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -3570,7 +3685,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3603,7 +3719,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3636,7 +3753,8 @@
         "dscc_listed": true,
         "statement": "One of the earliest and strongest moratorium voices; calls DSM an existential threat; leads 30x30 ocean protection agenda",
         "source_url": "https://isa.org.jm/wp-content/uploads/2024/08/Palau-Intervention-Item8-30072024.pdf",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -3665,7 +3783,8 @@
         "dscc_listed": true,
         "statement": "Joined call for precautionary pause",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -3697,7 +3816,8 @@
         "dscc_listed": false,
         "statement": "PNG's Nautilus Minerals domestic deep-sea mining project failed catastrophically; government now cautious",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 2,
@@ -3731,7 +3851,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3760,7 +3881,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; concerned about impacts on Humboldt Current ecosystem",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -3795,7 +3917,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3829,7 +3952,8 @@
         "dscc_listed": false,
         "statement": "Poland is a founding member of Interoceanmetal Joint Organization (IOM) and has its own government cobalt crusts exploration contract; supports DSM development",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -3863,7 +3987,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; Atlantic island territories (Azores, Madeira) create strong motivation",
         "source_url": "https://isa.org.jm/wp-content/uploads/2025/07/31st-ISA-Assembly-Agenda-Item-9-Statement-by-Portugal.pdf",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -3892,7 +4017,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3924,7 +4050,8 @@
         "dscc_listed": false,
         "statement": "Supports ISA regulatory framework; three exploration contracts across all three mineral types",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -3955,7 +4082,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -3984,7 +4112,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4017,7 +4146,8 @@
         "dscc_listed": false,
         "statement": "Supports DSM proceeding; key proponent at ISA Council of finalizing regulations",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -4056,7 +4186,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4085,7 +4216,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4114,7 +4246,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4143,7 +4276,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4172,7 +4306,8 @@
         "dscc_listed": true,
         "statement": "Called for moratorium; one of Pacific SIDS leading voices against DSM",
         "source_url": "",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -4201,7 +4336,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4230,7 +4366,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4259,7 +4396,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4293,7 +4431,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4326,7 +4465,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4359,7 +4499,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4388,7 +4529,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4422,7 +4564,8 @@
         "dscc_listed": false,
         "statement": "Singapore sponsors Ocean Mineral Singapore (OMS) exploration contractor; supports development of ISA regulatory framework and DSM proceeding",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -4453,7 +4596,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4484,7 +4628,8 @@
         "dscc_listed": false,
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4513,7 +4658,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4542,7 +4688,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4571,7 +4718,8 @@
         "dscc_listed": false,
         "statement": "Supports strong environmental standards and developing state benefit sharing; cautious on timing",
         "source_url": "https://isa.org.jm/wp-content/uploads/2025/07/RSA-Statement-on-Secretary-General-Report-28-July-2026.pdf",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 2,
@@ -4607,7 +4755,8 @@
         "dscc_listed": true,
         "statement": "Formally called for precautionary pause; Spain's Foreign Minister led a major ISA drafting initiative while opposing DSM — unique position",
         "source_url": "https://www.exteriores.gob.es/en/Comunicacion/Noticias/Paginas/Noticias/Espana-refuerza-su-compromiso-con-la-proteccion-de-los-oceanos-en-el-Dia-Mundial-de-los-Oceanos.aspx",
-        "date": "2023"
+        "date": "2023",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -4636,7 +4785,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4665,7 +4815,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4694,7 +4845,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4726,7 +4878,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4759,7 +4912,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; Sweden proposed DSM moratorium at international level",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -4788,7 +4942,8 @@
         "dscc_listed": true,
         "statement": "Called for precautionary pause; Swiss Federal Council position aligned with moratorium coalition",
         "source_url": "https://www.admin.ch/en/nsb?id=96138",
-        "date": null
+        "date": null,
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 4,
@@ -4817,7 +4972,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4849,7 +5005,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4881,7 +5038,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4912,7 +5070,8 @@
         "dscc_listed": false,
         "statement": "Tonga is the sponsoring state for Tonga Offshore Mining Limited (TOML), an active exploration contractor in the Clarion-Clipperton Zone",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": 1,
@@ -4943,7 +5102,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -4975,7 +5135,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5006,7 +5167,8 @@
         "dscc_listed": true,
         "statement": "Called for immediate moratorium; Tuvalu is one of the most climate-vulnerable states and views DSM as existential threat",
         "source_url": "",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -5035,7 +5197,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5068,7 +5231,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5103,7 +5267,8 @@
         "dscc_listed": true,
         "statement": "UK supports a moratorium on deep-sea mining, conditional on ISA developing robust environmental standards — position is conditional rather than an unconditional ban",
         "source_url": "https://www.gov.uk/government/news/uk-supports-moratorium-on-deep-sea-mining-to-protect-ocean-and-marine-ecosystems",
-        "date": "2022"
+        "date": "2022",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 3,
@@ -5134,7 +5299,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5168,7 +5334,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5197,7 +5364,8 @@
         "dscc_listed": true,
         "statement": "Called for moratorium; one of most climate-vulnerable Pacific nations",
         "source_url": "https://www.isa.org.jm/wp-content/uploads/2023/03/Statement_Vanuatu.pdf",
-        "date": "2021"
+        "date": "2021",
+        "moratorium_call": true
       },
       "position_strength": {
         "score": 5,
@@ -5226,7 +5394,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5259,7 +5428,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5291,7 +5461,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
@@ -5325,7 +5496,8 @@
         "dscc_listed": false,
         "statement": "",
         "source_url": "",
-        "date": null
+        "date": null,
+        "moratorium_call": false
       },
       "position_strength": {
         "score": null,
