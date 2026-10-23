@@ -256,7 +256,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -1177,7 +1177,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -1243,7 +1243,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -1876,7 +1876,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -2600,7 +2600,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -2756,7 +2756,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -2950,7 +2950,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -4113,7 +4113,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
@@ -4629,7 +4629,7 @@
         "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null,
-        "moratorium_call": false
+        "moratorium_call": true
       },
       "position_strength": {
         "score": null,
