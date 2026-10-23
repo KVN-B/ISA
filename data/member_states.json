@@ -1,1241 +1,195 @@
-[
-  {
-    "name": "ISA Secretariat",
-    "code": "ISA",
-    "is_admin": true,
-    "pin_hash": "28f2a030baf1a118b4bf222668a2328764923efc8a7a44a068961e382be92646",
-    "_pin_plaintext": "582531"
-  },
-  {
-    "name": "Albania",
-    "code": "ALB",
-    "is_admin": false,
-    "pin_hash": "6b9711ed297d97f3a7ed44a34f93f6d84885fa53e906e6637683889e554dc919",
-    "_pin_plaintext": "814272"
-  },
-  {
-    "name": "Algeria",
-    "code": "DZA",
-    "is_admin": false,
-    "pin_hash": "d67c87b08757aa3db8c1ddb4eb3ca19f04f493046cdab666a78bef43725317f3",
-    "_pin_plaintext": "616781"
-  },
-  {
-    "name": "Angola",
-    "code": "AGO",
-    "is_admin": false,
-    "pin_hash": "db67b019517ee86bd012f4f4a7eb726a1aefd0fe9915416a6909062e702d83df",
-    "_pin_plaintext": "508369"
-  },
-  {
-    "name": "Antigua and Barbuda",
-    "code": "ATG",
-    "is_admin": false,
-    "pin_hash": "c6d6f52d69b2a57e8b2eef4c53b0d2912c381b0c180503d81ec380a19441c602",
-    "_pin_plaintext": "861160"
-  },
-  {
-    "name": "Argentina",
-    "code": "ARG",
-    "is_admin": false,
-    "pin_hash": "6b7e4e067dc7359215b83a6bbf0b66cac4eb5f93e7c12799502756f8c2bfe7cf",
-    "_pin_plaintext": "162230"
-  },
-  {
-    "name": "Armenia",
-    "code": "ARM",
-    "is_admin": false,
-    "pin_hash": "399d5bb5415453e4fa356b0e756ce3c880aeacb8fdfa28d6231af72af933a01e",
-    "_pin_plaintext": "911201"
-  },
-  {
-    "name": "Australia",
-    "code": "AUS",
-    "is_admin": false,
-    "pin_hash": "c3140ae6520c0cf5e9af5ef4415e59146a00905f7844c9aeb104f830802934a0",
-    "_pin_plaintext": "682997"
-  },
-  {
-    "name": "Austria",
-    "code": "AUT",
-    "is_admin": false,
-    "pin_hash": "56dc80c9b2565838b4f5f5128481a56b2c6ea7f173266d6b25f0fda6125e10d5",
-    "_pin_plaintext": "105523"
-  },
-  {
-    "name": "Bahamas",
-    "code": "BHS",
-    "is_admin": false,
-    "pin_hash": "9e247d596fc19527b131cd4a2034e28b7c2cf30abf68c764f406723f66ca0ad2",
-    "_pin_plaintext": "562268"
-  },
-  {
-    "name": "Bahrain",
-    "code": "BHR",
-    "is_admin": false,
-    "pin_hash": "31c8be7670b3775d5883e1ded1a0cff9e5b45c2c46b1994829e4875fb2bbff09",
-    "_pin_plaintext": "838247"
-  },
-  {
-    "name": "Bangladesh",
-    "code": "BGD",
-    "is_admin": false,
-    "pin_hash": "9121f1289a9f01ade964655d197a2677adb81171811bb8a807eeaae4faa8cbe8",
-    "_pin_plaintext": "375182"
-  },
-  {
-    "name": "Barbados",
-    "code": "BRB",
-    "is_admin": false,
-    "pin_hash": "3ce707b3a13393b1a6fbf0ca774be782b715aef541d5f96b27e2aa96c9a39400",
-    "_pin_plaintext": "696861"
-  },
-  {
-    "name": "Belarus",
-    "code": "BLR",
-    "is_admin": false,
-    "pin_hash": "2c532406f03e2429f0bdda8307d4a0280b7fc4e5fcf8dff62d08b0aa76291249",
-    "_pin_plaintext": "280026"
-  },
-  {
-    "name": "Belgium",
-    "code": "BEL",
-    "is_admin": false,
-    "pin_hash": "1f831c705c812b59e6e48ab2331cd7e807a4d5a47b6493eb2b509c7b00757f2c",
-    "_pin_plaintext": "147499"
-  },
-  {
-    "name": "Belize",
-    "code": "BLZ",
-    "is_admin": false,
-    "pin_hash": "9e2be91d91fbb851a0ddf464cd24a2c656e492a973b8823fbe289a18880a84af",
-    "_pin_plaintext": "382574"
-  },
-  {
-    "name": "Benin",
-    "code": "BEN",
-    "is_admin": false,
-    "pin_hash": "b62e10389c643050e1357bdd4957ff541e5f362854eae428936515c0643e633a",
-    "_pin_plaintext": "565982"
-  },
-  {
-    "name": "Bolivia (Plurinational State of)",
-    "code": "BOL",
-    "is_admin": false,
-    "pin_hash": "842f3bb5413378e0e8a5a8380ebfa5f1f13f6a4c53b1558aa8f35d42eba2c3e5",
-    "_pin_plaintext": "929226"
-  },
-  {
-    "name": "Bosnia and Herzegovina",
-    "code": "BIH",
-    "is_admin": false,
-    "pin_hash": "7da87e9ea437863f95fb92ab8fd7b494bfa8db12c71ba0cd3ecd3326dc6b23c4",
-    "_pin_plaintext": "604180"
-  },
-  {
-    "name": "Botswana",
-    "code": "BWA",
-    "is_admin": false,
-    "pin_hash": "697bd340d37c90f2882d21dbd81c5e3442bc3f5d1a04e9cca35ab299fc0a6aa1",
-    "_pin_plaintext": "612244"
-  },
-  {
-    "name": "Brazil",
-    "code": "BRA",
-    "is_admin": false,
-    "pin_hash": "0a4074aff07ff9848914d9dc39494c9da9aa87b33f736608077a3acbae9a3067",
-    "_pin_plaintext": "556975"
-  },
-  {
-    "name": "Brunei Darussalam",
-    "code": "BRN",
-    "is_admin": false,
-    "pin_hash": "d5fb7eb3d98c21becec1bc5f09d71e2d323ed62f0f5a6eaa109f9e085e2b6717",
-    "_pin_plaintext": "960656"
-  },
-  {
-    "name": "Bulgaria",
-    "code": "BGR",
-    "is_admin": false,
-    "pin_hash": "ad7b65b37407a65c5e08af576dc3ad07c3d8be89bbc456270115c7af5f8537bf",
-    "_pin_plaintext": "123403"
-  },
-  {
-    "name": "Cabo Verde",
-    "code": "CPV",
-    "is_admin": false,
-    "pin_hash": "342c14120d1a80d89d4366a3db3fdd2608a342203378092592f7fc18a623f5c1",
-    "_pin_plaintext": "346205"
-  },
-  {
-    "name": "Cambodia",
-    "code": "KHM",
-    "is_admin": false,
-    "pin_hash": "aeaa8b47598bc4c80092df3fe7eca5a3fed02219512366fb597760fb612f7e95",
-    "_pin_plaintext": "869311"
-  },
-  {
-    "name": "Cameroon",
-    "code": "CMR",
-    "is_admin": false,
-    "pin_hash": "7fc08d4c7d53efe94c2f608b83f8b67b9e02fe0b9bb99e0f23f0c73ebae1c659",
-    "_pin_plaintext": "407227"
-  },
-  {
-    "name": "Canada",
-    "code": "CAN",
-    "is_admin": false,
-    "pin_hash": "37a84274b518f2ac474edaebfc4540c4b79f0e52ff4b2e1e63d9c48741487d71",
-    "_pin_plaintext": "693525"
-  },
-  {
-    "name": "Chile",
-    "code": "CHL",
-    "is_admin": false,
-    "pin_hash": "6e73b1facd60f3afe19c4f4d8ea69ecf76c3c00af9d2030693c14f8ac63738cb",
-    "_pin_plaintext": "285163"
-  },
-  {
-    "name": "China",
-    "code": "CHN",
-    "is_admin": false,
-    "pin_hash": "9dd2747074b669230f152d95d633d152f5137e38d9c44e826337c9b7be7f23cf",
-    "_pin_plaintext": "336543"
-  },
-  {
-    "name": "Colombia",
-    "code": "COL",
-    "is_admin": false,
-    "pin_hash": "ac3002b9b3269fc0a6edeb7bd7df2cd98b8bbcce25d97cb013a1115c64beecab",
-    "_pin_plaintext": "641843"
-  },
-  {
-    "name": "Comoros",
-    "code": "COM",
-    "is_admin": false,
-    "pin_hash": "1cb012442b382bd081226261c45af585a7db5b1281034b52598f564f5313ad8f",
-    "_pin_plaintext": "445050"
-  },
-  {
-    "name": "Congo",
-    "code": "COG",
-    "is_admin": false,
-    "pin_hash": "1b18ebc066e3584af8e11cbee0b110ab370bed65fa37ea4815feea66060c6836",
-    "_pin_plaintext": "824576"
-  },
-  {
-    "name": "Cook Islands",
-    "code": "COK",
-    "is_admin": false,
-    "pin_hash": "f8da2bd80ad40c78cc0963466bc53fe1dfa871eb72eb55700aa6300127254286",
-    "_pin_plaintext": "782587"
-  },
-  {
-    "name": "Costa Rica",
-    "code": "CRI",
-    "is_admin": false,
-    "pin_hash": "66bc18e254e9779197f264b3057aa373c1ada680767cd4a48cf6be8e5ef00618",
-    "_pin_plaintext": "451470"
-  },
-  {
-    "name": "Côte d'Ivoire",
-    "code": "CIV",
-    "is_admin": false,
-    "pin_hash": "c026e3a5121187770dbb105e8b30841db4fc6c8977e26919b2b9afd3294054e7",
-    "_pin_plaintext": "223195"
-  },
-  {
-    "name": "Croatia",
-    "code": "HRV",
-    "is_admin": false,
-    "pin_hash": "ef018a85761ffe125eac7934bf1700c94b015f6654a36c243e75a6ab7588d33e",
-    "_pin_plaintext": "812136"
-  },
-  {
-    "name": "Cuba",
-    "code": "CUB",
-    "is_admin": false,
-    "pin_hash": "604f3bd5b915ece2dae32d791151263edb7b1a0d1f8e934e380fb1227d8ef089",
-    "_pin_plaintext": "154122"
-  },
-  {
-    "name": "Cyprus",
-    "code": "CYP",
-    "is_admin": false,
-    "pin_hash": "867a384bcbb0c705c2ece7edb0e54ded90851e74c426687e755a76b9d8921bc6",
-    "_pin_plaintext": "846363"
-  },
-  {
-    "name": "Czechia",
-    "code": "CZE",
-    "is_admin": false,
-    "pin_hash": "1de93f4b7c5c0c8f8d5945ff521dc021342b6a0b1689a247beb7d13c235e1eac",
-    "_pin_plaintext": "432078"
-  },
-  {
-    "name": "Democratic People's Republic of Korea",
-    "code": "PRK",
-    "is_admin": false,
-    "pin_hash": "bab6b3994c8b9d14b0bb7c20d1d899566fc5fde67a396b908cbacb849cdd2bdd",
-    "_pin_plaintext": "311435"
-  },
-  {
-    "name": "Democratic Republic of the Congo",
-    "code": "COD",
-    "is_admin": false,
-    "pin_hash": "9f8b272a59b7793bbc122158a0871c1ed44cf0551630deba1787b16e6c26182d",
-    "_pin_plaintext": "243407"
-  },
-  {
-    "name": "Denmark",
-    "code": "DNK",
-    "is_admin": false,
-    "pin_hash": "63ba3fb0511ff352e1353c1779d9fbdf92bc48f914295fd9448f4391278fc44c",
-    "_pin_plaintext": "294967"
-  },
-  {
-    "name": "Djibouti",
-    "code": "DJI",
-    "is_admin": false,
-    "pin_hash": "aeb102b1bd36dcfa481e47415e836f8cff61f53770ebf9bf4756884e9005618d",
-    "_pin_plaintext": "197345"
-  },
-  {
-    "name": "Dominica",
-    "code": "DMA",
-    "is_admin": false,
-    "pin_hash": "f59835051985ac3ea7988743284a6306add9178ecb854b3d7549df670b8fd8fa",
-    "_pin_plaintext": "695345"
-  },
-  {
-    "name": "Dominican Republic",
-    "code": "DOM",
-    "is_admin": false,
-    "pin_hash": "de8119291df939ee6bb57db1e640c9e78020c355b557658373bd71f966d61982",
-    "_pin_plaintext": "466813"
-  },
-  {
-    "name": "Ecuador",
-    "code": "ECU",
-    "is_admin": false,
-    "pin_hash": "b5134d390ec81fee1b9be5999efb0c89ac14cdf714e38209abb9d80f5f21c428",
-    "_pin_plaintext": "989695"
-  },
-  {
-    "name": "Egypt",
-    "code": "EGY",
-    "is_admin": false,
-    "pin_hash": "d2be4d977f0aeb60bb20c25d62c8dcec8633a6cb7912b8e18284cb40cfe9785c",
-    "_pin_plaintext": "840710"
-  },
-  {
-    "name": "El Salvador",
-    "code": "SLV",
-    "is_admin": false,
-    "pin_hash": "a69a36ada9f3ea777c2a9723a5fb0e7981e617283530596043fd2df370920153",
-    "_pin_plaintext": "854556"
-  },
-  {
-    "name": "Equatorial Guinea",
-    "code": "GNQ",
-    "is_admin": false,
-    "pin_hash": "7ee8609cce3b5337886e07c6e5994017db6c88bc05336cfda6b75ba8acc3f4a4",
-    "_pin_plaintext": "607160"
-  },
-  {
-    "name": "Eritrea",
-    "code": "ERI",
-    "is_admin": false,
-    "pin_hash": "3bf4a26fe8cf2523f31295a9fbb27c7d7c6a408c5cd5c1205715f479e2ddcb25",
-    "_pin_plaintext": "285911"
-  },
-  {
-    "name": "Estonia",
-    "code": "EST",
-    "is_admin": false,
-    "pin_hash": "ebc974155fb7826db2f1b6d603c98c8de58e5eafab44d492d23f97e4b60861ec",
-    "_pin_plaintext": "682747"
-  },
-  {
-    "name": "Eswatini",
-    "code": "SWZ",
-    "is_admin": false,
-    "pin_hash": "2a6ae4202c1c36fd1f22bf8cbc0a649baf1d84a4f0701c4024375f272c181cc3",
-    "_pin_plaintext": "691524"
-  },
-  {
-    "name": "Ethiopia",
-    "code": "ETH",
-    "is_admin": false,
-    "pin_hash": "0c4d5d64da01cd4c62759ed556e84c41d608fd3f6c6f91957653a85e3a8d232f",
-    "_pin_plaintext": "204202"
-  },
-  {
-    "name": "European Union",
-    "code": "EU0",
-    "is_admin": false,
-    "pin_hash": "7287dbcfb00d56917d58454cc4656516f6d6dac17a56f9e58c1ca0eb9f39e078",
-    "_pin_plaintext": "537204"
-  },
-  {
-    "name": "Fiji",
-    "code": "FJI",
-    "is_admin": false,
-    "pin_hash": "0f88c736fecf2fd81ba4d00f8e4f64395d5b636f6ccb02b831316015a09c7909",
-    "_pin_plaintext": "137356"
-  },
-  {
-    "name": "Finland",
-    "code": "FIN",
-    "is_admin": false,
-    "pin_hash": "fce6c7e4170032d5582d536ec3c0f999def0ee8fde51268081ca0c324609e051",
-    "_pin_plaintext": "566577"
-  },
-  {
-    "name": "France",
-    "code": "FRA",
-    "is_admin": false,
-    "pin_hash": "01d4631927262070c1d8ee8153f9e6a26b07c9d7861113374419c503349556db",
-    "_pin_plaintext": "850212"
-  },
-  {
-    "name": "Gabon",
-    "code": "GAB",
-    "is_admin": false,
-    "pin_hash": "65ab67d8e37d5012eff9a903b1dfa667011b3defc12dbfb291f6dfebcb051f86",
-    "_pin_plaintext": "681919"
-  },
-  {
-    "name": "Gambia",
-    "code": "GMB",
-    "is_admin": false,
-    "pin_hash": "e39ad0fa931f58e4bd1ff42a93f001a29951ccaa638ac115c74c8bf01d22444b",
-    "_pin_plaintext": "599444"
-  },
-  {
-    "name": "Georgia",
-    "code": "GEO",
-    "is_admin": false,
-    "pin_hash": "caba02385ac49e3b18eeba7390bb43e3fa9d1fa90102a48d265f1e84f326feca",
-    "_pin_plaintext": "322263"
-  },
-  {
-    "name": "Germany",
-    "code": "DEU",
-    "is_admin": false,
-    "pin_hash": "b9e3f82fdc0a2cf0ab80235c3015b4333d7973d5681489ad439910889364d000",
-    "_pin_plaintext": "617811"
-  },
-  {
-    "name": "Ghana",
-    "code": "GHA",
-    "is_admin": false,
-    "pin_hash": "f214526a849a0f38b15a2a02f9a73652b273033734767203809d0775d486cfd3",
-    "_pin_plaintext": "601231"
-  },
-  {
-    "name": "Greece",
-    "code": "GRC",
-    "is_admin": false,
-    "pin_hash": "82834a5d1a63b9dbfa20a7db3f0718157b899381c748fd916572426e23c2eb27",
-    "_pin_plaintext": "492109"
-  },
-  {
-    "name": "Grenada",
-    "code": "GRD",
-    "is_admin": false,
-    "pin_hash": "dc15b5ccabd8fd3141c244b7dbc6fe95078299ea3ce3016cbb483893fcdd4236",
-    "_pin_plaintext": "888316"
-  },
-  {
-    "name": "Guatemala",
-    "code": "GTM",
-    "is_admin": false,
-    "pin_hash": "a23997e0572cc7f542690758e307ef829ae9ff67ad943b8b9c5e3ce02db2b81d",
-    "_pin_plaintext": "683831"
-  },
-  {
-    "name": "Guinea",
-    "code": "GIN",
-    "is_admin": false,
-    "pin_hash": "a9036825456f5178775a2061600a573244bc42ef3fe31fa1be99feb515e75d47",
-    "_pin_plaintext": "531403"
-  },
-  {
-    "name": "Guinea-Bissau",
-    "code": "GNB",
-    "is_admin": false,
-    "pin_hash": "f7681ec5c98378627c8460b7c95e4c2822d75a76ae1092aec505f87d45ec432c",
-    "_pin_plaintext": "222907"
-  },
-  {
-    "name": "Guyana",
-    "code": "GUY",
-    "is_admin": false,
-    "pin_hash": "827df8427819128c531719440e694b7916f535df97ff239f13c9c19f6e87e80f",
-    "_pin_plaintext": "345488"
-  },
-  {
-    "name": "Haiti",
-    "code": "HTI",
-    "is_admin": false,
-    "pin_hash": "a7f89e3cf3756d5d176b046e23a5c2522f8d87686fbcb0eebe1c66afd4e0ad6f",
-    "_pin_plaintext": "658737"
-  },
-  {
-    "name": "Honduras",
-    "code": "HND",
-    "is_admin": false,
-    "pin_hash": "33c8f7f8ee267c306fb74f86206fc456e8f75d5944bbe2854430f16396ada7a4",
-    "_pin_plaintext": "766464"
-  },
-  {
-    "name": "Hungary",
-    "code": "HUN",
-    "is_admin": false,
-    "pin_hash": "4c131c8d73d6365a8085114d64ffbe6fa23b151672efdaf2526f7545b47dfe38",
-    "_pin_plaintext": "957027"
-  },
-  {
-    "name": "Iceland",
-    "code": "ISL",
-    "is_admin": false,
-    "pin_hash": "0357843a98ca68bf90c4212ed77b01d319764d98a9a6f9514898e225ea89de6e",
-    "_pin_plaintext": "343970"
-  },
-  {
-    "name": "India",
-    "code": "IND",
-    "is_admin": false,
-    "pin_hash": "4235853eb579e14bbd447387e7e4bbb652953dd8cbcfad0fe9740ddc0b7c308a",
-    "_pin_plaintext": "225562"
-  },
-  {
-    "name": "Indonesia",
-    "code": "IDN",
-    "is_admin": false,
-    "pin_hash": "959ecdf45cc3733e1605b7e43704132f9d8be2180d14d3d2751bc1cc48134a34",
-    "_pin_plaintext": "163954"
-  },
-  {
-    "name": "Iran (Islamic Republic of)",
-    "code": "IRN",
-    "is_admin": false,
-    "pin_hash": "ac277dba4dfcb1f41b9e9327ee17835dbb8f1d3f019d908d8bfa939328852c3a",
-    "_pin_plaintext": "880417"
-  },
-  {
-    "name": "Iraq",
-    "code": "IRQ",
-    "is_admin": false,
-    "pin_hash": "12051cd00dbe4697cb23de94b180b376cbd7e35a9ced41ffd1cafff18f2e126a",
-    "_pin_plaintext": "443794"
-  },
-  {
-    "name": "Ireland",
-    "code": "IRL",
-    "is_admin": false,
-    "pin_hash": "71cb8351bd54a170f405d1d581af635036f73ba8569dcf89a7de879b11de51e2",
-    "_pin_plaintext": "377708"
-  },
-  {
-    "name": "Italy",
-    "code": "ITA",
-    "is_admin": false,
-    "pin_hash": "13799af7f86a565c40eed3006bd75bfacbd138af3e3bfbd61e6b9d87c6305869",
-    "_pin_plaintext": "250875"
-  },
-  {
-    "name": "Jamaica",
-    "code": "JAM",
-    "is_admin": false,
-    "pin_hash": "aa542f4780db97099a18d8f1ac1c82ff632d802cc7b2fce05b489ff2033e173c",
-    "_pin_plaintext": "335286"
-  },
-  {
-    "name": "Japan",
-    "code": "JPN",
-    "is_admin": false,
-    "pin_hash": "1c61b695b67e98b2ad07f382fa71bc7d93bc96ea660374c9f5371528648f4817",
-    "_pin_plaintext": "105682"
-  },
-  {
-    "name": "Jordan",
-    "code": "JOR",
-    "is_admin": false,
-    "pin_hash": "e16a653f1a8f7bb2ec033ab9884ba106055b220464971e7d3ab9563cf2bd806f",
-    "_pin_plaintext": "232964"
-  },
-  {
-    "name": "Kenya",
-    "code": "KEN",
-    "is_admin": false,
-    "pin_hash": "3051cd298c2886edbb3010f29ded0d66882b6338c4ab5c4c6dba2ce6d1a1d41d",
-    "_pin_plaintext": "498234"
-  },
-  {
-    "name": "Kiribati",
-    "code": "KIR",
-    "is_admin": false,
-    "pin_hash": "820c14ccb3aa21cd69f7f0af0c1ccc7f3f7ab48597f0d3722c339b550f405c1f",
-    "_pin_plaintext": "439316"
-  },
-  {
-    "name": "Kuwait",
-    "code": "KWT",
-    "is_admin": false,
-    "pin_hash": "ed92314238267bbf8a8e516910fdf5d203009c1fbc2c06243f120cb09faf3b83",
-    "_pin_plaintext": "143604"
-  },
-  {
-    "name": "Kyrgyzstan",
-    "code": "KGZ",
-    "is_admin": false,
-    "pin_hash": "743984dabe4be0f16eaa44fc7f7943800682a16f81a80c9298091f204d625af0",
-    "_pin_plaintext": "439691"
-  },
-  {
-    "name": "Lao People's Democratic Republic",
-    "code": "LAO",
-    "is_admin": false,
-    "pin_hash": "7460c3cdd3b7d28ee8fa63ea19d846a89f0ede4a6cdf8bcb69b4caf6157aa0c7",
-    "_pin_plaintext": "829268"
-  },
-  {
-    "name": "Latvia",
-    "code": "LVA",
-    "is_admin": false,
-    "pin_hash": "c691f9f54506b821e958fff84ed7dccc28256fe250709c6c10923ca4cc4d05de",
-    "_pin_plaintext": "772237"
-  },
-  {
-    "name": "Lebanon",
-    "code": "LBN",
-    "is_admin": false,
-    "pin_hash": "cd39a4cbb8df985b1fd3c6894880fc5c111faa5e0e8af31701ccee41bc97eab1",
-    "_pin_plaintext": "271995"
-  },
-  {
-    "name": "Lesotho",
-    "code": "LSO",
-    "is_admin": false,
-    "pin_hash": "06388fc1dbc46efe56a7b31b78e5475b983938332214160532f6e4203943a283",
-    "_pin_plaintext": "311987"
-  },
-  {
-    "name": "Liberia",
-    "code": "LBR",
-    "is_admin": false,
-    "pin_hash": "f71a8f12331de5430d36d0829fb484a0cd952293f9319f8adb8cced7c17e6fde",
-    "_pin_plaintext": "654925"
-  },
-  {
-    "name": "Libya",
-    "code": "LBY",
-    "is_admin": false,
-    "pin_hash": "221c08cdf1cc62f68c0dfc4208c78e4844f92f3d390e9ecafd4ebc178763f4e0",
-    "_pin_plaintext": "659761"
-  },
-  {
-    "name": "Lithuania",
-    "code": "LTU",
-    "is_admin": false,
-    "pin_hash": "2d87200fa488adf61372810ec4752b910e858965ffbfdd72f17f63f235acc225",
-    "_pin_plaintext": "387110"
-  },
-  {
-    "name": "Luxembourg",
-    "code": "LUX",
-    "is_admin": false,
-    "pin_hash": "94c46e875b08bc2fdce5d3c8ca0c0a5240fdbcf69c7cfb643520f31e66bf6f4d",
-    "_pin_plaintext": "701820"
-  },
-  {
-    "name": "Madagascar",
-    "code": "MDG",
-    "is_admin": false,
-    "pin_hash": "ea2d31e3c4b897f0a50943970ea3bdfe6e74269d5c6c39fa5c8ca6865d91aac0",
-    "_pin_plaintext": "303645"
-  },
-  {
-    "name": "Malawi",
-    "code": "MWI",
-    "is_admin": false,
-    "pin_hash": "24008f337ceff244a154c0451d5694be44bc6d402f6aaa28dc0a149520b190f6",
-    "_pin_plaintext": "453032"
-  },
-  {
-    "name": "Malaysia",
-    "code": "MYS",
-    "is_admin": false,
-    "pin_hash": "4090a76f98da3bf3c08096c19ab9ef9119d475cda046776ab745bfbe0198b6c7",
-    "_pin_plaintext": "188262"
-  },
-  {
-    "name": "Maldives",
-    "code": "MDV",
-    "is_admin": false,
-    "pin_hash": "314c4971021006d2dbbfa48f2484140f2ebae0de7da81f20e98c5ee86552f120",
-    "_pin_plaintext": "802404"
-  },
-  {
-    "name": "Mali",
-    "code": "MLI",
-    "is_admin": false,
-    "pin_hash": "b3116750df99189e4f1fc1e06a5a0920fd420f7d6a13c6826d422b869cbe3740",
-    "_pin_plaintext": "472115"
-  },
-  {
-    "name": "Malta",
-    "code": "MLT",
-    "is_admin": false,
-    "pin_hash": "51e61df060a2e2f626e5492bd0b7474137c58464f9529bf90de7526a4f3b32ca",
-    "_pin_plaintext": "563066"
-  },
-  {
-    "name": "Marshall Islands",
-    "code": "MHL",
-    "is_admin": false,
-    "pin_hash": "efdf29553411816e96b755831c116279c384135cca5156f6d5f4a0a36c9eafa1",
-    "_pin_plaintext": "900188"
-  },
-  {
-    "name": "Mauritania",
-    "code": "MRT",
-    "is_admin": false,
-    "pin_hash": "215dbf6ce3d27643c34e2b8e8275b77cd09c3e6ffb01235c6ca14976bdc3eef6",
-    "_pin_plaintext": "261392"
-  },
-  {
-    "name": "Mauritius",
-    "code": "MUS",
-    "is_admin": false,
-    "pin_hash": "4c96c1fd7b9db109fb876ab90565e7ddcebe67a9b16ff6a705ac7dc4428e2da4",
-    "_pin_plaintext": "336753"
-  },
-  {
-    "name": "Mexico",
-    "code": "MEX",
-    "is_admin": false,
-    "pin_hash": "e8026a43d9e7d2e309bfce94031dc051cda93c8f6b935ae34c8ea543bec9c0e5",
-    "_pin_plaintext": "863114"
-  },
-  {
-    "name": "Micronesia (Federated States of)",
-    "code": "FSM",
-    "is_admin": false,
-    "pin_hash": "fee3964a78bbe4263d55d5020d3684a10cdaf5a132f78ab30971fc5b0df236f0",
-    "_pin_plaintext": "334045"
-  },
-  {
-    "name": "Monaco",
-    "code": "MCO",
-    "is_admin": false,
-    "pin_hash": "d2728170740b32ef0a103ca7607b526af49ebbcb3e5b0eec979cf20a36fdfd96",
-    "_pin_plaintext": "423688"
-  },
-  {
-    "name": "Mongolia",
-    "code": "MNG",
-    "is_admin": false,
-    "pin_hash": "36e6068ee2757f745b1b706a41a9bc50ba3aa7a29fbc9188508bd39b3ebef52f",
-    "_pin_plaintext": "964810"
-  },
-  {
-    "name": "Montenegro",
-    "code": "MNE",
-    "is_admin": false,
-    "pin_hash": "7c8db7568ae693aad783a5befe42a7db09d22eb257ed4de1ea3972699d7c7ce3",
-    "_pin_plaintext": "357659"
-  },
-  {
-    "name": "Morocco",
-    "code": "MAR",
-    "is_admin": false,
-    "pin_hash": "1754adc9733dc82b79e7ab43a7553afcc5ef40bb72fb57d9352c3271d4ec3152",
-    "_pin_plaintext": "224689"
-  },
-  {
-    "name": "Mozambique",
-    "code": "MOZ",
-    "is_admin": false,
-    "pin_hash": "1e041978a9d1d24d7d2d89832eff3714afb1bd7c52f26da3f182d57ff47bcba2",
-    "_pin_plaintext": "965903"
-  },
-  {
-    "name": "Myanmar",
-    "code": "MMR",
-    "is_admin": false,
-    "pin_hash": "d48d237cd486d203de1259daa1433d3d10f69ffee2b242adb529b751d2bd01a5",
-    "_pin_plaintext": "962045"
-  },
-  {
-    "name": "Namibia",
-    "code": "NAM",
-    "is_admin": false,
-    "pin_hash": "bd6382442cc84c43141f1f7155612129d080e078772f9a333b1755fede525d6f",
-    "_pin_plaintext": "430063"
-  },
-  {
-    "name": "Nauru",
-    "code": "NRU",
-    "is_admin": false,
-    "pin_hash": "000ddebc3d5b04b2d830a17f4acfdfef88ed6738961c17bd0b86c7fa7606051e",
-    "_pin_plaintext": "303882"
-  },
-  {
-    "name": "Nepal",
-    "code": "NPL",
-    "is_admin": false,
-    "pin_hash": "6a92ee0497895e80c891c9a39b7e9079fefe1f36c32e7e47029035964a436d45",
-    "_pin_plaintext": "575313"
-  },
-  {
-    "name": "Netherlands",
-    "code": "NLD",
-    "is_admin": false,
-    "pin_hash": "9189e0187d9d5da1013862466739e30cbd823cd2fca4c9e6c106e064f383952b",
-    "_pin_plaintext": "312444"
-  },
-  {
-    "name": "New Zealand",
-    "code": "NZL",
-    "is_admin": false,
-    "pin_hash": "6bf3c57bfe329c961be893bf86b0236625b1c8318cbee1321f4c6e54981c4f5d",
-    "_pin_plaintext": "888250"
-  },
-  {
-    "name": "Nicaragua",
-    "code": "NIC",
-    "is_admin": false,
-    "pin_hash": "945864abb673537215c3f04804036f25d2c1174f4b838b07c52a0f90d8a1cf9e",
-    "_pin_plaintext": "662712"
-  },
-  {
-    "name": "Niger",
-    "code": "NER",
-    "is_admin": false,
-    "pin_hash": "eff687c3bc0822272035a30cae9e7ad608b775caf7fef7998100b07b7e77f734",
-    "_pin_plaintext": "238361"
-  },
-  {
-    "name": "Nigeria",
-    "code": "NGA",
-    "is_admin": false,
-    "pin_hash": "eed7df32e070ca23ebbaf09fe8eafcb4e6d9f63a82924cef16830cb33e00531d",
-    "_pin_plaintext": "742659"
-  },
-  {
-    "name": "Niue",
-    "code": "NIU",
-    "is_admin": false,
-    "pin_hash": "1d71b22a743c4b1cfaa1498dd5d8f3404fd1582dbe4289ac38e27452d0e98df0",
-    "_pin_plaintext": "432599"
-  },
-  {
-    "name": "Norway",
-    "code": "NOR",
-    "is_admin": false,
-    "pin_hash": "47fed340c1daf90704fb7f04931ec8c050bda1686a8a47e8f128f6e16512dd5a",
-    "_pin_plaintext": "339898"
-  },
-  {
-    "name": "Oman",
-    "code": "OMN",
-    "is_admin": false,
-    "pin_hash": "0945f965323111f8b9cabb4e1848e73947266edf6446a851798e932abfb1370b",
-    "_pin_plaintext": "929117"
-  },
-  {
-    "name": "Pakistan",
-    "code": "PAK",
-    "is_admin": false,
-    "pin_hash": "6dc0f4b6e5c61862cc01bb587fe391f1aceb9ef2bf7fbd180efe06807c4d8936",
-    "_pin_plaintext": "716354"
-  },
-  {
-    "name": "Palau",
-    "code": "PLW",
-    "is_admin": false,
-    "pin_hash": "c1edbc79bd292524fefb9112e38d48a7b9dd3a6a6a3eec4ce9376774dd101f7e",
-    "_pin_plaintext": "318783"
-  },
-  {
-    "name": "Palestine",
-    "code": "PSE",
-    "is_admin": false,
-    "pin_hash": "181b1faa770d76effd5f0d772284b449ecdf1b5ae878dd3eb60ad59077ae3471",
-    "_pin_plaintext": "710967"
-  },
-  {
-    "name": "Panama",
-    "code": "PAN",
-    "is_admin": false,
-    "pin_hash": "49cc4ebb2f3ff1a7bc7774c7b11b297579445925ef4a33c0dceafab06f0fc500",
-    "_pin_plaintext": "324554"
-  },
-  {
-    "name": "Papua New Guinea",
-    "code": "PNG",
-    "is_admin": false,
-    "pin_hash": "2d261afe8822f2ed2a8090af0edab38fa7887fa2b71da7db7814c49a0c5cc75a",
-    "_pin_plaintext": "156575"
-  },
-  {
-    "name": "Paraguay",
-    "code": "PRY",
-    "is_admin": false,
-    "pin_hash": "dda6ff6c59f53485c60ad0dfd303e20dee16499bf67cbca1654b224e4d3d7669",
-    "_pin_plaintext": "260906"
-  },
-  {
-    "name": "Peru",
-    "code": "PER",
-    "is_admin": false,
-    "pin_hash": "a68e4f1b2eea6754720a04651787971085776b5c4074d6fe96e5d5a65e7d41f0",
-    "_pin_plaintext": "620927"
-  },
-  {
-    "name": "Philippines",
-    "code": "PHL",
-    "is_admin": false,
-    "pin_hash": "4a0ab2d3fa14640e5a49b6f7bf50ab681df2b1e48316822381bd3422ffaf4278",
-    "_pin_plaintext": "614961"
-  },
-  {
-    "name": "Poland",
-    "code": "POL",
-    "is_admin": false,
-    "pin_hash": "237ee091425f518976e5ef5077da3dcc85914f2a90a930ec47973974f4f7dd81",
-    "_pin_plaintext": "869775"
-  },
-  {
-    "name": "Portugal",
-    "code": "PRT",
-    "is_admin": false,
-    "pin_hash": "76784cc709164fbadf6acb1e358132dab1b17b753e214bddcca4552e3c119eb5",
-    "_pin_plaintext": "245303"
-  },
-  {
-    "name": "Qatar",
-    "code": "QAT",
-    "is_admin": false,
-    "pin_hash": "b8f10d2d678f61316daafa89aa0876dd795b0b8ed5176dacea674a83a09723e9",
-    "_pin_plaintext": "436436"
-  },
-  {
-    "name": "Republic of Korea",
-    "code": "KOR",
-    "is_admin": false,
-    "pin_hash": "06880c0f575d99d25977538c2a01d931228e40a6eb5b4bdbed165bddb0ab105a",
-    "_pin_plaintext": "487759"
-  },
-  {
-    "name": "Republic of Moldova",
-    "code": "MDA",
-    "is_admin": false,
-    "pin_hash": "99eb326c033dee0f68caf92f060bcfddc4c0e49bf9ac034909ab318157aa6263",
-    "_pin_plaintext": "838891"
-  },
-  {
-    "name": "Romania",
-    "code": "ROU",
-    "is_admin": false,
-    "pin_hash": "7f782043163fedfbaa99273e1193d8fdd277c7e13c134b3fb17cfe0055ec3c0b",
-    "_pin_plaintext": "565121"
-  },
-  {
-    "name": "Russian Federation",
-    "code": "RUS",
-    "is_admin": false,
-    "pin_hash": "9256d31d01a3343071f7eef191ff5d40c5ed38326cad8ea88f730d0d887d5ac3",
-    "_pin_plaintext": "563135"
-  },
-  {
-    "name": "Saint Kitts and Nevis",
-    "code": "KNA",
-    "is_admin": false,
-    "pin_hash": "b0d18e20b0e20348dcde8cdafc26fabcc7fefd2e6c5241a1a79d9c314dbd7f55",
-    "_pin_plaintext": "682446"
-  },
-  {
-    "name": "Saint Lucia",
-    "code": "LCA",
-    "is_admin": false,
-    "pin_hash": "8df70a8cc990f7a6e25395cbb0af2a7610f29ebd1e24e8071f0d11e716dd4a32",
-    "_pin_plaintext": "656015"
-  },
-  {
-    "name": "Saint Vincent and the Grenadines",
-    "code": "VCT",
-    "is_admin": false,
-    "pin_hash": "8e4a01ddeb6ac3f99cc711bce7428c63402a83e23435a5898465b72caadc7cd1",
-    "_pin_plaintext": "855323"
-  },
-  {
-    "name": "Samoa",
-    "code": "WSM",
-    "is_admin": false,
-    "pin_hash": "dd12b9d196b2f737ba44a54d11e8d3b775acfd17c121ffa6193e9979d4fffa4e",
-    "_pin_plaintext": "196466"
-  },
-  {
-    "name": "Sao Tome and Principe",
-    "code": "STP",
-    "is_admin": false,
-    "pin_hash": "c3f362244ef8c2298d3475287477856efb6a91b83dd3278498199e9b921b2a6c",
-    "_pin_plaintext": "713871"
-  },
-  {
-    "name": "Saudi Arabia",
-    "code": "SAU",
-    "is_admin": false,
-    "pin_hash": "e25709e91a46c5ca47b14b04219e60a5327eed25dcc37fbebb59bd482cb0cc19",
-    "_pin_plaintext": "152647"
-  },
-  {
-    "name": "Senegal",
-    "code": "SEN",
-    "is_admin": false,
-    "pin_hash": "6847e1c0ed8dee9e5eee33c7437ffeaaabb3fa9aff98f9fbd5cae6a545decd0f",
-    "_pin_plaintext": "213940"
-  },
-  {
-    "name": "Serbia",
-    "code": "SRB",
-    "is_admin": false,
-    "pin_hash": "ae302dd56e44c06f381f9f2ea91a4a33af55845589562275be0ecfd8f2606f19",
-    "_pin_plaintext": "820459"
-  },
-  {
-    "name": "Seychelles",
-    "code": "SYC",
-    "is_admin": false,
-    "pin_hash": "f4be3dbe055b576cae5bf85aef9c37cf36bbcead879f3a43c02580682f1084f6",
-    "_pin_plaintext": "741083"
-  },
-  {
-    "name": "Sierra Leone",
-    "code": "SLE",
-    "is_admin": false,
-    "pin_hash": "90fdd1fd802bbbbefd0839f7dd52efceea2b53020e07632df8b2659317853560",
-    "_pin_plaintext": "719715"
-  },
-  {
-    "name": "Singapore",
-    "code": "SGP",
-    "is_admin": false,
-    "pin_hash": "9687d9e865c93b722403a3af71167196e3b66f0cb9b7b90be88acd9a615403ec",
-    "_pin_plaintext": "380338"
-  },
-  {
-    "name": "Slovakia",
-    "code": "SVK",
-    "is_admin": false,
-    "pin_hash": "d086220afeadeb5deb614d458c02d5c1533b12c20aefc029806ef9fe60b41a27",
-    "_pin_plaintext": "911341"
-  },
-  {
-    "name": "Slovenia",
-    "code": "SVN",
-    "is_admin": false,
-    "pin_hash": "97f103ef8e9e979b6f4dfc25db4a165ee68d516697160f6f9847047b4569196a",
-    "_pin_plaintext": "474231"
-  },
-  {
-    "name": "Solomon Islands",
-    "code": "SLB",
-    "is_admin": false,
-    "pin_hash": "c833f94de670b494fb88a798a50ccae0dcee431ffd2b7e2d47ef0584e97b1bd7",
-    "_pin_plaintext": "278865"
-  },
-  {
-    "name": "Somalia",
-    "code": "SOM",
-    "is_admin": false,
-    "pin_hash": "4f0fea7dcef92ced1c4fac9e1780fd0558c03a9d6a5e04b046f57ce373065cd6",
-    "_pin_plaintext": "438331"
-  },
-  {
-    "name": "South Africa",
-    "code": "ZAF",
-    "is_admin": false,
-    "pin_hash": "048e88c4133c8b0c9fe0043bbe6290037d5f43b9b19bd77ca1998256bee03a50",
-    "_pin_plaintext": "382498"
-  },
-  {
-    "name": "Spain",
-    "code": "ESP",
-    "is_admin": false,
-    "pin_hash": "1aee981e4220a9b497848f4708270c41ecc54e9a7ec584630f669652a9fefdb5",
-    "_pin_plaintext": "480109"
-  },
-  {
-    "name": "Sri Lanka",
-    "code": "LKA",
-    "is_admin": false,
-    "pin_hash": "950d6563471266a2b3f6deae5be63395829f4d086ca913381ec85dcd17460fab",
-    "_pin_plaintext": "926085"
-  },
-  {
-    "name": "Sudan",
-    "code": "SDN",
-    "is_admin": false,
-    "pin_hash": "39ffb2d7ef3396ae1c380a250c0404d97f40d86dc104f0d11d1a0299f372c917",
-    "_pin_plaintext": "223668"
-  },
-  {
-    "name": "Suriname",
-    "code": "SUR",
-    "is_admin": false,
-    "pin_hash": "c0539504e28257c0354d07d3b8355c14f190e3c0b1fa1c82136cc97ba6ba2582",
-    "_pin_plaintext": "794140"
-  },
-  {
-    "name": "Sweden",
-    "code": "SWE",
-    "is_admin": false,
-    "pin_hash": "bc1ada118fd94db63f959e8c7d3a6beb1b3ddf3881b92ff955c50b070ab93057",
-    "_pin_plaintext": "913905"
-  },
-  {
-    "name": "Switzerland",
-    "code": "CHE",
-    "is_admin": false,
-    "pin_hash": "7f92167e884569642b0b0e15ddeb453eefbb674cda00f512b6bcc430e982bc14",
-    "_pin_plaintext": "466387"
-  },
-  {
-    "name": "Tanzania (United Republic of)",
-    "code": "TZA",
-    "is_admin": false,
-    "pin_hash": "274b6b4136e8392f4f6c6c01bb9bcd0c28ec4e7fcf6ca999704e3b2c36e44572",
-    "_pin_plaintext": "171171"
-  },
-  {
-    "name": "Thailand",
-    "code": "THA",
-    "is_admin": false,
-    "pin_hash": "1d532ab87e21fd4c9001501b9d41fc8454974884f8b2ac433f61786f4a2fdcf1",
-    "_pin_plaintext": "998852"
-  },
-  {
-    "name": "Timor-Leste",
-    "code": "TLS",
-    "is_admin": false,
-    "pin_hash": "ad6da94564f9ad0786b9b0856f74490248e05a555a6d2909693bdf6ea37398d7",
-    "_pin_plaintext": "539408"
-  },
-  {
-    "name": "Togo",
-    "code": "TGO",
-    "is_admin": false,
-    "pin_hash": "c04a8758f178e75d5d260c92a0f5266817411d109d7f8d9e5c9afc9ccf49ac24",
-    "_pin_plaintext": "453021"
-  },
-  {
-    "name": "Tonga",
-    "code": "TON",
-    "is_admin": false,
-    "pin_hash": "186e3ea27f254cf503392ae0ebe09309e9884c99e6731b4c5fe2cc1940c50a86",
-    "_pin_plaintext": "724979"
-  },
-  {
-    "name": "Trinidad and Tobago",
-    "code": "TTO",
-    "is_admin": false,
-    "pin_hash": "14537dfa45394cf27d523a954139757d6dfef7bfbc221f18ad04187f1021bad9",
-    "_pin_plaintext": "464284"
-  },
-  {
-    "name": "Tunisia",
-    "code": "TUN",
-    "is_admin": false,
-    "pin_hash": "ca288c497baa383f7614bee4e1b4e17267e0c4eb52ddd175304c2ffc2fc34fb8",
-    "_pin_plaintext": "366732"
-  },
-  {
-    "name": "Tuvalu",
-    "code": "TUV",
-    "is_admin": false,
-    "pin_hash": "1544eca33cf86f61eb24b2ab37cf45dc7a2e5dc0c0e56e4c903dfa8daf0fa734",
-    "_pin_plaintext": "614285"
-  },
-  {
-    "name": "Uganda",
-    "code": "UGA",
-    "is_admin": false,
-    "pin_hash": "44b36a32a21d0b5b2d81fdca116bf5f85b903a19781dcd6cc26a14108efe6b03",
-    "_pin_plaintext": "140907"
-  },
-  {
-    "name": "Ukraine",
-    "code": "UKR",
-    "is_admin": false,
-    "pin_hash": "94cde91e675d605ccd059b3cab21130abcadadeb24d924078ae173d7eb258689",
-    "_pin_plaintext": "541782"
-  },
-  {
-    "name": "United Arab Emirates",
-    "code": "ARE",
-    "is_admin": false,
-    "pin_hash": "f0262b76d9877ce8d9100c74384935bb5fa8c9a241f37617f22be8b2bba158e9",
-    "_pin_plaintext": "497133"
-  },
-  {
-    "name": "United Kingdom",
-    "code": "GBR",
-    "is_admin": false,
-    "pin_hash": "de29ad73a4d30e27947cc814a5b8433e3c4f46d5deb72958e07c4f6ee6346474",
-    "_pin_plaintext": "559489"
-  },
-  {
-    "name": "Uruguay",
-    "code": "URY",
-    "is_admin": false,
-    "pin_hash": "1ff3cc63d73abc4bb1bd0e5d18a7b69d19a4f3e882648d5e497124aafa197ca0",
-    "_pin_plaintext": "356716"
-  },
-  {
-    "name": "Vanuatu",
-    "code": "VUT",
-    "is_admin": false,
-    "pin_hash": "51d048357d49d56e8c342aa25e76525d7784615fe7effeeb2e120798ca68b400",
-    "_pin_plaintext": "171830"
-  },
-  {
-    "name": "Venezuela (Bolivarian Republic of)",
-    "code": "VEN",
-    "is_admin": false,
-    "pin_hash": "1edb4091376d61fa9c56ecdcfef2038c45771a6fd8a1e2a2a1b0bca2961ae01f",
-    "_pin_plaintext": "241358"
-  },
-  {
-    "name": "Viet Nam",
-    "code": "VNM",
-    "is_admin": false,
-    "pin_hash": "bc1970cb88bbd0b48cb877bc085c4024a4841c121f05b47ed3a6b8f042088ee0",
-    "_pin_plaintext": "429081"
-  },
-  {
-    "name": "Yemen",
-    "code": "YEM",
-    "is_admin": false,
-    "pin_hash": "8306494385686f3024075e312109b7b45397fb0df0f46b720dd76326827c1641",
-    "_pin_plaintext": "320307"
-  },
-  {
-    "name": "Zambia",
-    "code": "ZMB",
-    "is_admin": false,
-    "pin_hash": "808d2c076de4d39d2538a1b4634e9ce5bf96054de879d31d247b11d804782a8f",
-    "_pin_plaintext": "292574"
-  },
-  {
-    "name": "Zimbabwe",
-    "code": "ZWE",
-    "is_admin": false,
-    "pin_hash": "295fbe8922bcf8fc6708064113a29127a8f5327454267fd26294ec1a9464f3db",
-    "_pin_plaintext": "329867"
-  }
-]
+{
+  "version": "1.0.0",
+  "last_updated": "2026-10-23",
+  "notes": "ISA activity scores are based on known submission patterns and require verification by scraping the ISA document database. Position strength scores are based on public statements and DSCC listings. All scores should be treated as initial estimates pending expert review.",
+  "score_guide": {
+    "isa_activity": {
+      "5": "Very active — multiple written submissions per session, co-sponsoring major proposals",
+      "4": "Active — regular written submissions, active in debates",
+      "3": "Moderate — occasional submissions, participates in key debates",
+      "2": "Limited — rare submissions, passive participation",
+      "1": "Minimal — attends but rarely submits documents"
+    },
+    "position_strength": {
+      "5": "Hard moratorium / ban — unconditional call to halt all DSM, no conditions",
+      "4": "Strong precautionary pause — no DSM until robust regulations proven + environment demonstrably protected",
+      "3": "Conditional pause — want more science and stronger regulations before proceeding",
+      "2": "Soft concern — general precautionary language, no firm stance",
+      "1": "No stated public position, neutral, or supportive of ISA process proceeding"
+    }
+  },
+  "member_states": [
+    {"id":"albania","name":"Albania","iso2":"AL","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"algeria","name":"Algeria","iso2":"DZ","region":"Africa","isa_activity":{"score":2,"notes":"Active in Group of 77"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"G77 bloc member"}},
+    {"id":"angola","name":"Angola","iso2":"AO","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil"],"green_government":false,"notes":""}},
+    {"id":"antigua-and-barbuda","name":"Antigua and Barbuda","iso2":"AG","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for a precautionary pause on deep-sea mining","source_url":"https://www.deepseaconservationcoalition.org/","date":null},"position_strength":{"score":4,"rationale":"SIDS member; strong precautionary stance as vulnerable ocean state"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"argentina","name":"Argentina","iso2":"AR","region":"South America","isa_activity":{"score":2,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["lithium","copper","gold"],"green_government":false,"notes":"Significant lithium reserves; part of 'Lithium Triangle'"}},
+    {"id":"armenia","name":"Armenia","iso2":"AM","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked state"}},
+    {"id":"australia","name":"Australia","iso2":"AU","region":"Oceania","isa_activity":{"score":3,"notes":"Moderate participation; observer at ISA"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Supports precautionary approach; has not formally opposed DSM","source_url":"","date":null},"position_strength":{"score":2,"rationale":"Precautionary but not opposed; significant mining sector interests"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["nickel","cobalt","manganese","gold","iron ore"],"green_government":false,"notes":"Major land-based minerals producer; EEZ includes potential DSM areas"}},
+    {"id":"austria","name":"Austria","iso2":"AT","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; supports EU precautionary approach","source_url":"","date":null},"position_strength":{"score":3,"rationale":"Part of European bloc calling for precautionary pause; landlocked but active on environmental policy"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Strong environmental policy tradition; Greens in coalition government"}},
+    {"id":"azerbaijan","name":"Azerbaijan","iso2":"AZ","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":"Landlocked; fossil fuel economy"}},
+    {"id":"bahamas","name":"Bahamas","iso2":"BS","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state; economically dependent on ocean tourism"}},
+    {"id":"bahrain","name":"Bahrain","iso2":"BH","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"bangladesh","name":"Bangladesh","iso2":"BD","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"barbados","name":"Barbados","iso2":"BB","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"belarus","name":"Belarus","iso2":"BY","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"belgium","name":"Belgium","iso2":"BE","region":"Europe","isa_activity":{"score":4,"notes":"Sponsors Global Sea Mineral Resources NV (GSR/G-TEC); active in LTC and Council"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Belgium has a contractor (GSR) actively seeking to mine; government has had internal debate","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Sponsoring state with active contractor; position leans toward proceeding with DSM subject to environmental standards"},"context":{"sponsoring_state":true,"sponsored_contractors":["Global Sea Mineral Resources NV (GSR/G-TEC)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Hosts DEME group's GSR subsidiary; Parliament passed resolution calling for moratorium in 2021 but government did not adopt it formally"}},
+    {"id":"belize","name":"Belize","iso2":"BZ","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"benin","name":"Benin","iso2":"BJ","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"bolivia","name":"Bolivia","iso2":"BO","region":"South America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["lithium","tin","zinc","silver"],"green_government":false,"notes":"Landlocked; world's largest lithium reserves; 'Lithium Triangle'"}},
+    {"id":"bosnia-and-herzegovina","name":"Bosnia and Herzegovina","iso2":"BA","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"botswana","name":"Botswana","iso2":"BW","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["diamonds","nickel","copper"],"green_government":false,"notes":"Landlocked; major diamond producer"}},
+    {"id":"brazil","name":"Brazil","iso2":"BR","region":"South America","isa_activity":{"score":4,"notes":"Previously had exploration contractor (CPRM, renounced 2021); active in Council"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause on DSM; renounced its ISA exploration contract in 2021","source_url":"","date":"2021"},"position_strength":{"score":4,"rationale":"Renounced exploration contract and publicly called for pause; notable as former contractor state"},"context":{"sponsoring_state":false,"sponsored_contractors":["CPRM (renounced 2021)"],"land_based_mining":true,"mining_resources":["iron ore","nickel","manganese","cobalt","niobium"],"green_government":true,"notes":"Under Lula government (2023-), strong environmental push; Lula announced Brazil's opposition at COP; Amazon deforestation policy reversal adds credibility"}},
+    {"id":"brunei-darussalam","name":"Brunei Darussalam","iso2":"BN","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":""}},
+    {"id":"bulgaria","name":"Bulgaria","iso2":"BG","region":"Europe","isa_activity":{"score":3,"notes":"Member of Interoceanmetal Joint Organization"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":true,"sponsored_contractors":["Interoceanmetal Joint Organization (IOM)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"IOM member states: Bulgaria, Cuba, Czech Republic, Poland, Russia, Slovakia"}},
+    {"id":"burkina-faso","name":"Burkina Faso","iso2":"BF","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold"],"green_government":false,"notes":"Landlocked"}},
+    {"id":"cabo-verde","name":"Cabo Verde","iso2":"CV","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state"}},
+    {"id":"cambodia","name":"Cambodia","iso2":"KH","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"cameroon","name":"Cameroon","iso2":"CM","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"canada","name":"Canada","iso2":"CA","region":"North America","isa_activity":{"score":3,"notes":"Active participant; submitted proposals in key sessions"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for a precautionary pause on commercial DSM; joined moratorium-calling states at ISA sessions","source_url":"","date":"2023"},"position_strength":{"score":4,"rationale":"Formal government statement calling for pause; joined key moratorium coalitions at ISA"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["nickel","cobalt","copper","gold"],"green_government":true,"notes":"Under Liberal government of Trudeau; strong ocean protection policy; significant domestic nickel/cobalt sector"}},
+    {"id":"chad","name":"Chad","iso2":"TD","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"chile","name":"Chile","iso2":"CL","region":"South America","isa_activity":{"score":4,"notes":"One of the most active member states on DSM; submitted key proposals and co-sponsored moratorium calls"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"One of the earliest and strongest advocates for a moratorium; led the call at the ISA in 2021 alongside Pacific states","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Pioneer and consistent leader of moratorium movement at ISA; maintained strong position across multiple sessions regardless of government changes"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["copper","lithium","molybdenum"],"green_government":true,"notes":"World's largest copper producer; 'Lithium Triangle'; position notable given land-based mining interests; Boric government (2022-) maintained strong environmental stance"}},
+    {"id":"china","name":"China","iso2":"CN","region":"Asia","isa_activity":{"score":5,"notes":"One of the most active ISA members; multiple exploration contractors; major player in negotiations"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Supports development of DSM subject to ISA regulatory framework; has multiple active exploration contracts","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Active proponent of DSM proceeding; significant commercial and strategic interests; sponsors multiple contractors"},"context":{"sponsoring_state":true,"sponsored_contractors":["China Ocean Mineral Resources R&D Association (COMRA)","China Minmetals Corporation","Beijing Pioneer Hi-Tech Development Corporation"],"land_based_mining":true,"mining_resources":["rare earth elements","cobalt","manganese","copper"],"green_government":false,"notes":"Largest sponsor of ISA exploration contractors; major strategic interest in securing critical minerals"}},
+    {"id":"comoros","name":"Comoros","iso2":"KM","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state"}},
+    {"id":"congo","name":"Congo","iso2":"CG","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Listed by DSCC as calling for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed but limited public statement detail available"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","timber"],"green_government":false,"notes":"Republic of Congo (not to be confused with DRC)"}},
+    {"id":"cook-islands","name":"Cook Islands","iso2":"CK","region":"Oceania","isa_activity":{"score":2,"notes":"Has exploration contractor but also active in SIDS debates"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Cook Islands has an ISA exploration contractor but has also expressed interest in strong environmental protections","source_url":"","date":null},"position_strength":{"score":2,"rationale":"Complex position as sponsoring state with domestic moratorium debate; government position has shifted over time"},"context":{"sponsoring_state":true,"sponsored_contractors":["Cook Islands Investment Corporation"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Unique: Pacific SIDS with ISA contractor; significant internal debate about DSM"}},
+    {"id":"costa-rica","name":"Costa Rica","iso2":"CR","region":"Central America","isa_activity":{"score":3,"notes":"Active advocate for environmental protections at ISA"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"One of the leading advocates for a moratorium; often co-sponsors key proposals at ISA with Chile","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Consistent, unequivocal moratorium position; one of the earliest and most vocal opponents of DSM"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Constitutional prohibition on army; strong environmental identity; national parks cover 25% of territory; co-leader of high seas protection agenda"}},
+    {"id":"cote-divoire","name":"Côte d'Ivoire","iso2":"CI","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold","manganese"],"green_government":false,"notes":""}},
+    {"id":"croatia","name":"Croatia","iso2":"HR","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU-coordinated call for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"Part of EU bloc; strong Adriatic coastal state identity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Tourism-dependent economy; coastal state"}},
+    {"id":"cuba","name":"Cuba","iso2":"CU","region":"Caribbean","isa_activity":{"score":3,"notes":"Member of Interoceanmetal Joint Organization; active G77 member"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":true,"sponsored_contractors":["Interoceanmetal Joint Organization (IOM)"],"land_based_mining":true,"mining_resources":["nickel","cobalt","copper"],"green_government":false,"notes":"Major nickel/cobalt producer; IOM founding member"}},
+    {"id":"cyprus","name":"Cyprus","iso2":"CY","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU call for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc member; island state identity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state; EU member"}},
+    {"id":"czechia","name":"Czechia","iso2":"CZ","region":"Europe","isa_activity":{"score":3,"notes":"Member of Interoceanmetal Joint Organization"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":true,"sponsored_contractors":["Interoceanmetal Joint Organization (IOM)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked; IOM member"}},
+    {"id":"drc","name":"Democratic Republic of the Congo","iso2":"CD","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group; significant mining sector interests"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["cobalt","copper","coltan","lithium","gold"],"green_government":false,"notes":"World's largest cobalt producer; critical minerals geopolitics are central to its economy; DSM would directly compete with land-based cobalt"}},
+    {"id":"denmark","name":"Denmark","iso2":"DK","region":"Europe","isa_activity":{"score":3,"notes":"Chairs Nordic bloc coordination; active in LTC; Kingdom includes Greenland and Faroe Islands"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Kingdom of Denmark joined states calling for precautionary pause; includes Faroe Islands and Greenland","source_url":"","date":null},"position_strength":{"score":4,"rationale":"Strong precautionary position; green energy leader; Greenland's mineral wealth creates complexity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Green energy leader; Greenland has significant mineral potential which creates a nuanced position on mineral extraction generally"}},
+    {"id":"djibouti","name":"Djibouti","iso2":"DJ","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"dominica","name":"Dominica","iso2":"DM","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"dominican-republic","name":"Dominican Republic","iso2":"DO","region":"Caribbean","isa_activity":{"score":2,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; island state vulnerability"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state; economy dependent on ocean/tourism"}},
+    {"id":"ecuador","name":"Ecuador","iso2":"EC","region":"South America","isa_activity":{"score":3,"notes":"Very active on environmental provisions; home of Galapagos Islands creates strong identity"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for moratorium; hosted key regional meetings on DSM with Chile and Costa Rica","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"One of the strongest voices; Galapagos provides existential environmental identity; constitutional rights of nature framework"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["copper","gold","silver"],"green_government":true,"notes":"Constitution includes 'Rights of Nature'; Galapagos UNESCO site creates strong environmental identity; notable given copper/gold mining sector"}},
+    {"id":"egypt","name":"Egypt","iso2":"EG","region":"Africa","isa_activity":{"score":2,"notes":"Active in G77 and Arab Group"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold","phosphates"],"green_government":false,"notes":""}},
+    {"id":"equatorial-guinea","name":"Equatorial Guinea","iso2":"GQ","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":""}},
+    {"id":"estonia","name":"Estonia","iso2":"EE","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"EU member"}},
+    {"id":"eswatini","name":"Eswatini","iso2":"SZ","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"fiji","name":"Fiji","iso2":"FJ","region":"Oceania","isa_activity":{"score":2,"notes":"Active in Pacific SIDS bloc; vocal on climate and ocean issues"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for moratorium; very vocal Pacific SIDS position","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Strong moratorium position; highly vulnerable Pacific SIDS; climate-ocean nexus central to foreign policy"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Pacific SIDS; hosted COP23; climate-vulnerable"}},
+    {"id":"finland","name":"Finland","iso2":"FI","region":"Europe","isa_activity":{"score":3,"notes":"Active in Nordic coordination; significant nickel/cobalt mining sector"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined precautionary pause call; notable given domestic nickel/cobalt industry","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; notable as land-based nickel producer; conditional position with environmental standards focus"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["nickel","cobalt","chromium"],"green_government":true,"notes":"World's most sustainable nickel producer (Norilsk competitor); domestic industry could benefit or lose from DSM regulations"}},
+    {"id":"france","name":"France","iso2":"FR","region":"Europe","isa_activity":{"score":5,"notes":"One of the most active ISA members; sponsors IFREMER contractor; leads key negotiations"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"President Macron called for a moratorium at One Ocean Summit 2022; France suspended its IFREMER exploration activities","source_url":"","date":"2022"},"position_strength":{"score":5,"rationale":"Presidential-level moratorium call; suspended exploration activities; consistent strong position despite having a contractor"},"context":{"sponsoring_state":true,"sponsored_contractors":["Institut français de recherche pour l'exploitation de la mer (IFREMER)"],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Unique: sponsoring state calling for moratorium; IFREMER activities suspended; notable policy leadership by Macron at international level; Pacific territories (New Caledonia) have significant nickel deposits"}},
+    {"id":"gabon","name":"Gabon","iso2":"GA","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["manganese","iron ore"],"green_government":false,"notes":"Major manganese producer"}},
+    {"id":"gambia","name":"Gambia","iso2":"GM","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"georgia","name":"Georgia","iso2":"GE","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"germany","name":"Germany","iso2":"DE","region":"Europe","isa_activity":{"score":5,"notes":"One of the most active ISA members; sponsors BGR contractor; leads key legal and environmental provisions"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"German Federal Environment Ministry formally called for a precautionary pause; BGR paused activities; Germany positioned as leader of environmentally-minded states","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"One of the first and strongest European voices; ministerial-level formal position; notable as sponsoring state; led precautionary coalition at ISA"},"context":{"sponsoring_state":true,"sponsored_contractors":["Federal Institute for Geosciences and Natural Resources (BGR)"],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Under Merkel/Scholz coalition with Greens; Environmental Ministry led by Greens called for pause; BGR paused exploration work; significant policy coherence within government"}},
+    {"id":"ghana","name":"Ghana","iso2":"GH","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["gold","manganese","bauxite"],"green_government":false,"notes":"Major gold producer"}},
+    {"id":"greece","name":"Greece","iso2":"GR","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination; maritime nation"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU precautionary pause call","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc; shipping nation with ocean identity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Major shipping nation; strong maritime identity"}},
+    {"id":"grenada","name":"Grenada","iso2":"GD","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"guatemala","name":"Guatemala","iso2":"GT","region":"Central America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined call for precautionary pause","source_url":"","date":null},"position_strength":{"score":2,"rationale":"DSCC-listed; position basis unclear; limited public statements"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"guinea","name":"Guinea","iso2":"GN","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["bauxite","iron ore","gold","diamonds"],"green_government":false,"notes":"World's largest bauxite reserves"}},
+    {"id":"guinea-bissau","name":"Guinea-Bissau","iso2":"GW","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"guyana","name":"Guyana","iso2":"GY","region":"South America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gold","bauxite"],"green_government":false,"notes":""}},
+    {"id":"haiti","name":"Haiti","iso2":"HT","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"SIDS; one of world's most vulnerable states"}},
+    {"id":"honduras","name":"Honduras","iso2":"HN","region":"Central America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined precautionary pause call","source_url":"","date":null},"position_strength":{"score":2,"rationale":"DSCC-listed; limited public statements available"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"hungary","name":"Hungary","iso2":"HU","region":"Europe","isa_activity":{"score":1,"notes":"EU coordination"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked; EU member"}},
+    {"id":"iceland","name":"Iceland","iso2":"IS","region":"Europe","isa_activity":{"score":2,"notes":"Active on ocean issues; near hydrothermal vent systems"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Precautionary stance; monitoring developments","source_url":"","date":null},"position_strength":{"score":2,"rationale":"Ocean-dependent economy but no formal moratorium call"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Geothermal energy leader; fisheries-dependent economy; strong ocean consciousness"}},
+    {"id":"india","name":"India","iso2":"IN","region":"Asia","isa_activity":{"score":5,"notes":"Major ISA player; government sponsor; active in all ISA bodies"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Supports ISA regulatory framework for DSM; has three exploration contracts","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Active sponsor of DSM with multiple exploration contracts; strategic critical minerals interest"},"context":{"sponsoring_state":true,"sponsored_contractors":["Government of India (polymetallic nodules, sulphides, cobalt crusts)"],"land_based_mining":true,"mining_resources":["iron ore","manganese","bauxite","chromite"],"green_government":false,"notes":"One of the most active state sponsors; strategic interest in critical minerals for energy transition"}},
+    {"id":"indonesia","name":"Indonesia","iso2":"ID","region":"Asia","isa_activity":{"score":3,"notes":"Active in G77 and Asian group; major nickel producer"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["nickel","cobalt","tin","bauxite"],"green_government":false,"notes":"World's largest nickel producer; significant land-based interest in nickel market; could be economically threatened by DSM"}},
+    {"id":"iraq","name":"Iraq","iso2":"IQ","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":""}},
+    {"id":"ireland","name":"Ireland","iso2":"IE","region":"Europe","isa_activity":{"score":3,"notes":"Active on environmental provisions; co-leads deep-ocean conservation resolutions"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Formally called for precautionary pause; co-sponsored key moratorium resolutions at ISA","source_url":"","date":"2023"},"position_strength":{"score":4,"rationale":"Strong consistent position; co-sponsors resolutions; maritime nation with ocean conservation identity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Under coalition government with Green Party; strong ocean protection policy; leads environmental agenda at ISA"}},
+    {"id":"italy","name":"Italy","iso2":"IT","region":"Europe","isa_activity":{"score":3,"notes":"Active via EU coordination; maritime nation; observed key sessions"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Supports EU precautionary approach; no individual moratorium call","source_url":"","date":null},"position_strength":{"score":2,"rationale":"EU member following EU precautionary approach but no individual strong position"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Major maritime and fishing nation; Mediterranean identity"}},
+    {"id":"jamaica","name":"Jamaica","iso2":"JM","region":"Caribbean","isa_activity":{"score":3,"notes":"Hosts ISA headquarters in Kingston; active administration role; has exploration contractor"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Jamaica as host state of ISA plays a neutral administrative role but has an exploration contractor","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Complex position as ISA host state; has contractor Blue Minerals Jamaica; institutionally neutral"},"context":{"sponsoring_state":true,"sponsored_contractors":["Blue Minerals Jamaica Ltd."],"land_based_mining":false,"mining_resources":["bauxite","alumina"],"green_government":false,"notes":"ISA headquarters; hosting role creates diplomatic neutrality; Blue Minerals contractor adds complexity"}},
+    {"id":"japan","name":"Japan","iso2":"JP","region":"Asia","isa_activity":{"score":5,"notes":"One of the most active ISA members; two exploration contractors; highly active in LTC and Finance Committee"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Supports development of DSM; critical minerals strategy; active exploration","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Active proponent of DSM; resource-poor nation seeking strategic minerals; strong contractor presence"},"context":{"sponsoring_state":true,"sponsored_contractors":["Deep Ocean Resources Development Co. Ltd. (DORD)","Japan Organization for Metals and Energy Security (JOGMEC/JMESC)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Resource-scarce island nation; DSM critical for energy transition mineral strategy; very active in ISA regulations development"}},
+    {"id":"jordan","name":"Jordan","iso2":"JO","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["phosphates"],"green_government":false,"notes":""}},
+    {"id":"kenya","name":"Kenya","iso2":"KE","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group; vocal on developing state interests"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; vocal about developing state interests and benefit sharing","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; notable for African country opposing DSM; concern about benefit sharing for developing states"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"East African state with significant coastal interests; hosts regional ocean conferences"}},
+    {"id":"kiribati","name":"Kiribati","iso2":"KI","region":"Oceania","isa_activity":{"score":2,"notes":"Has exploration contractor; but extremely vulnerable to climate change"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Complex position: has ISA contractor (Marawa Research) but is existentially threatened by climate change","source_url":"","date":null},"position_strength":{"score":2,"rationale":"Contractor state but existentially vulnerable; position complex and may be evolving"},"context":{"sponsoring_state":true,"sponsored_contractors":["Marawa Research and Exploration Ltd."],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"One of the most climate-vulnerable states; potentially submerged by sea level rise; contractor relationship creates complex position"}},
+    {"id":"kuwait","name":"Kuwait","iso2":"KW","region":"Middle East","isa_activity":{"score":2,"notes":"Active in G77"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":"Fossil fuel economy"}},
+    {"id":"kyrgyzstan","name":"Kyrgyzstan","iso2":"KG","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"lao-pdr","name":"Lao People's Democratic Republic","iso2":"LA","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"latvia","name":"Latvia","iso2":"LV","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU call for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc; Baltic Sea state with ocean identity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"EU member; Baltic Sea state"}},
+    {"id":"lebanon","name":"Lebanon","iso2":"LB","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"lesotho","name":"Lesotho","iso2":"LS","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["diamonds"],"green_government":false,"notes":"Landlocked; surrounded by South Africa"}},
+    {"id":"liberia","name":"Liberia","iso2":"LR","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["iron ore","gold","diamonds"],"green_government":false,"notes":""}},
+    {"id":"lithuania","name":"Lithuania","iso2":"LT","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"EU member; Baltic Sea state"}},
+    {"id":"luxembourg","name":"Luxembourg","iso2":"LU","region":"Europe","isa_activity":{"score":2,"notes":"Notable for adopting first national space resources legislation; EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU precautionary pause call","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc member; notable context as early proponent of space resources extraction"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked; notable for space resources interest which creates interesting juxtaposition with DSM position"}},
+    {"id":"madagascar","name":"Madagascar","iso2":"MG","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined call for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; island state with significant biodiversity to protect"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["nickel","cobalt","chromite","ilmenite"],"green_government":false,"notes":"Island state; world's 4th largest island; extraordinary biodiversity; notable as nickel/cobalt producer opposing DSM"}},
+    {"id":"malawi","name":"Malawi","iso2":"MW","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined call for precautionary pause","source_url":"","date":null},"position_strength":{"score":2,"rationale":"DSCC-listed landlocked country; basis of opposition less clear than coastal states"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["uranium","coal"],"green_government":false,"notes":"Landlocked; notable as interior African state opposing DSM"}},
+    {"id":"malaysia","name":"Malaysia","iso2":"MY","region":"Asia","isa_activity":{"score":3,"notes":"Active in Asian Group and G77; significant EEZ"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["tin","oil","gas"],"green_government":false,"notes":"Major maritime nation; large EEZ"}},
+    {"id":"maldives","name":"Maldives","iso2":"MV","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"SIDS; existentially threatened by sea level rise"}},
+    {"id":"mali","name":"Mali","iso2":"ML","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold"],"green_government":false,"notes":"Landlocked"}},
+    {"id":"malta","name":"Malta","iso2":"MT","region":"Europe","isa_activity":{"score":2,"notes":"Historical role: 1967 Maltese proposal to UN established 'common heritage of mankind' concept; EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU precautionary pause call","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc; historically significant as originator of 'common heritage of mankind' concept"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Historically important: 1967 Arvid Pardo (Malta's Ambassador) proposed 'common heritage of mankind' which underpins UNCLOS"}},
+    {"id":"marshall-islands","name":"Marshall Islands","iso2":"MH","region":"Oceania","isa_activity":{"score":2,"notes":"Very vocal on climate and ocean; co-leads Pacific SIDS group"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for moratorium; one of most vulnerable Pacific SIDS to climate change and ocean impacts","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Existential position as a state facing submersion; very strong and consistent moratorium call; co-leads Pacific SIDS bloc"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Faces submersion from climate change and sea level rise; moratorium position is existential"}},
+    {"id":"mauritania","name":"Mauritania","iso2":"MR","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["iron ore","gold","copper"],"green_government":false,"notes":""}},
+    {"id":"mauritius","name":"Mauritius","iso2":"MU","region":"Africa","isa_activity":{"score":2,"notes":"Active on SIDS and ocean issues; large EEZ"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; vulnerable island state","source_url":"","date":null},"position_strength":{"score":4,"rationale":"SIDS vulnerability; DSCC-listed; consistent ocean-protection stance"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Indian Ocean SIDS; large EEZ; economy dependent on ocean"}},
+    {"id":"mexico","name":"Mexico","iso2":"MX","region":"North America","isa_activity":{"score":3,"notes":"Active in G77 and GRULAC; co-leads Latin American positions"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined call for precautionary pause; active in regional DSM discussions","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; active regional voice but position moderated by significant mining sector interests"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["silver","copper","zinc","manganese"],"green_government":false,"notes":"World's largest silver producer; significant base metals industry; AMLO/Claudia Sheinbaum government"}},
+    {"id":"micronesia","name":"Micronesia (Federated States of)","iso2":"FM","region":"Oceania","isa_activity":{"score":2,"notes":"Very active on ocean and climate in Pacific bloc"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for moratorium; co-leads Pacific SIDS moratorium coalition","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Strong moratorium call; Pacific SIDS facing existential climate threats; co-leads Pacific bloc"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Pacific SIDS; SIDS vulnerability to ocean change"}},
+    {"id":"monaco","name":"Monaco","iso2":"MC","region":"Europe","isa_activity":{"score":2,"notes":"Prince Albert II very active on ocean conservation; hosts key ocean conferences"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Prince Albert II called for moratorium; Monaco hosts key ocean conservation events","source_url":"","date":"2022"},"position_strength":{"score":5,"rationale":"Very strong and consistent position; Prince Albert II is a globally recognized ocean conservation champion"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"City-state; ocean conservation central to national identity and Prince Albert II's personal mission; hosts IUCN World Conservation Congress and deep-sea science events"}},
+    {"id":"mongolia","name":"Mongolia","iso2":"MN","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["coal","copper","gold"],"green_government":false,"notes":"Landlocked; major mining economy"}},
+    {"id":"montenegro","name":"Montenegro","iso2":"ME","region":"Europe","isa_activity":{"score":1,"notes":"EU candidate"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Adriatic coastal state; EU candidate"}},
+    {"id":"morocco","name":"Morocco","iso2":"MA","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group; significant phosphate interests"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["phosphates","cobalt","manganese"],"green_government":false,"notes":"World's largest phosphate reserve holder; significant cobalt producer; OCP Group major player"}},
+    {"id":"mozambique","name":"Mozambique","iso2":"MZ","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined call for precautionary pause","source_url":"","date":null},"position_strength":{"score":2,"rationale":"DSCC-listed; coastal African state"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["coal","natural gas","titanium"],"green_government":false,"notes":"Long Indian Ocean coastline"}},
+    {"id":"myanmar","name":"Myanmar","iso2":"MM","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["jade","gems","tin","tungsten"],"green_government":false,"notes":"Military-controlled government since 2021 coup"}},
+    {"id":"namibia","name":"Namibia","iso2":"NA","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group; diamond mining nation"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["diamonds","uranium","copper","zinc"],"green_government":false,"notes":"Major marine diamond mining nation; offshore seabed mining experience in EEZ"}},
+    {"id":"nauru","name":"Nauru","iso2":"NR","region":"Oceania","isa_activity":{"score":3,"notes":"Triggered the 'two-year rule' in 2021 on behalf of The Metals Company (TMC); highly consequential action"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Triggered the two-year rule in June 2021 to force ISA to issue regulations; critical turning point in DSM history","source_url":"","date":"2021"},"position_strength":{"score":1,"rationale":"Explicitly supports DSM proceeding; triggered the two-year rule despite strong opposition from Pacific neighbors"},"context":{"sponsoring_state":true,"sponsored_contractors":["Nauru Ocean Resources Inc. (NORI/The Metals Company)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Triggered the critical UNCLOS two-year rule in 2021; disputed by Pacific neighbors; Nauru earns royalties from The Metals Company contract; controversial decision"}},
+    {"id":"nepal","name":"Nepal","iso2":"NP","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"netherlands","name":"Netherlands","iso2":"NL","region":"Europe","isa_activity":{"score":4,"notes":"Very active; Dutch company (GSR's parent DEME) involved in Belgian contractor; active in LTC and Council"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Supports precautionary approach; Dutch Parliament passed motions calling for moratorium but government has not formally adopted","source_url":"","date":null},"position_strength":{"score":3,"rationale":"Complex position: parliament vs government; precautionary but not formal moratorium; DEME/GSR connection"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"DEME (Belgian-Dutch) parent company of GSR; Parliament passed moratorium resolution; government position more cautious; strong maritime and water management identity"}},
+    {"id":"new-zealand","name":"New Zealand","iso2":"NZ","region":"Oceania","isa_activity":{"score":3,"notes":"Very active on environmental provisions; leads Pacific precautionary coalition"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; leads Pacific precautionary bloc alongside Chile and Pacific SIDS","source_url":"","date":"2021"},"position_strength":{"score":4,"rationale":"Strong consistent position; leads Pacific precautionary coalition; domestic DSM ban in EEZ"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Banned DSM in its own EEZ; active in Coral Triangle; leads Pacific precautionary bloc; under Labour/National governments both maintained position"}},
+    {"id":"nicaragua","name":"Nicaragua","iso2":"NI","region":"Central America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold"],"green_government":false,"notes":""}},
+    {"id":"niger","name":"Niger","iso2":"NE","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["uranium","gold"],"green_government":false,"notes":"Landlocked"}},
+    {"id":"nigeria","name":"Nigeria","iso2":"NG","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group and G77; significant EEZ"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas","iron ore"],"green_government":false,"notes":"Africa's largest economy; oil-dominated; significant coastline"}},
+    {"id":"niue","name":"Niue","iso2":"NU","region":"Oceania","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Pacific SIDS in free association with New Zealand"}},
+    {"id":"north-macedonia","name":"North Macedonia","iso2":"MK","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked; EU candidate"}},
+    {"id":"norway","name":"Norway","iso2":"NO","region":"Europe","isa_activity":{"score":4,"notes":"Very active; recently opened process to grant first domestic DSM licenses; major player in ISA negotiations"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Norway opened its continental shelf to DSM in January 2024; controversial decision; received strong opposition from EU, environmental groups","source_url":"","date":"2024"},"position_strength":{"score":1,"rationale":"Norway opened domestic shelf to DSM despite opposition; at ISA supports development of regulatory framework; significant policy shift"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas","fish"],"green_government":false,"notes":"Highly controversial domestic DSM decision in 2024; Labor government faced strong criticism; creates complex position at ISA; Norway hosts Loke CCZ (formerly UK Seabed Resources)"}},
+    {"id":"oman","name":"Oman","iso2":"OM","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas","copper"],"green_government":false,"notes":""}},
+    {"id":"pakistan","name":"Pakistan","iso2":"PK","region":"Asia","isa_activity":{"score":2,"notes":"Active in G77"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["coal","copper","gold"],"green_government":false,"notes":""}},
+    {"id":"palau","name":"Palau","iso2":"PW","region":"Oceania","isa_activity":{"score":2,"notes":"One of the most vocal Pacific SIDS on ocean conservation; leads global 30x30 ocean protection"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"One of the earliest and strongest moratorium voices; calls DSM an existential threat; leads 30x30 ocean protection agenda","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Among the strongest and most consistent moratorium positions; Palau's entire identity and economy is ocean-dependent; President Tommy Remengesau has been a global champion"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Marine tourism, fisheries, and coral reefs are the entire economy; existential threat from DSM; leads global high seas protection efforts"}},
+    {"id":"panama","name":"Panama","iso2":"PA","region":"Central America","isa_activity":{"score":2,"notes":"Active in GRULAC; Canal State with strong ocean interests"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined call for precautionary pause","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; canal nation with significant maritime interests"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["copper","gold"],"green_government":false,"notes":"Panama Canal central to maritime identity; significant copper deposits (Cobre Panamá mine, though controversial)"}},
+    {"id":"papua-new-guinea","name":"Papua New Guinea","iso2":"PG","region":"Oceania","isa_activity":{"score":2,"notes":"Significant: had domestic seabed mining attempt (Nautilus Minerals) which failed; cautionary tale"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"PNG's Nautilus Minerals domestic deep-sea mining project failed catastrophically; government now cautious","source_url":"","date":null},"position_strength":{"score":2,"rationale":"Unique real-world experience with DSM failure; cautionary position based on domestic experience"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["gold","copper","nickel","cobalt"],"green_government":false,"notes":"Nautilus Minerals Solwara 1 project (domestic DSM) failed 2019; cautionary real-world example; significant land-based mining sector"}},
+    {"id":"paraguay","name":"Paraguay","iso2":"PY","region":"South America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked"}},
+    {"id":"peru","name":"Peru","iso2":"PE","region":"South America","isa_activity":{"score":3,"notes":"Active in G77 and GRULAC; significant Pacific coastline and Humboldt Current ecosystem"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; concerned about impacts on Humboldt Current ecosystem","source_url":"","date":null},"position_strength":{"score":3,"rationale":"DSCC-listed; Humboldt Current dependency creates strong motivation; but significant land mining interests create complexity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["copper","silver","zinc","lithium","gold"],"green_government":false,"notes":"World's second-largest copper producer; fisheries critically dependent on Humboldt Current which could be affected by DSM"}},
+    {"id":"philippines","name":"Philippines","iso2":"PH","region":"Asia","isa_activity":{"score":3,"notes":"Active in Asian Group and G77; significant nickel sector"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["nickel","cobalt","copper","gold"],"green_government":false,"notes":"World's major nickel producer; DSM could compete with land-based nickel; significant archipelagic and ocean interests"}},
+    {"id":"poland","name":"Poland","iso2":"PL","region":"Europe","isa_activity":{"score":4,"notes":"Has government exploration contractor; member of Interoceanmetal; active in ISA governance"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":true,"sponsored_contractors":["Government of Poland (cobalt crusts)","Interoceanmetal Joint Organization (IOM)"],"land_based_mining":true,"mining_resources":["copper","silver","zinc","coal"],"green_government":false,"notes":"Government-sponsored exploration contractor; IOM member; significant copper producer (KGHM)"}},
+    {"id":"portugal","name":"Portugal","iso2":"PT","region":"Europe","isa_activity":{"score":3,"notes":"Active on deep-sea science; Azores and Madeira create strong identity; leads deep-sea biodiversity work"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; Atlantic island territories (Azores, Madeira) create strong motivation","source_url":"","date":null},"position_strength":{"score":4,"rationale":"Strong consistent position; Azores EEZ overlaps potential ISA areas; deep-sea science tradition"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Azores Plateau overlaps with ISA Mid-Atlantic Ridge area; IMAR research institution; strong scientific tradition on hydrothermal vents; 100% renewable electricity in some periods"}},
+    {"id":"qatar","name":"Qatar","iso2":"QA","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":""}},
+    {"id":"republic-of-korea","name":"Republic of Korea","iso2":"KR","region":"Asia","isa_activity":{"score":5,"notes":"One of the most active ISA members; government sponsor of three exploration contracts; leads LTC technical work"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Supports ISA regulatory framework; three exploration contracts across all three mineral types","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Active proponent; strategic critical minerals interest; technology development focus"},"context":{"sponsoring_state":true,"sponsored_contractors":["Ministry of Oceans and Fisheries (MOF-ROK) — nodules, sulphides, cobalt crusts"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"K-battery industry drives critical mineral demand; tech industry (Samsung, Hyundai) creates strategic interest in cobalt/nickel/manganese"}},
+    {"id":"republic-of-moldova","name":"Republic of Moldova","iso2":"MD","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked; EU candidate"}},
+    {"id":"romania","name":"Romania","iso2":"RO","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU precautionary pause call","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc; Black Sea coastal state"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas","gold"],"green_government":false,"notes":"Black Sea coastal state; EU member"}},
+    {"id":"russian-federation","name":"Russian Federation","iso2":"RU","region":"Europe/Asia","isa_activity":{"score":5,"notes":"One of the most active ISA members; two exploration contractors; key veto player in Council"},"dsm_position":{"stance":"support","dscc_listed":false,"statement":"Supports DSM proceeding; key proponent at ISA Council of finalizing regulations","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Active proponent; significant strategic minerals interest; uses ISA to extend geopolitical reach"},"context":{"sponsoring_state":true,"sponsored_contractors":["JSC Yuzhmorgeologiya (sulphides)","Ministry of Natural Resources (nodules)","Interoceanmetal Joint Organization (IOM)"],"land_based_mining":true,"mining_resources":["nickel","cobalt","platinum","gold","palladium"],"green_government":false,"notes":"World's largest nickel/cobalt producer; ISA is a geopolitical arena; Norilsk Nickel would compete with DSM metals"}},
+    {"id":"rwanda","name":"Rwanda","iso2":"RW","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["tin","tantalum","tungsten","gold"],"green_government":false,"notes":"Landlocked; significant 3TG minerals (tin, tantalum, tungsten, gold)"}},
+    {"id":"saint-kitts-and-nevis","name":"Saint Kitts and Nevis","iso2":"KN","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"saint-lucia","name":"Saint Lucia","iso2":"LC","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"saint-vincent-and-the-grenadines","name":"Saint Vincent and the Grenadines","iso2":"VC","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Small Island Developing State"}},
+    {"id":"samoa","name":"Samoa","iso2":"WS","region":"Oceania","isa_activity":{"score":2,"notes":"Very active on Pacific SIDS bloc; AOSIS chair at times; very vocal on ocean and climate"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for moratorium; one of Pacific SIDS leading voices against DSM","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Strong moratorium call; Pacific SIDS vulnerability; consistent position across multiple international fora"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Pacific SIDS; hosted SAMOA Pathway (SIDS Accelerated Modalities of Action framework)"}},
+    {"id":"san-marino","name":"San Marino","iso2":"SM","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked microstate"}},
+    {"id":"sao-tome-and-principe","name":"Sao Tome and Principe","iso2":"ST","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state in Gulf of Guinea"}},
+    {"id":"saudi-arabia","name":"Saudi Arabia","iso2":"SA","region":"Middle East","isa_activity":{"score":3,"notes":"Active in G77 and Arab Group; significant phosphate interests"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["phosphates","gold","bauxite","copper"],"green_government":false,"notes":"Major phosphate producer (Ma'aden); DSM phosphate deposits would compete"}},
+    {"id":"senegal","name":"Senegal","iso2":"SN","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold","phosphates","oil"],"green_government":false,"notes":"Atlantic coastal nation; fisheries-dependent"}},
+    {"id":"serbia","name":"Serbia","iso2":"RS","region":"Europe","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["lithium","copper","gold"],"green_government":false,"notes":"Large Jadar lithium deposit; EU candidate; significant mining debate domestically"}},
+    {"id":"seychelles","name":"Seychelles","iso2":"SC","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Indian Ocean SIDS; blue economy pioneer; issued world's first sovereign blue bond; ocean conservation identity"}},
+    {"id":"sierra-leone","name":"Sierra Leone","iso2":"SL","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["diamonds","iron ore","rutile","gold"],"green_government":false,"notes":""}},
+    {"id":"singapore","name":"Singapore","iso2":"SG","region":"Asia","isa_activity":{"score":3,"notes":"Has exploration contractor; very active in financial and legal aspects of ISA"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Has exploration contractor; supports development of ISA regulatory framework","source_url":"","date":null},"position_strength":{"score":1,"rationale":"Sponsoring state; supports ISA process; significant maritime commerce identity"},"context":{"sponsoring_state":true,"sponsored_contractors":["Ocean Mineral Singapore Pte. Ltd."],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"City-state; significant maritime commerce; exploration contractor as resource security strategy"}},
+    {"id":"slovakia","name":"Slovakia","iso2":"SK","region":"Europe","isa_activity":{"score":2,"notes":"Member of Interoceanmetal Joint Organization"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":true,"sponsored_contractors":["Interoceanmetal Joint Organization (IOM)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Landlocked; IOM member"}},
+    {"id":"slovenia","name":"Slovenia","iso2":"SI","region":"Europe","isa_activity":{"score":2,"notes":"EU coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Joined EU precautionary pause call","source_url":"","date":null},"position_strength":{"score":3,"rationale":"EU bloc; small Adriatic coastline"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"EU member; small Adriatic coastline"}},
+    {"id":"solomon-islands","name":"Solomon Islands","iso2":"SB","region":"Oceania","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Pacific SIDS"}},
+    {"id":"somalia","name":"Somalia","iso2":"SO","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"south-africa","name":"South Africa","iso2":"ZA","region":"Africa","isa_activity":{"score":3,"notes":"Active in African Group; significant mining sector; vocal on benefit-sharing for developing states"},"dsm_position":{"stance":"conditional","dscc_listed":false,"statement":"Supports strong environmental standards and developing state benefit sharing; cautious on timing","source_url":"","date":null},"position_strength":{"score":2,"rationale":"Conditional approach; wants strong benefit-sharing provisions; major land-based mining interest creates complexity"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["platinum","chrome","manganese","gold","diamonds","iron ore"],"green_government":false,"notes":"World's largest platinum and chrome producer; manganese producer; DSM would compete with land-based minerals; ANC government balances development and environment"}},
+    {"id":"spain","name":"Spain","iso2":"ES","region":"Europe","isa_activity":{"score":4,"notes":"Very active; led key drafting initiatives at ISA including Rev.3 of consolidated text; chairs Council working groups"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Formally called for precautionary pause; Spain's Foreign Minister led a major ISA drafting initiative while opposing DSM — unique position","source_url":"","date":"2023"},"position_strength":{"score":4,"rationale":"One of the most active European voices against DSM; notable as major ISA negotiations leader while opposing the outcome; consistent strong position"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Spain's delegation led the CRP.1/Rev.3 drafting process; unique in being both a key ISA drafter and a strong opponent of DSM; large Atlantic and Mediterranean EEZ; fishing industry important"}},
+    {"id":"sri-lanka","name":"Sri Lanka","iso2":"LK","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Island state"}},
+    {"id":"state-of-palestine","name":"State of Palestine","iso2":"PS","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":""}},
+    {"id":"sudan","name":"Sudan","iso2":"SD","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold","oil"],"green_government":false,"notes":""}},
+    {"id":"suriname","name":"Suriname","iso2":"SR","region":"South America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold","oil","bauxite"],"green_government":false,"notes":""}},
+    {"id":"sweden","name":"Sweden","iso2":"SE","region":"Europe","isa_activity":{"score":3,"notes":"Active in Nordic group; strong environmental reputation"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; Sweden proposed DSM moratorium at international level","source_url":"","date":null},"position_strength":{"score":4,"rationale":"Strong consistent position; green identity; significant EU leadership on environmental issues"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Strong environmental policy tradition; Nordic green identity; green industrial policy (LKAB iron/HYBRIT steel); notable position given Swedish mining sector"}},
+    {"id":"switzerland","name":"Switzerland","iso2":"CH","region":"Europe","isa_activity":{"score":3,"notes":"Active in ISA financial and legal provisions; EFTA coordination"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; Swiss Federal Council position aligned with moratorium coalition","source_url":"","date":null},"position_strength":{"score":4,"rationale":"Strong position; Swiss neutrality + environmental credentials make this a notable statement; consistent across sessions"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Swiss environmental governance tradition; financial sector (commodity trading in Zug) has complex DSM interests; landlocked but globally engaged"}},
+    {"id":"thailand","name":"Thailand","iso2":"TH","region":"Asia","isa_activity":{"score":2,"notes":"Active in ASEAN and G77"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["tin","tungsten"],"green_government":false,"notes":""}},
+    {"id":"timor-leste","name":"Timor-Leste","iso2":"TL","region":"Asia","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":"Island state; ocean-dependent; significant Timor Sea interests"}},
+    {"id":"togo","name":"Togo","iso2":"TG","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["phosphates"],"green_government":false,"notes":""}},
+    {"id":"tonga","name":"Tonga","iso2":"TO","region":"Oceania","isa_activity":{"score":2,"notes":"Has exploration contractor (TOML) but now opposes DSM — complete policy reversal"},"dsm_position":{"stance":"oppose","dscc_listed":false,"statement":"Tonga reversed its position: originally sponsored Tonga Offshore Mining Limited but King Tupou VI declared support for a moratorium","source_url":"","date":"2024"},"position_strength":{"score":4,"rationale":"Remarkable reversal: sponsoring state that changed position to oppose DSM; strong moratorium call from the King; shows evolution of Pacific SIDS thinking"},"context":{"sponsoring_state":true,"sponsored_contractors":["Tonga Offshore Mining Limited (TOML)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Extraordinary case: reversed from sponsoring state to opposing DSM; King Tupou VI issued moratorium call; shows political dynamics of Pacific SIDS"}},
+    {"id":"trinidad-and-tobago","name":"Trinidad and Tobago","iso2":"TT","region":"Caribbean","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":"Hydrocarbon economy"}},
+    {"id":"tunisia","name":"Tunisia","iso2":"TN","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group and Arab Group"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["phosphates"],"green_government":false,"notes":"Mediterranean state; phosphate producer"}},
+    {"id":"tuvalu","name":"Tuvalu","iso2":"TV","region":"Oceania","isa_activity":{"score":2,"notes":"Very vocal Pacific SIDS; frequently co-sponsors moratorium resolutions"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for immediate moratorium; Tuvalu is one of the most climate-vulnerable states and views DSM as existential threat","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Among the strongest possible positions; facing literal inundation by sea level rise; views DSM as directly threatening ocean ecosystem survival"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Facing complete submersion by sea level rise; entire island archipelago at risk; moratorium position is literally existential"}},
+    {"id":"uganda","name":"Uganda","iso2":"UG","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["gold","iron ore","copper"],"green_government":false,"notes":"Landlocked"}},
+    {"id":"ukraine","name":"Ukraine","iso2":"UA","region":"Europe","isa_activity":{"score":2,"notes":"Active in ISA before 2022 invasion; disrupted since"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["iron ore","manganese","titanium","lithium","cobalt"],"green_government":false,"notes":"Large mineral reserves (especially lithium, manganese); Russian invasion since 2022 has disrupted ISA participation"}},
+    {"id":"united-kingdom","name":"United Kingdom","iso2":"GB","region":"Europe","isa_activity":{"score":5,"notes":"Very active ISA member; sponsors two contractors (now Norwegian); led key drafting initiatives"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for precautionary pause; UK joined moratorium coalition at ISA despite having contractors","source_url":"","date":"2022"},"position_strength":{"score":4,"rationale":"Notable: sponsoring state calling for pause; consistent position under multiple UK governments; Loke CCZ (formerly UK Seabed Resources) now listed as Norwegian"},"context":{"sponsoring_state":true,"sponsored_contractors":["UK Seabed Resources Ltd. (now Loke CCZ, Norway-based)"],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Unique: former sponsoring state (UK Seabed Resources transferred to Norwegian Loke Marine Minerals); UK now officially opposes DSM; demonstrates how contractor ownership can shift"}},
+    {"id":"united-republic-of-tanzania","name":"United Republic of Tanzania","iso2":"TZ","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group; significant East African coastline"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["gold","tanzanite","diamonds","coal"],"green_government":false,"notes":"Indian Ocean coastline; Zanzibar archipelago"}},
+    {"id":"uruguay","name":"Uruguay","iso2":"UY","region":"South America","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":true,"notes":"Leading renewable energy country; 97% renewable electricity; progressive environmental policies"}},
+    {"id":"vanuatu","name":"Vanuatu","iso2":"VU","region":"Oceania","isa_activity":{"score":2,"notes":"Active Pacific SIDS; vocal on ocean and climate issues"},"dsm_position":{"stance":"oppose","dscc_listed":true,"statement":"Called for moratorium; one of most climate-vulnerable Pacific nations","source_url":"","date":"2021"},"position_strength":{"score":5,"rationale":"Strong moratorium call; Pacific SIDS vulnerability; frequent cyclone impacts heighten ocean protection concerns"},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":[],"green_government":false,"notes":"Pacific SIDS; world's most disaster-prone country per risk indices"}},
+    {"id":"viet-nam","name":"Viet Nam","iso2":"VN","region":"Asia","isa_activity":{"score":2,"notes":"Active in ASEAN and G77; significant South China Sea interests"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["rare earth elements","coal","bauxite"],"green_government":false,"notes":"Significant rare earth deposits; South China Sea territorial claims affect ocean governance views"}},
+    {"id":"yemen","name":"Yemen","iso2":"YE","region":"Middle East","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":false,"mining_resources":["oil","gas"],"green_government":false,"notes":"Ongoing civil conflict"}},
+    {"id":"zambia","name":"Zambia","iso2":"ZM","region":"Africa","isa_activity":{"score":2,"notes":"Active in African Group; major copper/cobalt producer — direct competitor with DSM metals"},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["copper","cobalt","emeralds","gold"],"green_government":false,"notes":"Major copper/cobalt producer; DSM would directly compete with Zambian cobalt exports; Copper Belt economy"}},
+    {"id":"zimbabwe","name":"Zimbabwe","iso2":"ZW","region":"Africa","isa_activity":{"score":1,"notes":""},"dsm_position":{"stance":"unknown","dscc_listed":false,"statement":"","source_url":"","date":null},"position_strength":{"score":null,"rationale":""},"context":{"sponsoring_state":false,"sponsored_contractors":[],"land_based_mining":true,"mining_resources":["lithium","chrome","platinum","gold","diamonds"],"green_government":false,"notes":"Landlocked; major lithium and chrome reserves; second-largest lithium reserves in Africa"}}
+  ]
+}

@@ -14,8 +14,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.api import alternatives, chat, documents, regulations, science
+from app.api import alternatives, chat, documents, members, regulations, science
 from app.api.science import load_science_index
+from app.api.members import load_member_states
 
 # Load .env from project root (repo root is two levels above backend/app/).
 # No-op if .env doesn't exist (e.g. Railway injects env vars directly).
@@ -95,6 +96,17 @@ async def lifespan(app: FastAPI):
     else:
         print("ℹ️   science_papers.json not found (run scripts/ingest_science_papers.py)")
 
+    # Member states
+    load_member_states(DATA_DIR)
+    ms_path = DATA_DIR / "member_states.json"
+    if ms_path.exists():
+        with open(ms_path) as f:
+            ms_data = json.load(f)
+        n = len(ms_data.get("member_states", []))
+        print(f"✅  Loaded {n} member states from member_states.json")
+    else:
+        print("⚠️   member_states.json not found.")
+
     yield   # server runs here — env vars confirmed loaded at this point
 
 
@@ -125,6 +137,7 @@ app.include_router(chat.router,          prefix="/api/chat",        tags=["Chat"
 app.include_router(regulations.router,   prefix="/api/regulations", tags=["Regulations"])
 app.include_router(alternatives.router,  prefix="/api",             tags=["Alternatives"])
 app.include_router(science.router,       prefix="/api/science",     tags=["Science"])
+app.include_router(members.router,       prefix="/api/members",     tags=["Members"])
 
 
 @app.get("/")
@@ -146,6 +159,10 @@ async def serve_alternatives():
 @app.get("/science")
 async def serve_science():
     return FileResponse(str(ROOT_DIR / "science.html"))
+
+@app.get("/members")
+async def serve_members():
+    return FileResponse(str(ROOT_DIR / "members.html"))
 
 
 @app.get("/api/health")
