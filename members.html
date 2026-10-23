@@ -7,59 +7,73 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
     body { font-family: 'Inter', sans-serif; background: #f8fafc; }
 
-    .stance-oppose     { background:#fef2f2; color:#dc2626; border-color:#fecaca; }
-    .stance-support    { background:#f0fdf4; color:#16a34a; border-color:#bbf7d0; }
-    .stance-conditional{ background:#fffbeb; color:#d97706; border-color:#fde68a; }
-    .stance-unknown    { background:#f8fafc; color:#94a3b8; border-color:#e2e8f0; }
+    .stance-oppose      { background:#fef2f2; color:#dc2626; border-color:#fecaca; }
+    .stance-support     { background:#f0fdf4; color:#16a34a; border-color:#bbf7d0; }
+    .stance-conditional { background:#fffbeb; color:#d97706; border-color:#fde68a; }
+    .stance-unknown     { background:#f8fafc; color:#94a3b8; border-color:#e2e8f0; }
 
-    .star-filled  { color: #f59e0b; }
-    .star-empty   { color: #e2e8f0; }
+    .star-filled { color:#f59e0b; }
+    .star-empty  { color:#e2e8f0; }
 
-    .tag-sponsor   { background:#eff6ff; color:#2563eb; }
-    .tag-land      { background:#fef3c7; color:#92400e; }
-    .tag-green     { background:#f0fdf4; color:#15803d; }
+    .tag-sponsor { background:#eff6ff; color:#2563eb; }
+    .tag-land    { background:#fef3c7; color:#92400e; }
+    .tag-green   { background:#f0fdf4; color:#15803d; }
 
-    tr:hover td { background: #f1f5f9; }
+    tr:hover td { background:#f1f5f9; }
 
-    .filter-btn { transition: all 0.15s; }
+    .filter-btn { transition:all 0.15s; }
     .filter-btn.active { background:#1e40af; color:white; border-color:#1e40af; }
+    .filter-btn.active-red   { background:#dc2626; color:white; border-color:#dc2626; }
+    .filter-btn.active-green { background:#16a34a; color:white; border-color:#16a34a; }
 
+    /* ---- PRINT ---- */
     @media print {
-      .no-print { display: none !important; }
-      body { background: white; font-size: 10px; }
-      table { font-size: 9px; }
-      header { break-inside: avoid; }
+      .no-print { display:none !important; }
+      body { background:white; margin:0; padding:0; font-size:8pt; }
+      .print-header { display:block !important; }
+      table { font-size:7pt; border-collapse:collapse; width:100%; }
+      th, td { padding:3pt 5pt !important; border:1px solid #ddd; }
+      thead { background:#f1f5f9 !important; -webkit-print-color-adjust:exact; }
+      tr { page-break-inside:avoid; }
+      .stance-oppose      { background:#fef2f2 !important; -webkit-print-color-adjust:exact; }
+      .stance-support     { background:#f0fdf4 !important; -webkit-print-color-adjust:exact; }
+      .stance-conditional { background:#fffbeb !important; -webkit-print-color-adjust:exact; }
+      .notes-col { display: var(--notes-display, table-cell) !important; }
+      .rounded-2xl, .rounded-xl, .shadow-sm { border-radius:0 !important; box-shadow:none !important; }
+      .overflow-x-auto { overflow:visible !important; }
+      .max-w-7xl { max-width:100% !important; margin:0 !important; padding:0 !important; }
+      .print-legend { display:block !important; page-break-before:always; }
     }
-
-    .sort-arrow { display:inline-block; width:14px; opacity:0.4; }
-    th.sorted .sort-arrow { opacity:1; }
-
-    .tooltip-trigger:hover .tooltip { display:block; }
-    .tooltip { display:none; position:absolute; z-index:50; white-space:normal; min-width:220px; }
-
-    .progress-bar { height:4px; border-radius:2px; background:#e2e8f0; }
-    .progress-fill { height:100%; border-radius:2px; }
-
-    .country-flag { font-size:1.3em; line-height:1; }
+    @media screen {
+      .print-header { display:none; }
+      .print-legend { display:none; }
+    }
   </style>
 </head>
 <body class="min-h-screen">
 
-  <!-- Header -->
+  <!-- Print header -->
+  <div class="print-header p-4 border-b mb-2">
+    <h1 class="text-xl font-bold text-slate-900">ISA Member State Positions on Deep-Sea Mining</h1>
+    <p class="text-slate-500 text-xs mt-0.5">International Seabed Authority · <span id="print-date"></span></p>
+    <p class="text-slate-400 text-xs mt-1">Source: DSCC, ISA session documents, government statements. Scores are indicative and subject to expert review.</p>
+  </div>
+
+  <!-- Screen header -->
   <header class="bg-gradient-to-br from-slate-800 to-slate-900 text-white no-print">
-    <div class="max-w-7xl mx-auto px-4 py-6">
+    <div class="max-w-7xl mx-auto px-4 py-5">
       <div class="flex items-center justify-between flex-wrap gap-4">
         <div>
-          <div class="flex items-center gap-3 mb-1">
-            <a href="/" class="text-slate-400 hover:text-white text-sm no-underline transition-colors">← Home</a>
-          </div>
-          <h1 class="text-2xl font-bold">Member State Positions</h1>
-          <p class="text-slate-400 text-sm mt-1">ISA member states and their stance on deep-sea mining (DSM)</p>
+          <a href="/" class="text-slate-400 hover:text-white text-sm no-underline transition-colors">← Home</a>
+          <h1 class="text-2xl font-bold mt-1">Member State Positions</h1>
+          <p class="text-slate-400 text-sm">ISA member states and their stance on deep-sea mining (DSM)</p>
         </div>
         <div class="flex items-center gap-3">
+          <button id="toggle-notes-btn" onclick="toggleNotes()" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl px-4 py-2 text-sm font-medium transition-colors">
+            📝 Hide notes
+          </button>
           <button onclick="printPage()" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl px-4 py-2 text-sm font-medium transition-colors">
             🖨️ Print / PDF
           </button>
@@ -70,168 +84,184 @@
         </div>
       </div>
 
-      <!-- Summary stats bar -->
-      <div class="mt-5 flex flex-wrap gap-4" id="summary-bar">
-        <div class="bg-white/10 rounded-xl px-4 py-3 text-center min-w-[90px]">
+      <!-- Summary stats -->
+      <div class="mt-4 flex flex-wrap gap-3" id="summary-bar">
+        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-red-300" id="stat-oppose">—</div>
-          <div class="text-xs text-slate-400 mt-0.5">opposing</div>
+          <div class="text-xs text-slate-400">opposing</div>
         </div>
-        <div class="bg-white/10 rounded-xl px-4 py-3 text-center min-w-[90px]">
+        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-green-300" id="stat-support">—</div>
-          <div class="text-xs text-slate-400 mt-0.5">supporting</div>
+          <div class="text-xs text-slate-400">supporting</div>
         </div>
-        <div class="bg-white/10 rounded-xl px-4 py-3 text-center min-w-[90px]">
+        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-yellow-300" id="stat-conditional">—</div>
-          <div class="text-xs text-slate-400 mt-0.5">conditional</div>
+          <div class="text-xs text-slate-400">conditional</div>
         </div>
-        <div class="bg-white/10 rounded-xl px-4 py-3 text-center min-w-[90px]">
+        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-slate-300" id="stat-unknown">—</div>
-          <div class="text-xs text-slate-400 mt-0.5">no public position</div>
+          <div class="text-xs text-slate-400">no position</div>
         </div>
-        <div class="bg-white/10 rounded-xl px-4 py-3 text-center min-w-[90px]">
+        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-blue-300" id="stat-sponsor">—</div>
-          <div class="text-xs text-slate-400 mt-0.5">sponsoring states</div>
+          <div class="text-xs text-slate-400">sponsors</div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Print header (only shows when printing) -->
-  <div class="hidden print:block p-6 border-b">
-    <h1 class="text-2xl font-bold text-slate-900">ISA Member State Positions on Deep-Sea Mining</h1>
-    <p class="text-slate-500 text-sm mt-1">International Seabed Authority · <span id="print-date"></span></p>
-    <p class="text-slate-400 text-xs mt-2">Source: DSCC, ISA session documents, government statements. Scores are indicative and subject to expert review.</p>
-  </div>
-
   <!-- Controls -->
-  <div class="max-w-7xl mx-auto px-4 py-4 no-print">
-    <div class="flex flex-wrap gap-3 items-center">
+  <div class="max-w-7xl mx-auto px-4 py-3 no-print space-y-2.5">
+
+    <div class="flex flex-wrap gap-2 items-center">
       <!-- Search -->
       <div class="relative">
         <input id="search-input" type="text" placeholder="Search country…"
-          class="pl-9 pr-4 py-2 border border-slate-200 rounded-xl text-sm bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-48" />
-        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">🔍</span>
+          class="pl-8 pr-4 py-2 border border-slate-200 rounded-xl text-sm bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-44" />
+        <span class="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs">🔍</span>
       </div>
 
       <!-- Stance filter -->
-      <div class="flex gap-1.5">
-        <button class="filter-btn active text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="stance" data-value="all" onclick="setFilter('stance','all',this)">All</button>
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="stance" data-value="oppose" onclick="setFilter('stance','oppose',this)">Opposing</button>
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="stance" data-value="support" onclick="setFilter('stance','support',this)">Supporting</button>
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="stance" data-value="conditional" onclick="setFilter('stance','conditional',this)">Conditional</button>
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="stance" data-value="unknown" onclick="setFilter('stance','unknown',this)">Unknown</button>
+      <div class="flex gap-1.5 flex-wrap">
+        <span class="text-xs text-slate-400 self-center pr-1">Stance:</span>
+        <button class="filter-btn active text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('stance','all',this)">All</button>
+        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('stance','oppose',this)">Opposing</button>
+        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('stance','support',this)">Supporting</button>
+        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('stance','conditional',this)">Conditional</button>
+        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('stance','unknown',this)">No position</button>
       </div>
 
-      <!-- Context filter -->
-      <div class="flex gap-1.5">
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="sponsor" data-value="yes" onclick="toggleFilter('sponsor',this)">🏭 Sponsors</button>
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="land" data-value="yes" onclick="toggleFilter('land',this)">⛏️ Land Mining</button>
-        <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="green" data-value="yes" onclick="toggleFilter('green',this)">🌿 Green Gov</button>
-      </div>
-
-      <!-- Region filter -->
+      <!-- Region -->
       <select id="region-filter" onchange="renderTable()" class="text-xs border border-slate-200 rounded-xl px-3 py-2 bg-white text-slate-600 shadow-sm focus:outline-none">
         <option value="">All regions</option>
-        <option value="Africa">Africa</option>
-        <option value="Asia">Asia</option>
-        <option value="Caribbean">Caribbean</option>
-        <option value="Central America">Central America</option>
-        <option value="Europe">Europe</option>
-        <option value="Europe/Asia">Europe/Asia</option>
-        <option value="Middle East">Middle East</option>
-        <option value="North America">North America</option>
-        <option value="Oceania">Oceania</option>
-        <option value="South America">South America</option>
+        <option>Africa</option><option>Asia</option><option>Caribbean</option>
+        <option>Central America</option><option>Europe</option><option>Europe/Asia</option>
+        <option>Middle East</option><option>North America</option><option>Oceania</option>
+        <option>South America</option>
       </select>
 
       <span class="text-slate-400 text-xs ml-auto" id="result-count"></span>
     </div>
+
+    <div class="flex flex-wrap gap-2 items-center">
+      <!-- Category filter -->
+      <span class="text-xs text-slate-400 self-center pr-1">Category:</span>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','loud-minority',this)" title="Opposing + ISA activity 4–5★">🔴 Loud minority</button>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','silent-minority',this)" title="Opposing + ISA activity 1–3★">🩸 Silent minority</button>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','loud-majority',this)" title="Supporting/conditional + ISA activity 4–5★">🟢 Loud majority</button>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','silent-majority',this)" title="Not opposing + low activity or no position">⚪ Silent majority</button>
+
+      <!-- Context toggles -->
+      <span class="text-xs text-slate-400 self-center pl-2 pr-1">Context:</span>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="sponsor" onclick="toggleFilter('sponsor',this)">🏭 Sponsors</button>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="land" onclick="toggleFilter('land',this)">⛏️ Land Mining</button>
+      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="green" onclick="toggleFilter('green',this)">🌿 Green Gov</button>
+    </div>
   </div>
 
   <!-- Table -->
-  <div class="max-w-7xl mx-auto px-4 pb-16">
+  <div class="max-w-7xl mx-auto px-4 pb-12">
     <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
       <div class="overflow-x-auto">
         <table class="w-full text-sm" id="main-table">
           <thead>
             <tr class="border-b border-slate-200 bg-slate-50 text-left">
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 w-48" onclick="sortTable('name')">
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 w-44" onclick="sortTable('name')">
                 Country <span class="sort-arrow" id="sort-name">↕</span>
               </th>
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800" onclick="sortTable('region')">
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 hidden sm:table-cell" onclick="sortTable('region')">
                 Region <span class="sort-arrow" id="sort-region">↕</span>
               </th>
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 text-center" onclick="sortTable('activity')">
-                <span title="ISA activity score based on document submissions (1–5)">ISA Activity ↕</span>
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 text-center" onclick="sortTable('activity')" title="ISA activity score (1–5): based on document submissions and participation">
+                Activity <span class="sort-arrow" id="sort-activity">↕</span>
               </th>
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800" onclick="sortTable('stance')">
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800" onclick="sortTable('stance')">
                 DSM Position <span class="sort-arrow" id="sort-stance">↕</span>
               </th>
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 text-center" onclick="sortTable('strength')">
-                <span title="Position strength (5=hard moratorium, 1=soft/unknown)">Strength ↕</span>
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide cursor-pointer hover:text-slate-800 text-center" onclick="sortTable('strength')" title="Position strength (5=hard moratorium, 1=soft/supportive)">
+                Strength <span class="sort-arrow" id="sort-strength">↕</span>
               </th>
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">Context</th>
-              <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide no-print">Notes</th>
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">Context</th>
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">Gov. Position</th>
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide notes-col no-print">Notes</th>
             </tr>
           </thead>
           <tbody id="table-body">
-            <tr><td colspan="7" class="py-16 text-center text-slate-400">Loading…</td></tr>
+            <tr><td colspan="8" class="py-16 text-center text-slate-400">Loading…</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <!-- Legend -->
-    <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-500">
+    <!-- Legend (screen) -->
+    <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-500 no-print">
       <div class="bg-white rounded-xl border border-slate-200 p-4">
-        <div class="font-semibold text-slate-700 mb-2">Position Strength Score (⭐)</div>
-        <div class="space-y-1">
-          <div>⭐⭐⭐⭐⭐ <strong>Hard moratorium</strong> — unconditional call to stop all DSM</div>
-          <div>⭐⭐⭐⭐ <strong>Strong pause</strong> — no DSM until robust regulations + environment proven protected</div>
-          <div>⭐⭐⭐ <strong>Conditional pause</strong> — more science and regulations needed first</div>
+        <div class="font-semibold text-slate-700 mb-2">Position Strength (⭐ 1–5)</div>
+        <div class="space-y-0.5">
+          <div>⭐⭐⭐⭐⭐ <strong>Hard moratorium</strong> — unconditional, no conditions</div>
+          <div>⭐⭐⭐⭐ <strong>Strong pause</strong> — no DSM until regulations + environment proven</div>
+          <div>⭐⭐⭐ <strong>Conditional pause</strong> — mirrors ISA framework conditions</div>
           <div>⭐⭐ <strong>Soft concern</strong> — general precautionary language, no firm stance</div>
           <div>⭐ <strong>No/weak position</strong> — neutral or supportive of ISA process</div>
         </div>
       </div>
       <div class="bg-white rounded-xl border border-slate-200 p-4">
-        <div class="font-semibold text-slate-700 mb-2">ISA Activity Score (⭐)</div>
-        <div class="space-y-1">
-          <div>⭐⭐⭐⭐⭐ Very active — multiple submissions per session, co-sponsor major proposals</div>
-          <div>⭐⭐⭐⭐ Active — regular written submissions, active in debates</div>
-          <div>⭐⭐⭐ Moderate — occasional submissions, key debates</div>
-          <div>⭐⭐ Limited — rare submissions, passive participation</div>
-          <div>⭐ Minimal — attends but rarely submits</div>
+        <div class="font-semibold text-slate-700 mb-2">Categories</div>
+        <div class="space-y-0.5">
+          <div>🔴 <strong>Loud minority</strong> — opposing + ISA activity 4–5★</div>
+          <div>🩸 <strong>Silent minority</strong> — opposing + ISA activity 1–3★</div>
+          <div>🟢 <strong>Loud majority</strong> — supporting/conditional + ISA activity 4–5★</div>
+          <div>⚪ <strong>Silent majority</strong> — not opposing + low activity or no stated position</div>
         </div>
-        <div class="mt-2 text-slate-400 italic">Scores are indicative; full scraping of ISA document database pending.</div>
+        <div class="mt-2 text-slate-400 italic">ISA activity scores are indicative; full scraping pending.</div>
+      </div>
+    </div>
+
+    <!-- Print legend -->
+    <div class="print-legend p-4">
+      <h3 class="font-semibold text-slate-700 text-sm mb-2">Legend</h3>
+      <div class="grid grid-cols-2 gap-4 text-xs">
+        <div>
+          <div class="font-medium mb-1">Position Strength (⭐ 1–5)</div>
+          <div>⭐⭐⭐⭐⭐ Hard moratorium — unconditional</div>
+          <div>⭐⭐⭐⭐ Strong precautionary pause</div>
+          <div>⭐⭐⭐ Conditional — mirrors ISA framework</div>
+          <div>⭐⭐ Soft concern</div>
+          <div>⭐ Neutral / supportive of ISA process</div>
+        </div>
+        <div>
+          <div class="font-medium mb-1">Context tags</div>
+          <div>🏭 Sponsor — ISA exploration contractor</div>
+          <div>⛏️ Land mining — Cu/Ni/Co/Mn producer</div>
+          <div>🌿 Green gov — environmental coalition government</div>
+          <div class="mt-2 italic text-slate-400">Data: DSCC, ISA session records, government statements. Oct 2026.</div>
+        </div>
       </div>
     </div>
 
     <!-- Data notice -->
-    <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-4 text-xs text-amber-800 no-print">
-      <strong>Data notice:</strong> DSM positions are based on public statements, DSCC listings, and known ISA session submissions as of October 2026.
-      ISA activity scores are indicative estimates pending full scraping of ISA document submissions.
-      Position strength scores reflect the author's assessment of stated positions.
-      All data should be verified against primary sources before formal use.
-      <span class="ml-2 font-medium cursor-pointer hover:underline" onclick="document.getElementById('data-notice').classList.toggle('hidden')">
-        [expand methodology]
-      </span>
-      <div id="data-notice" class="hidden mt-3 space-y-1 text-amber-700">
-        <div><strong>Opposition sources:</strong> Deep Sea Conservation Coalition (DSCC) country lists, ISA session records (ISBA/26-31 series), national government statements, IUCN resolutions.</div>
+    <div class="mt-3 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs text-amber-800 no-print">
+      <strong>Data notice:</strong> DSM positions based on public statements, DSCC listings, and ISA session submissions (Oct 2026).
+      ISA activity scores are indicative. Position strength reflects the author's assessment.
+      <span class="ml-2 font-medium cursor-pointer hover:underline" onclick="document.getElementById('data-notice').classList.toggle('hidden')">[methodology ↓]</span>
+      <div id="data-notice" class="hidden mt-2 text-amber-700 space-y-1">
+        <div><strong>Opposition sources:</strong> DSCC country lists, ISA session records (ISBA/26–31), national government statements, IUCN resolutions.</div>
         <div><strong>Sponsoring states:</strong> ISA contractor database (isa.org.jm/contractors).</div>
-        <div><strong>Land-based mining:</strong> USGS Mineral Commodity Summaries 2024, critical mineral producer databases.</div>
-        <div><strong>Green governments:</strong> Climate Action Tracker, Yale EPI, national government coalition data.</div>
+        <div><strong>Land mining (Cu/Ni/Co/Mn only):</strong> USGS Mineral Commodity Summaries 2024.</div>
+        <div><strong>Green governments:</strong> Climate Action Tracker, Yale EPI, national coalition data.</div>
       </div>
     </div>
   </div>
 
   <script>
-    const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
       ? '' : 'https://web-production-a625a.up.railway.app';
 
     let allStates = [];
     let sortKey = 'name';
     let sortDir = 1;
-    let filters = { stance: 'all', sponsor: false, land: false, green: false };
+    let filters = { stance: 'all', category: 'all', sponsor: false, land: false, green: false };
+    let showNotes = true;
 
     const STANCE_LABELS = {
       oppose: 'Opposing', support: 'Supporting',
@@ -245,10 +275,17 @@
     function stars(n, max=5) {
       if (n === null || n === undefined) return '<span class="text-slate-300 text-xs">—</span>';
       let s = '';
-      for (let i=1; i<=max; i++) {
-        s += `<span class="${i<=n?'star-filled':'star-empty'}">★</span>`;
-      }
+      for (let i=1; i<=max; i++) s += `<span class="${i<=n?'star-filled':'star-empty'}">★</span>`;
       return s;
+    }
+
+    function getCategory(s) {
+      const stance = s.dsm_position.stance;
+      const act = s.isa_activity.score || 0;
+      if (stance === 'oppose' && act >= 4) return 'loud-minority';
+      if (stance === 'oppose' && act < 4)  return 'silent-minority';
+      if ((stance === 'support' || stance === 'conditional') && act >= 4) return 'loud-majority';
+      return 'silent-majority';
     }
 
     function renderTable() {
@@ -257,6 +294,7 @@
 
       let rows = allStates.filter(s => {
         if (filters.stance !== 'all' && s.dsm_position.stance !== filters.stance) return false;
+        if (filters.category !== 'all' && getCategory(s) !== filters.category) return false;
         if (filters.sponsor && !s.context.sponsoring_state) return false;
         if (filters.land && !s.context.land_based_mining) return false;
         if (filters.green && !s.context.green_government) return false;
@@ -267,32 +305,52 @@
 
       rows.sort((a,b) => {
         let av, bv;
-        if (sortKey === 'name') { av = a.name; bv = b.name; }
-        else if (sortKey === 'region') { av = a.region; bv = b.region; }
+        if (sortKey === 'name')     { av = a.name; bv = b.name; }
+        else if (sortKey === 'region')   { av = a.region; bv = b.region; }
         else if (sortKey === 'activity') { av = a.isa_activity.score || 0; bv = b.isa_activity.score || 0; }
-        else if (sortKey === 'stance') { av = a.dsm_position.stance; bv = b.dsm_position.stance; }
+        else if (sortKey === 'stance')   { av = a.dsm_position.stance; bv = b.dsm_position.stance; }
         else if (sortKey === 'strength') { av = a.position_strength.score || 0; bv = b.position_strength.score || 0; }
         if (typeof av === 'string') return sortDir * av.localeCompare(bv);
         return sortDir * (av - bv);
       });
 
-      document.getElementById('result-count').textContent = `${rows.length} of ${allStates.length} states`;
+      document.getElementById('result-count').textContent = `${rows.length} of ${allStates.length}`;
+
+      const notesDisplay = showNotes ? '' : 'none';
+      document.querySelectorAll('.notes-col').forEach(el => el.style.display = notesDisplay);
 
       const tbody = document.getElementById('table-body');
-      if (rows.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="7" class="py-12 text-center text-slate-400">No matching states found.</td></tr>';
+      if (!rows.length) {
+        tbody.innerHTML = '<tr><td colspan="8" class="py-12 text-center text-slate-400">No matching states found.</td></tr>';
         return;
       }
 
       tbody.innerHTML = rows.map(s => {
         const stance = s.dsm_position.stance;
-        const stanceClass = STANCE_CLASS[stance] || 'stance-unknown';
         const stanceLabel = STANCE_LABELS[stance] || 'Unknown';
+        const stanceClass = STANCE_CLASS[stance] || 'stance-unknown';
+        const cat = getCategory(s);
+        const catIcon = { 'loud-minority':'🔴','silent-minority':'🩸','loud-majority':'🟢','silent-majority':'⚪' }[cat] || '';
 
         const tags = [];
-        if (s.context.sponsoring_state)   tags.push(`<span class="tag-sponsor text-xs px-2 py-0.5 rounded-full font-medium">🏭 Sponsor</span>`);
-        if (s.context.land_based_mining)  tags.push(`<span class="tag-land text-xs px-2 py-0.5 rounded-full font-medium">⛏️ Land mining</span>`);
-        if (s.context.green_government)   tags.push(`<span class="tag-green text-xs px-2 py-0.5 rounded-full font-medium">🌿 Green gov</span>`);
+        if (s.context.sponsoring_state)  tags.push(`<span class="tag-sponsor text-xs px-1.5 py-0.5 rounded-full font-medium">🏭 Sponsor</span>`);
+        if (s.context.land_based_mining) tags.push(`<span class="tag-land text-xs px-1.5 py-0.5 rounded-full font-medium">⛏️ Mining</span>`);
+        if (s.context.green_government)  tags.push(`<span class="tag-green text-xs px-1.5 py-0.5 rounded-full font-medium">🌿 Green</span>`);
+
+        const contractors = s.context.sponsored_contractors?.length
+          ? `<div class="text-xs text-slate-400 mt-0.5 leading-tight">${s.context.sponsored_contractors.join(', ')}</div>`
+          : '';
+
+        const minerals = s.context.land_based_mining && s.context.mining_resources?.length
+          ? `<div class="text-xs text-slate-400 leading-tight">${s.context.mining_resources.join(', ')}</div>`
+          : '';
+
+        const govLink = s.dsm_position.source_url
+          ? `<a href="${s.dsm_position.source_url}" target="_blank" rel="noopener"
+              class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-xs font-medium no-underline hover:underline">
+              Gov. position ↗
+             </a>`
+          : '<span class="text-slate-300 text-xs">—</span>';
 
         const notesContent = [
           s.dsm_position.statement,
@@ -300,45 +358,39 @@
           s.isa_activity.notes
         ].filter(Boolean).join(' · ');
 
-        const sourceLink = s.dsm_position.source_url
-          ? `<a href="${s.dsm_position.source_url}" target="_blank" rel="noopener" class="text-blue-500 hover:underline ml-1 text-xs">↗</a>`
-          : '';
-
-        const contractors = s.context.sponsored_contractors?.length
-          ? `<div class="text-xs text-slate-400 mt-0.5">Contractors: ${s.context.sponsored_contractors.join(', ')}</div>`
-          : '';
-
-        const minerals = s.context.mining_resources?.length
-          ? `<div class="text-xs text-slate-400 mt-0.5">Resources: ${s.context.mining_resources.join(', ')}</div>`
-          : '';
-
         return `
           <tr class="border-b border-slate-100">
-            <td class="px-4 py-3">
-              <div class="font-medium text-slate-800">${s.name}</div>
-              <div class="text-xs text-slate-400">${s.iso2}</div>
+            <td class="px-3 py-2.5">
+              <div class="flex items-center gap-1.5">
+                <span class="text-xs">${catIcon}</span>
+                <div>
+                  <div class="font-medium text-slate-800 text-sm">${s.name}</div>
+                  <div class="text-xs text-slate-400">${s.iso2}</div>
+                </div>
+              </div>
             </td>
-            <td class="px-4 py-3 text-slate-500 text-xs">${s.region}</td>
-            <td class="px-4 py-3 text-center">
-              <div class="text-base leading-none">${stars(s.isa_activity.score)}</div>
-              ${s.isa_activity.notes ? `<div class="text-xs text-slate-400 mt-0.5 max-w-[120px] mx-auto leading-tight">${s.isa_activity.notes}</div>` : ''}
+            <td class="px-3 py-2.5 text-slate-500 text-xs hidden sm:table-cell">${s.region}</td>
+            <td class="px-3 py-2.5 text-center">
+              <div class="text-sm leading-none">${stars(s.isa_activity.score)}</div>
             </td>
-            <td class="px-4 py-3">
-              <span class="inline-flex items-center gap-1 border text-xs px-2.5 py-1 rounded-full font-medium ${stanceClass}">
+            <td class="px-3 py-2.5">
+              <span class="inline-flex items-center border text-xs px-2 py-0.5 rounded-full font-medium ${stanceClass}">
                 ${stanceLabel}
               </span>
               ${s.dsm_position.date ? `<div class="text-xs text-slate-400 mt-0.5">${s.dsm_position.date}</div>` : ''}
             </td>
-            <td class="px-4 py-3 text-center">
-              <div class="text-base leading-none">${stars(s.position_strength.score)}</div>
+            <td class="px-3 py-2.5 text-center">
+              <div class="text-sm leading-none">${stars(s.position_strength.score)}</div>
             </td>
-            <td class="px-4 py-3">
-              <div class="flex flex-wrap gap-1.5">${tags.join('') || '<span class="text-slate-300 text-xs">—</span>'}</div>
-              ${contractors}
-              ${minerals}
+            <td class="px-3 py-2.5">
+              <div class="flex flex-wrap gap-1">${tags.join('') || '<span class="text-slate-300 text-xs">—</span>'}</div>
+              ${contractors}${minerals}
             </td>
-            <td class="px-4 py-3 text-xs text-slate-500 max-w-xs no-print">
-              ${notesContent ? `<div class="leading-relaxed">${notesContent}${sourceLink}</div>` : '<span class="text-slate-300">—</span>'}
+            <td class="px-3 py-2.5">${govLink}</td>
+            <td class="px-3 py-2.5 text-xs text-slate-500 max-w-xs notes-col no-print">
+              ${notesContent
+                ? `<div class="leading-relaxed">${notesContent}</div>`
+                : '<span class="text-slate-300">—</span>'}
             </td>
           </tr>`;
       }).join('');
@@ -355,7 +407,10 @@
 
     function setFilter(type, value, btn) {
       filters[type] = value;
-      btn.closest('div').querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      // reset sibling buttons in same group
+      btn.parentElement.querySelectorAll('.filter-btn').forEach(b => {
+        b.classList.remove('active','active-red','active-green');
+      });
       btn.classList.add('active');
       renderTable();
     }
@@ -366,12 +421,20 @@
       renderTable();
     }
 
-    document.getElementById('search-input').addEventListener('input', renderTable);
+    function toggleNotes() {
+      showNotes = !showNotes;
+      document.getElementById('toggle-notes-btn').textContent = showNotes ? '📝 Hide notes' : '📝 Show notes';
+      renderTable();
+    }
 
     function printPage() {
-      document.getElementById('print-date').textContent = new Date().toLocaleDateString('en-GB', {year:'numeric',month:'long',day:'numeric'});
+      document.getElementById('print-date').textContent =
+        new Date().toLocaleDateString('en-GB', { year:'numeric', month:'long', day:'numeric' });
+      // Apply current filter to print — no extra changes needed, the DOM is already filtered
       window.print();
     }
+
+    document.getElementById('search-input').addEventListener('input', renderTable);
 
     async function loadData() {
       try {
@@ -384,19 +447,22 @@
         const counts = { oppose:0, support:0, conditional:0, unknown:0 };
         let sponsors = 0;
         allStates.forEach(s => {
-          counts[s.dsm_position.stance] = (counts[s.dsm_position.stance] || 0) + 1;
+          const st = s.dsm_position.stance;
+          counts[st] = (counts[st] || 0) + 1;
           if (s.context.sponsoring_state) sponsors++;
         });
-        document.getElementById('stat-oppose').textContent = counts.oppose;
-        document.getElementById('stat-support').textContent = counts.support;
+        document.getElementById('stat-oppose').textContent      = counts.oppose;
+        document.getElementById('stat-support').textContent     = counts.support;
         document.getElementById('stat-conditional').textContent = counts.conditional;
-        document.getElementById('stat-unknown').textContent = counts.unknown;
-        document.getElementById('stat-sponsor').textContent = sponsors;
+        document.getElementById('stat-unknown').textContent     = counts.unknown;
+        document.getElementById('stat-sponsor').textContent     = sponsors;
 
         renderTable();
-      } catch (err) {
+      } catch(err) {
         document.getElementById('table-body').innerHTML =
-          `<tr><td colspan="7" class="py-12 text-center text-red-400">Failed to load data. <button onclick="loadData()" class="underline">Retry</button></td></tr>`;
+          `<tr><td colspan="8" class="py-12 text-center text-red-400">
+             Failed to load data. <button onclick="loadData()" class="underline">Retry</button>
+           </td></tr>`;
       }
     }
 
