@@ -96,12 +96,19 @@
         </div>
       </div>
 
-      <!-- Summary stats -->
-      <div class="mt-4 flex flex-wrap gap-3" id="summary-bar">
-        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
-          <div class="text-xl font-bold text-red-300" id="stat-oppose">—</div>
-          <div class="text-xs text-slate-400">opposing</div>
+      <!-- Summary stats – row 1: headline numbers -->
+      <div class="mt-4 flex flex-wrap gap-3">
+        <div class="bg-purple-500/20 rounded-xl px-4 py-3 text-center min-w-[110px]">
+          <div class="text-2xl font-bold text-purple-300" id="stat-moratorium">—</div>
+          <div class="text-xs text-purple-300/80">moratorium call</div>
         </div>
+        <div class="bg-red-500/20 rounded-xl px-4 py-3 text-center min-w-[110px]">
+          <div class="text-2xl font-bold text-red-300" id="stat-oppose">—</div>
+          <div class="text-xs text-red-300/80">opposing</div>
+        </div>
+      </div>
+      <!-- Summary stats – row 2: remaining stances -->
+      <div class="mt-2 flex flex-wrap gap-3">
         <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-green-300" id="stat-support">—</div>
           <div class="text-xs text-slate-400">supporting</div>
@@ -113,14 +120,6 @@
         <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
           <div class="text-xl font-bold text-slate-300" id="stat-unknown">—</div>
           <div class="text-xs text-slate-400">no position</div>
-        </div>
-        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
-          <div class="text-xl font-bold text-blue-300" id="stat-sponsor">—</div>
-          <div class="text-xs text-slate-400">sponsors</div>
-        </div>
-        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
-          <div class="text-xl font-bold text-purple-300" id="stat-moratorium">—</div>
-          <div class="text-xs text-slate-400">moratorium call</div>
         </div>
       </div>
     </div>
@@ -483,19 +482,17 @@
         document.getElementById('hdr-total').textContent = allStates.length;
 
         const counts = { oppose:0, support:0, conditional:0, unknown:0 };
-        let sponsors = 0, moratoriums = 0;
+        let moratoriums = 0;
         allStates.forEach(s => {
           const st = s.dsm_position.stance;
           counts[st] = (counts[st] || 0) + 1;
-          if (s.context.sponsoring_state) sponsors++;
           if (s.dsm_position.moratorium_call) moratoriums++;
         });
+        document.getElementById('stat-moratorium').textContent  = moratoriums;
         document.getElementById('stat-oppose').textContent      = counts.oppose;
         document.getElementById('stat-support').textContent     = counts.support;
         document.getElementById('stat-conditional').textContent = counts.conditional;
         document.getElementById('stat-unknown').textContent     = counts.unknown;
-        document.getElementById('stat-sponsor').textContent     = sponsors;
-        document.getElementById('stat-moratorium').textContent  = moratoriums;
 
         renderTable();
       } catch(err) {
