@@ -244,15 +244,15 @@
         "notes": "EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Called for precautionary pause; supports EU precautionary approach",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "Part of European bloc calling for precautionary pause; landlocked but active on environmental policy"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -850,15 +850,15 @@
         "notes": "Active participant; submitted proposals in key sessions"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Supports a precautionary pause on commercial DSM, conditional on ISA developing adequate standards and environmental protections",
+        "stance": "conditional",
+        "dscc_listed": false,
+        "statement": "Seabed mining should take place only if effective protection of the marine environment is provided through a rigorous regulatory structure, applying precautionary and ecosystem-based approaches, using science-based and transparent management, and ensuring effective compliance with a robust inspection mechanism",
         "source_url": "https://www.canada.ca/en/global-affairs/news/2023/07/canadas-position-on-seabed-mining-in-areas-beyond-national-jurisdiction.html",
         "date": "2023"
       },
       "position_strength": {
         "score": 3,
-        "rationale": "Government statement supports pause conditional on ISA developing adequate standards — position mirrors ISA's own framework conditions rather than an unconditional moratorium"
+        "rationale": "Conditional on rigorous regulation and environmental protection — mirrors the ISA's own framework conditions; not an unconditional moratorium"
       },
       "context": {
         "sponsoring_state": false,
@@ -1136,15 +1136,15 @@
         "notes": "EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU-coordinated call for precautionary pause",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "Part of EU bloc; strong Adriatic coastal state identity"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -1200,15 +1200,15 @@
         "notes": "EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU call for precautionary pause",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc member; island state identity"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -1813,15 +1813,15 @@
         "notes": "EU coordination; maritime nation"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU precautionary pause call",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc; shipping nation with ocean identity"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -2514,15 +2514,15 @@
         "notes": "EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU call for precautionary pause",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc; Baltic Sea state with ocean identity"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -2665,15 +2665,15 @@
         "notes": "Notable for adopting first national space resources legislation; EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU precautionary pause call",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc member; notable context as early proponent of space resources extraction"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -2853,15 +2853,15 @@
         "notes": "Historical role: 1967 Maltese proposal to UN established 'common heritage of mankind' concept; EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU precautionary pause call",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc; historically significant as originator of 'common heritage of mankind' concept"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -3980,15 +3980,15 @@
         "notes": "EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU precautionary pause call",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc; Black Sea coastal state"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
@@ -4480,15 +4480,15 @@
         "notes": "EU coordination"
       },
       "dsm_position": {
-        "stance": "oppose",
-        "dscc_listed": true,
-        "statement": "Joined EU precautionary pause call",
+        "stance": "unknown",
+        "dscc_listed": false,
+        "statement": "No confirmed individual national position statement documented",
         "source_url": "",
         "date": null
       },
       "position_strength": {
-        "score": 3,
-        "rationale": "EU bloc; small Adriatic coastline"
+        "score": null,
+        "rationale": "No confirmed individual national position statement"
       },
       "context": {
         "sponsoring_state": false,
