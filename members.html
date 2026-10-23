@@ -33,22 +33,36 @@
       .no-print { display:none !important; }
       body { background:white; margin:0; padding:0; font-size:8pt; }
       .print-header { display:block !important; }
-      table { font-size:7pt; border-collapse:collapse; width:100%; }
-      th, td { padding:3pt 5pt !important; border:1px solid #ddd; }
-      thead { background:#f1f5f9 !important; -webkit-print-color-adjust:exact; }
-      tr { page-break-inside:avoid; }
-      .stance-oppose      { background:#fef2f2 !important; -webkit-print-color-adjust:exact; }
-      .stance-support     { background:#f0fdf4 !important; -webkit-print-color-adjust:exact; }
-      .stance-conditional { background:#fffbeb !important; -webkit-print-color-adjust:exact; }
-      .notes-col { display: var(--notes-display, table-cell) !important; }
-      .rounded-2xl, .rounded-xl, .shadow-sm { border-radius:0 !important; box-shadow:none !important; }
-      .overflow-x-auto { overflow:visible !important; }
-      .max-w-7xl { max-width:100% !important; margin:0 !important; padding:0 !important; }
-      .print-legend { display:block !important; page-break-before:always; }
+      #print-view { display:block !important; }
+
+      .pv-group { margin-bottom:10pt; page-break-inside:avoid; }
+      .pv-group-header {
+        font-weight:700; font-size:9pt; padding:3pt 5pt;
+        border-bottom:1.5pt solid #333; margin-bottom:5pt;
+        -webkit-print-color-adjust:exact;
+      }
+      .pv-group-header.gh-oppose      { background:#fef2f2; color:#dc2626; border-color:#dc2626; }
+      .pv-group-header.gh-conditional { background:#fffbeb; color:#d97706; border-color:#d97706; }
+      .pv-group-header.gh-support     { background:#f0fdf4; color:#16a34a; border-color:#16a34a; }
+      .pv-group-header.gh-unknown     { background:#f8fafc; color:#94a3b8; border-color:#94a3b8; }
+
+      .pv-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:3pt; }
+      .pv-card {
+        border:0.5pt solid #e2e8f0; padding:3pt 4pt;
+        page-break-inside:avoid; font-size:7.5pt;
+      }
+      .pv-name { font-weight:600; font-size:8pt; }
+      .pv-meta { color:#555; font-size:7pt; margin-top:1pt; }
+      .pv-stars { font-size:7pt; letter-spacing:-0.5pt; }
+      .pv-stars .sf { color:#f59e0b; }
+      .pv-stars .se { color:#e2e8f0; }
+
+      .pv-legend { margin-top:10pt; border-top:1pt solid #ccc; padding-top:6pt; font-size:7pt; color:#555; }
+      .pv-legend-grid { display:grid; grid-template-columns:1fr 1fr; gap:6pt; margin-top:4pt; }
     }
     @media screen {
       .print-header { display:none; }
-      .print-legend { display:none; }
+      #print-view { display:none; }
     }
   </style>
 </head>
@@ -71,9 +85,6 @@
           <p class="text-slate-400 text-sm">ISA member states and their stance on deep-sea mining (DSM)</p>
         </div>
         <div class="flex items-center gap-3">
-          <button id="toggle-notes-btn" onclick="toggleNotes()" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl px-4 py-2 text-sm font-medium transition-colors">
-            📝 Hide notes
-          </button>
           <button onclick="printPage()" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-xl px-4 py-2 text-sm font-medium transition-colors">
             🖨️ Print / PDF
           </button>
@@ -140,28 +151,20 @@
         <option>South America</option>
       </select>
 
-      <span class="text-slate-400 text-xs ml-auto" id="result-count"></span>
-    </div>
-
-    <div class="flex flex-wrap gap-2 items-center">
-      <!-- Category filter -->
-      <span class="text-xs text-slate-400 self-center pr-1">Category:</span>
-      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','loud-minority',this)" title="Opposing + ISA activity 4–5★">🔴 Loud minority</button>
-      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','silent-minority',this)" title="Opposing + ISA activity 1–3★">🩸 Silent minority</button>
-      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','loud-majority',this)" title="Supporting/conditional + ISA activity 4–5★">🟢 Loud majority</button>
-      <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" onclick="setFilter('category','silent-majority',this)" title="Not opposing + low activity or no position">⚪ Silent majority</button>
-
       <!-- Context toggles -->
       <span class="text-xs text-slate-400 self-center pl-2 pr-1">Context:</span>
       <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="sponsor" onclick="toggleFilter('sponsor',this)">🏭 Sponsors</button>
       <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="land" onclick="toggleFilter('land',this)">⛏️ Land Mining</button>
       <button class="filter-btn text-xs border rounded-full px-3 py-1.5 font-medium" data-filter="green" onclick="toggleFilter('green',this)">🌿 Green Gov</button>
+
+      <span class="text-slate-400 text-xs ml-auto" id="result-count"></span>
     </div>
+
   </div>
 
-  <!-- Table -->
+  <!-- Table (screen only) -->
   <div class="max-w-7xl mx-auto px-4 pb-12">
-    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden no-print">
       <div class="overflow-x-auto">
         <table class="w-full text-sm" id="main-table">
           <thead>
@@ -183,7 +186,7 @@
               </th>
               <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">Context</th>
               <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">Gov. Position</th>
-              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide notes-col no-print">Notes</th>
+              <th class="px-3 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wide">Notes</th>
             </tr>
           </thead>
           <tbody id="table-body">
@@ -193,48 +196,19 @@
       </div>
     </div>
 
-    <!-- Legend (screen) -->
-    <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-slate-500 no-print">
-      <div class="bg-white rounded-xl border border-slate-200 p-4">
-        <div class="font-semibold text-slate-700 mb-2">Position Strength (⭐ 1–5)</div>
-        <div class="space-y-0.5">
-          <div>⭐⭐⭐⭐⭐ <strong>Hard moratorium</strong> — unconditional, no conditions</div>
-          <div>⭐⭐⭐⭐ <strong>Strong pause</strong> — no DSM until regulations + environment proven</div>
-          <div>⭐⭐⭐ <strong>Conditional pause</strong> — mirrors ISA framework conditions</div>
-          <div>⭐⭐ <strong>Soft concern</strong> — general precautionary language, no firm stance</div>
-          <div>⭐ <strong>No/weak position</strong> — neutral or supportive of ISA process</div>
-        </div>
-      </div>
-      <div class="bg-white rounded-xl border border-slate-200 p-4">
-        <div class="font-semibold text-slate-700 mb-2">Categories</div>
-        <div class="space-y-0.5">
-          <div>🔴 <strong>Loud minority</strong> — opposing + ISA activity 4–5★</div>
-          <div>🩸 <strong>Silent minority</strong> — opposing + ISA activity 1–3★</div>
-          <div>🟢 <strong>Loud majority</strong> — supporting/conditional + ISA activity 4–5★</div>
-          <div>⚪ <strong>Silent majority</strong> — not opposing + low activity or no stated position</div>
-        </div>
-        <div class="mt-2 text-slate-400 italic">ISA activity scores are indicative; full scraping pending.</div>
-      </div>
-    </div>
+    <!-- Print view (hidden on screen, shown on print) -->
+    <div id="print-view"></div>
 
-    <!-- Print legend -->
-    <div class="print-legend p-4">
-      <h3 class="font-semibold text-slate-700 text-sm mb-2">Legend</h3>
-      <div class="grid grid-cols-2 gap-4 text-xs">
-        <div>
-          <div class="font-medium mb-1">Position Strength (⭐ 1–5)</div>
-          <div>⭐⭐⭐⭐⭐ Hard moratorium — unconditional</div>
-          <div>⭐⭐⭐⭐ Strong precautionary pause</div>
-          <div>⭐⭐⭐ Conditional — mirrors ISA framework</div>
-          <div>⭐⭐ Soft concern</div>
-          <div>⭐ Neutral / supportive of ISA process</div>
-        </div>
-        <div>
-          <div class="font-medium mb-1">Context tags</div>
-          <div>🏭 Sponsor — ISA exploration contractor</div>
-          <div>⛏️ Land mining — Cu/Ni/Co/Mn producer</div>
-          <div>🌿 Green gov — environmental coalition government</div>
-          <div class="mt-2 italic text-slate-400">Data: DSCC, ISA session records, government statements. Oct 2026.</div>
+    <!-- Legend (screen) -->
+    <div class="mt-5 no-print">
+      <div class="bg-white rounded-xl border border-slate-200 p-4 text-xs text-slate-500">
+        <div class="font-semibold text-slate-700 mb-2">Position Strength (⭐ 1–5)</div>
+        <div class="flex flex-wrap gap-x-6 gap-y-0.5">
+          <div>⭐⭐⭐⭐⭐ <strong>Hard moratorium</strong> — unconditional</div>
+          <div>⭐⭐⭐⭐ <strong>Strong pause</strong> — no DSM until regulations proven</div>
+          <div>⭐⭐⭐ <strong>Conditional</strong> — mirrors ISA framework conditions</div>
+          <div>⭐⭐ <strong>Soft concern</strong> — general precautionary language</div>
+          <div>⭐ <strong>Neutral / supportive</strong> of ISA process</div>
         </div>
       </div>
     </div>
@@ -260,8 +234,7 @@
     let allStates = [];
     let sortKey = 'name';
     let sortDir = 1;
-    let filters = { stance: 'all', category: 'all', sponsor: false, land: false, green: false };
-    let showNotes = true;
+    let filters = { stance: 'all', sponsor: false, land: false, green: false };
 
     const STANCE_LABELS = {
       oppose: 'Opposing', support: 'Supporting',
@@ -279,22 +252,12 @@
       return s;
     }
 
-    function getCategory(s) {
-      const stance = s.dsm_position.stance;
-      const act = s.isa_activity.score || 0;
-      if (stance === 'oppose' && act >= 4) return 'loud-minority';
-      if (stance === 'oppose' && act < 4)  return 'silent-minority';
-      if ((stance === 'support' || stance === 'conditional') && act >= 4) return 'loud-majority';
-      return 'silent-majority';
-    }
-
     function renderTable() {
       const search = document.getElementById('search-input').value.toLowerCase();
       const region = document.getElementById('region-filter').value;
 
       let rows = allStates.filter(s => {
         if (filters.stance !== 'all' && s.dsm_position.stance !== filters.stance) return false;
-        if (filters.category !== 'all' && getCategory(s) !== filters.category) return false;
         if (filters.sponsor && !s.context.sponsoring_state) return false;
         if (filters.land && !s.context.land_based_mining) return false;
         if (filters.green && !s.context.green_government) return false;
@@ -316,9 +279,6 @@
 
       document.getElementById('result-count').textContent = `${rows.length} of ${allStates.length}`;
 
-      const notesDisplay = showNotes ? '' : 'none';
-      document.querySelectorAll('.notes-col').forEach(el => el.style.display = notesDisplay);
-
       const tbody = document.getElementById('table-body');
       if (!rows.length) {
         tbody.innerHTML = '<tr><td colspan="8" class="py-12 text-center text-slate-400">No matching states found.</td></tr>';
@@ -329,9 +289,6 @@
         const stance = s.dsm_position.stance;
         const stanceLabel = STANCE_LABELS[stance] || 'Unknown';
         const stanceClass = STANCE_CLASS[stance] || 'stance-unknown';
-        const cat = getCategory(s);
-        const catIcon = { 'loud-minority':'🔴','silent-minority':'🩸','loud-majority':'🟢','silent-majority':'⚪' }[cat] || '';
-
         const tags = [];
         if (s.context.sponsoring_state)  tags.push(`<span class="tag-sponsor text-xs px-1.5 py-0.5 rounded-full font-medium">🏭 Sponsor</span>`);
         if (s.context.land_based_mining) tags.push(`<span class="tag-land text-xs px-1.5 py-0.5 rounded-full font-medium">⛏️ Mining</span>`);
@@ -361,13 +318,8 @@
         return `
           <tr class="border-b border-slate-100">
             <td class="px-3 py-2.5">
-              <div class="flex items-center gap-1.5">
-                <span class="text-xs">${catIcon}</span>
-                <div>
-                  <div class="font-medium text-slate-800 text-sm">${s.name}</div>
-                  <div class="text-xs text-slate-400">${s.iso2}</div>
-                </div>
-              </div>
+              <div class="font-medium text-slate-800 text-sm">${s.name}</div>
+              <div class="text-xs text-slate-400">${s.iso2}</div>
             </td>
             <td class="px-3 py-2.5 text-slate-500 text-xs hidden sm:table-cell">${s.region}</td>
             <td class="px-3 py-2.5 text-center">
@@ -387,7 +339,7 @@
               ${contractors}${minerals}
             </td>
             <td class="px-3 py-2.5">${govLink}</td>
-            <td class="px-3 py-2.5 text-xs text-slate-500 max-w-xs notes-col no-print">
+            <td class="px-3 py-2.5 text-xs text-slate-500 max-w-xs">
               ${notesContent
                 ? `<div class="leading-relaxed">${notesContent}</div>`
                 : '<span class="text-slate-300">—</span>'}
@@ -421,18 +373,94 @@
       renderTable();
     }
 
-    function toggleNotes() {
-      showNotes = !showNotes;
-      document.getElementById('toggle-notes-btn').textContent = showNotes ? '📝 Hide notes' : '📝 Show notes';
-      renderTable();
+    function starsHtml(n, max=5) {
+      if (n === null || n === undefined) return '—';
+      return '<span class="pv-stars">' +
+        Array.from({length:max}, (_,i) =>
+          `<span class="${i<n?'sf':'se'}">★</span>`
+        ).join('') + '</span>';
+    }
+
+    function buildPrintView() {
+      const search = document.getElementById('search-input').value.toLowerCase();
+      const region = document.getElementById('region-filter').value;
+
+      let rows = allStates.filter(s => {
+        if (filters.stance !== 'all' && s.dsm_position.stance !== filters.stance) return false;
+        if (filters.sponsor && !s.context.sponsoring_state) return false;
+        if (filters.land && !s.context.land_based_mining) return false;
+        if (filters.green && !s.context.green_government) return false;
+        if (region && s.region !== region) return false;
+        if (search && !s.name.toLowerCase().includes(search)) return false;
+        return true;
+      });
+
+      const groups = [
+        { key:'oppose',      label:'Opposing DSM',       cls:'gh-oppose' },
+        { key:'conditional', label:'Conditional',         cls:'gh-conditional' },
+        { key:'support',     label:'Supporting DSM',      cls:'gh-support' },
+        { key:'unknown',     label:'No public position',  cls:'gh-unknown' },
+      ];
+
+      let html = '';
+      groups.forEach(g => {
+        const group = rows.filter(s => s.dsm_position.stance === g.key)
+                         .sort((a,b) => a.name.localeCompare(b.name));
+        if (!group.length) return;
+        html += `<div class="pv-group">
+          <div class="pv-group-header ${g.cls}">${g.label} — ${group.length} states</div>
+          <div class="pv-grid">`;
+        group.forEach(s => {
+          const tags = [];
+          if (s.context.sponsoring_state) tags.push('🏭');
+          if (s.context.land_based_mining) tags.push('⛏️');
+          if (s.context.green_government)  tags.push('🌿');
+          const govMark = s.dsm_position.source_url ? ' <sup>↗</sup>' : '';
+          html += `<div class="pv-card">
+            <div class="pv-name">${s.name}${govMark}</div>
+            <div class="pv-meta">
+              Str: ${starsHtml(s.position_strength.score)} &nbsp;
+              Act: ${starsHtml(s.isa_activity.score)}
+              ${tags.length ? `&nbsp; ${tags.join('')}` : ''}
+              &nbsp; <span style="color:#94a3b8">${s.region}</span>
+            </div>
+          </div>`;
+        });
+        html += `</div></div>`;
+      });
+
+      html += `<div class="pv-legend">
+        <strong>Legend</strong>
+        <div class="pv-legend-grid">
+          <div>
+            <strong>Position Strength (★ 1–5):</strong>
+            ★★★★★ Hard moratorium &nbsp;|&nbsp;
+            ★★★★ Strong pause &nbsp;|&nbsp;
+            ★★★ Conditional &nbsp;|&nbsp;
+            ★★ Soft concern &nbsp;|&nbsp;
+            ★ Neutral/supportive
+          </div>
+          <div>
+            <strong>Context:</strong> 🏭 ISA sponsoring state &nbsp;|&nbsp;
+            ⛏️ Land-based Cu/Ni/Co/Mn mining &nbsp;|&nbsp;
+            🌿 Green government &nbsp;|&nbsp;
+            <sup>↗</sup> Official government source available
+            <br><em>Data: DSCC, ISA session records, government statements. Oct 2026.</em>
+          </div>
+        </div>
+      </div>`;
+
+      document.getElementById('print-view').innerHTML = html;
     }
 
     function printPage() {
       document.getElementById('print-date').textContent =
         new Date().toLocaleDateString('en-GB', { year:'numeric', month:'long', day:'numeric' });
-      // Apply current filter to print — no extra changes needed, the DOM is already filtered
+      buildPrintView();
       window.print();
     }
+
+    window.addEventListener('beforeprint', buildPrintView);
 
     document.getElementById('search-input').addEventListener('input', renderTable);
 
