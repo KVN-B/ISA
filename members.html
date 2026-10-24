@@ -96,30 +96,31 @@
         </div>
       </div>
 
-      <!-- Summary stats – row 1: headline numbers -->
-      <div class="mt-4 flex flex-wrap gap-3">
-        <div class="bg-purple-500/20 rounded-xl px-4 py-3 text-center min-w-[110px]">
-          <div class="text-2xl font-bold text-purple-300" id="stat-moratorium">—</div>
+      <!-- Summary stats -->
+      <div class="mt-4 flex items-center justify-between gap-4 flex-wrap">
+        <!-- Left: stance breakdown (sums to 172) -->
+        <div class="flex flex-wrap gap-2">
+          <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[72px]">
+            <div class="text-xl font-bold text-red-300" id="stat-oppose">—</div>
+            <div class="text-xs text-slate-400">opposing</div>
+          </div>
+          <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[72px]">
+            <div class="text-xl font-bold text-green-300" id="stat-support">—</div>
+            <div class="text-xs text-slate-400">supporting</div>
+          </div>
+          <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[72px]">
+            <div class="text-xl font-bold text-yellow-300" id="stat-conditional">—</div>
+            <div class="text-xs text-slate-400">conditional</div>
+          </div>
+          <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[72px]">
+            <div class="text-xl font-bold text-slate-300" id="stat-unknown">—</div>
+            <div class="text-xs text-slate-400">no position</div>
+          </div>
+        </div>
+        <!-- Right: moratorium call (cross-cutting) -->
+        <div class="bg-purple-500/20 rounded-xl px-4 py-2.5 text-center min-w-[100px]">
+          <div class="text-xl font-bold text-purple-300" id="stat-moratorium">—</div>
           <div class="text-xs text-purple-300/80">moratorium call</div>
-        </div>
-        <div class="bg-red-500/20 rounded-xl px-4 py-3 text-center min-w-[110px]">
-          <div class="text-2xl font-bold text-red-300" id="stat-oppose">—</div>
-          <div class="text-xs text-red-300/80">opposing</div>
-        </div>
-      </div>
-      <!-- Summary stats – row 2: remaining stances -->
-      <div class="mt-2 flex flex-wrap gap-3">
-        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
-          <div class="text-xl font-bold text-green-300" id="stat-support">—</div>
-          <div class="text-xs text-slate-400">supporting</div>
-        </div>
-        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
-          <div class="text-xl font-bold text-yellow-300" id="stat-conditional">—</div>
-          <div class="text-xs text-slate-400">conditional</div>
-        </div>
-        <div class="bg-white/10 rounded-xl px-3 py-2.5 text-center min-w-[80px]">
-          <div class="text-xl font-bold text-slate-300" id="stat-unknown">—</div>
-          <div class="text-xs text-slate-400">no position</div>
         </div>
       </div>
     </div>
